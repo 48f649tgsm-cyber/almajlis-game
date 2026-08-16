@@ -1,13 +1,26 @@
 {
-  "version": "4.8-ready",
-  "status": "approved_core",
-  "description": "GitHub-ready audited core with 10-second hidden-title anthem playback and final category visuals.",
+  "version": "5.0-expanded-audited-release",
+  "status": "ready_for_github",
+  "description": "Expanded conservative release based on the QA-reviewed bank plus accepted V5 additions. Quality was prioritized over padding to an arbitrary count.",
   "difficulty_scale": {
     "100": "متوسط للكبار",
     "300": "صعب",
     "500": "صعب جدًا"
   },
-  "total_questions": 216,
+  "audio_rules": {
+    "نشيد وطني": {
+      "max_duration_seconds": 10,
+      "hide_metadata_before_reveal": true
+    },
+    "اغاني عربية": {
+      "max_duration_seconds": 15,
+      "preferred_clip": "instrumental_or_mid_song",
+      "hide_metadata_before_reveal": true,
+      "rights": "licensed_public_domain_or_user_authorized_only"
+    }
+  },
+  "religious_source_policy": "Sunni-authentic-only policy as specified in each religious question.",
+  "total_questions": 408,
   "categories": {
     "معلومات عامة": [
       {
@@ -27,6 +40,30 @@
         "entities": {}
       },
       {
+        "id": "v43_gk03",
+        "question": "ما اسم الطبقة من الغلاف الجوي التي توجد فيها طبقة الأوزون أساسًا؟",
+        "answer": "الستراتوسفير",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v43_gk04",
+        "question": "أي عضو في جسم الإنسان يفرز هرمون الإنسولين؟",
+        "answer": "البنكرياس",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v43_gk05",
+        "question": "ما الوحدة الدولية لقياس المقاومة الكهربائية؟",
+        "answer": "الأوم",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
         "id": "v43_gk06",
         "question": "ما اسم الظاهرة التي يتغير فيها تردد الموجة بسبب حركة المصدر أو الراصد؟",
         "answer": "تأثير دوبلر",
@@ -35,9 +72,33 @@
         "entities": {}
       },
       {
+        "id": "v43_gk07",
+        "question": "أي عنصر كيميائي اشتق رمزه W من اسمه القديم Wolfram؟",
+        "answer": "التنغستن",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
         "id": "v43_gk08",
         "question": "ما اسم الحد الفاصل حول الثقب الأسود الذي لا يمكن بعده للإشارات الإفلات؟",
         "answer": "أفق الحدث",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v43_gk09",
+        "question": "أي جزء من الدماغ مسؤول بصورة رئيسية عن التوازن وتنسيق الحركة؟",
+        "answer": "المخيخ",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v43_gk10",
+        "question": "ما اسم العملية التي تنقسم فيها نواة ثقيلة إلى نواتين أخف مطلقة طاقة؟",
+        "answer": "الانشطار النووي",
         "points": 300,
         "difficulty_v4": "hard",
         "entities": {}
@@ -54,6 +115,22 @@
         "id": "v43_gk12",
         "question": "ما اسم المبدأ الذي ينص على استحالة تحديد موضع جسيم وكمية حركته بدقة مطلقة في الوقت نفسه؟",
         "answer": "مبدأ عدم اليقين لهايزنبرغ",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v43_gk13",
+        "question": "ما الإنزيم الموجود في اللعاب الذي يبدأ هضم النشا؟",
+        "answer": "الأميلاز اللعابي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v43_gk15",
+        "question": "ما اسم تحول النواة غير المستقرة تلقائيًا مع إصدار جسيمات أو إشعاع؟",
+        "answer": "الاضمحلال الإشعاعي",
         "points": 500,
         "difficulty_v4": "very_hard",
         "entities": {}
@@ -77,6 +154,30 @@
         "entities": {}
       },
       {
+        "id": "v4_hist_003",
+        "question": "أي سلالة صينية حكمت أثناء رحلات تشنغ خه البحرية في القرن الخامس عشر؟",
+        "answer": "أسرة مينغ",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v4_hist_004",
+        "question": "من الملك الإنجليزي الذي هُزم في معركة بوسورث عام 1485 منهياً حروب الوردتين؟",
+        "answer": "ريتشارد الثالث",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v4_hist_005",
+        "question": "أي دولة أوروبية توحدت رسميًا سنة 1871 تحت قيادة بروسيا؟",
+        "answer": "ألمانيا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
         "id": "v4_hist_006",
         "question": "من الزعيم الذي أصبح أول مستشار للإمبراطورية الألمانية الموحدة؟",
         "answer": "أوتو فون بسمارك",
@@ -93,6 +194,38 @@
         "entities": {}
       },
       {
+        "id": "v4_hist_008",
+        "question": "أي مدينة كانت عاصمة الإمبراطورية البيزنطية عند سقوطها عام 1453؟",
+        "answer": "القسطنطينية",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v4_hist_009",
+        "question": "من الملك الفرنسي الذي ألغى مرسوم نانت سنة 1685؟",
+        "answer": "لويس الرابع عشر",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v4_hist_010",
+        "question": "أي إمبراطورية حكمها الإمبراطور أشوكا في القرن الثالث قبل الميلاد؟",
+        "answer": "الإمبراطورية الماورية",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v4_hist_011",
+        "question": "من القائد الذي انتصر في معركة هاستينغز عام 1066؟",
+        "answer": "ويليام الفاتح",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
         "id": "v4_hist_012",
         "question": "ما اسم الاتفاقية السرية عام 1916 التي قسمت مناطق النفوذ العثمانية عربيًا بين بريطانيا وفرنسا؟",
         "answer": "اتفاقية سايكس–بيكو",
@@ -101,9 +234,49 @@
         "entities": {}
       },
       {
+        "id": "v4_hist_013",
+        "question": "من كان آخر إمبراطور للإمبراطورية الرومانية المقدسة قبل حلها سنة 1806؟",
+        "answer": "فرانتس الثاني",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
         "id": "v4_hist_014",
         "question": "ما اسم السلالة التي حكمت روسيا من 1613 حتى الثورة؟",
         "answer": "آل رومانوف",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v4_hist_015",
+        "question": "أي معركة سنة 732 ارتبطت بإيقاف تقدم جيش أموي في بلاد الغال؟",
+        "answer": "معركة بلاط الشهداء / تور",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v4_hist_016",
+        "question": "أي ملك إسباني شارك مع إيزابيلا الأولى في إكمال سقوط غرناطة عام 1492؟",
+        "answer": "فرناندو الثاني ملك أراغون",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v4_hist_017",
+        "question": "ما المدينة الإيطالية التي شهدت اغتيال يوليوس قيصر في مجلس الشيوخ؟",
+        "answer": "روما",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v4_hist_018",
+        "question": "أي صلح أنهى حرب الخلافة الإسبانية عام 1713؟",
+        "answer": "صلح أوترخت",
         "points": 500,
         "difficulty_v4": "very_hard",
         "entities": {}
@@ -117,7 +290,7 @@
         "points": 100,
         "difficulty_v4": "medium",
         "entities": {},
-        "source_policy": "المصادر التاريخية السنية المعتبرة"
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
       },
       {
         "id": "v4_ih_002",
@@ -126,7 +299,25 @@
         "points": 100,
         "difficulty_v4": "medium",
         "entities": {},
-        "source_policy": "المصادر التاريخية السنية المعتبرة"
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
+      },
+      {
+        "id": "v4_ih_003",
+        "question": "من القائد الذي أسس مدينة القيروان سنة 50هـ تقريبًا؟",
+        "answer": "عقبة بن نافع",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
+      },
+      {
+        "id": "v4_ih_004",
+        "question": "أي معركة سنة 92هـ مهدت لفتح الأندلس بقيادة طارق بن زياد؟",
+        "answer": "وادي لكة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
       },
       {
         "id": "v4_ih_005",
@@ -135,7 +326,16 @@
         "points": 300,
         "difficulty_v4": "hard",
         "entities": {},
-        "source_policy": "المصادر التاريخية السنية المعتبرة"
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
+      },
+      {
+        "id": "v4_ih_006",
+        "question": "أي دولة أسسها عبد الرحمن الداخل في الأندلس بعد سقوط الأمويين في دمشق؟",
+        "answer": "الإمارة الأموية في قرطبة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
       },
       {
         "id": "v4_ih_007",
@@ -144,7 +344,52 @@
         "points": 300,
         "difficulty_v4": "hard",
         "entities": {},
-        "source_policy": "المصادر التاريخية السنية المعتبرة"
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
+      },
+      {
+        "id": "v4_ih_008",
+        "question": "من السلطان المملوكي الذي ارتبط بانتصار عين جالوت بعد توليه الحكم؟",
+        "answer": "سيف الدين قطز",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
+      },
+      {
+        "id": "v4_ih_009",
+        "question": "من مؤسس الدولة الأيوبية؟",
+        "answer": "صلاح الدين الأيوبي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
+      },
+      {
+        "id": "v4_ih_010",
+        "question": "أي خليفة عباسي ارتبط بأوج حركة الترجمة وبيت الحكمة؟",
+        "answer": "المأمون",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
+      },
+      {
+        "id": "v4_ih_011",
+        "question": "من الخليفة العباسي الذي نقل عاصمته إلى سامراء؟",
+        "answer": "المعتصم بالله",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
+      },
+      {
+        "id": "v4_ih_012",
+        "question": "ما اسم الدولة التي أسسها يوسف بن تاشفين وامتد نفوذها إلى الأندلس؟",
+        "answer": "المرابطون",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
       },
       {
         "id": "v4_ih_013",
@@ -153,7 +398,25 @@
         "points": 500,
         "difficulty_v4": "very_hard",
         "entities": {},
-        "source_policy": "المصادر التاريخية السنية المعتبرة"
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
+      },
+      {
+        "id": "v4_ih_014",
+        "question": "أي مدينة كانت عاصمة الفاطميين بعد انتقالهم إلى مصر؟",
+        "answer": "القاهرة",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
+      },
+      {
+        "id": "v4_ih_015",
+        "question": "من القائد الذي فتح مصر في خلافة عمر بن الخطاب؟",
+        "answer": "عمرو بن العاص",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
       },
       {
         "id": "v4_ih_016",
@@ -162,7 +425,7 @@
         "points": 500,
         "difficulty_v4": "very_hard",
         "entities": {},
-        "source_policy": "المصادر التاريخية السنية المعتبرة"
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
       }
     ],
     "قصص الأنبياء": [
@@ -173,7 +436,7 @@
         "points": 100,
         "difficulty_v4": "medium",
         "entities": {},
-        "source_policy": "القرآن الكريم وتفاسير أهل السنة المعتبرة، مع تجنب الروايات غير الثابتة"
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
       },
       {
         "id": "v42_pr02",
@@ -182,7 +445,16 @@
         "points": 100,
         "difficulty_v4": "medium",
         "entities": {},
-        "source_policy": "القرآن الكريم وتفاسير أهل السنة المعتبرة، مع تجنب الروايات غير الثابتة"
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
+      },
+      {
+        "id": "v42_pr03",
+        "question": "أي نبي دعا: «رب إني مسني الضر وأنت أرحم الراحمين»؟",
+        "answer": "أيوب عليه السلام",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
       },
       {
         "id": "v42_pr04",
@@ -191,7 +463,7 @@
         "points": 300,
         "difficulty_v4": "hard",
         "entities": {},
-        "source_policy": "القرآن الكريم وتفاسير أهل السنة المعتبرة، مع تجنب الروايات غير الثابتة"
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
       },
       {
         "id": "v42_pr05",
@@ -200,7 +472,16 @@
         "points": 300,
         "difficulty_v4": "hard",
         "entities": {},
-        "source_policy": "القرآن الكريم وتفاسير أهل السنة المعتبرة، مع تجنب الروايات غير الثابتة"
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
+      },
+      {
+        "id": "v42_pr06",
+        "question": "أي نبي دعا قومه إلى الوفاء بالكيل والميزان؟",
+        "answer": "شعيب عليه السلام",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
       },
       {
         "id": "v42_pr07",
@@ -209,7 +490,7 @@
         "points": 500,
         "difficulty_v4": "very_hard",
         "entities": {},
-        "source_policy": "القرآن الكريم وتفاسير أهل السنة المعتبرة، مع تجنب الروايات غير الثابتة"
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
       },
       {
         "id": "v42_pr08",
@@ -218,7 +499,16 @@
         "points": 500,
         "difficulty_v4": "very_hard",
         "entities": {},
-        "source_policy": "القرآن الكريم وتفاسير أهل السنة المعتبرة، مع تجنب الروايات غير الثابتة"
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
+      },
+      {
+        "id": "v42_pr09",
+        "question": "أي نبي كان كافلًا لمريم، وكلما دخل عليها المحراب وجد عندها رزقًا؟",
+        "answer": "زكريا عليه السلام",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
       }
     ],
     "قصص القرآن": [
@@ -229,7 +519,7 @@
         "points": 100,
         "difficulty_v4": "medium",
         "entities": {},
-        "source_policy": "القرآن الكريم وتفاسير أهل السنة المعتبرة، مع تجنب الروايات غير الثابتة"
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
       },
       {
         "id": "v42_story02",
@@ -238,7 +528,16 @@
         "points": 100,
         "difficulty_v4": "medium",
         "entities": {},
-        "source_policy": "القرآن الكريم وتفاسير أهل السنة المعتبرة، مع تجنب الروايات غير الثابتة"
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
+      },
+      {
+        "id": "v42_story03",
+        "question": "ما القوم الذين أرسل الله عليهم سيل العرم؟",
+        "answer": "سبأ",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
       },
       {
         "id": "v42_story04",
@@ -247,7 +546,7 @@
         "points": 300,
         "difficulty_v4": "hard",
         "entities": {},
-        "source_policy": "القرآن الكريم وتفاسير أهل السنة المعتبرة، مع تجنب الروايات غير الثابتة"
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
       },
       {
         "id": "v42_story05",
@@ -256,7 +555,16 @@
         "points": 300,
         "difficulty_v4": "hard",
         "entities": {},
-        "source_policy": "القرآن الكريم وتفاسير أهل السنة المعتبرة، مع تجنب الروايات غير الثابتة"
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
+      },
+      {
+        "id": "v42_story06",
+        "question": "ما الحيوان الذي دلّ على موت سليمان بعد أن أكل منسأته؟",
+        "answer": "دابة الأرض",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
       },
       {
         "id": "v42_story08",
@@ -265,7 +573,7 @@
         "points": 500,
         "difficulty_v4": "very_hard",
         "entities": {},
-        "source_policy": "القرآن الكريم وتفاسير أهل السنة المعتبرة، مع تجنب الروايات غير الثابتة"
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
       },
       {
         "id": "v42_story09",
@@ -274,7 +582,7 @@
         "points": 500,
         "difficulty_v4": "very_hard",
         "entities": {},
-        "source_policy": "القرآن الكريم وتفاسير أهل السنة المعتبرة، مع تجنب الروايات غير الثابتة"
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
       }
     ],
     "جغرافيا": [
@@ -291,6 +599,30 @@
         }
       },
       {
+        "id": "v4_geo_002",
+        "question": "أي دولة حبيسة تقع بين رومانيا وأوكرانيا؟",
+        "answer": "مولدوفا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "countries": [
+            "مولدوفا"
+          ]
+        }
+      },
+      {
+        "id": "v4_geo_003",
+        "question": "ما العاصمة الأوروبية التي يمر بها نهر فلتافا؟",
+        "answer": "براغ",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "countries": [
+            "التشيك"
+          ]
+        }
+      },
+      {
         "id": "v4_geo_004",
         "question": "أي دولة أفريقية تقع عاصمتها ماسيرو بالكامل داخل دولة أخرى؟",
         "answer": "ليسوتو",
@@ -301,6 +633,14 @@
             "ليسوتو"
           ]
         }
+      },
+      {
+        "id": "v4_geo_005",
+        "question": "أي بحر يفصل إيطاليا عن شبه جزيرة البلقان؟",
+        "answer": "البحر الأدرياتيكي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
       },
       {
         "id": "v4_geo_006",
@@ -327,6 +667,58 @@
         }
       },
       {
+        "id": "v4_geo_008",
+        "question": "أي دولة تقع فيها بحيرة بليد الشهيرة؟",
+        "answer": "سلوفينيا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "countries": [
+            "سلوفينيا"
+          ]
+        }
+      },
+      {
+        "id": "v4_geo_009",
+        "question": "ما المضيق الذي يفصل جزيرة سومطرة عن شبه جزيرة الملايو؟",
+        "answer": "مضيق ملقا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v4_geo_010",
+        "question": "أي دولة يمر بها كل من خط الاستواء وخط الطول 30 شرقًا؟",
+        "answer": "أوغندا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "countries": [
+            "أوغندا"
+          ]
+        }
+      },
+      {
+        "id": "v4_geo_011",
+        "question": "ما أعلى قمة في جبال الألب؟",
+        "answer": "مون بلان",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v4_geo_012",
+        "question": "أي دولة أوروبية لها حدود برية مع إسبانيا وفرنسا فقط؟",
+        "answer": "أندورا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "countries": [
+            "أندورا"
+          ]
+        }
+      },
+      {
         "id": "v4_geo_013",
         "question": "أي عاصمة وطنية تقع عند التقاء نهري الدانوب والسافا؟",
         "answer": "بلغراد",
@@ -339,12 +731,56 @@
         }
       },
       {
+        "id": "v4_geo_014",
+        "question": "ما الدولة التي تقع فيها صحراء أتاكاما أساسًا؟",
+        "answer": "تشيلي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "countries": [
+            "تشيلي"
+          ]
+        }
+      },
+      {
         "id": "v4_geo_015",
         "question": "ما النهر الذي يشكل جزءًا كبيرًا من الحدود بين ألمانيا وبولندا؟",
         "answer": "الأودر",
         "points": 500,
         "difficulty_v4": "very_hard",
         "entities": {}
+      },
+      {
+        "id": "v4_geo_016",
+        "question": "ما أكبر بحيرة في أفريقيا من حيث المساحة؟",
+        "answer": "بحيرة فيكتوريا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v4_geo_017",
+        "question": "أي دولة أفريقية لها ساحل على البحر الأحمر ولا تطل على المحيط الهندي مباشرة؟",
+        "answer": "إريتريا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "countries": [
+            "إريتريا"
+          ]
+        }
+      },
+      {
+        "id": "v4_geo_018",
+        "question": "ما العاصمة التي تقع على نهر دنيبر؟",
+        "answer": "كييف",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "countries": [
+            "أوكرانيا"
+          ]
+        }
       }
     ],
     "أعلام دول": [
@@ -361,6 +797,23 @@
         "entities": {
           "countries": [
             "سويسرا"
+          ]
+        },
+        "difficulty_v4": "medium"
+      },
+      {
+        "id": "v4_flag_02",
+        "question": "ما هذه الدولة؟",
+        "answer": "نيبال",
+        "points": 100,
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/np.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "نيبال"
           ]
         },
         "difficulty_v4": "medium"
@@ -383,6 +836,57 @@
         "difficulty_v4": "medium"
       },
       {
+        "id": "v4_flag_04",
+        "question": "ما هذه الدولة؟",
+        "answer": "بوتان",
+        "points": 100,
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/bt.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "بوتان"
+          ]
+        },
+        "difficulty_v4": "medium"
+      },
+      {
+        "id": "v4_flag_05",
+        "question": "ما هذه الدولة؟",
+        "answer": "كازاخستان",
+        "points": 100,
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/kz.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "كازاخستان"
+          ]
+        },
+        "difficulty_v4": "medium"
+      },
+      {
+        "id": "v4_flag_06",
+        "question": "ما هذه الدولة؟",
+        "answer": "قيرغيزستان",
+        "points": 100,
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/kg.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "قيرغيزستان"
+          ]
+        },
+        "difficulty_v4": "medium"
+      },
+      {
         "id": "v4_flag_07",
         "question": "ما هذه الدولة؟",
         "answer": "موزمبيق",
@@ -395,6 +899,23 @@
         "entities": {
           "countries": [
             "موزمبيق"
+          ]
+        },
+        "difficulty_v4": "hard"
+      },
+      {
+        "id": "v4_flag_08",
+        "question": "ما هذه الدولة؟",
+        "answer": "إسواتيني",
+        "points": 300,
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/sz.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "إسواتيني"
           ]
         },
         "difficulty_v4": "hard"
@@ -417,6 +938,57 @@
         "difficulty_v4": "hard"
       },
       {
+        "id": "v4_flag_10",
+        "question": "ما هذه الدولة؟",
+        "answer": "ناميبيا",
+        "points": 300,
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/na.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "ناميبيا"
+          ]
+        },
+        "difficulty_v4": "hard"
+      },
+      {
+        "id": "v4_flag_11",
+        "question": "ما هذه الدولة؟",
+        "answer": "أنتيغوا وباربودا",
+        "points": 300,
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/ag.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "أنتيغوا وباربودا"
+          ]
+        },
+        "difficulty_v4": "hard"
+      },
+      {
+        "id": "v4_flag_12",
+        "question": "ما هذه الدولة؟",
+        "answer": "دومينيكا",
+        "points": 300,
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/dm.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "دومينيكا"
+          ]
+        },
+        "difficulty_v4": "hard"
+      },
+      {
         "id": "v4_flag_13",
         "question": "ما هذه الدولة؟",
         "answer": "كيريباتي",
@@ -429,6 +1001,57 @@
         "entities": {
           "countries": [
             "كيريباتي"
+          ]
+        },
+        "difficulty_v4": "very_hard"
+      },
+      {
+        "id": "v4_flag_14",
+        "question": "ما هذه الدولة؟",
+        "answer": "فانواتو",
+        "points": 500,
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/vu.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "فانواتو"
+          ]
+        },
+        "difficulty_v4": "very_hard"
+      },
+      {
+        "id": "v4_flag_15",
+        "question": "ما هذه الدولة؟",
+        "answer": "توفالو",
+        "points": 500,
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/tv.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "توفالو"
+          ]
+        },
+        "difficulty_v4": "very_hard"
+      },
+      {
+        "id": "v4_flag_16",
+        "question": "ما هذه الدولة؟",
+        "answer": "ناورو",
+        "points": 500,
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/nr.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "ناورو"
           ]
         },
         "difficulty_v4": "very_hard"
@@ -449,12 +1072,29 @@
           ]
         },
         "difficulty_v4": "very_hard"
+      },
+      {
+        "id": "v4_flag_18",
+        "question": "ما هذه الدولة؟",
+        "answer": "جزر القمر",
+        "points": 500,
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/km.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "جزر القمر"
+          ]
+        },
+        "difficulty_v4": "very_hard"
       }
     ],
     "نشيد وطني": [
       {
         "id": "v43_ant01",
-        "question": "استمع إلى المقطع الموسيقي القصير وحدد الدولة.",
+        "question": "استمع إلى المقطع وحدد الدولة.",
         "answer": "فرنسا",
         "points": 100,
         "difficulty_v4": "medium",
@@ -465,8 +1105,28 @@
         },
         "media": {
           "type": "audio",
-          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/La_Marseillaise.ogg",
-          "start_seconds": 8,
+          "duration": 10,
+          "reveal_metadata": false,
+          "duration_seconds": 10,
+          "hide_title": true,
+          "hide_country_until_reveal": true
+        }
+      },
+      {
+        "id": "v43_ant02",
+        "question": "استمع إلى المقطع وحدد الدولة.",
+        "answer": "إيطاليا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "countries": [
+            "إيطاليا"
+          ]
+        },
+        "media": {
+          "type": "audio",
+          "duration": 10,
+          "reveal_metadata": false,
           "duration_seconds": 10,
           "hide_title": true,
           "hide_country_until_reveal": true
@@ -474,7 +1134,7 @@
       },
       {
         "id": "v43_ant03",
-        "question": "استمع إلى المقطع الموسيقي القصير وحدد الدولة.",
+        "question": "استمع إلى المقطع وحدد الدولة.",
         "answer": "اليابان",
         "points": 100,
         "difficulty_v4": "medium",
@@ -485,8 +1145,8 @@
         },
         "media": {
           "type": "audio",
-          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Kimi_ga_Yo_instrumental.ogg",
-          "start_seconds": 8,
+          "duration": 10,
+          "reveal_metadata": false,
           "duration_seconds": 10,
           "hide_title": true,
           "hide_country_until_reveal": true
@@ -494,7 +1154,7 @@
       },
       {
         "id": "v43_ant04",
-        "question": "استمع إلى المقطع الموسيقي القصير وحدد الدولة.",
+        "question": "استمع إلى المقطع وحدد الدولة.",
         "answer": "البرازيل",
         "points": 300,
         "difficulty_v4": "hard",
@@ -505,8 +1165,8 @@
         },
         "media": {
           "type": "audio",
-          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Hino_Nacional_Brasileiro_instrumental.ogg",
-          "start_seconds": 8,
+          "duration": 10,
+          "reveal_metadata": false,
           "duration_seconds": 10,
           "hide_title": true,
           "hide_country_until_reveal": true
@@ -514,7 +1174,7 @@
       },
       {
         "id": "v43_ant05",
-        "question": "استمع إلى المقطع الموسيقي القصير وحدد الدولة.",
+        "question": "استمع إلى المقطع وحدد الدولة.",
         "answer": "البرتغال",
         "points": 300,
         "difficulty_v4": "hard",
@@ -525,8 +1185,28 @@
         },
         "media": {
           "type": "audio",
-          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/A_Portuguesa.ogg",
-          "start_seconds": 8,
+          "duration": 10,
+          "reveal_metadata": false,
+          "duration_seconds": 10,
+          "hide_title": true,
+          "hide_country_until_reveal": true
+        }
+      },
+      {
+        "id": "v43_ant06",
+        "question": "استمع إلى المقطع وحدد الدولة.",
+        "answer": "الهند",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "countries": [
+            "الهند"
+          ]
+        },
+        "media": {
+          "type": "audio",
+          "duration": 10,
+          "reveal_metadata": false,
           "duration_seconds": 10,
           "hide_title": true,
           "hide_country_until_reveal": true
@@ -534,7 +1214,7 @@
       },
       {
         "id": "v43_ant07",
-        "question": "استمع إلى المقطع الموسيقي القصير وحدد الدولة.",
+        "question": "استمع إلى المقطع وحدد الدولة.",
         "answer": "أوروغواي",
         "points": 500,
         "difficulty_v4": "very_hard",
@@ -545,8 +1225,28 @@
         },
         "media": {
           "type": "audio",
-          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/United_States_Navy_Band_-_National_Anthem_of_Uruguay_(short).ogg",
-          "start_seconds": 8,
+          "duration": 10,
+          "reveal_metadata": false,
+          "duration_seconds": 10,
+          "hide_title": true,
+          "hide_country_until_reveal": true
+        }
+      },
+      {
+        "id": "v43_ant08",
+        "question": "استمع إلى المقطع وحدد الدولة.",
+        "answer": "تشيلي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "countries": [
+            "تشيلي"
+          ]
+        },
+        "media": {
+          "type": "audio",
+          "duration": 10,
+          "reveal_metadata": false,
           "duration_seconds": 10,
           "hide_title": true,
           "hide_country_until_reveal": true
@@ -554,7 +1254,7 @@
       },
       {
         "id": "v43_ant09",
-        "question": "استمع إلى المقطع الموسيقي القصير وحدد الدولة.",
+        "question": "استمع إلى المقطع وحدد الدولة.",
         "answer": "كرواتيا",
         "points": 500,
         "difficulty_v4": "very_hard",
@@ -565,8 +1265,8 @@
         },
         "media": {
           "type": "audio",
-          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Lijepa_nasa_domovino_instrumental.ogg",
-          "start_seconds": 8,
+          "duration": 10,
+          "reveal_metadata": false,
           "duration_seconds": 10,
           "hide_title": true,
           "hide_country_until_reveal": true
@@ -623,6 +1323,18 @@
         }
       },
       {
+        "id": "v42_who08",
+        "question": "مدافع فرنسي لعب لموناكو ويوفنتوس وبرشلونة، وفاز بكأس العالم 1998. من هو؟",
+        "answer": "ليليان تورام",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "players": [
+            "ليليان تورام"
+          ]
+        }
+      },
+      {
         "id": "v42_who09",
         "question": "مهاجم تشيكي لعب لبانيك أوسترافا وليفربول وأستون فيلا وليون وغلطة سراي. من هو؟",
         "answer": "ميلان باروش",
@@ -673,6 +1385,18 @@
         }
       },
       {
+        "id": "v42_car03",
+        "question": "بدأ في أياكس ثم لعب لسامبدوريا وريال مدريد وإنتر وميلان. من هو؟",
+        "answer": "كلارنس سيدورف",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "players": [
+            "كلارنس سيدورف"
+          ]
+        }
+      },
+      {
         "id": "v42_car04",
         "question": "لعب لبارما ثم يوفنتوس ثم باريس سان جيرمان قبل العودة إلى يوفنتوس. من هو؟",
         "answer": "جانلويجي بوفون",
@@ -685,6 +1409,18 @@
         }
       },
       {
+        "id": "v42_car05",
+        "question": "لعب لبوكا جونيورز ثم برشلونة ثم نابولي ثم إشبيلية ثم نيولز أولد بويز. من هو؟",
+        "answer": "دييغو مارادونا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "players": [
+            "دييغو مارادونا"
+          ]
+        }
+      },
+      {
         "id": "v42_car06",
         "question": "لعب لأياكس ثم ميلان ثم يوفنتوس ثم برشلونة ثم إنتر ثم توتنهام. من هو؟",
         "answer": "إدغار دافيدز",
@@ -693,6 +1429,18 @@
         "entities": {
           "players": [
             "إدغار دافيدز"
+          ]
+        }
+      },
+      {
+        "id": "v42_car07",
+        "question": "لعب لفيينورد ثم آرسنال ثم برشلونة ثم عاد إلى فيينورد. من هو؟",
+        "answer": "جيوفاني فان برونكهورست",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "players": [
+            "جيوفاني فان برونكهورست"
           ]
         }
       },
@@ -774,19 +1522,19 @@
         }
       },
       {
-        "id": "v46_shared11",
-        "question": "ما النادي المشترك في مسيرة باتريك فييرا، زلاتان إبراهيموفيتش، ولويس فيغو؟",
-        "answer": "إنتر ميلان",
+        "id": "v42_shared06",
+        "question": "ما النادي المشترك بين أندريه شيفتشينكو، هيرنان كريسبو، ومايكل إيسيان؟",
+        "answer": "تشيلسي",
         "points": 300,
         "difficulty_v4": "hard",
         "entities": {
           "players": [
-            "باتريك فييرا",
-            "زلاتان إبراهيموفيتش",
-            "لويس فيغو"
+            "أندريه شيفتشينكو",
+            "هرنان كريسبو",
+            "مايكل إيسيان"
           ],
           "clubs": [
-            "إنتر ميلان"
+            "تشيلسي"
           ]
         }
       },
@@ -808,6 +1556,40 @@
         }
       },
       {
+        "id": "v42_shared08",
+        "question": "ما النادي المشترك بين كلارنس سيدورف، رونالدو نازاريو، وروبرتو كارلوس؟",
+        "answer": "ريال مدريد",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "players": [
+            "كلارنس سيدورف",
+            "رونالدو نازاريو",
+            "روبرتو كارلوس"
+          ],
+          "clubs": [
+            "ريال مدريد"
+          ]
+        }
+      },
+      {
+        "id": "v42_shared09",
+        "question": "ما النادي المشترك بين نيكولا أنيلكا، كلود ماكيليلي، ولاسانا ديارا؟",
+        "answer": "ريال مدريد",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "players": [
+            "نيكولا أنيلكا",
+            "كلود ماكيليلي",
+            "لاسانا ديارا"
+          ],
+          "clubs": [
+            "ريال مدريد"
+          ]
+        }
+      },
+      {
         "id": "v46_shared10",
         "question": "ما النادي المشترك في مسيرة زلاتان إبراهيموفيتش، رونالدو نازاريو، وروبينيو؟",
         "answer": "ميلان",
@@ -821,6 +1603,23 @@
           ],
           "clubs": [
             "ميلان"
+          ]
+        }
+      },
+      {
+        "id": "v46_shared11",
+        "question": "ما النادي المشترك في مسيرة باتريك فييرا، زلاتان إبراهيموفيتش، ولويس فيغو؟",
+        "answer": "إنتر ميلان",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "players": [
+            "باتريك فييرا",
+            "زلاتان إبراهيموفيتش",
+            "لويس فيغو"
+          ],
+          "clubs": [
+            "إنتر ميلان"
           ]
         }
       }
@@ -856,6 +1655,60 @@
         }
       },
       {
+        "id": "v4_epl_003",
+        "question": "أي فريق أنهى موسم 2002-03 في المركز الثاني ثم عاد ليفوز بالدوري بلا هزيمة في الموسم التالي؟",
+        "answer": "آرسنال",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "clubs": [
+            "آرسنال"
+          ]
+        }
+      },
+      {
+        "id": "v4_epl_004",
+        "question": "من كان هداف مانشستر يونايتد في الدوري موسم 1999-2000؟",
+        "answer": "دوايت يورك",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "players": [
+            "دوايت يورك"
+          ],
+          "clubs": [
+            "مانشستر يونايتد"
+          ]
+        }
+      },
+      {
+        "id": "v4_epl_005",
+        "question": "أي نادٍ كان آخر بطل للدوري الإنجليزي قبل انطلاق حقبة البريميرليغ 1992؟",
+        "answer": "ليدز يونايتد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "clubs": [
+            "ليدز يونايتد"
+          ]
+        }
+      },
+      {
+        "id": "v4_epl_006",
+        "question": "من المدرب الذي قاد بلاكبيرن روفرز للفوز بالبريميرليغ 1994-95؟",
+        "answer": "كيني دالغليش",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "players": [
+            "كيني دالغليش"
+          ],
+          "clubs": [
+            "بلاكبيرن روفرز"
+          ]
+        }
+      },
+      {
         "id": "v4_epl_007",
         "question": "من اللاعب الذي سجل أول هدف في تاريخ البريميرليغ لصالح شيفيلد يونايتد ضد مانشستر يونايتد عام 1992؟",
         "answer": "براين دين",
@@ -868,6 +1721,18 @@
           "clubs": [
             "شيفيلد يونايتد",
             "مانشستر يونايتد"
+          ]
+        }
+      },
+      {
+        "id": "v4_epl_008",
+        "question": "أي فريق احتل المركز الثالث في موسم 1995-96 رغم تصدره الدوري بفارق 12 نقطة خلال الموسم؟",
+        "answer": "نيوكاسل يونايتد",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "clubs": [
+            "نيوكاسل يونايتد"
           ]
         }
       },
@@ -887,6 +1752,68 @@
         }
       },
       {
+        "id": "v4_epl_010",
+        "question": "من سجل هدفي آرسنال في الفوز 2-0 على ليفربول في أنفيلد في مايو 1989 لحسم لقب الدوري؟",
+        "answer": "آلان سميث ومايكل توماس",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "players": [
+            "آلان سميث",
+            "مايكل توماس"
+          ],
+          "clubs": [
+            "آرسنال",
+            "ليفربول"
+          ]
+        }
+      },
+      {
+        "id": "v4_epl_011",
+        "question": "أي نادٍ حقق أعلى مركز له في البريميرليغ عندما أنهى موسم 1993-94 وصيفًا لمانشستر يونايتد؟",
+        "answer": "بلاكبيرن روفرز",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "clubs": [
+            "بلاكبيرن روفرز",
+            "مانشستر يونايتد"
+          ]
+        }
+      },
+      {
+        "id": "v4_epl_012",
+        "question": "من سجل هدف مانشستر سيتي في الدقيقة 93:20 أمام كوينز بارك رينجرز؟",
+        "answer": "سيرخيو أغويرو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "players": [
+            "سيرخيو أغويرو"
+          ],
+          "clubs": [
+            "مانشستر سيتي",
+            "كوينز بارك رينجرز"
+          ]
+        }
+      },
+      {
+        "id": "v4_epl_013",
+        "question": "أي لاعب سجل هاتريك لليفربول ضد مانشستر يونايتد في أولد ترافورد عام 2021؟",
+        "answer": "محمد صلاح",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "players": [
+            "محمد صلاح"
+          ],
+          "clubs": [
+            "ليفربول",
+            "مانشستر يونايتد"
+          ]
+        }
+      },
+      {
         "id": "v4_epl_014",
         "question": "من كان قائد ليستر سيتي عند التتويج بالبريميرليغ موسم 2015-16؟",
         "answer": "ويس مورغان",
@@ -902,6 +1829,18 @@
         }
       },
       {
+        "id": "v4_epl_015",
+        "question": "أي لاعب فاز بالحذاء الذهبي للبريميرليغ في موسمي 1994-95 و1995-96 على التوالي؟",
+        "answer": "آلان شيرر",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "players": [
+            "آلان شيرر"
+          ]
+        }
+      },
+      {
         "id": "v4_epl_016",
         "question": "من كان مدرب نيوكاسل يونايتد عندما أهدر صدارة بفارق 12 نقطة في موسم 1995-96؟",
         "answer": "كيفن كيغان",
@@ -913,6 +1852,106 @@
           ],
           "clubs": [
             "نيوكاسل يونايتد"
+          ]
+        }
+      },
+      {
+        "id": "v4_epl_017",
+        "question": "أي نادٍ أنهى موسم 1997-98 في المركز الثالث خلف آرسنال ومانشستر يونايتد؟",
+        "answer": "ليفربول",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "clubs": [
+            "ليفربول",
+            "آرسنال",
+            "مانشستر يونايتد"
+          ]
+        }
+      },
+      {
+        "id": "v4_epl_018",
+        "question": "من اللاعب الذي سجل هدف الفوز لتشيلسي على بولتون في الجولة الأخيرة من موسم 2004-05 ليؤكد التتويج؟",
+        "answer": "فرانك لامبارد سجل هدفي المباراة",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "players": [
+            "فرانك لامبارد"
+          ],
+          "clubs": [
+            "تشيلسي",
+            "بولتون"
+          ]
+        }
+      },
+      {
+        "id": "v5_epl_001",
+        "question": "أي نادٍ أنهى موسم 1994-95 وصيفًا خلف بلاكبيرن روفرز؟",
+        "answer": "مانشستر يونايتد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "clubs": [
+            "بلاكبيرن روفرز",
+            "مانشستر يونايتد"
+          ]
+        }
+      },
+      {
+        "id": "v5_epl_002",
+        "question": "من فاز بالحذاء الذهبي للدوري الإنجليزي الممتاز موسم 1997-98؟",
+        "answer": "كريس ساتون وديون دبلن ومايكل أوين",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "players": [
+            "كريس ساتون",
+            "ديون دبلن",
+            "مايكل أوين"
+          ]
+        }
+      },
+      {
+        "id": "v5_epl_003",
+        "question": "أي فريق أنهى موسم 1998-99 في المركز الثالث خلف مانشستر يونايتد وآرسنال؟",
+        "answer": "تشيلسي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "clubs": [
+            "تشيلسي",
+            "مانشستر يونايتد",
+            "آرسنال"
+          ]
+        }
+      },
+      {
+        "id": "v5_epl_004",
+        "question": "من سجل هدف كوفنتري سيتي الذي ساهم في تعادل مانشستر يونايتد 1-1 في هايفيلد رود في موسم الثلاثية 1998-99؟",
+        "answer": "جون هارتسون",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "players": [
+            "جون هارتسون"
+          ],
+          "clubs": [
+            "كوفنتري سيتي",
+            "مانشستر يونايتد"
+          ]
+        }
+      },
+      {
+        "id": "v5_epl_005",
+        "question": "أي فريق كان آخر من هزم آرسنال في الدوري قبل بدء سلسلة الـ49 مباراة بلا خسارة؟",
+        "answer": "ليدز يونايتد",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "clubs": [
+            "آرسنال",
+            "ليدز يونايتد"
           ]
         }
       }
@@ -948,6 +1987,47 @@
         }
       },
       {
+        "id": "v4_ucl_003",
+        "question": "أي فريق أقصى برشلونة من نصف نهائي 2009-10 تحت قيادة جوزيه مورينيو؟",
+        "answer": "إنتر ميلان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "clubs": [
+            "إنتر ميلان",
+            "برشلونة"
+          ]
+        }
+      },
+      {
+        "id": "v4_ucl_004",
+        "question": "من سجل هدف التعادل لبايرن ميونخ في نهائي 2001 أمام فالنسيا من ركلة جزاء؟",
+        "answer": "شتيفان إيفنبرغ",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "players": [
+            "شتيفان إيفنبرغ"
+          ],
+          "clubs": [
+            "بايرن ميونخ",
+            "فالنسيا"
+          ]
+        }
+      },
+      {
+        "id": "v4_ucl_005",
+        "question": "أي نادٍ خسر نهائيي دوري الأبطال 2000 و2001 على التوالي؟",
+        "answer": "فالنسيا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "clubs": [
+            "فالنسيا"
+          ]
+        }
+      },
+      {
         "id": "v4_ucl_006",
         "question": "من سجل هدف الفوز لبوروسيا دورتموند في نهائي 1997 بعد دقائق من دخوله بديلاً؟",
         "answer": "لارس ريكن",
@@ -960,6 +2040,21 @@
           "clubs": [
             "بوروسيا دورتموند",
             "يوفنتوس"
+          ]
+        }
+      },
+      {
+        "id": "v4_ucl_007",
+        "question": "من كان قائد بورتو في نهائي دوري الأبطال 2004؟",
+        "answer": "جورجي كوستا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "players": [
+            "جورجي كوستا"
+          ],
+          "clubs": [
+            "بورتو"
           ]
         }
       },
@@ -980,6 +2075,51 @@
         }
       },
       {
+        "id": "v4_ucl_009",
+        "question": "أي لاعب سجل أول هدف لليفربول في نهائي إسطنبول 2005؟",
+        "answer": "ستيفن جيرارد",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "players": [
+            "ستيفن جيرارد"
+          ],
+          "clubs": [
+            "ليفربول",
+            "ميلان"
+          ]
+        }
+      },
+      {
+        "id": "v4_ucl_010",
+        "question": "من سجل هدف تشيلسي في الوقت الأصلي في نهائي 2012؟",
+        "answer": "ديدييه دروغبا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "players": [
+            "ديدييه دروغبا"
+          ],
+          "clubs": [
+            "تشيلسي",
+            "بايرن ميونخ"
+          ]
+        }
+      },
+      {
+        "id": "v4_ucl_011",
+        "question": "أي فريق أقصى ريال مدريد من نصف نهائي 2002-03؟",
+        "answer": "يوفنتوس",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "clubs": [
+            "يوفنتوس",
+            "ريال مدريد"
+          ]
+        }
+      },
+      {
         "id": "v4_ucl_012",
         "question": "من كان حارس مرمى باير ليفركوزن في نهائي دوري الأبطال 2002؟",
         "answer": "هانس يورغ بوت",
@@ -991,6 +2131,83 @@
           ],
           "clubs": [
             "باير ليفركوزن"
+          ]
+        }
+      },
+      {
+        "id": "v4_ucl_013",
+        "question": "من سجل هدف موناكو الوحيد في ذهاب نصف نهائي 2004 ضد تشيلسي عندما فاز 3-1؟",
+        "answer": "داريو برشو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "players": [
+            "داريو برشو"
+          ],
+          "clubs": [
+            "موناكو",
+            "تشيلسي"
+          ]
+        }
+      },
+      {
+        "id": "v4_ucl_014",
+        "question": "من سجل الركلة الخامسة لمانشستر يونايتد في ركلات ترجيح نهائي دوري الأبطال 2008 قبل ركلة أنيلكا التي تصدى لها فان دير سار؟",
+        "answer": "أندرسون",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "players": [
+            "رايان غيغز",
+            "نيكولا أنيلكا"
+          ],
+          "clubs": [
+            "مانشستر يونايتد",
+            "تشيلسي"
+          ]
+        }
+      },
+      {
+        "id": "v4_ucl_015",
+        "question": "أي لاعب سجل أول هدف في نهائي دوري الأبطال 1994 الذي انتهى 4-0 لميلان؟",
+        "answer": "دانييلي ماسارو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "players": [
+            "دانييلي ماسارو"
+          ],
+          "clubs": [
+            "ميلان",
+            "برشلونة"
+          ]
+        }
+      },
+      {
+        "id": "v4_ucl_016",
+        "question": "من كان مدرب فالنسيا في نهائي دوري الأبطال 2001؟",
+        "answer": "هيكتور كوبر",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "players": [
+            "هيكتور كوبر"
+          ],
+          "clubs": [
+            "فالنسيا"
+          ]
+        }
+      },
+      {
+        "id": "v4_ucl_017",
+        "question": "أي فريق واجه أياكس في نهائي دوري الأبطال 1995؟",
+        "answer": "ميلان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "clubs": [
+            "أياكس",
+            "ميلان"
           ]
         }
       },
@@ -1007,6 +2224,77 @@
           "clubs": [
             "أياكس",
             "ميلان"
+          ]
+        }
+      },
+      {
+        "id": "v5_ucl_001",
+        "question": "أي فريق أقصى حامل اللقب ليفربول من دور الـ16 في دوري الأبطال 2005-06؟",
+        "answer": "بنفيكا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "clubs": [
+            "ليفربول",
+            "بنفيكا"
+          ]
+        }
+      },
+      {
+        "id": "v5_ucl_002",
+        "question": "من سجل هدف بورتو الثاني في نهائي دوري الأبطال 2004 أمام موناكو؟",
+        "answer": "كارلوس ألبرتو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "players": [
+            "كارلوس ألبرتو"
+          ],
+          "clubs": [
+            "بورتو",
+            "موناكو"
+          ]
+        }
+      },
+      {
+        "id": "v5_ucl_003",
+        "question": "أي فريق واجه فالنسيا في نصف نهائي دوري الأبطال 1999-2000؟",
+        "answer": "برشلونة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "clubs": [
+            "فالنسيا",
+            "برشلونة"
+          ]
+        }
+      },
+      {
+        "id": "v5_ucl_004",
+        "question": "من سجل هدف ديبورتيفو لاكورونيا الوحيد في ذهاب ربع نهائي دوري الأبطال 2004 أمام ميلان؟",
+        "answer": "والتر باندياني",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "players": [
+            "والتر باندياني"
+          ],
+          "clubs": [
+            "ديبورتيفو لاكورونيا",
+            "ميلان"
+          ]
+        }
+      },
+      {
+        "id": "v5_ucl_005",
+        "question": "أي فريق أقصى إنتر من ربع نهائي دوري الأبطال 2005-06 بقاعدة الهدف خارج الأرض؟",
+        "answer": "فياريال",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "clubs": [
+            "إنتر ميلان",
+            "فياريال"
           ]
         }
       }
@@ -1042,6 +2330,50 @@
         }
       },
       {
+        "id": "v4_wc_003",
+        "question": "أي منتخب أقصى هولندا من نصف نهائي كأس العالم 1998 بركلات الترجيح؟",
+        "answer": "البرازيل",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "countries": [
+            "البرازيل",
+            "هولندا"
+          ]
+        }
+      },
+      {
+        "id": "v4_wc_004",
+        "question": "من سجل هدف ألمانيا في نصف نهائي كأس العالم 2002 أمام كوريا الجنوبية؟",
+        "answer": "مايكل بالاك",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "players": [
+            "مايكل بالاك"
+          ],
+          "countries": [
+            "ألمانيا",
+            "كوريا الجنوبية"
+          ]
+        }
+      },
+      {
+        "id": "v4_wc_005",
+        "question": "من كان قائد البرازيل في نهائي كأس العالم 2002؟",
+        "answer": "كافو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "players": [
+            "كافو"
+          ],
+          "countries": [
+            "البرازيل"
+          ]
+        }
+      },
+      {
         "id": "v4_wc_006",
         "question": "أي منتخب خسر أمام إيطاليا في نصف نهائي كأس العالم 2006 بعد وقت إضافي؟",
         "answer": "ألمانيا",
@@ -1071,6 +2403,80 @@
         }
       },
       {
+        "id": "v4_wc_008",
+        "question": "من سجل هدف البرازيل الوحيد ضد بلجيكا في دور الـ16 من كأس العالم 2002 قبل هدف رونالدو؟",
+        "answer": "ريفالدو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "players": [
+            "ريفالدو",
+            "رونالدو"
+          ],
+          "countries": [
+            "البرازيل",
+            "بلجيكا"
+          ]
+        }
+      },
+      {
+        "id": "v4_wc_009",
+        "question": "أي منتخب أنهى كأس العالم 2010 دون خسارة قبل أن يخسر النهائي؟",
+        "answer": "هولندا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "countries": [
+            "هولندا",
+            "إسبانيا"
+          ]
+        }
+      },
+      {
+        "id": "v4_wc_010",
+        "question": "من سجل هدف ألمانيا الرابع في الفوز 4-0 على الأرجنتين في ربع نهائي 2010؟",
+        "answer": "ميروسلاف كلوزه",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "players": [
+            "ميروسلاف كلوزه"
+          ],
+          "countries": [
+            "ألمانيا",
+            "الأرجنتين"
+          ]
+        }
+      },
+      {
+        "id": "v4_wc_011",
+        "question": "من كان حارس فرنسا في نهائي كأس العالم 2006؟",
+        "answer": "فابيان بارتيز",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "players": [
+            "فابيان بارتيز"
+          ],
+          "countries": [
+            "فرنسا"
+          ]
+        }
+      },
+      {
+        "id": "v4_wc_012",
+        "question": "أي منتخب أقصى إسبانيا من ربع نهائي كأس العالم 2002 بركلات الترجيح؟",
+        "answer": "كوريا الجنوبية",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "countries": [
+            "كوريا الجنوبية",
+            "إسبانيا"
+          ]
+        }
+      },
+      {
         "id": "v4_wc_013",
         "question": "من سجل هدف تركيا في مباراة تحديد المركز الثالث بكأس العالم 2002 بعد نحو 11 ثانية؟",
         "answer": "هاكان شوكور",
@@ -1087,6 +2493,52 @@
         }
       },
       {
+        "id": "v4_wc_014",
+        "question": "من كان هداف منتخب فرنسا في كأس العالم 1998 برصيد 3 أهداف؟",
+        "answer": "تييري هنري",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "players": [
+            "تييري هنري"
+          ],
+          "countries": [
+            "فرنسا"
+          ]
+        }
+      },
+      {
+        "id": "v4_wc_015",
+        "question": "أي لاعب سجل هدف التعادل للبرازيل أمام هولندا في نصف نهائي كأس العالم 1998؟",
+        "answer": "رونالدو نازاريو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "players": [
+            "رونالدو نازاريو"
+          ],
+          "countries": [
+            "البرازيل",
+            "هولندا"
+          ]
+        }
+      },
+      {
+        "id": "v4_wc_016",
+        "question": "من كان مدرب كرواتيا عندما حصدت المركز الثالث في كأس العالم 1998؟",
+        "answer": "ميروسلاف بلاجيفيتش",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "players": [
+            "ميروسلاف بلاجيفيتش"
+          ],
+          "countries": [
+            "كرواتيا"
+          ]
+        }
+      },
+      {
         "id": "v4_wc_017",
         "question": "أي منتخب خرج من كأس العالم 2002 دون أن يسجل أي هدف رغم كونه حامل اللقب؟",
         "answer": "فرنسا",
@@ -1095,6 +2547,96 @@
         "entities": {
           "countries": [
             "فرنسا"
+          ]
+        }
+      },
+      {
+        "id": "v4_wc_018",
+        "question": "من سجل هدف السويد في التعادل 1-1 مع الأرجنتين الذي أقصى الأرجنتين من دور المجموعات عام 2002؟",
+        "answer": "أندرس سفينسون",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "players": [
+            "أندرس سفينسون"
+          ],
+          "countries": [
+            "السويد",
+            "الأرجنتين"
+          ]
+        }
+      },
+      {
+        "id": "v5_wc_001",
+        "question": "من سجل هدف السنغال في الفوز على فرنسا في افتتاح كأس العالم 2002؟",
+        "answer": "بابا بوبا ديوب",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "players": [
+            "بابا بوبا ديوب"
+          ],
+          "countries": [
+            "السنغال",
+            "فرنسا"
+          ]
+        }
+      },
+      {
+        "id": "v5_wc_002",
+        "question": "أي منتخب أقصى إسبانيا بركلات الترجيح في ربع نهائي كأس العالم 2002؟",
+        "answer": "كوريا الجنوبية",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "countries": [
+            "إسبانيا",
+            "كوريا الجنوبية"
+          ]
+        }
+      },
+      {
+        "id": "v5_wc_003",
+        "question": "من سجل هدف تركيا في مباراة المركز الثالث بكأس العالم 2002 بعد نحو 11 ثانية؟",
+        "answer": "هاكان شوكور",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "players": [
+            "هاكان شوكور"
+          ],
+          "countries": [
+            "تركيا",
+            "كوريا الجنوبية"
+          ]
+        }
+      },
+      {
+        "id": "v5_wc_004",
+        "question": "من سجل هدف بلغاريا الذي أقصى ألمانيا من ربع نهائي كأس العالم 1994؟",
+        "answer": "يوردان ليتشكوف",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "players": [
+            "يوردان ليتشكوف"
+          ],
+          "countries": [
+            "بلغاريا",
+            "ألمانيا"
+          ]
+        }
+      },
+      {
+        "id": "v5_wc_005",
+        "question": "أي منتخب خسر أمام كرواتيا 3-0 في ربع نهائي كأس العالم 1998؟",
+        "answer": "ألمانيا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "countries": [
+            "كرواتيا",
+            "ألمانيا"
           ]
         }
       }
@@ -1369,6 +2911,14 @@
         "entities": {}
       },
       {
+        "id": "v43_an07",
+        "question": "أي طائر حي يُسجل له أكبر باع جناحين في المتوسط بين الطيور؟",
+        "answer": "القطرس الجوال",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
         "id": "v43_an08",
         "question": "ما اسم أكبر أنواع البطاريق الحية؟",
         "answer": "البطريق الإمبراطور",
@@ -1403,6 +2953,14 @@
         "entities": {}
       },
       {
+        "id": "v43_fix03",
+        "question": "صحح العبارة: مدينة سمرقند هي عاصمة أوزبكستان الحالية.",
+        "answer": "طشقند هي عاصمة أوزبكستان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
         "id": "v43_fix04",
         "question": "صحح العبارة: معاهدة وستفاليا أنهت حرب المئة عام.",
         "answer": "صلح وستفاليا أنهى حرب الثلاثين عامًا سنة 1648",
@@ -1419,6 +2977,14 @@
         "entities": {}
       },
       {
+        "id": "v43_fix06",
+        "question": "صحح العبارة: فتح المسلمون الأندلس في عهد الخليفة عبد الملك بن مروان.",
+        "answer": "بدأ الفتح سنة 92هـ في عهد الوليد بن عبد الملك",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
         "id": "v43_fix07",
         "question": "صحح العبارة: نهر الدانوب يصب في بحر البلطيق.",
         "answer": "الدانوب يصب في البحر الأسود",
@@ -1430,6 +2996,14 @@
         "id": "v43_fix08",
         "question": "صحح العبارة: الإمبراطور أشوكا ينتمي إلى سلالة المغول في الهند.",
         "answer": "أشوكا كان من سلالة ماوريا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v43_fix09",
+        "question": "صحح العبارة: قاد سيف الدين قطز المسلمين في معركة حطين.",
+        "answer": "قطز قاد المماليك في عين جالوت؛ صلاح الدين قاد المسلمين في حطين",
         "points": 500,
         "difficulty_v4": "very_hard",
         "entities": {}
@@ -1453,6 +3027,22 @@
         "entities": {}
       },
       {
+        "id": "v4_war_003",
+        "question": "أي معركة عام 1942 تُعد نقطة تحول رئيسية في حرب المحيط الهادئ؟",
+        "answer": "ميدواي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v4_war_004",
+        "question": "أي معركة عام 1942 أنهت التقدم الألماني الكبير في شمال أفريقيا؟",
+        "answer": "العلمين الثانية",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
         "id": "v4_war_005",
         "question": "ما اسم العملية الألمانية لغزو الاتحاد السوفيتي عام 1941؟",
         "answer": "عملية بارباروسا",
@@ -1469,6 +3059,54 @@
         "entities": {}
       },
       {
+        "id": "v4_war_007",
+        "question": "ما اسم الحملة التي حاول فيها الحلفاء السيطرة على مضائق الدردنيل خلال الحرب العالمية الأولى؟",
+        "answer": "حملة غاليبولي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v4_war_008",
+        "question": "أي معركة عام 1415 شهدت انتصار هنري الخامس الإنجليزي على الفرنسيين؟",
+        "answer": "أجينكور",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v4_war_009",
+        "question": "أي معركة عام 216 ق.م شهدت تطويق هانيبال للجيش الروماني؟",
+        "answer": "كاناي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v4_war_010",
+        "question": "ما اسم الحرب التي دارت بين أثينا وإسبرطة في القرن الخامس قبل الميلاد؟",
+        "answer": "الحرب البيلوبونيسية",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v4_war_011",
+        "question": "أي معركة سنة 1709 خلال حرب الخلافة الإسبانية عُرفت بخسائر ضخمة رغم انتصار الحلفاء؟",
+        "answer": "مالبلاكيه",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v4_war_012",
+        "question": "ما اسم الحرب الأوروبية من 1618 إلى 1648؟",
+        "answer": "حرب الثلاثين عامًا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
         "id": "v4_war_013",
         "question": "أي معركة بحرية سنة 1905 حطمت فيها اليابان الأسطول الروسي تقريبًا؟",
         "answer": "تسوشيما",
@@ -1477,9 +3115,41 @@
         "entities": {}
       },
       {
+        "id": "v4_war_014",
+        "question": "ما اسم المعركة التي أنهت فعليًا حرب الوردتين عام 1485؟",
+        "answer": "بوسورث",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v4_war_015",
+        "question": "أي معركة عام 1870 أدت إلى أسر نابليون الثالث خلال الحرب الفرنسية البروسية؟",
+        "answer": "سيدان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
         "id": "v4_war_016",
         "question": "أي معركة عام 1526 قُتل فيها ملك المجر لويس الثاني أمام العثمانيين؟",
         "answer": "موهاكس",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v4_war_017",
+        "question": "ما اسم المعركة الكبرى عام 1813 التي هُزم فيها نابليون أمام تحالف أوروبي وتعرف بمعركة الأمم؟",
+        "answer": "لايبزيغ",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v4_war_018",
+        "question": "أي معركة سنة 1066 سبقت هاستينغز وانتصر فيها هارولد غودوينسون على النرويجيين؟",
+        "answer": "ستامفورد بريدج",
         "points": 500,
         "difficulty_v4": "very_hard",
         "entities": {}
@@ -1511,6 +3181,18 @@
         }
       },
       {
+        "id": "v4_guess_003",
+        "question": "دولة في القوقاز، عاصمتها يريفان ولا تطل على البحر. ما هي؟",
+        "answer": "أرمينيا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "countries": [
+            "أرمينيا"
+          ]
+        }
+      },
+      {
         "id": "v4_guess_004",
         "question": "دولة آسيوية حبيسة، عاصمتها بيشكك، وتحد الصين. ما هي؟",
         "answer": "قيرغيزستان",
@@ -1519,6 +3201,30 @@
         "entities": {
           "countries": [
             "قيرغيزستان"
+          ]
+        }
+      },
+      {
+        "id": "v4_guess_005",
+        "question": "دولة أفريقية عاصمتها لوساكا، لا تطل على البحر وتجاور ثماني دول. ما هي؟",
+        "answer": "زامبيا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "countries": [
+            "زامبيا"
+          ]
+        }
+      },
+      {
+        "id": "v4_guess_006",
+        "question": "دولة أوروبية عاصمتها ليوبليانا، لها منفذ قصير على البحر الأدرياتيكي. ما هي؟",
+        "answer": "سلوفينيا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "countries": [
+            "سلوفينيا"
           ]
         }
       },
@@ -1547,6 +3253,42 @@
         }
       },
       {
+        "id": "v4_guess_009",
+        "question": "دولة أفريقية عاصمتها مبابان/لوبامبا، ومحاطة بموزمبيق وجنوب أفريقيا. ما هي؟",
+        "answer": "إسواتيني",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "countries": [
+            "إسواتيني"
+          ]
+        }
+      },
+      {
+        "id": "v4_guess_010",
+        "question": "دولة جزرية في المحيط الهادئ عاصمتها سوفا. ما هي؟",
+        "answer": "فيجي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "countries": [
+            "فيجي"
+          ]
+        }
+      },
+      {
+        "id": "v4_guess_011",
+        "question": "دولة في البلقان عاصمتها بودغوريتسا وتطل على الأدرياتيكي. ما هي؟",
+        "answer": "الجبل الأسود",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "countries": [
+            "الجبل الأسود"
+          ]
+        }
+      },
+      {
         "id": "v4_guess_012",
         "question": "دولة أفريقية عاصمتها ويندهوك وتمتلك ساحلاً على الأطلسي. ما هي؟",
         "answer": "ناميبيا",
@@ -1567,7 +3309,7 @@
         "points": 100,
         "difficulty_v4": "medium",
         "entities": {},
-        "source_policy": "الأحاديث الصحيحة والمصادر السنية المعتبرة في السيرة والتراجم"
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
       },
       {
         "id": "v4_seera_002",
@@ -1576,7 +3318,25 @@
         "points": 100,
         "difficulty_v4": "medium",
         "entities": {},
-        "source_policy": "الأحاديث الصحيحة والمصادر السنية المعتبرة في السيرة والتراجم"
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
+      },
+      {
+        "id": "v4_seera_003",
+        "question": "ما اسم الغزوة التي عُرفت بغزوة الأحزاب؟",
+        "answer": "الخندق",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
+      },
+      {
+        "id": "v4_seera_004",
+        "question": "في أي سنة هجرية وقع فتح مكة؟",
+        "answer": "8 هـ",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
       },
       {
         "id": "v4_seera_005",
@@ -1585,7 +3345,16 @@
         "points": 300,
         "difficulty_v4": "hard",
         "entities": {},
-        "source_policy": "الأحاديث الصحيحة والمصادر السنية المعتبرة في السيرة والتراجم"
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
+      },
+      {
+        "id": "v4_seera_006",
+        "question": "ما اسم العام الذي توفي فيه أبو طالب وخديجة؟",
+        "answer": "عام الحزن",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
       },
       {
         "id": "v4_seera_007",
@@ -1594,7 +3363,16 @@
         "points": 300,
         "difficulty_v4": "hard",
         "entities": {},
-        "source_policy": "الأحاديث الصحيحة والمصادر السنية المعتبرة في السيرة والتراجم"
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
+      },
+      {
+        "id": "v4_seera_008",
+        "question": "ما اسم الناقة التي ارتبطت بهجرة النبي ﷺ ودخوله المدينة؟",
+        "answer": "القصواء",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
       },
       {
         "id": "v4_seera_009",
@@ -1603,16 +3381,34 @@
         "points": 500,
         "difficulty_v4": "very_hard",
         "entities": {},
-        "source_policy": "الأحاديث الصحيحة والمصادر السنية المعتبرة في السيرة والتراجم"
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
+      },
+      {
+        "id": "v4_seera_010",
+        "question": "ما اسم أول مسجد أسسه النبي ﷺ عند قدومه إلى المدينة؟",
+        "answer": "مسجد قباء",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
       },
       {
         "id": "v4_seera_011",
-        "question": "من الدليل الذي استأجره النبي ﷺ وأبو بكر ليدلهما على طريق الهجرة إلى المدينة، وكان حينها على غير الإسلام؟",
+        "question": "من الصحابي الذي كان دليل النبي ﷺ وأبي بكر في طريق الهجرة مع كونه حينها على غير الإسلام؟",
         "answer": "عبد الله بن أريقط",
         "points": 500,
         "difficulty_v4": "very_hard",
         "entities": {},
-        "source_policy": "الأحاديث الصحيحة والمصادر السنية المعتبرة في السيرة والتراجم"
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
+      },
+      {
+        "id": "v4_seera_012",
+        "question": "ما اسم الغار الذي اختبأ فيه النبي ﷺ وأبو بكر أثناء الهجرة؟",
+        "answer": "غار ثور",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
       }
     ],
     "من سجل الهدف": [
@@ -1649,6 +3445,22 @@
         }
       },
       {
+        "id": "v43_goal03",
+        "question": "من سجل هدف ألمانيا في نصف نهائي كأس العالم 2002 ضد كوريا الجنوبية؟",
+        "answer": "مايكل بالاك",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "players": [
+            "مايكل بالاك"
+          ],
+          "countries": [
+            "ألمانيا",
+            "كوريا الجنوبية"
+          ]
+        }
+      },
+      {
         "id": "v43_goal05",
         "question": "من سجل هدف موناكو الأول في إياب ربع نهائي دوري الأبطال 2004 ضد ريال مدريد؟",
         "answer": "لودوفيك جيولي",
@@ -1677,6 +3489,22 @@
           "clubs": [
             "ليفربول",
             "ميلان"
+          ]
+        }
+      },
+      {
+        "id": "v43_goal07",
+        "question": "من سجل هدف السويد في التعادل مع الأرجنتين في كأس العالم 2002؟",
+        "answer": "أندرس سفينسون",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "players": [
+            "أندرس سفينسون"
+          ],
+          "countries": [
+            "السويد",
+            "الأرجنتين"
           ]
         }
       },
@@ -1721,7 +3549,7 @@
         "points": 100,
         "difficulty_v4": "medium",
         "entities": {},
-        "source_policy": "المصادر التاريخية السنية المعتبرة"
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
       },
       {
         "id": "v4_cal_002",
@@ -1730,7 +3558,25 @@
         "points": 100,
         "difficulty_v4": "medium",
         "entities": {},
-        "source_policy": "المصادر التاريخية السنية المعتبرة"
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
+      },
+      {
+        "id": "v4_cal_003",
+        "question": "أي خليفة أموي عُرف بتعريب الدواوين؟",
+        "answer": "عبد الملك بن مروان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
+      },
+      {
+        "id": "v4_cal_004",
+        "question": "من الخليفة العباسي الذي بنى بغداد؟",
+        "answer": "أبو جعفر المنصور",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
       },
       {
         "id": "v4_cal_005",
@@ -1739,7 +3585,7 @@
         "points": 300,
         "difficulty_v4": "hard",
         "entities": {},
-        "source_policy": "المصادر التاريخية السنية المعتبرة"
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
       },
       {
         "id": "v4_cal_006",
@@ -1748,7 +3594,25 @@
         "points": 300,
         "difficulty_v4": "hard",
         "entities": {},
-        "source_policy": "المصادر التاريخية السنية المعتبرة"
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
+      },
+      {
+        "id": "v4_cal_007",
+        "question": "من الخليفة العباسي الذي أسس سامراء كمقر للحكم؟",
+        "answer": "المعتصم بالله",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
+      },
+      {
+        "id": "v4_cal_008",
+        "question": "من آخر خلفاء بني أمية في دمشق؟",
+        "answer": "مروان بن محمد",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
       },
       {
         "id": "v4_cal_009",
@@ -1757,7 +3621,16 @@
         "points": 500,
         "difficulty_v4": "very_hard",
         "entities": {},
-        "source_policy": "المصادر التاريخية السنية المعتبرة"
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
+      },
+      {
+        "id": "v4_cal_010",
+        "question": "أي خليفة أموي لُقب بخامس الخلفاء الراشدين واشتهر بالإصلاحات؟",
+        "answer": "عمر بن عبد العزيز",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
       },
       {
         "id": "v4_cal_011",
@@ -1766,7 +3639,16 @@
         "points": 500,
         "difficulty_v4": "very_hard",
         "entities": {},
-        "source_policy": "المصادر التاريخية السنية المعتبرة"
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
+      },
+      {
+        "id": "v4_cal_012",
+        "question": "أي خليفة أموي بنى قبة الصخرة في القدس؟",
+        "answer": "عبد الملك بن مروان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
       }
     ],
     "تاريخ الصحابة": [
@@ -1777,7 +3659,25 @@
         "points": 100,
         "difficulty_v4": "medium",
         "entities": {},
-        "source_policy": "الأحاديث الصحيحة والمصادر السنية المعتبرة في السيرة والتراجم"
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
+      },
+      {
+        "id": "v4_sah_002",
+        "question": "من الصحابي الذي عُرف بترجمان القرآن؟",
+        "answer": "عبد الله بن عباس",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
+      },
+      {
+        "id": "v4_sah_003",
+        "question": "من الصحابي الذي كان أول سفير للإسلام إلى المدينة؟",
+        "answer": "مصعب بن عمير",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
       },
       {
         "id": "v4_sah_004",
@@ -1786,7 +3686,16 @@
         "points": 100,
         "difficulty_v4": "medium",
         "entities": {},
-        "source_policy": "الأحاديث الصحيحة والمصادر السنية المعتبرة في السيرة والتراجم"
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
+      },
+      {
+        "id": "v4_sah_005",
+        "question": "من الصحابي الذي قاد فتح مصر؟",
+        "answer": "عمرو بن العاص",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
       },
       {
         "id": "v4_sah_007",
@@ -1795,7 +3704,7 @@
         "points": 300,
         "difficulty_v4": "hard",
         "entities": {},
-        "source_policy": "الأحاديث الصحيحة والمصادر السنية المعتبرة في السيرة والتراجم"
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
       },
       {
         "id": "v4_sah_008",
@@ -1804,7 +3713,7 @@
         "points": 300,
         "difficulty_v4": "hard",
         "entities": {},
-        "source_policy": "الأحاديث الصحيحة والمصادر السنية المعتبرة في السيرة والتراجم"
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
       },
       {
         "id": "v4_sah_009",
@@ -1813,7 +3722,16 @@
         "points": 500,
         "difficulty_v4": "very_hard",
         "entities": {},
-        "source_policy": "الأحاديث الصحيحة والمصادر السنية المعتبرة في السيرة والتراجم"
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
+      },
+      {
+        "id": "v4_sah_010",
+        "question": "من الصحابي الذي استشهد في مؤتة بعد جعفر بن أبي طالب؟",
+        "answer": "عبد الله بن رواحة",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
       },
       {
         "id": "v4_sah_011",
@@ -1822,7 +3740,16 @@
         "points": 500,
         "difficulty_v4": "very_hard",
         "entities": {},
-        "source_policy": "الأحاديث الصحيحة والمصادر السنية المعتبرة في السيرة والتراجم"
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
+      },
+      {
+        "id": "v4_sah_012",
+        "question": "من الصحابي الذي آخى النبي ﷺ بينه وبين سعد بن الربيع واشتهر بالتجارة؟",
+        "answer": "عبد الرحمن بن عوف",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
       }
     ],
     "القرآن الكريم": [
@@ -1833,7 +3760,7 @@
         "points": 100,
         "difficulty_v4": "medium",
         "entities": {},
-        "source_policy": "القرآن الكريم وتفاسير أهل السنة المعتبرة، مع تجنب الروايات غير الثابتة"
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
       },
       {
         "id": "v42_qur02",
@@ -1842,7 +3769,16 @@
         "points": 100,
         "difficulty_v4": "medium",
         "entities": {},
-        "source_policy": "القرآن الكريم وتفاسير أهل السنة المعتبرة، مع تجنب الروايات غير الثابتة"
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
+      },
+      {
+        "id": "v42_qur03",
+        "question": "بحسب ترتيب المصحف، في أي سورة يرد أول ذكر لسجود الملائكة لآدم؟",
+        "answer": "سورة البقرة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
       },
       {
         "id": "v42_qur04",
@@ -1851,7 +3787,16 @@
         "points": 300,
         "difficulty_v4": "hard",
         "entities": {},
-        "source_policy": "القرآن الكريم وتفاسير أهل السنة المعتبرة، مع تجنب الروايات غير الثابتة"
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
+      },
+      {
+        "id": "v42_qur05",
+        "question": "ما السورة التي ورد فيها ذكر «إرم ذات العماد»؟",
+        "answer": "سورة الفجر",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
       },
       {
         "id": "v42_qur06",
@@ -1860,7 +3805,7 @@
         "points": 300,
         "difficulty_v4": "hard",
         "entities": {},
-        "source_policy": "القرآن الكريم وتفاسير أهل السنة المعتبرة، مع تجنب الروايات غير الثابتة"
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
       },
       {
         "id": "v42_qur07",
@@ -1869,7 +3814,7 @@
         "points": 500,
         "difficulty_v4": "very_hard",
         "entities": {},
-        "source_policy": "القرآن الكريم وتفاسير أهل السنة المعتبرة، مع تجنب الروايات غير الثابتة"
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
       },
       {
         "id": "v42_qur08",
@@ -1878,7 +3823,16 @@
         "points": 500,
         "difficulty_v4": "very_hard",
         "entities": {},
-        "source_policy": "القرآن الكريم وتفاسير أهل السنة المعتبرة، مع تجنب الروايات غير الثابتة"
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
+      },
+      {
+        "id": "v42_qur09",
+        "question": "ما السورة التي ورد فيها ذكر «مجمع البحرين» في قصة موسى؟",
+        "answer": "سورة الكهف",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
       }
     ],
     "رؤساء دول": [
@@ -1899,6 +3853,14 @@
         "entities": {}
       },
       {
+        "id": "v43_lead03",
+        "question": "من كان رئيس مصر عند توقيع معاهدة السلام المصرية الإسرائيلية عام 1979؟",
+        "answer": "أنور السادات",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
         "id": "v43_lead04",
         "question": "من كان رئيس الولايات المتحدة عند سقوط جدار برلين عام 1989؟",
         "answer": "جورج بوش الأب",
@@ -1912,6 +3874,22 @@
         "answer": "ميخائيل غورباتشوف",
         "points": 300,
         "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v43_lead06",
+        "question": "من كان أول رئيس لجمهورية التشيك بعد انفصال تشيكوسلوفاكيا؟",
+        "answer": "فاتسلاف هافل",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v43_lead07",
+        "question": "من كان رئيس فرنسا خلال أحداث مايو 1968؟",
+        "answer": "شارل ديغول",
+        "points": 500,
+        "difficulty_v4": "very_hard",
         "entities": {}
       },
       {
@@ -1941,14 +3919,6 @@
         "entities": {}
       },
       {
-        "id": "v43_rid02",
-        "question": "لديك ساعتان رمليتان: واحدة 7 دقائق وأخرى 11 دقيقة. ما أقصر زمن يمكن قياسه باستخدامهما معًا دون علامات إضافية؟",
-        "answer": "4 دقائق، من فرق الزمن بين انتهائهما",
-        "points": 100,
-        "difficulty_v4": "medium",
-        "entities": {}
-      },
-      {
         "id": "v43_rid04",
         "question": "ثلاثة مفاتيح خارج غرفة وثلاثة مصابيح داخلها. يسمح لك بدخول الغرفة مرة واحدة فقط. كيف تحدد مفتاح كل مصباح؟",
         "answer": "شغّل الأول مدة ثم أطفئه، شغّل الثاني وادخل: المضيء للثاني، الدافئ للأول، البارد للثالث",
@@ -1960,6 +3930,14 @@
         "id": "v43_rid05",
         "question": "لديك 8 كرات متطابقة ظاهريًا وإحداها أثقل. ما أقل عدد من الوزنات بميزان كفتين لتحديدها؟",
         "answer": "وزنتان",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v43_rid06",
+        "question": "في سباق تجاوزت صاحب المركز الثاني. ما مركزك الآن؟",
+        "answer": "الثاني",
         "points": 300,
         "difficulty_v4": "hard",
         "entities": {}
@@ -1989,7 +3967,7 @@
         "points": 100,
         "difficulty_v4": "medium",
         "entities": {},
-        "source_policy": "المصادر التاريخية السنية المعتبرة"
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
       },
       {
         "id": "v43_li02",
@@ -1998,7 +3976,16 @@
         "points": 100,
         "difficulty_v4": "medium",
         "entities": {},
-        "source_policy": "المصادر التاريخية السنية المعتبرة"
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
+      },
+      {
+        "id": "v43_li03",
+        "question": "بحرف «م»: صحابي كان أول سفير للإسلام إلى المدينة.",
+        "answer": "مصعب بن عمير",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
       },
       {
         "id": "v43_li04",
@@ -2007,7 +3994,7 @@
         "points": 300,
         "difficulty_v4": "hard",
         "entities": {},
-        "source_policy": "المصادر التاريخية السنية المعتبرة"
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
       },
       {
         "id": "v43_li05",
@@ -2016,7 +4003,16 @@
         "points": 300,
         "difficulty_v4": "hard",
         "entities": {},
-        "source_policy": "المصادر التاريخية السنية المعتبرة"
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
+      },
+      {
+        "id": "v43_li06",
+        "question": "بحرف «س»: صحابي أشار بحفر الخندق.",
+        "answer": "سلمان الفارسي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
       },
       {
         "id": "v43_li08",
@@ -2025,7 +4021,7 @@
         "points": 500,
         "difficulty_v4": "very_hard",
         "entities": {},
-        "source_policy": "المصادر التاريخية السنية المعتبرة"
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
       },
       {
         "id": "v43_li09",
@@ -2034,7 +4030,7 @@
         "points": 500,
         "difficulty_v4": "very_hard",
         "entities": {},
-        "source_policy": "المصادر التاريخية السنية المعتبرة"
+        "source_policy": "القرآن الكريم والأحاديث الصحيحة والمصادر المعتبرة عند أهل السنة والجماعة؛ لا تعتمد مصادر شيعية أو طائفية أخرى."
       }
     ],
     "اغاني عربية": [
@@ -2044,7 +4040,14 @@
         "answer": "محمد الموجي",
         "points": 100,
         "difficulty_v4": "medium",
-        "entities": {}
+        "entities": {},
+        "media_policy": {
+          "type": "audio_required",
+          "max_duration_seconds": 15,
+          "preferred_segment": "instrumental_or_mid_song",
+          "hide_song_artist_and_source_until_reveal": true,
+          "rights": "licensed_public_domain_or_user_authorized_only"
+        }
       },
       {
         "id": "v43_song02",
@@ -2052,7 +4055,29 @@
         "answer": "إبراهيم ناجي",
         "points": 100,
         "difficulty_v4": "medium",
-        "entities": {}
+        "entities": {},
+        "media_policy": {
+          "type": "audio_required",
+          "max_duration_seconds": 15,
+          "preferred_segment": "instrumental_or_mid_song",
+          "hide_song_artist_and_source_until_reveal": true,
+          "rights": "licensed_public_domain_or_user_authorized_only"
+        }
+      },
+      {
+        "id": "v43_song03",
+        "question": "من لحن «نسم علينا الهوى» لفيروز؟",
+        "answer": "الأخوان رحباني",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "media_policy": {
+          "type": "audio_required",
+          "max_duration_seconds": 15,
+          "preferred_segment": "instrumental_or_mid_song",
+          "hide_song_artist_and_source_until_reveal": true,
+          "rights": "licensed_public_domain_or_user_authorized_only"
+        }
       },
       {
         "id": "v43_song04",
@@ -2060,7 +4085,29 @@
         "answer": "محمد الموجي",
         "points": 300,
         "difficulty_v4": "hard",
-        "entities": {}
+        "entities": {},
+        "media_policy": {
+          "type": "audio_required",
+          "max_duration_seconds": 15,
+          "preferred_segment": "instrumental_or_mid_song",
+          "hide_song_artist_and_source_until_reveal": true,
+          "rights": "licensed_public_domain_or_user_authorized_only"
+        }
+      },
+      {
+        "id": "v43_song05",
+        "question": "من كتب قصيدة «هذه ليلتي» التي غنتها أم كلثوم؟",
+        "answer": "جورج جرداق",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "media_policy": {
+          "type": "audio_required",
+          "max_duration_seconds": 15,
+          "preferred_segment": "instrumental_or_mid_song",
+          "hide_song_artist_and_source_until_reveal": true,
+          "rights": "licensed_public_domain_or_user_authorized_only"
+        }
       },
       {
         "id": "v43_song06",
@@ -2068,7 +4115,29 @@
         "answer": "محمد عبد الوهاب",
         "points": 300,
         "difficulty_v4": "hard",
-        "entities": {}
+        "entities": {},
+        "media_policy": {
+          "type": "audio_required",
+          "max_duration_seconds": 15,
+          "preferred_segment": "instrumental_or_mid_song",
+          "hide_song_artist_and_source_until_reveal": true,
+          "rights": "licensed_public_domain_or_user_authorized_only"
+        }
+      },
+      {
+        "id": "v43_song07",
+        "question": "من كتب كلمات «جبار» لعبد الحليم حافظ؟",
+        "answer": "حسين السيد",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "media_policy": {
+          "type": "audio_required",
+          "max_duration_seconds": 15,
+          "preferred_segment": "instrumental_or_mid_song",
+          "hide_song_artist_and_source_until_reveal": true,
+          "rights": "licensed_public_domain_or_user_authorized_only"
+        }
       },
       {
         "id": "v43_song08",
@@ -2076,7 +4145,14 @@
         "answer": "زياد الرحباني",
         "points": 500,
         "difficulty_v4": "very_hard",
-        "entities": {}
+        "entities": {},
+        "media_policy": {
+          "type": "audio_required",
+          "max_duration_seconds": 15,
+          "preferred_segment": "instrumental_or_mid_song",
+          "hide_song_artist_and_source_until_reveal": true,
+          "rights": "licensed_public_domain_or_user_authorized_only"
+        }
       },
       {
         "id": "v43_song09",
@@ -2084,7 +4160,14 @@
         "answer": "محمد حمزة",
         "points": 500,
         "difficulty_v4": "very_hard",
-        "entities": {}
+        "entities": {},
+        "media_policy": {
+          "type": "audio_required",
+          "max_duration_seconds": 15,
+          "preferred_segment": "instrumental_or_mid_song",
+          "hide_song_artist_and_source_until_reveal": true,
+          "rights": "licensed_public_domain_or_user_authorized_only"
+        }
       }
     ],
     "افلام اجنبية": [
@@ -2105,9 +4188,25 @@
         "entities": {}
       },
       {
+        "id": "v43_mov03",
+        "question": "من أخرج فيلم Heat عام 1995؟",
+        "answer": "مايكل مان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
         "id": "v43_mov04",
         "question": "أي ممثل أدى دور ساليري في فيلم Amadeus وفاز عنه بالأوسكار؟",
         "answer": "ف. موراي أبراهام",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v43_mov05",
+        "question": "من أخرج فيلم The Conversation عام 1974؟",
+        "answer": "فرانسيس فورد كوبولا",
         "points": 300,
         "difficulty_v4": "hard",
         "entities": {}
@@ -2124,6 +4223,14 @@
         "id": "v43_mov07",
         "question": "من مدير التصوير لفيلم Blade Runner 2049 والفائز بالأوسكار عنه؟",
         "answer": "روجر ديكنز",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v43_mov08",
+        "question": "أي فيلم لبيلي وايلدر تدور أحداثه حول كاتب سيناريو وقصر نجمة سينما صامتة؟",
+        "answer": "Sunset Boulevard",
         "points": 500,
         "difficulty_v4": "very_hard",
         "entities": {}
@@ -2155,9 +4262,25 @@
         "entities": {}
       },
       {
+        "id": "v43_ser03",
+        "question": "من جسد شخصية أبو كامل في مسلسل «ليالي الصالحية»؟",
+        "answer": "بسام كوسا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
         "id": "v43_ser04",
         "question": "من كتب مسلسل «ربيع قرطبة»؟",
         "answer": "وليد سيف",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v43_ser05",
+        "question": "من جسد شخصية نجيب الريحاني في مسلسل «أبو ضحكة جنان»؟",
+        "answer": "أشرف عبد الباقي",
         "points": 300,
         "difficulty_v4": "hard",
         "entities": {}
@@ -2168,6 +4291,14 @@
         "answer": "صقر قريش",
         "points": 300,
         "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v43_ser07",
+        "question": "من جسد شخصية المعتمد بن عباد في مسلسل «ملوك الطوائف»؟",
+        "answer": "تيم حسن",
+        "points": 500,
+        "difficulty_v4": "very_hard",
         "entities": {}
       },
       {
@@ -2266,6 +4397,22 @@
         }
       },
       {
+        "id": "v42_mu08",
+        "question": "من سجل هدف مانشستر يونايتد في التعادل 1-1 مع بايرن ميونخ في دور المجموعات 1998 في أولد ترافورد؟",
+        "answer": "بول سكولز",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "players": [
+            "بول سكولز"
+          ],
+          "clubs": [
+            "مانشستر يونايتد",
+            "بايرن ميونخ"
+          ]
+        }
+      },
+      {
         "id": "v42_mu09",
         "question": "من كان خصم مانشستر يونايتد في نصف نهائي كأس الكؤوس الأوروبية 1990-91؟",
         "answer": "ليجيا وارسو",
@@ -2275,6 +4422,38 @@
           "clubs": [
             "مانشستر يونايتد",
             "ليجيا وارسو"
+          ]
+        }
+      },
+      {
+        "id": "v5_mu_001",
+        "question": "من سجل هدف مانشستر يونايتد في التعادل 1-1 أمام يوفنتوس في ذهاب نصف نهائي دوري الأبطال 1999؟",
+        "answer": "رايان غيغز",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "players": [
+            "رايان غيغز"
+          ],
+          "clubs": [
+            "مانشستر يونايتد",
+            "يوفنتوس"
+          ]
+        }
+      },
+      {
+        "id": "v5_mu_004",
+        "question": "من سجل هدف مانشستر يونايتد الأول في الفوز 3-2 على يوفنتوس في تورينو بنصف نهائي 1999؟",
+        "answer": "روي كين",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "players": [
+            "روي كين"
+          ],
+          "clubs": [
+            "مانشستر يونايتد",
+            "يوفنتوس"
           ]
         }
       }
@@ -2312,6 +4491,22 @@
         }
       },
       {
+        "id": "v42_rm03",
+        "question": "أي لاعب سجل هدف ريال مدريد في نهائي كأس أوروبا 1998 أمام يوفنتوس؟",
+        "answer": "بريدراج مياتوفيتش",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "players": [
+            "بريدراج مياتوفيتش"
+          ],
+          "clubs": [
+            "ريال مدريد",
+            "يوفنتوس"
+          ]
+        }
+      },
+      {
         "id": "v42_rm04",
         "question": "من سجل الهدف الثالث لريال مدريد في نهائي دوري الأبطال 2000؟",
         "answer": "راؤول",
@@ -2333,6 +4528,22 @@
         "points": 300,
         "difficulty_v4": "hard",
         "entities": {
+          "clubs": [
+            "ريال مدريد",
+            "موناكو"
+          ]
+        }
+      },
+      {
+        "id": "v42_rm06",
+        "question": "من سجل هدفي موناكو في إياب ربع نهائي 2004 أمام ريال مدريد؟",
+        "answer": "لودوفيك جيولي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "players": [
+            "لودوفيك جيولي"
+          ],
           "clubs": [
             "ريال مدريد",
             "موناكو"
@@ -2402,6 +4613,21 @@
           "clubs": [
             "برشلونة",
             "آرسنال"
+          ]
+        }
+      },
+      {
+        "id": "v42_bar03",
+        "question": "من كان قائد برشلونة في نهائي دوري الأبطال 2006؟",
+        "answer": "كارليس بويول",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "players": [
+            "كارليس بويول"
+          ],
+          "clubs": [
+            "برشلونة"
           ]
         }
       },
@@ -2500,6 +4726,22 @@
         }
       },
       {
+        "id": "v42_cl03",
+        "question": "من سجل هدف التعادل لريال مدريد في كلاسيكو الدوري 2-2 في كامب نو عام 2012؟",
+        "answer": "كريستيانو رونالدو سجل هدفي ريال مدريد",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "players": [
+            "كريستيانو رونالدو"
+          ],
+          "clubs": [
+            "ريال مدريد",
+            "برشلونة"
+          ]
+        }
+      },
+      {
         "id": "v42_cl04",
         "question": "من سجل هاتريك برشلونة في كلاسيكو 3-3 في كامب نو عام 2007؟",
         "answer": "ليونيل ميسي",
@@ -2548,6 +4790,22 @@
         }
       },
       {
+        "id": "v42_cl07",
+        "question": "من سجل هدف الفوز لبرشلونة في كلاسيكو البرنابيو 3-2 عام 2017؟",
+        "answer": "ليونيل ميسي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "players": [
+            "ليونيل ميسي"
+          ],
+          "clubs": [
+            "برشلونة",
+            "ريال مدريد"
+          ]
+        }
+      },
+      {
         "id": "v42_cl09",
         "question": "من سجل هدف برشلونة الوحيد في خسارة نهائي كأس الملك 2014 أمام ريال مدريد؟",
         "answer": "مارك بارترا",
@@ -2569,6 +4827,14 @@
         "id": "v42_qa01",
         "question": "أي قلعة قطرية مدرجة ضمن موقع الزبارة الأثري المدرج على قائمة التراث العالمي؟",
         "answer": "قلعة الزبارة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v42_qa02",
+        "question": "ما اسم المنطقة التي تضم أبراج برزان التاريخية؟",
+        "answer": "أم صلال محمد",
         "points": 100,
         "difficulty_v4": "medium",
         "entities": {}
@@ -2598,9 +4864,25 @@
         "entities": {}
       },
       {
+        "id": "v42_qa06",
+        "question": "أي استاد قطري صمّم على هيئة الخيمة التقليدية واستضاف مباريات كأس العالم 2022؟",
+        "answer": "استاد البيت",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
         "id": "v42_qa07",
         "question": "ما الاسم التاريخي للمنطقة التي ازدهرت بتجارة اللؤلؤ وأصبحت اليوم موقع الزبارة الأثري؟",
         "answer": "الزبارة",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v42_qa08",
+        "question": "أي جزيرة قطرية ارتبطت تاريخيًا بصناعة صبغة الأرجوان في موقع أثري؟",
+        "answer": "جزيرة بن غنام / الجزيرة الأرجوانية",
         "points": 500,
         "difficulty_v4": "very_hard",
         "entities": {}
@@ -2615,6 +4897,14 @@
       }
     ],
     "سوريا": [
+      {
+        "id": "v42_sy01",
+        "question": "ما المدينة السورية القديمة التي كانت عاصمة لمملكة آرامية قوية وعُرفت باسم أرام دمشق؟",
+        "answer": "دمشق",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
       {
         "id": "v42_sy02",
         "question": "في أي موقع أثري سوري اكتُشفت أبجدية أوغاريت المسمارية؟",
@@ -2635,6 +4925,14 @@
         "id": "v42_sy04",
         "question": "ما اسم المملكة القديمة التي اكتُشفت أرشيفاتها المسمارية في تل مرديخ؟",
         "answer": "إيبلا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v42_sy05",
+        "question": "أي مدينة أثرية سورية أسسها سلوقس الأول وحملت اسم زوجته أباما؟",
+        "answer": "أفاميا",
         "points": 300,
         "difficulty_v4": "hard",
         "entities": {}
@@ -2662,7 +4960,22 @@
         "points": 500,
         "difficulty_v4": "very_hard",
         "entities": {}
+      },
+      {
+        "id": "v42_sy09",
+        "question": "أي موقع أثري قرب حلب يضم كنيسة القديس سمعان العمودي؟",
+        "answer": "قلعة سمعان / دير سمعان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
       }
     ]
+  },
+  "qa": {
+    "category_count": 36,
+    "duplicate_ids": [],
+    "non_media_duplicate_prompts": 0,
+    "invalid_point_values": [],
+    "new_v5_questions_added": 17
   }
 }
