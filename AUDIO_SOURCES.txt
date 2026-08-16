@@ -1,0 +1,15 @@
+ALMAJLIS V4.8 — AUDIO SOURCES
+
+The anthem category uses instrumental recordings hosted by Wikimedia Commons.
+The app plays only a 10-second segment and does not display the source filename,
+anthem title, or country before the answer reveal.
+
+Sources used:
+France — La Marseillaise — U.S. Navy Band
+Japan — Kimigayo — U.S. Navy Ceremonial Band
+Brazil — Hino Nacional Brasileiro — U.S. Navy Band
+Portugal — A Portuguesa — U.S. Navy Band
+Uruguay — Himno Nacional de Uruguay (short) — U.S. Navy Band
+Croatia — Lijepa nasa domovino — U.S. Navy Band
+
+See each Wikimedia Commons file description page for its public-domain/license details.
