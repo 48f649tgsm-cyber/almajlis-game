@@ -94,7 +94,7 @@ async function loadBank(){
     const base=await fetchJson('./questions_v4_8_READY.json');
     bank={};
     mergeCategories(bank,base.categories);
-    const batches=['./questions_v6_batch_001.json','./questions_v6_batch_002.json'];
+    const batches=['./questions_v6_batch_001.json','./questions_v6_batch_002.json','./questions_v6_batch_003.json'];
     let loadedBatches=0;
     for(const path of batches){
       try{

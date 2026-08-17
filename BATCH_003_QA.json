@@ -1,0 +1,25 @@
+{
+  "batch": "Batch 003",
+  "new_questions": 504,
+  "categories": 37,
+  "points_distribution": {
+    "100": 168,
+    "300": 168,
+    "500": 168
+  },
+  "duplicate_ids_inside_batch_003": 0,
+  "duplicate_question_texts_inside_batch_003": 0,
+  "exact_question_text_matches_with_batch_001_002": 0,
+  "id_collisions_with_batch_001_002": 0,
+  "all_category_additions_are_multiples_of_6": true,
+  "each_category_balanced_100_300_500": true,
+  "new_total_expected": 1476,
+  "index_loads": [
+    "questions_v4_8_READY.json",
+    "questions_v6_batch_001.json",
+    "questions_v6_batch_002.json",
+    "questions_v6_batch_003.json"
+  ],
+  "mime_category_preserved": true,
+  "exhaustion_rule_preserved": true
+}
