@@ -1,0 +1,4182 @@
+{
+  "version": "6.2-batch-002",
+  "new_questions": 504,
+  "category_policy": {
+    "minimum_target_per_category": 144,
+    "future_expansion_multiple": 6,
+    "per_six_distribution": {
+      "100": 2,
+      "300": 2,
+      "500": 2
+    },
+    "disable_when_exhausted": true
+  },
+  "categories": {
+    "معلومات عامة": [
+      {
+        "id": "v6b2_c01_001",
+        "question": "ما العنصر الكيميائي الذي رمزه Na؟",
+        "answer": "الصوديوم",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c01_002",
+        "question": "ما الوحدة الدولية لقياس القوة؟",
+        "answer": "النيوتن",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c01_003",
+        "question": "أي كوكب هو الأكبر في المجموعة الشمسية؟",
+        "answer": "المشتري",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c01_004",
+        "question": "ما العضو الذي يضخ الدم إلى أنحاء الجسم؟",
+        "answer": "القلب",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c01_005",
+        "question": "ما الغاز الذي تمتصه النباتات أساسًا في البناء الضوئي؟",
+        "answer": "ثاني أكسيد الكربون",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c01_006",
+        "question": "ما اسم العملية التي تتحول فيها المادة من الحالة الصلبة مباشرة إلى الغازية؟",
+        "answer": "التسامي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c01_007",
+        "question": "ما العدد الذري للكربون؟",
+        "answer": "6",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c01_008",
+        "question": "أي جزء من الخلية يحمل معظم المادة الوراثية في الخلايا حقيقية النواة؟",
+        "answer": "النواة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c01_009",
+        "question": "ما اسم الجهاز الذي يقيس الضغط الجوي؟",
+        "answer": "البارومتر",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c01_010",
+        "question": "ما الوحدة الدولية لقياس القدرة؟",
+        "answer": "الواط",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c01_011",
+        "question": "أي كوكب يُعرف بالكوكب الأحمر؟",
+        "answer": "المريخ",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c01_012",
+        "question": "ما اسم أعمق طبقة رئيسية في باطن الأرض؟",
+        "answer": "اللب",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c01_013",
+        "question": "ما العنصر الذي رمزه K؟",
+        "answer": "البوتاسيوم",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c01_014",
+        "question": "ما اسم القوة التي تجذب الأجسام نحو مركز الأرض؟",
+        "answer": "الجاذبية",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c01_015",
+        "question": "ما الوحدة الدولية لقياس التردد؟",
+        "answer": "الهرتز",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c01_016",
+        "question": "أي عضو يفرز العصارة الصفراوية؟",
+        "answer": "الكبد",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c01_017",
+        "question": "ما اسم أصغر وحدة بنائية للمادة تحتفظ بخواص العنصر؟",
+        "answer": "الذرة",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c01_018",
+        "question": "أي طبقة من الغلاف الجوي تحدث فيها معظم الظواهر الجوية؟",
+        "answer": "التروبوسفير",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      }
+    ],
+    "تاريخ": [
+      {
+        "id": "v6b2_c02_001",
+        "question": "في أي سنة بدأت الحرب العالمية الأولى؟",
+        "answer": "1914",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c02_002",
+        "question": "ما الحضارة التي اتخذت روما مركزًا لإمبراطوريتها؟",
+        "answer": "الحضارة الرومانية",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c02_003",
+        "question": "من القائد المقدوني الذي أسس إمبراطورية واسعة في القرن الرابع قبل الميلاد؟",
+        "answer": "الإسكندر الأكبر",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c02_004",
+        "question": "ما اسم المدينة التي كانت عاصمة إمبراطورية الأزتك؟",
+        "answer": "تينوتشتيتلان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c02_005",
+        "question": "في أي سنة انتهت الحرب العالمية الثانية في أوروبا؟",
+        "answer": "1945",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c02_006",
+        "question": "من الملك الإنجليزي الذي ارتبط بتوقيع الماغنا كارتا سنة 1215؟",
+        "answer": "الملك جون",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c02_007",
+        "question": "أي أسرة صينية حكمت من 1368 إلى 1644؟",
+        "answer": "أسرة مينغ",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c02_008",
+        "question": "ما اسم المعاهدة التي أنهت الحرب الروسية اليابانية عام 1905؟",
+        "answer": "معاهدة بورتسموث",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c02_009",
+        "question": "من القائد الفرنسي الذي توّج إمبراطورًا عام 1804؟",
+        "answer": "نابليون بونابرت",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c02_010",
+        "question": "ما اسم الثورة التي بدأت في روسيا عام 1917 وأسقطت الحكم القيصري؟",
+        "answer": "الثورة الروسية",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c02_011",
+        "question": "أي مدينة رومانية دُفنت بسبب ثوران فيزوف عام 79م؟",
+        "answer": "بومبي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c02_012",
+        "question": "من آخر إمبراطور لروسيا؟",
+        "answer": "نيقولا الثاني",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c02_013",
+        "question": "ما المؤتمر الذي أعاد ترتيب أوروبا بعد الحروب النابليونية؟",
+        "answer": "مؤتمر فيينا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c02_014",
+        "question": "أي حضارة بنت مدينة ماتشو بيتشو؟",
+        "answer": "الإنكا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c02_015",
+        "question": "في أي سنة سقط جدار برلين؟",
+        "answer": "1989",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c02_016",
+        "question": "ما اسم السلالة التي حكمت روسيا من 1613 حتى 1917؟",
+        "answer": "آل رومانوف",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c02_017",
+        "question": "من انتصر في معركة هاستينغز عام 1066؟",
+        "answer": "ويليام الفاتح",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c02_018",
+        "question": "أي صلح أنهى حرب الثلاثين عامًا عام 1648؟",
+        "answer": "صلح وستفاليا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      }
+    ],
+    "تاريخ إسلامي": [
+      {
+        "id": "v6b2_c03_001",
+        "question": "من مؤسس الدولة الأموية؟",
+        "answer": "معاوية بن أبي سفيان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c03_002",
+        "question": "ما عاصمة الدولة الأموية؟",
+        "answer": "دمشق",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c03_003",
+        "question": "من مؤسس مدينة بغداد العباسية؟",
+        "answer": "أبو جعفر المنصور",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c03_004",
+        "question": "من القائد الذي فتح السند في العصر الأموي؟",
+        "answer": "محمد بن القاسم الثقفي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c03_005",
+        "question": "من القائد الذي عبر إلى الأندلس سنة 92هـ؟",
+        "answer": "طارق بن زياد",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c03_006",
+        "question": "ما اسم المعركة التي وقعت سنة 15هـ بين المسلمين والفرس؟",
+        "answer": "القادسية",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c03_007",
+        "question": "من القائد الذي استعاد القدس سنة 1187م؟",
+        "answer": "صلاح الدين الأيوبي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c03_008",
+        "question": "ما اسم آخر مملكة إسلامية في الأندلس؟",
+        "answer": "مملكة غرناطة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c03_009",
+        "question": "من مؤسس الدولة العثمانية؟",
+        "answer": "عثمان الأول",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c03_010",
+        "question": "أي خليفة أموي اشتهر بتعريب الدواوين وضرب العملة الإسلامية؟",
+        "answer": "عبد الملك بن مروان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c03_011",
+        "question": "ما المدينة التي كانت عاصمة العباسيين في معظم عصرهم؟",
+        "answer": "بغداد",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c03_012",
+        "question": "من أول خلفاء بني العباس؟",
+        "answer": "أبو العباس السفاح",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      }
+    ],
+    "قصص الأنبياء": [
+      {
+        "id": "v6b2_c04_001",
+        "question": "أي نبي ابتلعه الحوت؟",
+        "answer": "يونس عليه السلام",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c04_002",
+        "question": "أي نبي صنع السفينة بأمر الله؟",
+        "answer": "نوح عليه السلام",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c04_003",
+        "question": "أي نبي أُلقي في النار فنجاه الله؟",
+        "answer": "إبراهيم عليه السلام",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c04_004",
+        "question": "أي نبي كلمه الله تكليمًا؟",
+        "answer": "موسى عليه السلام",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c04_005",
+        "question": "أي نبي اشتهر بالصبر على البلاء؟",
+        "answer": "أيوب عليه السلام",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c04_006",
+        "question": "أي نبي فهم منطق الطير؟",
+        "answer": "سليمان عليه السلام",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c04_007",
+        "question": "أي نبي رأى في المنام أحد عشر كوكبًا والشمس والقمر؟",
+        "answer": "يوسف عليه السلام",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c04_008",
+        "question": "أي نبي أُرسل إلى قوم عاد؟",
+        "answer": "هود عليه السلام",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c04_009",
+        "question": "أي نبي أُرسل إلى ثمود؟",
+        "answer": "صالح عليه السلام",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c04_010",
+        "question": "أي نبي دعا ربه أن يهب له ولدًا فبُشّر بيحيى؟",
+        "answer": "زكريا عليه السلام",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c04_011",
+        "question": "أي نبي رفعه الله إليه؟",
+        "answer": "عيسى عليه السلام",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c04_012",
+        "question": "أي نبي أُعطي ملكًا لا ينبغي لأحد من بعده؟",
+        "answer": "سليمان عليه السلام",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      }
+    ],
+    "قصص القرآن": [
+      {
+        "id": "v6b2_c05_001",
+        "question": "ما اسم الفتية الذين ناموا سنين طويلة في كهف؟",
+        "answer": "أصحاب الكهف",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c05_002",
+        "question": "ما الطائر الذي تفقده سليمان عليه السلام؟",
+        "answer": "الهدهد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c05_003",
+        "question": "ما الحيوان الذي ورد مع أصحاب الكهف؟",
+        "answer": "الكلب",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c05_004",
+        "question": "ما اسم الملك الصالح المذكور في سورة الكهف الذي بلغ بين السدين؟",
+        "answer": "ذو القرنين",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c05_005",
+        "question": "أي قوم أُرسل إليهم شعيب عليه السلام؟",
+        "answer": "مدين",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c05_006",
+        "question": "ما الشيء الذي ألقاه موسى فتحول إلى حية؟",
+        "answer": "عصاه",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c05_007",
+        "question": "ما الآية التي أُرسلت إلى ثمود في قصة صالح؟",
+        "answer": "الناقة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c05_008",
+        "question": "أي سورة تعرض قصة يوسف عليه السلام بصورة متتابعة؟",
+        "answer": "سورة يوسف",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c05_009",
+        "question": "ما اسم الرجل الصالح الذي رافقه موسى في سورة الكهف ويُعرف في السنة بالخضر؟",
+        "answer": "الخضر",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c05_010",
+        "question": "أي سورة وردت فيها قصة أصحاب الفيل؟",
+        "answer": "سورة الفيل",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c05_011",
+        "question": "من الذي التقط موسى من اليم وفق القصة القرآنية؟",
+        "answer": "آل فرعون",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c05_012",
+        "question": "ما القوم الذين أرسل الله إليهم هودًا عليه السلام؟",
+        "answer": "عاد",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      }
+    ],
+    "جغرافيا": [
+      {
+        "id": "v6b2_c06_001",
+        "question": "ما عاصمة كندا؟",
+        "answer": "أوتاوا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c06_002",
+        "question": "ما عاصمة أستراليا؟",
+        "answer": "كانبرا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c06_003",
+        "question": "ما عاصمة نيوزيلندا؟",
+        "answer": "ويلينغتون",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c06_004",
+        "question": "ما عاصمة البرازيل؟",
+        "answer": "برازيليا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c06_005",
+        "question": "ما أطول نهر في أوروبا؟",
+        "answer": "الفولغا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c06_006",
+        "question": "ما أعلى قمة في أفريقيا؟",
+        "answer": "كليمنجارو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c06_007",
+        "question": "ما أكبر جزيرة في العالم؟",
+        "answer": "غرينلاند",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c06_008",
+        "question": "ما عاصمة منغوليا؟",
+        "answer": "أولان باتور",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c06_009",
+        "question": "أي مضيق يفصل آسيا عن أمريكا الشمالية؟",
+        "answer": "مضيق بيرينغ",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c06_010",
+        "question": "ما أكبر دولة في العالم مساحة؟",
+        "answer": "روسيا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c06_011",
+        "question": "ما عاصمة أيسلندا؟",
+        "answer": "ريكيافيك",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c06_012",
+        "question": "أي سلسلة جبال تُعد حدًا تقليديًا بين أوروبا وآسيا؟",
+        "answer": "جبال الأورال",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c06_013",
+        "question": "ما عاصمة بوتسوانا؟",
+        "answer": "غابورون",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c06_014",
+        "question": "ما المضيق الذي يفصل جاوة عن سومطرة؟",
+        "answer": "مضيق سوندا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c06_015",
+        "question": "ما عاصمة أوروغواي؟",
+        "answer": "مونتيفيديو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c06_016",
+        "question": "ما عاصمة نيبال؟",
+        "answer": "كاتماندو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c06_017",
+        "question": "ما عاصمة سلوفينيا؟",
+        "answer": "ليوبليانا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c06_018",
+        "question": "ما عاصمة رواندا؟",
+        "answer": "كيغالي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      }
+    ],
+    "أعلام دول": [
+      {
+        "id": "v6b2_c07_001",
+        "question": "علم أي دولة يحمل ورقة قيقب حمراء؟",
+        "answer": "كندا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c07_002",
+        "question": "علم أي دولة يتوسطه أرز أخضر؟",
+        "answer": "لبنان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c07_003",
+        "question": "علم أي دولة يحمل دائرة حمراء على خلفية بيضاء؟",
+        "answer": "اليابان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c07_004",
+        "question": "علم أي دولة يحمل صليبًا أبيض على خلفية حمراء؟",
+        "answer": "سويسرا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c07_005",
+        "question": "علم أي دولة يتضمن تنينًا أبيض؟",
+        "answer": "بوتان",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c07_006",
+        "question": "علم أي دولة يحمل هلالًا ونجمة بيضاء على خلفية حمراء؟",
+        "answer": "تركيا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c07_007",
+        "question": "علم أي دولة يحتوي على عجلة أشوكا الزرقاء؟",
+        "answer": "الهند",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c07_008",
+        "question": "علم أي دولة يحمل شمس مايو في وسطه؟",
+        "answer": "الأرجنتين",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c07_009",
+        "question": "علم أي دولة يتكون من ثلاثة أشرطة عمودية أخضر وأبيض وبرتقالي؟",
+        "answer": "أيرلندا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c07_010",
+        "question": "علم أي دولة يحمل صليبًا إسكندنافيًا أزرق على خلفية بيضاء؟",
+        "answer": "فنلندا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c07_011",
+        "question": "علم أي دولة يحمل نجمة صفراء كبيرة وأربع نجوم أصغر؟",
+        "answer": "الصين",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c07_012",
+        "question": "علم أي دولة مربع الشكل ويتكون من صليب أبيض على أحمر؟",
+        "answer": "سويسرا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      }
+    ],
+    "نشيد وطني": [
+      {
+        "id": "v6b2_c08_001",
+        "question": "ما الدولة العربية التي نشيدها الوطني «قسماً»؟",
+        "answer": "الجزائر",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c08_002",
+        "question": "ما الدولة العربية التي نشيدها الوطني «حماة الحمى»؟",
+        "answer": "تونس",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c08_003",
+        "question": "ما الدولة العربية التي نشيدها الوطني «بلادي بلادي بلادي»؟",
+        "answer": "مصر",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c08_004",
+        "question": "ما الدولة العربية التي نشيدها الوطني «فدائي»؟",
+        "answer": "فلسطين",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c08_005",
+        "question": "ما الدولة العربية التي نشيدها الوطني «موطني» منذ 2004؟",
+        "answer": "العراق",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c08_006",
+        "question": "ما الدولة العربية التي نشيدها الوطني «حماة الديار»؟",
+        "answer": "سوريا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c08_007",
+        "question": "ما الدولة العربية التي نشيدها الوطني «كلنا للوطن»؟",
+        "answer": "لبنان",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c08_008",
+        "question": "ما الدولة العربية التي يُعرف نشيدها باسم «السلام الأميري»؟",
+        "answer": "قطر",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c08_009",
+        "question": "ما الدولة العربية التي نشيدها الوطني «عيشي بلادي»؟",
+        "answer": "الإمارات العربية المتحدة",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c08_010",
+        "question": "ما الدولة العربية التي يبدأ نشيدها بكلمة «سارعي»؟",
+        "answer": "السعودية",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c08_011",
+        "question": "ما الدولة العربية التي نشيدها الوطني «عاش المليك»؟",
+        "answer": "المغرب",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c08_012",
+        "question": "ما الدولة العربية التي نشيدها الوطني «السلام الملكي الأردني»؟",
+        "answer": "الأردن",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      }
+    ],
+    "من هو اللاعب": [
+      {
+        "id": "v6b2_c09_001",
+        "question": "لاعب أرجنتيني قاد بلاده للفوز بكأس العالم 2022 ولعب معظم مسيرته مع برشلونة. من هو؟",
+        "answer": "ليونيل ميسي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c09_002",
+        "question": "لاعب برتغالي لعب لمانشستر يونايتد وريال مدريد ويوفنتوس. من هو؟",
+        "answer": "كريستيانو رونالدو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c09_003",
+        "question": "مهاجم فرنسي فاز بكأس العالم 2018 وبدأ مسيرته الاحترافية مع موناكو. من هو؟",
+        "answer": "كيليان مبابي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c09_004",
+        "question": "لاعب كرواتي فاز بالكرة الذهبية 2018. من هو؟",
+        "answer": "لوكا مودريتش",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c09_005",
+        "question": "حارس إسباني رفع كأس العالم 2010. من هو؟",
+        "answer": "إيكر كاسياس",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c09_006",
+        "question": "مهاجم برازيلي لُقب بالظاهرة وفاز بكأس العالم 2002. من هو؟",
+        "answer": "رونالدو نازاريو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c09_007",
+        "question": "جناح مصري لعب لبازل وتشيلسي وروما وليفربول. من هو؟",
+        "answer": "محمد صلاح",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c09_008",
+        "question": "مهاجم أوروغواياني لعب لأياكس وليفربول وبرشلونة وأتلتيكو مدريد. من هو؟",
+        "answer": "لويس سواريز",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c09_009",
+        "question": "لاعب هولندي سجل هدفًا رأسيًا طائرًا شهيرًا أمام إسبانيا في مونديال 2014. من هو؟",
+        "answer": "روبن فان بيرسي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c09_010",
+        "question": "مدافع إسباني سجل هدف التعادل لريال مدريد في نهائي دوري الأبطال 2014. من هو؟",
+        "answer": "سيرخيو راموس",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c09_011",
+        "question": "لاعب برازيلي فاز بالكرة الذهبية 2005 واشتهر مع برشلونة. من هو؟",
+        "answer": "رونالدينيو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c09_012",
+        "question": "مهاجم إنجليزي أصبح الهداف التاريخي لمانشستر يونايتد. من هو؟",
+        "answer": "واين روني",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c09_013",
+        "question": "لاعب فرنسي سجل هدفين في نهائي كأس العالم 1998. من هو؟",
+        "answer": "زين الدين زيدان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c09_014",
+        "question": "لاعب بلجيكي اشتهر بصناعة اللعب مع مانشستر سيتي. من هو؟",
+        "answer": "كيفن دي بروين",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c09_015",
+        "question": "مهاجم بولندي اشتهر مع بوروسيا دورتموند وبايرن ميونخ وبرشلونة. من هو؟",
+        "answer": "روبرت ليفاندوفسكي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c09_016",
+        "question": "لاعب ويلزي انتقل من توتنهام إلى ريال مدريد عام 2013. من هو؟",
+        "answer": "غاريث بيل",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c09_017",
+        "question": "لاعب إسباني سجل هدف الفوز في نهائي كأس العالم 2010. من هو؟",
+        "answer": "أندريس إنييستا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c09_018",
+        "question": "مدافع إيطالي أسطوري قضى مسيرته مع ميلان. من هو؟",
+        "answer": "باولو مالديني",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      }
+    ],
+    "مسيرة لاعب": [
+      {
+        "id": "v6b2_c10_001",
+        "question": "سبورتينغ لشبونة ← مانشستر يونايتد ← ريال مدريد ← يوفنتوس. من اللاعب؟",
+        "answer": "كريستيانو رونالدو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c10_002",
+        "question": "غرونينغن ← آيندهوفن ← تشيلسي ← ريال مدريد ← بايرن ميونخ. من اللاعب؟",
+        "answer": "آريين روبن",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c10_003",
+        "question": "سانتوس ← برشلونة ← باريس سان جيرمان. من اللاعب؟",
+        "answer": "نيمار",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c10_004",
+        "question": "ساوثهامبتون ← توتنهام ← ريال مدريد. من اللاعب؟",
+        "answer": "غاريث بيل",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c10_005",
+        "question": "مالمو ← أياكس ← يوفنتوس ← إنتر ← برشلونة ← ميلان. من اللاعب؟",
+        "answer": "زلاتان إبراهيموفيتش",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c10_006",
+        "question": "إنديبندينتي ← أتلتيكو مدريد ← مانشستر سيتي ← برشلونة. من اللاعب؟",
+        "answer": "سيرخيو أغويرو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c10_007",
+        "question": "سبورتينغ لشبونة ← برشلونة ← ريال مدريد ← إنتر. من اللاعب؟",
+        "answer": "لويس فيغو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c10_008",
+        "question": "إيفرتون ← مانشستر يونايتد ← إيفرتون ← دي سي يونايتد. من اللاعب؟",
+        "answer": "واين روني",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c10_009",
+        "question": "بوروسيا دورتموند ← بايرن ميونخ ← برشلونة. من اللاعب؟",
+        "answer": "روبرت ليفاندوفسكي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c10_010",
+        "question": "بنفيكا ← ريال مدريد ← مانشستر يونايتد ← باريس سان جيرمان. من اللاعب؟",
+        "answer": "أنخيل دي ماريا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c10_011",
+        "question": "أياكس ← ليفربول ← برشلونة ← أتلتيكو مدريد. من اللاعب؟",
+        "answer": "لويس سواريز",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c10_012",
+        "question": "موناكو ← أرسنال ← برشلونة ← نيويورك ريد بولز. من اللاعب؟",
+        "answer": "تييري هنري",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c10_013",
+        "question": "ريفر بليت ← كورينثيانز ← وست هام ← مانشستر يونايتد ← مانشستر سيتي. من اللاعب؟",
+        "answer": "كارلوس تيفيز",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c10_014",
+        "question": "فاسكو دا غاما ← آيندهوفن ← برشلونة ← إنتر ← ريال مدريد. من اللاعب؟",
+        "answer": "رونالدو نازاريو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c10_015",
+        "question": "أياكس ← ريال مدريد ← إنتر ← غلطة سراي. من اللاعب الهولندي؟",
+        "answer": "ويسلي شنايدر",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c10_016",
+        "question": "أتلتيكو ناسيونال ← ريفر بليت ← بورتو ← أتلتيكو مدريد ← موناكو. من المهاجم الكولومبي؟",
+        "answer": "راداميل فالكاو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c10_017",
+        "question": "ريال سوسيداد ← ليفربول ← ريال مدريد ← بايرن ميونخ. من اللاعب الإسباني؟",
+        "answer": "تشابي ألونسو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c10_018",
+        "question": "بازل ← تشيلسي ← فيورنتينا ← روما ← ليفربول. من اللاعب؟",
+        "answer": "محمد صلاح",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      }
+    ],
+    "النادي المشترك": [
+      {
+        "id": "v6b2_c11_001",
+        "question": "لعب كريستيانو رونالدو وكارلوس تيفيز وواين روني معًا في أي نادٍ؟",
+        "answer": "مانشستر يونايتد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c11_002",
+        "question": "لعب ميسي ونيمار ولويس سواريز معًا في أي نادٍ؟",
+        "answer": "برشلونة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c11_003",
+        "question": "لعب كاكا وكريستيانو رونالدو وسيرخيو راموس معًا في أي نادٍ؟",
+        "answer": "ريال مدريد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c11_004",
+        "question": "لعب صلاح وماني وفيرمينو معًا في أي نادٍ؟",
+        "answer": "ليفربول",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c11_005",
+        "question": "لعب هنري وبيريس وفييرا معًا في أي نادٍ؟",
+        "answer": "أرسنال",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c11_006",
+        "question": "لعب لام وروبن وريبيري معًا في أي نادٍ؟",
+        "answer": "بايرن ميونخ",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c11_007",
+        "question": "لعب مالديني وكاكا وبيرلو معًا في أي نادٍ؟",
+        "answer": "ميلان",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c11_008",
+        "question": "لعب زانيتي وسنايدر وميليتو معًا في أي نادٍ؟",
+        "answer": "إنتر ميلان",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c11_009",
+        "question": "لعب تشافي وإنييستا وبوسكيتس معًا في أي نادٍ؟",
+        "answer": "برشلونة",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c11_010",
+        "question": "لعب دروغبا ولامبارد وتيري معًا في أي نادٍ؟",
+        "answer": "تشيلسي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c11_011",
+        "question": "لعب أغويرو وديفيد سيلفا وكومباني معًا في أي نادٍ؟",
+        "answer": "مانشستر سيتي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c11_012",
+        "question": "لعب بوفون وديل بييرو ونيدفيد معًا في أي نادٍ؟",
+        "answer": "يوفنتوس",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      }
+    ],
+    "الدوري الإنجليزي": [
+      {
+        "id": "v6b2_c12_001",
+        "question": "من أول بطل للدوري الإنجليزي الممتاز بنظامه الحديث 1992-93؟",
+        "answer": "مانشستر يونايتد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c12_002",
+        "question": "أي فريق أنهى موسم 2003-04 في الدوري الممتاز دون هزيمة؟",
+        "answer": "أرسنال",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c12_003",
+        "question": "من الهداف التاريخي للدوري الإنجليزي الممتاز؟",
+        "answer": "آلان شيرر",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c12_004",
+        "question": "أي نادٍ يلعب مبارياته على ملعب أنفيلد؟",
+        "answer": "ليفربول",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c12_005",
+        "question": "من المدرب الذي قاد ليستر سيتي للقب 2015-16؟",
+        "answer": "كلاوديو رانييري",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c12_006",
+        "question": "أي فريق جمع 100 نقطة في موسم 2017-18؟",
+        "answer": "مانشستر سيتي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c12_007",
+        "question": "من سجل هدف مانشستر سيتي الحاسم للقب في الجولة الأخيرة من موسم 2011-12؟",
+        "answer": "سيرخيو أغويرو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c12_008",
+        "question": "أي نادٍ يلعب في ستامفورد بريدج؟",
+        "answer": "تشيلسي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c12_009",
+        "question": "من فاز بالحذاء الذهبي في موسم 2017-18 برصيد 32 هدفًا؟",
+        "answer": "محمد صلاح",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c12_010",
+        "question": "أي نادٍ يُعرف بلقب السبيرز؟",
+        "answer": "توتنهام هوتسبير",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c12_011",
+        "question": "أي فريق يلعب على ملعب أولد ترافورد؟",
+        "answer": "مانشستر يونايتد",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c12_012",
+        "question": "من أكثر مدرب فوزًا بلقب الدوري الإنجليزي الممتاز؟",
+        "answer": "السير أليكس فيرغسون",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c12_013",
+        "question": "أي نادٍ يُعرف بلقب المدفعجية؟",
+        "answer": "أرسنال",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c12_014",
+        "question": "ما اسم ملعب مانشستر سيتي؟",
+        "answer": "ملعب الاتحاد",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c12_015",
+        "question": "أي نادٍ يلعب في سانت جيمس بارك؟",
+        "answer": "نيوكاسل يونايتد",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c12_016",
+        "question": "من سجل أول هدف في تاريخ الدوري الإنجليزي الممتاز عام 1992؟",
+        "answer": "براين دين",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c12_017",
+        "question": "أي فريق فاز بلقب الدوري الممتاز موسم 1994-95؟",
+        "answer": "بلاكبيرن روفرز",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c12_018",
+        "question": "ما النادي الذي فاز بلقب الدوري الممتاز موسم 2019-20؟",
+        "answer": "ليفربول",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      }
+    ],
+    "دوري الأبطال": [
+      {
+        "id": "v6b2_c13_001",
+        "question": "من فاز بأول نسخة من كأس أوروبا عام 1956؟",
+        "answer": "ريال مدريد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c13_002",
+        "question": "أي نادٍ حقق الثلاثية الأوروبية عام 1999؟",
+        "answer": "مانشستر يونايتد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c13_003",
+        "question": "أي فريق عاد من تأخر 0-3 في نهائي 2005 أمام ميلان؟",
+        "answer": "ليفربول",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c13_004",
+        "question": "أين أقيم نهائي دوري الأبطال 1999؟",
+        "answer": "كامب نو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c13_005",
+        "question": "من سجل هدف الفوز لبرشلونة في نهائي 2006؟",
+        "answer": "جوليانو بيليتي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c13_006",
+        "question": "أي نادٍ فاز بدوري الأبطال لأول مرة عام 2012؟",
+        "answer": "تشيلسي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c13_007",
+        "question": "من سجل هدف ريال مدريد الشهير في نهائي 2002 ضد باير ليفركوزن؟",
+        "answer": "زين الدين زيدان",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c13_008",
+        "question": "أي فريق هزم يوفنتوس في نهائي 1997؟",
+        "answer": "بوروسيا دورتموند",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c13_009",
+        "question": "من فاز بنهائي 2010 بقيادة جوزيه مورينيو؟",
+        "answer": "إنتر ميلان",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c13_010",
+        "question": "أي فريق فاز بنهائي 2013 على بوروسيا دورتموند؟",
+        "answer": "بايرن ميونخ",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c13_011",
+        "question": "أي نادٍ فاز بنهائي 1995 على ميلان؟",
+        "answer": "أياكس",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c13_012",
+        "question": "من فاز بنهائي 2021 على مانشستر سيتي؟",
+        "answer": "تشيلسي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c13_013",
+        "question": "من سجل هدف التعادل المتأخر لريال مدريد في نهائي 2014؟",
+        "answer": "سيرخيو راموس",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c13_014",
+        "question": "من فاز بنهائي 2004 على موناكو؟",
+        "answer": "بورتو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c13_015",
+        "question": "أي فريق فاز بنهائي 1993 وأصبح أول بطل في مسمى دوري الأبطال؟",
+        "answer": "مارسيليا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c13_016",
+        "question": "من سجل هدف الفوز لمانشستر يونايتد في نهائي 1999؟",
+        "answer": "أولي غونار سولشاير",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c13_017",
+        "question": "أي فريق فاز بنهائي 2007 على ليفربول؟",
+        "answer": "ميلان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c13_018",
+        "question": "من سجل هدفي ميلان في نهائي 2007؟",
+        "answer": "فيليبو إنزاغي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      }
+    ],
+    "كأس العالم": [
+      {
+        "id": "v6b2_c14_001",
+        "question": "من فاز بأول كأس عالم عام 1930؟",
+        "answer": "أوروغواي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c14_002",
+        "question": "أي منتخب فاز بكأس العالم 2010؟",
+        "answer": "إسبانيا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c14_003",
+        "question": "من سجل هدف الفوز في نهائي كأس العالم 2010؟",
+        "answer": "أندريس إنييستا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c14_004",
+        "question": "أي منتخب فاز بكأس العالم 2014؟",
+        "answer": "ألمانيا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c14_005",
+        "question": "من سجل هدف الفوز في نهائي كأس العالم 2014؟",
+        "answer": "ماريو غوتزه",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c14_006",
+        "question": "أي منتخب فاز بكأس العالم 2018؟",
+        "answer": "فرنسا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c14_007",
+        "question": "أي منتخب فاز بكأس العالم 2022؟",
+        "answer": "الأرجنتين",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c14_008",
+        "question": "من سجل ثلاثية في نهائي كأس العالم 2022؟",
+        "answer": "كيليان مبابي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c14_009",
+        "question": "من الهداف التاريخي لنهائيات كأس العالم للرجال؟",
+        "answer": "ميروسلاف كلوزه",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c14_010",
+        "question": "أي منتخب استضاف وفاز بكأس العالم 1998؟",
+        "answer": "فرنسا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c14_011",
+        "question": "أي منتخب فاز بكأس العالم 2002؟",
+        "answer": "البرازيل",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c14_012",
+        "question": "من سجل هدفي البرازيل في نهائي كأس العالم 2002؟",
+        "answer": "رونالدو نازاريو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c14_013",
+        "question": "أي منتخب فاز بكأس العالم 2006؟",
+        "answer": "إيطاليا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c14_014",
+        "question": "من سجل هدف فرنسا في نهائي كأس العالم 2006؟",
+        "answer": "زين الدين زيدان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c14_015",
+        "question": "أي منتخب فاز بكأس العالم 1986؟",
+        "answer": "الأرجنتين",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c14_016",
+        "question": "من سجل هدف «يد الله» في مونديال 1986؟",
+        "answer": "دييغو مارادونا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c14_017",
+        "question": "أي منتخب فاز بكأس العالم 1990؟",
+        "answer": "ألمانيا الغربية",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c14_018",
+        "question": "من سجل هدف الفوز في نهائي كأس العالم 1990؟",
+        "answer": "أندرياس بريمه",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      }
+    ],
+    "تشكيلات فرق": [
+      {
+        "id": "v6b2_c15_001",
+        "question": "في خطة 4-4-2 كم عدد المهاجمين؟",
+        "answer": "2",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c15_002",
+        "question": "في خطة 4-3-3 كم عدد لاعبي خط الوسط؟",
+        "answer": "3",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c15_003",
+        "question": "في خطة 3-5-2 كم عدد المدافعين؟",
+        "answer": "3",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c15_004",
+        "question": "في خطة 4-2-3-1 كم عدد لاعبي الارتكاز أمام الدفاع عادة؟",
+        "answer": "2",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c15_005",
+        "question": "ما المركز الذي يرمز له GK؟",
+        "answer": "حارس المرمى",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c15_006",
+        "question": "ما المركز الذي يرمز له CB؟",
+        "answer": "قلب الدفاع",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c15_007",
+        "question": "ما المركز الذي يرمز له LB؟",
+        "answer": "الظهير الأيسر",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c15_008",
+        "question": "ما المركز الذي يرمز له RB؟",
+        "answer": "الظهير الأيمن",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c15_009",
+        "question": "ما المركز الذي يرمز له DM؟",
+        "answer": "وسط دفاعي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c15_010",
+        "question": "ما المركز الذي يرمز له AM؟",
+        "answer": "وسط هجومي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c15_011",
+        "question": "ما المركز الذي يرمز له LW؟",
+        "answer": "جناح أيسر",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c15_012",
+        "question": "ما المركز الذي يرمز له ST؟",
+        "answer": "مهاجم صريح",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      }
+    ],
+    "عالم الحيوان": [
+      {
+        "id": "v6b2_c16_001",
+        "question": "ما أسرع حيوان بري؟",
+        "answer": "الفهد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c16_002",
+        "question": "ما أكبر حيوان على الأرض؟",
+        "answer": "الحوت الأزرق",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c16_003",
+        "question": "أي حيوان ثديي يبيض وله منقار؟",
+        "answer": "خلد الماء",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c16_004",
+        "question": "كم قلبًا للأخطبوط؟",
+        "answer": "ثلاثة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c16_005",
+        "question": "ما أكبر طائر حي من حيث الحجم؟",
+        "answer": "النعامة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c16_006",
+        "question": "ما الحيوان الوحيد من الثدييات القادر على الطيران الحقيقي؟",
+        "answer": "الخفاش",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c16_007",
+        "question": "ما أكبر أنواع القروش المعاصرة؟",
+        "answer": "قرش الحوت",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c16_008",
+        "question": "ما اسم صغير الضفدع بعد الفقس؟",
+        "answer": "الشرغوف",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c16_009",
+        "question": "أي فصيلة ينتمي إليها الأسد؟",
+        "answer": "السنوريات",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c16_010",
+        "question": "ما الحيوان البري صاحب أطول رقبة؟",
+        "answer": "الزرافة",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c16_011",
+        "question": "أي حيوان بحري يملك ثمانية أذرع؟",
+        "answer": "الأخطبوط",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c16_012",
+        "question": "أي مجموعة من الثدييات تلد صغارًا غير مكتملة النمو وتكمل نموها غالبًا في جراب؟",
+        "answer": "الجرابيات",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      }
+    ],
+    "صحح الخطأ": [
+      {
+        "id": "v6b2_c17_001",
+        "question": "استبدل الكلمة الخاطئة: عاصمة أستراليا هي 【سيدني】.",
+        "answer": "كانبرا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "question_html": "استبدل الكلمة الخاطئة: عاصمة أستراليا هي <mark style='background:#ffe39a;padding:1px 4px;border-radius:5px'>سيدني</mark>."
+      },
+      {
+        "id": "v6b2_c17_002",
+        "question": "استبدل الكلمة الخاطئة: أكبر كوكب في المجموعة الشمسية هو 【زحل】.",
+        "answer": "المشتري",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "question_html": "استبدل الكلمة الخاطئة: أكبر كوكب في المجموعة الشمسية هو <mark style='background:#ffe39a;padding:1px 4px;border-radius:5px'>زحل</mark>."
+      },
+      {
+        "id": "v6b2_c17_003",
+        "question": "استبدل الكلمة الخاطئة: فاز منتخب 【البرازيل】 بكأس العالم 2010.",
+        "answer": "إسبانيا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "question_html": "استبدل الكلمة الخاطئة: فاز منتخب <mark style='background:#ffe39a;padding:1px 4px;border-radius:5px'>البرازيل</mark> بكأس العالم 2010."
+      },
+      {
+        "id": "v6b2_c17_004",
+        "question": "استبدل الكلمة الخاطئة: نهر السين يمر في 【لندن】.",
+        "answer": "باريس",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "question_html": "استبدل الكلمة الخاطئة: نهر السين يمر في <mark style='background:#ffe39a;padding:1px 4px;border-radius:5px'>لندن</mark>."
+      },
+      {
+        "id": "v6b2_c17_005",
+        "question": "استبدل الكلمة الخاطئة: الرمز الكيميائي O يعود إلى 【الذهب】.",
+        "answer": "الأكسجين",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "question_html": "استبدل الكلمة الخاطئة: الرمز الكيميائي O يعود إلى <mark style='background:#ffe39a;padding:1px 4px;border-radius:5px'>الذهب</mark>."
+      },
+      {
+        "id": "v6b2_c17_006",
+        "question": "استبدل الكلمة الخاطئة: ملعب ريال مدريد هو 【كامب نو】.",
+        "answer": "سانتياغو برنابيو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "question_html": "استبدل الكلمة الخاطئة: ملعب ريال مدريد هو <mark style='background:#ffe39a;padding:1px 4px;border-radius:5px'>كامب نو</mark>."
+      },
+      {
+        "id": "v6b2_c17_007",
+        "question": "استبدل الكلمة الخاطئة: أعلى جبل في العالم هو 【كليمنجارو】.",
+        "answer": "إيفرست",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "question_html": "استبدل الكلمة الخاطئة: أعلى جبل في العالم هو <mark style='background:#ffe39a;padding:1px 4px;border-radius:5px'>كليمنجارو</mark>."
+      },
+      {
+        "id": "v6b2_c17_008",
+        "question": "استبدل الكلمة الخاطئة: عاصمة اليابان هي 【كيوتو】.",
+        "answer": "طوكيو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "question_html": "استبدل الكلمة الخاطئة: عاصمة اليابان هي <mark style='background:#ffe39a;padding:1px 4px;border-radius:5px'>كيوتو</mark>."
+      },
+      {
+        "id": "v6b2_c17_009",
+        "question": "استبدل الكلمة الخاطئة: الحوت الأزرق من 【الأسماك】.",
+        "answer": "الثدييات",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "question_html": "استبدل الكلمة الخاطئة: الحوت الأزرق من <mark style='background:#ffe39a;padding:1px 4px;border-radius:5px'>الأسماك</mark>."
+      },
+      {
+        "id": "v6b2_c17_010",
+        "question": "استبدل الكلمة الخاطئة: كأس العالم 2022 أُقيمت في 【الإمارات】.",
+        "answer": "قطر",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "question_html": "استبدل الكلمة الخاطئة: كأس العالم 2022 أُقيمت في <mark style='background:#ffe39a;padding:1px 4px;border-radius:5px'>الإمارات</mark>."
+      },
+      {
+        "id": "v6b2_c17_011",
+        "question": "استبدل الكلمة الخاطئة: برشلونة نادٍ من مدينة 【مدريد】.",
+        "answer": "برشلونة",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "question_html": "استبدل الكلمة الخاطئة: برشلونة نادٍ من مدينة <mark style='background:#ffe39a;padding:1px 4px;border-radius:5px'>مدريد</mark>."
+      },
+      {
+        "id": "v6b2_c17_012",
+        "question": "استبدل الرقم الخاطئ: يبدأ فريق كرة القدم المباراة بـ【12】 لاعبًا داخل الملعب.",
+        "answer": "11",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "question_html": "استبدل الرقم الخاطئ: يبدأ فريق كرة القدم المباراة بـ<mark style='background:#ffe39a;padding:1px 4px;border-radius:5px'>12</mark> لاعبًا داخل الملعب."
+      }
+    ],
+    "معارك وحروب": [
+      {
+        "id": "v6b2_c18_001",
+        "question": "ما المعركة التي هُزم فيها نابليون نهائيًا عام 1815؟",
+        "answer": "واترلو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c18_002",
+        "question": "ما المعركة التي وقعت عام 1066 وغيرت حكم إنجلترا؟",
+        "answer": "هاستينغز",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c18_003",
+        "question": "ما المعركة البحرية التي انتصر فيها البريطانيون بقيادة نلسون عام 1805؟",
+        "answer": "طرفالغار",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c18_004",
+        "question": "ما المعركة التي أوقفت التقدم المغولي نحو مصر والشام عام 1260؟",
+        "answer": "عين جالوت",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c18_005",
+        "question": "ما المعركة التي انتصر فيها صلاح الدين قبل استعادة القدس عام 1187؟",
+        "answer": "حطين",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c18_006",
+        "question": "ما المعركة التي هزم فيها الإسكندر الأكبر داريوس الثالث عام 331 ق.م؟",
+        "answer": "غوغميلا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c18_007",
+        "question": "ما اسم عملية إنزال الحلفاء في نورماندي عام 1944؟",
+        "answer": "أوفرلورد",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c18_008",
+        "question": "أي معركة عام 1415 انتصر فيها هنري الخامس على الفرنسيين؟",
+        "answer": "أجينكور",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c18_009",
+        "question": "ما المعركة البحرية الشهيرة بين الإغريق والفرس عام 480 ق.م؟",
+        "answer": "سلاميس",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c18_010",
+        "question": "ما المعركة التي وقعت عام 732 بين الفرنجة وقوات أموية؟",
+        "answer": "بلاط الشهداء / تور",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c18_011",
+        "question": "ما المعركة البحرية التي حسمت الحرب الروسية اليابانية عام 1905؟",
+        "answer": "تسوشيما",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c18_012",
+        "question": "أي معركة 1942-1943 شكلت نقطة تحول كبرى على الجبهة الشرقية؟",
+        "answer": "ستالينغراد",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      }
+    ],
+    "خمن الدولة": [
+      {
+        "id": "v6b2_c19_001",
+        "question": "دولة أوروبية عاصمتها لشبونة. ما هي؟",
+        "answer": "البرتغال",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c19_002",
+        "question": "دولة آسيوية عاصمتها هانوي. ما هي؟",
+        "answer": "فيتنام",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c19_003",
+        "question": "دولة أفريقية عاصمتها نيروبي. ما هي؟",
+        "answer": "كينيا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c19_004",
+        "question": "دولة في أمريكا الجنوبية عاصمتها ليما. ما هي؟",
+        "answer": "بيرو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c19_005",
+        "question": "دولة أوروبية عاصمتها تالين. ما هي؟",
+        "answer": "إستونيا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c19_006",
+        "question": "دولة عاصمتها تبليسي وتقع في منطقة القوقاز. ما هي؟",
+        "answer": "جورجيا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c19_007",
+        "question": "دولة أفريقية عاصمتها أكرا. ما هي؟",
+        "answer": "غانا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c19_008",
+        "question": "دولة في أمريكا الجنوبية عاصمتها مونتيفيديو. ما هي؟",
+        "answer": "أوروغواي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c19_009",
+        "question": "دولة آسيوية عاصمتها كاتماندو. ما هي؟",
+        "answer": "نيبال",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c19_010",
+        "question": "دولة أوروبية عاصمتها ليوبليانا. ما هي؟",
+        "answer": "سلوفينيا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c19_011",
+        "question": "دولة أفريقية عاصمتها كيغالي. ما هي؟",
+        "answer": "رواندا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c19_012",
+        "question": "دولة آسيوية عاصمتها فيينتيان. ما هي؟",
+        "answer": "لاوس",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      }
+    ],
+    "السيرة النبوية": [
+      {
+        "id": "v6b2_c20_001",
+        "question": "في أي مدينة وُلد النبي محمد ﷺ؟",
+        "answer": "مكة المكرمة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c20_002",
+        "question": "إلى أي مدينة هاجر النبي ﷺ؟",
+        "answer": "المدينة المنورة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c20_003",
+        "question": "ما اسم الغار الذي نزل فيه الوحي أول مرة؟",
+        "answer": "غار حراء",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c20_004",
+        "question": "من أول زوجات النبي ﷺ؟",
+        "answer": "خديجة بنت خويلد رضي الله عنها",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c20_005",
+        "question": "من صاحب النبي ﷺ في الهجرة؟",
+        "answer": "أبو بكر الصديق رضي الله عنه",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c20_006",
+        "question": "ما اسم ناقة النبي ﷺ المشهورة؟",
+        "answer": "القصواء",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c20_007",
+        "question": "ما أول غزوة كبرى في الإسلام؟",
+        "answer": "غزوة بدر",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c20_008",
+        "question": "في أي سنة هجرية كان فتح مكة؟",
+        "answer": "8 هـ",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c20_009",
+        "question": "ما اسم صلح السنة السادسة للهجرة؟",
+        "answer": "صلح الحديبية",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c20_010",
+        "question": "من عم النبي ﷺ الذي استشهد في أُحد؟",
+        "answer": "حمزة بن عبد المطلب رضي الله عنه",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c20_011",
+        "question": "ما اسم المسجد الذي بناه النبي ﷺ عند وصوله قباء؟",
+        "answer": "مسجد قباء",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c20_012",
+        "question": "في أي سنة هجرية توفي النبي ﷺ؟",
+        "answer": "11 هـ",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      }
+    ],
+    "من سجل الهدف": [
+      {
+        "id": "v6b2_c21_001",
+        "question": "من سجل هدف إسبانيا في نهائي كأس العالم 2010؟",
+        "answer": "أندريس إنييستا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c21_002",
+        "question": "من سجل هدف ألمانيا في نهائي كأس العالم 2014؟",
+        "answer": "ماريو غوتزه",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c21_003",
+        "question": "من سجل هدف ريال مدريد المتأخر للتعادل في نهائي دوري الأبطال 2014؟",
+        "answer": "سيرخيو راموس",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c21_004",
+        "question": "من سجل هدف مانشستر يونايتد في نهائي دوري الأبطال 2008؟",
+        "answer": "كريستيانو رونالدو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c21_005",
+        "question": "من سجل هدف برشلونة الشهير أمام تشيلسي في إياب نصف نهائي 2009؟",
+        "answer": "أندريس إنييستا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c21_006",
+        "question": "أي لاعب أحرز الهدفين اللذين حسمَا نهائي مونديال 2002 للبرازيل؟",
+        "answer": "رونالدو نازاريو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c21_007",
+        "question": "أي لاعب أحرز هدف فرنسا الوحيد في نهائي مونديال 2006؟",
+        "answer": "زين الدين زيدان",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c21_008",
+        "question": "من سجل هدف ليفربول الأول في عودة نهائي إسطنبول 2005؟",
+        "answer": "ستيفن جيرارد",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c21_009",
+        "question": "من سجل هدف مانشستر سيتي الحاسم للقب الدوري 2012؟",
+        "answer": "سيرخيو أغويرو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c21_010",
+        "question": "أي لاعب سجل بتسديدة طائرة هدف ريال مدريد الثاني في نهائي 2002؟",
+        "answer": "زين الدين زيدان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c21_011",
+        "question": "من سجل هدف الفوز لبايرن في نهائي دوري الأبطال 2013؟",
+        "answer": "آريين روبن",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c21_012",
+        "question": "من سجل هدف تشيلسي في نهائي دوري الأبطال 2012؟",
+        "answer": "ديدييه دروغبا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      }
+    ],
+    "تاريخ الخلفاء": [
+      {
+        "id": "v6b2_c22_001",
+        "question": "من أول الخلفاء الراشدين؟",
+        "answer": "أبو بكر الصديق رضي الله عنه",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c22_002",
+        "question": "من ثاني الخلفاء الراشدين؟",
+        "answer": "عمر بن الخطاب رضي الله عنه",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c22_003",
+        "question": "من ثالث الخلفاء الراشدين؟",
+        "answer": "عثمان بن عفان رضي الله عنه",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c22_004",
+        "question": "من رابع الخلفاء الراشدين؟",
+        "answer": "علي بن أبي طالب رضي الله عنه",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c22_005",
+        "question": "من أول خلفاء بني أمية؟",
+        "answer": "معاوية بن أبي سفيان",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c22_006",
+        "question": "من الخليفة الأموي الذي بنى قبة الصخرة؟",
+        "answer": "عبد الملك بن مروان",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c22_007",
+        "question": "من الخليفة الأموي الذي ارتبط عهده بفتح الأندلس؟",
+        "answer": "الوليد بن عبد الملك",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c22_008",
+        "question": "من الخليفة العباسي الذي بويع سنة 132هـ بوصفه أول خلفاء الدولة العباسية؟",
+        "answer": "أبو العباس السفاح",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c22_009",
+        "question": "من الخليفة العباسي الذي أسس بغداد؟",
+        "answer": "أبو جعفر المنصور",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c22_010",
+        "question": "من الخليفة العباسي المشهور الذي عاصر شارلمان؟",
+        "answer": "هارون الرشيد",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c22_011",
+        "question": "من آخر الخلفاء الأمويين في دمشق؟",
+        "answer": "مروان بن محمد",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c22_012",
+        "question": "من الخليفة الأموي المشهور بالعدل والإصلاح والذي حكم من 99 إلى 101هـ؟",
+        "answer": "عمر بن عبد العزيز",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      }
+    ],
+    "تاريخ الصحابة": [
+      {
+        "id": "v6b2_c23_001",
+        "question": "من الصحابي الملقب بالصديق؟",
+        "answer": "أبو بكر رضي الله عنه",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c23_002",
+        "question": "من الصحابي الملقب بالفاروق؟",
+        "answer": "عمر بن الخطاب رضي الله عنه",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c23_003",
+        "question": "من الصحابي الملقب بذي النورين؟",
+        "answer": "عثمان بن عفان رضي الله عنه",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c23_004",
+        "question": "من الصحابي الملقب بسيف الله المسلول؟",
+        "answer": "خالد بن الوليد رضي الله عنه",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c23_005",
+        "question": "من مؤذن النبي ﷺ المشهور؟",
+        "answer": "بلال بن رباح رضي الله عنه",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c23_006",
+        "question": "من الصحابي الذي نام في فراش النبي ﷺ ليلة الهجرة؟",
+        "answer": "علي بن أبي طالب رضي الله عنه",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c23_007",
+        "question": "من حبر الأمة وترجمان القرآن؟",
+        "answer": "عبد الله بن عباس رضي الله عنهما",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c23_008",
+        "question": "من الصحابي الملقب بأمين هذه الأمة؟",
+        "answer": "أبو عبيدة عامر بن الجراح رضي الله عنه",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c23_009",
+        "question": "من الصحابي الذي أشار بحفر الخندق؟",
+        "answer": "سلمان الفارسي رضي الله عنه",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c23_010",
+        "question": "من الصحابي الذي جمع القرآن بأمر أبي بكر بعد اليمامة؟",
+        "answer": "زيد بن ثابت رضي الله عنه",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c23_011",
+        "question": "من الصحابي المعروف بكثرة رواية الحديث ويكنى أبا هريرة؟",
+        "answer": "أبو هريرة رضي الله عنه",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c23_012",
+        "question": "من ابن عم النبي ﷺ وزوج فاطمة رضي الله عنها؟",
+        "answer": "علي بن أبي طالب رضي الله عنه",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      }
+    ],
+    "القرآن الكريم": [
+      {
+        "id": "v6b2_c24_001",
+        "question": "كم عدد سور القرآن الكريم؟",
+        "answer": "114 سورة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c24_002",
+        "question": "ما أطول سورة في القرآن؟",
+        "answer": "سورة البقرة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c24_003",
+        "question": "ما أقصر سورة في القرآن؟",
+        "answer": "سورة الكوثر",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c24_004",
+        "question": "ما أول سورة في ترتيب المصحف؟",
+        "answer": "سورة الفاتحة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c24_005",
+        "question": "ما آخر سورة في ترتيب المصحف؟",
+        "answer": "سورة الناس",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c24_006",
+        "question": "في أي سورة توجد آية الكرسي؟",
+        "answer": "سورة البقرة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c24_007",
+        "question": "ما السورة التي لا تبدأ بالبسملة؟",
+        "answer": "سورة التوبة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c24_008",
+        "question": "ما السورة التي وردت فيها البسملة مرتين؟",
+        "answer": "سورة النمل",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c24_009",
+        "question": "ما السورة التي تحمل اسم امرأة؟",
+        "answer": "سورة مريم",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c24_010",
+        "question": "ما أول كلمة نزلت من القرآن على المشهور؟",
+        "answer": "اقرأ",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c24_011",
+        "question": "في أي سورة وردت قصة أصحاب الكهف؟",
+        "answer": "سورة الكهف",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c24_012",
+        "question": "ما السورة التي تسمى أم الكتاب؟",
+        "answer": "سورة الفاتحة",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      }
+    ],
+    "رؤساء دول": [
+      {
+        "id": "v6b2_c25_001",
+        "question": "من كان أول رئيس للولايات المتحدة؟",
+        "answer": "جورج واشنطن",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c25_002",
+        "question": "من كان رئيس الولايات المتحدة أثناء الحرب الأهلية الأمريكية؟",
+        "answer": "أبراهام لينكولن",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c25_003",
+        "question": "من أصبح رئيس جنوب أفريقيا بعد انتخابات 1994؟",
+        "answer": "نيلسون مانديلا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c25_004",
+        "question": "من تولى رئاسة الجمهورية الفرنسية الخامسة عند تأسيسها سنة 1958؟",
+        "answer": "شارل ديغول",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c25_005",
+        "question": "من كان رئيس الولايات المتحدة أثناء أزمة الصواريخ الكوبية؟",
+        "answer": "جون كينيدي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c25_006",
+        "question": "من كان رئيس الولايات المتحدة عند هجمات 11 سبتمبر 2001؟",
+        "answer": "جورج دبليو بوش",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c25_007",
+        "question": "من كان رئيس مصر أثناء حرب أكتوبر 1973؟",
+        "answer": "أنور السادات",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c25_008",
+        "question": "من كان رئيس فرنسا عند توقيع معاهدة ماستريخت عام 1992؟",
+        "answer": "فرانسوا ميتران",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c25_009",
+        "question": "من كان رئيس الولايات المتحدة عند سقوط جدار برلين عام 1989؟",
+        "answer": "جورج بوش الأب",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c25_010",
+        "question": "من كان رئيس روسيا بين 2008 و2012؟",
+        "answer": "دميتري ميدفيديف",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c25_011",
+        "question": "من كان أول رئيس لجمهورية تركيا؟",
+        "answer": "مصطفى كمال أتاتورك",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c25_012",
+        "question": "من كان أول رئيس للهند؟",
+        "answer": "راجندرا براساد",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      }
+    ],
+    "ألغاز": [
+      {
+        "id": "v6b2_c26_001",
+        "question": "شيء كلما أخذت منه كبر، ما هو؟",
+        "answer": "الحفرة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c26_002",
+        "question": "له أسنان ولا يعض، ما هو؟",
+        "answer": "المشط",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c26_003",
+        "question": "ما الشيء الذي يكتب ولا يقرأ؟",
+        "answer": "القلم",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c26_004",
+        "question": "ما الشيء الذي له رقبة بلا رأس؟",
+        "answer": "الزجاجة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c26_005",
+        "question": "ما الشيء الذي كلما زاد نقص؟",
+        "answer": "العمر",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c26_006",
+        "question": "بيت بلا أبواب ولا نوافذ وفيه ساكن، ما هو؟",
+        "answer": "البيضة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c26_007",
+        "question": "ما الشيء الذي يسمع بلا أذن ويتكلم بلا لسان؟",
+        "answer": "الصدى",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c26_008",
+        "question": "له أوراق وليس نباتًا وله جلد وليس حيوانًا، ما هو؟",
+        "answer": "الكتاب",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c26_009",
+        "question": "ما الذي يوجد في وسط كلمة مكة؟",
+        "answer": "حرف الكاف",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c26_010",
+        "question": "ما الشيء الذي إذا نطقت اسمه كسرته؟",
+        "answer": "الصمت",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c26_011",
+        "question": "ما الذي يجري ولا يمشي؟",
+        "answer": "الماء",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c26_012",
+        "question": "ما الشيء الذي يدخل الماء ولا يبتل؟",
+        "answer": "الضوء",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      }
+    ],
+    "حروف اسلامي": [
+      {
+        "id": "v6b2_c27_001",
+        "question": "اسم نبي يبدأ بحرف إ؟",
+        "answer": "إبراهيم",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c27_002",
+        "question": "اسم نبي يبدأ بحرف م؟",
+        "answer": "موسى",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c27_003",
+        "question": "اسم نبي يبدأ بحرف ي؟",
+        "answer": "يوسف",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c27_004",
+        "question": "اسم صحابي يبدأ بحرف ع وكان ثاني الخلفاء؟",
+        "answer": "عمر بن الخطاب",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c27_005",
+        "question": "اسم صحابي يبدأ بحرف ب وكان مؤذن النبي ﷺ؟",
+        "answer": "بلال بن رباح",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c27_006",
+        "question": "اسم سورة تبدأ بحرف ك؟",
+        "answer": "الكهف",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c27_007",
+        "question": "اسم سورة تبدأ بحرف ن؟",
+        "answer": "الناس",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c27_008",
+        "question": "اسم سورة تبدأ بحرف ف؟",
+        "answer": "الفاتحة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c27_009",
+        "question": "اسم نبي يبدأ بحرف ه؟",
+        "answer": "هود",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c27_010",
+        "question": "اسم نبي يبدأ بحرف ص؟",
+        "answer": "صالح",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c27_011",
+        "question": "اسم نبي يبدأ بحرف ز؟",
+        "answer": "زكريا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c27_012",
+        "question": "اسم صحابي يبدأ بحرف س وأشار بحفر الخندق؟",
+        "answer": "سلمان الفارسي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      }
+    ],
+    "اغاني عربية": [
+      {
+        "id": "v6b2_c28_001",
+        "question": "من غنى «الأطلال» بصوتها الأشهر؟",
+        "answer": "أم كلثوم",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c28_002",
+        "question": "من غنى «قارئة الفنجان»؟",
+        "answer": "عبد الحليم حافظ",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c28_003",
+        "question": "من غنى «نسم علينا الهوى»؟",
+        "answer": "فيروز",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c28_004",
+        "question": "من غنى «أما براوة» بصوتها الأشهر؟",
+        "answer": "نجاة الصغيرة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c28_005",
+        "question": "من غنى «سيرة الحب»؟",
+        "answer": "أم كلثوم",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c28_006",
+        "question": "من غنى «جانا الهوى»؟",
+        "answer": "عبد الحليم حافظ",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c28_007",
+        "question": "من غنى «كان عنا طاحون»؟",
+        "answer": "فيروز",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c28_008",
+        "question": "من غنى «عيون القلب»؟",
+        "answer": "نجاة الصغيرة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c28_009",
+        "question": "من غنى «ألف ليلة وليلة»؟",
+        "answer": "أم كلثوم",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c28_010",
+        "question": "من غنى «زي الهوى»؟",
+        "answer": "عبد الحليم حافظ",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c28_011",
+        "question": "من غنى «زهرة المدائن»؟",
+        "answer": "فيروز",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c28_012",
+        "question": "من غنى «رسالة من تحت الماء»؟",
+        "answer": "عبد الحليم حافظ",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      }
+    ],
+    "افلام اجنبية": [
+      {
+        "id": "v6b2_c29_001",
+        "question": "من أخرج فيلم Titanic؟",
+        "answer": "جيمس كاميرون",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c29_002",
+        "question": "من أدى دور جاك في Titanic؟",
+        "answer": "ليوناردو دي كابريو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c29_003",
+        "question": "من أخرج فيلم Inception؟",
+        "answer": "كريستوفر نولان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c29_004",
+        "question": "من أدى شخصية الجوكر في The Dark Knight؟",
+        "answer": "هيث ليدجر",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c29_005",
+        "question": "أي فيلم كوري فاز بأوسكار أفضل فيلم في حفل 2020؟",
+        "answer": "Parasite",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c29_006",
+        "question": "من أخرج فيلم Pulp Fiction؟",
+        "answer": "كوينتن تارانتينو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c29_007",
+        "question": "من أدى دور فورست في Forrest Gump؟",
+        "answer": "توم هانكس",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c29_008",
+        "question": "من أخرج فيلم The Godfather؟",
+        "answer": "فرانسيس فورد كوبولا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c29_009",
+        "question": "أي فيلم تدور أحداثه حول حديقة ديناصورات أُنشئت بالاستنساخ؟",
+        "answer": "Jurassic Park",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c29_010",
+        "question": "من أخرج فيلم Gladiator الصادر عام 2000؟",
+        "answer": "ريدلي سكوت",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c29_011",
+        "question": "من أدى شخصية إنديانا جونز في الأفلام الأصلية؟",
+        "answer": "هاريسون فورد",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c29_012",
+        "question": "من أخرج فيلم Schindler's List؟",
+        "answer": "ستيفن سبيلبرغ",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      }
+    ],
+    "مسلسلات عربية": [
+      {
+        "id": "v6b2_c30_001",
+        "question": "من أدى شخصية غوار الطوشة؟",
+        "answer": "دريد لحام",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c30_002",
+        "question": "ما اسم المسلسل السوري الشهير الذي تدور أحداثه في حارة شامية افتراضية؟",
+        "answer": "باب الحارة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c30_003",
+        "question": "من أدى شخصية أبو شهاب في المواسم الأولى من باب الحارة؟",
+        "answer": "سامر المصري",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c30_004",
+        "question": "من أدى دور أبو عصام في باب الحارة؟",
+        "answer": "عباس النوري",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c30_005",
+        "question": "من بطل مسلسل «الهيبة» بدور جبل؟",
+        "answer": "تيم حسن",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c30_006",
+        "question": "من أدى شخصية أبو جانتي في المسلسل السوري الذي يحمل الاسم نفسه؟",
+        "answer": "سامر المصري",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c30_007",
+        "question": "من بطل «ضيعة ضايعة» في دور أسعد؟",
+        "answer": "نضال سيجري",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c30_008",
+        "question": "من أدى شخصية جودي في «ضيعة ضايعة»؟",
+        "answer": "باسم ياخور",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c30_009",
+        "question": "ما اسم القرية التي تدور فيها أحداث «ضيعة ضايعة»؟",
+        "answer": "أم الطنافس",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c30_010",
+        "question": "من أدى شخصية أبو نبال في «الخربة»؟",
+        "answer": "دريد لحام",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c30_011",
+        "question": "ما اسم المسلسل الكوميدي السوري الذي اشتهر بلوحات وشخصيات متعددة من بطولة ياسر العظمة؟",
+        "answer": "مرايا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c30_012",
+        "question": "من بطل مسلسل «الاختيار» في موسمه الأول بدور أحمد المنسي؟",
+        "answer": "أمير كرارة",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      }
+    ],
+    "مانشستر يونايتد": [
+      {
+        "id": "v6b2_c31_001",
+        "question": "ما اسم ملعب مانشستر يونايتد؟",
+        "answer": "أولد ترافورد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c31_002",
+        "question": "من المدرب الذي قاد يونايتد للثلاثية عام 1999؟",
+        "answer": "السير أليكس فيرغسون",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c31_003",
+        "question": "من سجل هدف الفوز في نهائي دوري الأبطال 1999؟",
+        "answer": "أولي غونار سولشاير",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c31_004",
+        "question": "من الهداف التاريخي لمانشستر يونايتد؟",
+        "answer": "واين روني",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c31_005",
+        "question": "من الحارس الهولندي الذي فاز مع يونايتد بدوري الأبطال 2008؟",
+        "answer": "إدوين فان دير سار",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c31_006",
+        "question": "أي فريق هزمه يونايتد في نهائي دوري الأبطال 2008؟",
+        "answer": "تشيلسي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c31_007",
+        "question": "أي لاعب برتغالي انضم إلى يونايتد من سبورتينغ لشبونة عام 2003؟",
+        "answer": "كريستيانو رونالدو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c31_008",
+        "question": "من سجل هدف يونايتد في نهائي دوري الأبطال 2011؟",
+        "answer": "واين روني",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c31_009",
+        "question": "ما لقب مانشستر يونايتد الشهير؟",
+        "answer": "الشياطين الحمر",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c31_010",
+        "question": "من قائد يونايتد الذي رفع كأس دوري الأبطال 1999؟",
+        "answer": "بيتر شمايكل",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c31_011",
+        "question": "من اللاعب الفرنسي الذي ارتدى الرقم 7 واشتهر مع يونايتد في التسعينيات؟",
+        "answer": "إريك كانتونا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c31_012",
+        "question": "في أي مدينة يقع نادي مانشستر يونايتد؟",
+        "answer": "مانشستر",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      }
+    ],
+    "ريال مدريد": [
+      {
+        "id": "v6b2_c32_001",
+        "question": "ما اسم ملعب ريال مدريد؟",
+        "answer": "سانتياغو برنابيو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c32_002",
+        "question": "من الهداف التاريخي لريال مدريد؟",
+        "answer": "كريستيانو رونالدو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c32_003",
+        "question": "من سجل هدف التعادل في الدقيقة 93 بنهائي دوري الأبطال 2014؟",
+        "answer": "سيرخيو راموس",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c32_004",
+        "question": "من سجل هدف ريال مدريد الطائر في نهائي دوري الأبطال 2002؟",
+        "answer": "زين الدين زيدان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c32_005",
+        "question": "من الحارس الذي رفع دوري الأبطال مع ريال مدريد 2000 و2002 و2014؟",
+        "answer": "إيكر كاسياس",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c32_006",
+        "question": "ما لون القميص الأساسي التقليدي لريال مدريد؟",
+        "answer": "الأبيض",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c32_007",
+        "question": "في أي مدينة إسبانية يقع مقر ريال مدريد؟",
+        "answer": "مدريد",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c32_008",
+        "question": "من اللاعب الكرواتي الذي فاز بالكرة الذهبية 2018 وهو لاعب لريال مدريد؟",
+        "answer": "لوكا مودريتش",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c32_009",
+        "question": "أي لاعب برتغالي انضم إلى ريال مدريد من مانشستر يونايتد عام 2009؟",
+        "answer": "كريستيانو رونالدو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c32_010",
+        "question": "من المدرب الذي قاد ريال مدريد لثلاثة ألقاب دوري أبطال متتالية 2016-2018؟",
+        "answer": "زين الدين زيدان",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c32_011",
+        "question": "أي نادٍ هو الخصم التقليدي لريال مدريد في ديربي مدريد؟",
+        "answer": "أتلتيكو مدريد",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c32_012",
+        "question": "ما لقب ريال مدريد الشائع المرتبط بلونه؟",
+        "answer": "الميرينغي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c32_013",
+        "question": "من سجل هدف الفوز لريال مدريد في نهائي دوري الأبطال 1998؟",
+        "answer": "بريدراج مياتوفيتش",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c32_014",
+        "question": "أي لاعب برازيلي لعب لريال مدريد في مركز الظهير الأيسر واشتهر بالرقم 3؟",
+        "answer": "روبرتو كارلوس",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c32_015",
+        "question": "من كان قائد ريال مدريد في نهائي دوري الأبطال 2018؟",
+        "answer": "سيرخيو راموس",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c32_016",
+        "question": "أي لاعب إنجليزي انضم إلى ريال مدريد من مانشستر يونايتد عام 2003؟",
+        "answer": "ديفيد بيكهام",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c32_017",
+        "question": "من سجل هدفين لريال مدريد في نهائي دوري الأبطال 2017؟",
+        "answer": "كريستيانو رونالدو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c32_018",
+        "question": "من الحارس البلجيكي الذي تألق في نهائي دوري الأبطال 2022؟",
+        "answer": "تيبو كورتوا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      }
+    ],
+    "برشلونة": [
+      {
+        "id": "v6b2_c33_001",
+        "question": "ما اسم الملعب التاريخي لبرشلونة الذي افتتح عام 1957؟",
+        "answer": "كامب نو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c33_002",
+        "question": "من الهداف التاريخي لبرشلونة؟",
+        "answer": "ليونيل ميسي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c33_003",
+        "question": "من المدرب الذي قاد برشلونة للسداسية عام 2009؟",
+        "answer": "بيب غوارديولا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c33_004",
+        "question": "من سجل هدف برشلونة الثاني في نهائي دوري الأبطال 2009؟",
+        "answer": "ليونيل ميسي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c33_005",
+        "question": "من سجل هدف برشلونة الأول في نهائي دوري الأبطال 2009؟",
+        "answer": "صامويل إيتو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c33_006",
+        "question": "أي لاعب برازيلي فاز بالكرة الذهبية 2005 مع برشلونة؟",
+        "answer": "رونالدينيو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c33_007",
+        "question": "من لاعب الوسط الذي سجل هدف الفوز في نهائي كأس العالم 2010 وكان نجمًا لبرشلونة؟",
+        "answer": "أندريس إنييستا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c33_008",
+        "question": "أي لاعب أوروغواياني شكّل مع ميسي ونيمار ثلاثي MSN؟",
+        "answer": "لويس سواريز",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c33_009",
+        "question": "من قائد برشلونة الذي رفع دوري الأبطال 2015؟",
+        "answer": "تشافي هيرنانديز",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c33_010",
+        "question": "ما ألوان قميص برشلونة التقليدية؟",
+        "answer": "الأزرق والأحمر",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c33_011",
+        "question": "في أي مدينة إسبانية يقع مقر نادي برشلونة؟",
+        "answer": "برشلونة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c33_012",
+        "question": "ما اسم أكاديمية برشلونة الشهيرة؟",
+        "answer": "لا ماسيا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c33_013",
+        "question": "من سجل هدف الفوز لبرشلونة في نهائي دوري الأبطال 2006؟",
+        "answer": "جوليانو بيليتي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c33_014",
+        "question": "أي لاعب بلغاري فاز بالكرة الذهبية 1994 أثناء لعبه مع برشلونة؟",
+        "answer": "خريستو ستويتشكوف",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c33_015",
+        "question": "من الحارس الألماني الذي انضم لبرشلونة عام 2014؟",
+        "answer": "مارك أندريه تير شتيغن",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c33_016",
+        "question": "أي لاعب برازيلي انضم إلى برشلونة من باريس سان جيرمان عام 2003؟",
+        "answer": "رونالدينيو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c33_017",
+        "question": "من المدرب الهولندي الذي قاد برشلونة للفوز بكأس أوروبا 1992؟",
+        "answer": "يوهان كرويف",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c33_018",
+        "question": "من سجل هدف برشلونة في نهائي كأس أوروبا 1992؟",
+        "answer": "رونالد كومان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      }
+    ],
+    "الكلاسيكو": [
+      {
+        "id": "v6b2_c34_001",
+        "question": "ما الناديان اللذان يخوضان الكلاسيكو الإسباني؟",
+        "answer": "ريال مدريد وبرشلونة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c34_002",
+        "question": "في أي ملعب يخوض ريال مدريد الكلاسيكو على أرضه؟",
+        "answer": "سانتياغو برنابيو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c34_003",
+        "question": "ما الملعب التاريخي الذي استضاف فيه برشلونة الكلاسيكو على أرضه؟",
+        "answer": "كامب نو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c34_004",
+        "question": "من سجل ثلاثية لبرشلونة في كلاسيكو 2007 الذي انتهى 3-3؟",
+        "answer": "ليونيل ميسي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c34_005",
+        "question": "من سجل هدف الفوز لريال مدريد في نهائي كأس الملك 2014 ضد برشلونة؟",
+        "answer": "غاريث بيل",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c34_006",
+        "question": "أي لاعب برتغالي اشتهر باحتفال «كالما» في كامب نو عام 2012؟",
+        "answer": "كريستيانو رونالدو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c34_007",
+        "question": "من مدرب برشلونة في الفوز 6-2 على ريال مدريد عام 2009؟",
+        "answer": "بيب غوارديولا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c34_008",
+        "question": "من مدرب ريال مدريد في موسم الدوري 2011-12؟",
+        "answer": "جوزيه مورينيو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c34_009",
+        "question": "أي لاعب انتقل مباشرة من برشلونة إلى ريال مدريد عام 2000؟",
+        "answer": "لويس فيغو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c34_010",
+        "question": "من سجل هدف برشلونة في نهائي كأس الملك 2014؟",
+        "answer": "مارك بارترا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c34_011",
+        "question": "أي فريق فاز بكلاسيكو الدوري 5-0 في نوفمبر 2010؟",
+        "answer": "برشلونة",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c34_012",
+        "question": "ما الاسم الشائع للمواجهة بين ريال مدريد وبرشلونة؟",
+        "answer": "الكلاسيكو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      }
+    ],
+    "قطر": [
+      {
+        "id": "v6b2_c35_001",
+        "question": "ما عاصمة قطر؟",
+        "answer": "الدوحة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c35_002",
+        "question": "ما العملة الرسمية لقطر؟",
+        "answer": "الريال القطري",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c35_003",
+        "question": "ما اسم الاستاد الذي استضاف نهائي كأس العالم 2022؟",
+        "answer": "استاد لوسيل",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c35_004",
+        "question": "ما اسم المتحف الذي صممه جان نوفيل وافتتح عام 2019؟",
+        "answer": "متحف قطر الوطني",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c35_005",
+        "question": "ما اسم السوق التراثي الشهير في الدوحة؟",
+        "answer": "سوق واقف",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c35_006",
+        "question": "ما اسم الجزيرة الاصطناعية السكنية الشهيرة في الدوحة؟",
+        "answer": "اللؤلؤة-قطر",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c35_007",
+        "question": "ما اسم البحر الداخلي في جنوب قطر؟",
+        "answer": "خور العديد",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c35_008",
+        "question": "ما اسم شركة الطيران الوطنية القطرية؟",
+        "answer": "الخطوط الجوية القطرية",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c35_009",
+        "question": "ما اللون المميز في علم قطر؟",
+        "answer": "العنابي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c35_010",
+        "question": "في أي عام استضافت قطر كأس العالم للرجال؟",
+        "answer": "2022",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c35_011",
+        "question": "ما اسم المدينة التي تضم استاد البيت؟",
+        "answer": "الخور",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c35_012",
+        "question": "ما اسم الحي الثقافي المعروف في الدوحة؟",
+        "answer": "كتارا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      }
+    ],
+    "سوريا": [
+      {
+        "id": "v6b2_c36_001",
+        "question": "ما عاصمة سوريا؟",
+        "answer": "دمشق",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c36_002",
+        "question": "ما المدينة السورية التي تضم قلعة شهيرة في مركزها التاريخي؟",
+        "answer": "حلب",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c36_003",
+        "question": "ما النهر الذي يمر بدير الزور والرقة؟",
+        "answer": "الفرات",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c36_004",
+        "question": "ما اسم المدينة الأثرية الشهيرة في البادية السورية؟",
+        "answer": "تدمر",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c36_005",
+        "question": "ما اسم القلعة الشهيرة في وسط مدينة حلب القديمة؟",
+        "answer": "قلعة حلب",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c36_006",
+        "question": "ما البحر الذي تطل عليه سوريا غربًا؟",
+        "answer": "البحر المتوسط",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c36_007",
+        "question": "ما اسم النهر الذي تمر عليه نواعير حماة؟",
+        "answer": "العاصي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c36_008",
+        "question": "ما الموقع الأثري قرب اللاذقية المرتبط بمملكة أوغاريت؟",
+        "answer": "رأس شمرا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c36_009",
+        "question": "ما عاصمة الدولة الأموية التاريخية؟",
+        "answer": "دمشق",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c36_010",
+        "question": "ما اسم الجامع الأموي الشهير في دمشق؟",
+        "answer": "الجامع الأموي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c36_011",
+        "question": "ما المدينة السورية الساحلية التي تضم ميناءً رئيسيًا وتحمل اسم المحافظة؟",
+        "answer": "اللاذقية",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b2_c36_012",
+        "question": "ما الجبل الذي يشرف على دمشق؟",
+        "answer": "جبل قاسيون",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      }
+    ],
+    "من غير كلام": [
+      {
+        "id": "v6b2_c37_001",
+        "question": "من غير كلام — بطاقة 1: امسح الباركود لمعرفة العمل ثم مثّله لفريقك بدون كلام (فيلم).",
+        "answer": "الناظر",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "mime": {
+          "type": "فيلم",
+          "title": "الناظر"
+        }
+      },
+      {
+        "id": "v6b2_c37_002",
+        "question": "من غير كلام — بطاقة 2: امسح الباركود لمعرفة العمل ثم مثّله لفريقك بدون كلام (فيلم).",
+        "answer": "عسل أسود",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "mime": {
+          "type": "فيلم",
+          "title": "عسل أسود"
+        }
+      },
+      {
+        "id": "v6b2_c37_003",
+        "question": "من غير كلام — بطاقة 3: امسح الباركود لمعرفة العمل ثم مثّله لفريقك بدون كلام (فيلم).",
+        "answer": "الإرهاب والكباب",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "mime": {
+          "type": "فيلم",
+          "title": "الإرهاب والكباب"
+        }
+      },
+      {
+        "id": "v6b2_c37_004",
+        "question": "من غير كلام — بطاقة 4: امسح الباركود لمعرفة العمل ثم مثّله لفريقك بدون كلام (مسلسل).",
+        "answer": "باب الحارة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "mime": {
+          "type": "مسلسل",
+          "title": "باب الحارة"
+        }
+      },
+      {
+        "id": "v6b2_c37_005",
+        "question": "من غير كلام — بطاقة 5: امسح الباركود لمعرفة العمل ثم مثّله لفريقك بدون كلام (مسلسل).",
+        "answer": "الهيبة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "mime": {
+          "type": "مسلسل",
+          "title": "الهيبة"
+        }
+      },
+      {
+        "id": "v6b2_c37_006",
+        "question": "من غير كلام — بطاقة 6: امسح الباركود لمعرفة العمل ثم مثّله لفريقك بدون كلام (مسلسل).",
+        "answer": "ضيعة ضايعة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "mime": {
+          "type": "مسلسل",
+          "title": "ضيعة ضايعة"
+        }
+      },
+      {
+        "id": "v6b2_c37_007",
+        "question": "من غير كلام — بطاقة 7: امسح الباركود لمعرفة العمل ثم مثّله لفريقك بدون كلام (مسرحية).",
+        "answer": "مدرسة المشاغبين",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "mime": {
+          "type": "مسرحية",
+          "title": "مدرسة المشاغبين"
+        }
+      },
+      {
+        "id": "v6b2_c37_008",
+        "question": "من غير كلام — بطاقة 8: امسح الباركود لمعرفة العمل ثم مثّله لفريقك بدون كلام (مسرحية).",
+        "answer": "شاهد ما شفش حاجة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "mime": {
+          "type": "مسرحية",
+          "title": "شاهد ما شفش حاجة"
+        }
+      },
+      {
+        "id": "v6b2_c37_009",
+        "question": "من غير كلام — بطاقة 9: امسح الباركود لمعرفة العمل ثم مثّله لفريقك بدون كلام (مسرحية).",
+        "answer": "العيال كبرت",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "mime": {
+          "type": "مسرحية",
+          "title": "العيال كبرت"
+        }
+      },
+      {
+        "id": "v6b2_c37_010",
+        "question": "من غير كلام — بطاقة 10: امسح الباركود لمعرفة العمل ثم مثّله لفريقك بدون كلام (أغنية).",
+        "answer": "نسم علينا الهوى",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "mime": {
+          "type": "أغنية",
+          "title": "نسم علينا الهوى"
+        }
+      },
+      {
+        "id": "v6b2_c37_011",
+        "question": "من غير كلام — بطاقة 11: امسح الباركود لمعرفة العمل ثم مثّله لفريقك بدون كلام (أغنية).",
+        "answer": "جانا الهوى",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "mime": {
+          "type": "أغنية",
+          "title": "جانا الهوى"
+        }
+      },
+      {
+        "id": "v6b2_c37_012",
+        "question": "من غير كلام — بطاقة 12: امسح الباركود لمعرفة العمل ثم مثّله لفريقك بدون كلام (أغنية).",
+        "answer": "سيرة الحب",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "mime": {
+          "type": "أغنية",
+          "title": "سيرة الحب"
+        }
+      }
+    ]
+  }
+}
