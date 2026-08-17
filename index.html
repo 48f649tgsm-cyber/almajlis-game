@@ -8,183 +8,74 @@
 <title>المجلس</title>
 <style>
 :root{--gold:#b9862d;--text:#111;--muted:#6f7780;--red:#a12630;--blue:#245da8;--line:#e3e6e9}
-*{box-sizing:border-box}body{margin:0;background:#fff;color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Tahoma,Arial,sans-serif;min-height:100vh}
-button,input{font:inherit}.app{max-width:760px;margin:auto;min-height:100vh;padding:calc(18px + env(safe-area-inset-top)) 16px calc(24px + env(safe-area-inset-bottom))}
-.screen{display:none}.screen.active{display:block}.brand{text-align:center;padding:45px 0 25px}.brand .mark{font-size:68px}.brand h1{font-size:60px;margin:4px;color:var(--gold)}.brand p{color:#555}
-.card{background:#fff;border:1px solid var(--line);border-radius:18px;padding:18px;margin:12px 0;box-shadow:0 8px 24px #0000000d}
+*{box-sizing:border-box}body{margin:0;background:#fff;color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Tahoma,Arial,sans-serif;min-height:100vh}button,input{font:inherit}
+.app{max-width:760px;margin:auto;min-height:100vh;padding:calc(18px + env(safe-area-inset-top)) 16px calc(24px + env(safe-area-inset-bottom))}.screen{display:none}.screen.active{display:block}
+.brand{text-align:center;padding:45px 0 25px}.brand .mark{font-size:68px}.brand h1{font-size:60px;margin:4px;color:var(--gold)}.brand p{color:#555}.card{background:#fff;border:1px solid var(--line);border-radius:18px;padding:18px;margin:12px 0;box-shadow:0 8px 24px #0000000d}
 .btn{width:100%;border:1px solid #d2d6db;border-radius:13px;padding:15px;margin:7px 0;background:#fff;color:#111;font-weight:800}.btn.gold{background:linear-gradient(#f4d693,#d5a345);color:#16110a;border:0}.btn.red{background:#fff3f4;border-color:#e5b5ba}.btn.blue{background:#f2f7ff;border-color:#b7cae6}
-h2{text-align:center;color:#111}label{display:block;color:#8b651f;margin:14px 3px 6px}.input{width:100%;padding:14px;border-radius:12px;border:1px solid #ccd1d7;background:#fff;color:#111}
-.categories{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.cat{min-height:78px;padding:10px;border:1px solid #d8dce1;border-radius:14px;background:#fff;color:#111;display:flex;align-items:center;gap:10px;text-align:right}.cat.sel{border:2px solid var(--gold);background:#fff8ea}.catIcon{width:62px;height:62px;border-radius:14px;background:#f7f3e9;display:grid;place-items:center;font-size:30px;flex:0 0 62px;overflow:hidden;border:1px solid #eadfc8}.catIcon img{width:100%;height:100%;object-fit:contain;padding:6px}.catName{font-weight:800;line-height:1.25}.cat{min-height:88px}.cat.sel .catIcon{box-shadow:0 0 0 2px var(--gold)}
-.counter{text-align:center;color:var(--gold);font-weight:900;margin:8px}.scorebar{display:grid;grid-template-columns:1fr auto 1fr;gap:8px;align-items:center;margin-bottom:12px}.teamScore{border-radius:12px;padding:10px;text-align:center;font-weight:900}.teamScore.red{background:#fff0f1;border:1px solid #e6b0b5}.teamScore.blue{background:#eef5ff;border:1px solid #b7cae5}.logo{text-align:center;color:var(--gold);font-size:22px;font-weight:900}
-.board{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.categoryBox{border:1px solid #ddd2bc;border-radius:14px;padding:8px;background:#fff}.categoryHead{display:flex;align-items:center;gap:7px;justify-content:center;min-height:45px}.categoryHead .mini{width:34px;height:34px;border-radius:8px;display:grid;place-items:center;overflow:hidden;background:#f7f3e9}.categoryHead .mini img{width:100%;height:100%;object-fit:contain;padding:3px}.categoryBox h3{text-align:center;font-size:14px;margin:4px;color:#111}.points{display:grid;grid-template-columns:1fr 1fr;gap:5px}.point{padding:10px 3px;border:1px solid #d2bd94;border-radius:8px;background:#fffaf0;color:#8c6218;font-weight:900}.point.used{opacity:.28;text-decoration:line-through}
-.question{font-size:25px;line-height:1.7;text-align:center;padding:24px 8px;color:#111;font-weight:750}.timer{width:126px;height:126px;border:8px solid #c84047;border-radius:50%;display:grid;place-items:center;margin:20px auto;font-size:30px;font-weight:900;color:#111}.timer.steal{border-color:#3477c8}.answer{text-align:center;font-size:28px;color:#7e5715;font-weight:900;padding:18px}.hidden{display:none}.small{color:var(--muted);text-align:center}.winnerImageWrap{position:relative;max-width:640px;margin:0 auto 18px}.winnerImageWrap img{width:100%;display:block;border-radius:22px;box-shadow:0 12px 36px rgba(0,0,0,.18)}.winnerOverlay{position:absolute;top:5.2%;left:50%;transform:translateX(-50%);width:78%;text-align:center;color:#f2c35d;font-size:clamp(26px,6vw,48px);font-weight:900;text-shadow:0 2px 4px #000,0 0 12px rgba(0,0,0,.7);direction:rtl;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.winner{text-align:center;padding:35px 0}.trophy{font-size:76px}.winnerName{font-size:34px;color:var(--gold);font-weight:900}.topline{display:flex;justify-content:space-between;align-items:center}.badge{color:#8a631e;font-weight:900}
-.note{font-size:12px;color:#777;text-align:center;margin-top:12px}.error{background:#fff2f2;color:#8b2020;border:1px solid #e4b4b4;border-radius:12px;padding:12px;margin:12px 0;text-align:center}
+h2{text-align:center}label{display:block;color:#8b651f;margin:14px 3px 6px}.input{width:100%;padding:14px;border-radius:12px;border:1px solid #ccd1d7;background:#fff;color:#111}.categories{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.cat{min-height:88px;padding:10px;border:1px solid #d8dce1;border-radius:14px;background:#fff;color:#111;display:flex;align-items:center;gap:10px;text-align:right}.cat.sel{border:2px solid var(--gold);background:#fff8ea}.catIcon{width:62px;height:62px;border-radius:14px;background:#f7f3e9;display:grid;place-items:center;font-size:30px;flex:0 0 62px;overflow:hidden;border:1px solid #eadfc8}.catIcon img{width:100%;height:100%;object-fit:contain;padding:6px}.catName{font-weight:800;line-height:1.25}
+.scorebar{display:grid;grid-template-columns:1fr auto 1fr;gap:8px;align-items:center;margin-bottom:12px}.teamScore{border-radius:12px;padding:10px;text-align:center;font-weight:900}.teamScore.red{background:#fff0f1;border:1px solid #e6b0b5}.teamScore.blue{background:#eef5ff;border:1px solid #b7cae5}.logo{text-align:center;color:var(--gold);font-size:22px;font-weight:900}.board{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.categoryBox{border:1px solid #ddd2bc;border-radius:14px;padding:8px;background:#fff}.categoryHead{display:flex;align-items:center;gap:7px;justify-content:center;min-height:45px}.categoryHead .mini{width:34px;height:34px;border-radius:8px;display:grid;place-items:center;background:#f7f3e9;font-size:20px}.categoryBox h3{text-align:center;font-size:14px;margin:4px}.points{display:grid;grid-template-columns:1fr 1fr;gap:5px}.point{padding:10px 3px;border:1px solid #d2bd94;border-radius:8px;background:#fffaf0;color:#8c6218;font-weight:900}.point.used{opacity:.28;text-decoration:line-through}.question{font-size:25px;line-height:1.7;text-align:center;padding:24px 8px;color:#111;font-weight:750}.timer{width:126px;height:126px;border:8px solid #c84047;border-radius:50%;display:grid;place-items:center;margin:20px auto;font-size:30px;font-weight:900}.timer.steal{border-color:#3477c8}.answer{text-align:center;font-size:28px;color:#7e5715;font-weight:900;padding:18px}.hidden{display:none}.small{color:var(--muted);text-align:center}.winner{text-align:center;padding:35px 0}.trophy{font-size:76px}.winnerName{font-size:34px;color:var(--gold);font-weight:900}.topline{display:flex;justify-content:space-between;align-items:center}.badge{color:#8a631e;font-weight:900}.note{font-size:12px;color:#777;text-align:center;margin-top:12px}.error{background:#fff2f2;color:#8b2020;border:1px solid #e4b4b4;border-radius:12px;padding:12px;margin:12px 0;text-align:center}.winnerImageWrap{position:relative;max-width:640px;margin:0 auto 18px}.winnerImageWrap img{width:100%;display:block;border-radius:22px}.winnerOverlay{position:absolute;top:5.2%;left:50%;transform:translateX(-50%);width:78%;text-align:center;color:#f2c35d;font-size:clamp(26px,6vw,48px);font-weight:900;text-shadow:0 2px 4px #000;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 @media(min-width:620px){.categories{grid-template-columns:repeat(3,1fr)}.board{grid-template-columns:repeat(3,1fr)}}
 </style></head>
 <body><main class="app">
 <section id="home" class="screen active"><div class="brand"><div class="mark">🏮</div><h1>المجلس</h1><p>مسابقة المعرفة</p></div><div id="loadStatus" class="card small">جاري تحميل بنك الأسئلة...</div><button id="newGameBtn" class="btn gold" disabled onclick="show('teams')">⚔️ ابدأ مجلس جديد</button></section>
-
-<section id="teams" class="screen"><h2>أسماء الفريقين</h2><div class="card"><label>الفريق الأول</label><input id="t1" class="input" placeholder="الفريق الأول" value=""><label>الفريق الثاني</label><input id="t2" class="input" placeholder="الفريق الثاني" value=""></div><button class="btn gold" onclick="toCategories()">التالي</button></section>
-
+<section id="teams" class="screen"><h2>أسماء الفريقين</h2><div class="card"><label>الفريق الأول</label><input id="t1" class="input" placeholder="الفريق الأول"><label>الفريق الثاني</label><input id="t2" class="input" placeholder="الفريق الثاني"></div><button class="btn gold" onclick="toCategories()">التالي</button></section>
 <section id="cats" class="screen"><div class="topline"><h2>اختيار الفئات</h2><span id="cc" class="badge">0 / 6</span></div><p class="small">اختر 6 فئات</p><div id="catGrid" class="categories"></div><button id="startBtn" class="btn gold" disabled onclick="draw()">ابدأ اللعبة</button></section>
-
 <section id="draw" class="screen"><h2>القرعة</h2><div class="card winner"><div class="trophy">🎲</div><p>الفريق الذي يبدأ هو</p><div id="starter" class="winnerName"></div></div><button class="btn gold" onclick="startGame()">ابدأ المباراة</button></section>
-
-<section id="boardScreen" class="screen"><div class="logo">المجلس</div>
-<div id="boardTurn" class="card" style="text-align:center;font-size:20px;font-weight:900;border:2px solid var(--gold);padding:12px"></div><div class="scorebar"><div id="s2" class="teamScore red"></div><div>⚔️</div><div id="s1" class="teamScore blue"></div></div><div id="board" class="board"></div></section>
-
+<section id="boardScreen" class="screen"><div class="logo">المجلس</div><div id="boardTurn" class="card" style="text-align:center;font-size:20px;font-weight:900;border:2px solid var(--gold);padding:12px"></div><div class="scorebar"><div id="s2" class="teamScore red"></div><div>⚔️</div><div id="s1" class="teamScore blue"></div></div><div id="board" class="board"></div></section>
 <section id="questionScreen" class="screen"><div class="topline"><span id="qCat" class="badge"></span><span id="qPts" class="badge"></span></div><div id="qText" class="question"></div><div id="qMedia"></div><div id="timer" class="timer">00:30</div><p id="turnText" class="small"></p><button id="answerBtn" class="btn" onclick="reveal()">👁 إظهار الجواب</button><div id="answerArea" class="hidden"><div class="small">الإجابة الصحيحة</div><div id="answer" class="answer"></div><p class="small">من حصل على النقاط؟</p><button id="give1" class="btn blue" onclick="award(1)"></button><button id="give2" class="btn red" onclick="award(2)"></button><button class="btn" onclick="award(0)">لا أحد</button></div></section>
-
 <section id="result" class="screen"><div class="winner"><div class="winnerImageWrap"><img src="winner_celebration.png" alt="تتويج الفريق الفائز"><div id="winnerName" class="winnerOverlay"></div></div><div id="finalScores" class="card"></div></div><button class="btn gold" onclick="location.reload()">مجلس جديد</button><div class="note">الأسئلة المستخدمة تحفظ على هذا الجهاز لمنع تكرارها.</div></section>
 </main>
 <script>
 const categoryIcons={"معلومات عامة":"🧠","تاريخ":"🏺","تاريخ إسلامي":"🕌","قصص الأنبياء":"📜","قصص القرآن":"📖","جغرافيا":"🌍","أعلام دول":"🏳️","نشيد وطني":"🎵","من هو اللاعب":"⚽","مسيرة لاعب":"🛣️","النادي المشترك":"🤝","الدوري الإنجليزي":"🏴","دوري الأبطال":"🏆","كأس العالم":"🌐","تشكيلات فرق":"🧩","عالم الحيوان":"🦁","صحح الخطأ":"✏️","معارك وحروب":"⚔️","خمن الدولة":"🗺️","السيرة النبوية":"🌙","من سجل الهدف":"🥅","تاريخ الخلفاء":"👑","تاريخ الصحابة":"⭐","القرآن الكريم":"📗","رؤساء دول":"🏛️","ألغاز":"🧩","حروف اسلامي":"🔤","اغاني عربية":"🎶","افلام اجنبية":"🎬","مسلسلات عربية":"📺","مانشستر يونايتد":"🔴","ريال مدريد":"⚪","برشلونة":"🔵","الكلاسيكو":"🔥","قطر":"🇶🇦","سوريا":"🇸🇾"};
-const categoryImages={
-"مانشستر يونايتد":"https://en.wikipedia.org/wiki/Special:FilePath/Manchester_United_FC_crest.svg",
-"ريال مدريد":"https://en.wikipedia.org/wiki/Special:FilePath/Real_Madrid_CF.svg",
-"برشلونة":"https://en.wikipedia.org/wiki/Special:FilePath/FC_Barcelona_(crest).svg",
-"الدوري الإنجليزي":"https://commons.wikimedia.org/wiki/Special:FilePath/Premier_League.svg",
-"دوري الأبطال":"https://commons.wikimedia.org/wiki/Special:FilePath/Uefacl.gif",
-"كأس العالم":"https://commons.wikimedia.org/wiki/Special:FilePath/FIFA_World_Cup.png",
-"قطر":"https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Qatar.svg"
-};
-const elClasico=[categoryImages["ريال مدريد"],categoryImages["برشلونة"]];
-function svgIcon(kind){const common='viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg"';const gold='#c18b28', dark='#1f2937', blue='#2764a8', red='#a52a32', green='#27734a';const m={
-"brain":`<svg ${common}><path d="M48 22c-13-7-28 3-28 18 0 5 2 9 5 12-10 8-8 24 4 29 1 14 17 21 28 13 8 8 22 4 25-7 15 0 22-18 12-28 7-11-2-25-14-25-4-13-22-18-32-12Z" fill="#f0a8b7" stroke="#bd6177" stroke-width="4"/><path d="M58 28v61M40 39c11 1 16 7 18 15M79 43c-10 1-17 7-21 16M36 67c12-4 18 1 22 10M82 70c-11-3-18 2-24 11" stroke="#fff" stroke-width="4" stroke-linecap="round"/></svg>`,
-"history":`<svg ${common}><path d="M47 20h26l-4 16c10 7 17 22 17 38 0 16-10 27-26 27S34 90 34 74c0-16 7-31 17-38l-4-16Z" fill="#b86c37" stroke="#7b4324" stroke-width="4"/><path d="M42 61h36M43 78h34M54 45h12" stroke="#f5d0a7" stroke-width="5"/><path d="M31 47c-12-3-14 15 2 19M89 47c12-3 14 15-2 19" stroke="#7b4324" stroke-width="4"/></svg>`,
-"mosque":`<svg ${common}><path d="M20 91h80M28 91V56h64v35M45 56V39h30v17" stroke="${dark}" stroke-width="5"/><path d="M41 39c0-11 8-20 19-20s19 9 19 20H41Z" fill="${gold}"/><path d="M19 91V32h11v59M90 91V32h11v59M17 32h15M88 32h15" stroke="${gold}" stroke-width="5"/><path d="M48 91V70h24v21" fill="#ead6a6" stroke="${dark}" stroke-width="4"/></svg>`,
-"scroll":`<svg ${common}><path d="M35 20h50v80H35c-8 0-12-7-8-13 4-5 4-8 0-13-4-6 0-13 8-13h4V33h-4c-8 0-12-13 0-13Z" fill="#ead8b5" stroke="#8b6d3b" stroke-width="4"/><path d="M46 42h29M46 55h29M46 68h23" stroke="#8b6d3b" stroke-width="4" stroke-linecap="round"/></svg>`,
-"book":`<svg ${common}><path d="M14 28c16-7 31-5 46 5v66c-15-10-30-12-46-5V28Z" fill="#f4f0df" stroke="${green}" stroke-width="4"/><path d="M106 28c-16-7-31-5-46 5v66c15-10 30-12 46-5V28Z" fill="#f4f0df" stroke="${green}" stroke-width="4"/><path d="M60 33v66" stroke="${gold}" stroke-width="4"/><path d="M26 45h23M26 57h23M72 45h23M72 57h23" stroke="${green}" stroke-width="3"/></svg>`,
-"globe":`<svg ${common}><circle cx="60" cy="58" r="40" fill="#5ba8e8" stroke="${dark}" stroke-width="4"/><path d="M37 34c11-8 20 2 20 8 0 7-8 7-10 14-3 9-15 3-18-5M78 33c6 5 15 6 15 14 0 8-8 8-11 14-2 5 4 12-4 17-8 4-14-4-13-12" fill="#6fbf72"/><path d="M60 99v13M41 112h38" stroke="${dark}" stroke-width="5" stroke-linecap="round"/></svg>`,
-"flags":`<svg ${common}><path d="M22 18v86" stroke="${dark}" stroke-width="5"/><path d="M25 22h64l-12 19 12 19H25V22Z" fill="#fff" stroke="${dark}" stroke-width="4"/><path d="M25 22h32v38H25Z" fill="#c9343c"/><path d="M57 22h32v38H57Z" fill="#fff"/></svg>`,
-"music":`<svg ${common}><path d="M42 32v49M42 38l42-10v49" stroke="#18273d" stroke-width="7" stroke-linecap="round"/><circle cx="31" cy="84" r="12" fill="${gold}"/><circle cx="73" cy="80" r="12" fill="${gold}"/></svg>`,
-"player":`<svg ${common}><circle cx="60" cy="35" r="17" fill="#efc29b"/><path d="M33 95c2-27 12-40 27-40s25 13 27 40H33Z" fill="#2f73c8"/><circle cx="87" cy="78" r="17" fill="#fff" stroke="${dark}" stroke-width="3"/><path d="m87 66 7 5-3 9h-8l-3-9 7-5Z" fill="${dark}"/></svg>`,
-"route":`<svg ${common}><path d="M17 91c15-43 31 2 48-29s28-9 38-36" stroke="#4b8f4f" stroke-width="7" stroke-dasharray="8 8"/><circle cx="18" cy="91" r="8" fill="${red}"/><path d="M95 17v27M95 18l14 6-14 6" stroke="${gold}" stroke-width="5"/><circle cx="60" cy="62" r="11" fill="#fff" stroke="${dark}" stroke-width="3"/></svg>`,
-"people":`<svg ${common}><circle cx="40" cy="38" r="15" fill="#efc29b"/><circle cx="80" cy="38" r="15" fill="#d9aa82"/><path d="M17 95c2-26 10-40 23-40s21 14 23 40H17ZM57 95c2-26 10-40 23-40s21 14 23 40H57Z" fill="#486aa8"/><circle cx="60" cy="86" r="17" fill="#fff" stroke="${dark}" stroke-width="3"/></svg>`,
-"lineup":`<svg ${common}><rect x="24" y="15" width="72" height="90" rx="5" fill="#4f9b59" stroke="#fff" stroke-width="4"/><path d="M60 15v90M24 60h72" stroke="#fff" stroke-width="3"/><circle cx="60" cy="60" r="15" stroke="#fff" stroke-width="3"/><g fill="#f5d04a"><circle cx="60" cy="27" r="5"/><circle cx="42" cy="45" r="5"/><circle cx="78" cy="45" r="5"/><circle cx="36" cy="76" r="5"/><circle cx="60" cy="82" r="5"/><circle cx="84" cy="76" r="5"/></g></svg>`,
-"animal":`<svg ${common}><circle cx="60" cy="60" r="34" fill="#d99b35"/><circle cx="60" cy="61" r="23" fill="#efc56a"/><path d="M33 35 22 22l2 26M87 35l11-13-2 26" fill="#d99b35" stroke="#8a5d23" stroke-width="4"/><circle cx="50" cy="56" r="3"/><circle cx="70" cy="56" r="3"/><path d="M53 72c4 4 10 4 14 0" stroke="#6b3c1d" stroke-width="4" stroke-linecap="round"/><path d="M60 62l-5 5h10l-5-5Z" fill="#6b3c1d"/></svg>`,
-"edit":`<svg ${common}><rect x="20" y="22" width="64" height="76" rx="8" fill="#fff" stroke="${dark}" stroke-width="4"/><path d="M35 43h35M35 58h28M35 73h24" stroke="#b7bec8" stroke-width="4"/><path d="m68 89 25-25 10 10-25 25-15 4 5-14Z" fill="${gold}" stroke="#8e671f" stroke-width="3"/></svg>`,
-"battle":`<svg ${common}><path d="M29 22 82 97M91 22 38 97" stroke="#8e959e" stroke-width="8"/><path d="M22 18 35 23 30 36 16 31 22 18ZM98 18 85 23 90 36 104 31 98 18Z" fill="#c7cbd0"/><path d="M28 92h19M73 92h19" stroke="${gold}" stroke-width="8" stroke-linecap="round"/></svg>`,
-"map":`<svg ${common}><path d="M18 29 45 19l30 10 27-10v72L75 101 45 91l-27 10V29Z" fill="#dcebdc" stroke="${dark}" stroke-width="4"/><path d="M45 19v72M75 29v72" stroke="#7ea67f" stroke-width="3"/><path d="M76 55c0 12-16 28-16 28S44 67 44 55a16 16 0 1 1 32 0Z" fill="${red}"/><circle cx="60" cy="55" r="6" fill="#fff"/></svg>`,
-"crescent":`<svg ${common}><circle cx="58" cy="58" r="34" fill="${gold}"/><circle cx="73" cy="48" r="33" fill="#fff"/><path d="M88 34 92 44l10 2-8 7 2 10-8-5-9 5 2-10-7-7 10-2 4-10Z" fill="${gold}"/></svg>`,
-"goal":`<svg ${common}><path d="M18 95V35h84v60M18 35h84" stroke="${dark}" stroke-width="5"/><path d="M30 35v60M46 35v60M62 35v60M78 35v60M94 35v60M18 50h84M18 65h84M18 80h84" stroke="#b7bec8" stroke-width="2"/><circle cx="82" cy="75" r="12" fill="#fff" stroke="${dark}" stroke-width="3"/></svg>`,
-"crown":`<svg ${common}><path d="M21 42 42 62l18-34 18 34 21-20-10 51H31L21 42Z" fill="${gold}" stroke="#8a6420" stroke-width="4"/><path d="M31 82h58" stroke="#fff1c0" stroke-width="5"/></svg>`,
-"star":`<svg ${common}><path d="m60 18 12 25 28 4-20 20 5 28-25-13-25 13 5-28-20-20 28-4 12-25Z" fill="${gold}" stroke="#8c6825" stroke-width="4"/></svg>`,
-"government":`<svg ${common}><path d="M16 46h88L60 18 16 46Z" fill="${gold}"/><path d="M26 51v39M45 51v39M64 51v39M83 51v39M18 92h84" stroke="${dark}" stroke-width="6"/><path d="M10 100h100" stroke="${gold}" stroke-width="7"/></svg>`,
-"puzzle":`<svg ${common}><path d="M25 25h28c0 10 13 10 13 0h29v28c-10 0-10 13 0 13v29H66c0-10-13-10-13 0H25V66c10 0 10-13 0-13V25Z" fill="#e4b946" stroke="#986f18" stroke-width="4"/></svg>`,
-"letters":`<svg ${common}><rect x="17" y="22" width="86" height="76" rx="12" fill="#eff6ff" stroke="${blue}" stroke-width="4"/><text x="60" y="66" text-anchor="middle" font-size="40" font-family="Arial" font-weight="700" fill="${blue}">أ ب</text><text x="60" y="88" text-anchor="middle" font-size="17" font-family="Arial" fill="${gold}">حروف</text></svg>`,
-"mic":`<svg ${common}><rect x="45" y="18" width="30" height="55" rx="15" fill="#252c38"/><path d="M32 58c0 19 12 29 28 29s28-10 28-29M60 87v17M43 104h34" stroke="${gold}" stroke-width="6" stroke-linecap="round"/><path d="M50 32h20M50 44h20M50 56h20" stroke="#f2c35c" stroke-width="3"/></svg>`,
-"movie":`<svg ${common}><rect x="20" y="40" width="80" height="54" rx="7" fill="#26313e"/><path d="M20 40h80l-9-22H11l9 22Z" fill="#f2c35c" stroke="#26313e" stroke-width="4"/><path d="m25 19 12 21M48 19l12 21M72 19l12 21" stroke="#26313e" stroke-width="4"/><path d="m53 56 22 11-22 11V56Z" fill="#fff"/></svg>`,
-"tv":`<svg ${common}><rect x="18" y="30" width="84" height="60" rx="10" fill="#343b45"/><rect x="28" y="40" width="56" height="40" rx="5" fill="#74b9e8"/><circle cx="93" cy="48" r="4" fill="${gold}"/><circle cx="93" cy="62" r="4" fill="#ddd"/><path d="M46 30 35 18M74 30l11-12M41 98h38" stroke="${dark}" stroke-width="5"/></svg>`,
-"syria":`<svg ${common}><path d="M24 93h72M32 93V62h56v31M43 62V45h34v17" stroke="#8e6c3d" stroke-width="5"/><path d="M40 45c0-11 9-20 20-20s20 9 20 20H40Z" fill="#c9a55b"/><path d="M17 93h14V39H17zM89 93h14V39H89z" fill="#d6bd82"/><circle cx="60" cy="31" r="3" fill="#8e6c3d"/></svg>`
-};return m[kind]||m.puzzle}
-const artMap={"معلومات عامة":"brain","تاريخ":"history","تاريخ إسلامي":"mosque","قصص الأنبياء":"scroll","قصص القرآن":"book","جغرافيا":"globe","أعلام دول":"flags","نشيد وطني":"music","من هو اللاعب":"player","مسيرة لاعب":"route","النادي المشترك":"people","تشكيلات فرق":"lineup","عالم الحيوان":"animal","صحح الخطأ":"edit","معارك وحروب":"battle","خمن الدولة":"map","السيرة النبوية":"crescent","من سجل الهدف":"goal","تاريخ الخلفاء":"crown","تاريخ الصحابة":"star","القرآن الكريم":"book","رؤساء دول":"government","ألغاز":"puzzle","حروف اسلامي":"letters","اغاني عربية":"mic","افلام اجنبية":"movie","مسلسلات عربية":"tv","سوريا":"syria"};
-function categoryVisual(c){
-if(c==='القرآن الكريم')return `<img src="quran_category.png" alt="القرآن الكريم" loading="lazy">`;
-if(c==='سوريا')return `<svg viewBox="0 0 120 80" xmlns="http://www.w3.org/2000/svg"><rect width="120" height="26.67" fill="#168a45"/><rect y="26.67" width="120" height="26.67" fill="#fff"/><rect y="53.34" width="120" height="26.66" fill="#111"/><g fill="#ce2029" font-size="20" text-anchor="middle"><text x="38" y="48">★</text><text x="60" y="48">★</text><text x="82" y="48">★</text></g></svg>`;
-if(c==='أعلام دول')return `<svg viewBox="0 0 120 90" xmlns="http://www.w3.org/2000/svg"><rect x="5" y="8" width="48" height="30" fill="#fff" stroke="#bbb"/><rect x="5" y="8" width="16" height="30" fill="#1b5e20"/><rect x="37" y="8" width="16" height="30" fill="#c62828"/><rect x="66" y="8" width="48" height="30" fill="#fff" stroke="#bbb"/><circle cx="90" cy="23" r="8" fill="#c62828"/><rect x="5" y="50" width="48" height="30" fill="#d32f2f"/><rect x="21" y="50" width="16" height="30" fill="#fff"/><rect x="66" y="50" width="48" height="30" fill="#1565c0"/><path d="M66 50h48L90 80z" fill="#fbc02d"/></svg>`;
-if(c==='الكلاسيكو')return `<span class="dual"><img src="${elClasico[0]}" alt="ريال مدريد" onerror="this.style.display='none'"><img src="${elClasico[1]}" alt="برشلونة" onerror="this.style.display='none'"></span>`;if(categoryImages[c])return `<img src="${categoryImages[c]}" alt="${c}" loading="lazy" onerror="this.outerHTML=svgIcon('${artMap[c]||'puzzle'}')">`;return svgIcon(artMap[c]||'puzzle');}
-let bank={}, categories=[], selected=[], team1="",team2="",score1=0,score2=0,current=null,timerId=null,time=30,steal=false,usedCount=0,gameQuestions={},currentTurn=1;
+const categoryImages={"مانشستر يونايتد":"https://en.wikipedia.org/wiki/Special:FilePath/Manchester_United_FC_crest.svg","ريال مدريد":"https://en.wikipedia.org/wiki/Special:FilePath/Real_Madrid_CF.svg","برشلونة":"https://en.wikipedia.org/wiki/Special:FilePath/FC_Barcelona_(crest).svg","قطر":"https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Qatar.svg"};
+function categoryVisual(c){if(c==='القرآن الكريم')return '<img src="quran_category.png" alt="القرآن الكريم">';if(categoryImages[c])return `<img src="${categoryImages[c]}" alt="${c}">`;return categoryIcons[c]||'❓'}
+let bank={},categories=[],selected=[],team1='',team2='',score1=0,score2=0,current=null,timerId=null,time=30,steal=false,usedCount=0,gameQuestions={},currentTurn=1;
 let gameEntities={players:new Set(),clubs:new Set(),countries:new Set(),matches:new Set()};
-const usedKey="almajlis_used_questions_v48";
-let usedIds=new Set(JSON.parse(localStorage.getItem(usedKey)||"[]"));
+const usedKey='almajlis_used_questions_v48';let usedIds=new Set(JSON.parse(localStorage.getItem(usedKey)||'[]'));
 
+function mergeCategories(target,source){for(const [cat,items] of Object.entries(source||{})){if(!target[cat])target[cat]=[];const ids=new Set(target[cat].map(q=>q.id));for(const q of items||[]){if(q&&q.id&&!ids.has(q.id)){target[cat].push(q);ids.add(q.id)}}}}
+async function fetchJson(path,required=true){const r=await fetch(path,{cache:'no-store'});if(!r.ok){if(required)throw new Error(path+' HTTP '+r.status);return null}return r.json()}
 async function loadBank(){
   try{
-    const r=await fetch('./questions_v4_8_READY.json',{cache:'no-store'});
-    if(!r.ok) throw new Error('HTTP '+r.status);
-    const data=await r.json();
-    bank=data.categories||{};
+    const base=await fetchJson('./questions_v4_8_READY.json');
+    bank={};
+    mergeCategories(bank,base.categories);
+    const batches=['./questions_v6_batch_001.json'];
+    let loadedBatches=0;
+    for(const path of batches){
+      try{
+        const data=await fetchJson(path,false);
+        if(data&&data.categories){mergeCategories(bank,data.categories);loadedBatches++}
+      }catch(e){console.warn('تعذر تحميل',path,e)}
+    }
     categories=Object.keys(bank);
-    loadStatus.textContent=`تم تحميل ${categories.length} فئة و ${categories.reduce((n,c)=>n+bank[c].length,0)} سؤال`;
+    const total=categories.reduce((n,c)=>n+bank[c].length,0);
+    loadStatus.textContent=`تم تحميل ${categories.length} فئة و ${total} سؤال${loadedBatches?' (مع الدفعات الجديدة)':''}`;
     newGameBtn.disabled=false;
   }catch(e){
     loadStatus.className='error';
-    loadStatus.textContent='تعذر تحميل questions_v4_8_READY.json. تأكد أن الملف موجود بجانب index.html في GitHub.';
+    loadStatus.textContent='تعذر تحميل بنك الأسئلة. تأكد من وجود ملفات JSON بجانب index.html.';
+    console.error(e)
   }
 }
 loadBank();
 
 function show(id){document.querySelectorAll('.screen').forEach(x=>x.classList.remove('active'));document.getElementById(id).classList.add('active');scrollTo(0,0)}
-function toCategories(){team1=t1.value.trim()||"الفريق الأول";team2=t2.value.trim()||"الفريق الثاني";renderCats();show('cats')}
-function renderCats(){catGrid.innerHTML="";categories.forEach(c=>{let b=document.createElement('button');b.className='cat'+(selected.includes(c)?' sel':'');b.innerHTML=`<span class="catIcon">${categoryVisual(c)}</span><span class="catName">${c}</span>`;b.onclick=()=>{if(selected.includes(c))selected=selected.filter(x=>x!==c);else if(selected.length<6)selected.push(c);renderCats()};catGrid.appendChild(b)});cc.textContent=selected.length+" / 6";startBtn.disabled=selected.length!==6}
+function toCategories(){team1=t1.value.trim()||'الفريق الأول';team2=t2.value.trim()||'الفريق الثاني';renderCats();show('cats')}
+function renderCats(){catGrid.innerHTML='';categories.forEach(c=>{const b=document.createElement('button');b.className='cat'+(selected.includes(c)?' sel':'');b.innerHTML=`<span class="catIcon">${categoryVisual(c)}</span><span class="catName">${c}</span>`;b.onclick=()=>{if(selected.includes(c))selected=selected.filter(x=>x!==c);else if(selected.length<6)selected.push(c);renderCats()};catGrid.appendChild(b)});cc.textContent=selected.length+' / 6';startBtn.disabled=selected.length!==6}
 function draw(){currentTurn=Math.random()<.5?1:2;starter.textContent=currentTurn===1?team1:team2;show('draw')}
-
-function conflicts(q){
- const e=q.entities||{};
- return Object.keys(gameEntities).some(k=>(e[k]||[]).some(v=>gameEntities[k].has(v)));
-}
-function rememberEntities(q){
- const e=q.entities||{};
- Object.keys(gameEntities).forEach(k=>(e[k]||[]).forEach(v=>gameEntities[k].add(v)));
-}
-function buildGameQuestions(){
- gameQuestions={}; gameEntities={players:new Set(),clubs:new Set(),countries:new Set(),matches:new Set()};
- for(const cat of selected){
-   gameQuestions[cat]={100:[],300:[],500:[]};
-   for(const pts of [100,300,500]){
-     let pool=(bank[cat]||[]).filter(q=>q.points===pts && !usedIds.has(q.id));
-     pool=[...pool].sort(()=>Math.random()-.5);
-     let chosen=[];
-     for(const q of pool){
-       if(chosen.length>=2)break;
-       if(!conflicts(q)){chosen.push(q);rememberEntities(q)}
-     }
-     if(chosen.length<2){
-       for(const q of pool){if(chosen.length>=2)break;if(!chosen.includes(q)){chosen.push(q);rememberEntities(q)}}
-     }
-     if(chosen.length<2){alert(`الفئة "${cat}" لا تحتوي سؤالين مناسبين من مستوى ${pts}.`);return false}
-     gameQuestions[cat][pts]=chosen;
-   }
- }
- return true;
-}
+function conflicts(q){const e=q.entities||{};return Object.keys(gameEntities).some(k=>(e[k]||[]).some(v=>gameEntities[k].has(v)))}
+function rememberEntities(q){const e=q.entities||{};Object.keys(gameEntities).forEach(k=>(e[k]||[]).forEach(v=>gameEntities[k].add(v)))}
+function buildGameQuestions(){gameQuestions={};gameEntities={players:new Set(),clubs:new Set(),countries:new Set(),matches:new Set()};for(const cat of selected){gameQuestions[cat]={100:[],300:[],500:[]};for(const pts of [100,300,500]){let pool=(bank[cat]||[]).filter(q=>q.points===pts&&!usedIds.has(q.id));pool=[...pool].sort(()=>Math.random()-.5);const chosen=[];for(const q of pool){if(chosen.length>=2)break;if(!conflicts(q)){chosen.push(q);rememberEntities(q)}}if(chosen.length<2){for(const q of pool){if(chosen.length>=2)break;if(!chosen.includes(q)){chosen.push(q);rememberEntities(q)}}}if(chosen.length<2){alert(`الفئة "${cat}" لا تحتوي سؤالين مناسبين من مستوى ${pts}.`);return false}gameQuestions[cat][pts]=chosen}}return true}
 function startGame(){if(!buildGameQuestions())return;renderBoard();updateScores();updateTurnBanner();show('boardScreen')}
-function updateTurnBanner(){boardTurn.textContent="الدور الآن: "+(currentTurn===1?team1:team2)+" — اختر الفئة والسؤال";}
-function renderBoard(){board.innerHTML="";selected.forEach(c=>{let box=document.createElement('div');box.className='categoryBox';box.innerHTML=`<div class="categoryHead"><span class="mini">${categoryVisual(c)}</span><h3>${c}</h3></div><div class="points"></div>`;let p=box.querySelector('.points');for(const pts of [100,100,300,300,500,500]){let b=document.createElement('button');b.className='point';b.textContent=pts;b.dataset.used='0';b.onclick=()=>openQuestion(c,pts,b);p.appendChild(b)}board.appendChild(box)})}
-
-function renderQuestionMedia(q){
- const m=q.media;if(!m)return "";
- if(m.type==="image")return `<div style="max-width:430px;margin:0 auto 18px"><img src="${m.src}" alt="${m.alt||''}" style="width:100%;max-height:260px;object-fit:contain;border-radius:16px;border:1px solid #ddd"></div>`;
- if(m.type==="audio")return `<div style="max-width:430px;margin:0 auto 18px;text-align:center"><button class="btn gold" style="max-width:280px" onclick="playAnthemClip()">▶️ تشغيل المقطع الموسيقي</button><div class="note">مقطع 10 ثوانٍ — اسم النشيد والدولة مخفيان</div></div>`;
- if(m.type==="lineup"){
-   const names=m.players||[];
-   const cells=[...names,"؟"].map((n,i)=>`<div style="background:#ffffffdd;border:1px solid #d6e3d4;border-radius:9px;padding:7px 3px;font-size:11px;font-weight:800;text-align:center">${n}</div>`).join("");
-   return `<div style="max-width:460px;margin:0 auto 18px;background:linear-gradient(#3c9b55,#2d7f45);padding:14px;border-radius:18px;border:3px solid #fff;box-shadow:inset 0 0 0 2px #ffffff88"><div style="color:white;text-align:center;font-weight:900;margin-bottom:8px">التشكيلة • ${m.formation||''}</div><div style="display:grid;grid-template-columns:repeat(3,1fr);gap:7px">${cells}</div></div>`;
- }
- return "";
-}
-let anthemAudio=null,anthemStopTimer=null;
-function stopAnthem(){
- if(anthemStopTimer){clearTimeout(anthemStopTimer);anthemStopTimer=null}
- if(anthemAudio){anthemAudio.pause();anthemAudio=null}
-}
-function playAnthemClip(){
- const m=current?.q?.media;if(!m||m.type!=="audio")return;
- stopAnthem();
- anthemAudio=new Audio(m.src);
- anthemAudio.preload="auto";
- anthemAudio.addEventListener("loadedmetadata",()=>{
-   try{anthemAudio.currentTime=Number(m.start_seconds||0)}catch(e){}
-   anthemAudio.play().catch(()=>alert("تعذر تشغيل المقطع. تحقق من اتصال الإنترنت ثم حاول مجددًا."));
-   anthemStopTimer=setTimeout(stopAnthem,Number(m.duration_seconds||10)*1000);
- },{once:true});
-}
-function openQuestion(cat,pts,btn){
- if(btn.dataset.used==='1')return;
- const arr=gameQuestions[cat][pts];
- const q=arr.shift();
- if(!q){alert('لا يوجد سؤال متبقٍ لهذا المستوى.');return}
- current={cat,pts,btn,q};
- qCat.textContent=cat;qPts.textContent=pts+" نقطة";qText.textContent=q.question;answer.textContent=q.answer;
- qMedia.innerHTML=renderQuestionMedia(q);
- answerArea.classList.add('hidden');answerBtn.classList.remove('hidden');steal=false;time=30;timer.classList.remove('steal');turnText.textContent="دور "+(currentTurn===1?team1:team2);show('questionScreen');runTimer()
-}
-function runTimer(){clearInterval(timerId);paintTimer();timerId=setInterval(()=>{time--;paintTimer();if(time<=0){clearInterval(timerId);if(!steal){steal=true;time=15;timer.classList.add('steal');let other=currentTurn===1?team2:team1;turnText.textContent="انتقل السؤال إلى "+other;runTimer()}else reveal()}},1000)}
-function paintTimer(){timer.textContent="00:"+String(time).padStart(2,'0')}
-function reveal(){stopAnthem();clearInterval(timerId);answerArea.classList.remove('hidden');answerBtn.classList.add('hidden');give1.textContent=team1+" +"+current.pts;give2.textContent=team2+" +"+current.pts}
-function award(n){stopAnthem();if(n===1)score1+=current.pts;if(n===2)score2+=current.pts;usedIds.add(current.q.id);localStorage.setItem(usedKey,JSON.stringify([...usedIds]));current.btn.dataset.used='1';current.btn.classList.add('used');current.btn.textContent='✓';usedCount++;currentTurn=currentTurn===1?2:1;updateScores();if(usedCount>=36)finish();else{updateTurnBanner();show('boardScreen')}}
-function updateScores(){s1.textContent=team1+" "+score1;s2.textContent=team2+" "+score2}
-function finish(){let w=score1===score2?"تعادل":score1>score2?team1:team2;winnerName.textContent=w;finalScores.innerHTML="<b>"+team1+": "+score1+"</b><br><br><b>"+team2+": "+score2+"</b>";show('result')}
+function updateTurnBanner(){boardTurn.textContent='الدور الآن: '+(currentTurn===1?team1:team2)+' — اختر الفئة والسؤال'}
+function renderBoard(){board.innerHTML='';selected.forEach(c=>{const box=document.createElement('div');box.className='categoryBox';box.innerHTML=`<div class="categoryHead"><span class="mini">${categoryVisual(c)}</span><h3>${c}</h3></div><div class="points"></div>`;const p=box.querySelector('.points');for(const pts of [100,100,300,300,500,500]){const b=document.createElement('button');b.className='point';b.textContent=pts;b.dataset.used='0';b.onclick=()=>openQuestion(c,pts,b);p.appendChild(b)}board.appendChild(box)})}
+function renderQuestionMedia(q){const m=q.media;if(!m)return '';if(m.type==='image')return `<div style="max-width:430px;margin:0 auto 18px"><img src="${m.src}" alt="${m.alt||''}" style="width:100%;max-height:260px;object-fit:contain;border-radius:16px;border:1px solid #ddd"></div>`;if(m.type==='lineup'){const cells=[...(m.players||[]),'؟'].map(n=>`<div style="background:#ffffffdd;border:1px solid #d6e3d4;border-radius:9px;padding:7px 3px;font-size:11px;font-weight:800;text-align:center">${n}</div>`).join('');return `<div style="max-width:460px;margin:0 auto 18px;background:#3c9b55;padding:14px;border-radius:18px"><div style="color:white;text-align:center;font-weight:900;margin-bottom:8px">التشكيلة • ${m.formation||''}</div><div style="display:grid;grid-template-columns:repeat(3,1fr);gap:7px">${cells}</div></div>`}return ''}
+function openQuestion(cat,pts,btn){if(btn.dataset.used==='1')return;const arr=gameQuestions[cat][pts],q=arr.shift();if(!q){alert('لا يوجد سؤال متبقٍ لهذا المستوى.');return}current={cat,pts,btn,q};qCat.textContent=cat;qPts.textContent=pts+' نقطة';qText.textContent=q.question;answer.textContent=q.answer;qMedia.innerHTML=renderQuestionMedia(q);answerArea.classList.add('hidden');answerBtn.classList.remove('hidden');steal=false;time=30;timer.classList.remove('steal');turnText.textContent='دور '+(currentTurn===1?team1:team2);show('questionScreen');runTimer()}
+function runTimer(){clearInterval(timerId);paintTimer();timerId=setInterval(()=>{time--;paintTimer();if(time<=0){clearInterval(timerId);if(!steal){steal=true;time=15;timer.classList.add('steal');turnText.textContent='انتقل السؤال إلى '+(currentTurn===1?team2:team1);runTimer()}else reveal()}},1000)}
+function paintTimer(){timer.textContent='00:'+String(time).padStart(2,'0')}
+function reveal(){clearInterval(timerId);answerArea.classList.remove('hidden');answerBtn.classList.add('hidden');give1.textContent=team1+' +'+current.pts;give2.textContent=team2+' +'+current.pts}
+function award(n){if(n===1)score1+=current.pts;if(n===2)score2+=current.pts;usedIds.add(current.q.id);localStorage.setItem(usedKey,JSON.stringify([...usedIds]));current.btn.dataset.used='1';current.btn.classList.add('used');current.btn.textContent='✓';usedCount++;currentTurn=currentTurn===1?2:1;updateScores();if(usedCount>=36)finish();else{updateTurnBanner();show('boardScreen')}}
+function updateScores(){s1.textContent=team1+' '+score1;s2.textContent=team2+' '+score2}
+function finish(){const w=score1===score2?'تعادل':score1>score2?team1:team2;winnerName.textContent=w;finalScores.innerHTML='<b>'+team1+': '+score1+'</b><br><br><b>'+team2+': '+score2+'</b>';show('result')}
 </script></body></html>
