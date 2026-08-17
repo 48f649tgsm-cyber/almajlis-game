@@ -1,0 +1,4068 @@
+{
+  "version": "6.0-batch-007",
+  "new_questions": 504,
+  "focus": "Large non-repeating expansion; category visuals locked and untouched",
+  "category_policy": "14 categories × 36 questions; 12 questions at each 100/300/500 tier",
+  "categories": {
+    "جغرافيا": [
+      {
+        "id": "v6b7_c01_001",
+        "question": "ما عاصمة أندورا؟",
+        "answer": "أندورا لا فيلا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c01_002",
+        "question": "ما عاصمة بيلاروس؟",
+        "answer": "مينسك",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c01_003",
+        "question": "ما عاصمة إستونيا؟",
+        "answer": "تالين",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c01_004",
+        "question": "ما عاصمة آيسلندا؟",
+        "answer": "ريكيافيك",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c01_005",
+        "question": "ما عاصمة لاتفيا؟",
+        "answer": "ريغا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c01_006",
+        "question": "ما عاصمة ليتوانيا؟",
+        "answer": "فيلنيوس",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c01_007",
+        "question": "ما عاصمة مولدوفا؟",
+        "answer": "كيشيناو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c01_008",
+        "question": "ما عاصمة الجبل الأسود؟",
+        "answer": "بودغوريتسا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c01_009",
+        "question": "ما عاصمة قبرص؟",
+        "answer": "نيقوسيا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c01_010",
+        "question": "ما عاصمة بوتان؟",
+        "answer": "تيمفو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c01_011",
+        "question": "ما عاصمة لاوس؟",
+        "answer": "فيينتيان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c01_012",
+        "question": "ما عاصمة تيمور الشرقية؟",
+        "answer": "ديلي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c01_013",
+        "question": "ما عاصمة بليز؟",
+        "answer": "بلموبان",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c01_014",
+        "question": "ما عاصمة بوليفيا؟",
+        "answer": "سوكري",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c01_015",
+        "question": "ما عاصمة باربادوس؟",
+        "answer": "بريدجتاون",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c01_016",
+        "question": "ما عاصمة باهاماس؟",
+        "answer": "ناسو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c01_017",
+        "question": "ما عاصمة بوروندي؟",
+        "answer": "غيتيغا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c01_018",
+        "question": "ما عاصمة إسواتيني؟",
+        "answer": "مبابان",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c01_019",
+        "question": "ما عاصمة الغابون؟",
+        "answer": "ليبرفيل",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c01_020",
+        "question": "ما عاصمة توغو؟",
+        "answer": "لومي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c01_021",
+        "question": "ما عاصمة بنين؟",
+        "answer": "بورتو نوفو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c01_022",
+        "question": "ما عاصمة بوركينا فاسو؟",
+        "answer": "واغادوغو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c01_023",
+        "question": "ما عاصمة النيجر؟",
+        "answer": "نيامي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c01_024",
+        "question": "ما عاصمة مالي؟",
+        "answer": "باماكو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c01_025",
+        "question": "أي دولة يمر فيها نهر الدانوب عبر عاصمتها بودابست؟",
+        "answer": "المجر",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c01_026",
+        "question": "ما الدولة الأوروبية التي تضم إقليم كاتالونيا؟",
+        "answer": "إسبانيا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c01_027",
+        "question": "ما الدولة التي تقع فيها جبال الألب ويقع فيها جبل ماترهورن جزئيًا؟",
+        "answer": "سويسرا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c01_028",
+        "question": "ما الدولة التي تقع فيها مدينة كراكوف التاريخية؟",
+        "answer": "بولندا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c01_029",
+        "question": "ما الدولة التي تقع فيها مدينة دوبروفنيك على البحر الأدرياتيكي؟",
+        "answer": "كرواتيا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c01_030",
+        "question": "ما الدولة التي تقع فيها بحيرة بليد؟",
+        "answer": "سلوفينيا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c01_031",
+        "question": "ما الدولة التي تقع فيها مدينة سالزبورغ؟",
+        "answer": "النمسا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c01_032",
+        "question": "ما الدولة التي تقع فيها مدينة بروج؟",
+        "answer": "بلجيكا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c01_033",
+        "question": "ما الدولة التي تقع فيها مدينة روتردام؟",
+        "answer": "هولندا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c01_034",
+        "question": "ما الدولة التي تقع فيها مدينة بورتو؟",
+        "answer": "البرتغال",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c01_035",
+        "question": "ما الدولة التي تقع فيها منطقة لابلاند في شمال أوروبا وتشمل أجزاء منها مدينة روفانييمي؟",
+        "answer": "فنلندا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c01_036",
+        "question": "ما الدولة التي تقع فيها مدينة بيرغن؟",
+        "answer": "النرويج",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      }
+    ],
+    "معلومات عامة": [
+      {
+        "id": "v6b7_c02_001",
+        "question": "ما الرمز الكيميائي لعنصر الهيدروجين؟",
+        "answer": "H",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c02_002",
+        "question": "ما الرمز الكيميائي لعنصر الهيليوم؟",
+        "answer": "He",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c02_003",
+        "question": "ما الرمز الكيميائي لعنصر الليثيوم؟",
+        "answer": "Li",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c02_004",
+        "question": "ما الرمز الكيميائي لعنصر البريليوم؟",
+        "answer": "Be",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c02_005",
+        "question": "ما الرمز الكيميائي لعنصر البورون؟",
+        "answer": "B",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c02_006",
+        "question": "ما الرمز الكيميائي لعنصر الكربون؟",
+        "answer": "C",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c02_007",
+        "question": "ما الرمز الكيميائي لعنصر النيتروجين؟",
+        "answer": "N",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c02_008",
+        "question": "ما الرمز الكيميائي لعنصر الأكسجين؟",
+        "answer": "O",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c02_009",
+        "question": "ما الرمز الكيميائي لعنصر الفلور؟",
+        "answer": "F",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c02_010",
+        "question": "ما الرمز الكيميائي لعنصر النيون؟",
+        "answer": "Ne",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c02_011",
+        "question": "ما الرمز الكيميائي لعنصر الصوديوم؟",
+        "answer": "Na",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c02_012",
+        "question": "ما الرمز الكيميائي لعنصر المغنيسيوم؟",
+        "answer": "Mg",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c02_013",
+        "question": "ما الرمز الكيميائي لعنصر الألومنيوم؟",
+        "answer": "Al",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c02_014",
+        "question": "ما الرمز الكيميائي لعنصر السيليكون؟",
+        "answer": "Si",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c02_015",
+        "question": "ما الرمز الكيميائي لعنصر الفوسفور؟",
+        "answer": "P",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c02_016",
+        "question": "ما الرمز الكيميائي لعنصر الكبريت؟",
+        "answer": "S",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c02_017",
+        "question": "ما الرمز الكيميائي لعنصر الكلور؟",
+        "answer": "Cl",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c02_018",
+        "question": "ما الرمز الكيميائي لعنصر الأرجون؟",
+        "answer": "Ar",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c02_019",
+        "question": "ما الرمز الكيميائي لعنصر البوتاسيوم؟",
+        "answer": "K",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c02_020",
+        "question": "ما الرمز الكيميائي لعنصر الكالسيوم؟",
+        "answer": "Ca",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c02_021",
+        "question": "ما الرمز الكيميائي لعنصر الحديد؟",
+        "answer": "Fe",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c02_022",
+        "question": "ما الرمز الكيميائي لعنصر الكوبالت؟",
+        "answer": "Co",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c02_023",
+        "question": "ما الرمز الكيميائي لعنصر النيكل؟",
+        "answer": "Ni",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c02_024",
+        "question": "ما الرمز الكيميائي لعنصر النحاس؟",
+        "answer": "Cu",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c02_025",
+        "question": "ما الرمز الكيميائي لعنصر الزنك؟",
+        "answer": "Zn",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c02_026",
+        "question": "ما الرمز الكيميائي لعنصر الفضة؟",
+        "answer": "Ag",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c02_027",
+        "question": "ما الرمز الكيميائي لعنصر القصدير؟",
+        "answer": "Sn",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c02_028",
+        "question": "ما الرمز الكيميائي لعنصر اليود؟",
+        "answer": "I",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c02_029",
+        "question": "ما الرمز الكيميائي لعنصر الذهب؟",
+        "answer": "Au",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c02_030",
+        "question": "ما الرمز الكيميائي لعنصر الزئبق؟",
+        "answer": "Hg",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c02_031",
+        "question": "ما الرمز الكيميائي لعنصر الرصاص؟",
+        "answer": "Pb",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c02_032",
+        "question": "ما الرمز الكيميائي لعنصر البلاتين؟",
+        "answer": "Pt",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c02_033",
+        "question": "ما الرمز الكيميائي لعنصر اليورانيوم؟",
+        "answer": "U",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c02_034",
+        "question": "ما الرمز الكيميائي لعنصر التنغستن؟",
+        "answer": "W",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c02_035",
+        "question": "ما الرمز الكيميائي لعنصر الكروم؟",
+        "answer": "Cr",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c02_036",
+        "question": "ما الرمز الكيميائي لعنصر المنغنيز؟",
+        "answer": "Mn",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      }
+    ],
+    "تاريخ": [
+      {
+        "id": "v6b7_c03_001",
+        "question": "في أي عام وقع حدث: سقوط القسطنطينية بيد العثمانيين؟",
+        "answer": "1453",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c03_002",
+        "question": "في أي عام وقع حدث: وصول كريستوفر كولومبوس إلى الأمريكتين؟",
+        "answer": "1492",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c03_003",
+        "question": "في أي عام وقع حدث: بداية الإصلاح البروتستانتي المرتبط بمارتن لوثر؟",
+        "answer": "1517",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c03_004",
+        "question": "في أي عام وقع حدث: هزيمة الأرمادا الإسبانية أمام إنجلترا؟",
+        "answer": "1588",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c03_005",
+        "question": "في أي عام وقع حدث: اندلاع حرب الثلاثين عامًا؟",
+        "answer": "1618",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c03_006",
+        "question": "في أي عام وقع حدث: توقيع صلح وستفاليا؟",
+        "answer": "1648",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c03_007",
+        "question": "في أي عام وقع حدث: اندلاع الثورة الإنجليزية المجيدة؟",
+        "answer": "1688",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c03_008",
+        "question": "في أي عام وقع حدث: إعلان استقلال الولايات المتحدة؟",
+        "answer": "1776",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c03_009",
+        "question": "في أي عام وقع حدث: اندلاع الثورة الفرنسية؟",
+        "answer": "1789",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c03_010",
+        "question": "في أي عام وقع حدث: معركة واترلو؟",
+        "answer": "1815",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c03_011",
+        "question": "في أي عام وقع حدث: استقلال اليونان المعترف به دوليًا؟",
+        "answer": "1830",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c03_012",
+        "question": "في أي عام وقع حدث: اندلاع ثورات أوروبا المعروفة بربيع الشعوب؟",
+        "answer": "1848",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c03_013",
+        "question": "في أي عام وقع حدث: توحيد إيطاليا وإعلان المملكة الإيطالية؟",
+        "answer": "1861",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c03_014",
+        "question": "في أي عام وقع حدث: تأسيس الإمبراطورية الألمانية؟",
+        "answer": "1871",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c03_015",
+        "question": "في أي عام وقع حدث: اندلاع الحرب الروسية اليابانية؟",
+        "answer": "1904",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c03_016",
+        "question": "في أي عام وقع حدث: غرق سفينة تايتانيك؟",
+        "answer": "1912",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c03_017",
+        "question": "في أي عام وقع حدث: اندلاع الحرب العالمية الأولى؟",
+        "answer": "1914",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c03_018",
+        "question": "في أي عام وقع حدث: الثورة الروسية البلشفية؟",
+        "answer": "1917",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c03_019",
+        "question": "في أي عام وقع حدث: توقيع معاهدة فرساي؟",
+        "answer": "1919",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c03_020",
+        "question": "في أي عام وقع حدث: انهيار وول ستريت وبداية الكساد الكبير؟",
+        "answer": "1929",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c03_021",
+        "question": "في أي عام وقع حدث: اندلاع الحرب العالمية الثانية في أوروبا؟",
+        "answer": "1939",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c03_022",
+        "question": "في أي عام وقع حدث: الهجوم على بيرل هاربر؟",
+        "answer": "1941",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c03_023",
+        "question": "في أي عام وقع حدث: تأسيس الأمم المتحدة؟",
+        "answer": "1945",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c03_024",
+        "question": "في أي عام وقع حدث: استقلال الهند عن بريطانيا؟",
+        "answer": "1947",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c03_025",
+        "question": "في أي عام وقع حدث: تأسيس حلف شمال الأطلسي؟",
+        "answer": "1949",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c03_026",
+        "question": "في أي عام وقع حدث: اندلاع الحرب الكورية؟",
+        "answer": "1950",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c03_027",
+        "question": "في أي عام وقع حدث: إطلاق سبوتنيك 1؟",
+        "answer": "1957",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c03_028",
+        "question": "في أي عام وقع حدث: بناء جدار برلين؟",
+        "answer": "1961",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c03_029",
+        "question": "في أي عام وقع حدث: أزمة الصواريخ الكوبية؟",
+        "answer": "1962",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c03_030",
+        "question": "في أي عام وقع حدث: هبوط أبولو 11 على القمر؟",
+        "answer": "1969",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c03_031",
+        "question": "في أي عام وقع حدث: سقوط سايغون ونهاية حرب فيتنام؟",
+        "answer": "1975",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c03_032",
+        "question": "في أي عام وقع حدث: الثورة الإيرانية؟",
+        "answer": "1979",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c03_033",
+        "question": "في أي عام وقع حدث: سقوط جدار برلين؟",
+        "answer": "1989",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c03_034",
+        "question": "في أي عام وقع حدث: تفكك الاتحاد السوفيتي؟",
+        "answer": "1991",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c03_035",
+        "question": "في أي عام وقع حدث: توقيع اتفاق الجمعة العظيمة في إيرلندا الشمالية؟",
+        "answer": "1998",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c03_036",
+        "question": "في أي عام وقع حدث: هجمات 11 سبتمبر في الولايات المتحدة؟",
+        "answer": "2001",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      }
+    ],
+    "عالم الحيوان": [
+      {
+        "id": "v6b7_c04_001",
+        "question": "ما الحيوان المقصود: أكبر حيوان حي على الأرض؟",
+        "answer": "الحوت الأزرق",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c04_002",
+        "question": "ما الحيوان المقصود: أكبر طائر حي من حيث الحجم؟",
+        "answer": "النعامة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c04_003",
+        "question": "ما الحيوان المقصود: أسرع حيوان بري؟",
+        "answer": "الفهد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c04_004",
+        "question": "ما الحيوان المقصود: أكبر سنور حي؟",
+        "answer": "الببر (النمر الآسيوي)",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c04_005",
+        "question": "ما الحيوان المقصود: الثديي الوحيد القادر على الطيران الحقيقي المستمر؟",
+        "answer": "الخفاش",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c04_006",
+        "question": "ما الحيوان المقصود: الحيوان المعروف بامتلاكه ثلاثة قلوب؟",
+        "answer": "الأخطبوط",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c04_007",
+        "question": "ما الحيوان المقصود: الحيوان الذي يملك أطول رقبة بين الحيوانات البرية؟",
+        "answer": "الزرافة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c04_008",
+        "question": "ما الحيوان المقصود: أكبر أنواع الدببة حجمًا عادةً؟",
+        "answer": "الدب القطبي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c04_009",
+        "question": "ما الحيوان المقصود: أكبر زاحف حي؟",
+        "answer": "تمساح المياه المالحة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c04_010",
+        "question": "ما الحيوان المقصود: أكبر سحلية حية؟",
+        "answer": "تنين كومودو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c04_011",
+        "question": "ما الحيوان المقصود: أكبر سمكة حية؟",
+        "answer": "قرش الحوت",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c04_012",
+        "question": "ما الحيوان المقصود: الحيوان الذي يشتهر بتغيير لون جلده للتمويه والتواصل؟",
+        "answer": "الحرباء",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c04_013",
+        "question": "ما الحيوان المقصود: الثديي الذي يضع البيض ويملك منقارًا شبيهًا بمنقار البط؟",
+        "answer": "خلد الماء",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c04_014",
+        "question": "ما الحيوان المقصود: الطائر الذي لا يطير ويعيش طبيعيًا في القارة القطبية الجنوبية؟",
+        "answer": "البطريق",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c04_015",
+        "question": "ما الحيوان المقصود: الحيوان البحري الذي يُعرف علميًا بأنه من الثدييات لا من الأسماك؟",
+        "answer": "الدلفين",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c04_016",
+        "question": "ما الحيوان المقصود: الحيوان الذي يحمل صغاره في كيس بطني ويعد رمزًا لأستراليا؟",
+        "answer": "الكنغر",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c04_017",
+        "question": "ما الحيوان المقصود: أكبر حيوان بري من حيث الكتلة؟",
+        "answer": "الفيل الأفريقي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c04_018",
+        "question": "ما الحيوان المقصود: الحيوان المعروف ببناء السدود في الأنهار؟",
+        "answer": "القندس",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c04_019",
+        "question": "ما الحيوان المقصود: الحيوان الذي يستخدم تحديد الموقع بالصدى على نطاق واسع في الطيران الليلي؟",
+        "answer": "الخفاش",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c04_020",
+        "question": "ما الحيوان المقصود: أكبر أنواع القردة العليا؟",
+        "answer": "الغوريلا الشرقية",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c04_021",
+        "question": "ما الحيوان المقصود: الطائر الشهير بقدرته على تقليد كلام الإنسان؟",
+        "answer": "الببغاء",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c04_022",
+        "question": "ما الحيوان المقصود: الحيوان الذي يشتهر بوجود أشواك حادة على ظهره للدفاع؟",
+        "answer": "النيص",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c04_023",
+        "question": "ما الحيوان المقصود: الثديي البحري الذي يملك نابًا طويلًا حلزونيًا؟",
+        "answer": "حوت الناروال",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c04_024",
+        "question": "ما الحيوان المقصود: الحيوان المعروف بخطوطه السوداء والبيضاء؟",
+        "answer": "الحمار الوحشي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c04_025",
+        "question": "ما الحيوان المقصود: الحيوان الذي يعد أقرب الأقارب الأحياء للإنسان مع البونوبو؟",
+        "answer": "الشمبانزي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c04_026",
+        "question": "ما الحيوان المقصود: الطائر الذي يملك أكبر باع جناحين بين الطيور الحية عادةً؟",
+        "answer": "القطرس الجوال",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c04_027",
+        "question": "ما الحيوان المقصود: الحيوان الذي يستطيع تجديد أذرعه المفقودة ويعيش في البحر؟",
+        "answer": "نجم البحر",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c04_028",
+        "question": "ما الحيوان المقصود: الحيوان الذي يمر بمرحلة يرقة ثم عذراء قبل أن يصبح بالغًا؟",
+        "answer": "الفراشة",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c04_029",
+        "question": "ما الحيوان المقصود: الحيوان الذي يُسمى صغيره بالشرغوف في مرحلة مبكرة؟",
+        "answer": "الضفدع",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c04_030",
+        "question": "ما الحيوان المقصود: الثديي البحري الذي يُعرف بأسنانه الطويلة الشبيهة بالأنياب؟",
+        "answer": "الفظ",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c04_031",
+        "question": "ما الحيوان المقصود: الحيوان الإفريقي الذي يعد أقرب حيوان بري للحيتان من حيث القرابة التطورية؟",
+        "answer": "فرس النهر",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c04_032",
+        "question": "ما الحيوان المقصود: أكبر أنواع السلاحف الحية؟",
+        "answer": "السلحفاة جلدية الظهر",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c04_033",
+        "question": "ما الحيوان المقصود: الطائر الذي يشتهر بالهجرة من القطب الشمالي إلى مناطق قرب القطب الجنوبي؟",
+        "answer": "الخرشنة القطبية",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c04_034",
+        "question": "ما الحيوان المقصود: الحيوان الذي يشتهر بقدرته على المشي على الماء لمسافات قصيرة بفضل سرعة قدميه؟",
+        "answer": "سحلية البازيليسك",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c04_035",
+        "question": "ما الحيوان المقصود: الحيوان الذي ينام واقفًا في كثير من الأحيان ويُستخدم للركوب؟",
+        "answer": "الحصان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c04_036",
+        "question": "ما الحيوان المقصود: الحيوان البحري الذي يستخدم الحبر وسيلة دفاع؟",
+        "answer": "الحبار",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      }
+    ],
+    "ألغاز": [
+      {
+        "id": "v6b7_c05_001",
+        "question": "يمشي بلا أرجل ويبكي بلا عيون، ما هو؟",
+        "answer": "السحاب",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c05_002",
+        "question": "شيء يكتب ولا يقرأ، ما هو؟",
+        "answer": "القلم",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c05_003",
+        "question": "له رقبة بلا رأس، ما هو؟",
+        "answer": "الزجاجة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c05_004",
+        "question": "له وجه بلا عينين وعقارب بلا أصابع، ما هو؟",
+        "answer": "الساعة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c05_005",
+        "question": "شيء إذا جاع كذب وإذا شبع صدق، ما هو؟",
+        "answer": "الميزان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c05_006",
+        "question": "شيء كلما زاد نقص، ما هو؟",
+        "answer": "العمر",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c05_007",
+        "question": "ما الذي يمكن كسره دون لمسه؟",
+        "answer": "الوعد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c05_008",
+        "question": "ما الذي يسمع بلا أذن ويتكلم بلا لسان؟",
+        "answer": "الصدى",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c05_009",
+        "question": "بيت بلا أبواب ولا نوافذ وفي داخله نجمة، ما هو؟",
+        "answer": "البيضة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c05_010",
+        "question": "شيء له أوراق وليس نباتًا وله جلد وليس حيوانًا، ما هو؟",
+        "answer": "الكتاب",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c05_011",
+        "question": "شيء إذا وضعته في الثلاجة لا يبرد، ما هو؟",
+        "answer": "الفلفل الحار",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c05_012",
+        "question": "له مفاتيح ولا يفتح أبوابًا، ما هو؟",
+        "answer": "البيانو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c05_013",
+        "question": "شيء إذا نطقت اسمه كسرته، ما هو؟",
+        "answer": "الصمت",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c05_014",
+        "question": "ما الذي يزداد بللًا كلما جفف غيره؟",
+        "answer": "المنشفة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c05_015",
+        "question": "له عين واحدة ولا يرى، ما هو؟",
+        "answer": "الإبرة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c05_016",
+        "question": "ما الذي يولد كبيرًا ويموت صغيرًا؟",
+        "answer": "الشمعة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c05_017",
+        "question": "شيء يوجد في القرن مرة وفي الدقيقة مرتين ولا يوجد في الساعة، ما هو؟",
+        "answer": "حرف القاف",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c05_018",
+        "question": "له رأس وذيل ولا جسم له، ما هو؟",
+        "answer": "العملة المعدنية",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c05_019",
+        "question": "شيء تستطيع الإمساك به بيدك اليمنى ولا تستطيع الإمساك به بيدك اليسرى، ما هو؟",
+        "answer": "يدك اليسرى",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c05_020",
+        "question": "ما الذي إذا وضعته في الماء مات؟",
+        "answer": "النار",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c05_021",
+        "question": "شيء لا يدخل إلا إذا ضُرب على رأسه، ما هو؟",
+        "answer": "المسمار",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c05_022",
+        "question": "ما الذي له أربع أرجل ولا يستطيع المشي؟",
+        "answer": "الطاولة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c05_023",
+        "question": "ما الذي له قلب لا ينبض؟",
+        "answer": "الخس",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c05_024",
+        "question": "ما الذي له أجنحة ولا يطير وله عينان ولا يرى؟",
+        "answer": "الطاحونة الهوائية",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c05_025",
+        "question": "ما الذي يكون أمامك دائمًا ولا تستطيع رؤيته؟",
+        "answer": "المستقبل",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c05_026",
+        "question": "ما الذي يمكنه السفر حول العالم وهو ثابت في زاويته؟",
+        "answer": "الطابع البريدي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c05_027",
+        "question": "شيء يوجد في السماء وإذا أضفت إليه حرفًا صار في الأرض، ما هو؟",
+        "answer": "نجم؛ بإضافة الميم يصبح منجم",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c05_028",
+        "question": "ما الذي كلما ضربته ازداد طوله؟",
+        "answer": "المسمار",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c05_029",
+        "question": "ما الذي يجري ولا يمشي وله فم ولا يتكلم؟",
+        "answer": "النهر",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c05_030",
+        "question": "شيء له فروع بلا أوراق ولا ثمار، ما هو؟",
+        "answer": "البنك",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c05_031",
+        "question": "ما الذي له مدن بلا بيوت وأنهار بلا ماء وجبال بلا صخور؟",
+        "answer": "الخريطة",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c05_032",
+        "question": "ما الذي لا يمكنك استخدامه قبل أن تكسره؟",
+        "answer": "البيضة",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c05_033",
+        "question": "ما الذي له إبهام وأربعة أصابع وليس له يد؟",
+        "answer": "القفاز",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c05_034",
+        "question": "ما الذي يرتفع ولا ينخفض أبدًا؟",
+        "answer": "العمر",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c05_035",
+        "question": "ما الذي كلما شاركته مع الآخرين بقي معك؟",
+        "answer": "المعرفة",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c05_036",
+        "question": "ما الشيء الذي يمكنه المرور عبر الزجاج دون أن يكسره؟",
+        "answer": "الضوء",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      }
+    ],
+    "افلام اجنبية": [
+      {
+        "id": "v6b7_c06_001",
+        "question": "من أخرج فيلم The Matrix؟",
+        "answer": "لانا وليلي واتشاوسكي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c06_002",
+        "question": "من أخرج فيلم Gladiator؟",
+        "answer": "ريدلي سكوت",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c06_003",
+        "question": "من أخرج فيلم Taxi Driver؟",
+        "answer": "مارتن سكورسيزي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c06_004",
+        "question": "من أخرج فيلم Parasite؟",
+        "answer": "بونغ جون هو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c06_005",
+        "question": "من أخرج فيلم Oldboy؟",
+        "answer": "بارك تشان ووك",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c06_006",
+        "question": "من أخرج فيلم Spirited Away؟",
+        "answer": "هاياو ميازاكي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c06_007",
+        "question": "من أخرج فيلم Princess Mononoke؟",
+        "answer": "هاياو ميازاكي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c06_008",
+        "question": "من أخرج فيلم Fargo؟",
+        "answer": "جويل وإيثان كوين",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c06_009",
+        "question": "من أخرج فيلم Boogie Nights؟",
+        "answer": "بول توماس أندرسون",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c06_010",
+        "question": "من أخرج فيلم Blade Runner؟",
+        "answer": "ريدلي سكوت",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c06_011",
+        "question": "من أخرج فيلم Alien؟",
+        "answer": "ريدلي سكوت",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c06_012",
+        "question": "من أخرج فيلم Aliens؟",
+        "answer": "جيمس كاميرون",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c06_013",
+        "question": "من أخرج فيلم Terminator 2: Judgment Day؟",
+        "answer": "جيمس كاميرون",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c06_014",
+        "question": "من أخرج فيلم The Sixth Sense؟",
+        "answer": "إم. نايت شيامالان",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c06_015",
+        "question": "من أخرج فيلم Heat؟",
+        "answer": "مايكل مان",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c06_016",
+        "question": "من أخرج فيلم The Usual Suspects؟",
+        "answer": "برايان سينغر",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c06_017",
+        "question": "من أخرج فيلم Amélie؟",
+        "answer": "جان بيير جونيه",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c06_018",
+        "question": "من أخرج فيلم City of God؟",
+        "answer": "فرناندو ميريليس وكاتيا لوند",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c06_019",
+        "question": "من أخرج فيلم Prisoners؟",
+        "answer": "دينيس فيلنوف",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c06_020",
+        "question": "من أخرج فيلم Moonlight؟",
+        "answer": "باري جينكينز",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c06_021",
+        "question": "من أخرج فيلم 12 Years a Slave؟",
+        "answer": "ستيف ماكوين",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c06_022",
+        "question": "من أخرج فيلم The Hurt Locker؟",
+        "answer": "كاثرين بيغلو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c06_023",
+        "question": "من أخرج فيلم Argo؟",
+        "answer": "بن أفليك",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c06_024",
+        "question": "من أخرج فيلم Spotlight؟",
+        "answer": "توم مكارثي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c06_025",
+        "question": "من أخرج فيلم The King's Speech؟",
+        "answer": "توم هوبر",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c06_026",
+        "question": "من أخرج فيلم Slumdog Millionaire؟",
+        "answer": "داني بويل",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c06_027",
+        "question": "من أخرج فيلم Million Dollar Baby؟",
+        "answer": "كلينت إيستوود",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c06_028",
+        "question": "من أخرج فيلم Mystic River؟",
+        "answer": "كلينت إيستوود",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c06_029",
+        "question": "من أخرج فيلم Jojo Rabbit؟",
+        "answer": "تايكا وايتيتي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c06_030",
+        "question": "من أخرج فيلم The Favourite؟",
+        "answer": "يورغوس لانثيموس",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c06_031",
+        "question": "من أخرج فيلم Poor Things؟",
+        "answer": "يورغوس لانثيموس",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c06_032",
+        "question": "من أخرج فيلم Roma؟",
+        "answer": "ألفونسو كوارون",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c06_033",
+        "question": "من أخرج فيلم Gravity؟",
+        "answer": "ألفونسو كوارون",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c06_034",
+        "question": "من أخرج فيلم Children of Men؟",
+        "answer": "ألفونسو كوارون",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c06_035",
+        "question": "من أخرج فيلم The Lives of Others؟",
+        "answer": "فلوريان هنكل فون دونرسمارك",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c06_036",
+        "question": "من أخرج فيلم A Separation؟",
+        "answer": "أصغر فرهادي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      }
+    ],
+    "كأس العالم": [
+      {
+        "id": "v6b7_c07_001",
+        "question": "من فاز بكأس العالم 1930؟",
+        "answer": "أوروغواي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c07_002",
+        "question": "من خسر نهائي كأس العالم 1930 أمام أوروغواي؟",
+        "answer": "الأرجنتين",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c07_003",
+        "question": "من فاز بكأس العالم 1934؟",
+        "answer": "إيطاليا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c07_004",
+        "question": "من خسر نهائي كأس العالم 1934 أمام إيطاليا؟",
+        "answer": "تشيكوسلوفاكيا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c07_005",
+        "question": "من فاز بكأس العالم 1938؟",
+        "answer": "إيطاليا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c07_006",
+        "question": "من خسر نهائي كأس العالم 1938 أمام إيطاليا؟",
+        "answer": "المجر",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c07_007",
+        "question": "من فاز بكأس العالم 1950؟",
+        "answer": "أوروغواي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c07_008",
+        "question": "أي منتخب أنهى كأس العالم 1950 وصيفًا بعد المباراة الحاسمة في ماراكانا؟",
+        "answer": "البرازيل",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c07_009",
+        "question": "من فاز بكأس العالم 1954؟",
+        "answer": "ألمانيا الغربية",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c07_010",
+        "question": "من خسر نهائي كأس العالم 1954 أمام ألمانيا الغربية؟",
+        "answer": "المجر",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c07_011",
+        "question": "من فاز بكأس العالم 1958؟",
+        "answer": "البرازيل",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c07_012",
+        "question": "من خسر نهائي كأس العالم 1958 أمام البرازيل؟",
+        "answer": "السويد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c07_013",
+        "question": "من فاز بكأس العالم 1962؟",
+        "answer": "البرازيل",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c07_014",
+        "question": "من خسر نهائي كأس العالم 1962 أمام البرازيل؟",
+        "answer": "تشيكوسلوفاكيا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c07_015",
+        "question": "من فاز بكأس العالم 1966؟",
+        "answer": "إنجلترا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c07_016",
+        "question": "من خسر نهائي كأس العالم 1966 أمام إنجلترا؟",
+        "answer": "ألمانيا الغربية",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c07_017",
+        "question": "من فاز بكأس العالم 1970؟",
+        "answer": "البرازيل",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c07_018",
+        "question": "من خسر نهائي كأس العالم 1970 أمام البرازيل؟",
+        "answer": "إيطاليا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c07_019",
+        "question": "من فاز بكأس العالم 1974؟",
+        "answer": "ألمانيا الغربية",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c07_020",
+        "question": "من خسر نهائي كأس العالم 1974 أمام ألمانيا الغربية؟",
+        "answer": "هولندا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c07_021",
+        "question": "من فاز بكأس العالم 1978؟",
+        "answer": "الأرجنتين",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c07_022",
+        "question": "من خسر نهائي كأس العالم 1978 أمام الأرجنتين؟",
+        "answer": "هولندا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c07_023",
+        "question": "من فاز بكأس العالم 1982؟",
+        "answer": "إيطاليا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c07_024",
+        "question": "من خسر نهائي كأس العالم 1982 أمام إيطاليا؟",
+        "answer": "ألمانيا الغربية",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c07_025",
+        "question": "من فاز بكأس العالم 1986؟",
+        "answer": "الأرجنتين",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c07_026",
+        "question": "من خسر نهائي كأس العالم 1986 أمام الأرجنتين؟",
+        "answer": "ألمانيا الغربية",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c07_027",
+        "question": "من فاز بكأس العالم 1990؟",
+        "answer": "ألمانيا الغربية",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c07_028",
+        "question": "من خسر نهائي كأس العالم 1990 أمام ألمانيا الغربية؟",
+        "answer": "الأرجنتين",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c07_029",
+        "question": "من فاز بكأس العالم 1994؟",
+        "answer": "البرازيل",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c07_030",
+        "question": "من خسر نهائي كأس العالم 1994 بركلات الترجيح أمام البرازيل؟",
+        "answer": "إيطاليا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c07_031",
+        "question": "من فاز بكأس العالم 1998؟",
+        "answer": "فرنسا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c07_032",
+        "question": "من خسر نهائي كأس العالم 1998 أمام فرنسا؟",
+        "answer": "البرازيل",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c07_033",
+        "question": "من فاز بكأس العالم 2002؟",
+        "answer": "البرازيل",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c07_034",
+        "question": "من خسر نهائي كأس العالم 2002 أمام البرازيل؟",
+        "answer": "ألمانيا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c07_035",
+        "question": "من فاز بكأس العالم 2006؟",
+        "answer": "إيطاليا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c07_036",
+        "question": "من خسر نهائي كأس العالم 2006 بركلات الترجيح أمام إيطاليا؟",
+        "answer": "فرنسا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      }
+    ],
+    "دوري الأبطال": [
+      {
+        "id": "v6b7_c08_001",
+        "question": "أي نادٍ تُوج بدوري أبطال أوروبا موسم 1988-89؟",
+        "answer": "ميلان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c08_002",
+        "question": "أي نادٍ تُوج بدوري أبطال أوروبا موسم 1989-90؟",
+        "answer": "ميلان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c08_003",
+        "question": "أي نادٍ تُوج بدوري أبطال أوروبا موسم 1990-91؟",
+        "answer": "ريد ستار بلغراد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c08_004",
+        "question": "أي نادٍ تُوج بدوري أبطال أوروبا موسم 1991-92؟",
+        "answer": "برشلونة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c08_005",
+        "question": "أي نادٍ تُوج بدوري أبطال أوروبا موسم 1992-93؟",
+        "answer": "مارسيليا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c08_006",
+        "question": "أي نادٍ تُوج بدوري أبطال أوروبا موسم 1993-94؟",
+        "answer": "ميلان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c08_007",
+        "question": "أي نادٍ تُوج بدوري أبطال أوروبا موسم 1994-95؟",
+        "answer": "أياكس",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c08_008",
+        "question": "أي نادٍ تُوج بدوري أبطال أوروبا موسم 1995-96؟",
+        "answer": "يوفنتوس",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c08_009",
+        "question": "أي نادٍ تُوج بدوري أبطال أوروبا موسم 1996-97؟",
+        "answer": "بوروسيا دورتموند",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c08_010",
+        "question": "أي نادٍ تُوج بدوري أبطال أوروبا موسم 1997-98؟",
+        "answer": "ريال مدريد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c08_011",
+        "question": "أي نادٍ تُوج بدوري أبطال أوروبا موسم 1998-99؟",
+        "answer": "مانشستر يونايتد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c08_012",
+        "question": "أي نادٍ تُوج بدوري أبطال أوروبا موسم 1999-2000؟",
+        "answer": "ريال مدريد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c08_013",
+        "question": "أي نادٍ تُوج بدوري أبطال أوروبا موسم 2000-01؟",
+        "answer": "بايرن ميونخ",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c08_014",
+        "question": "أي نادٍ تُوج بدوري أبطال أوروبا موسم 2001-02؟",
+        "answer": "ريال مدريد",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c08_015",
+        "question": "أي نادٍ تُوج بدوري أبطال أوروبا موسم 2002-03؟",
+        "answer": "ميلان",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c08_016",
+        "question": "أي نادٍ تُوج بدوري أبطال أوروبا موسم 2003-04؟",
+        "answer": "بورتو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c08_017",
+        "question": "أي نادٍ تُوج بدوري أبطال أوروبا موسم 2004-05؟",
+        "answer": "ليفربول",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c08_018",
+        "question": "أي نادٍ تُوج بدوري أبطال أوروبا موسم 2005-06؟",
+        "answer": "برشلونة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c08_019",
+        "question": "أي نادٍ تُوج بدوري أبطال أوروبا موسم 2006-07؟",
+        "answer": "ميلان",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c08_020",
+        "question": "أي نادٍ تُوج بدوري أبطال أوروبا موسم 2007-08؟",
+        "answer": "مانشستر يونايتد",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c08_021",
+        "question": "أي نادٍ تُوج بدوري أبطال أوروبا موسم 2008-09؟",
+        "answer": "برشلونة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c08_022",
+        "question": "أي نادٍ تُوج بدوري أبطال أوروبا موسم 2009-10؟",
+        "answer": "إنتر ميلان",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c08_023",
+        "question": "أي نادٍ تُوج بدوري أبطال أوروبا موسم 2010-11؟",
+        "answer": "برشلونة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c08_024",
+        "question": "أي نادٍ تُوج بدوري أبطال أوروبا موسم 2011-12؟",
+        "answer": "تشيلسي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c08_025",
+        "question": "أي نادٍ تُوج بدوري أبطال أوروبا موسم 2012-13؟",
+        "answer": "بايرن ميونخ",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c08_026",
+        "question": "أي نادٍ تُوج بدوري أبطال أوروبا موسم 2013-14؟",
+        "answer": "ريال مدريد",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c08_027",
+        "question": "أي نادٍ تُوج بدوري أبطال أوروبا موسم 2014-15؟",
+        "answer": "برشلونة",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c08_028",
+        "question": "أي نادٍ تُوج بدوري أبطال أوروبا موسم 2015-16؟",
+        "answer": "ريال مدريد",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c08_029",
+        "question": "أي نادٍ تُوج بدوري أبطال أوروبا موسم 2016-17؟",
+        "answer": "ريال مدريد",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c08_030",
+        "question": "أي نادٍ تُوج بدوري أبطال أوروبا موسم 2017-18؟",
+        "answer": "ريال مدريد",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c08_031",
+        "question": "أي نادٍ تُوج بدوري أبطال أوروبا موسم 2018-19؟",
+        "answer": "ليفربول",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c08_032",
+        "question": "أي نادٍ تُوج بدوري أبطال أوروبا موسم 2019-20؟",
+        "answer": "بايرن ميونخ",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c08_033",
+        "question": "أي نادٍ تُوج بدوري أبطال أوروبا موسم 2020-21؟",
+        "answer": "تشيلسي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c08_034",
+        "question": "أي نادٍ تُوج بدوري أبطال أوروبا موسم 2021-22؟",
+        "answer": "ريال مدريد",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c08_035",
+        "question": "أي نادٍ تُوج بدوري أبطال أوروبا موسم 2022-23؟",
+        "answer": "مانشستر سيتي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c08_036",
+        "question": "أي نادٍ تُوج بدوري أبطال أوروبا موسم 2023-24؟",
+        "answer": "ريال مدريد",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      }
+    ],
+    "الدوري الإنجليزي": [
+      {
+        "id": "v6b7_c09_001",
+        "question": "من بطل الدوري الإنجليزي الممتاز موسم 1992-93؟",
+        "answer": "مانشستر يونايتد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c09_002",
+        "question": "من بطل الدوري الإنجليزي الممتاز موسم 1993-94؟",
+        "answer": "مانشستر يونايتد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c09_003",
+        "question": "من بطل الدوري الإنجليزي الممتاز موسم 1994-95؟",
+        "answer": "بلاكبيرن روفرز",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c09_004",
+        "question": "من بطل الدوري الإنجليزي الممتاز موسم 1995-96؟",
+        "answer": "مانشستر يونايتد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c09_005",
+        "question": "من بطل الدوري الإنجليزي الممتاز موسم 1996-97؟",
+        "answer": "مانشستر يونايتد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c09_006",
+        "question": "من بطل الدوري الإنجليزي الممتاز موسم 1997-98؟",
+        "answer": "أرسنال",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c09_007",
+        "question": "من بطل الدوري الإنجليزي الممتاز موسم 1998-99؟",
+        "answer": "مانشستر يونايتد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c09_008",
+        "question": "من بطل الدوري الإنجليزي الممتاز موسم 1999-2000؟",
+        "answer": "مانشستر يونايتد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c09_009",
+        "question": "من بطل الدوري الإنجليزي الممتاز موسم 2000-01؟",
+        "answer": "مانشستر يونايتد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c09_010",
+        "question": "من بطل الدوري الإنجليزي الممتاز موسم 2001-02؟",
+        "answer": "أرسنال",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c09_011",
+        "question": "من بطل الدوري الإنجليزي الممتاز موسم 2002-03؟",
+        "answer": "مانشستر يونايتد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c09_012",
+        "question": "من بطل الدوري الإنجليزي الممتاز موسم 2003-04؟",
+        "answer": "أرسنال",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c09_013",
+        "question": "من بطل الدوري الإنجليزي الممتاز موسم 2004-05؟",
+        "answer": "تشيلسي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c09_014",
+        "question": "من بطل الدوري الإنجليزي الممتاز موسم 2005-06؟",
+        "answer": "تشيلسي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c09_015",
+        "question": "من بطل الدوري الإنجليزي الممتاز موسم 2006-07؟",
+        "answer": "مانشستر يونايتد",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c09_016",
+        "question": "من بطل الدوري الإنجليزي الممتاز موسم 2007-08؟",
+        "answer": "مانشستر يونايتد",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c09_017",
+        "question": "من بطل الدوري الإنجليزي الممتاز موسم 2008-09؟",
+        "answer": "مانشستر يونايتد",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c09_018",
+        "question": "من بطل الدوري الإنجليزي الممتاز موسم 2009-10؟",
+        "answer": "تشيلسي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c09_019",
+        "question": "من بطل الدوري الإنجليزي الممتاز موسم 2010-11؟",
+        "answer": "مانشستر يونايتد",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c09_020",
+        "question": "من بطل الدوري الإنجليزي الممتاز موسم 2011-12؟",
+        "answer": "مانشستر سيتي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c09_021",
+        "question": "من بطل الدوري الإنجليزي الممتاز موسم 2012-13؟",
+        "answer": "مانشستر يونايتد",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c09_022",
+        "question": "من بطل الدوري الإنجليزي الممتاز موسم 2013-14؟",
+        "answer": "مانشستر سيتي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c09_023",
+        "question": "من بطل الدوري الإنجليزي الممتاز موسم 2014-15؟",
+        "answer": "تشيلسي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c09_024",
+        "question": "من بطل الدوري الإنجليزي الممتاز موسم 2015-16؟",
+        "answer": "ليستر سيتي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c09_025",
+        "question": "من بطل الدوري الإنجليزي الممتاز موسم 2016-17؟",
+        "answer": "تشيلسي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c09_026",
+        "question": "من بطل الدوري الإنجليزي الممتاز موسم 2017-18؟",
+        "answer": "مانشستر سيتي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c09_027",
+        "question": "من بطل الدوري الإنجليزي الممتاز موسم 2018-19؟",
+        "answer": "مانشستر سيتي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c09_028",
+        "question": "من بطل الدوري الإنجليزي الممتاز موسم 2019-20؟",
+        "answer": "ليفربول",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c09_029",
+        "question": "من بطل الدوري الإنجليزي الممتاز موسم 2020-21؟",
+        "answer": "مانشستر سيتي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c09_030",
+        "question": "من بطل الدوري الإنجليزي الممتاز موسم 2021-22؟",
+        "answer": "مانشستر سيتي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c09_031",
+        "question": "من بطل الدوري الإنجليزي الممتاز موسم 2022-23؟",
+        "answer": "مانشستر سيتي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c09_032",
+        "question": "من بطل الدوري الإنجليزي الممتاز موسم 2023-24؟",
+        "answer": "مانشستر سيتي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c09_033",
+        "question": "أي فريق أنهى موسم 2003-04 في الدوري الإنجليزي الممتاز بلا أي هزيمة؟",
+        "answer": "أرسنال",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c09_034",
+        "question": "من سجل الرقم القياسي السابق 34 هدفًا في موسم واحد من الدوري الممتاز قبل أن يحطمه إيرلينغ هالاند؟",
+        "answer": "أندي كول وآلان شيرر",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c09_035",
+        "question": "أي فريق حقق 100 نقطة في الدوري الإنجليزي الممتاز موسم 2017-18؟",
+        "answer": "مانشستر سيتي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c09_036",
+        "question": "من كان مدرب ليستر سيتي عند فوزه بالدوري الإنجليزي الممتاز موسم 2015-16؟",
+        "answer": "كلاوديو رانييري",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      }
+    ],
+    "القرآن الكريم": [
+      {
+        "id": "v6b7_c10_001",
+        "question": "ما ترتيب سورة الفاتحة في المصحف؟",
+        "answer": "1",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c10_002",
+        "question": "ما ترتيب سورة البقرة في المصحف؟",
+        "answer": "2",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c10_003",
+        "question": "ما ترتيب سورة آل عمران في المصحف؟",
+        "answer": "3",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c10_004",
+        "question": "ما ترتيب سورة النساء في المصحف؟",
+        "answer": "4",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c10_005",
+        "question": "ما ترتيب سورة المائدة في المصحف؟",
+        "answer": "5",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c10_006",
+        "question": "ما ترتيب سورة الأنعام في المصحف؟",
+        "answer": "6",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c10_007",
+        "question": "ما ترتيب سورة الأعراف في المصحف؟",
+        "answer": "7",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c10_008",
+        "question": "ما ترتيب سورة الأنفال في المصحف؟",
+        "answer": "8",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c10_009",
+        "question": "ما ترتيب سورة التوبة في المصحف؟",
+        "answer": "9",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c10_010",
+        "question": "ما ترتيب سورة يونس في المصحف؟",
+        "answer": "10",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c10_011",
+        "question": "ما ترتيب سورة هود في المصحف؟",
+        "answer": "11",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c10_012",
+        "question": "ما ترتيب سورة يوسف في المصحف؟",
+        "answer": "12",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c10_013",
+        "question": "ما ترتيب سورة الرعد في المصحف؟",
+        "answer": "13",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c10_014",
+        "question": "ما ترتيب سورة إبراهيم في المصحف؟",
+        "answer": "14",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c10_015",
+        "question": "ما ترتيب سورة الحجر في المصحف؟",
+        "answer": "15",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c10_016",
+        "question": "ما ترتيب سورة النحل في المصحف؟",
+        "answer": "16",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c10_017",
+        "question": "ما ترتيب سورة الإسراء في المصحف؟",
+        "answer": "17",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c10_018",
+        "question": "ما ترتيب سورة الكهف في المصحف؟",
+        "answer": "18",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c10_019",
+        "question": "ما ترتيب سورة مريم في المصحف؟",
+        "answer": "19",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c10_020",
+        "question": "ما ترتيب سورة طه في المصحف؟",
+        "answer": "20",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c10_021",
+        "question": "ما ترتيب سورة الأنبياء في المصحف؟",
+        "answer": "21",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c10_022",
+        "question": "ما ترتيب سورة الحج في المصحف؟",
+        "answer": "22",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c10_023",
+        "question": "ما ترتيب سورة المؤمنون في المصحف؟",
+        "answer": "23",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c10_024",
+        "question": "ما ترتيب سورة النور في المصحف؟",
+        "answer": "24",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c10_025",
+        "question": "ما ترتيب سورة الفرقان في المصحف؟",
+        "answer": "25",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c10_026",
+        "question": "ما ترتيب سورة الشعراء في المصحف؟",
+        "answer": "26",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c10_027",
+        "question": "ما ترتيب سورة النمل في المصحف؟",
+        "answer": "27",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c10_028",
+        "question": "ما ترتيب سورة القصص في المصحف؟",
+        "answer": "28",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c10_029",
+        "question": "ما ترتيب سورة العنكبوت في المصحف؟",
+        "answer": "29",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c10_030",
+        "question": "ما ترتيب سورة الروم في المصحف؟",
+        "answer": "30",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c10_031",
+        "question": "ما ترتيب سورة لقمان في المصحف؟",
+        "answer": "31",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c10_032",
+        "question": "ما ترتيب سورة السجدة في المصحف؟",
+        "answer": "32",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c10_033",
+        "question": "ما ترتيب سورة الأحزاب في المصحف؟",
+        "answer": "33",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c10_034",
+        "question": "ما ترتيب سورة سبأ في المصحف؟",
+        "answer": "34",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c10_035",
+        "question": "ما ترتيب سورة فاطر في المصحف؟",
+        "answer": "35",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c10_036",
+        "question": "ما ترتيب سورة يس في المصحف؟",
+        "answer": "36",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      }
+    ],
+    "قطر": [
+      {
+        "id": "v6b7_c11_001",
+        "question": "ما عاصمة دولة قطر؟",
+        "answer": "الدوحة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c11_002",
+        "question": "ما العملة الرسمية في قطر؟",
+        "answer": "الريال القطري",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c11_003",
+        "question": "في أي قارة تقع قطر؟",
+        "answer": "آسيا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c11_004",
+        "question": "على أي الخليج تقع قطر؟",
+        "answer": "الخليج العربي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c11_005",
+        "question": "ما اسم أعلى برج في قطر؟",
+        "answer": "برج أسباير (الشعلة)",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c11_006",
+        "question": "ما اسم المدينة التعليمية الكبرى التي تضم جامعات دولية في قطر؟",
+        "answer": "المدينة التعليمية",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c11_007",
+        "question": "ما اسم المؤسسة التي تقف خلف المدينة التعليمية؟",
+        "answer": "مؤسسة قطر",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c11_008",
+        "question": "ما اسم المتحف الذي صممه آي. إم. باي في الدوحة؟",
+        "answer": "متحف الفن الإسلامي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c11_009",
+        "question": "ما اسم المتحف الوطني الشهير بتصميمه المستوحى من وردة الصحراء؟",
+        "answer": "متحف قطر الوطني",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c11_010",
+        "question": "ما اسم الجزيرة الاصطناعية الفاخرة في الدوحة؟",
+        "answer": "اللؤلؤة-قطر",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c11_011",
+        "question": "ما اسم الكورنيش الممتد على الواجهة البحرية للدوحة؟",
+        "answer": "كورنيش الدوحة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c11_012",
+        "question": "في أي عام استقلت قطر عن بريطانيا؟",
+        "answer": "1971",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c11_013",
+        "question": "في أي يوم تحتفل قطر بيومها الوطني؟",
+        "answer": "18 ديسمبر",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c11_014",
+        "question": "ما اسم مؤسس دولة قطر الحديثة الذي يرتبط به اليوم الوطني؟",
+        "answer": "الشيخ جاسم بن محمد آل ثاني",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c11_015",
+        "question": "ما اسم الملعب الذي استضاف نهائي كأس العالم 2022؟",
+        "answer": "استاد لوسيل",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c11_016",
+        "question": "ما اسم المدينة التي يقع فيها استاد البيت؟",
+        "answer": "الخور",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c11_017",
+        "question": "ما اسم الملعب الذي بُني باستخدام حاويات شحن وأجزاء قابلة للتفكيك في مونديال 2022؟",
+        "answer": "استاد 974",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c11_018",
+        "question": "ما اسم الاستاد الملقب بجوهرة الصحراء في الوكرة؟",
+        "answer": "استاد الجنوب",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c11_019",
+        "question": "ما اسم الملعب الواقع في المدينة التعليمية؟",
+        "answer": "استاد المدينة التعليمية",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c11_020",
+        "question": "ما اسم الملعب الذي استضاف افتتاح كأس العالم 2022؟",
+        "answer": "استاد البيت",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c11_021",
+        "question": "أي بطولة عالمية للمنتخبات استضافتها قطر في 2022؟",
+        "answer": "كأس العالم لكرة القدم",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c11_022",
+        "question": "ما اسم المنتخب الوطني القطري لكرة القدم؟",
+        "answer": "العنابي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c11_023",
+        "question": "في أي عام فازت قطر بكأس آسيا للمرة الأولى؟",
+        "answer": "2019",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c11_024",
+        "question": "من استضاف كأس آسيا 2023 التي أقيمت فعليًا مطلع 2024؟",
+        "answer": "قطر",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c11_025",
+        "question": "ما البحر الداخلي الشهير في جنوب قطر؟",
+        "answer": "خور العديد",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c11_026",
+        "question": "ما اسم المنطقة الأثرية المدرجة على قائمة التراث العالمي لليونسكو في قطر؟",
+        "answer": "الزبارة",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c11_027",
+        "question": "ما اسم الحصن التاريخي الشهير قرب موقع الزبارة؟",
+        "answer": "قلعة الزبارة",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c11_028",
+        "question": "ما اسم الجزيرة الواقعة شمال شرق الدوحة والمعروفة بأشجار القرم؟",
+        "answer": "جزيرة بن غنام (الجزيرة البنفسجية)",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c11_029",
+        "question": "ما اسم أكبر مدينة قطرية بعد الدوحة من حيث الشهرة السكانية شمال العاصمة؟",
+        "answer": "الريان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c11_030",
+        "question": "ما اسم المدينة الصناعية الرئيسية في شمال قطر المرتبطة بصناعة الغاز؟",
+        "answer": "رأس لفان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c11_031",
+        "question": "ما اسم المنطقة الصناعية الساحلية جنوب الدوحة؟",
+        "answer": "مسيعيد",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c11_032",
+        "question": "ما اسم أكبر حقل غاز طبيعي مشترك مع إيران والذي يمثل أساس صناعة الغاز القطرية؟",
+        "answer": "حقل الشمال",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c11_033",
+        "question": "ما اسم المكتبة الوطنية الكبرى في المدينة التعليمية؟",
+        "answer": "مكتبة قطر الوطنية",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c11_034",
+        "question": "ما اسم المركز الوطني للمؤتمرات الواقع في المدينة التعليمية؟",
+        "answer": "مركز قطر الوطني للمؤتمرات",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c11_035",
+        "question": "ما اسم الحديقة الكبيرة المجاورة لاستاد خليفة الدولي في منطقة أسباير؟",
+        "answer": "أسباير بارك",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c11_036",
+        "question": "ما اسم الأكاديمية الرياضية الشهيرة في الدوحة؟",
+        "answer": "أكاديمية أسباير",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      }
+    ],
+    "سوريا": [
+      {
+        "id": "v6b7_c12_001",
+        "question": "ما العملة الرسمية في سوريا؟",
+        "answer": "الليرة السورية",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c12_002",
+        "question": "على أي بحر تطل سوريا من الغرب؟",
+        "answer": "البحر المتوسط",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c12_003",
+        "question": "ما اسم أكبر مدينة سورية من حيث التاريخ والامتداد الحضري إلى جانب دمشق؟",
+        "answer": "حلب",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c12_004",
+        "question": "ما اسم النهر الذي يمر في شرق سوريا؟",
+        "answer": "نهر الفرات",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c12_005",
+        "question": "ما اسم المدينة السورية المشهورة بنواعيرها؟",
+        "answer": "حماة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c12_006",
+        "question": "ما اسم المدينة الساحلية التي تعد الميناء الرئيسي لسوريا؟",
+        "answer": "اللاذقية",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c12_007",
+        "question": "ما اسم المدينة الساحلية السورية الأخرى الواقعة جنوب اللاذقية؟",
+        "answer": "طرطوس",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c12_008",
+        "question": "ما اسم المدينة الأثرية الصحراوية الشهيرة المدرجة على قائمة التراث العالمي؟",
+        "answer": "تدمر",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c12_009",
+        "question": "ما اسم السوق التاريخي المسقوف الشهير في دمشق؟",
+        "answer": "سوق الحميدية",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c12_010",
+        "question": "ما اسم القلعة التاريخية الشهيرة في مدينة حلب؟",
+        "answer": "قلعة حلب",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c12_011",
+        "question": "ما اسم القلعة الصليبية الشهيرة غرب حمص والمدرجة على قائمة التراث العالمي؟",
+        "answer": "قلعة الحصن",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c12_012",
+        "question": "ما اسم الجبل المطل على دمشق؟",
+        "answer": "جبل قاسيون",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c12_013",
+        "question": "ما اسم السهل الزراعي الشهير حول دمشق؟",
+        "answer": "غوطة دمشق",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c12_014",
+        "question": "ما اسم المدينة السورية المعروفة بآثارها الرومانية والبازلتية في الجنوب؟",
+        "answer": "بصرى",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c12_015",
+        "question": "ما اسم المحافظة السورية التي تقع فيها مدينة بصرى؟",
+        "answer": "درعا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c12_016",
+        "question": "ما اسم المحافظة التي تقع فيها مدينة تدمر؟",
+        "answer": "حمص",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c12_017",
+        "question": "ما اسم المحافظة السورية التي تقع فيها مدينة معلولا؟",
+        "answer": "ريف دمشق",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c12_018",
+        "question": "بأي لغة سامية ما زالت معلولا مشهورة تاريخيًا باستخدامها؟",
+        "answer": "الآرامية",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c12_019",
+        "question": "ما اسم أعلى قمة في سوريا؟",
+        "answer": "جبل الشيخ",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c12_020",
+        "question": "ما اسم الجزيرة النهرية السورية الواقعة في الفرات قرب الرقة والمعروفة بقلعتها؟",
+        "answer": "جزيرة جعبر",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c12_021",
+        "question": "ما اسم أكبر بحيرة اصطناعية في سوريا على نهر الفرات؟",
+        "answer": "بحيرة الأسد",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c12_022",
+        "question": "ما اسم السد الكبير المقام على نهر الفرات قرب الطبقة؟",
+        "answer": "سد الفرات",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c12_023",
+        "question": "ما اسم المدينة التي تقع قرب سد الفرات وبحيرة الأسد؟",
+        "answer": "الطبقة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c12_024",
+        "question": "ما اسم المدينة السورية الواقعة على نهر الفرات والتي أصبحت مركز محافظة تحمل اسمها؟",
+        "answer": "دير الزور",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c12_025",
+        "question": "ما اسم المدينة السورية الواقعة على نهر الفرات شمال شرق البلاد والتي تحمل اسم المحافظة نفسها؟",
+        "answer": "الرقة",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c12_026",
+        "question": "ما اسم المدينة السورية القديمة المعروفة بكنائسها وأحيائها التاريخية في الشمال الغربي؟",
+        "answer": "إدلب",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c12_027",
+        "question": "ما اسم المحافظة السورية التي تشتهر بجبل العرب؟",
+        "answer": "السويداء",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c12_028",
+        "question": "ما الاسم الآخر الشائع لجبل العرب؟",
+        "answer": "جبل الدروز",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c12_029",
+        "question": "ما اسم المحافظة السورية الواقعة في أقصى الشمال الشرقي؟",
+        "answer": "الحسكة",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c12_030",
+        "question": "ما اسم النهر الذي يشكل جزءًا من الحدود الشمالية الشرقية لسوريا مع تركيا؟",
+        "answer": "دجلة",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c12_031",
+        "question": "ما اسم المعبر الحدودي الشهير بين سوريا والأردن قرب درعا؟",
+        "answer": "نصيب",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c12_032",
+        "question": "ما اسم أقدم عاصمة مأهولة باستمرار غالبًا ما تُذكر في هذا السياق وتقع في سوريا؟",
+        "answer": "دمشق",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c12_033",
+        "question": "ما اسم الخط الحديدي التاريخي الذي مر بدمشق في طريقه إلى الحجاز؟",
+        "answer": "سكة حديد الحجاز",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c12_034",
+        "question": "ما اسم المتحف الأثري الرئيسي في العاصمة السورية؟",
+        "answer": "المتحف الوطني بدمشق",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c12_035",
+        "question": "ما اسم الباب الروماني الشهير في دمشق القديمة المرتبط بالطريق المستقيم؟",
+        "answer": "باب شرقي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c12_036",
+        "question": "ما اسم الشارع التاريخي المذكور في العهد الجديد والممتد في دمشق القديمة؟",
+        "answer": "الشارع المستقيم",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      }
+    ],
+    "ريال مدريد": [
+      {
+        "id": "v6b7_c13_001",
+        "question": "في أي مدينة يقع نادي ريال مدريد؟",
+        "answer": "مدريد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c13_002",
+        "question": "ما اللون الأساسي لقميص ريال مدريد التقليدي؟",
+        "answer": "الأبيض",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c13_003",
+        "question": "ما اللقب الشائع لريال مدريد باللغة الإسبانية نسبة إلى اللون الأبيض؟",
+        "answer": "لوس بلانكوس",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c13_004",
+        "question": "في أي عام تأسس ريال مدريد؟",
+        "answer": "1902",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c13_005",
+        "question": "من اللاعب الذي يحمل الرقم القياسي التاريخي في عدد الأهداف لريال مدريد؟",
+        "answer": "كريستيانو رونالدو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c13_006",
+        "question": "من الحارس الذي قاد ريال مدريد لسنوات طويلة وفاز معه بدوري الأبطال 2014؟",
+        "answer": "إيكر كاسياس",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c13_007",
+        "question": "من المدافع الإسباني الذي كان قائد ريال مدريد في نهائي دوري الأبطال 2016؟",
+        "answer": "سيرخيو راموس",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c13_008",
+        "question": "من سجل هدف التعادل لريال مدريد في الدقيقة 93 من نهائي دوري الأبطال 2014؟",
+        "answer": "سيرخيو راموس",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c13_009",
+        "question": "من كان مدرب ريال مدريد عند الفوز بثلاثة ألقاب متتالية لدوري الأبطال بين 2016 و2018؟",
+        "answer": "زين الدين زيدان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c13_010",
+        "question": "من سجل هدف ريال مدريد الشهير من ركلة مقصية أمام ليفربول في نهائي دوري الأبطال 2018؟",
+        "answer": "غاريث بيل",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c13_011",
+        "question": "من سجل هدف الفوز لريال مدريد في نهائي دوري الأبطال 2022؟",
+        "answer": "فينيسيوس جونيور",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c13_012",
+        "question": "من سجل هدفي ريال مدريد في نهائي دوري الأبطال 2017 أمام يوفنتوس؟",
+        "answer": "كريستيانو رونالدو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c13_013",
+        "question": "من كان خصم ريال مدريد في نهائي دوري الأبطال 2014؟",
+        "answer": "أتلتيكو مدريد",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c13_014",
+        "question": "من كان خصم ريال مدريد في نهائي دوري الأبطال 2016؟",
+        "answer": "أتلتيكو مدريد",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c13_015",
+        "question": "من كان خصم ريال مدريد في نهائي دوري الأبطال 2017؟",
+        "answer": "يوفنتوس",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c13_016",
+        "question": "من كان خصم ريال مدريد في نهائي دوري الأبطال 2018؟",
+        "answer": "ليفربول",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c13_017",
+        "question": "من كان خصم ريال مدريد في نهائي دوري الأبطال 2022؟",
+        "answer": "ليفربول",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c13_018",
+        "question": "من كان خصم ريال مدريد في نهائي دوري الأبطال 2024؟",
+        "answer": "بوروسيا دورتموند",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c13_019",
+        "question": "من سجل الهدف الأول لريال مدريد في نهائي دوري الأبطال 2024؟",
+        "answer": "داني كارفاخال",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c13_020",
+        "question": "من سجل الهدف الثاني لريال مدريد في نهائي دوري الأبطال 2024؟",
+        "answer": "فينيسيوس جونيور",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c13_021",
+        "question": "من اللاعب الفرنسي الذي فاز بالكرة الذهبية 2022 بعد موسم مميز مع ريال مدريد؟",
+        "answer": "كريم بنزيما",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c13_022",
+        "question": "من لاعب الوسط الكرواتي الذي فاز بالكرة الذهبية 2018 وهو مع ريال مدريد؟",
+        "answer": "لوكا مودريتش",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c13_023",
+        "question": "من النجم البرتغالي الذي انتقل إلى ريال مدريد من مانشستر يونايتد في 2009؟",
+        "answer": "كريستيانو رونالدو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c13_024",
+        "question": "من اللاعب الويلزي الذي انتقل إلى ريال مدريد من توتنهام في 2013؟",
+        "answer": "غاريث بيل",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c13_025",
+        "question": "من لاعب الوسط الألماني الذي انضم إلى ريال مدريد من بايرن ميونخ في 2014؟",
+        "answer": "توني كروس",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c13_026",
+        "question": "من الظهير البرازيلي الذي لعب لسنوات طويلة مع ريال مدريد وحمل شارة القيادة؟",
+        "answer": "مارسيلو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c13_027",
+        "question": "من المهاجم البرازيلي الذي لعب لريال مدريد بين 2002 و2007 ويُعرف بلقب الظاهرة؟",
+        "answer": "رونالدو نازاريو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c13_028",
+        "question": "من صانع الألعاب الفرنسي الذي سجل هدفًا طائرًا شهيرًا في نهائي دوري الأبطال 2002؟",
+        "answer": "زين الدين زيدان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c13_029",
+        "question": "من كان خصم ريال مدريد في نهائي دوري الأبطال 2002؟",
+        "answer": "باير ليفركوزن",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c13_030",
+        "question": "من سجل الهدف الأول لريال مدريد في نهائي دوري الأبطال 2002؟",
+        "answer": "راؤول",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c13_031",
+        "question": "من هو الهداف الإسباني التاريخي البارز لريال مدريد قبل عصر كريستيانو رونالدو؟",
+        "answer": "راؤول",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c13_032",
+        "question": "ما اسم الغريم المحلي لريال مدريد في ديربي مدريد؟",
+        "answer": "أتلتيكو مدريد",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c13_033",
+        "question": "ما اسم المباراة الشهيرة بين ريال مدريد وبرشلونة؟",
+        "answer": "الكلاسيكو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c13_034",
+        "question": "من سجل هدف ريال مدريد الوحيد في نهائي كأس أوروبا 1998 أمام يوفنتوس؟",
+        "answer": "بريدراج مياتوفيتش",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c13_035",
+        "question": "من سجل هدف ريال مدريد الثالث في نهائي دوري الأبطال 2014 من ركلة جزاء؟",
+        "answer": "كريستيانو رونالدو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c13_036",
+        "question": "من سجل هدف ريال مدريد الثاني في نهائي دوري الأبطال 2014؟",
+        "answer": "غاريث بيل",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      }
+    ],
+    "مانشستر يونايتد": [
+      {
+        "id": "v6b7_c14_001",
+        "question": "ما اللقب الشائع لمانشستر يونايتد؟",
+        "answer": "الشياطين الحمر",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c14_002",
+        "question": "في أي عام تأسس النادي باسم نيوتن هيث؟",
+        "answer": "1878",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c14_003",
+        "question": "في أي عام تغير اسم النادي إلى مانشستر يونايتد؟",
+        "answer": "1902",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c14_004",
+        "question": "من المدرب الذي قاد مانشستر يونايتد إلى الثلاثية التاريخية عام 1999؟",
+        "answer": "أليكس فيرغسون",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c14_005",
+        "question": "من سجل هدف التعادل لمانشستر يونايتد في نهائي دوري الأبطال 1999؟",
+        "answer": "تيدي شيرينغهام",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c14_006",
+        "question": "من سجل هدف الفوز لمانشستر يونايتد في نهائي دوري الأبطال 1999؟",
+        "answer": "أولي غونار سولشاير",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c14_007",
+        "question": "من كان خصم مانشستر يونايتد في نهائي دوري الأبطال 1999؟",
+        "answer": "بايرن ميونخ",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c14_008",
+        "question": "أين أقيم نهائي دوري الأبطال 1999 الذي فاز به مانشستر يونايتد؟",
+        "answer": "كامب نو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c14_009",
+        "question": "من كان خصم مانشستر يونايتد في نهائي دوري الأبطال 2008؟",
+        "answer": "تشيلسي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c14_010",
+        "question": "من سجل هدف مانشستر يونايتد في الوقت الأصلي من نهائي دوري الأبطال 2008؟",
+        "answer": "كريستيانو رونالدو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c14_011",
+        "question": "من الحارس الذي تصدى للركلة الحاسمة أمام تشيلسي في نهائي دوري الأبطال 2008؟",
+        "answer": "إدوين فان دير سار",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c14_012",
+        "question": "من كان حارس مانشستر يونايتد في نهائي دوري الأبطال 2008؟",
+        "answer": "إدوين فان دير سار",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c14_013",
+        "question": "من فاز بالكرة الذهبية 2008 أثناء لعبه لمانشستر يونايتد؟",
+        "answer": "كريستيانو رونالدو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c14_014",
+        "question": "من اللاعب الذي يحمل الرقم القياسي في عدد المباريات مع مانشستر يونايتد؟",
+        "answer": "رايان غيغز",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c14_015",
+        "question": "من كان قائد مانشستر يونايتد الشهير خلال معظم حقبة التسعينيات وبداية الألفية؟",
+        "answer": "روي كين",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c14_016",
+        "question": "من لاعب الوسط الذي سجل هدفًا من منتصف الملعب تقريبًا ضد ويمبلدون عام 1996؟",
+        "answer": "ديفيد بيكهام",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c14_017",
+        "question": "من المهاجم الفرنسي الشهير الذي ارتدى الرقم 7 في مانشستر يونايتد في التسعينيات؟",
+        "answer": "إريك كانتونا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c14_018",
+        "question": "من الحارس الدنماركي الذي فاز مع مانشستر يونايتد بالثلاثية عام 1999؟",
+        "answer": "بيتر شمايكل",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c14_019",
+        "question": "من المدافع الذي جاء من ليدز يونايتد وأصبح قائدًا لمانشستر يونايتد؟",
+        "answer": "ريو فرديناند",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c14_020",
+        "question": "من المدافع الصربي الذي شكل ثنائيًا شهيرًا مع ريو فرديناند؟",
+        "answer": "نيمانيا فيديتش",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c14_021",
+        "question": "من المهاجم الهولندي الذي لعب لمانشستر يونايتد بين 2001 و2006؟",
+        "answer": "رود فان نيستلروي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c14_022",
+        "question": "من المهاجم الهولندي الذي سجل هدفًا حاسمًا لمانشستر يونايتد في موسم 2012-13 وتوج هدافًا للدوري؟",
+        "answer": "روبن فان بيرسي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c14_023",
+        "question": "من كان آخر مدرب قاد مانشستر يونايتد للفوز بالدوري الإنجليزي الممتاز قبل اعتزال فيرغسون؟",
+        "answer": "أليكس فيرغسون",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c14_024",
+        "question": "في أي موسم فاز مانشستر يونايتد بآخر لقب دوري إنجليزي تحت قيادة فيرغسون؟",
+        "answer": "2012-13",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c14_025",
+        "question": "من كان خصم مانشستر يونايتد في نهائي الدوري الأوروبي 2017؟",
+        "answer": "أياكس",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c14_026",
+        "question": "من سجل لمانشستر يونايتد في نهائي الدوري الأوروبي 2017؟",
+        "answer": "بول بوغبا وهنريك مخيتاريان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c14_027",
+        "question": "من كان مدرب مانشستر يونايتد عند الفوز بالدوري الأوروبي 2017؟",
+        "answer": "جوزيه مورينيو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c14_028",
+        "question": "من كان خصم مانشستر يونايتد في نهائي الدوري الأوروبي 2021؟",
+        "answer": "فياريال",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c14_029",
+        "question": "من فاز بنهائي الدوري الأوروبي 2021 أمام مانشستر يونايتد؟",
+        "answer": "فياريال",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c14_030",
+        "question": "من لاعب الوسط الإنجليزي الذي اشتهر بالقميص رقم 18 وسجل هدفًا شهيرًا أمام برشلونة في 2008؟",
+        "answer": "بول سكولز",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c14_031",
+        "question": "من الظهير الأيمن الذي لعب كامل مسيرته تقريبًا مع مانشستر يونايتد وأصبح قائدًا ثم محللًا تلفزيونيًا؟",
+        "answer": "غاري نيفيل",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c14_032",
+        "question": "من المهاجم الذي سجل أول هدف لمانشستر يونايتد في نهائي كأس الاتحاد الإنجليزي 2016 أمام كريستال بالاس؟",
+        "answer": "خوان ماتا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c14_033",
+        "question": "من كان خصم مانشستر يونايتد في نهائي كأس أوروبا 1968؟",
+        "answer": "بنفيكا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c14_034",
+        "question": "من سجل هدفين لمانشستر يونايتد في نهائي كأس أوروبا 1968؟",
+        "answer": "بوبي تشارلتون",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c14_035",
+        "question": "من النجم الأيرلندي الشمالي الذي سجل هدفًا في نهائي كأس أوروبا 1968؟",
+        "answer": "جورج بست",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      },
+      {
+        "id": "v6b7_c14_036",
+        "question": "من المهاجم الذي سجل هدف الفوز لمانشستر يونايتد في نهائي كأس الاتحاد الإنجليزي 2016؟",
+        "answer": "جيسي لينغارد",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {}
+      }
+    ]
+  }
+}

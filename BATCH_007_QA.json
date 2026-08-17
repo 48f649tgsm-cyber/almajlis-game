@@ -1,0 +1,19 @@
+{
+  "batch": "Batch 007",
+  "new_questions": 504,
+  "expanded_categories": 14,
+  "questions_per_expanded_category": 36,
+  "points_distribution_total": {
+    "100": 168,
+    "300": 168,
+    "500": 168
+  },
+  "duplicate_ids_inside_batch_007": 0,
+  "duplicate_question_texts_inside_batch_007": 0,
+  "exact_question_text_matches_with_batches_001_006": 0,
+  "id_collisions_with_batches_001_006": 0,
+  "expected_total_after_batch_007": 3492,
+  "category_images_modified": false,
+  "index_change_scope": "Added questions_v6_batch_007.json to batch loader only",
+  "category_visual_lock_preserved": true
+}
