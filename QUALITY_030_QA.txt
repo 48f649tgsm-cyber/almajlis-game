@@ -1,0 +1,29 @@
+ALMAJLIS BUILD 030 — PROFESSIONAL AUDIO + CATEGORY STOCK LOCK
+JS syntax: PASS
+
+- Build 030: PASS
+- JS syntax: PASS
+- 2 per tier lock: PASS
+- disabled UI: PASS
+- start guard: PASS
+- intro > 10s: PASS
+- ambient ~20s: PASS
+- question ~20s: PASS
+
+Audio:
+- Intro ~12 seconds.
+- Ambient ~20 seconds.
+- Question music ~20 seconds.
+- Tension ~11 seconds.
+- Tie-break ~14 seconds.
+- Victory ~11 seconds.
+- Softer longer stingers replace harsh tiny repetitive effects.
+- Same iPhone-safe embedded HTMLAudio/WAV path.
+
+Category availability:
+- Selectable only with at least 2 eligible unused questions at 100, 2 at 300, 2 at 500.
+- Insufficient categories are visibly disabled and cannot be selected.
+- Disabled categories are automatically removed from selection.
+- Start Match has a hard guard against unavailable categories.
+
+No question data, category images, scoring, timing, or tie-break logic changed.
