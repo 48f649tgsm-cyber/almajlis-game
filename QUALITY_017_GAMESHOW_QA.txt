@@ -1,0 +1,23 @@
+ALMAJLIS QUALITY 017 — GAME SHOW EXPERIENCE
+
+Implemented:
+- More game-show-like question board.
+- 100/300/500 visual hierarchy; 500 has premium challenge treatment.
+- Active-team visual emphasis.
+- Existing 30s first team + 30s second team + manual answer reveal retained.
+- Answer card flip animation.
+- +points celebration animation.
+- Winner confetti and upgraded final presentation.
+- Full-screen button for TV/iPad use.
+- "سؤال الحسم" tie-break:
+  * triggers automatically when final score is tied
+  * random unused eligible level-500 question from any category
+  * 30 seconds shared
+  * answer remains manual
+  * team 1 / team 2 winner buttons
+  * "لا أحد — سؤال حسم جديد" repeats with a different unused 500 question
+  * winning the tie-break wins the match directly; it does not alter normal score
+- Existing sound effects retained.
+- Existing shared-club face-safe image rendering retained.
+- Category images untouched.
+- Question bank untouched.
