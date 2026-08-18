@@ -1,0 +1,7 @@
+Batch 019
+300 questions
+10 categories × 30
+Each category: 10×100 + 10×300 + 10×500
+Frozen categories excluded: PASS
+Unique IDs: PASS
+Structural QA: PASS
