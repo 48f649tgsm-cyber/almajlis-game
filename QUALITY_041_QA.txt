@@ -1,0 +1,8 @@
+ALMAJLIS BUILD 041 — BATCH 015 LOADER
+JS syntax: PASS
+- Loads questions_batch_008.json through questions_batch_015.json.
+- Expected additional batches: 8/8.
+- Batch 015 adds 216 questions to the 12 weakest categories.
+- Each of the 12 categories receives +18: 6x100, 6x300, 6x500.
+- Expected raw stock for each target category after merge: 24.
+- BUILD 040 audio flow and all prior visual/game logic retained.
