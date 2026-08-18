@@ -1,0 +1,1598 @@
+{
+  "version": "18.3-part03",
+  "new_questions": 144,
+  "categories": {
+    "تاريخ الصحابة": [
+      {
+        "id": "b018p3_c09_001",
+        "question": "من الصحابي الذي لُقب بالصديق؟",
+        "answer": "أبو بكر الصديق",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c09:001"
+        ]
+      },
+      {
+        "id": "b018p3_c09_002",
+        "question": "من الصحابي الذي لُقب بالفاروق؟",
+        "answer": "عمر بن الخطاب",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c09:002"
+        ]
+      },
+      {
+        "id": "b018p3_c09_003",
+        "question": "من الصحابي الذي لُقب بذي النورين؟",
+        "answer": "عثمان بن عفان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c09:003"
+        ]
+      },
+      {
+        "id": "b018p3_c09_004",
+        "question": "من ابن عم النبي ﷺ وزوج فاطمة رضي الله عنها؟",
+        "answer": "علي بن أبي طالب",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c09:004"
+        ]
+      },
+      {
+        "id": "b018p3_c09_005",
+        "question": "من مؤذن النبي ﷺ المشهور؟",
+        "answer": "بلال بن رباح",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c09:005"
+        ]
+      },
+      {
+        "id": "b018p3_c09_006",
+        "question": "من الصحابي الذي لُقب بسيف الله المسلول؟",
+        "answer": "خالد بن الوليد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c09:006"
+        ]
+      },
+      {
+        "id": "b018p3_c09_007",
+        "question": "من الصحابي الذي أشار بحفر الخندق؟",
+        "answer": "سلمان الفارسي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c09:007"
+        ]
+      },
+      {
+        "id": "b018p3_c09_008",
+        "question": "من الصحابي الذي اهتز لموته عرش الرحمن كما ورد في الحديث؟",
+        "answer": "سعد بن معاذ",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c09:008"
+        ]
+      },
+      {
+        "id": "b018p3_c09_009",
+        "question": "من الصحابي الذي استضاف النبي ﷺ عند قدومه المدينة؟",
+        "answer": "أبو أيوب الأنصاري",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c09:009"
+        ]
+      },
+      {
+        "id": "b018p3_c09_010",
+        "question": "من الصحابي الذي كان يُعرف بحِبّ رسول الله ﷺ وابن حِبّه؟",
+        "answer": "أسامة بن زيد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c09:010"
+        ]
+      },
+      {
+        "id": "b018p3_c09_011",
+        "question": "من الصحابي الذي كان أمين هذه الأمة؟",
+        "answer": "أبو عبيدة عامر بن الجراح",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c09:011"
+        ]
+      },
+      {
+        "id": "b018p3_c09_012",
+        "question": "من الصحابي الذي عُرف بترجمان القرآن؟",
+        "answer": "عبد الله بن عباس",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c09:012"
+        ]
+      },
+      {
+        "id": "b018p3_c09_013",
+        "question": "من الصحابي الذي أرسله النبي ﷺ إلى المدينة قبل الهجرة ليعلم أهلها الإسلام؟",
+        "answer": "مصعب بن عمير",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c09:013"
+        ]
+      },
+      {
+        "id": "b018p3_c09_014",
+        "question": "من الصحابي الذي كان أول قائد عينه النبي ﷺ في مؤتة؟",
+        "answer": "زيد بن حارثة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c09:014"
+        ]
+      },
+      {
+        "id": "b018p3_c09_015",
+        "question": "من الصحابي الذي تولى الراية بعد زيد في مؤتة؟",
+        "answer": "جعفر بن أبي طالب",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c09:015"
+        ]
+      },
+      {
+        "id": "b018p3_c09_016",
+        "question": "من الصحابي الذي تولى الراية بعد جعفر في مؤتة؟",
+        "answer": "عبد الله بن رواحة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c09:016"
+        ]
+      },
+      {
+        "id": "b018p3_c09_017",
+        "question": "من الصحابي الذي أخذ الراية بعد استشهاد قادة مؤتة الثلاثة؟",
+        "answer": "خالد بن الوليد",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c09:017"
+        ]
+      },
+      {
+        "id": "b018p3_c09_018",
+        "question": "من الصحابي الذي بعثه النبي ﷺ إلى اليمن قاضيًا ومعلمًا؟",
+        "answer": "معاذ بن جبل",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c09:018"
+        ]
+      },
+      {
+        "id": "b018p3_c09_019",
+        "question": "من الصحابي الذي حمل كتاب النبي ﷺ إلى كسرى؟",
+        "answer": "عبد الله بن حذافة السهمي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c09:019"
+        ]
+      },
+      {
+        "id": "b018p3_c09_020",
+        "question": "من الصحابي الذي حمل كتاب النبي ﷺ إلى المقوقس؟",
+        "answer": "حاطب بن أبي بلتعة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c09:020"
+        ]
+      },
+      {
+        "id": "b018p3_c09_021",
+        "question": "من الصحابي الذي قاد سرية ذات السلاسل؟",
+        "answer": "عمرو بن العاص",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c09:021"
+        ]
+      },
+      {
+        "id": "b018p3_c09_022",
+        "question": "من الصحابي الذي عُرف بكثرة رواية الحديث ولازم النبي ﷺ؟",
+        "answer": "أبو هريرة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c09:022"
+        ]
+      },
+      {
+        "id": "b018p3_c09_023",
+        "question": "من الصحابي الذي دعا له النبي ﷺ بالفقه في الدين وتعليم التأويل؟",
+        "answer": "عبد الله بن عباس",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c09:023"
+        ]
+      },
+      {
+        "id": "b018p3_c09_024",
+        "question": "من الصحابي الذي كان من أشهر كتّاب الوحي وأصبح خليفة أمويًا لاحقًا؟",
+        "answer": "معاوية بن أبي سفيان",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c09:024"
+        ]
+      },
+      {
+        "id": "b018p3_c09_025",
+        "question": "من الصحابي الذي كان حواري رسول الله ﷺ؟",
+        "answer": "الزبير بن العوام",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c09:025"
+        ]
+      },
+      {
+        "id": "b018p3_c09_026",
+        "question": "من الصحابي الذي لُقب بذي الشهادتين؟",
+        "answer": "خزيمة بن ثابت",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c09:026"
+        ]
+      },
+      {
+        "id": "b018p3_c09_027",
+        "question": "من الصحابي الذي غسلته الملائكة كما اشتهر في السيرة؟",
+        "answer": "حنظلة بن أبي عامر",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c09:027"
+        ]
+      },
+      {
+        "id": "b018p3_c09_028",
+        "question": "من الصحابي الذي كان أول سفير في الإسلام واشتهر بدوره في بيعة العقبة؟",
+        "answer": "مصعب بن عمير",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c09:028"
+        ]
+      },
+      {
+        "id": "b018p3_c09_029",
+        "question": "من الصحابي الذي أشار على أبي بكر بجمع القرآن بعد اليمامة؟",
+        "answer": "عمر بن الخطاب",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c09:029"
+        ]
+      },
+      {
+        "id": "b018p3_c09_030",
+        "question": "من الصحابي الذي كُلّف بجمع القرآن في عهد أبي بكر؟",
+        "answer": "زيد بن ثابت",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c09:030"
+        ]
+      },
+      {
+        "id": "b018p3_c09_031",
+        "question": "من الصحابي الذي ترأس لجنة نسخ المصاحف في عهد عثمان؟",
+        "answer": "زيد بن ثابت",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c09:031"
+        ]
+      },
+      {
+        "id": "b018p3_c09_032",
+        "question": "من الصحابي الذي اشتهر بلقب أبي تراب؟",
+        "answer": "علي بن أبي طالب",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c09:032"
+        ]
+      },
+      {
+        "id": "b018p3_c09_033",
+        "question": "من الصحابي الذي كان شاعر النبي ﷺ ودافع عنه بشعره؟",
+        "answer": "حسان بن ثابت",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c09:033"
+        ]
+      },
+      {
+        "id": "b018p3_c09_034",
+        "question": "من الصحابي الذي عُرف بأنه صاحب سر النبي ﷺ في أسماء المنافقين؟",
+        "answer": "حذيفة بن اليمان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c09:034"
+        ]
+      },
+      {
+        "id": "b018p3_c09_035",
+        "question": "من الصحابي الذي قال عنه النبي ﷺ إن لكل أمة أمينًا وإن أمين هذه الأمة هو؟",
+        "answer": "أبو عبيدة عامر بن الجراح",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c09:035"
+        ]
+      },
+      {
+        "id": "b018p3_c09_036",
+        "question": "من الصحابي الذي اشترى بئر رومة وجعلها للمسلمين؟",
+        "answer": "عثمان بن عفان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c09:036"
+        ]
+      }
+    ],
+    "مسلسلات عربية": [
+      {
+        "id": "b018p3_c10_001",
+        "question": "ما اسم المسلسل السوري الكوميدي الذي تدور أحداثه في قرية أم الطنافس؟",
+        "answer": "ضيعة ضايعة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c10:001"
+        ]
+      },
+      {
+        "id": "b018p3_c10_002",
+        "question": "من جسد شخصية أسعد في مسلسل ضيعة ضايعة؟",
+        "answer": "نضال سيجري",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c10:002"
+        ]
+      },
+      {
+        "id": "b018p3_c10_003",
+        "question": "من جسد شخصية جودة في مسلسل ضيعة ضايعة؟",
+        "answer": "باسم ياخور",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c10:003"
+        ]
+      },
+      {
+        "id": "b018p3_c10_004",
+        "question": "ما اسم المسلسل المصري الذي قام ببطولته نور الشريف بشخصية عبد الغفور البرعي؟",
+        "answer": "لن أعيش في جلباب أبي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c10:004"
+        ]
+      },
+      {
+        "id": "b018p3_c10_005",
+        "question": "من جسدت شخصية فاطمة كشري في مسلسل لن أعيش في جلباب أبي؟",
+        "answer": "عبلة كامل",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c10:005"
+        ]
+      },
+      {
+        "id": "b018p3_c10_006",
+        "question": "ما اسم المسلسل المصري الشهير عن الجاسوس رفعت الجمال؟",
+        "answer": "رأفت الهجان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c10:006"
+        ]
+      },
+      {
+        "id": "b018p3_c10_007",
+        "question": "من جسد شخصية رأفت الهجان؟",
+        "answer": "محمود عبد العزيز",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c10:007"
+        ]
+      },
+      {
+        "id": "b018p3_c10_008",
+        "question": "ما اسم المسلسل السوري الذي اشتهر بشخصية غوار الطوشة؟",
+        "answer": "صح النوم",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c10:008"
+        ]
+      },
+      {
+        "id": "b018p3_c10_009",
+        "question": "من جسد شخصية غوار الطوشة؟",
+        "answer": "دريد لحام",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c10:009"
+        ]
+      },
+      {
+        "id": "b018p3_c10_010",
+        "question": "ما اسم سلسلة المسلسلات السورية الساخرة المرتبطة بياسر العظمة؟",
+        "answer": "مرايا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c10:010"
+        ]
+      },
+      {
+        "id": "b018p3_c10_011",
+        "question": "من بطل مسلسل الهيبة في شخصية جبل؟",
+        "answer": "تيم حسن",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c10:011"
+        ]
+      },
+      {
+        "id": "b018p3_c10_012",
+        "question": "ما اسم عائلة جبل في مسلسل الهيبة؟",
+        "answer": "عائلة شيخ الجبل",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c10:012"
+        ]
+      },
+      {
+        "id": "b018p3_c10_013",
+        "question": "من جسد شخصية ونيس في مسلسل يوميات ونيس؟",
+        "answer": "محمد صبحي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c10:013"
+        ]
+      },
+      {
+        "id": "b018p3_c10_014",
+        "question": "ما اسم المسلسل المصري الذي تناول عائلة سليم البدري وتحولات المجتمع المصري عبر عقود؟",
+        "answer": "ليالي الحلمية",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c10:014"
+        ]
+      },
+      {
+        "id": "b018p3_c10_015",
+        "question": "من جسد شخصية سليم البدري؟",
+        "answer": "يحيى الفخراني",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c10:015"
+        ]
+      },
+      {
+        "id": "b018p3_c10_016",
+        "question": "ما اسم المسلسل السوري الذي دارت أجزاء منه في حارة شامية تحمل اسم الحارة؟",
+        "answer": "باب الحارة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c10:016"
+        ]
+      },
+      {
+        "id": "b018p3_c10_017",
+        "question": "من جسد شخصية أبو شهاب في الأجزاء الأولى من باب الحارة؟",
+        "answer": "سامر المصري",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c10:017"
+        ]
+      },
+      {
+        "id": "b018p3_c10_018",
+        "question": "من جسد شخصية أبو عصام في باب الحارة؟",
+        "answer": "عباس النوري",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c10:018"
+        ]
+      },
+      {
+        "id": "b018p3_c10_019",
+        "question": "ما اسم المسلسل المصري الذي جسد فيه أحمد مكي عدة شخصيات داخل قرية المزاريطة؟",
+        "answer": "الكبير أوي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c10:019"
+        ]
+      },
+      {
+        "id": "b018p3_c10_020",
+        "question": "ما اسم القرية الخيالية في الكبير أوي؟",
+        "answer": "المزاريطة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c10:020"
+        ]
+      },
+      {
+        "id": "b018p3_c10_021",
+        "question": "من جسد شخصية حزلقوم في الكبير أوي؟",
+        "answer": "أحمد مكي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c10:021"
+        ]
+      },
+      {
+        "id": "b018p3_c10_022",
+        "question": "ما اسم المسلسل اللبناني الذي قامت نادين نسيب نجيم ببطولته مع قصي خولي حول عائلة الصافي؟",
+        "answer": "خمسة ونص",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c10:022"
+        ]
+      },
+      {
+        "id": "b018p3_c10_023",
+        "question": "من جسد شخصية جبل شيخ الجبل في الهيبة؟",
+        "answer": "تيم حسن",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c10:023"
+        ]
+      },
+      {
+        "id": "b018p3_c10_024",
+        "question": "ما اسم المسلسل المصري الذي قام فيه عادل إمام بدور ناجي عطا الله؟",
+        "answer": "فرقة ناجي عطا الله",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c10:024"
+        ]
+      },
+      {
+        "id": "b018p3_c10_025",
+        "question": "ما اسم المسلسل السوري التاريخي الذي تناول سيرة الظاهر بيبرس وقام ببطولته عابد فهد؟",
+        "answer": "الظاهر بيبرس",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c10:025"
+        ]
+      },
+      {
+        "id": "b018p3_c10_026",
+        "question": "من جسد شخصية الزير سالم في المسلسل السوري الشهير؟",
+        "answer": "سلوم حداد",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c10:026"
+        ]
+      },
+      {
+        "id": "b018p3_c10_027",
+        "question": "من أخرج مسلسل الزير سالم؟",
+        "answer": "حاتم علي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c10:027"
+        ]
+      },
+      {
+        "id": "b018p3_c10_028",
+        "question": "ما اسم المسلسل السوري الذي تناول فترة حكم الملك فاروق في مصر وقامت ببطولته وفاء عامر؟",
+        "answer": "الملك فاروق",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c10:028"
+        ]
+      },
+      {
+        "id": "b018p3_c10_029",
+        "question": "من جسد شخصية الملك فاروق في مسلسل الملك فاروق؟",
+        "answer": "تيم حسن",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c10:029"
+        ]
+      },
+      {
+        "id": "b018p3_c10_030",
+        "question": "ما اسم المسلسل التاريخي الذي تناول سيرة عمر بن الخطاب وقام ببطولته سامر إسماعيل؟",
+        "answer": "عمر",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c10:030"
+        ]
+      },
+      {
+        "id": "b018p3_c10_031",
+        "question": "من أخرج مسلسل عمر؟",
+        "answer": "حاتم علي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c10:031"
+        ]
+      },
+      {
+        "id": "b018p3_c10_032",
+        "question": "ما اسم المسلسل السوري الذي جمع قصي خولي وسلافة معمار في قصة اجتماعية عن الخيانة والأسرار عام 2011؟",
+        "answer": "تخت شرقي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c10:032"
+        ]
+      },
+      {
+        "id": "b018p3_c10_033",
+        "question": "من أخرج تخت شرقي؟",
+        "answer": "رشا شربتجي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c10:033"
+        ]
+      },
+      {
+        "id": "b018p3_c10_034",
+        "question": "ما اسم المسلسل المصري الذي قام فيه يحيى الفخراني بدور حمادة عزو؟",
+        "answer": "يتربى في عزو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c10:034"
+        ]
+      },
+      {
+        "id": "b018p3_c10_035",
+        "question": "من جسدت شخصية ماما نونا في يتربى في عزو؟",
+        "answer": "كريمة مختار",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c10:035"
+        ]
+      },
+      {
+        "id": "b018p3_c10_036",
+        "question": "ما اسم المسلسل السوري الذي اشتهر بشخصيتي أبو جانتي وأبو ليلى؟",
+        "answer": "أبو جانتي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c10:036"
+        ]
+      }
+    ],
+    "تشكيلات فرق": [
+      {
+        "id": "b018p3_c11_001",
+        "question": "من حارس مرمى مانشستر يونايتد في نهائي دوري أبطال أوروبا 2008؟",
+        "answer": "إدوين فان دير سار",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c11:001"
+        ]
+      },
+      {
+        "id": "b018p3_c11_002",
+        "question": "من الظهير الأيسر لمانشستر يونايتد الذي بدأ نهائي دوري الأبطال 2008؟",
+        "answer": "باتريس إيفرا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c11:002"
+        ]
+      },
+      {
+        "id": "b018p3_c11_003",
+        "question": "من قائدي قلب دفاع مانشستر يونايتد الأساسيين في نهائي 2008؟",
+        "answer": "ريو فرديناند ونيمانيا فيديتش",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c11:003"
+        ]
+      },
+      {
+        "id": "b018p3_c11_004",
+        "question": "من حارس ريال مدريد الأساسي في نهائي دوري أبطال أوروبا 2014؟",
+        "answer": "إيكر كاسياس",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c11:004"
+        ]
+      },
+      {
+        "id": "b018p3_c11_005",
+        "question": "من الظهير الأيمن لريال مدريد الذي بدأ نهائي 2014؟",
+        "answer": "داني كارفاخال",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c11:005"
+        ]
+      },
+      {
+        "id": "b018p3_c11_006",
+        "question": "من ثلاثي هجوم ريال مدريد الشهير BBC؟",
+        "answer": "غاريث بيل وكريم بنزيما وكريستيانو رونالدو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c11:006"
+        ]
+      },
+      {
+        "id": "b018p3_c11_007",
+        "question": "من حارس برشلونة في نهائي دوري أبطال أوروبا 2011؟",
+        "answer": "فيكتور فالديس",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c11:007"
+        ]
+      },
+      {
+        "id": "b018p3_c11_008",
+        "question": "من ثنائي قلب دفاع برشلونة الذي بدأ نهائي 2011؟",
+        "answer": "جيرارد بيكيه وخافيير ماسكيرانو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c11:008"
+        ]
+      },
+      {
+        "id": "b018p3_c11_009",
+        "question": "من ثلاثي وسط برشلونة الذي بدأ نهائي 2011؟",
+        "answer": "تشافي وإنييستا وسيرجيو بوسكيتس",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c11:009"
+        ]
+      },
+      {
+        "id": "b018p3_c11_010",
+        "question": "من حارس تشيلسي في نهائي دوري أبطال أوروبا 2012؟",
+        "answer": "بيتر تشيك",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c11:010"
+        ]
+      },
+      {
+        "id": "b018p3_c11_011",
+        "question": "من قائد تشيلسي داخل الملعب في نهائي 2012 مع غياب جون تيري؟",
+        "answer": "فرانك لامبارد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c11:011"
+        ]
+      },
+      {
+        "id": "b018p3_c11_012",
+        "question": "من رأس حربة تشيلسي الذي بدأ نهائي 2012؟",
+        "answer": "ديدييه دروغبا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c11:012"
+        ]
+      },
+      {
+        "id": "b018p3_c11_013",
+        "question": "من حارس ليفربول في نهائي دوري أبطال أوروبا 2005؟",
+        "answer": "يرزي دوديك",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c11:013"
+        ]
+      },
+      {
+        "id": "b018p3_c11_014",
+        "question": "من قائد ليفربول في نهائي إسطنبول 2005؟",
+        "answer": "ستيفن جيرارد",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c11:014"
+        ]
+      },
+      {
+        "id": "b018p3_c11_015",
+        "question": "من اللاعب الذي بدأ رأس حربة لليفربول في نهائي 2005؟",
+        "answer": "ميلان باروش",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c11:015"
+        ]
+      },
+      {
+        "id": "b018p3_c11_016",
+        "question": "من حارس بايرن ميونخ في نهائي دوري أبطال أوروبا 2013؟",
+        "answer": "مانويل نوير",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c11:016"
+        ]
+      },
+      {
+        "id": "b018p3_c11_017",
+        "question": "من ثنائي الجناحين الأساسيين لبايرن في نهائي 2013؟",
+        "answer": "آريين روبن وفرانك ريبيري",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c11:017"
+        ]
+      },
+      {
+        "id": "b018p3_c11_018",
+        "question": "من رأس حربة بايرن الأساسي في نهائي 2013؟",
+        "answer": "ماريو ماندزوكيتش",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c11:018"
+        ]
+      },
+      {
+        "id": "b018p3_c11_019",
+        "question": "من حارس إسبانيا في نهائي كأس العالم 2010؟",
+        "answer": "إيكر كاسياس",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c11:019"
+        ]
+      },
+      {
+        "id": "b018p3_c11_020",
+        "question": "من ثنائي قلب دفاع إسبانيا الذي بدأ نهائي 2010؟",
+        "answer": "جيرارد بيكيه وكارليس بويول",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c11:020"
+        ]
+      },
+      {
+        "id": "b018p3_c11_021",
+        "question": "من اللاعب الذي بدأ كمهاجم لإسبانيا في نهائي كأس العالم 2010؟",
+        "answer": "دافيد فيا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c11:021"
+        ]
+      },
+      {
+        "id": "b018p3_c11_022",
+        "question": "من حارس ألمانيا في نهائي كأس العالم 2014؟",
+        "answer": "مانويل نوير",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c11:022"
+        ]
+      },
+      {
+        "id": "b018p3_c11_023",
+        "question": "من قائد ألمانيا في نهائي كأس العالم 2014؟",
+        "answer": "فيليب لام",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c11:023"
+        ]
+      },
+      {
+        "id": "b018p3_c11_024",
+        "question": "من المهاجم الذي بدأ أساسيًا لألمانيا في نهائي 2014؟",
+        "answer": "ميروسلاف كلوزه",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c11:024"
+        ]
+      },
+      {
+        "id": "b018p3_c11_025",
+        "question": "من حارس الأرجنتين في نهائي كأس العالم 2022؟",
+        "answer": "إيميليانو مارتينيز",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c11:025"
+        ]
+      },
+      {
+        "id": "b018p3_c11_026",
+        "question": "من ثنائي قلب دفاع الأرجنتين الذي بدأ نهائي 2022؟",
+        "answer": "كريستيان روميرو ونيكولاس أوتاميندي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c11:026"
+        ]
+      },
+      {
+        "id": "b018p3_c11_027",
+        "question": "من ثلاثي الوسط الذي بدأ للأرجنتين في نهائي 2022؟",
+        "answer": "رودريغو دي بول وإنزو فرنانديز وأليكسيس ماك أليستر",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c11:027"
+        ]
+      },
+      {
+        "id": "b018p3_c11_028",
+        "question": "من حارس فرنسا في نهائي كأس العالم 2018؟",
+        "answer": "هوغو لوريس",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c11:028"
+        ]
+      },
+      {
+        "id": "b018p3_c11_029",
+        "question": "من ثنائي قلب دفاع فرنسا الذي بدأ نهائي 2018؟",
+        "answer": "رافاييل فاران وصامويل أومتيتي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c11:029"
+        ]
+      },
+      {
+        "id": "b018p3_c11_030",
+        "question": "من الظهير الأيسر لفرنسا الذي بدأ نهائي 2018؟",
+        "answer": "لوكاس هيرنانديز",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c11:030"
+        ]
+      },
+      {
+        "id": "b018p3_c11_031",
+        "question": "من حارس إنتر في نهائي دوري أبطال أوروبا 2010؟",
+        "answer": "جوليو سيزار",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c11:031"
+        ]
+      },
+      {
+        "id": "b018p3_c11_032",
+        "question": "من قائد إنتر الذي بدأ نهائي 2010؟",
+        "answer": "خافيير زانيتي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c11:032"
+        ]
+      },
+      {
+        "id": "b018p3_c11_033",
+        "question": "من المهاجم الذي سجل هدفي إنتر في نهائي 2010؟",
+        "answer": "دييغو ميليتو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c11:033"
+        ]
+      },
+      {
+        "id": "b018p3_c11_034",
+        "question": "من حارس مانشستر سيتي في نهائي دوري أبطال أوروبا 2023؟",
+        "answer": "إيدرسون",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c11:034"
+        ]
+      },
+      {
+        "id": "b018p3_c11_035",
+        "question": "من اللاعب الذي بدأ كرأس حربة لمانشستر سيتي في نهائي 2023؟",
+        "answer": "إيرلينغ هالاند",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c11:035"
+        ]
+      },
+      {
+        "id": "b018p3_c11_036",
+        "question": "من ثلاثي الوسط الأساسي لمانشستر سيتي في نهائي 2023 وفق التشكيل الرسمي الذي شمل رودري ودي بروين وغوندوغان؟",
+        "answer": "رودري وكيفن دي بروين وإلكاي غوندوغان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c11:036"
+        ]
+      }
+    ],
+    "اغاني عربية": [
+      {
+        "id": "b018p3_c12_001",
+        "question": "من غنى أغنية الأماكن؟",
+        "answer": "محمد عبده",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c12:001"
+        ]
+      },
+      {
+        "id": "b018p3_c12_002",
+        "question": "من غنى نسم علينا الهوى؟",
+        "answer": "فيروز",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c12:002"
+        ]
+      },
+      {
+        "id": "b018p3_c12_003",
+        "question": "من غنى جانا الهوى؟",
+        "answer": "عبد الحليم حافظ",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c12:003"
+        ]
+      },
+      {
+        "id": "b018p3_c12_004",
+        "question": "من غنت أنا بعشقك؟",
+        "answer": "ميادة الحناوي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c12:004"
+        ]
+      },
+      {
+        "id": "b018p3_c12_005",
+        "question": "من غنى زيديني عشقاً؟",
+        "answer": "كاظم الساهر",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c12:005"
+        ]
+      },
+      {
+        "id": "b018p3_c12_006",
+        "question": "من غنت بتونس بيك؟",
+        "answer": "وردة الجزائرية",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c12:006"
+        ]
+      },
+      {
+        "id": "b018p3_c12_007",
+        "question": "من غنى تملي معاك؟",
+        "answer": "عمرو دياب",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c12:007"
+        ]
+      },
+      {
+        "id": "b018p3_c12_008",
+        "question": "من غنى أنا وليلى؟",
+        "answer": "كاظم الساهر",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c12:008"
+        ]
+      },
+      {
+        "id": "b018p3_c12_009",
+        "question": "من غنت سيرة الحب؟",
+        "answer": "أم كلثوم",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c12:009"
+        ]
+      },
+      {
+        "id": "b018p3_c12_010",
+        "question": "من غنى قارئة الفنجان؟",
+        "answer": "عبد الحليم حافظ",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c12:010"
+        ]
+      },
+      {
+        "id": "b018p3_c12_011",
+        "question": "من غنت كان عنا طاحون؟",
+        "answer": "فيروز",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c12:011"
+        ]
+      },
+      {
+        "id": "b018p3_c12_012",
+        "question": "من غنى مذهلة؟",
+        "answer": "محمد عبده",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c12:012"
+        ]
+      },
+      {
+        "id": "b018p3_c12_013",
+        "question": "من لحن الأطلال بصوت أم كلثوم؟",
+        "answer": "رياض السنباطي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c12:013"
+        ]
+      },
+      {
+        "id": "b018p3_c12_014",
+        "question": "من كتب كلمات قارئة الفنجان التي غناها عبد الحليم حافظ؟",
+        "answer": "نزار قباني",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c12:014"
+        ]
+      },
+      {
+        "id": "b018p3_c12_015",
+        "question": "من لحن رسالة من تحت الماء لعبد الحليم حافظ؟",
+        "answer": "محمد الموجي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c12:015"
+        ]
+      },
+      {
+        "id": "b018p3_c12_016",
+        "question": "من كتب كلمات رسالة من تحت الماء؟",
+        "answer": "نزار قباني",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c12:016"
+        ]
+      },
+      {
+        "id": "b018p3_c12_017",
+        "question": "من غنى مدرسة الحب؟",
+        "answer": "كاظم الساهر",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c12:017"
+        ]
+      },
+      {
+        "id": "b018p3_c12_018",
+        "question": "من غنى قولي أحبك؟",
+        "answer": "كاظم الساهر",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c12:018"
+        ]
+      },
+      {
+        "id": "b018p3_c12_019",
+        "question": "من غنت حرمت أحبك؟",
+        "answer": "وردة الجزائرية",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c12:019"
+        ]
+      },
+      {
+        "id": "b018p3_c12_020",
+        "question": "من غنى عيون القلب مع نجاة الصغيرة؟",
+        "answer": "نجاة الصغيرة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c12:020"
+        ]
+      },
+      {
+        "id": "b018p3_c12_021",
+        "question": "من غنى الحلوة دي؟",
+        "answer": "سيد درويش",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c12:021"
+        ]
+      },
+      {
+        "id": "b018p3_c12_022",
+        "question": "من غنى يا مسافر وحدك؟",
+        "answer": "محمد عبد الوهاب",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c12:022"
+        ]
+      },
+      {
+        "id": "b018p3_c12_023",
+        "question": "من غنت ألف ليلة وليلة؟",
+        "answer": "أم كلثوم",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c12:023"
+        ]
+      },
+      {
+        "id": "b018p3_c12_024",
+        "question": "من غنت أعطني الناي وغن؟",
+        "answer": "فيروز",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c12:024"
+        ]
+      },
+      {
+        "id": "b018p3_c12_025",
+        "question": "من كتب قصيدة الأطلال التي غنتها أم كلثوم؟",
+        "answer": "إبراهيم ناجي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c12:025"
+        ]
+      },
+      {
+        "id": "b018p3_c12_026",
+        "question": "من لحن ألف ليلة وليلة لأم كلثوم؟",
+        "answer": "بليغ حمدي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c12:026"
+        ]
+      },
+      {
+        "id": "b018p3_c12_027",
+        "question": "من كتب كلمات سواح لعبد الحليم حافظ؟",
+        "answer": "محمد حمزة",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c12:027"
+        ]
+      },
+      {
+        "id": "b018p3_c12_028",
+        "question": "من لحن سواح؟",
+        "answer": "بليغ حمدي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c12:028"
+        ]
+      },
+      {
+        "id": "b018p3_c12_029",
+        "question": "من غنى يا طير؟",
+        "answer": "فريد الأطرش",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c12:029"
+        ]
+      },
+      {
+        "id": "b018p3_c12_030",
+        "question": "من غنت أيظن؟",
+        "answer": "نجاة الصغيرة",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c12:030"
+        ]
+      },
+      {
+        "id": "b018p3_c12_031",
+        "question": "من كتب قصيدة أيظن التي غنتها نجاة الصغيرة؟",
+        "answer": "نزار قباني",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c12:031"
+        ]
+      },
+      {
+        "id": "b018p3_c12_032",
+        "question": "من لحن أيظن؟",
+        "answer": "محمد عبد الوهاب",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c12:032"
+        ]
+      },
+      {
+        "id": "b018p3_c12_033",
+        "question": "من غنى فوق النخل في تسجيلات عراقية شهيرة وأصبح مرتبطًا بالأغنية عربيًا؟",
+        "answer": "ناظم الغزالي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c12:033"
+        ]
+      },
+      {
+        "id": "b018p3_c12_034",
+        "question": "من غنى يا مال الشام واشتهر بها في التراث الدمشقي؟",
+        "answer": "صباح فخري",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c12:034"
+        ]
+      },
+      {
+        "id": "b018p3_c12_035",
+        "question": "من غنى قدك المياس واشتهر بأدائها عربيًا؟",
+        "answer": "صباح فخري",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c12:035"
+        ]
+      },
+      {
+        "id": "b018p3_c12_036",
+        "question": "من غنى الأطلال؟",
+        "answer": "أم كلثوم",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p3:c12:036"
+        ]
+      }
+    ]
+  }
+}
