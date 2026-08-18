@@ -1,0 +1,21 @@
+ALMAJLIS QUALITY 018 — PROFESSIONAL EXPERIENCE
+Question bank unchanged.
+
+Implemented directly:
+- 3-2-1 match intro with skip.
+- Match progress bar (0/36 to 36/36).
+- Correct-answer counters and 500-question stats.
+- Streak system: visual only, no bonus points.
+- Clear animated "second team opportunity" handover after first 30 seconds.
+- 30 seconds first team + 30 seconds second team; answer is always manual.
+- Special visual templates:
+  flags larger, audio waveform, Quran/prophets card, improved lineup field, face-safe player portraits.
+- Media pre-check for image/audio questions; broken media is skipped before display when possible.
+- Question issue reporting saved locally.
+- JSON export of question reports from result screen.
+- Working tie-break engine: random eligible unused 500 question, 30 sec, manual reveal, repeat if nobody answers.
+- Upgraded final match stats + confetti.
+- 100/300/500 visual hierarchy and fullscreen retained.
+- Islamic semantic duplication lock retained.
+- Category stock minimum 6 retained.
+- Category images untouched.
