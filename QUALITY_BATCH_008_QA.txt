@@ -1,0 +1,35 @@
+المجلس — QUALITY BATCH 008 QA
+=======================================================
+New questions: 100
+Files to upload: index.html + questions_batch_008.json
+Category images: UNCHANGED / LOCKED
+
+Distribution:
+- من هو اللاعب: 12 (100=4, 300=4, 500=4)
+- مسيرة لاعب: 12 (100=4, 300=4, 500=4)
+- النادي المشترك: 12 (100=4, 300=4, 500=4)
+- نشيد وطني: 12 (100=6, 300=3, 500=3)
+- تاريخ الخلفاء: 12 (100=4, 300=4, 500=4)
+- الدوري الإنجليزي: 8 (100=3, 300=3, 500=2)
+- دوري الأبطال: 8 (100=3, 300=3, 500=2)
+- كأس العالم: 8 (100=3, 300=3, 500=2)
+- تاريخ الصحابة: 6 (100=2, 300=2, 500=2)
+- القرآن الكريم: 5 (100=2, 300=2, 500=1)
+- رؤساء دول: 5 (100=2, 300=2, 500=1)
+
+New logic:
+- No fallback that ignores entity conflicts.
+- Same player/club/country/match/event cannot be selected twice in the same game when tagged.
+- Explicit semantic_keys prevent the same event/question from returning later under a reworded duplicate.
+- Used question IDs remain stored in localStorage.
+- Player shared-club questions use photo cards loaded from Wikipedia thumbnails.
+- Career questions use timeline cards.
+- Anthem playback remains capped at 10 seconds.
+- 100-point anthem additions are all Arab countries.
+- Question typography enlarged and made clearer.
+
+Structural checks:
+- Duplicate IDs in batch: 0
+- Duplicate semantic keys in batch: 0
+- JSON parse: PASS
+- index includes batch file: True

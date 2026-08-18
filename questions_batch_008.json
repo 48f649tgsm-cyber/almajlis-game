@@ -1,0 +1,1697 @@
+{
+  "version": "8.0-quality-batch-008",
+  "new_questions": 100,
+  "quality_policy": "100 curated questions; semantic no-repeat metadata; no category image changes",
+  "categories": {
+    "من هو اللاعب": [
+      {
+        "id": "b008_who_01",
+        "question": "من هو اللاعب الذي سجل هدف الفوز لمانشستر يونايتد في نهائي دوري أبطال أوروبا 1999 أمام بايرن ميونخ في الوقت بدل الضائع؟",
+        "answer": "أولي غونار سولشاير",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "players": [
+            "أولي غونار سولشاير"
+          ],
+          "matches": [
+            "ucl1999_winner"
+          ]
+        },
+        "semantic_keys": [
+          "ucl1999_winner"
+        ]
+      },
+      {
+        "id": "b008_who_02",
+        "question": "من هو اللاعب الذي سجل هدف الأرجنتين الشهير بيده ثم أضاف هدفًا تاريخيًا بعد مراوغة عدة لاعبين أمام إنجلترا في كأس العالم 1986؟",
+        "answer": "دييغو مارادونا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "players": [
+            "دييغو مارادونا"
+          ],
+          "matches": [
+            "wc1986_arg_eng_maradona"
+          ]
+        },
+        "semantic_keys": [
+          "wc1986_arg_eng_maradona"
+        ]
+      },
+      {
+        "id": "b008_who_03",
+        "question": "من هو اللاعب الذي سجل هدفي فرنسا في الشوط الأول من نهائي كأس العالم 1998 أمام البرازيل؟",
+        "answer": "زين الدين زيدان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "players": [
+            "زين الدين زيدان"
+          ],
+          "matches": [
+            "wc1998_final_zidane"
+          ]
+        },
+        "semantic_keys": [
+          "wc1998_final_zidane"
+        ]
+      },
+      {
+        "id": "b008_who_04",
+        "question": "من هو اللاعب الذي سجل هدف إسبانيا في الوقت الإضافي بنهائي كأس العالم 2010 أمام هولندا؟",
+        "answer": "أندريس إنييستا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "players": [
+            "أندريس إنييستا"
+          ],
+          "matches": [
+            "wc2010_final_iniesta"
+          ]
+        },
+        "semantic_keys": [
+          "wc2010_final_iniesta"
+        ]
+      },
+      {
+        "id": "b008_who_05",
+        "question": "من هو اللاعب الذي أضاع ركلة إيطاليا الأخيرة في ركلات الترجيح بنهائي كأس العالم 1994 أمام البرازيل؟",
+        "answer": "روبرتو باجيو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "players": [
+            "روبرتو باجيو"
+          ],
+          "matches": [
+            "wc1994_final_baggio"
+          ]
+        },
+        "semantic_keys": [
+          "wc1994_final_baggio"
+        ]
+      },
+      {
+        "id": "b008_who_06",
+        "question": "من هو الحارس الذي تصدى لركلة أريين روبن الانفرادية في الوقت الإضافي من نهائي كأس العالم 2010؟",
+        "answer": "إيكر كاسياس",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "players": [
+            "إيكر كاسياس"
+          ],
+          "matches": [
+            "wc2010_final_casillas"
+          ]
+        },
+        "semantic_keys": [
+          "wc2010_final_casillas"
+        ]
+      },
+      {
+        "id": "b008_who_07",
+        "question": "من هو اللاعب الذي سجل هدف تشيلسي المتأخر في نهائي دوري الأبطال 2012 ثم سجل ركلة الترجيح الحاسمة؟",
+        "answer": "ديدييه دروغبا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "players": [
+            "ديدييه دروغبا"
+          ],
+          "matches": [
+            "ucl2012_final_drogba"
+          ]
+        },
+        "semantic_keys": [
+          "ucl2012_final_drogba"
+        ]
+      },
+      {
+        "id": "b008_who_08",
+        "question": "من هو اللاعب الذي سجل هدف مانشستر سيتي الشهير في الدقيقة 93:20 أمام كوينز بارك رينجرز ليحسم الدوري الإنجليزي 2012؟",
+        "answer": "سيرخيو أغويرو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "players": [
+            "سيرخيو أغويرو"
+          ],
+          "matches": [
+            "epl2012_aguero_9320"
+          ]
+        },
+        "semantic_keys": [
+          "epl2012_aguero_9320"
+        ]
+      },
+      {
+        "id": "b008_who_09",
+        "question": "من هو اللاعب الذي سجل أسرع هدف في تاريخ نهائيات كأس العالم بعد نحو 11 ثانية أمام كوريا الجنوبية في 2002؟",
+        "answer": "هاكان شوكور",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "players": [
+            "هاكان شوكور"
+          ],
+          "matches": [
+            "wc2002_fastest_hakan"
+          ]
+        },
+        "semantic_keys": [
+          "wc2002_fastest_hakan"
+        ]
+      },
+      {
+        "id": "b008_who_10",
+        "question": "من هو اللاعب الذي سجل هدف التعادل لليفربول في نهائي دوري الأبطال 2005 من ركلة جزاء بعد أن تصدى ديدا للمحاولة الأولى؟",
+        "answer": "تشابي ألونسو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "players": [
+            "تشابي ألونسو"
+          ],
+          "matches": [
+            "ucl2005_alonso_pen"
+          ]
+        },
+        "semantic_keys": [
+          "ucl2005_alonso_pen"
+        ]
+      },
+      {
+        "id": "b008_who_11",
+        "question": "من هو اللاعب الذي سجل هدف برشلونة القاتل أمام تشيلسي في إياب نصف نهائي دوري الأبطال 2009 على ملعب ستامفورد بريدج؟",
+        "answer": "أندريس إنييستا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "players": [
+            "أندريس إنييستا"
+          ],
+          "matches": [
+            "ucl2009_iniesta_chelsea"
+          ]
+        },
+        "semantic_keys": [
+          "ucl2009_iniesta_chelsea"
+        ]
+      },
+      {
+        "id": "b008_who_12",
+        "question": "من هو اللاعب الذي سجل هدف البرتغال الوحيد في نهائي يورو 2016 أمام فرنسا بعد دخوله بديلًا؟",
+        "answer": "إيدير",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "players": [
+            "إيدير"
+          ],
+          "matches": [
+            "euro2016_final_eder"
+          ]
+        },
+        "semantic_keys": [
+          "euro2016_final_eder"
+        ]
+      }
+    ],
+    "مسيرة لاعب": [
+      {
+        "id": "b008_car_01",
+        "question": "كروزيرو (1993–1994) ← آيندهوفن (1994–1996) ← برشلونة (1996–1997) ← إنتر ميلان (1997–2002) ← ريال مدريد (2002–2007) ← ميلان (2007–2008) ← كورينثيانز (2009–2011). من هو اللاعب؟",
+        "answer": "رونالدو نازاريو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "players": [
+            "رونالدو نازاريو"
+          ]
+        },
+        "semantic_keys": [
+          "career:رونالدو نازاريو"
+        ],
+        "question_html": "<div class=\"careerPath\"><div class=\"careerStop\"><b>كروزيرو</b><span>1993–1994</span></div><div class=\"careerStop\"><b>آيندهوفن</b><span>1994–1996</span></div><div class=\"careerStop\"><b>برشلونة</b><span>1996–1997</span></div><div class=\"careerStop\"><b>إنتر ميلان</b><span>1997–2002</span></div><div class=\"careerStop\"><b>ريال مدريد</b><span>2002–2007</span></div><div class=\"careerStop\"><b>ميلان</b><span>2007–2008</span></div><div class=\"careerStop\"><b>كورينثيانز</b><span>2009–2011</span></div></div><div class=\"careerAsk\">من هو اللاعب؟</div>"
+      },
+      {
+        "id": "b008_car_02",
+        "question": "ناسيونال (2005–2006) ← غرونينغن (2006–2007) ← أياكس (2007–2011) ← ليفربول (2011–2014) ← برشلونة (2014–2020) ← أتلتيكو مدريد (2020–2022) ← ناسيونال (2022) ← غريميو (2023) ← إنتر ميامي (2024–). من هو اللاعب؟",
+        "answer": "لويس سواريز",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "players": [
+            "لويس سواريز"
+          ]
+        },
+        "semantic_keys": [
+          "career:لويس سواريز"
+        ],
+        "question_html": "<div class=\"careerPath\"><div class=\"careerStop\"><b>ناسيونال</b><span>2005–2006</span></div><div class=\"careerStop\"><b>غرونينغن</b><span>2006–2007</span></div><div class=\"careerStop\"><b>أياكس</b><span>2007–2011</span></div><div class=\"careerStop\"><b>ليفربول</b><span>2011–2014</span></div><div class=\"careerStop\"><b>برشلونة</b><span>2014–2020</span></div><div class=\"careerStop\"><b>أتلتيكو مدريد</b><span>2020–2022</span></div><div class=\"careerStop\"><b>ناسيونال</b><span>2022</span></div><div class=\"careerStop\"><b>غريميو</b><span>2023</span></div><div class=\"careerStop\"><b>إنتر ميامي</b><span>2024–</span></div></div><div class=\"careerAsk\">من هو اللاعب؟</div>"
+      },
+      {
+        "id": "b008_car_03",
+        "question": "مانشستر يونايتد (1992–2003) ← ريال مدريد (2003–2007) ← لوس أنجلوس غالاكسي (2007–2012؛ مع إعارتين إلى ميلان) ← باريس سان جيرمان (2013). من هو اللاعب؟",
+        "answer": "ديفيد بيكهام",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "players": [
+            "ديفيد بيكهام"
+          ]
+        },
+        "semantic_keys": [
+          "career:ديفيد بيكهام"
+        ],
+        "question_html": "<div class=\"careerPath\"><div class=\"careerStop\"><b>مانشستر يونايتد</b><span>1992–2003</span></div><div class=\"careerStop\"><b>ريال مدريد</b><span>2003–2007</span></div><div class=\"careerStop\"><b>لوس أنجلوس غالاكسي</b><span>2007–2012؛ مع إعارتين إلى ميلان</span></div><div class=\"careerStop\"><b>باريس سان جيرمان</b><span>2013</span></div></div><div class=\"careerAsk\">من هو اللاعب؟</div>"
+      },
+      {
+        "id": "b008_car_04",
+        "question": "إيفرتون (2002–2004) ← مانشستر يونايتد (2004–2017) ← إيفرتون (2017–2018) ← دي سي يونايتد (2018–2019) ← ديربي كاونتي (2020–2021). من هو اللاعب؟",
+        "answer": "واين روني",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "players": [
+            "واين روني"
+          ]
+        },
+        "semantic_keys": [
+          "career:واين روني"
+        ],
+        "question_html": "<div class=\"careerPath\"><div class=\"careerStop\"><b>إيفرتون</b><span>2002–2004</span></div><div class=\"careerStop\"><b>مانشستر يونايتد</b><span>2004–2017</span></div><div class=\"careerStop\"><b>إيفرتون</b><span>2017–2018</span></div><div class=\"careerStop\"><b>دي سي يونايتد</b><span>2018–2019</span></div><div class=\"careerStop\"><b>ديربي كاونتي</b><span>2020–2021</span></div></div><div class=\"careerAsk\">من هو اللاعب؟</div>"
+      },
+      {
+        "id": "b008_car_05",
+        "question": "ريال مدريد (1997–2000؛ تخللتها إعارات) ← مايوركا (2000–2004) ← برشلونة (2004–2009) ← إنتر ميلان (2009–2011) ← أنجي محج قلعة (2011–2013) ← تشيلسي (2013–2014) ← إيفرتون (2014–2015) ← سامبدوريا (2015) ← أنطاليا سبور (2015–2018) ← قونيا سبور (2018) ← قطر (2018–2019). من هو اللاعب؟",
+        "answer": "صامويل إيتو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "players": [
+            "صامويل إيتو"
+          ]
+        },
+        "semantic_keys": [
+          "career:صامويل إيتو"
+        ],
+        "question_html": "<div class=\"careerPath\"><div class=\"careerStop\"><b>ريال مدريد</b><span>1997–2000؛ تخللتها إعارات</span></div><div class=\"careerStop\"><b>مايوركا</b><span>2000–2004</span></div><div class=\"careerStop\"><b>برشلونة</b><span>2004–2009</span></div><div class=\"careerStop\"><b>إنتر ميلان</b><span>2009–2011</span></div><div class=\"careerStop\"><b>أنجي محج قلعة</b><span>2011–2013</span></div><div class=\"careerStop\"><b>تشيلسي</b><span>2013–2014</span></div><div class=\"careerStop\"><b>إيفرتون</b><span>2014–2015</span></div><div class=\"careerStop\"><b>سامبدوريا</b><span>2015</span></div><div class=\"careerStop\"><b>أنطاليا سبور</b><span>2015–2018</span></div><div class=\"careerStop\"><b>قونيا سبور</b><span>2018</span></div><div class=\"careerStop\"><b>قطر</b><span>2018–2019</span></div></div><div class=\"careerAsk\">من هو اللاعب؟</div>"
+      },
+      {
+        "id": "b008_car_06",
+        "question": "فيينورد (2001–2004) ← آرسنال (2004–2012) ← مانشستر يونايتد (2012–2015) ← فنربخشة (2015–2018) ← فيينورد (2018–2019). من هو اللاعب؟",
+        "answer": "روبن فان بيرسي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "players": [
+            "روبن فان بيرسي"
+          ]
+        },
+        "semantic_keys": [
+          "career:روبن فان بيرسي"
+        ],
+        "question_html": "<div class=\"careerPath\"><div class=\"careerStop\"><b>فيينورد</b><span>2001–2004</span></div><div class=\"careerStop\"><b>آرسنال</b><span>2004–2012</span></div><div class=\"careerStop\"><b>مانشستر يونايتد</b><span>2012–2015</span></div><div class=\"careerStop\"><b>فنربخشة</b><span>2015–2018</span></div><div class=\"careerStop\"><b>فيينورد</b><span>2018–2019</span></div></div><div class=\"careerAsk\">من هو اللاعب؟</div>"
+      },
+      {
+        "id": "b008_car_07",
+        "question": "بريشيا (1995–1998) ← إنتر ميلان (1998–2001؛ تخللتها إعارات) ← ميلان (2001–2011) ← يوفنتوس (2011–2015) ← نيويورك سيتي (2015–2017). من هو اللاعب؟",
+        "answer": "أندريا بيرلو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "players": [
+            "أندريا بيرلو"
+          ]
+        },
+        "semantic_keys": [
+          "career:أندريا بيرلو"
+        ],
+        "question_html": "<div class=\"careerPath\"><div class=\"careerStop\"><b>بريشيا</b><span>1995–1998</span></div><div class=\"careerStop\"><b>إنتر ميلان</b><span>1998–2001؛ تخللتها إعارات</span></div><div class=\"careerStop\"><b>ميلان</b><span>2001–2011</span></div><div class=\"careerStop\"><b>يوفنتوس</b><span>2011–2015</span></div><div class=\"careerStop\"><b>نيويورك سيتي</b><span>2015–2017</span></div></div><div class=\"careerAsk\">من هو اللاعب؟</div>"
+      },
+      {
+        "id": "b008_car_08",
+        "question": "ريفر بليت (2003–2005) ← كورينثيانز (2005–2006) ← وست هام (2006–2007) ← ليفربول (2007–2010) ← برشلونة (2010–2018) ← هيبي تشاينا فورتشن (2018–2019) ← إستوديانتيس (2020). من هو اللاعب؟",
+        "answer": "خافيير ماسكيرانو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "players": [
+            "خافيير ماسكيرانو"
+          ]
+        },
+        "semantic_keys": [
+          "career:خافيير ماسكيرانو"
+        ],
+        "question_html": "<div class=\"careerPath\"><div class=\"careerStop\"><b>ريفر بليت</b><span>2003–2005</span></div><div class=\"careerStop\"><b>كورينثيانز</b><span>2005–2006</span></div><div class=\"careerStop\"><b>وست هام</b><span>2006–2007</span></div><div class=\"careerStop\"><b>ليفربول</b><span>2007–2010</span></div><div class=\"careerStop\"><b>برشلونة</b><span>2010–2018</span></div><div class=\"careerStop\"><b>هيبي تشاينا فورتشن</b><span>2018–2019</span></div><div class=\"careerStop\"><b>إستوديانتيس</b><span>2020</span></div></div><div class=\"careerAsk\">من هو اللاعب؟</div>"
+      },
+      {
+        "id": "b008_car_09",
+        "question": "إستوديانتيس (1994–1996) ← بوكا جونيورز (1996) ← سامبدوريا (1996–1998) ← بارما (1998–1999) ← لاتسيو (1999–2001) ← مانشستر يونايتد (2001–2003) ← تشيلسي (2003–2007؛ مع إعارات) ← إستوديانتيس (2006–2012) ← إستوديانتيس (2014) ← إستوديانتيس (2017). من هو اللاعب؟",
+        "answer": "خوان سيباستيان فيرون",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "players": [
+            "خوان سيباستيان فيرون"
+          ]
+        },
+        "semantic_keys": [
+          "career:خوان سيباستيان فيرون"
+        ],
+        "question_html": "<div class=\"careerPath\"><div class=\"careerStop\"><b>إستوديانتيس</b><span>1994–1996</span></div><div class=\"careerStop\"><b>بوكا جونيورز</b><span>1996</span></div><div class=\"careerStop\"><b>سامبدوريا</b><span>1996–1998</span></div><div class=\"careerStop\"><b>بارما</b><span>1998–1999</span></div><div class=\"careerStop\"><b>لاتسيو</b><span>1999–2001</span></div><div class=\"careerStop\"><b>مانشستر يونايتد</b><span>2001–2003</span></div><div class=\"careerStop\"><b>تشيلسي</b><span>2003–2007؛ مع إعارات</span></div><div class=\"careerStop\"><b>إستوديانتيس</b><span>2006–2012</span></div><div class=\"careerStop\"><b>إستوديانتيس</b><span>2014</span></div><div class=\"careerStop\"><b>إستوديانتيس</b><span>2017</span></div></div><div class=\"careerAsk\">من هو اللاعب؟</div>"
+      },
+      {
+        "id": "b008_car_10",
+        "question": "باريس سان جيرمان (1996–1997) ← آرسنال (1997–1999) ← ريال مدريد (1999–2000) ← باريس سان جيرمان (2000–2002) ← ليفربول (إعارة 2002) ← مانشستر سيتي (2002–2005) ← فنربخشة (2005–2006) ← بولتون (2006–2008) ← تشيلسي (2008–2012) ← شنغهاي شينهوا (2012) ← يوفنتوس (إعارة 2013) ← وست بروميتش (2013–2014) ← مومباي سيتي (2014–2015). من هو اللاعب؟",
+        "answer": "نيكولا أنيلكا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "players": [
+            "نيكولا أنيلكا"
+          ]
+        },
+        "semantic_keys": [
+          "career:نيكولا أنيلكا"
+        ],
+        "question_html": "<div class=\"careerPath\"><div class=\"careerStop\"><b>باريس سان جيرمان</b><span>1996–1997</span></div><div class=\"careerStop\"><b>آرسنال</b><span>1997–1999</span></div><div class=\"careerStop\"><b>ريال مدريد</b><span>1999–2000</span></div><div class=\"careerStop\"><b>باريس سان جيرمان</b><span>2000–2002</span></div><div class=\"careerStop\"><b>ليفربول</b><span>إعارة 2002</span></div><div class=\"careerStop\"><b>مانشستر سيتي</b><span>2002–2005</span></div><div class=\"careerStop\"><b>فنربخشة</b><span>2005–2006</span></div><div class=\"careerStop\"><b>بولتون</b><span>2006–2008</span></div><div class=\"careerStop\"><b>تشيلسي</b><span>2008–2012</span></div><div class=\"careerStop\"><b>شنغهاي شينهوا</b><span>2012</span></div><div class=\"careerStop\"><b>يوفنتوس</b><span>إعارة 2013</span></div><div class=\"careerStop\"><b>وست بروميتش</b><span>2013–2014</span></div><div class=\"careerStop\"><b>مومباي سيتي</b><span>2014–2015</span></div></div><div class=\"careerAsk\">من هو اللاعب؟</div>"
+      },
+      {
+        "id": "b008_car_11",
+        "question": "تورينو (1991–1992) ← بيزا (1992–1993) ← رافينا (1993–1994) ← فينيتسيا (1994–1995) ← أتالانتا (1995–1996) ← يوفنتوس (1996–1997) ← أتلتيكو مدريد (1997–1998) ← لاتسيو (1998–1999) ← إنتر ميلان (1999–2005) ← ميلان (2005–2006) ← موناكو (2006) ← أتالانتا (2006–2007) ← فيورنتينا (2007–2008) ← أتالانتا (2008–2009). من هو اللاعب؟",
+        "answer": "كريستيان فييري",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "players": [
+            "كريستيان فييري"
+          ]
+        },
+        "semantic_keys": [
+          "career:كريستيان فييري"
+        ],
+        "question_html": "<div class=\"careerPath\"><div class=\"careerStop\"><b>تورينو</b><span>1991–1992</span></div><div class=\"careerStop\"><b>بيزا</b><span>1992–1993</span></div><div class=\"careerStop\"><b>رافينا</b><span>1993–1994</span></div><div class=\"careerStop\"><b>فينيتسيا</b><span>1994–1995</span></div><div class=\"careerStop\"><b>أتالانتا</b><span>1995–1996</span></div><div class=\"careerStop\"><b>يوفنتوس</b><span>1996–1997</span></div><div class=\"careerStop\"><b>أتلتيكو مدريد</b><span>1997–1998</span></div><div class=\"careerStop\"><b>لاتسيو</b><span>1998–1999</span></div><div class=\"careerStop\"><b>إنتر ميلان</b><span>1999–2005</span></div><div class=\"careerStop\"><b>ميلان</b><span>2005–2006</span></div><div class=\"careerStop\"><b>موناكو</b><span>2006</span></div><div class=\"careerStop\"><b>أتالانتا</b><span>2006–2007</span></div><div class=\"careerStop\"><b>فيورنتينا</b><span>2007–2008</span></div><div class=\"careerStop\"><b>أتالانتا</b><span>2008–2009</span></div></div><div class=\"careerAsk\">من هو اللاعب؟</div>"
+      },
+      {
+        "id": "b008_car_12",
+        "question": "إنديبندينتي (1997–2002) ← مانشستر يونايتد (2002–2004) ← فياريال (2004–2007) ← أتلتيكو مدريد (2007–2011) ← إنتر ميلان (2011–2012) ← إنترناسيونال (2012–2014) ← سيريزو أوساكا (2014–2015) ← بينارول (2015–2016) ← مومباي سيتي (2016) ← كيتشي (2018). من هو اللاعب؟",
+        "answer": "دييغو فورلان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "players": [
+            "دييغو فورلان"
+          ]
+        },
+        "semantic_keys": [
+          "career:دييغو فورلان"
+        ],
+        "question_html": "<div class=\"careerPath\"><div class=\"careerStop\"><b>إنديبندينتي</b><span>1997–2002</span></div><div class=\"careerStop\"><b>مانشستر يونايتد</b><span>2002–2004</span></div><div class=\"careerStop\"><b>فياريال</b><span>2004–2007</span></div><div class=\"careerStop\"><b>أتلتيكو مدريد</b><span>2007–2011</span></div><div class=\"careerStop\"><b>إنتر ميلان</b><span>2011–2012</span></div><div class=\"careerStop\"><b>إنترناسيونال</b><span>2012–2014</span></div><div class=\"careerStop\"><b>سيريزو أوساكا</b><span>2014–2015</span></div><div class=\"careerStop\"><b>بينارول</b><span>2015–2016</span></div><div class=\"careerStop\"><b>مومباي سيتي</b><span>2016</span></div><div class=\"careerStop\"><b>كيتشي</b><span>2018</span></div></div><div class=\"careerAsk\">من هو اللاعب؟</div>"
+      }
+    ],
+    "النادي المشترك": [
+      {
+        "id": "b008_shared_01",
+        "question": "ما النادي المشترك في مسيرة هؤلاء اللاعبين؟",
+        "answer": "تشيلسي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "players": [
+            "محمد صلاح",
+            "كيفن دي بروين"
+          ],
+          "clubs": [
+            "تشيلسي"
+          ]
+        },
+        "semantic_keys": [
+          "shared:تشيلسي:محمد صلاح:كيفن دي بروين"
+        ],
+        "media": {
+          "type": "player_gallery",
+          "players": [
+            {
+              "name": "محمد صلاح",
+              "wiki": "Mohamed Salah"
+            },
+            {
+              "name": "كيفن دي بروين",
+              "wiki": "Kevin De Bruyne"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b008_shared_02",
+        "question": "ما النادي المشترك في مسيرة هؤلاء اللاعبين؟",
+        "answer": "ريال مدريد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "players": [
+            "مايكل أوين",
+            "ويسلي شنايدر"
+          ],
+          "clubs": [
+            "ريال مدريد"
+          ]
+        },
+        "semantic_keys": [
+          "shared:ريال مدريد:مايكل أوين:ويسلي شنايدر"
+        ],
+        "media": {
+          "type": "player_gallery",
+          "players": [
+            {
+              "name": "مايكل أوين",
+              "wiki": "Michael Owen"
+            },
+            {
+              "name": "ويسلي شنايدر",
+              "wiki": "Wesley Sneijder"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b008_shared_03",
+        "question": "ما النادي المشترك في مسيرة هؤلاء اللاعبين؟",
+        "answer": "برشلونة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "players": [
+            "خوان رومان ريكيلمي",
+            "إيمانويل بيتي"
+          ],
+          "clubs": [
+            "برشلونة"
+          ]
+        },
+        "semantic_keys": [
+          "shared:برشلونة:خوان رومان ريكيلمي:إيمانويل بيتي"
+        ],
+        "media": {
+          "type": "player_gallery",
+          "players": [
+            {
+              "name": "خوان رومان ريكيلمي",
+              "wiki": "Juan Román Riquelme"
+            },
+            {
+              "name": "إيمانويل بيتي",
+              "wiki": "Emmanuel Petit"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b008_shared_04",
+        "question": "ما النادي المشترك في مسيرة هؤلاء اللاعبين؟",
+        "answer": "مانشستر يونايتد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "players": [
+            "جيرارد بيكيه",
+            "دييغو فورلان"
+          ],
+          "clubs": [
+            "مانشستر يونايتد"
+          ]
+        },
+        "semantic_keys": [
+          "shared:مانشستر يونايتد:جيرارد بيكيه:دييغو فورلان"
+        ],
+        "media": {
+          "type": "player_gallery",
+          "players": [
+            {
+              "name": "جيرارد بيكيه",
+              "wiki": "Gerard Piqué"
+            },
+            {
+              "name": "دييغو فورلان",
+              "wiki": "Diego Forlán"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b008_shared_05",
+        "question": "ما النادي المشترك في مسيرة هؤلاء اللاعبين؟",
+        "answer": "آرسنال",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "players": [
+            "لاسّانا ديارا",
+            "سيلفان ويلتورد",
+            "نوري شاهين"
+          ],
+          "clubs": [
+            "آرسنال"
+          ]
+        },
+        "semantic_keys": [
+          "shared:آرسنال:لاسّانا ديارا:سيلفان ويلتورد:نوري شاهين"
+        ],
+        "media": {
+          "type": "player_gallery",
+          "players": [
+            {
+              "name": "لاسّانا ديارا",
+              "wiki": "Lassana Diarra"
+            },
+            {
+              "name": "سيلفان ويلتورد",
+              "wiki": "Sylvain Wiltord"
+            },
+            {
+              "name": "نوري شاهين",
+              "wiki": "Nuri Şahin"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b008_shared_06",
+        "question": "ما النادي المشترك في مسيرة هؤلاء اللاعبين؟",
+        "answer": "ميلان",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "players": [
+            "باتريك كلويفرت",
+            "ماريو بالوتيلي",
+            "فرناندو توريس"
+          ],
+          "clubs": [
+            "ميلان"
+          ]
+        },
+        "semantic_keys": [
+          "shared:ميلان:باتريك كلويفرت:ماريو بالوتيلي:فرناندو توريس"
+        ],
+        "media": {
+          "type": "player_gallery",
+          "players": [
+            {
+              "name": "باتريك كلويفرت",
+              "wiki": "Patrick Kluivert"
+            },
+            {
+              "name": "ماريو بالوتيلي",
+              "wiki": "Mario Balotelli"
+            },
+            {
+              "name": "فرناندو توريس",
+              "wiki": "Fernando Torres"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b008_shared_07",
+        "question": "ما النادي المشترك في مسيرة هؤلاء اللاعبين؟",
+        "answer": "إنتر ميلان",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "players": [
+            "روبرتو كارلوس",
+            "دينيس بيركامب",
+            "روبي كين"
+          ],
+          "clubs": [
+            "إنتر ميلان"
+          ]
+        },
+        "semantic_keys": [
+          "shared:إنتر ميلان:روبرتو كارلوس:دينيس بيركامب:روبي كين"
+        ],
+        "media": {
+          "type": "player_gallery",
+          "players": [
+            {
+              "name": "روبرتو كارلوس",
+              "wiki": "Roberto Carlos"
+            },
+            {
+              "name": "دينيس بيركامب",
+              "wiki": "Dennis Bergkamp"
+            },
+            {
+              "name": "روبي كين",
+              "wiki": "Robbie Keane"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b008_shared_08",
+        "question": "ما النادي المشترك في مسيرة هؤلاء اللاعبين؟",
+        "answer": "بايرن ميونخ",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "players": [
+            "تشابي ألونسو",
+            "إيفان بيريشيتش",
+            "فيليب كوتينيو"
+          ],
+          "clubs": [
+            "بايرن ميونخ"
+          ]
+        },
+        "semantic_keys": [
+          "shared:بايرن ميونخ:تشابي ألونسو:إيفان بيريشيتش:فيليب كوتينيو"
+        ],
+        "media": {
+          "type": "player_gallery",
+          "players": [
+            {
+              "name": "تشابي ألونسو",
+              "wiki": "Xabi Alonso"
+            },
+            {
+              "name": "إيفان بيريشيتش",
+              "wiki": "Ivan Perišić"
+            },
+            {
+              "name": "فيليب كوتينيو",
+              "wiki": "Philippe Coutinho"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b008_shared_09",
+        "question": "ما النادي المشترك في مسيرة هؤلاء اللاعبين؟",
+        "answer": "فالنسيا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "players": [
+            "روماريو",
+            "باتريك كلويفرت",
+            "إدينسون كافاني"
+          ],
+          "clubs": [
+            "فالنسيا"
+          ]
+        },
+        "semantic_keys": [
+          "shared:فالنسيا:روماريو:باتريك كلويفرت:إدينسون كافاني"
+        ],
+        "media": {
+          "type": "player_gallery",
+          "players": [
+            {
+              "name": "روماريو",
+              "wiki": "Romário"
+            },
+            {
+              "name": "باتريك كلويفرت",
+              "wiki": "Patrick Kluivert"
+            },
+            {
+              "name": "إدينسون كافاني",
+              "wiki": "Edinson Cavani"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b008_shared_10",
+        "question": "ما النادي المشترك في مسيرة هؤلاء اللاعبين؟",
+        "answer": "بارما",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "players": [
+            "هريستو ستويتشكوف",
+            "خوان سيباستيان فيرون",
+            "سيباستيان فري"
+          ],
+          "clubs": [
+            "بارما"
+          ]
+        },
+        "semantic_keys": [
+          "shared:بارما:هريستو ستويتشكوف:خوان سيباستيان فيرون:سيباستيان فري"
+        ],
+        "media": {
+          "type": "player_gallery",
+          "players": [
+            {
+              "name": "هريستو ستويتشكوف",
+              "wiki": "Hristo Stoichkov"
+            },
+            {
+              "name": "خوان سيباستيان فيرون",
+              "wiki": "Juan Sebastián Verón"
+            },
+            {
+              "name": "سيباستيان فري",
+              "wiki": "Sébastien Frey"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b008_shared_11",
+        "question": "ما النادي المشترك في مسيرة هؤلاء اللاعبين؟",
+        "answer": "موناكو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "players": [
+            "يورغن كلينسمان",
+            "فرناندو موريانتس",
+            "يايا توريه"
+          ],
+          "clubs": [
+            "موناكو"
+          ]
+        },
+        "semantic_keys": [
+          "shared:موناكو:يورغن كلينسمان:فرناندو موريانتس:يايا توريه"
+        ],
+        "media": {
+          "type": "player_gallery",
+          "players": [
+            {
+              "name": "يورغن كلينسمان",
+              "wiki": "Jürgen Klinsmann"
+            },
+            {
+              "name": "فرناندو موريانتس",
+              "wiki": "Fernando Morientes"
+            },
+            {
+              "name": "يايا توريه",
+              "wiki": "Yaya Touré"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b008_shared_12",
+        "question": "ما النادي المشترك في مسيرة هؤلاء اللاعبين؟",
+        "answer": "فنربخشة",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "players": [
+            "روبرتو كارلوس",
+            "روبن فان بيرسي",
+            "نيكولا أنيلكا"
+          ],
+          "clubs": [
+            "فنربخشة"
+          ]
+        },
+        "semantic_keys": [
+          "shared:فنربخشة:روبرتو كارلوس:روبن فان بيرسي:نيكولا أنيلكا"
+        ],
+        "media": {
+          "type": "player_gallery",
+          "players": [
+            {
+              "name": "روبرتو كارلوس",
+              "wiki": "Roberto Carlos"
+            },
+            {
+              "name": "روبن فان بيرسي",
+              "wiki": "Robin van Persie"
+            },
+            {
+              "name": "نيكولا أنيلكا",
+              "wiki": "Nicolas Anelka"
+            }
+          ]
+        }
+      }
+    ],
+    "نشيد وطني": [
+      {
+        "id": "b008_ant_01",
+        "question": "استمع إلى المقطع وحدد الدولة.",
+        "answer": "قطر",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "countries": [
+            "قطر"
+          ]
+        },
+        "semantic_keys": [
+          "anthem:قطر"
+        ],
+        "media": {
+          "type": "audio",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/National%20anthem%20of%20Qatar.ogg",
+          "duration_seconds": 10,
+          "hide_title": true,
+          "hide_country_until_reveal": true
+        }
+      },
+      {
+        "id": "b008_ant_02",
+        "question": "استمع إلى المقطع وحدد الدولة.",
+        "answer": "سوريا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "countries": [
+            "سوريا"
+          ]
+        },
+        "semantic_keys": [
+          "anthem:سوريا"
+        ],
+        "media": {
+          "type": "audio",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/National%20Anthem%20of%20Syria.ogg",
+          "duration_seconds": 10,
+          "hide_title": true,
+          "hide_country_until_reveal": true
+        }
+      },
+      {
+        "id": "b008_ant_03",
+        "question": "استمع إلى المقطع وحدد الدولة.",
+        "answer": "الأردن",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "countries": [
+            "الأردن"
+          ]
+        },
+        "semantic_keys": [
+          "anthem:الأردن"
+        ],
+        "media": {
+          "type": "audio",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/National%20anthem%20of%20Jordan%20instrumental.ogg",
+          "duration_seconds": 10,
+          "hide_title": true,
+          "hide_country_until_reveal": true
+        }
+      },
+      {
+        "id": "b008_ant_04",
+        "question": "استمع إلى المقطع وحدد الدولة.",
+        "answer": "الكويت",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "countries": [
+            "الكويت"
+          ]
+        },
+        "semantic_keys": [
+          "anthem:الكويت"
+        ],
+        "media": {
+          "type": "audio",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/National%20anthem%20of%20Kuwait%20%28instrumental%29.ogg",
+          "duration_seconds": 10,
+          "hide_title": true,
+          "hide_country_until_reveal": true
+        }
+      },
+      {
+        "id": "b008_ant_05",
+        "question": "استمع إلى المقطع وحدد الدولة.",
+        "answer": "الإمارات",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "countries": [
+            "الإمارات"
+          ]
+        },
+        "semantic_keys": [
+          "anthem:الإمارات"
+        ],
+        "media": {
+          "type": "audio",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/UAE%20national%20anthem.ogg",
+          "duration_seconds": 10,
+          "hide_title": true,
+          "hide_country_until_reveal": true
+        }
+      },
+      {
+        "id": "b008_ant_06",
+        "question": "استمع إلى المقطع وحدد الدولة.",
+        "answer": "السعودية",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "countries": [
+            "السعودية"
+          ]
+        },
+        "semantic_keys": [
+          "anthem:السعودية"
+        ],
+        "media": {
+          "type": "audio",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Aash%20Al%20Maleek%20instrumental.ogg",
+          "duration_seconds": 10,
+          "hide_title": true,
+          "hide_country_until_reveal": true
+        }
+      },
+      {
+        "id": "b008_ant_07",
+        "question": "استمع إلى المقطع وحدد الدولة.",
+        "answer": "البحرين",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "countries": [
+            "البحرين"
+          ]
+        },
+        "semantic_keys": [
+          "anthem:البحرين"
+        ],
+        "media": {
+          "type": "audio",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Bahraini%20Anthem.ogg",
+          "duration_seconds": 10,
+          "hide_title": true,
+          "hide_country_until_reveal": true
+        }
+      },
+      {
+        "id": "b008_ant_08",
+        "question": "استمع إلى المقطع وحدد الدولة.",
+        "answer": "مصر",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "countries": [
+            "مصر"
+          ]
+        },
+        "semantic_keys": [
+          "anthem:مصر"
+        ],
+        "media": {
+          "type": "audio",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Egipto.ogg",
+          "duration_seconds": 10,
+          "hide_title": true,
+          "hide_country_until_reveal": true
+        }
+      },
+      {
+        "id": "b008_ant_09",
+        "question": "استمع إلى المقطع وحدد الدولة.",
+        "answer": "المغرب",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "countries": [
+            "المغرب"
+          ]
+        },
+        "semantic_keys": [
+          "anthem:المغرب"
+        ],
+        "media": {
+          "type": "audio",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/National%20Anthem%20of%20Morocco.ogg",
+          "duration_seconds": 10,
+          "hide_title": true,
+          "hide_country_until_reveal": true
+        }
+      },
+      {
+        "id": "b008_ant_10",
+        "question": "استمع إلى المقطع وحدد الدولة.",
+        "answer": "أوروغواي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "countries": [
+            "أوروغواي"
+          ]
+        },
+        "semantic_keys": [
+          "anthem:أوروغواي"
+        ],
+        "media": {
+          "type": "audio",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/United%20States%20Navy%20Band%20-%20National%20Anthem%20of%20Uruguay%20%28short%29.ogg",
+          "duration_seconds": 10,
+          "hide_title": true,
+          "hide_country_until_reveal": true
+        }
+      },
+      {
+        "id": "b008_ant_11",
+        "question": "استمع إلى المقطع وحدد الدولة.",
+        "answer": "كرواتيا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "countries": [
+            "كرواتيا"
+          ]
+        },
+        "semantic_keys": [
+          "anthem:كرواتيا"
+        ],
+        "media": {
+          "type": "audio",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Lijepa%20nasa%20domovino%20instrumental.ogg",
+          "duration_seconds": 10,
+          "hide_title": true,
+          "hide_country_until_reveal": true
+        }
+      },
+      {
+        "id": "b008_ant_12",
+        "question": "استمع إلى المقطع وحدد الدولة.",
+        "answer": "البرتغال",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "countries": [
+            "البرتغال"
+          ]
+        },
+        "semantic_keys": [
+          "anthem:البرتغال"
+        ],
+        "media": {
+          "type": "audio",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/A%20Portuguesa.ogg",
+          "duration_seconds": 10,
+          "hide_title": true,
+          "hide_country_until_reveal": true
+        }
+      }
+    ],
+    "تاريخ الخلفاء": [
+      {
+        "id": "b008_cal_01",
+        "question": "من هو أول خلفاء الدولة الأموية؟",
+        "answer": "معاوية بن أبي سفيان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "cal:umayyad:first"
+        ]
+      },
+      {
+        "id": "b008_cal_02",
+        "question": "من هو رابع الخلفاء الراشدين؟",
+        "answer": "علي بن أبي طالب",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "cal:rashidun:fourth"
+        ]
+      },
+      {
+        "id": "b008_cal_03",
+        "question": "أي أربعة من أبناء عبد الملك بن مروان تولوا الخلافة الأموية؟",
+        "answer": "الوليد بن عبد الملك، سليمان بن عبد الملك، يزيد بن عبد الملك، هشام بن عبد الملك",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "cal:abdmalik:sons_caliphs"
+        ]
+      },
+      {
+        "id": "b008_cal_04",
+        "question": "من هو الخليفة الأموي الذي أمر ببناء قبة الصخرة في القدس؟",
+        "answer": "عبد الملك بن مروان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "cal:dome_rock"
+        ]
+      },
+      {
+        "id": "b008_cal_05",
+        "question": "من هو رابع خلفاء الدولة العباسية؟",
+        "answer": "موسى الهادي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "cal:abbasid:fourth"
+        ]
+      },
+      {
+        "id": "b008_cal_06",
+        "question": "من الخليفة العباسي الذي أسس مدينة بغداد واتخذها عاصمة؟",
+        "answer": "أبو جعفر المنصور",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "cal:baghdad_founder"
+        ]
+      },
+      {
+        "id": "b008_cal_07",
+        "question": "من الخليفة الأموي الذي تولى بعد الوليد بن عبد الملك مباشرة؟",
+        "answer": "سليمان بن عبد الملك",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "cal:after_walid1"
+        ]
+      },
+      {
+        "id": "b008_cal_08",
+        "question": "من الخليفة العباسي الذي أنشأ مدينة سامراء واتخذها عاصمة؟",
+        "answer": "المعتصم بالله",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "cal:samarra"
+        ]
+      },
+      {
+        "id": "b008_cal_09",
+        "question": "من الخليفة الأموي الذي سبق مروان بن محمد مباشرة؟",
+        "answer": "إبراهيم بن الوليد",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "cal:before_marwan2"
+        ]
+      },
+      {
+        "id": "b008_cal_10",
+        "question": "من هو الخليفة العباسي الذي جاء بعد الواثق بالله مباشرة؟",
+        "answer": "المتوكل على الله",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "cal:after_wathiq"
+        ]
+      },
+      {
+        "id": "b008_cal_11",
+        "question": "أي خليفة عباسي كان ابنًا لهارون الرشيد وأخًا للأمين وخلفه بعد الصراع بينهما؟",
+        "answer": "المأمون",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "cal:mamun_relation"
+        ]
+      },
+      {
+        "id": "b008_cal_12",
+        "question": "من هو الخليفة الأموي الذي كان أبًا للخليفتين الوليد بن يزيد ويزيد بن الوليد؟",
+        "answer": "يزيد بن عبد الملك",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "cal:yazid2_sons"
+        ]
+      }
+    ],
+    "الدوري الإنجليزي": [
+      {
+        "id": "b008_epl_01",
+        "question": "أي فريق أنهى موسم الدوري الإنجليزي الممتاز 2003–04 دون أي هزيمة؟",
+        "answer": "آرسنال",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "epl:invincibles"
+        ]
+      },
+      {
+        "id": "b008_epl_02",
+        "question": "من سجل أول هاتريك في تاريخ الدوري الإنجليزي الممتاز؟",
+        "answer": "إيريك كانتونا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "epl:first_hat_trick"
+        ]
+      },
+      {
+        "id": "b008_epl_03",
+        "question": "أي نادٍ فاز بأول نسخة من الدوري الإنجليزي الممتاز موسم 1992–93؟",
+        "answer": "مانشستر يونايتد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "epl:first_champion"
+        ]
+      },
+      {
+        "id": "b008_epl_04",
+        "question": "من كان مدرب بلاكبيرن روفرز عندما فاز بالدوري الإنجليزي الممتاز موسم 1994–95؟",
+        "answer": "كيني دالغليش",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "epl:blackburn_9495_manager"
+        ]
+      },
+      {
+        "id": "b008_epl_05",
+        "question": "أي لاعب فاز بالحذاء الذهبي للدوري الإنجليزي الممتاز موسم 1999–2000؟",
+        "answer": "كيفن فيليبس",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "epl:golden_boot_9900"
+        ]
+      },
+      {
+        "id": "b008_epl_06",
+        "question": "أي فريق حقق لقب الدوري الإنجليزي الممتاز موسم 2015–16 في واحدة من أشهر المفاجآت؟",
+        "answer": "ليستر سيتي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "epl:leicester_1516"
+        ]
+      },
+      {
+        "id": "b008_epl_07",
+        "question": "من سجل أول هدف في تاريخ الدوري الإنجليزي الممتاز في أغسطس 1992؟",
+        "answer": "برايان دين",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "epl:first_goal"
+        ]
+      },
+      {
+        "id": "b008_epl_08",
+        "question": "أي فريق كان أول من هبط من الدوري الإنجليزي الممتاز ثم عاد وفاز باللقب لاحقًا؟",
+        "answer": "مانشستر سيتي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "epl:relegated_then_champion"
+        ]
+      }
+    ],
+    "دوري الأبطال": [
+      {
+        "id": "b008_ucl_01",
+        "question": "من سجل هدف ريال مدريد الشهير من تسديدة طائرة في نهائي دوري أبطال أوروبا 2002 أمام باير ليفركوزن؟",
+        "answer": "زين الدين زيدان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "ucl:2002_zidane"
+        ]
+      },
+      {
+        "id": "b008_ucl_02",
+        "question": "أي فريق خسر نهائي دوري أبطال أوروبا 1999 بعد أن كان متقدمًا حتى الوقت بدل الضائع؟",
+        "answer": "بايرن ميونخ",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "ucl:1999_runnerup"
+        ]
+      },
+      {
+        "id": "b008_ucl_03",
+        "question": "من سجل هدف برشلونة الثاني في نهائي دوري أبطال أوروبا 2009 أمام مانشستر يونايتد بضربة رأس؟",
+        "answer": "ليونيل ميسي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "ucl:2009_messi_header"
+        ]
+      },
+      {
+        "id": "b008_ucl_04",
+        "question": "أي فريق أقصى برشلونة من نصف نهائي دوري الأبطال 2010 ثم توج بالبطولة؟",
+        "answer": "إنتر ميلان",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "ucl:2010_inter_barca"
+        ]
+      },
+      {
+        "id": "b008_ucl_05",
+        "question": "من سجل هدف بورتو الثاني في نهائي دوري أبطال أوروبا 2004 أمام موناكو؟",
+        "answer": "ديكو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "ucl:2004_deco"
+        ]
+      },
+      {
+        "id": "b008_ucl_06",
+        "question": "أي نادٍ خسر نهائيي دوري الأبطال 2000 و2001 على التوالي أمام ريال مدريد ثم بايرن ميونخ؟",
+        "answer": "فالنسيا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "ucl:valencia_two_finals"
+        ]
+      },
+      {
+        "id": "b008_ucl_07",
+        "question": "من سجل هدف التعادل لبوروسيا دورتموند في نهائي دوري الأبطال 1997 قبل أن يسجل لارس ريكن الهدف الثالث؟",
+        "answer": "كارل هاينتس ريدله",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "ucl:1997_riedle"
+        ]
+      },
+      {
+        "id": "b008_ucl_08",
+        "question": "من كان قائد بورتو داخل الملعب عند تتويجه بدوري أبطال أوروبا 2004؟",
+        "answer": "جورجي كوستا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "ucl:2004_porto_captain"
+        ]
+      }
+    ],
+    "كأس العالم": [
+      {
+        "id": "b008_wc_01",
+        "question": "من سجل هدف ألمانيا الوحيد في نهائي كأس العالم 2014 أمام الأرجنتين؟",
+        "answer": "ماريو غوتزه",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "wc:2014_gotze"
+        ]
+      },
+      {
+        "id": "b008_wc_02",
+        "question": "أي منتخب فاز بكأس العالم 1998 على أرضه؟",
+        "answer": "فرنسا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "wc:1998_champion"
+        ]
+      },
+      {
+        "id": "b008_wc_03",
+        "question": "من فاز بجائزة الحذاء الذهبي في كأس العالم 2002؟",
+        "answer": "رونالدو نازاريو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "wc:2002_golden_boot"
+        ]
+      },
+      {
+        "id": "b008_wc_04",
+        "question": "من سجل هدف هولندا الشهير بضربة رأس بعيدة أمام إسبانيا في كأس العالم 2014؟",
+        "answer": "روبن فان بيرسي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "wc:2014_vanpersie_header"
+        ]
+      },
+      {
+        "id": "b008_wc_05",
+        "question": "أي منتخب أقصى البرازيل من ربع نهائي كأس العالم 2006؟",
+        "answer": "فرنسا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "wc:2006_brazil_france"
+        ]
+      },
+      {
+        "id": "b008_wc_06",
+        "question": "من سجل هدف غانا في الوقت الإضافي أمام الولايات المتحدة في دور الـ16 بكأس العالم 2010؟",
+        "answer": "أسامواه جيان",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "wc:2010_ghana_usa"
+        ]
+      },
+      {
+        "id": "b008_wc_07",
+        "question": "من سجل أول هدف ذهبي في تاريخ كأس العالم في مباراة فرنسا وباراغواي عام 1998؟",
+        "answer": "لوران بلان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "wc:first_golden_goal"
+        ]
+      },
+      {
+        "id": "b008_wc_08",
+        "question": "أي منتخب كان أول بطل لكأس العالم يخرج من دور المجموعات في النسخة التالية وهو حامل اللقب؟",
+        "answer": "البرازيل في 1966",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "wc:first_holder_group_exit"
+        ]
+      }
+    ],
+    "تاريخ الصحابة": [
+      {
+        "id": "b008_sah_01",
+        "question": "من الصحابي الملقب بأمين هذه الأمة؟",
+        "answer": "أبو عبيدة عامر بن الجراح",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "sahaba:ameen"
+        ]
+      },
+      {
+        "id": "b008_sah_02",
+        "question": "من الصحابي الذي نام في فراش النبي ﷺ ليلة الهجرة؟",
+        "answer": "علي بن أبي طالب",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "sahaba:hijra_bed"
+        ]
+      },
+      {
+        "id": "b008_sah_03",
+        "question": "من الصحابي الذي اهتز لموته عرش الرحمن كما ورد في الحديث الصحيح؟",
+        "answer": "سعد بن معاذ",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "sahaba:sad_muadh"
+        ]
+      },
+      {
+        "id": "b008_sah_04",
+        "question": "من الصحابي الذي كُلّف بجمع القرآن في مصحف واحد في عهد أبي بكر الصديق؟",
+        "answer": "زيد بن ثابت",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "sahaba:zayd_collection"
+        ]
+      },
+      {
+        "id": "b008_sah_05",
+        "question": "من الصحابي الذي كان أول سفير للنبي ﷺ إلى المدينة قبل الهجرة؟",
+        "answer": "مصعب بن عمير",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "sahaba:first_ambassador"
+        ]
+      },
+      {
+        "id": "b008_sah_06",
+        "question": "من الصحابي الذي أشار بحفر الخندق في غزوة الأحزاب؟",
+        "answer": "سلمان الفارسي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "sahaba:trench"
+        ]
+      }
+    ],
+    "القرآن الكريم": [
+      {
+        "id": "b008_qur_01",
+        "question": "ما السورة التي لا تبدأ بالبسملة في المصحف؟",
+        "answer": "سورة التوبة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "quran:no_basmala"
+        ]
+      },
+      {
+        "id": "b008_qur_02",
+        "question": "ما أطول سورة في القرآن الكريم؟",
+        "answer": "سورة البقرة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "quran:longest_surah"
+        ]
+      },
+      {
+        "id": "b008_qur_03",
+        "question": "ما السورة التي وردت فيها البسملة مرتين؟",
+        "answer": "سورة النمل",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "quran:two_basmala"
+        ]
+      },
+      {
+        "id": "b008_qur_04",
+        "question": "ما السورة التي سميت باسم امرأة؟",
+        "answer": "سورة مريم",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "quran:woman_name"
+        ]
+      },
+      {
+        "id": "b008_qur_05",
+        "question": "ما السورة التي تُعرف أيضًا باسم بني إسرائيل؟",
+        "answer": "سورة الإسراء",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "quran:bani_israel"
+        ]
+      }
+    ],
+    "رؤساء دول": [
+      {
+        "id": "b008_pre_01",
+        "question": "من كان أول رئيس للولايات المتحدة؟",
+        "answer": "جورج واشنطن",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "pres:usa:first"
+        ]
+      },
+      {
+        "id": "b008_pre_02",
+        "question": "من كان أول رئيس لجنوب أفريقيا بعد نهاية نظام الفصل العنصري وانتخابات 1994؟",
+        "answer": "نيلسون مانديلا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "pres:sa:mandela_1994"
+        ]
+      },
+      {
+        "id": "b008_pre_03",
+        "question": "من كان رئيس مصر أثناء حرب أكتوبر 1973؟",
+        "answer": "أنور السادات",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "pres:egypt:1973"
+        ]
+      },
+      {
+        "id": "b008_pre_04",
+        "question": "من كان رئيس فرنسا عند فوزها بكأس العالم 1998؟",
+        "answer": "جاك شيراك",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "pres:france:1998"
+        ]
+      },
+      {
+        "id": "b008_pre_05",
+        "question": "من كان أول رئيس للجمهورية الخامسة في فرنسا؟",
+        "answer": "شارل ديغول",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "pres:france:fifth_first"
+        ]
+      }
+    ]
+  }
+}
