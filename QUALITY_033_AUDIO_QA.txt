@@ -1,0 +1,36 @@
+ALMAJLIS BUILD 033 — PRIME-TIME AUDIO EDITION
+JS syntax: PASS
+
+Original audio identity for Almajlis. No TV-show melody or copyrighted score is copied.
+
+Main cues:
+- Intro: 26.0s
+- Ambient: 34.0s
+- Question underscore: 34.0s
+- Tension: 14.0s
+- Tie-break: 20.0s
+- Victory: 17.0s
+
+Design:
+- orchestral-style strings
+- brass-like stabs
+- cinematic percussion / taiko
+- low bass pulses
+- ostinato
+- risers and impacts
+- recurring original Almajlis motif
+
+BUILD 032 category-stock lock is retained unchanged.
+No question-bank, scoring, timing, tie-break logic, or visual redesign changes were made.
+
+UPLOAD:
+Upload index.html plus ALL WAV files from this package to the repository root.
+
+Checks:
+- JS syntax: PASS
+- BUILD 033: PASS
+- stock lock retained: PASS
+- root audio paths: PASS
+- intro > 20s: PASS
+- question music > 30s: PASS
+- tie-break > 15s: PASS
