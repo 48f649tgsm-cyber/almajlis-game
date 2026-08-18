@@ -1,0 +1,23 @@
+ALMAJLIS QUALITY 016 — VISUAL EXPERIENCE + SHARED CLUB PORTRAITS
+
+Visual experience:
+- Premium question panel with subtle gold header accent.
+- Better category-board cards, point buttons, score cards and transitions.
+- Improved timer visual states for first team, second team and last five seconds.
+- More polished answer reveal area and responsive typography.
+- Button micro-interactions.
+- Existing 30s + 30s manual-answer flow retained.
+- Existing sound effects retained.
+
+Shared club:
+- Changed player portraits from object-fit: cover to object-fit: contain.
+- object-position is center top to prioritize head/face visibility.
+- Wikipedia original image is preferred over the smaller thumbnail when available.
+- Broken-image fallback retained.
+- Player images are not cropped to fill the card.
+
+LOCKS:
+- Category visuals untouched.
+- Question bank untouched.
+- Islamic semantic lock retained.
+- Minimum category stock rule retained.
