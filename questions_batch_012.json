@@ -1,0 +1,2122 @@
+{
+  "version": "QUALITY-012",
+  "new_questions": 100,
+  "focus": "أعلام دول — reactivation and deep stock",
+  "quality_policy": {
+    "flags": "image only; no textual description of flag",
+    "excluded_existing_flags": [
+      "كازاخستان",
+      "قيرغيزستان",
+      "موزمبيق",
+      "إسواتيني",
+      "كيريباتي",
+      "ساو تومي وبرينسيب"
+    ],
+    "duplicate_policy": "one country flag only once in the bank expansion",
+    "minimum_category_stock": 6
+  },
+  "categories": {
+    "أعلام دول": [
+      {
+        "id": "q012_flag_001",
+        "question": "ما هذه الدولة؟",
+        "answer": "قطر",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/qa.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "قطر"
+          ]
+        },
+        "semantic_keys": [
+          "flag:qa",
+          "country:قطر"
+        ]
+      },
+      {
+        "id": "q012_flag_002",
+        "question": "ما هذه الدولة؟",
+        "answer": "السعودية",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/sa.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "السعودية"
+          ]
+        },
+        "semantic_keys": [
+          "flag:sa",
+          "country:السعودية"
+        ]
+      },
+      {
+        "id": "q012_flag_003",
+        "question": "ما هذه الدولة؟",
+        "answer": "الإمارات العربية المتحدة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/ae.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "الإمارات العربية المتحدة"
+          ]
+        },
+        "semantic_keys": [
+          "flag:ae",
+          "country:الإمارات العربية المتحدة"
+        ]
+      },
+      {
+        "id": "q012_flag_004",
+        "question": "ما هذه الدولة؟",
+        "answer": "البحرين",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/bh.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "البحرين"
+          ]
+        },
+        "semantic_keys": [
+          "flag:bh",
+          "country:البحرين"
+        ]
+      },
+      {
+        "id": "q012_flag_005",
+        "question": "ما هذه الدولة؟",
+        "answer": "الكويت",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/kw.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "الكويت"
+          ]
+        },
+        "semantic_keys": [
+          "flag:kw",
+          "country:الكويت"
+        ]
+      },
+      {
+        "id": "q012_flag_006",
+        "question": "ما هذه الدولة؟",
+        "answer": "عُمان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/om.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "عُمان"
+          ]
+        },
+        "semantic_keys": [
+          "flag:om",
+          "country:عُمان"
+        ]
+      },
+      {
+        "id": "q012_flag_007",
+        "question": "ما هذه الدولة؟",
+        "answer": "الأردن",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/jo.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "الأردن"
+          ]
+        },
+        "semantic_keys": [
+          "flag:jo",
+          "country:الأردن"
+        ]
+      },
+      {
+        "id": "q012_flag_008",
+        "question": "ما هذه الدولة؟",
+        "answer": "لبنان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/lb.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "لبنان"
+          ]
+        },
+        "semantic_keys": [
+          "flag:lb",
+          "country:لبنان"
+        ]
+      },
+      {
+        "id": "q012_flag_009",
+        "question": "ما هذه الدولة؟",
+        "answer": "سوريا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/sy.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "سوريا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:sy",
+          "country:سوريا"
+        ]
+      },
+      {
+        "id": "q012_flag_010",
+        "question": "ما هذه الدولة؟",
+        "answer": "العراق",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/iq.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "العراق"
+          ]
+        },
+        "semantic_keys": [
+          "flag:iq",
+          "country:العراق"
+        ]
+      },
+      {
+        "id": "q012_flag_011",
+        "question": "ما هذه الدولة؟",
+        "answer": "مصر",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/eg.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "مصر"
+          ]
+        },
+        "semantic_keys": [
+          "flag:eg",
+          "country:مصر"
+        ]
+      },
+      {
+        "id": "q012_flag_012",
+        "question": "ما هذه الدولة؟",
+        "answer": "المغرب",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/ma.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "المغرب"
+          ]
+        },
+        "semantic_keys": [
+          "flag:ma",
+          "country:المغرب"
+        ]
+      },
+      {
+        "id": "q012_flag_013",
+        "question": "ما هذه الدولة؟",
+        "answer": "الجزائر",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/dz.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "الجزائر"
+          ]
+        },
+        "semantic_keys": [
+          "flag:dz",
+          "country:الجزائر"
+        ]
+      },
+      {
+        "id": "q012_flag_014",
+        "question": "ما هذه الدولة؟",
+        "answer": "تونس",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/tn.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "تونس"
+          ]
+        },
+        "semantic_keys": [
+          "flag:tn",
+          "country:تونس"
+        ]
+      },
+      {
+        "id": "q012_flag_015",
+        "question": "ما هذه الدولة؟",
+        "answer": "فلسطين",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/ps.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "فلسطين"
+          ]
+        },
+        "semantic_keys": [
+          "flag:ps",
+          "country:فلسطين"
+        ]
+      },
+      {
+        "id": "q012_flag_016",
+        "question": "ما هذه الدولة؟",
+        "answer": "تركيا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/tr.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "تركيا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:tr",
+          "country:تركيا"
+        ]
+      },
+      {
+        "id": "q012_flag_017",
+        "question": "ما هذه الدولة؟",
+        "answer": "الولايات المتحدة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/us.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "الولايات المتحدة"
+          ]
+        },
+        "semantic_keys": [
+          "flag:us",
+          "country:الولايات المتحدة"
+        ]
+      },
+      {
+        "id": "q012_flag_018",
+        "question": "ما هذه الدولة؟",
+        "answer": "كندا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/ca.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "كندا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:ca",
+          "country:كندا"
+        ]
+      },
+      {
+        "id": "q012_flag_019",
+        "question": "ما هذه الدولة؟",
+        "answer": "البرازيل",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/br.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "البرازيل"
+          ]
+        },
+        "semantic_keys": [
+          "flag:br",
+          "country:البرازيل"
+        ]
+      },
+      {
+        "id": "q012_flag_020",
+        "question": "ما هذه الدولة؟",
+        "answer": "الأرجنتين",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/ar.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "الأرجنتين"
+          ]
+        },
+        "semantic_keys": [
+          "flag:ar",
+          "country:الأرجنتين"
+        ]
+      },
+      {
+        "id": "q012_flag_021",
+        "question": "ما هذه الدولة؟",
+        "answer": "المكسيك",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/mx.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "المكسيك"
+          ]
+        },
+        "semantic_keys": [
+          "flag:mx",
+          "country:المكسيك"
+        ]
+      },
+      {
+        "id": "q012_flag_022",
+        "question": "ما هذه الدولة؟",
+        "answer": "المملكة المتحدة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/gb.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "المملكة المتحدة"
+          ]
+        },
+        "semantic_keys": [
+          "flag:gb",
+          "country:المملكة المتحدة"
+        ]
+      },
+      {
+        "id": "q012_flag_023",
+        "question": "ما هذه الدولة؟",
+        "answer": "فرنسا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/fr.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "فرنسا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:fr",
+          "country:فرنسا"
+        ]
+      },
+      {
+        "id": "q012_flag_024",
+        "question": "ما هذه الدولة؟",
+        "answer": "ألمانيا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/de.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "ألمانيا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:de",
+          "country:ألمانيا"
+        ]
+      },
+      {
+        "id": "q012_flag_025",
+        "question": "ما هذه الدولة؟",
+        "answer": "إيطاليا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/it.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "إيطاليا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:it",
+          "country:إيطاليا"
+        ]
+      },
+      {
+        "id": "q012_flag_026",
+        "question": "ما هذه الدولة؟",
+        "answer": "إسبانيا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/es.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "إسبانيا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:es",
+          "country:إسبانيا"
+        ]
+      },
+      {
+        "id": "q012_flag_027",
+        "question": "ما هذه الدولة؟",
+        "answer": "البرتغال",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/pt.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "البرتغال"
+          ]
+        },
+        "semantic_keys": [
+          "flag:pt",
+          "country:البرتغال"
+        ]
+      },
+      {
+        "id": "q012_flag_028",
+        "question": "ما هذه الدولة؟",
+        "answer": "هولندا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/nl.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "هولندا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:nl",
+          "country:هولندا"
+        ]
+      },
+      {
+        "id": "q012_flag_029",
+        "question": "ما هذه الدولة؟",
+        "answer": "بلجيكا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/be.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "بلجيكا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:be",
+          "country:بلجيكا"
+        ]
+      },
+      {
+        "id": "q012_flag_030",
+        "question": "ما هذه الدولة؟",
+        "answer": "سويسرا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/ch.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "سويسرا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:ch",
+          "country:سويسرا"
+        ]
+      },
+      {
+        "id": "q012_flag_031",
+        "question": "ما هذه الدولة؟",
+        "answer": "السويد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/se.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "السويد"
+          ]
+        },
+        "semantic_keys": [
+          "flag:se",
+          "country:السويد"
+        ]
+      },
+      {
+        "id": "q012_flag_032",
+        "question": "ما هذه الدولة؟",
+        "answer": "النرويج",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/no.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "النرويج"
+          ]
+        },
+        "semantic_keys": [
+          "flag:no",
+          "country:النرويج"
+        ]
+      },
+      {
+        "id": "q012_flag_033",
+        "question": "ما هذه الدولة؟",
+        "answer": "الدنمارك",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/dk.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "الدنمارك"
+          ]
+        },
+        "semantic_keys": [
+          "flag:dk",
+          "country:الدنمارك"
+        ]
+      },
+      {
+        "id": "q012_flag_034",
+        "question": "ما هذه الدولة؟",
+        "answer": "فنلندا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/fi.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "فنلندا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:fi",
+          "country:فنلندا"
+        ]
+      },
+      {
+        "id": "q012_flag_035",
+        "question": "ما هذه الدولة؟",
+        "answer": "اليونان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/gr.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "اليونان"
+          ]
+        },
+        "semantic_keys": [
+          "flag:gr",
+          "country:اليونان"
+        ]
+      },
+      {
+        "id": "q012_flag_036",
+        "question": "ما هذه الدولة؟",
+        "answer": "روسيا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/ru.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "روسيا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:ru",
+          "country:روسيا"
+        ]
+      },
+      {
+        "id": "q012_flag_037",
+        "question": "ما هذه الدولة؟",
+        "answer": "أوكرانيا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/ua.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "أوكرانيا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:ua",
+          "country:أوكرانيا"
+        ]
+      },
+      {
+        "id": "q012_flag_038",
+        "question": "ما هذه الدولة؟",
+        "answer": "الصين",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/cn.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "الصين"
+          ]
+        },
+        "semantic_keys": [
+          "flag:cn",
+          "country:الصين"
+        ]
+      },
+      {
+        "id": "q012_flag_039",
+        "question": "ما هذه الدولة؟",
+        "answer": "اليابان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/jp.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "اليابان"
+          ]
+        },
+        "semantic_keys": [
+          "flag:jp",
+          "country:اليابان"
+        ]
+      },
+      {
+        "id": "q012_flag_040",
+        "question": "ما هذه الدولة؟",
+        "answer": "كوريا الجنوبية",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/kr.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "كوريا الجنوبية"
+          ]
+        },
+        "semantic_keys": [
+          "flag:kr",
+          "country:كوريا الجنوبية"
+        ]
+      },
+      {
+        "id": "q012_flag_041",
+        "question": "ما هذه الدولة؟",
+        "answer": "أيرلندا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/ie.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "أيرلندا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:ie",
+          "country:أيرلندا"
+        ]
+      },
+      {
+        "id": "q012_flag_042",
+        "question": "ما هذه الدولة؟",
+        "answer": "النمسا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/at.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "النمسا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:at",
+          "country:النمسا"
+        ]
+      },
+      {
+        "id": "q012_flag_043",
+        "question": "ما هذه الدولة؟",
+        "answer": "بولندا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/pl.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "بولندا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:pl",
+          "country:بولندا"
+        ]
+      },
+      {
+        "id": "q012_flag_044",
+        "question": "ما هذه الدولة؟",
+        "answer": "التشيك",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/cz.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "التشيك"
+          ]
+        },
+        "semantic_keys": [
+          "flag:cz",
+          "country:التشيك"
+        ]
+      },
+      {
+        "id": "q012_flag_045",
+        "question": "ما هذه الدولة؟",
+        "answer": "رومانيا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/ro.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "رومانيا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:ro",
+          "country:رومانيا"
+        ]
+      },
+      {
+        "id": "q012_flag_046",
+        "question": "ما هذه الدولة؟",
+        "answer": "المجر",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/hu.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "المجر"
+          ]
+        },
+        "semantic_keys": [
+          "flag:hu",
+          "country:المجر"
+        ]
+      },
+      {
+        "id": "q012_flag_047",
+        "question": "ما هذه الدولة؟",
+        "answer": "كرواتيا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/hr.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "كرواتيا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:hr",
+          "country:كرواتيا"
+        ]
+      },
+      {
+        "id": "q012_flag_048",
+        "question": "ما هذه الدولة؟",
+        "answer": "صربيا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/rs.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "صربيا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:rs",
+          "country:صربيا"
+        ]
+      },
+      {
+        "id": "q012_flag_049",
+        "question": "ما هذه الدولة؟",
+        "answer": "البوسنة والهرسك",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/ba.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "البوسنة والهرسك"
+          ]
+        },
+        "semantic_keys": [
+          "flag:ba",
+          "country:البوسنة والهرسك"
+        ]
+      },
+      {
+        "id": "q012_flag_050",
+        "question": "ما هذه الدولة؟",
+        "answer": "ألبانيا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/al.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "ألبانيا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:al",
+          "country:ألبانيا"
+        ]
+      },
+      {
+        "id": "q012_flag_051",
+        "question": "ما هذه الدولة؟",
+        "answer": "مقدونيا الشمالية",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/mk.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "مقدونيا الشمالية"
+          ]
+        },
+        "semantic_keys": [
+          "flag:mk",
+          "country:مقدونيا الشمالية"
+        ]
+      },
+      {
+        "id": "q012_flag_052",
+        "question": "ما هذه الدولة؟",
+        "answer": "بلغاريا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/bg.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "بلغاريا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:bg",
+          "country:بلغاريا"
+        ]
+      },
+      {
+        "id": "q012_flag_053",
+        "question": "ما هذه الدولة؟",
+        "answer": "جورجيا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/ge.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "جورجيا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:ge",
+          "country:جورجيا"
+        ]
+      },
+      {
+        "id": "q012_flag_054",
+        "question": "ما هذه الدولة؟",
+        "answer": "أرمينيا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/am.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "أرمينيا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:am",
+          "country:أرمينيا"
+        ]
+      },
+      {
+        "id": "q012_flag_055",
+        "question": "ما هذه الدولة؟",
+        "answer": "أذربيجان",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/az.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "أذربيجان"
+          ]
+        },
+        "semantic_keys": [
+          "flag:az",
+          "country:أذربيجان"
+        ]
+      },
+      {
+        "id": "q012_flag_056",
+        "question": "ما هذه الدولة؟",
+        "answer": "إيران",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/ir.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "إيران"
+          ]
+        },
+        "semantic_keys": [
+          "flag:ir",
+          "country:إيران"
+        ]
+      },
+      {
+        "id": "q012_flag_057",
+        "question": "ما هذه الدولة؟",
+        "answer": "باكستان",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/pk.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "باكستان"
+          ]
+        },
+        "semantic_keys": [
+          "flag:pk",
+          "country:باكستان"
+        ]
+      },
+      {
+        "id": "q012_flag_058",
+        "question": "ما هذه الدولة؟",
+        "answer": "الهند",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/in.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "الهند"
+          ]
+        },
+        "semantic_keys": [
+          "flag:in",
+          "country:الهند"
+        ]
+      },
+      {
+        "id": "q012_flag_059",
+        "question": "ما هذه الدولة؟",
+        "answer": "بنغلاديش",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/bd.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "بنغلاديش"
+          ]
+        },
+        "semantic_keys": [
+          "flag:bd",
+          "country:بنغلاديش"
+        ]
+      },
+      {
+        "id": "q012_flag_060",
+        "question": "ما هذه الدولة؟",
+        "answer": "سريلانكا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/lk.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "سريلانكا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:lk",
+          "country:سريلانكا"
+        ]
+      },
+      {
+        "id": "q012_flag_061",
+        "question": "ما هذه الدولة؟",
+        "answer": "نيبال",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/np.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "نيبال"
+          ]
+        },
+        "semantic_keys": [
+          "flag:np",
+          "country:نيبال"
+        ]
+      },
+      {
+        "id": "q012_flag_062",
+        "question": "ما هذه الدولة؟",
+        "answer": "تايلاند",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/th.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "تايلاند"
+          ]
+        },
+        "semantic_keys": [
+          "flag:th",
+          "country:تايلاند"
+        ]
+      },
+      {
+        "id": "q012_flag_063",
+        "question": "ما هذه الدولة؟",
+        "answer": "فيتنام",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/vn.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "فيتنام"
+          ]
+        },
+        "semantic_keys": [
+          "flag:vn",
+          "country:فيتنام"
+        ]
+      },
+      {
+        "id": "q012_flag_064",
+        "question": "ما هذه الدولة؟",
+        "answer": "ماليزيا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/my.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "ماليزيا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:my",
+          "country:ماليزيا"
+        ]
+      },
+      {
+        "id": "q012_flag_065",
+        "question": "ما هذه الدولة؟",
+        "answer": "سنغافورة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/sg.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "سنغافورة"
+          ]
+        },
+        "semantic_keys": [
+          "flag:sg",
+          "country:سنغافورة"
+        ]
+      },
+      {
+        "id": "q012_flag_066",
+        "question": "ما هذه الدولة؟",
+        "answer": "إندونيسيا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/id.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "إندونيسيا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:id",
+          "country:إندونيسيا"
+        ]
+      },
+      {
+        "id": "q012_flag_067",
+        "question": "ما هذه الدولة؟",
+        "answer": "الفلبين",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/ph.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "الفلبين"
+          ]
+        },
+        "semantic_keys": [
+          "flag:ph",
+          "country:الفلبين"
+        ]
+      },
+      {
+        "id": "q012_flag_068",
+        "question": "ما هذه الدولة؟",
+        "answer": "أستراليا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/au.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "أستراليا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:au",
+          "country:أستراليا"
+        ]
+      },
+      {
+        "id": "q012_flag_069",
+        "question": "ما هذه الدولة؟",
+        "answer": "نيوزيلندا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/nz.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "نيوزيلندا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:nz",
+          "country:نيوزيلندا"
+        ]
+      },
+      {
+        "id": "q012_flag_070",
+        "question": "ما هذه الدولة؟",
+        "answer": "جنوب أفريقيا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/za.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "جنوب أفريقيا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:za",
+          "country:جنوب أفريقيا"
+        ]
+      },
+      {
+        "id": "q012_flag_071",
+        "question": "ما هذه الدولة؟",
+        "answer": "نيجيريا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/ng.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "نيجيريا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:ng",
+          "country:نيجيريا"
+        ]
+      },
+      {
+        "id": "q012_flag_072",
+        "question": "ما هذه الدولة؟",
+        "answer": "غانا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/gh.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "غانا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:gh",
+          "country:غانا"
+        ]
+      },
+      {
+        "id": "q012_flag_073",
+        "question": "ما هذه الدولة؟",
+        "answer": "السنغال",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/sn.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "السنغال"
+          ]
+        },
+        "semantic_keys": [
+          "flag:sn",
+          "country:السنغال"
+        ]
+      },
+      {
+        "id": "q012_flag_074",
+        "question": "ما هذه الدولة؟",
+        "answer": "الكاميرون",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/cm.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "الكاميرون"
+          ]
+        },
+        "semantic_keys": [
+          "flag:cm",
+          "country:الكاميرون"
+        ]
+      },
+      {
+        "id": "q012_flag_075",
+        "question": "ما هذه الدولة؟",
+        "answer": "ساحل العاج",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/ci.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "ساحل العاج"
+          ]
+        },
+        "semantic_keys": [
+          "flag:ci",
+          "country:ساحل العاج"
+        ]
+      },
+      {
+        "id": "q012_flag_076",
+        "question": "ما هذه الدولة؟",
+        "answer": "أوروغواي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/uy.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "أوروغواي"
+          ]
+        },
+        "semantic_keys": [
+          "flag:uy",
+          "country:أوروغواي"
+        ]
+      },
+      {
+        "id": "q012_flag_077",
+        "question": "ما هذه الدولة؟",
+        "answer": "باراغواي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/py.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "باراغواي"
+          ]
+        },
+        "semantic_keys": [
+          "flag:py",
+          "country:باراغواي"
+        ]
+      },
+      {
+        "id": "q012_flag_078",
+        "question": "ما هذه الدولة؟",
+        "answer": "بوليفيا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/bo.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "بوليفيا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:bo",
+          "country:بوليفيا"
+        ]
+      },
+      {
+        "id": "q012_flag_079",
+        "question": "ما هذه الدولة؟",
+        "answer": "الإكوادور",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/ec.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "الإكوادور"
+          ]
+        },
+        "semantic_keys": [
+          "flag:ec",
+          "country:الإكوادور"
+        ]
+      },
+      {
+        "id": "q012_flag_080",
+        "question": "ما هذه الدولة؟",
+        "answer": "بيرو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/pe.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "بيرو"
+          ]
+        },
+        "semantic_keys": [
+          "flag:pe",
+          "country:بيرو"
+        ]
+      },
+      {
+        "id": "q012_flag_081",
+        "question": "ما هذه الدولة؟",
+        "answer": "فنزويلا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/ve.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "فنزويلا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:ve",
+          "country:فنزويلا"
+        ]
+      },
+      {
+        "id": "q012_flag_082",
+        "question": "ما هذه الدولة؟",
+        "answer": "كولومبيا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/co.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "كولومبيا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:co",
+          "country:كولومبيا"
+        ]
+      },
+      {
+        "id": "q012_flag_083",
+        "question": "ما هذه الدولة؟",
+        "answer": "كوستاريكا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/cr.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "كوستاريكا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:cr",
+          "country:كوستاريكا"
+        ]
+      },
+      {
+        "id": "q012_flag_084",
+        "question": "ما هذه الدولة؟",
+        "answer": "بنما",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/pa.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "بنما"
+          ]
+        },
+        "semantic_keys": [
+          "flag:pa",
+          "country:بنما"
+        ]
+      },
+      {
+        "id": "q012_flag_085",
+        "question": "ما هذه الدولة؟",
+        "answer": "غواتيمالا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/gt.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "غواتيمالا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:gt",
+          "country:غواتيمالا"
+        ]
+      },
+      {
+        "id": "q012_flag_086",
+        "question": "ما هذه الدولة؟",
+        "answer": "هندوراس",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/hn.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "هندوراس"
+          ]
+        },
+        "semantic_keys": [
+          "flag:hn",
+          "country:هندوراس"
+        ]
+      },
+      {
+        "id": "q012_flag_087",
+        "question": "ما هذه الدولة؟",
+        "answer": "السلفادور",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/sv.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "السلفادور"
+          ]
+        },
+        "semantic_keys": [
+          "flag:sv",
+          "country:السلفادور"
+        ]
+      },
+      {
+        "id": "q012_flag_088",
+        "question": "ما هذه الدولة؟",
+        "answer": "نيكاراغوا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/ni.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "نيكاراغوا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:ni",
+          "country:نيكاراغوا"
+        ]
+      },
+      {
+        "id": "q012_flag_089",
+        "question": "ما هذه الدولة؟",
+        "answer": "جامايكا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/jm.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "جامايكا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:jm",
+          "country:جامايكا"
+        ]
+      },
+      {
+        "id": "q012_flag_090",
+        "question": "ما هذه الدولة؟",
+        "answer": "ترينيداد وتوباغو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/tt.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "ترينيداد وتوباغو"
+          ]
+        },
+        "semantic_keys": [
+          "flag:tt",
+          "country:ترينيداد وتوباغو"
+        ]
+      },
+      {
+        "id": "q012_flag_091",
+        "question": "ما هذه الدولة؟",
+        "answer": "آيسلندا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/is.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "آيسلندا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:is",
+          "country:آيسلندا"
+        ]
+      },
+      {
+        "id": "q012_flag_092",
+        "question": "ما هذه الدولة؟",
+        "answer": "إستونيا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/ee.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "إستونيا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:ee",
+          "country:إستونيا"
+        ]
+      },
+      {
+        "id": "q012_flag_093",
+        "question": "ما هذه الدولة؟",
+        "answer": "لاتفيا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/lv.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "لاتفيا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:lv",
+          "country:لاتفيا"
+        ]
+      },
+      {
+        "id": "q012_flag_094",
+        "question": "ما هذه الدولة؟",
+        "answer": "ليتوانيا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/lt.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "ليتوانيا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:lt",
+          "country:ليتوانيا"
+        ]
+      },
+      {
+        "id": "q012_flag_095",
+        "question": "ما هذه الدولة؟",
+        "answer": "سلوفينيا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/si.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "سلوفينيا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:si",
+          "country:سلوفينيا"
+        ]
+      },
+      {
+        "id": "q012_flag_096",
+        "question": "ما هذه الدولة؟",
+        "answer": "سلوفاكيا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/sk.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "سلوفاكيا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:sk",
+          "country:سلوفاكيا"
+        ]
+      },
+      {
+        "id": "q012_flag_097",
+        "question": "ما هذه الدولة؟",
+        "answer": "الجبل الأسود",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/me.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "الجبل الأسود"
+          ]
+        },
+        "semantic_keys": [
+          "flag:me",
+          "country:الجبل الأسود"
+        ]
+      },
+      {
+        "id": "q012_flag_098",
+        "question": "ما هذه الدولة؟",
+        "answer": "مولدوفا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/md.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "مولدوفا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:md",
+          "country:مولدوفا"
+        ]
+      },
+      {
+        "id": "q012_flag_099",
+        "question": "ما هذه الدولة؟",
+        "answer": "قبرص",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/cy.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "قبرص"
+          ]
+        },
+        "semantic_keys": [
+          "flag:cy",
+          "country:قبرص"
+        ]
+      },
+      {
+        "id": "q012_flag_100",
+        "question": "ما هذه الدولة؟",
+        "answer": "مالطا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/mt.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "مالطا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:mt",
+          "country:مالطا"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+ALMAJLIS QUALITY BATCH 012 QA
+New questions: 100
+Category: أعلام دول
+Distribution: {100: 40, 300: 35, 500: 25}
+Existing master flags excluded: 6/6
+Unique country codes in Batch 012: 100
+Question format: image-only flag + "ما هذه الدولة؟"
+Flag source pattern: flagcdn.com/w640/<ISO>.png
+Category images: untouched
+Minimum stock / exhaustion rules: retained
+Expected bank total after successful load: 722
+Structural QA: PASS
+
+Remaining sovereign-state flags will be completed in the next flag expansion batch.
