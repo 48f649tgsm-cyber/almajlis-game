@@ -1,0 +1,1598 @@
+{
+  "version": "18.1-part01",
+  "new_questions": 144,
+  "categories": {
+    "مانشستر يونايتد": [
+      {
+        "id": "b018p1_c01_001",
+        "question": "في أي ملعب يخوض مانشستر يونايتد مبارياته على أرضه؟",
+        "answer": "أولد ترافورد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c01:001"
+        ]
+      },
+      {
+        "id": "b018p1_c01_002",
+        "question": "ما اللقب الشهير لمانشستر يونايتد؟",
+        "answer": "الشياطين الحمر",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c01:002"
+        ]
+      },
+      {
+        "id": "b018p1_c01_003",
+        "question": "من المدرب الذي قاد مانشستر يونايتد لتحقيق الثلاثية عام 1999؟",
+        "answer": "السير أليكس فيرغسون",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c01:003"
+        ]
+      },
+      {
+        "id": "b018p1_c01_004",
+        "question": "من سجل هدف الفوز في نهائي دوري أبطال أوروبا 1999؟",
+        "answer": "أولي غونار سولشاير",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c01:004"
+        ]
+      },
+      {
+        "id": "b018p1_c01_005",
+        "question": "أي فريق واجه مانشستر يونايتد في نهائي دوري أبطال أوروبا 2008؟",
+        "answer": "تشيلسي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c01:005"
+        ]
+      },
+      {
+        "id": "b018p1_c01_006",
+        "question": "من كان قائد مانشستر يونايتد في نهائي دوري أبطال أوروبا 2008؟",
+        "answer": "ريو فرديناند",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c01:006"
+        ]
+      },
+      {
+        "id": "b018p1_c01_007",
+        "question": "من سجل هدف مانشستر يونايتد في نهائي دوري أبطال أوروبا 2008؟",
+        "answer": "كريستيانو رونالدو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c01:007"
+        ]
+      },
+      {
+        "id": "b018p1_c01_008",
+        "question": "من الحارس الذي تصدى لركلة نيكولا أنيلكا الحاسمة في نهائي دوري الأبطال 2008؟",
+        "answer": "إدوين فان دير سار",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c01:008"
+        ]
+      },
+      {
+        "id": "b018p1_c01_009",
+        "question": "من سجل هدف مانشستر يونايتد الشهير من منتصف الملعب تقريبًا أمام ويمبلدون عام 1996؟",
+        "answer": "ديفيد بيكهام",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c01:009"
+        ]
+      },
+      {
+        "id": "b018p1_c01_010",
+        "question": "من صاحب الرقم 7 الذي انتقل من مانشستر يونايتد إلى ريال مدريد عام 2009؟",
+        "answer": "كريستيانو رونالدو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c01:010"
+        ]
+      },
+      {
+        "id": "b018p1_c01_011",
+        "question": "أي نادٍ هزمه مانشستر يونايتد في نهائي كأس الكؤوس الأوروبية 1991؟",
+        "answer": "برشلونة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c01:011"
+        ]
+      },
+      {
+        "id": "b018p1_c01_012",
+        "question": "من سجل هدفي مانشستر يونايتد في نهائي كأس الكؤوس الأوروبية 1991؟",
+        "answer": "مارك هيوز",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c01:012"
+        ]
+      },
+      {
+        "id": "b018p1_c01_013",
+        "question": "من سجل هدف التعادل المتأخر لمانشستر يونايتد أمام بايرن ميونخ في نهائي 1999؟",
+        "answer": "تيدي شيرينغهام",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c01:013"
+        ]
+      },
+      {
+        "id": "b018p1_c01_014",
+        "question": "أي لاعب فرنسي اشتهر بالقميص رقم 7 ورفع ياقة قميصه مع يونايتد؟",
+        "answer": "إريك كانتونا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c01:014"
+        ]
+      },
+      {
+        "id": "b018p1_c01_015",
+        "question": "من صاحب هدف المقصية الشهير في ديربي مانشستر عام 2011؟",
+        "answer": "واين روني",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c01:015"
+        ]
+      },
+      {
+        "id": "b018p1_c01_016",
+        "question": "من كان قائد الفريق في نهائي دوري أبطال أوروبا 1999؟",
+        "answer": "بيتر شمايكل",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c01:016"
+        ]
+      },
+      {
+        "id": "b018p1_c01_017",
+        "question": "من سجل هدف الفوز في نهائي كأس الاتحاد الإنجليزي 2016 أمام كريستال بالاس؟",
+        "answer": "جيسي لينغارد",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c01:017"
+        ]
+      },
+      {
+        "id": "b018p1_c01_018",
+        "question": "من سجل هاتريك مانشستر يونايتد أمام ريال مدريد في أولد ترافورد عام 2003؟",
+        "answer": "رونالدو نازاريو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c01:018"
+        ]
+      },
+      {
+        "id": "b018p1_c01_019",
+        "question": "من اللاعب الذي سجل هدفًا من ركلة حرة في مرماه لصالح مانشستر يونايتد في نهائي 1999؟",
+        "answer": "لا أحد؛ هدفي يونايتد سجلهما شيرينغهام وسولشاير",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c01:019"
+        ]
+      },
+      {
+        "id": "b018p1_c01_020",
+        "question": "أي لاعب انضم إلى يونايتد من إيفرتون عام 2004 وأصبح الهداف التاريخي للنادي؟",
+        "answer": "واين روني",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c01:020"
+        ]
+      },
+      {
+        "id": "b018p1_c01_021",
+        "question": "من سجل أول هدف لمانشستر يونايتد في نهائي الدوري الأوروبي 2017؟",
+        "answer": "بول بوغبا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c01:021"
+        ]
+      },
+      {
+        "id": "b018p1_c01_022",
+        "question": "من سجل الهدف الثاني ليونايتد في نهائي الدوري الأوروبي 2017؟",
+        "answer": "هنريخ مخيتاريان",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c01:022"
+        ]
+      },
+      {
+        "id": "b018p1_c01_023",
+        "question": "أي فريق هزمه يونايتد في نهائي الدوري الأوروبي 2017؟",
+        "answer": "أياكس",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c01:023"
+        ]
+      },
+      {
+        "id": "b018p1_c01_024",
+        "question": "من المدرب الذي قاد يونايتد للفوز بالدوري الأوروبي 2017؟",
+        "answer": "جوزيه مورينيو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c01:024"
+        ]
+      },
+      {
+        "id": "b018p1_c01_025",
+        "question": "أي لاعب سجل ركلة الجزاء الحاسمة ليونايتد في نهائي كأس الاتحاد الإنجليزي 2024؟",
+        "answer": "لم تُحسم المباراة بركلات الترجيح",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c01:025"
+        ]
+      },
+      {
+        "id": "b018p1_c01_026",
+        "question": "من سجل هدفي مانشستر يونايتد في نهائي كأس الاتحاد الإنجليزي 2024 أمام مانشستر سيتي؟",
+        "answer": "أليخاندرو غارناتشو وكوبي ماينو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c01:026"
+        ]
+      },
+      {
+        "id": "b018p1_c01_027",
+        "question": "من سجل هدف الفوز ليونايتد في نهائي دوري الأبطال 1968 خلال الوقت الإضافي قبل الهدف الرابع؟",
+        "answer": "براين كيد",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c01:027"
+        ]
+      },
+      {
+        "id": "b018p1_c01_028",
+        "question": "من سجل هدفين لمانشستر يونايتد في نهائي كأس أوروبا 1968؟",
+        "answer": "بوبي تشارلتون",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c01:028"
+        ]
+      },
+      {
+        "id": "b018p1_c01_029",
+        "question": "من سجل الهدف الثالث ليونايتد في نهائي كأس أوروبا 1968؟",
+        "answer": "جورج بست",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c01:029"
+        ]
+      },
+      {
+        "id": "b018p1_c01_030",
+        "question": "أي فريق واجه يونايتد في نهائي كأس أوروبا 1968؟",
+        "answer": "بنفيكا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c01:030"
+        ]
+      },
+      {
+        "id": "b018p1_c01_031",
+        "question": "من المدرب الذي قاد يونايتد لأول لقب أوروبي كبير عام 1968؟",
+        "answer": "مات باسبي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c01:031"
+        ]
+      },
+      {
+        "id": "b018p1_c01_032",
+        "question": "أي لاعب فاز بالكرة الذهبية عام 1964 أثناء لعبه لمانشستر يونايتد؟",
+        "answer": "دينيس لو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c01:032"
+        ]
+      },
+      {
+        "id": "b018p1_c01_033",
+        "question": "أي لاعب من يونايتد فاز بالكرة الذهبية عام 1966؟",
+        "answer": "بوبي تشارلتون",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c01:033"
+        ]
+      },
+      {
+        "id": "b018p1_c01_034",
+        "question": "من سجل هدف الفوز الشهير في الوقت بدل الضائع أمام ليفربول بكأس الاتحاد الإنجليزي 1999؟",
+        "answer": "أولي غونار سولشاير",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c01:034"
+        ]
+      },
+      {
+        "id": "b018p1_c01_035",
+        "question": "أي لاعب أكمل ثلاثية شهيرة أمام أرسنال في هايبري بدوري الأبطال 2009 بهدفين؟",
+        "answer": "كريستيانو رونالدو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c01:035"
+        ]
+      },
+      {
+        "id": "b018p1_c01_036",
+        "question": "من سجل هدف مانشستر يونايتد الوحيد في نهائي دوري أبطال أوروبا 2011؟",
+        "answer": "واين روني",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c01:036"
+        ]
+      }
+    ],
+    "ريال مدريد": [
+      {
+        "id": "b018p1_c02_001",
+        "question": "ما اسم ملعب ريال مدريد؟",
+        "answer": "سانتياغو برنابيو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c02:001"
+        ]
+      },
+      {
+        "id": "b018p1_c02_002",
+        "question": "ما اللقب الشائع لريال مدريد؟",
+        "answer": "الميرينغي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c02:002"
+        ]
+      },
+      {
+        "id": "b018p1_c02_003",
+        "question": "من سجل هدف ريال مدريد في نهائي دوري أبطال أوروبا 1998؟",
+        "answer": "بريدراج مياتوفيتش",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c02:003"
+        ]
+      },
+      {
+        "id": "b018p1_c02_004",
+        "question": "أي فريق هزمه ريال مدريد في نهائي دوري الأبطال 2002؟",
+        "answer": "باير ليفركوزن",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c02:004"
+        ]
+      },
+      {
+        "id": "b018p1_c02_005",
+        "question": "من سجل هدف الطائرة الشهير في نهائي 2002؟",
+        "answer": "زين الدين زيدان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c02:005"
+        ]
+      },
+      {
+        "id": "b018p1_c02_006",
+        "question": "من سجل هدف التعادل في الدقيقة 93 بنهائي دوري الأبطال 2014؟",
+        "answer": "سيرخيو راموس",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c02:006"
+        ]
+      },
+      {
+        "id": "b018p1_c02_007",
+        "question": "من كان مدرب ريال مدريد عند تحقيق العاشرة عام 2014؟",
+        "answer": "كارلو أنشيلوتي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c02:007"
+        ]
+      },
+      {
+        "id": "b018p1_c02_008",
+        "question": "من سجل هدف ريال مدريد في نهائي دوري الأبطال 2022؟",
+        "answer": "فينيسيوس جونيور",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c02:008"
+        ]
+      },
+      {
+        "id": "b018p1_c02_009",
+        "question": "أي فريق واجهه ريال مدريد في نهائي دوري الأبطال 2024؟",
+        "answer": "بوروسيا دورتموند",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c02:009"
+        ]
+      },
+      {
+        "id": "b018p1_c02_010",
+        "question": "من سجل الهدف الأول لريال مدريد في نهائي دوري الأبطال 2024؟",
+        "answer": "داني كارفاخال",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c02:010"
+        ]
+      },
+      {
+        "id": "b018p1_c02_011",
+        "question": "من سجل الهدف الثاني في نهائي 2024؟",
+        "answer": "فينيسيوس جونيور",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c02:011"
+        ]
+      },
+      {
+        "id": "b018p1_c02_012",
+        "question": "من الحارس الذي تألق أمام ليفربول في نهائي 2022؟",
+        "answer": "تيبو كورتوا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c02:012"
+        ]
+      },
+      {
+        "id": "b018p1_c02_013",
+        "question": "من سجل هدف الفوز لريال مدريد في نهائي كأس الملك 2014 بعد انطلاقة شهيرة؟",
+        "answer": "غاريث بيل",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c02:013"
+        ]
+      },
+      {
+        "id": "b018p1_c02_014",
+        "question": "من سجل هاتريك ريال مدريد أمام فولفسبورغ في إياب ربع نهائي دوري الأبطال 2016؟",
+        "answer": "كريستيانو رونالدو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c02:014"
+        ]
+      },
+      {
+        "id": "b018p1_c02_015",
+        "question": "من سجل المقصية الشهيرة أمام يوفنتوس في تورينو عام 2018؟",
+        "answer": "كريستيانو رونالدو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c02:015"
+        ]
+      },
+      {
+        "id": "b018p1_c02_016",
+        "question": "أي لاعب سجل هدفين لريال مدريد في نهائي دوري الأبطال 2017؟",
+        "answer": "كريستيانو رونالدو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c02:016"
+        ]
+      },
+      {
+        "id": "b018p1_c02_017",
+        "question": "من سجل الهدف الرابع لريال مدريد في نهائي دوري الأبطال 2017؟",
+        "answer": "ماركو أسينسيو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c02:017"
+        ]
+      },
+      {
+        "id": "b018p1_c02_018",
+        "question": "من كان قائد ريال مدريد عند رفع دوري الأبطال 2016؟",
+        "answer": "سيرخيو راموس",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c02:018"
+        ]
+      },
+      {
+        "id": "b018p1_c02_019",
+        "question": "من سجل هدف ريال مدريد في نهائي دوري الأبطال 2016؟",
+        "answer": "سيرخيو راموس",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c02:019"
+        ]
+      },
+      {
+        "id": "b018p1_c02_020",
+        "question": "من سجل ركلة الترجيح الحاسمة لريال مدريد في نهائي 2016؟",
+        "answer": "كريستيانو رونالدو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c02:020"
+        ]
+      },
+      {
+        "id": "b018p1_c02_021",
+        "question": "أي فريق هزمه ريال مدريد في نهائي دوري الأبطال 2000؟",
+        "answer": "فالنسيا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c02:021"
+        ]
+      },
+      {
+        "id": "b018p1_c02_022",
+        "question": "من سجل الهدف الأول لريال مدريد في نهائي دوري الأبطال 2000؟",
+        "answer": "فرناندو موريينتس",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c02:022"
+        ]
+      },
+      {
+        "id": "b018p1_c02_023",
+        "question": "من سجل الهدف الثاني لريال مدريد في نهائي 2000؟",
+        "answer": "ستيف ماكمانامان",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c02:023"
+        ]
+      },
+      {
+        "id": "b018p1_c02_024",
+        "question": "من سجل الهدف الثالث في نهائي 2000؟",
+        "answer": "راؤول",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c02:024"
+        ]
+      },
+      {
+        "id": "b018p1_c02_025",
+        "question": "من المدرب الذي قاد ريال مدريد إلى لقبي دوري الأبطال 2016 و2017 و2018؟",
+        "answer": "زين الدين زيدان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c02:025"
+        ]
+      },
+      {
+        "id": "b018p1_c02_026",
+        "question": "من سجل هدف ريال مدريد الوحيد في نهائي كأس أوروبا 1981 الذي خسره أمام ليفربول؟",
+        "answer": "لم يسجل ريال مدريد؛ خسر 1-0",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c02:026"
+        ]
+      },
+      {
+        "id": "b018p1_c02_027",
+        "question": "من سجل هدف ريال مدريد الأول في نهائي كأس أوروبا 1960 الشهير 7-3؟",
+        "answer": "ألفريدو دي ستيفانو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c02:027"
+        ]
+      },
+      {
+        "id": "b018p1_c02_028",
+        "question": "كم هدفًا سجل فيرينتس بوشكاش في نهائي كأس أوروبا 1960؟",
+        "answer": "أربعة أهداف",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c02:028"
+        ]
+      },
+      {
+        "id": "b018p1_c02_029",
+        "question": "كم هدفًا سجل دي ستيفانو في نهائي كأس أوروبا 1960؟",
+        "answer": "ثلاثة أهداف",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c02:029"
+        ]
+      },
+      {
+        "id": "b018p1_c02_030",
+        "question": "من سجل هدف ريال مدريد الوحيد في نهائي كأس أوروبا 1966؟",
+        "answer": "فرناندو سيرينا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c02:030"
+        ]
+      },
+      {
+        "id": "b018p1_c02_031",
+        "question": "أي فريق هزمه ريال مدريد في نهائي كأس أوروبا 1966؟",
+        "answer": "بارتيزان بلغراد",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c02:031"
+        ]
+      },
+      {
+        "id": "b018p1_c02_032",
+        "question": "من سجل هدف الفوز لريال مدريد في نهائي كأس أوروبا 1958 بعد التعادل 2-2؟",
+        "answer": "فرانسيسكو خينتو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c02:032"
+        ]
+      },
+      {
+        "id": "b018p1_c02_033",
+        "question": "أي لاعب ارتبط بالرقم 7 وأصبح الهداف التاريخي للنادي قبل أن يتجاوزه رونالدو؟",
+        "answer": "راؤول",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c02:033"
+        ]
+      },
+      {
+        "id": "b018p1_c02_034",
+        "question": "من كان حارس ريال مدريد الأساسي في نهائي دوري الأبطال 2014؟",
+        "answer": "إيكر كاسياس",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c02:034"
+        ]
+      },
+      {
+        "id": "b018p1_c02_035",
+        "question": "أي لاعب سجل هدفين لريال مدريد في الوقت الإضافي من نهائي 2014؟",
+        "answer": "غاريث بيل ومارسيلو سجلا هدفين مختلفين؛ لم يسجل لاعب واحد هدفين",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c02:035"
+        ]
+      },
+      {
+        "id": "b018p1_c02_036",
+        "question": "من سجل ركلة الجزاء التي أكملت رباعية ريال مدريد في نهائي 2014؟",
+        "answer": "كريستيانو رونالدو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c02:036"
+        ]
+      }
+    ],
+    "قصص الأنبياء": [
+      {
+        "id": "b018p1_c03_001",
+        "question": "من النبي الذي ابتلعه الحوت؟",
+        "answer": "يونس عليه السلام",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c03:001"
+        ]
+      },
+      {
+        "id": "b018p1_c03_002",
+        "question": "من النبي الذي صنع السفينة؟",
+        "answer": "نوح عليه السلام",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c03:002"
+        ]
+      },
+      {
+        "id": "b018p1_c03_003",
+        "question": "من النبي الذي أُلقي في النار فكانت عليه بردًا وسلامًا؟",
+        "answer": "إبراهيم عليه السلام",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c03:003"
+        ]
+      },
+      {
+        "id": "b018p1_c03_004",
+        "question": "من النبي الذي أُلقي في الجب وهو صغير؟",
+        "answer": "يوسف عليه السلام",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c03:004"
+        ]
+      },
+      {
+        "id": "b018p1_c03_005",
+        "question": "من النبي الذي شق الله له البحر؟",
+        "answer": "موسى عليه السلام",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c03:005"
+        ]
+      },
+      {
+        "id": "b018p1_c03_006",
+        "question": "من النبي الذي سخر الله له الريح؟",
+        "answer": "سليمان عليه السلام",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c03:006"
+        ]
+      },
+      {
+        "id": "b018p1_c03_007",
+        "question": "من النبي الذي آتاه الله الزبور؟",
+        "answer": "داود عليه السلام",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c03:007"
+        ]
+      },
+      {
+        "id": "b018p1_c03_008",
+        "question": "من النبي الذي أرسله الله إلى عاد؟",
+        "answer": "هود عليه السلام",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c03:008"
+        ]
+      },
+      {
+        "id": "b018p1_c03_009",
+        "question": "من النبي الذي أرسله الله إلى ثمود؟",
+        "answer": "صالح عليه السلام",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c03:009"
+        ]
+      },
+      {
+        "id": "b018p1_c03_010",
+        "question": "من النبي الذي اشتهر بالصبر على البلاء؟",
+        "answer": "أيوب عليه السلام",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c03:010"
+        ]
+      },
+      {
+        "id": "b018p1_c03_011",
+        "question": "من النبي الذي رفع القواعد من البيت مع ابنه إسماعيل؟",
+        "answer": "إبراهيم عليه السلام",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c03:011"
+        ]
+      },
+      {
+        "id": "b018p1_c03_012",
+        "question": "من النبي الذي دعا ربه أن يهب له ولدًا رغم كبر سنه؟",
+        "answer": "زكريا عليه السلام",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c03:012"
+        ]
+      },
+      {
+        "id": "b018p1_c03_013",
+        "question": "ما اسم ابن إبراهيم الذي شاركه رفع قواعد الكعبة؟",
+        "answer": "إسماعيل عليه السلام",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c03:013"
+        ]
+      },
+      {
+        "id": "b018p1_c03_014",
+        "question": "من النبي الذي قال: رب السجن أحب إلي مما يدعونني إليه؟",
+        "answer": "يوسف عليه السلام",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c03:014"
+        ]
+      },
+      {
+        "id": "b018p1_c03_015",
+        "question": "من النبي الذي ألان الله له الحديد؟",
+        "answer": "داود عليه السلام",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c03:015"
+        ]
+      },
+      {
+        "id": "b018p1_c03_016",
+        "question": "من النبي الذي فهم منطق الطير كما ورد في القرآن؟",
+        "answer": "سليمان عليه السلام",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c03:016"
+        ]
+      },
+      {
+        "id": "b018p1_c03_017",
+        "question": "من النبي الذي أُرسل إلى أهل مدين؟",
+        "answer": "شعيب عليه السلام",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c03:017"
+        ]
+      },
+      {
+        "id": "b018p1_c03_018",
+        "question": "من النبي الذي كانت ناقته آية لقومه؟",
+        "answer": "صالح عليه السلام",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c03:018"
+        ]
+      },
+      {
+        "id": "b018p1_c03_019",
+        "question": "من النبي الذي دعا: رب إني مسني الضر وأنت أرحم الراحمين؟",
+        "answer": "أيوب عليه السلام",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c03:019"
+        ]
+      },
+      {
+        "id": "b018p1_c03_020",
+        "question": "من النبي الذي قال لأبيه: يا أبت لم تعبد ما لا يسمع ولا يبصر؟",
+        "answer": "إبراهيم عليه السلام",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c03:020"
+        ]
+      },
+      {
+        "id": "b018p1_c03_021",
+        "question": "من النبي الذي ألقى عصاه فتحولت إلى حية تسعى؟",
+        "answer": "موسى عليه السلام",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c03:021"
+        ]
+      },
+      {
+        "id": "b018p1_c03_022",
+        "question": "من النبي الذي راودته امرأة العزيز عن نفسه؟",
+        "answer": "يوسف عليه السلام",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c03:022"
+        ]
+      },
+      {
+        "id": "b018p1_c03_023",
+        "question": "من النبي الذي دعا قومه ألف سنة إلا خمسين عامًا؟",
+        "answer": "نوح عليه السلام",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c03:023"
+        ]
+      },
+      {
+        "id": "b018p1_c03_024",
+        "question": "من النبي الذي بشرته الملائكة بإسحاق ومن وراء إسحاق يعقوب؟",
+        "answer": "إبراهيم عليه السلام",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c03:024"
+        ]
+      },
+      {
+        "id": "b018p1_c03_025",
+        "question": "من النبي الذي طلب من ربه أن يريه كيف يحيي الموتى؟",
+        "answer": "إبراهيم عليه السلام",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c03:025"
+        ]
+      },
+      {
+        "id": "b018p1_c03_026",
+        "question": "من النبي الذي ورث داود كما نص القرآن؟",
+        "answer": "سليمان عليه السلام",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c03:026"
+        ]
+      },
+      {
+        "id": "b018p1_c03_027",
+        "question": "من النبي الذي قال: إني أحببت حب الخير عن ذكر ربي؟",
+        "answer": "سليمان عليه السلام",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c03:027"
+        ]
+      },
+      {
+        "id": "b018p1_c03_028",
+        "question": "من النبي الذي ناداه الله من شاطئ الوادي الأيمن في البقعة المباركة؟",
+        "answer": "موسى عليه السلام",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c03:028"
+        ]
+      },
+      {
+        "id": "b018p1_c03_029",
+        "question": "من النبي الذي أرسله الله إلى فرعون ومعه أخوه هارون؟",
+        "answer": "موسى عليه السلام",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c03:029"
+        ]
+      },
+      {
+        "id": "b018p1_c03_030",
+        "question": "من النبي الذي قال: لا تثريب عليكم اليوم؟",
+        "answer": "يوسف عليه السلام",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c03:030"
+        ]
+      },
+      {
+        "id": "b018p1_c03_031",
+        "question": "من النبي الذي دعا: رب هب لي ملكًا لا ينبغي لأحد من بعدي؟",
+        "answer": "سليمان عليه السلام",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c03:031"
+        ]
+      },
+      {
+        "id": "b018p1_c03_032",
+        "question": "من النبي الذي قال لقومه: هذه ناقة الله لكم آية؟",
+        "answer": "صالح عليه السلام",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c03:032"
+        ]
+      },
+      {
+        "id": "b018p1_c03_033",
+        "question": "من النبي الذي دعا: أني مغلوب فانتصر؟",
+        "answer": "نوح عليه السلام",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c03:033"
+        ]
+      },
+      {
+        "id": "b018p1_c03_034",
+        "question": "من النبي الذي قال: إني ذاهب إلى ربي سيهدين؟",
+        "answer": "إبراهيم عليه السلام",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c03:034"
+        ]
+      },
+      {
+        "id": "b018p1_c03_035",
+        "question": "من النبي الذي قال: رب اشرح لي صدري ويسر لي أمري؟",
+        "answer": "موسى عليه السلام",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c03:035"
+        ]
+      },
+      {
+        "id": "b018p1_c03_036",
+        "question": "من النبي الذي وصفه القرآن بأنه كان صادق الوعد وكان رسولًا نبيًا؟",
+        "answer": "إسماعيل عليه السلام",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c03:036"
+        ]
+      }
+    ],
+    "تاريخ الخلفاء": [
+      {
+        "id": "b018p1_c04_001",
+        "question": "من أول الخلفاء الراشدين؟",
+        "answer": "أبو بكر الصديق",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c04:001"
+        ]
+      },
+      {
+        "id": "b018p1_c04_002",
+        "question": "من ثاني الخلفاء الراشدين؟",
+        "answer": "عمر بن الخطاب",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c04:002"
+        ]
+      },
+      {
+        "id": "b018p1_c04_003",
+        "question": "من ثالث الخلفاء الراشدين؟",
+        "answer": "عثمان بن عفان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c04:003"
+        ]
+      },
+      {
+        "id": "b018p1_c04_004",
+        "question": "من رابع الخلفاء الراشدين؟",
+        "answer": "علي بن أبي طالب",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c04:004"
+        ]
+      },
+      {
+        "id": "b018p1_c04_005",
+        "question": "من أول خلفاء بني أمية؟",
+        "answer": "معاوية بن أبي سفيان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c04:005"
+        ]
+      },
+      {
+        "id": "b018p1_c04_006",
+        "question": "من الخليفة الأموي الذي بنى قبة الصخرة؟",
+        "answer": "عبد الملك بن مروان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c04:006"
+        ]
+      },
+      {
+        "id": "b018p1_c04_007",
+        "question": "من الخليفة الأموي المشهور بإصلاح العملة وتعريب الدواوين؟",
+        "answer": "عبد الملك بن مروان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c04:007"
+        ]
+      },
+      {
+        "id": "b018p1_c04_008",
+        "question": "من الخليفة الأموي الذي تولى بعد عبد الملك مباشرة؟",
+        "answer": "الوليد بن عبد الملك",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c04:008"
+        ]
+      },
+      {
+        "id": "b018p1_c04_009",
+        "question": "من الخليفة الأموي الذي اشتهر بالعدل والإصلاح وتولى سنة 99هـ؟",
+        "answer": "عمر بن عبد العزيز",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c04:009"
+        ]
+      },
+      {
+        "id": "b018p1_c04_010",
+        "question": "من أول خلفاء بني العباس؟",
+        "answer": "أبو العباس السفاح",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c04:010"
+        ]
+      },
+      {
+        "id": "b018p1_c04_011",
+        "question": "من الخليفة العباسي الذي أسس بغداد؟",
+        "answer": "أبو جعفر المنصور",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c04:011"
+        ]
+      },
+      {
+        "id": "b018p1_c04_012",
+        "question": "من الخليفة العباسي المرتبط بازدهار بغداد في عصره وورود اسمه في التراث الأدبي؟",
+        "answer": "هارون الرشيد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c04:012"
+        ]
+      },
+      {
+        "id": "b018p1_c04_013",
+        "question": "من الخليفة الراشدي الذي بدأت في عهده حروب الردة؟",
+        "answer": "أبو بكر الصديق",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c04:013"
+        ]
+      },
+      {
+        "id": "b018p1_c04_014",
+        "question": "في عهد أي خليفة راشدي وقع فتح القدس الأول للمسلمين؟",
+        "answer": "عمر بن الخطاب",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c04:014"
+        ]
+      },
+      {
+        "id": "b018p1_c04_015",
+        "question": "في عهد أي خليفة جُمع الناس على مصحف واحد وأرسلت نسخ إلى الأمصار؟",
+        "answer": "عثمان بن عفان",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c04:015"
+        ]
+      },
+      {
+        "id": "b018p1_c04_016",
+        "question": "من الخليفة الذي اتخذ الكوفة مقرًا لخلافته؟",
+        "answer": "علي بن أبي طالب",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c04:016"
+        ]
+      },
+      {
+        "id": "b018p1_c04_017",
+        "question": "من الخليفة العباسي الذي نقل مركز الحكم إلى سامراء؟",
+        "answer": "المعتصم بالله",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c04:017"
+        ]
+      },
+      {
+        "id": "b018p1_c04_018",
+        "question": "من الخليفة العباسي الذي أسس بيت الحكمة وازدهرت حركة الترجمة في عصره على نحو بارز؟",
+        "answer": "المأمون",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c04:018"
+        ]
+      },
+      {
+        "id": "b018p1_c04_019",
+        "question": "من الخليفة الأموي الذي كان في عهده فتح الأندلس سنة 92هـ؟",
+        "answer": "الوليد بن عبد الملك",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c04:019"
+        ]
+      },
+      {
+        "id": "b018p1_c04_020",
+        "question": "من الخليفة الأموي الذي سبق عمر بن عبد العزيز مباشرة؟",
+        "answer": "سليمان بن عبد الملك",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c04:020"
+        ]
+      },
+      {
+        "id": "b018p1_c04_021",
+        "question": "من آخر خلفاء بني أمية في دمشق؟",
+        "answer": "مروان بن محمد",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c04:021"
+        ]
+      },
+      {
+        "id": "b018p1_c04_022",
+        "question": "من الخليفة العباسي الذي هزم جيشه الأمين في الحرب الأهلية وتولى الخلافة بعده؟",
+        "answer": "المأمون",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c04:022"
+        ]
+      },
+      {
+        "id": "b018p1_c04_023",
+        "question": "من الخليفة العباسي الذي أسس مدينة سامراء وجعلها مقرًا للخلافة؟",
+        "answer": "المعتصم بالله",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c04:023"
+        ]
+      },
+      {
+        "id": "b018p1_c04_024",
+        "question": "من الخليفة العباسي الذي كان خليفة عند سقوط بغداد بيد المغول سنة 656هـ؟",
+        "answer": "المستعصم بالله",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c04:024"
+        ]
+      },
+      {
+        "id": "b018p1_c04_025",
+        "question": "من الخليفة الراشدي الذي لُقب بالفاروق؟",
+        "answer": "عمر بن الخطاب",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c04:025"
+        ]
+      },
+      {
+        "id": "b018p1_c04_026",
+        "question": "من الخليفة الراشدي الذي لُقب بذي النورين؟",
+        "answer": "عثمان بن عفان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c04:026"
+        ]
+      },
+      {
+        "id": "b018p1_c04_027",
+        "question": "من الخليفة العباسي الذي بنى مدينة بغداد المدورة؟",
+        "answer": "أبو جعفر المنصور",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c04:027"
+        ]
+      },
+      {
+        "id": "b018p1_c04_028",
+        "question": "من الخليفة الأموي الذي أمر ببناء الجامع الأموي في دمشق؟",
+        "answer": "الوليد بن عبد الملك",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c04:028"
+        ]
+      },
+      {
+        "id": "b018p1_c04_029",
+        "question": "من الخليفة الأموي الذي تولى الحكم بعد وفاة معاوية بن أبي سفيان؟",
+        "answer": "يزيد بن معاوية",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c04:029"
+        ]
+      },
+      {
+        "id": "b018p1_c04_030",
+        "question": "من الخليفة الأموي الذي أعاد توحيد الدولة بعد صراعه مع عبد الله بن الزبير؟",
+        "answer": "عبد الملك بن مروان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c04:030"
+        ]
+      },
+      {
+        "id": "b018p1_c04_031",
+        "question": "من الخليفة العباسي الذي خلف هارون الرشيد مباشرة في بغداد؟",
+        "answer": "الأمين",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c04:031"
+        ]
+      },
+      {
+        "id": "b018p1_c04_032",
+        "question": "من الخليفة العباسي الذي جاء بعد المأمون؟",
+        "answer": "المعتصم بالله",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c04:032"
+        ]
+      },
+      {
+        "id": "b018p1_c04_033",
+        "question": "من الخليفة العباسي الذي تولى بعد المعتصم بالله؟",
+        "answer": "الواثق بالله",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c04:033"
+        ]
+      },
+      {
+        "id": "b018p1_c04_034",
+        "question": "من الخليفة العباسي الذي جاء بعد الواثق بالله؟",
+        "answer": "المتوكل على الله",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c04:034"
+        ]
+      },
+      {
+        "id": "b018p1_c04_035",
+        "question": "من الخليفة الأموي الذي تنازل له الحسن بن علي عن الخلافة في عام الجماعة؟",
+        "answer": "معاوية بن أبي سفيان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c04:035"
+        ]
+      },
+      {
+        "id": "b018p1_c04_036",
+        "question": "من الخليفة الراشدي الذي أوصى بأن تكون الخلافة شورى في ستة من الصحابة بعده؟",
+        "answer": "عمر بن الخطاب",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p1:c04:036"
+        ]
+      }
+    ]
+  }
+}
