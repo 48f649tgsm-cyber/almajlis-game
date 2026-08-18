@@ -1,0 +1,25 @@
+ALMAJLIS BUILD 031 — PROFESSIONAL MUSIC PACK
+JS syntax: PASS
+
+Main tracks:
+- intro.wav: 15.5s
+- ambient.wav: 28.0s
+- question_music.wav: 28.0s
+- tension.wav: 12.5s
+- tiebreak.wav: 17.0s
+- victory.wav: 13.5s
+
+Musical stingers:
+- click.wav: 0.65s
+- question_sting.wav: 1.35s
+- switch.wav: 1.15s
+- reveal.wav: 1.35s
+- points.wav: 1.45s
+- end.wav: 2.2s
+- tick.wav: 0.12s
+
+Music is layered with drums, bass, pads, arpeggios, melodic motif, risers and brass-like stabs.
+BUILD 030 category-stock disabling is retained unchanged.
+
+UPLOAD REQUIREMENT:
+Upload index.html AND the complete audio/ folder, preserving its name and contents.
