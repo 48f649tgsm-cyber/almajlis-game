@@ -1,0 +1,31 @@
+ALMAJLIS BUILD 037 — HOME SCREEN + OPENING AUDIO HOTFIX
+JS syntax: PASS
+
+FIX 1 — OPENING PAGE
+- Prime-Time question layout had display:flex and could override the global hidden-screen rule.
+- All inactive screens are now force-hidden.
+- Question screen uses flex ONLY when .active.
+- Home page is visually isolated from board/question studio scenes.
+
+FIX 2 — OPENING MUSIC
+- The app now ATTEMPTS to start the accepted opening music immediately after page load.
+- iOS/Safari can legally block unprompted autoplay.
+- If blocked, the FIRST touch/click anywhere on the page immediately starts the opening theme.
+- Starting a new council stops the opening cue so the match/board audio remains a separate phase.
+
+UNCHANGED
+- BUILD 036 Prime-Time visual system
+- accepted BUILD 035 real-orchestra audio files
+- stock lock / unavailable categories
+- scoring / 30+30 timing / no-repeat / tie-break logic
+
+Checks:
+- JS syntax: PASS
+- BUILD 037: PASS
+- inactive question hidden: PASS
+- active question flex: PASS
+- autoplay attempt: PASS
+- first gesture fallback: PASS
+- accepted 035 audio retained: PASS
+- Prime-Time visual retained: PASS
+- stock lock retained: PASS
