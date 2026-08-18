@@ -1,0 +1,6 @@
+Batch 018 Part 06
+144 questions
+تاريخ الخلفاء 36 | تاريخ الصحابة 36 | تشكيلات فرق 36 | افلام اجنبية 36
+12x100 + 12x300 + 12x500 per category
+Unique IDs: PASS
+Structural QA: PASS

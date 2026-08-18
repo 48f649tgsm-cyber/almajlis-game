@@ -1,0 +1,1598 @@
+{
+  "version": "18.6-part06",
+  "new_questions": 144,
+  "categories": {
+    "تاريخ الخلفاء": [
+      {
+        "id": "b018p6_c21_001",
+        "question": "من الخليفة الراشدي الذي تولى الخلافة بعد وفاة النبي ﷺ؟",
+        "answer": "أبو بكر الصديق",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c21:001"
+        ]
+      },
+      {
+        "id": "b018p6_c21_002",
+        "question": "من الخليفة الذي اتخذ التقويم الهجري أساسًا للتأريخ في الدولة الإسلامية؟",
+        "answer": "عمر بن الخطاب",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c21:002"
+        ]
+      },
+      {
+        "id": "b018p6_c21_003",
+        "question": "من الخليفة الراشدي الذي استشهد وهو يقرأ القرآن؟",
+        "answer": "عثمان بن عفان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c21:003"
+        ]
+      },
+      {
+        "id": "b018p6_c21_004",
+        "question": "من الخليفة الراشدي الذي وقعت في عهده معركة صفين؟",
+        "answer": "علي بن أبي طالب",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c21:004"
+        ]
+      },
+      {
+        "id": "b018p6_c21_005",
+        "question": "من الخليفة الأموي الذي أسس مدينة واسط على يد الحجاج في عهده؟",
+        "answer": "عبد الملك بن مروان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c21:005"
+        ]
+      },
+      {
+        "id": "b018p6_c21_006",
+        "question": "من الخليفة الأموي الذي تولى بعد الوليد بن عبد الملك؟",
+        "answer": "سليمان بن عبد الملك",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c21:006"
+        ]
+      },
+      {
+        "id": "b018p6_c21_007",
+        "question": "من الخليفة الأموي الذي جاء بعد عمر بن عبد العزيز؟",
+        "answer": "يزيد بن عبد الملك",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c21:007"
+        ]
+      },
+      {
+        "id": "b018p6_c21_008",
+        "question": "من الخليفة العباسي الذي لُقب بالسفاح؟",
+        "answer": "أبو العباس عبد الله السفاح",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c21:008"
+        ]
+      },
+      {
+        "id": "b018p6_c21_009",
+        "question": "من الخليفة العباسي الذي تولى بعد أبي العباس السفاح؟",
+        "answer": "أبو جعفر المنصور",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c21:009"
+        ]
+      },
+      {
+        "id": "b018p6_c21_010",
+        "question": "من الخليفة العباسي الذي كان والد هارون الرشيد؟",
+        "answer": "المهدي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c21:010"
+        ]
+      },
+      {
+        "id": "b018p6_c21_011",
+        "question": "من الخليفة العباسي الذي تولى مباشرة قبل هارون الرشيد؟",
+        "answer": "الهادي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c21:011"
+        ]
+      },
+      {
+        "id": "b018p6_c21_012",
+        "question": "من الخليفة العباسي الذي كان ابنا هارون الرشيد الأمين والمأمون من خلفائه؟",
+        "answer": "هارون الرشيد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c21:012"
+        ]
+      },
+      {
+        "id": "b018p6_c21_013",
+        "question": "من الخليفة الراشدي الذي وقعت في عهده معركة اليرموك سنة 15هـ؟",
+        "answer": "عمر بن الخطاب",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c21:013"
+        ]
+      },
+      {
+        "id": "b018p6_c21_014",
+        "question": "من الخليفة الراشدي الذي وقعت في عهده معركة القادسية؟",
+        "answer": "عمر بن الخطاب",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c21:014"
+        ]
+      },
+      {
+        "id": "b018p6_c21_015",
+        "question": "من الخليفة الذي بدأ في عهده الفتح الإسلامي لمصر بقيادة عمرو بن العاص؟",
+        "answer": "عمر بن الخطاب",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c21:015"
+        ]
+      },
+      {
+        "id": "b018p6_c21_016",
+        "question": "من الخليفة الراشدي الذي جهز جيش العسرة قبل خلافته واشتهر بالإنفاق؟",
+        "answer": "عثمان بن عفان",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c21:016"
+        ]
+      },
+      {
+        "id": "b018p6_c21_017",
+        "question": "من الخليفة الأموي الذي نقل الخلافة وراثيًا لابنه يزيد؟",
+        "answer": "معاوية بن أبي سفيان",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c21:017"
+        ]
+      },
+      {
+        "id": "b018p6_c21_018",
+        "question": "من الخليفة الأموي الذي انتهت في عهده ثورة عبد الله بن الزبير؟",
+        "answer": "عبد الملك بن مروان",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c21:018"
+        ]
+      },
+      {
+        "id": "b018p6_c21_019",
+        "question": "من الخليفة الأموي الذي كان موسى بن نصير واليًا في عهده عند فتح الأندلس؟",
+        "answer": "الوليد بن عبد الملك",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c21:019"
+        ]
+      },
+      {
+        "id": "b018p6_c21_020",
+        "question": "من الخليفة العباسي الذي ارتبط اسمه بمحنة خلق القرآن وبدأها رسميًا؟",
+        "answer": "المأمون",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c21:020"
+        ]
+      },
+      {
+        "id": "b018p6_c21_021",
+        "question": "من الخليفة العباسي الذي واصل سياسة المحنة بعد المأمون وكان قائدًا عسكريًا قبل الخلافة؟",
+        "answer": "المعتصم بالله",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c21:021"
+        ]
+      },
+      {
+        "id": "b018p6_c21_022",
+        "question": "من الخليفة العباسي الذي أنهى سياسة المحنة وأظهر الانتصار لأهل الحديث؟",
+        "answer": "المتوكل على الله",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c21:022"
+        ]
+      },
+      {
+        "id": "b018p6_c21_023",
+        "question": "من الخليفة العباسي الذي أسس بغداد واتخذها عاصمة للدولة؟",
+        "answer": "أبو جعفر المنصور",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c21:023"
+        ]
+      },
+      {
+        "id": "b018p6_c21_024",
+        "question": "من الخليفة الأموي الذي اشتهر بإعادة المظالم وعزل عدد من الولاة عند توليه؟",
+        "answer": "عمر بن عبد العزيز",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c21:024"
+        ]
+      },
+      {
+        "id": "b018p6_c21_025",
+        "question": "من الخليفة الذي اختاره أبو بكر ليخلفه بعد وفاته؟",
+        "answer": "عمر بن الخطاب",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c21:025"
+        ]
+      },
+      {
+        "id": "b018p6_c21_026",
+        "question": "من الخليفة الذي تولى بعد مقتل عمر بن الخطاب باختيار أهل الشورى؟",
+        "answer": "عثمان بن عفان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c21:026"
+        ]
+      },
+      {
+        "id": "b018p6_c21_027",
+        "question": "من الخليفة العباسي الذي وقعت في عهده معركة عمورية سنة 223هـ؟",
+        "answer": "المعتصم بالله",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c21:027"
+        ]
+      },
+      {
+        "id": "b018p6_c21_028",
+        "question": "من الخليفة العباسي الذي تولى سنة 170هـ بعد وفاة أخيه الهادي؟",
+        "answer": "هارون الرشيد",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c21:028"
+        ]
+      },
+      {
+        "id": "b018p6_c21_029",
+        "question": "من الخليفة العباسي الذي دخل بغداد منتصرًا بعد الصراع مع أخيه الأمين؟",
+        "answer": "المأمون",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c21:029"
+        ]
+      },
+      {
+        "id": "b018p6_c21_030",
+        "question": "من الخليفة الأموي الذي أسس الدولة الأموية في دمشق بعد عام الجماعة؟",
+        "answer": "معاوية بن أبي سفيان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c21:030"
+        ]
+      },
+      {
+        "id": "b018p6_c21_031",
+        "question": "من الخليفة الأموي الذي حكم مدة قصيرة بين معاوية بن يزيد وعبد الملك بن مروان؟",
+        "answer": "مروان بن الحكم",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c21:031"
+        ]
+      },
+      {
+        "id": "b018p6_c21_032",
+        "question": "من الخليفة الأموي الذي كان والد الوليد وسليمان وهشام؟",
+        "answer": "عبد الملك بن مروان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c21:032"
+        ]
+      },
+      {
+        "id": "b018p6_c21_033",
+        "question": "من الخليفة الأموي الذي تولى بعد يزيد بن عبد الملك وحكم قرابة عقدين؟",
+        "answer": "هشام بن عبد الملك",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c21:033"
+        ]
+      },
+      {
+        "id": "b018p6_c21_034",
+        "question": "من الخليفة العباسي الذي كان آخر خلفاء بغداد قبل دخول هولاكو؟",
+        "answer": "المستعصم بالله",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c21:034"
+        ]
+      },
+      {
+        "id": "b018p6_c21_035",
+        "question": "من الخليفة الراشدي الذي واجه مسيلمة الكذاب في حروب الردة؟",
+        "answer": "أبو بكر الصديق",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c21:035"
+        ]
+      },
+      {
+        "id": "b018p6_c21_036",
+        "question": "من الخليفة الراشدي الذي نقل مركز الحكم من المدينة إلى الكوفة؟",
+        "answer": "علي بن أبي طالب",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c21:036"
+        ]
+      }
+    ],
+    "تاريخ الصحابة": [
+      {
+        "id": "b018p6_c22_001",
+        "question": "من الصحابي الذي نام في فراش النبي ﷺ ليلة الهجرة؟",
+        "answer": "علي بن أبي طالب",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c22:001"
+        ]
+      },
+      {
+        "id": "b018p6_c22_002",
+        "question": "من الصحابي الذي رافق النبي ﷺ في الغار أثناء الهجرة؟",
+        "answer": "أبو بكر الصديق",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c22:002"
+        ]
+      },
+      {
+        "id": "b018p6_c22_003",
+        "question": "من الصحابي الذي كان دليل النبي ﷺ وأبي بكر في طريق الهجرة إلى المدينة؟",
+        "answer": "عبد الله بن أريقط",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c22:003"
+        ]
+      },
+      {
+        "id": "b018p6_c22_004",
+        "question": "من الصحابي الذي لُقب بذي الجناحين بعد استشهاده في مؤتة؟",
+        "answer": "جعفر بن أبي طالب",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c22:004"
+        ]
+      },
+      {
+        "id": "b018p6_c22_005",
+        "question": "من الصحابي الذي كان أول مولود للمهاجرين في المدينة؟",
+        "answer": "عبد الله بن الزبير",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c22:005"
+        ]
+      },
+      {
+        "id": "b018p6_c22_006",
+        "question": "من الصحابي الذي كان والده الزبير بن العوام وأمه أسماء بنت أبي بكر؟",
+        "answer": "عبد الله بن الزبير",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c22:006"
+        ]
+      },
+      {
+        "id": "b018p6_c22_007",
+        "question": "من الصحابي الذي اشتهر بلقب أسد الله وأسد رسوله؟",
+        "answer": "حمزة بن عبد المطلب",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c22:007"
+        ]
+      },
+      {
+        "id": "b018p6_c22_008",
+        "question": "من الصحابي الذي قتل أبا جهل مع معاذ بن عمرو ثم أجهز عليه لاحقًا عبد الله بن مسعود؟",
+        "answer": "معاذ بن عفراء",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c22:008"
+        ]
+      },
+      {
+        "id": "b018p6_c22_009",
+        "question": "من الصحابي الذي كان من العشرة المبشرين بالجنة واشتهر بالتجارة والثراء؟",
+        "answer": "عبد الرحمن بن عوف",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c22:009"
+        ]
+      },
+      {
+        "id": "b018p6_c22_010",
+        "question": "من الصحابي الذي كان من السابقين إلى الإسلام وهاجر إلى الحبشة ثم المدينة وكان من العشرة المبشرين؟",
+        "answer": "الزبير بن العوام",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c22:010"
+        ]
+      },
+      {
+        "id": "b018p6_c22_011",
+        "question": "من الصحابي الذي كان والد عائشة رضي الله عنها؟",
+        "answer": "أبو بكر الصديق",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c22:011"
+        ]
+      },
+      {
+        "id": "b018p6_c22_012",
+        "question": "من الصحابي الذي كان أخا النبي ﷺ بالمؤاخاة ووزيره في عدد من المواقف وهو ابن عمه؟",
+        "answer": "علي بن أبي طالب",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c22:012"
+        ]
+      },
+      {
+        "id": "b018p6_c22_013",
+        "question": "من الصحابي الذي أرسله عمر بن الخطاب قائدًا لفتح مصر؟",
+        "answer": "عمرو بن العاص",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c22:013"
+        ]
+      },
+      {
+        "id": "b018p6_c22_014",
+        "question": "من الصحابي الذي قاد المسلمين في معركة القادسية؟",
+        "answer": "سعد بن أبي وقاص",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c22:014"
+        ]
+      },
+      {
+        "id": "b018p6_c22_015",
+        "question": "من الصحابي الذي كان أول من رمى بسهم في سبيل الله كما اشتهر في كتب السيرة؟",
+        "answer": "سعد بن أبي وقاص",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c22:015"
+        ]
+      },
+      {
+        "id": "b018p6_c22_016",
+        "question": "من الصحابي الذي كان قائد المسلمين في معركة نهاوند؟",
+        "answer": "النعمان بن مقرن",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c22:016"
+        ]
+      },
+      {
+        "id": "b018p6_c22_017",
+        "question": "من الصحابي الذي فتح تستر وأُسر الهرمزان في حملاته؟",
+        "answer": "أبو موسى الأشعري",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c22:017"
+        ]
+      },
+      {
+        "id": "b018p6_c22_018",
+        "question": "من الصحابي الذي تولى إمارة الكوفة في عهد عمر وعُرف بقراءته للقرآن وتعليمه؟",
+        "answer": "عبد الله بن مسعود",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c22:018"
+        ]
+      },
+      {
+        "id": "b018p6_c22_019",
+        "question": "من الصحابي الذي قال عنه النبي ﷺ: أعلم أمتي بالحلال والحرام؟",
+        "answer": "معاذ بن جبل",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c22:019"
+        ]
+      },
+      {
+        "id": "b018p6_c22_020",
+        "question": "من الصحابي الذي اشتهر بإقراء القرآن وكان من الأربعة الذين أوصى النبي ﷺ بالأخذ عنهم؟",
+        "answer": "أُبي بن كعب",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c22:020"
+        ]
+      },
+      {
+        "id": "b018p6_c22_021",
+        "question": "من الصحابي الذي كان يُلقب بحبر الأمة إلى جانب لقب ترجمان القرآن؟",
+        "answer": "عبد الله بن عباس",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c22:021"
+        ]
+      },
+      {
+        "id": "b018p6_c22_022",
+        "question": "من الصحابي الذي كان ابن عمر بن الخطاب واشتهر بالاتباع الدقيق للسنة؟",
+        "answer": "عبد الله بن عمر",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c22:022"
+        ]
+      },
+      {
+        "id": "b018p6_c22_023",
+        "question": "من الصحابي الذي كان آخر من توفي من العشرة المبشرين بالجنة على المشهور؟",
+        "answer": "سعد بن أبي وقاص",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c22:023"
+        ]
+      },
+      {
+        "id": "b018p6_c22_024",
+        "question": "من الصحابي الذي كان قائد جيش المسلمين في اليرموك واشتهر بعبقريته العسكرية؟",
+        "answer": "خالد بن الوليد",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c22:024"
+        ]
+      },
+      {
+        "id": "b018p6_c22_025",
+        "question": "من الصحابي الذي كان صاحب راية المسلمين في بدر وأحد واشتهر بأنه حواري النبي ﷺ؟",
+        "answer": "الزبير بن العوام",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c22:025"
+        ]
+      },
+      {
+        "id": "b018p6_c22_026",
+        "question": "من الصحابي الذي كان أول من جهر بالقرآن في مكة بعد النبي ﷺ بحسب روايات السيرة؟",
+        "answer": "عبد الله بن مسعود",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c22:026"
+        ]
+      },
+      {
+        "id": "b018p6_c22_027",
+        "question": "من الصحابي الذي كان من كبار كتاب الوحي وجمع القرآن في عهد أبي بكر؟",
+        "answer": "زيد بن ثابت",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c22:027"
+        ]
+      },
+      {
+        "id": "b018p6_c22_028",
+        "question": "من الصحابي الذي أرسله أبو بكر إلى البحرين لجمع الصدقة قبل أن يعود بمال كثير؟",
+        "answer": "العلاء بن الحضرمي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c22:028"
+        ]
+      },
+      {
+        "id": "b018p6_c22_029",
+        "question": "من الصحابي الذي كان واليًا على الشام وأسس لاحقًا الدولة الأموية؟",
+        "answer": "معاوية بن أبي سفيان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c22:029"
+        ]
+      },
+      {
+        "id": "b018p6_c22_030",
+        "question": "من الصحابي الذي كان أخا معاوية وقائدًا في فتوح الشام وتوفي في طاعون عمواس؟",
+        "answer": "يزيد بن أبي سفيان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c22:030"
+        ]
+      },
+      {
+        "id": "b018p6_c22_031",
+        "question": "من الصحابي الذي تولى قيادة جيش الشام بعد وفاة أبي عبيدة في طاعون عمواس؟",
+        "answer": "معاذ بن جبل",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c22:031"
+        ]
+      },
+      {
+        "id": "b018p6_c22_032",
+        "question": "من الصحابي الذي قاد أول حملة بحرية كبرى للمسلمين إلى قبرص في عهد عثمان؟",
+        "answer": "معاوية بن أبي سفيان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c22:032"
+        ]
+      },
+      {
+        "id": "b018p6_c22_033",
+        "question": "من الصحابي الذي روى حديث «إنما الأعمال بالنيات»؟",
+        "answer": "عمر بن الخطاب",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c22:033"
+        ]
+      },
+      {
+        "id": "b018p6_c22_034",
+        "question": "من الصحابي الذي روى حديث جبريل المشهور في الإسلام والإيمان والإحسان؟",
+        "answer": "عمر بن الخطاب",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c22:034"
+        ]
+      },
+      {
+        "id": "b018p6_c22_035",
+        "question": "من الصحابي الذي عُرف بكنية أبي الدرداء وكان من علماء الصحابة في الشام؟",
+        "answer": "عويمر بن زيد الأنصاري",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c22:035"
+        ]
+      },
+      {
+        "id": "b018p6_c22_036",
+        "question": "من الصحابي الذي كان قاضيًا في الكوفة واشتهر بالفقه والقراءة وكان من السابقين؟",
+        "answer": "عبد الله بن مسعود",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c22:036"
+        ]
+      }
+    ],
+    "تشكيلات فرق": [
+      {
+        "id": "b018p6_c23_001",
+        "question": "من حارس ريال مدريد في نهائي دوري أبطال أوروبا 2022؟",
+        "answer": "تيبو كورتوا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c23:001"
+        ]
+      },
+      {
+        "id": "b018p6_c23_002",
+        "question": "من الظهير الأيسر لريال مدريد الذي بدأ نهائي دوري الأبطال 2022؟",
+        "answer": "فيرلان ميندي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c23:002"
+        ]
+      },
+      {
+        "id": "b018p6_c23_003",
+        "question": "من ثلاثي وسط ريال مدريد الذي بدأ نهائي دوري الأبطال 2022؟",
+        "answer": "كاسيميرو وتوني كروس ولوكا مودريتش",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c23:003"
+        ]
+      },
+      {
+        "id": "b018p6_c23_004",
+        "question": "من رأس حربة ريال مدريد الأساسي في نهائي دوري الأبطال 2022؟",
+        "answer": "كريم بنزيما",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c23:004"
+        ]
+      },
+      {
+        "id": "b018p6_c23_005",
+        "question": "من حارس ليفربول في نهائي دوري الأبطال 2019؟",
+        "answer": "أليسون بيكر",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c23:005"
+        ]
+      },
+      {
+        "id": "b018p6_c23_006",
+        "question": "من الظهير الأيمن لليفربول الذي بدأ نهائي 2019؟",
+        "answer": "ترينت ألكسندر أرنولد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c23:006"
+        ]
+      },
+      {
+        "id": "b018p6_c23_007",
+        "question": "من ثنائي قلب دفاع ليفربول الذي بدأ نهائي 2019؟",
+        "answer": "فيرجيل فان دايك وجويل ماتيب",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c23:007"
+        ]
+      },
+      {
+        "id": "b018p6_c23_008",
+        "question": "من ثلاثي هجوم ليفربول الذي بدأ نهائي 2019؟",
+        "answer": "محمد صلاح وروبرتو فيرمينو وساديو ماني",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c23:008"
+        ]
+      },
+      {
+        "id": "b018p6_c23_009",
+        "question": "من حارس تشيلسي في نهائي دوري الأبطال 2021؟",
+        "answer": "إدوار ميندي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c23:009"
+        ]
+      },
+      {
+        "id": "b018p6_c23_010",
+        "question": "من ثلاثي قلب دفاع تشيلسي الذي بدأ نهائي 2021؟",
+        "answer": "سيزار أزبيليكويتا وتياغو سيلفا وأنطونيو روديغر",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c23:010"
+        ]
+      },
+      {
+        "id": "b018p6_c23_011",
+        "question": "من ثنائي الارتكاز لتشيلسي الذي بدأ نهائي 2021؟",
+        "answer": "جورجينيو ونغولو كانتي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c23:011"
+        ]
+      },
+      {
+        "id": "b018p6_c23_012",
+        "question": "من المهاجم الذي سجل هدف تشيلسي في نهائي 2021 وبدأ أساسيًا؟",
+        "answer": "كاي هافرتز",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c23:012"
+        ]
+      },
+      {
+        "id": "b018p6_c23_013",
+        "question": "من حارس مانشستر يونايتد في نهائي دوري الأبطال 1999؟",
+        "answer": "بيتر شمايكل",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c23:013"
+        ]
+      },
+      {
+        "id": "b018p6_c23_014",
+        "question": "من قائدي قلب دفاع مانشستر يونايتد اللذين بدآ نهائي 1999؟",
+        "answer": "روني يونسون وياپ ستام",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c23:014"
+        ]
+      },
+      {
+        "id": "b018p6_c23_015",
+        "question": "من المهاجمين اللذين بدآ نهائي 1999 لمانشستر يونايتد؟",
+        "answer": "أندي كول ودوايت يورك",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c23:015"
+        ]
+      },
+      {
+        "id": "b018p6_c23_016",
+        "question": "من لاعبي الوسط اللذين غابا عن مانشستر يونايتد في نهائي 1999 بسبب الإيقاف؟",
+        "answer": "روي كين وبول سكولز",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c23:016"
+        ]
+      },
+      {
+        "id": "b018p6_c23_017",
+        "question": "من حارس برشلونة في نهائي دوري الأبطال 2015؟",
+        "answer": "مارك أندريه تير شتيغن",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c23:017"
+        ]
+      },
+      {
+        "id": "b018p6_c23_018",
+        "question": "من رباعي دفاع برشلونة الذي بدأ نهائي 2015؟",
+        "answer": "داني ألفيش وجيرارد بيكيه وخافيير ماسكيرانو وجوردي ألبا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c23:018"
+        ]
+      },
+      {
+        "id": "b018p6_c23_019",
+        "question": "من ثلاثي هجوم برشلونة الذي بدأ نهائي 2015؟",
+        "answer": "ليونيل ميسي ولويس سواريز ونيمار",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c23:019"
+        ]
+      },
+      {
+        "id": "b018p6_c23_020",
+        "question": "من ثلاثي وسط برشلونة الذي بدأ نهائي 2015؟",
+        "answer": "سيرجيو بوسكيتس وإيفان راكيتيتش وأندريس إنييستا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c23:020"
+        ]
+      },
+      {
+        "id": "b018p6_c23_021",
+        "question": "من حارس يوفنتوس في نهائي دوري الأبطال 2017؟",
+        "answer": "جانلويجي بوفون",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c23:021"
+        ]
+      },
+      {
+        "id": "b018p6_c23_022",
+        "question": "من ثنائي قلب دفاع يوفنتوس الذي بدأ نهائي 2017؟",
+        "answer": "ليوناردو بونوتشي وأندريا بارزالي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c23:022"
+        ]
+      },
+      {
+        "id": "b018p6_c23_023",
+        "question": "من المهاجمين اللذين بدآ نهائي 2017 ليوفنتوس؟",
+        "answer": "غونزالو هيغواين وباولو ديبالا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c23:023"
+        ]
+      },
+      {
+        "id": "b018p6_c23_024",
+        "question": "من الظهير الأيسر الذي بدأ نهائي 2017 ليوفنتوس؟",
+        "answer": "أليكس ساندرو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c23:024"
+        ]
+      },
+      {
+        "id": "b018p6_c23_025",
+        "question": "من حارس كرواتيا في نهائي كأس العالم 2018؟",
+        "answer": "دانييل سوباشيتش",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c23:025"
+        ]
+      },
+      {
+        "id": "b018p6_c23_026",
+        "question": "من ثنائي قلب دفاع كرواتيا في نهائي 2018؟",
+        "answer": "ديان لوفرين ودوماغوي فيدا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c23:026"
+        ]
+      },
+      {
+        "id": "b018p6_c23_027",
+        "question": "من ثنائي الوسط المحوري الأبرز لكرواتيا في نهائي 2018؟",
+        "answer": "لوكا مودريتش وإيفان راكيتيتش",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c23:027"
+        ]
+      },
+      {
+        "id": "b018p6_c23_028",
+        "question": "من رأس حربة كرواتيا الذي بدأ نهائي كأس العالم 2018؟",
+        "answer": "ماريو ماندزوكيتش",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c23:028"
+        ]
+      },
+      {
+        "id": "b018p6_c23_029",
+        "question": "من حارس فرنسا في نهائي كأس العالم 2022؟",
+        "answer": "هوغو لوريس",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c23:029"
+        ]
+      },
+      {
+        "id": "b018p6_c23_030",
+        "question": "من ثنائي قلب دفاع فرنسا الذي بدأ نهائي 2022؟",
+        "answer": "رافاييل فاران ودايو أوباميكانو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c23:030"
+        ]
+      },
+      {
+        "id": "b018p6_c23_031",
+        "question": "من الظهير الأيسر لفرنسا الذي بدأ نهائي 2022؟",
+        "answer": "ثيو هيرنانديز",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c23:031"
+        ]
+      },
+      {
+        "id": "b018p6_c23_032",
+        "question": "من رأس حربة فرنسا الذي بدأ نهائي كأس العالم 2022؟",
+        "answer": "أوليفييه جيرو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c23:032"
+        ]
+      },
+      {
+        "id": "b018p6_c23_033",
+        "question": "من حارس إيطاليا في نهائي يورو 2020؟",
+        "answer": "جانلويجي دوناروما",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c23:033"
+        ]
+      },
+      {
+        "id": "b018p6_c23_034",
+        "question": "من ثنائي قلب دفاع إيطاليا الذي بدأ نهائي يورو 2020؟",
+        "answer": "ليوناردو بونوتشي وجورجيو كيليني",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c23:034"
+        ]
+      },
+      {
+        "id": "b018p6_c23_035",
+        "question": "من ثلاثي وسط إيطاليا الذي بدأ نهائي يورو 2020؟",
+        "answer": "جورجينيو وماركو فيراتي ونيكولو باريلا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c23:035"
+        ]
+      },
+      {
+        "id": "b018p6_c23_036",
+        "question": "من رأس حربة إيطاليا الذي بدأ نهائي يورو 2020؟",
+        "answer": "تشيرو إيموبيلي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c23:036"
+        ]
+      }
+    ],
+    "افلام اجنبية": [
+      {
+        "id": "b018p6_c24_001",
+        "question": "من أخرج فيلم The Godfather؟",
+        "answer": "فرانسيس فورد كوبولا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c24:001"
+        ]
+      },
+      {
+        "id": "b018p6_c24_002",
+        "question": "من أدى شخصية مايكل كورليوني في The Godfather؟",
+        "answer": "آل باتشينو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c24:002"
+        ]
+      },
+      {
+        "id": "b018p6_c24_003",
+        "question": "من أدى شخصية فيتو كورليوني في الجزء الأول من The Godfather؟",
+        "answer": "مارلون براندو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c24:003"
+        ]
+      },
+      {
+        "id": "b018p6_c24_004",
+        "question": "من أخرج فيلم Jaws؟",
+        "answer": "ستيفن سبيلبرغ",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c24:004"
+        ]
+      },
+      {
+        "id": "b018p6_c24_005",
+        "question": "من أخرج فيلم Interstellar؟",
+        "answer": "كريستوفر نولان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c24:005"
+        ]
+      },
+      {
+        "id": "b018p6_c24_006",
+        "question": "من أدى شخصية جاك في Titanic؟",
+        "answer": "ليوناردو دي كابريو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c24:006"
+        ]
+      },
+      {
+        "id": "b018p6_c24_007",
+        "question": "من أدت شخصية روز في Titanic؟",
+        "answer": "كيت وينسلت",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c24:007"
+        ]
+      },
+      {
+        "id": "b018p6_c24_008",
+        "question": "ما اسم الساحر الشرير الرئيسي في سلسلة Harry Potter؟",
+        "answer": "لورد فولدمورت",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c24:008"
+        ]
+      },
+      {
+        "id": "b018p6_c24_009",
+        "question": "من أدى شخصية هاري بوتر في الأفلام؟",
+        "answer": "دانيال رادكليف",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c24:009"
+        ]
+      },
+      {
+        "id": "b018p6_c24_010",
+        "question": "ما اسم والد سيمبا في The Lion King؟",
+        "answer": "موفاسا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c24:010"
+        ]
+      },
+      {
+        "id": "b018p6_c24_011",
+        "question": "من أخرج فيلم Avatar الصادر عام 2009؟",
+        "answer": "جيمس كاميرون",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c24:011"
+        ]
+      },
+      {
+        "id": "b018p6_c24_012",
+        "question": "ما اسم الكوكب الذي تدور عليه معظم أحداث Avatar؟",
+        "answer": "باندورا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c24:012"
+        ]
+      },
+      {
+        "id": "b018p6_c24_013",
+        "question": "من أدى شخصية ماكسيموس في Gladiator؟",
+        "answer": "راسل كرو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c24:013"
+        ]
+      },
+      {
+        "id": "b018p6_c24_014",
+        "question": "من أخرج Gladiator؟",
+        "answer": "ريدلي سكوت",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c24:014"
+        ]
+      },
+      {
+        "id": "b018p6_c24_015",
+        "question": "أي فيلم لنولان تدور أحداثه حول عملية إجلاء قوات الحلفاء من فرنسا عام 1940؟",
+        "answer": "Dunkirk",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c24:015"
+        ]
+      },
+      {
+        "id": "b018p6_c24_016",
+        "question": "من أدى شخصية الجوكر في فيلم Joker الصادر عام 2019؟",
+        "answer": "خواكين فينيكس",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c24:016"
+        ]
+      },
+      {
+        "id": "b018p6_c24_017",
+        "question": "من أخرج فيلم Schindler's List؟",
+        "answer": "ستيفن سبيلبرغ",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c24:017"
+        ]
+      },
+      {
+        "id": "b018p6_c24_018",
+        "question": "من أدى شخصية أوسكار شندلر في Schindler's List؟",
+        "answer": "ليام نيسون",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c24:018"
+        ]
+      },
+      {
+        "id": "b018p6_c24_019",
+        "question": "ما اسم بطل سلسلة Indiana Jones؟",
+        "answer": "إنديانا جونز",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c24:019"
+        ]
+      },
+      {
+        "id": "b018p6_c24_020",
+        "question": "من أدى شخصية Indiana Jones في الأفلام الأصلية؟",
+        "answer": "هاريسون فورد",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c24:020"
+        ]
+      },
+      {
+        "id": "b018p6_c24_021",
+        "question": "من أخرج فيلم The Departed؟",
+        "answer": "مارتن سكورسيزي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c24:021"
+        ]
+      },
+      {
+        "id": "b018p6_c24_022",
+        "question": "من أدى شخصية جوردان بلفورت في The Wolf of Wall Street؟",
+        "answer": "ليوناردو دي كابريو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c24:022"
+        ]
+      },
+      {
+        "id": "b018p6_c24_023",
+        "question": "أي فيلم لكريستوفر نولان يتناول حياة الفيزيائي ج. روبرت أوبنهايمر؟",
+        "answer": "Oppenheimer",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c24:023"
+        ]
+      },
+      {
+        "id": "b018p6_c24_024",
+        "question": "من أدى الدور الرئيسي في Oppenheimer؟",
+        "answer": "كيليان مورفي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c24:024"
+        ]
+      },
+      {
+        "id": "b018p6_c24_025",
+        "question": "من أخرج فيلم The Pianist؟",
+        "answer": "رومان بولانسكي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c24:025"
+        ]
+      },
+      {
+        "id": "b018p6_c24_026",
+        "question": "من أدى شخصية فلاديسلاف شبيلمان في The Pianist؟",
+        "answer": "أدريان برودي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c24:026"
+        ]
+      },
+      {
+        "id": "b018p6_c24_027",
+        "question": "ما اسم السفينة التي تدور عليها أحداث فيلم Titanic؟",
+        "answer": "RMS Titanic",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c24:027"
+        ]
+      },
+      {
+        "id": "b018p6_c24_028",
+        "question": "من أخرج فيلم Goodfellas؟",
+        "answer": "مارتن سكورسيزي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c24:028"
+        ]
+      },
+      {
+        "id": "b018p6_c24_029",
+        "question": "من أدى شخصية توني مونتانا في Scarface عام 1983؟",
+        "answer": "آل باتشينو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c24:029"
+        ]
+      },
+      {
+        "id": "b018p6_c24_030",
+        "question": "من أخرج فيلم Once Upon a Time in Hollywood؟",
+        "answer": "كوينتن تارانتينو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c24:030"
+        ]
+      },
+      {
+        "id": "b018p6_c24_031",
+        "question": "من أدى شخصية هانيبال ليكتر في The Silence of the Lambs؟",
+        "answer": "أنتوني هوبكنز",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c24:031"
+        ]
+      },
+      {
+        "id": "b018p6_c24_032",
+        "question": "من أدت شخصية كلاريس ستارلينغ في The Silence of the Lambs؟",
+        "answer": "جودي فوستر",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c24:032"
+        ]
+      },
+      {
+        "id": "b018p6_c24_033",
+        "question": "ما اسم السجن الذي تدور حوله أحداث The Shawshank Redemption؟",
+        "answer": "سجن شاوشانك",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c24:033"
+        ]
+      },
+      {
+        "id": "b018p6_c24_034",
+        "question": "من أدى شخصية آندي دوفرين في The Shawshank Redemption؟",
+        "answer": "تيم روبنز",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c24:034"
+        ]
+      },
+      {
+        "id": "b018p6_c24_035",
+        "question": "من أدى شخصية رِد في The Shawshank Redemption؟",
+        "answer": "مورغان فريمان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c24:035"
+        ]
+      },
+      {
+        "id": "b018p6_c24_036",
+        "question": "من أخرج فيلم The Lord of the Rings: The Return of the King؟",
+        "answer": "بيتر جاكسون",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p6:c24:036"
+        ]
+      }
+    ]
+  }
+}
