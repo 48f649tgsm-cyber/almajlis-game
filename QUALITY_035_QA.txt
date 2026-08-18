@@ -1,0 +1,31 @@
+ALMAJLIS BUILD 035 — REAL ORCHESTRA EDITION
+JS syntax: PASS
+
+SOURCE RECORDINGS SUPPLIED BY USER
+- opening_theme.wav -> opening_theme_game.wav (32.0s)
+- QaziJamJam.wav -> board_orchestra_game.wav (58.0s)
+- victory.wav -> victory_game.wav (12.53s)
+
+EDITING
+- Stereo 44.1 kHz PCM WAV.
+- Loudness normalization and fades applied.
+- Opening, board and victory are three distinct real-recording cues.
+- Question screen has NO background music.
+- Only the final 5 seconds tick.
+- Dedicated time-up cue retained.
+- BUILD 034 stock disabling and team-name scoreboard fixes retained.
+
+UPLOAD
+Upload index.html and ALL WAV files in this package to the repository root.
+
+Checks:
+- JS syntax: PASS
+- BUILD 035: PASS
+- real opening mapped: PASS
+- real board mapped: PASS
+- real victory mapped: PASS
+- question background silent: PASS
+- last 5 seconds tick: PASS
+- time-up cue: PASS
+- stock lock retained: PASS
+- score names retained: PASS
