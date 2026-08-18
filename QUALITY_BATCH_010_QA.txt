@@ -1,0 +1,13 @@
+المجلس — QUALITY BATCH 010 QA
+================================================
+New questions: 100
+Categories: {'تشكيلات فرق': 30, 'قصص الأنبياء': 20, 'افلام اجنبية': 15, 'مسلسلات عربية': 15, 'سوريا': 20}
+Tiers: {'تشكيلات فرق': {100: 10, 300: 10, 500: 10}, 'قصص الأنبياء': {100: 7, 300: 7, 500: 6}, 'افلام اجنبية': {100: 5, 300: 5, 500: 5}, 'مسلسلات عربية': {100: 5, 300: 5, 500: 5}, 'سوريا': {100: 7, 300: 7, 500: 6}}
+Lineups: 30; every lineup shows exactly 10 starters + one missing player.
+Prophets: 20; Quran-context / speaker / missing-name / story formats.
+Foreign films: 15; Oscar / role / plot formats.
+Arabic series: 15; cast + premise / character formats.
+Syria: 20; cities / history / rulers / independence / 2011 revolution context.
+Minimum category stock rule remains active in index.html: 6 valid questions.
+Category images: untouched.
+Structural QA: PASS
