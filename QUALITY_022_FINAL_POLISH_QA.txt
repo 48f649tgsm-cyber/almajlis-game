@@ -1,0 +1,20 @@
+ALMAJLIS QUALITY 022 — FINAL BROADCAST POLISH
+JS syntax: PASS
+
+Added:
+- Camera-push effect for question moments; disabled for flags.
+- Selected board tile launch response.
+- Strong last-5-seconds edge pulse.
+- Audio ducking when question audio plays.
+- Quiet/respectful presentation for Quran / prophets / Quran stories: program music stops.
+- Haptic feedback where supported.
+- Cleaner focus mode while teams think.
+- Adaptive question typography for short/long questions.
+- Final-answer double-click lock.
+- Tie-break Ready sequence before category roulette.
+- Local last-10 match history screen.
+- Result-summary export.
+- Automatic low-performance mode and reduced-motion support.
+- Safe-area / TV layout improvements.
+- Existing 021 visual/audio identity and 020 tie-break roulette retained.
+- Question bank and category images unchanged.
