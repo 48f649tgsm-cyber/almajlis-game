@@ -1,0 +1,3659 @@
+{
+  "version": "16.0-priority8",
+  "new_questions": 288,
+  "quality_policy": "36 new questions per target category; exactly 12x100, 12x300, 12x500; priority given to the eight lowest-stock categories.",
+  "categories": {
+    "اغاني عربية": [
+      {
+        "id": "b016_songs_001",
+        "question": "من غنى أغنية «الأطلال»؟",
+        "answer": "أم كلثوم",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b016:songs:001"
+        ]
+      },
+      {
+        "id": "b016_songs_002",
+        "question": "من غنى «قارئة الفنجان»؟",
+        "answer": "عبد الحليم حافظ",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b016:songs:002"
+        ]
+      },
+      {
+        "id": "b016_songs_003",
+        "question": "من غنى «نسم علينا الهوى»؟",
+        "answer": "فيروز",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b016:songs:003"
+        ]
+      },
+      {
+        "id": "b016_songs_004",
+        "question": "من غنى «أما براوة»؟",
+        "answer": "نجاة الصغيرة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b016:songs:004"
+        ]
+      },
+      {
+        "id": "b016_songs_005",
+        "question": "من غنى «سواح»؟",
+        "answer": "عبد الحليم حافظ",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b016:songs:005"
+        ]
+      },
+      {
+        "id": "b016_songs_006",
+        "question": "من غنى «ألف ليلة وليلة»؟",
+        "answer": "أم كلثوم",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b016:songs:006"
+        ]
+      },
+      {
+        "id": "b016_songs_007",
+        "question": "من غنى «زهرة المدائن»؟",
+        "answer": "فيروز",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b016:songs:007"
+        ]
+      },
+      {
+        "id": "b016_songs_008",
+        "question": "من غنى «عيون القلب»؟",
+        "answer": "نجاة الصغيرة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b016:songs:008"
+        ]
+      },
+      {
+        "id": "b016_songs_009",
+        "question": "من غنى «قولي عملك إيه قلبي»؟",
+        "answer": "محمد عبد الوهاب",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b016:songs:009"
+        ]
+      },
+      {
+        "id": "b016_songs_010",
+        "question": "من غنى «الحب كله»؟",
+        "answer": "أم كلثوم",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b016:songs:010"
+        ]
+      },
+      {
+        "id": "b016_songs_011",
+        "question": "من غنى «جبار»؟",
+        "answer": "عبد الحليم حافظ",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b016:songs:011"
+        ]
+      },
+      {
+        "id": "b016_songs_012",
+        "question": "من غنى «كان عنا طاحون»؟",
+        "answer": "فيروز",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b016:songs:012"
+        ]
+      },
+      {
+        "id": "b016_songs_013",
+        "question": "من غنى «أنا بعشقك»؟",
+        "answer": "ميادة الحناوي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:songs:013"
+        ]
+      },
+      {
+        "id": "b016_songs_014",
+        "question": "من غنى «بتونس بيك»؟",
+        "answer": "وردة الجزائرية",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:songs:014"
+        ]
+      },
+      {
+        "id": "b016_songs_015",
+        "question": "من غنى «كلمات»؟",
+        "answer": "ماجدة الرومي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:songs:015"
+        ]
+      },
+      {
+        "id": "b016_songs_016",
+        "question": "من غنى «مقادير»؟",
+        "answer": "طلال مداح",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:songs:016"
+        ]
+      },
+      {
+        "id": "b016_songs_017",
+        "question": "من غنى «الأماكن»؟",
+        "answer": "محمد عبده",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:songs:017"
+        ]
+      },
+      {
+        "id": "b016_songs_018",
+        "question": "من غنى «زيديني عشقاً»؟",
+        "answer": "كاظم الساهر",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:songs:018"
+        ]
+      },
+      {
+        "id": "b016_songs_019",
+        "question": "من غنى «تملي معاك»؟",
+        "answer": "عمرو دياب",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:songs:019"
+        ]
+      },
+      {
+        "id": "b016_songs_020",
+        "question": "من غنى «نور العين»؟",
+        "answer": "عمرو دياب",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:songs:020"
+        ]
+      },
+      {
+        "id": "b016_songs_021",
+        "question": "من غنى «أنا وليلى»؟",
+        "answer": "كاظم الساهر",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:songs:021"
+        ]
+      },
+      {
+        "id": "b016_songs_022",
+        "question": "من غنى «بودعك»؟",
+        "answer": "وردة الجزائرية",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:songs:022"
+        ]
+      },
+      {
+        "id": "b016_songs_023",
+        "question": "من غنى «يا طيور»؟",
+        "answer": "أسمهان",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:songs:023"
+        ]
+      },
+      {
+        "id": "b016_songs_024",
+        "question": "من غنى «أنت عمري»؟",
+        "answer": "أم كلثوم",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:songs:024"
+        ]
+      },
+      {
+        "id": "b016_songs_025",
+        "question": "من لحن أغنية «أنت عمري» لأم كلثوم؟",
+        "answer": "محمد عبد الوهاب",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:songs:025"
+        ]
+      },
+      {
+        "id": "b016_songs_026",
+        "question": "من كتب قصيدة «قارئة الفنجان» التي غناها عبد الحليم حافظ؟",
+        "answer": "نزار قباني",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:songs:026"
+        ]
+      },
+      {
+        "id": "b016_songs_027",
+        "question": "من لحن «رسالة من تحت الماء» لعبد الحليم حافظ؟",
+        "answer": "محمد الموجي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:songs:027"
+        ]
+      },
+      {
+        "id": "b016_songs_028",
+        "question": "من كتب كلمات «الأطلال» في أصل القصيدة؟",
+        "answer": "إبراهيم ناجي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:songs:028"
+        ]
+      },
+      {
+        "id": "b016_songs_029",
+        "question": "من لحن «سواح» لعبد الحليم حافظ؟",
+        "answer": "بليغ حمدي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:songs:029"
+        ]
+      },
+      {
+        "id": "b016_songs_030",
+        "question": "من لحن «ألف ليلة وليلة» لأم كلثوم؟",
+        "answer": "بليغ حمدي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:songs:030"
+        ]
+      },
+      {
+        "id": "b016_songs_031",
+        "question": "من كتب كلمات «كلمات» التي غنتها ماجدة الرومي؟",
+        "answer": "نزار قباني",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:songs:031"
+        ]
+      },
+      {
+        "id": "b016_songs_032",
+        "question": "من غنى «يا مسافر وحدك»؟",
+        "answer": "محمد عبد الوهاب",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:songs:032"
+        ]
+      },
+      {
+        "id": "b016_songs_033",
+        "question": "من غنى «ليالي الأنس في فيينا»؟",
+        "answer": "أسمهان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:songs:033"
+        ]
+      },
+      {
+        "id": "b016_songs_034",
+        "question": "من غنى «أهو ده اللي صار»؟",
+        "answer": "سيد درويش",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:songs:034"
+        ]
+      },
+      {
+        "id": "b016_songs_035",
+        "question": "من غنى «مضناك جفاه مرقده»؟",
+        "answer": "محمد عبد الوهاب",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:songs:035"
+        ]
+      },
+      {
+        "id": "b016_songs_036",
+        "question": "من غنى «إنت الحب»؟",
+        "answer": "أم كلثوم",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:songs:036"
+        ]
+      }
+    ],
+    "دوري الأبطال": [
+      {
+        "id": "b016_ucl_001",
+        "question": "من فاز بدوري أبطال أوروبا 1999؟",
+        "answer": "مانشستر يونايتد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b016:ucl:001"
+        ]
+      },
+      {
+        "id": "b016_ucl_002",
+        "question": "من فاز بدوري أبطال أوروبا 2005؟",
+        "answer": "ليفربول",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b016:ucl:002"
+        ]
+      },
+      {
+        "id": "b016_ucl_003",
+        "question": "من فاز بدوري أبطال أوروبا 2010؟",
+        "answer": "إنتر ميلان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b016:ucl:003"
+        ]
+      },
+      {
+        "id": "b016_ucl_004",
+        "question": "من فاز بدوري أبطال أوروبا 2012؟",
+        "answer": "تشيلسي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b016:ucl:004"
+        ]
+      },
+      {
+        "id": "b016_ucl_005",
+        "question": "من فاز بدوري أبطال أوروبا 2013؟",
+        "answer": "بايرن ميونخ",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b016:ucl:005"
+        ]
+      },
+      {
+        "id": "b016_ucl_006",
+        "question": "من فاز بدوري أبطال أوروبا 2015؟",
+        "answer": "برشلونة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b016:ucl:006"
+        ]
+      },
+      {
+        "id": "b016_ucl_007",
+        "question": "من فاز بدوري أبطال أوروبا 2019؟",
+        "answer": "ليفربول",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b016:ucl:007"
+        ]
+      },
+      {
+        "id": "b016_ucl_008",
+        "question": "من فاز بدوري أبطال أوروبا 2020؟",
+        "answer": "بايرن ميونخ",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b016:ucl:008"
+        ]
+      },
+      {
+        "id": "b016_ucl_009",
+        "question": "من فاز بدوري أبطال أوروبا 2021؟",
+        "answer": "تشيلسي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b016:ucl:009"
+        ]
+      },
+      {
+        "id": "b016_ucl_010",
+        "question": "من فاز بدوري أبطال أوروبا 2023؟",
+        "answer": "مانشستر سيتي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b016:ucl:010"
+        ]
+      },
+      {
+        "id": "b016_ucl_011",
+        "question": "من سجل هدف الفوز في نهائي 2023؟",
+        "answer": "رودري",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b016:ucl:011"
+        ]
+      },
+      {
+        "id": "b016_ucl_012",
+        "question": "من سجل هدف الفوز في نهائي 2021؟",
+        "answer": "كاي هافرتز",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b016:ucl:012"
+        ]
+      },
+      {
+        "id": "b016_ucl_013",
+        "question": "من سجل هدفي إنتر في نهائي 2010؟",
+        "answer": "دييغو ميليتو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:ucl:013"
+        ]
+      },
+      {
+        "id": "b016_ucl_014",
+        "question": "من سجل هدف التعادل لريال مدريد في نهائي 2014؟",
+        "answer": "سيرخيو راموس",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:ucl:014"
+        ]
+      },
+      {
+        "id": "b016_ucl_015",
+        "question": "من سجل هدف برشلونة الأول في نهائي 2011؟",
+        "answer": "بيدرو رودريغيز",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:ucl:015"
+        ]
+      },
+      {
+        "id": "b016_ucl_016",
+        "question": "من سجل هدف بايرن الحاسم في نهائي 2013؟",
+        "answer": "آريين روبن",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:ucl:016"
+        ]
+      },
+      {
+        "id": "b016_ucl_017",
+        "question": "من سجل هدف ليفربول الأول في نهائي 2019؟",
+        "answer": "محمد صلاح",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:ucl:017"
+        ]
+      },
+      {
+        "id": "b016_ucl_018",
+        "question": "من سجل هدف يوفنتوس في نهائي 2015؟",
+        "answer": "ألفارو موراتا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:ucl:018"
+        ]
+      },
+      {
+        "id": "b016_ucl_019",
+        "question": "أي فريق خسر نهائي 2006 أمام برشلونة؟",
+        "answer": "آرسنال",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:ucl:019"
+        ]
+      },
+      {
+        "id": "b016_ucl_020",
+        "question": "أي فريق خسر نهائي 2004 أمام بورتو؟",
+        "answer": "موناكو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:ucl:020"
+        ]
+      },
+      {
+        "id": "b016_ucl_021",
+        "question": "أي فريق خسر نهائي 2010 أمام إنتر؟",
+        "answer": "بايرن ميونخ",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:ucl:021"
+        ]
+      },
+      {
+        "id": "b016_ucl_022",
+        "question": "أي فريق خسر نهائي 2012 أمام تشيلسي؟",
+        "answer": "بايرن ميونخ",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:ucl:022"
+        ]
+      },
+      {
+        "id": "b016_ucl_023",
+        "question": "أي فريق خسر نهائي 2013 أمام بايرن ميونخ؟",
+        "answer": "بوروسيا دورتموند",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:ucl:023"
+        ]
+      },
+      {
+        "id": "b016_ucl_024",
+        "question": "أي فريق خسر نهائي 2023 أمام مانشستر سيتي؟",
+        "answer": "إنتر ميلان",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:ucl:024"
+        ]
+      },
+      {
+        "id": "b016_ucl_025",
+        "question": "من سجل هدف بورتو الأول في نهائي 1987 بالكعب؟",
+        "answer": "رابح ماجر",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:ucl:025"
+        ]
+      },
+      {
+        "id": "b016_ucl_026",
+        "question": "من سجل هدف أستون فيلا في نهائي 1982؟",
+        "answer": "بيتر ويث",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:ucl:026"
+        ]
+      },
+      {
+        "id": "b016_ucl_027",
+        "question": "من سجل هدف هامبورغ في نهائي 1983؟",
+        "answer": "فيليكس ماغات",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:ucl:027"
+        ]
+      },
+      {
+        "id": "b016_ucl_028",
+        "question": "من سجل هدف النجم الأحمر الحاسم في ركلات ترجيح نهائي 1991؟",
+        "answer": "داركو بانشيف",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:ucl:028"
+        ]
+      },
+      {
+        "id": "b016_ucl_029",
+        "question": "من سجل هدف مرسيليا في نهائي 1993؟",
+        "answer": "باسيل بولي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:ucl:029"
+        ]
+      },
+      {
+        "id": "b016_ucl_030",
+        "question": "من سجل هدف أياكس في نهائي 1995؟",
+        "answer": "باتريك كلويفرت",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:ucl:030"
+        ]
+      },
+      {
+        "id": "b016_ucl_031",
+        "question": "من سجل هدف بوروسيا دورتموند الثالث في نهائي 1997؟",
+        "answer": "لارس ريكن",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:ucl:031"
+        ]
+      },
+      {
+        "id": "b016_ucl_032",
+        "question": "من سجل هدف ريال مدريد في نهائي 1998؟",
+        "answer": "بريدراج مياتوفيتش",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:ucl:032"
+        ]
+      },
+      {
+        "id": "b016_ucl_033",
+        "question": "من سجل هدف فالنسيا في نهائي 2001؟",
+        "answer": "غايسكا مندييتا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:ucl:033"
+        ]
+      },
+      {
+        "id": "b016_ucl_034",
+        "question": "من سجل هدف ميلان الأول في نهائي 2007؟",
+        "answer": "فيليبو إنزاغي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:ucl:034"
+        ]
+      },
+      {
+        "id": "b016_ucl_035",
+        "question": "من سجل هدف مانشستر يونايتد في نهائي 2008؟",
+        "answer": "كريستيانو رونالدو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:ucl:035"
+        ]
+      },
+      {
+        "id": "b016_ucl_036",
+        "question": "من سجل هدف برشلونة الثاني في نهائي 2009؟",
+        "answer": "ليونيل ميسي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:ucl:036"
+        ]
+      }
+    ],
+    "الكلاسيكو": [
+      {
+        "id": "b016_clasico_001",
+        "question": "ما الفريقان اللذان يلتقيان في الكلاسيكو الإسباني؟",
+        "answer": "ريال مدريد وبرشلونة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b016:clasico:001"
+        ]
+      },
+      {
+        "id": "b016_clasico_002",
+        "question": "في أي ملعب يلعب برشلونة مبارياته التاريخية في الكلاسيكو على أرضه؟",
+        "answer": "كامب نو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b016:clasico:002"
+        ]
+      },
+      {
+        "id": "b016_clasico_003",
+        "question": "في أي مدينة يقع ملعب سانتياغو برنابيو؟",
+        "answer": "مدريد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b016:clasico:003"
+        ]
+      },
+      {
+        "id": "b016_clasico_004",
+        "question": "من سجل هاتريك لبرشلونة في الكلاسيكو بعمر 19 عامًا عام 2007؟",
+        "answer": "ليونيل ميسي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b016:clasico:004"
+        ]
+      },
+      {
+        "id": "b016_clasico_005",
+        "question": "من صاحب احتفال رفع القميص في البرنابيو عام 2017؟",
+        "answer": "ليونيل ميسي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b016:clasico:005"
+        ]
+      },
+      {
+        "id": "b016_clasico_006",
+        "question": "من سجل هدف ريال مدريد الشهير من ركلة حرة في نصف نهائي كأس الملك 2013 في كامب نو؟",
+        "answer": "كريستيانو رونالدو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b016:clasico:006"
+        ]
+      },
+      {
+        "id": "b016_clasico_007",
+        "question": "من سجل هدف برشلونة الثاني في فوز 6-2 بالبرنابيو عام 2009؟",
+        "answer": "تييري هنري",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b016:clasico:007"
+        ]
+      },
+      {
+        "id": "b016_clasico_008",
+        "question": "من درب برشلونة في فوز 5-0 على ريال مدريد عام 2010؟",
+        "answer": "بيب غوارديولا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b016:clasico:008"
+        ]
+      },
+      {
+        "id": "b016_clasico_009",
+        "question": "من كان مدرب ريال مدريد في خسارة 5-0 عام 2010؟",
+        "answer": "جوزيه مورينيو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b016:clasico:009"
+        ]
+      },
+      {
+        "id": "b016_clasico_010",
+        "question": "من سجل هدف الفوز لريال مدريد في نهائي كأس الملك 2011؟",
+        "answer": "كريستيانو رونالدو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b016:clasico:010"
+        ]
+      },
+      {
+        "id": "b016_clasico_011",
+        "question": "من سجل هدف برشلونة في نهائي كأس الملك 2014؟",
+        "answer": "مارك بارترا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b016:clasico:011"
+        ]
+      },
+      {
+        "id": "b016_clasico_012",
+        "question": "من سجل هدف الفوز لريال مدريد في نهائي كأس الملك 2014؟",
+        "answer": "غاريث بيل",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b016:clasico:012"
+        ]
+      },
+      {
+        "id": "b016_clasico_013",
+        "question": "من سجل أول أهداف برشلونة في فوز 5-0 عام 2010؟",
+        "answer": "تشافي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:clasico:013"
+        ]
+      },
+      {
+        "id": "b016_clasico_014",
+        "question": "من سجل الهدف الخامس في فوز برشلونة 5-0 عام 2010؟",
+        "answer": "جيفرين سواريز",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:clasico:014"
+        ]
+      },
+      {
+        "id": "b016_clasico_015",
+        "question": "من سجل هدف ريال مدريد الوحيد في خسارته 2-6 عام 2009 بعد التعادل 1-1؟",
+        "answer": "سيرخيو راموس",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:clasico:015"
+        ]
+      },
+      {
+        "id": "b016_clasico_016",
+        "question": "من سجل هدف برشلونة الأول في فوز 2-6 عام 2009؟",
+        "answer": "تييري هنري",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:clasico:016"
+        ]
+      },
+      {
+        "id": "b016_clasico_017",
+        "question": "من سجل هدف برشلونة الثاني في فوز 2-6 عام 2009؟",
+        "answer": "كارليس بويول",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:clasico:017"
+        ]
+      },
+      {
+        "id": "b016_clasico_018",
+        "question": "من سجل الهدف السادس لبرشلونة في فوز 2-6 عام 2009؟",
+        "answer": "جيرارد بيكيه",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:clasico:018"
+        ]
+      },
+      {
+        "id": "b016_clasico_019",
+        "question": "من سجل هدف التعادل لريال مدريد في كلاسيكو الدوري 2016 في كامب نو؟",
+        "answer": "سيرخيو راموس",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:clasico:019"
+        ]
+      },
+      {
+        "id": "b016_clasico_020",
+        "question": "من سجل هدف برشلونة في نفس كلاسيكو ديسمبر 2016؟",
+        "answer": "لويس سواريز",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:clasico:020"
+        ]
+      },
+      {
+        "id": "b016_clasico_021",
+        "question": "من سجل هدف ريال مدريد الثاني في فوزه 3-1 في أكتوبر 2014؟",
+        "answer": "بيبي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:clasico:021"
+        ]
+      },
+      {
+        "id": "b016_clasico_022",
+        "question": "من سجل هدف برشلونة في خسارته 1-3 في أكتوبر 2014؟",
+        "answer": "نيمار",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:clasico:022"
+        ]
+      },
+      {
+        "id": "b016_clasico_023",
+        "question": "من سجل هدف ريال مدريد الثالث في كلاسيكو أكتوبر 2014؟",
+        "answer": "كريم بنزيما",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:clasico:023"
+        ]
+      },
+      {
+        "id": "b016_clasico_024",
+        "question": "من سجل ركلة جزاء ريال مدريد في كلاسيكو أكتوبر 2014؟",
+        "answer": "كريستيانو رونالدو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:clasico:024"
+        ]
+      },
+      {
+        "id": "b016_clasico_025",
+        "question": "من سجل هدف ريال مدريد الأول في فوزه 2-1 بكامب نو في أبريل 2016؟",
+        "answer": "كريم بنزيما",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:clasico:025"
+        ]
+      },
+      {
+        "id": "b016_clasico_026",
+        "question": "من سجل هدف الفوز لريال مدريد في أبريل 2016؟",
+        "answer": "كريستيانو رونالدو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:clasico:026"
+        ]
+      },
+      {
+        "id": "b016_clasico_027",
+        "question": "من سجل هدف برشلونة في كلاسيكو أبريل 2016؟",
+        "answer": "جيرارد بيكيه",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:clasico:027"
+        ]
+      },
+      {
+        "id": "b016_clasico_028",
+        "question": "من سجل هدف ريال مدريد الأول في فوزه 3-1 بكامب نو عام 2020؟",
+        "answer": "فيديريكو فالفيردي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:clasico:028"
+        ]
+      },
+      {
+        "id": "b016_clasico_029",
+        "question": "من سجل ركلة جزاء ريال مدريد في كلاسيكو أكتوبر 2020؟",
+        "answer": "سيرخيو راموس",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:clasico:029"
+        ]
+      },
+      {
+        "id": "b016_clasico_030",
+        "question": "من سجل هدف برشلونة في كلاسيكو أكتوبر 2020؟",
+        "answer": "أنسو فاتي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:clasico:030"
+        ]
+      },
+      {
+        "id": "b016_clasico_031",
+        "question": "من سجل هدف ريال مدريد الثالث في كلاسيكو أكتوبر 2020؟",
+        "answer": "لوكا مودريتش",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:clasico:031"
+        ]
+      },
+      {
+        "id": "b016_clasico_032",
+        "question": "من سجل هدف برشلونة الأول في فوزه 4-0 بالبرنابيو عام 2022؟",
+        "answer": "بيير إيمريك أوباميانغ",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:clasico:032"
+        ]
+      },
+      {
+        "id": "b016_clasico_033",
+        "question": "من سجل هدف برشلونة الثاني في فوزه 4-0 عام 2022؟",
+        "answer": "رونالد أراوخو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:clasico:033"
+        ]
+      },
+      {
+        "id": "b016_clasico_034",
+        "question": "من سجل هدف برشلونة الثالث في فوزه 4-0 عام 2022؟",
+        "answer": "فيران توريس",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:clasico:034"
+        ]
+      },
+      {
+        "id": "b016_clasico_035",
+        "question": "من سجل هدف برشلونة الرابع في فوزه 4-0 عام 2022؟",
+        "answer": "بيير إيمريك أوباميانغ",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:clasico:035"
+        ]
+      },
+      {
+        "id": "b016_clasico_036",
+        "question": "من كان مدرب برشلونة في فوزه 4-0 بالبرنابيو عام 2022؟",
+        "answer": "تشافي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:clasico:036"
+        ]
+      }
+    ],
+    "برشلونة": [
+      {
+        "id": "b016_barca_001",
+        "question": "من الهداف التاريخي لبرشلونة؟",
+        "answer": "ليونيل ميسي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b016:barca:001"
+        ]
+      },
+      {
+        "id": "b016_barca_002",
+        "question": "ما اسم ملعب برشلونة التاريخي؟",
+        "answer": "كامب نو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b016:barca:002"
+        ]
+      },
+      {
+        "id": "b016_barca_003",
+        "question": "من المدرب الذي قاد برشلونة للسداسية عام 2009؟",
+        "answer": "بيب غوارديولا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b016:barca:003"
+        ]
+      },
+      {
+        "id": "b016_barca_004",
+        "question": "من سجل هدف برشلونة الثاني في نهائي دوري الأبطال 2009؟",
+        "answer": "ليونيل ميسي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b016:barca:004"
+        ]
+      },
+      {
+        "id": "b016_barca_005",
+        "question": "من سجل هدف برشلونة الأول في نهائي دوري الأبطال 2009؟",
+        "answer": "صامويل إيتو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b016:barca:005"
+        ]
+      },
+      {
+        "id": "b016_barca_006",
+        "question": "من افتتح التسجيل لبرشلونة أمام مانشستر يونايتد في نهائي ويمبلي 2011؟",
+        "answer": "بيدرو رودريغيز",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "barcelona:2011_ucl_final:pedro_opener"
+        ]
+      },
+      {
+        "id": "b016_barca_007",
+        "question": "من سجل هدف برشلونة الثاني في نهائي 2011؟",
+        "answer": "ليونيل ميسي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b016:barca:007"
+        ]
+      },
+      {
+        "id": "b016_barca_008",
+        "question": "من سجل هدف برشلونة الثالث في نهائي 2011؟",
+        "answer": "دافيد فيا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b016:barca:008"
+        ]
+      },
+      {
+        "id": "b016_barca_009",
+        "question": "من كان قائد برشلونة في نهائي 2006؟",
+        "answer": "كارليس بويول",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b016:barca:009"
+        ]
+      },
+      {
+        "id": "b016_barca_010",
+        "question": "من سجل هدف الفوز لبرشلونة في نهائي 2006؟",
+        "answer": "جوليانو بيليتي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b016:barca:010"
+        ]
+      },
+      {
+        "id": "b016_barca_011",
+        "question": "من سجل هدف التعادل لبرشلونة في نهائي 2006؟",
+        "answer": "صامويل إيتو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b016:barca:011"
+        ]
+      },
+      {
+        "id": "b016_barca_012",
+        "question": "من سجل هدف برشلونة الأول في نهائي 2015؟",
+        "answer": "إيفان راكيتيتش",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b016:barca:012"
+        ]
+      },
+      {
+        "id": "b016_barca_013",
+        "question": "من سجل هدف برشلونة الثاني في نهائي 2015؟",
+        "answer": "لويس سواريز",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:barca:013"
+        ]
+      },
+      {
+        "id": "b016_barca_014",
+        "question": "من سجل هدف برشلونة الثالث في نهائي 2015؟",
+        "answer": "نيمار",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:barca:014"
+        ]
+      },
+      {
+        "id": "b016_barca_015",
+        "question": "من كان مدرب برشلونة في الثلاثية عام 2015؟",
+        "answer": "لويس إنريكي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:barca:015"
+        ]
+      },
+      {
+        "id": "b016_barca_016",
+        "question": "من الحارس الأساسي لبرشلونة في نهائي دوري الأبطال 2015؟",
+        "answer": "مارك أندريه تير شتيغن",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:barca:016"
+        ]
+      },
+      {
+        "id": "b016_barca_017",
+        "question": "من صنع هدف إنييستا الشهير أمام تشيلسي عام 2009؟",
+        "answer": "ليونيل ميسي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:barca:017"
+        ]
+      },
+      {
+        "id": "b016_barca_018",
+        "question": "من سجل هدف برشلونة في إياب نصف نهائي 2009 أمام تشيلسي؟",
+        "answer": "أندريس إنييستا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:barca:018"
+        ]
+      },
+      {
+        "id": "b016_barca_019",
+        "question": "من سجل هاتريك برشلونة أمام أرسنال في دوري الأبطال 2010؟",
+        "answer": "ليونيل ميسي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:barca:019"
+        ]
+      },
+      {
+        "id": "b016_barca_020",
+        "question": "من سجل أربعة أهداف لبرشلونة أمام أرسنال في إياب ربع نهائي 2010؟",
+        "answer": "ليونيل ميسي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:barca:020"
+        ]
+      },
+      {
+        "id": "b016_barca_021",
+        "question": "من سجل هدف برشلونة الشهير أمام بايرن بعد مراوغة بواتينغ عام 2015؟",
+        "answer": "ليونيل ميسي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:barca:021"
+        ]
+      },
+      {
+        "id": "b016_barca_022",
+        "question": "من سجل هدف برشلونة الثالث أمام بايرن في ذهاب نصف نهائي 2015؟",
+        "answer": "نيمار",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:barca:022"
+        ]
+      },
+      {
+        "id": "b016_barca_023",
+        "question": "من سجل هدف برشلونة السادس أمام باريس سان جيرمان في ريمونتادا 2017؟",
+        "answer": "سيرجي روبرتو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:barca:023"
+        ]
+      },
+      {
+        "id": "b016_barca_024",
+        "question": "من سجل ركلتي جزاء لبرشلونة في ريمونتادا 2017؟",
+        "answer": "ليونيل ميسي ونيمار",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:barca:024"
+        ]
+      },
+      {
+        "id": "b016_barca_025",
+        "question": "من سجل الهدف الأول لبرشلونة في ريمونتادا 2017؟",
+        "answer": "لويس سواريز",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:barca:025"
+        ]
+      },
+      {
+        "id": "b016_barca_026",
+        "question": "من سجل الهدف الخامس لبرشلونة في ريمونتادا 2017؟",
+        "answer": "نيمار",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:barca:026"
+        ]
+      },
+      {
+        "id": "b016_barca_027",
+        "question": "من صنع الهدف السادس في ريمونتادا 2017؟",
+        "answer": "نيمار",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:barca:027"
+        ]
+      },
+      {
+        "id": "b016_barca_028",
+        "question": "من سجل هدف برشلونة في نهائي كأس العالم للأندية 2009 في الوقت الإضافي؟",
+        "answer": "ليونيل ميسي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:barca:028"
+        ]
+      },
+      {
+        "id": "b016_barca_029",
+        "question": "من سجل هدف التعادل لبرشلونة في نهائي كأس العالم للأندية 2009؟",
+        "answer": "بيدرو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:barca:029"
+        ]
+      },
+      {
+        "id": "b016_barca_030",
+        "question": "من كان خصم برشلونة في نهائي كأس العالم للأندية 2011؟",
+        "answer": "سانتوس",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:barca:030"
+        ]
+      },
+      {
+        "id": "b016_barca_031",
+        "question": "من سجل هدفين لبرشلونة في نهائي كأس العالم للأندية 2011؟",
+        "answer": "ليونيل ميسي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:barca:031"
+        ]
+      },
+      {
+        "id": "b016_barca_032",
+        "question": "من سجل هدف برشلونة الأول في نهائي كأس العالم للأندية 2011؟",
+        "answer": "ليونيل ميسي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:barca:032"
+        ]
+      },
+      {
+        "id": "b016_barca_033",
+        "question": "من سجل هدف برشلونة الثاني في نهائي كأس العالم للأندية 2011؟",
+        "answer": "تشافي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:barca:033"
+        ]
+      },
+      {
+        "id": "b016_barca_034",
+        "question": "من سجل هدف برشلونة الثالث في نهائي كأس العالم للأندية 2011؟",
+        "answer": "سيسك فابريغاس",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:barca:034"
+        ]
+      },
+      {
+        "id": "b016_barca_035",
+        "question": "من سجل هدف برشلونة الرابع في نهائي كأس العالم للأندية 2011؟",
+        "answer": "ليونيل ميسي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:barca:035"
+        ]
+      },
+      {
+        "id": "b016_barca_036",
+        "question": "من كان مدرب برشلونة في نهائي كأس العالم للأندية 2011؟",
+        "answer": "بيب غوارديولا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:barca:036"
+        ]
+      }
+    ],
+    "قطر": [
+      {
+        "id": "b016_qatar_001",
+        "question": "ما عاصمة قطر؟",
+        "answer": "الدوحة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "countries": [
+            "قطر"
+          ]
+        },
+        "semantic_keys": [
+          "b016:qatar:001"
+        ]
+      },
+      {
+        "id": "b016_qatar_002",
+        "question": "ما العملة الرسمية في قطر؟",
+        "answer": "الريال القطري",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "countries": [
+            "قطر"
+          ]
+        },
+        "semantic_keys": [
+          "b016:qatar:002"
+        ]
+      },
+      {
+        "id": "b016_qatar_003",
+        "question": "في أي عام استضافت قطر كأس العالم لكرة القدم؟",
+        "answer": "2022",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "countries": [
+            "قطر"
+          ]
+        },
+        "semantic_keys": [
+          "b016:qatar:003"
+        ]
+      },
+      {
+        "id": "b016_qatar_004",
+        "question": "ما اسم الاستاد الذي استضاف نهائي كأس العالم 2022؟",
+        "answer": "استاد لوسيل",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "countries": [
+            "قطر"
+          ]
+        },
+        "semantic_keys": [
+          "b016:qatar:004"
+        ]
+      },
+      {
+        "id": "b016_qatar_005",
+        "question": "ما اسم المطار الدولي الرئيسي في قطر؟",
+        "answer": "مطار حمد الدولي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "countries": [
+            "قطر"
+          ]
+        },
+        "semantic_keys": [
+          "b016:qatar:005"
+        ]
+      },
+      {
+        "id": "b016_qatar_006",
+        "question": "ما البحر الذي تطل عليه قطر؟",
+        "answer": "الخليج العربي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "countries": [
+            "قطر"
+          ]
+        },
+        "semantic_keys": [
+          "b016:qatar:006"
+        ]
+      },
+      {
+        "id": "b016_qatar_007",
+        "question": "ما اسم الحي الثقافي الشهير في الدوحة؟",
+        "answer": "كتارا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "countries": [
+            "قطر"
+          ]
+        },
+        "semantic_keys": [
+          "b016:qatar:007"
+        ]
+      },
+      {
+        "id": "b016_qatar_008",
+        "question": "ما اسم السوق التراثي الشهير في قلب الدوحة؟",
+        "answer": "سوق واقف",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "countries": [
+            "قطر"
+          ]
+        },
+        "semantic_keys": [
+          "b016:qatar:008"
+        ]
+      },
+      {
+        "id": "b016_qatar_009",
+        "question": "ما اسم المتحف الذي صممه آي. إم. باي على كورنيش الدوحة؟",
+        "answer": "متحف الفن الإسلامي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "countries": [
+            "قطر"
+          ]
+        },
+        "semantic_keys": [
+          "b016:qatar:009"
+        ]
+      },
+      {
+        "id": "b016_qatar_010",
+        "question": "ما اسم المتحف الذي صممه جان نوفيل على هيئة وردة الصحراء؟",
+        "answer": "متحف قطر الوطني",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "countries": [
+            "قطر"
+          ]
+        },
+        "semantic_keys": [
+          "b016:qatar:010"
+        ]
+      },
+      {
+        "id": "b016_qatar_011",
+        "question": "ما اسم المدينة التعليمية التي تضم فروع جامعات عالمية في قطر؟",
+        "answer": "المدينة التعليمية",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "countries": [
+            "قطر"
+          ]
+        },
+        "semantic_keys": [
+          "b016:qatar:011"
+        ]
+      },
+      {
+        "id": "b016_qatar_012",
+        "question": "ما اسم الجزيرة الاصطناعية السكنية الشهيرة في الدوحة؟",
+        "answer": "اللؤلؤة قطر",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "countries": [
+            "قطر"
+          ]
+        },
+        "semantic_keys": [
+          "b016:qatar:012"
+        ]
+      },
+      {
+        "id": "b016_qatar_013",
+        "question": "ما اسم المدينة التي يقع فيها استاد البيت؟",
+        "answer": "الخور",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "countries": [
+            "قطر"
+          ]
+        },
+        "semantic_keys": [
+          "b016:qatar:013"
+        ]
+      },
+      {
+        "id": "b016_qatar_014",
+        "question": "ما اسم الاستاد القابل للتفكيك الذي استُخدم في كأس العالم 2022؟",
+        "answer": "استاد 974",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "countries": [
+            "قطر"
+          ]
+        },
+        "semantic_keys": [
+          "b016:qatar:014"
+        ]
+      },
+      {
+        "id": "b016_qatar_015",
+        "question": "ما اسم الاستاد الواقع في المدينة التعليمية؟",
+        "answer": "استاد المدينة التعليمية",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "countries": [
+            "قطر"
+          ]
+        },
+        "semantic_keys": [
+          "b016:qatar:015"
+        ]
+      },
+      {
+        "id": "b016_qatar_016",
+        "question": "ما اسم الاستاد الذي يقع قرب منطقة أسباير؟",
+        "answer": "استاد خليفة الدولي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "countries": [
+            "قطر"
+          ]
+        },
+        "semantic_keys": [
+          "b016:qatar:016"
+        ]
+      },
+      {
+        "id": "b016_qatar_017",
+        "question": "ما اسم النادي القطري الذي يلعب في استاد جاسم بن حمد؟",
+        "answer": "السد",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "countries": [
+            "قطر"
+          ]
+        },
+        "semantic_keys": [
+          "b016:qatar:017"
+        ]
+      },
+      {
+        "id": "b016_qatar_018",
+        "question": "ما اسم النادي القطري الملقب بالرهيب؟",
+        "answer": "الريان",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "countries": [
+            "قطر"
+          ]
+        },
+        "semantic_keys": [
+          "b016:qatar:018"
+        ]
+      },
+      {
+        "id": "b016_qatar_019",
+        "question": "ما اسم النادي القطري الملقب بالملك؟",
+        "answer": "قطر",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "countries": [
+            "قطر"
+          ]
+        },
+        "semantic_keys": [
+          "b016:qatar:019"
+        ]
+      },
+      {
+        "id": "b016_qatar_020",
+        "question": "ما اسم النادي القطري الذي يمثل مدينة الدحيل؟",
+        "answer": "الدحيل",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "countries": [
+            "قطر"
+          ]
+        },
+        "semantic_keys": [
+          "b016:qatar:020"
+        ]
+      },
+      {
+        "id": "b016_qatar_021",
+        "question": "ما اسم المؤسسة التي تدير شبكة الجزيرة الإعلامية ومقرها الدوحة؟",
+        "answer": "شبكة الجزيرة الإعلامية",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "countries": [
+            "قطر"
+          ]
+        },
+        "semantic_keys": [
+          "b016:qatar:021"
+        ]
+      },
+      {
+        "id": "b016_qatar_022",
+        "question": "ما اسم الكورنيش الممتد على خليج الدوحة؟",
+        "answer": "كورنيش الدوحة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "countries": [
+            "قطر"
+          ]
+        },
+        "semantic_keys": [
+          "b016:qatar:022"
+        ]
+      },
+      {
+        "id": "b016_qatar_023",
+        "question": "ما اسم المنطقة الحديثة التي تضم أبراجًا ومراكز أعمال شمال الدوحة؟",
+        "answer": "الخليج الغربي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "countries": [
+            "قطر"
+          ]
+        },
+        "semantic_keys": [
+          "b016:qatar:023"
+        ]
+      },
+      {
+        "id": "b016_qatar_024",
+        "question": "ما اسم المدينة الجديدة شمال الدوحة التي استضافت نهائي كأس العالم؟",
+        "answer": "لوسيل",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "countries": [
+            "قطر"
+          ]
+        },
+        "semantic_keys": [
+          "b016:qatar:024"
+        ]
+      },
+      {
+        "id": "b016_qatar_025",
+        "question": "ما اسم البطولة الآسيوية التي فازت بها قطر للمرة الأولى عام 2019؟",
+        "answer": "كأس آسيا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "countries": [
+            "قطر"
+          ]
+        },
+        "semantic_keys": [
+          "b016:qatar:025"
+        ]
+      },
+      {
+        "id": "b016_qatar_026",
+        "question": "من سجل هدف قطر الأول في نهائي كأس آسيا 2019؟",
+        "answer": "المعز علي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "countries": [
+            "قطر"
+          ]
+        },
+        "semantic_keys": [
+          "b016:qatar:026"
+        ]
+      },
+      {
+        "id": "b016_qatar_027",
+        "question": "من سجل هدف قطر الثاني في نهائي كأس آسيا 2019؟",
+        "answer": "عبدالعزيز حاتم",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "countries": [
+            "قطر"
+          ]
+        },
+        "semantic_keys": [
+          "b016:qatar:027"
+        ]
+      },
+      {
+        "id": "b016_qatar_028",
+        "question": "من سجل هدف قطر الثالث في نهائي كأس آسيا 2019؟",
+        "answer": "أكرم عفيف",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "countries": [
+            "قطر"
+          ]
+        },
+        "semantic_keys": [
+          "b016:qatar:028"
+        ]
+      },
+      {
+        "id": "b016_qatar_029",
+        "question": "أي منتخب هزمته قطر في نهائي كأس آسيا 2019؟",
+        "answer": "اليابان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "countries": [
+            "قطر"
+          ]
+        },
+        "semantic_keys": [
+          "b016:qatar:029"
+        ]
+      },
+      {
+        "id": "b016_qatar_030",
+        "question": "من فاز بجائزة أفضل لاعب في كأس آسيا 2019؟",
+        "answer": "المعز علي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "countries": [
+            "قطر"
+          ]
+        },
+        "semantic_keys": [
+          "b016:qatar:030"
+        ]
+      },
+      {
+        "id": "b016_qatar_031",
+        "question": "من كان مدرب قطر عند الفوز بكأس آسيا 2019؟",
+        "answer": "فيليكس سانشيز",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "countries": [
+            "قطر"
+          ]
+        },
+        "semantic_keys": [
+          "b016:qatar:031"
+        ]
+      },
+      {
+        "id": "b016_qatar_032",
+        "question": "كم هدفًا سجل المعز علي في كأس آسيا 2019؟",
+        "answer": "9 أهداف",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "countries": [
+            "قطر"
+          ]
+        },
+        "semantic_keys": [
+          "b016:qatar:032"
+        ]
+      },
+      {
+        "id": "b016_qatar_033",
+        "question": "ما اسم الأكاديمية الرياضية الشهيرة في قطر؟",
+        "answer": "أكاديمية أسباير",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "countries": [
+            "قطر"
+          ]
+        },
+        "semantic_keys": [
+          "b016:qatar:033"
+        ]
+      },
+      {
+        "id": "b016_qatar_034",
+        "question": "ما اسم الحلبة التي تستضيف جائزة قطر الكبرى للدراجات النارية والفورمولا 1؟",
+        "answer": "حلبة لوسيل الدولية",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "countries": [
+            "قطر"
+          ]
+        },
+        "semantic_keys": [
+          "b016:qatar:034"
+        ]
+      },
+      {
+        "id": "b016_qatar_035",
+        "question": "في أي مدينة قطرية تقع حلبة لوسيل الدولية؟",
+        "answer": "لوسيل",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "countries": [
+            "قطر"
+          ]
+        },
+        "semantic_keys": [
+          "b016:qatar:035"
+        ]
+      },
+      {
+        "id": "b016_qatar_036",
+        "question": "ما اسم الميناء السياحي الذي أعيد تطويره قرب كورنيش الدوحة؟",
+        "answer": "ميناء الدوحة القديم",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "countries": [
+            "قطر"
+          ]
+        },
+        "semantic_keys": [
+          "b016:qatar:036"
+        ]
+      }
+    ],
+    "النادي المشترك": [
+      {
+        "id": "b016_common_001",
+        "question": "ما النادي المشترك في مسيرة زلاتان إبراهيموفيتش ورونالدينيو؟",
+        "answer": "برشلونة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "clubs": [
+            "برشلونة"
+          ]
+        },
+        "semantic_keys": [
+          "b016:common:001"
+        ]
+      },
+      {
+        "id": "b016_common_002",
+        "question": "ما النادي المشترك في مسيرة كريستيانو رونالدو وكارلوس تيفيز؟",
+        "answer": "مانشستر يونايتد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "clubs": [
+            "مانشستر يونايتد"
+          ]
+        },
+        "semantic_keys": [
+          "b016:common:002"
+        ]
+      },
+      {
+        "id": "b016_common_003",
+        "question": "ما النادي المشترك في مسيرة لويس سواريز وفيليب كوتينيو؟",
+        "answer": "ليفربول",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "clubs": [
+            "ليفربول"
+          ]
+        },
+        "semantic_keys": [
+          "b016:common:003"
+        ]
+      },
+      {
+        "id": "b016_common_004",
+        "question": "ما النادي المشترك في مسيرة تييري هنري وسيسك فابريغاس؟",
+        "answer": "آرسنال",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "clubs": [
+            "آرسنال"
+          ]
+        },
+        "semantic_keys": [
+          "b016:common:004"
+        ]
+      },
+      {
+        "id": "b016_common_005",
+        "question": "ما النادي المشترك في مسيرة رونالدو نازاريو ولويس فيغو؟",
+        "answer": "ريال مدريد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "clubs": [
+            "ريال مدريد"
+          ]
+        },
+        "semantic_keys": [
+          "b016:common:005"
+        ]
+      },
+      {
+        "id": "b016_common_006",
+        "question": "ما النادي المشترك في مسيرة ديفيد بيكهام وزلاتان إبراهيموفيتش؟",
+        "answer": "باريس سان جيرمان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "clubs": [
+            "باريس سان جيرمان"
+          ]
+        },
+        "semantic_keys": [
+          "b016:common:006"
+        ]
+      },
+      {
+        "id": "b016_common_007",
+        "question": "ما النادي المشترك في مسيرة أندريا بيرلو وزلاتان إبراهيموفيتش؟",
+        "answer": "ميلان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "clubs": [
+            "ميلان"
+          ]
+        },
+        "semantic_keys": [
+          "b016:common:007"
+        ]
+      },
+      {
+        "id": "b016_common_008",
+        "question": "ما النادي المشترك في مسيرة صامويل إيتو ودييغو ميليتو؟",
+        "answer": "إنتر ميلان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "clubs": [
+            "إنتر ميلان"
+          ]
+        },
+        "semantic_keys": [
+          "b016:common:008"
+        ]
+      },
+      {
+        "id": "b016_common_009",
+        "question": "ما النادي المشترك في مسيرة نيمار وداني ألفيش؟",
+        "answer": "برشلونة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "clubs": [
+            "برشلونة"
+          ]
+        },
+        "semantic_keys": [
+          "b016:common:009"
+        ]
+      },
+      {
+        "id": "b016_common_010",
+        "question": "ما النادي المشترك في مسيرة أنخيل دي ماريا وكريستيانو رونالدو؟",
+        "answer": "ريال مدريد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "clubs": [
+            "ريال مدريد"
+          ]
+        },
+        "semantic_keys": [
+          "b016:common:010"
+        ]
+      },
+      {
+        "id": "b016_common_011",
+        "question": "ما النادي المشترك في مسيرة روبن فان بيرسي وواين روني؟",
+        "answer": "مانشستر يونايتد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "clubs": [
+            "مانشستر يونايتد"
+          ]
+        },
+        "semantic_keys": [
+          "b016:common:011"
+        ]
+      },
+      {
+        "id": "b016_common_012",
+        "question": "ما النادي المشترك في مسيرة محمد صلاح وكيفن دي بروين؟",
+        "answer": "تشيلسي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "clubs": [
+            "تشيلسي"
+          ]
+        },
+        "semantic_keys": [
+          "b016:common:012"
+        ]
+      },
+      {
+        "id": "b016_common_013",
+        "question": "ما النادي المشترك في مسيرة ساديو ماني وروبرت ليفاندوفسكي؟",
+        "answer": "بايرن ميونخ",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "clubs": [
+            "بايرن ميونخ"
+          ]
+        },
+        "semantic_keys": [
+          "b016:common:013"
+        ]
+      },
+      {
+        "id": "b016_common_014",
+        "question": "ما النادي المشترك في مسيرة إدين هازارد وتيبو كورتوا؟",
+        "answer": "تشيلسي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "clubs": [
+            "تشيلسي"
+          ]
+        },
+        "semantic_keys": [
+          "b016:common:014"
+        ]
+      },
+      {
+        "id": "b016_common_015",
+        "question": "ما النادي المشترك في مسيرة غاريث بيل ولوكا مودريتش؟",
+        "answer": "توتنهام",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "clubs": [
+            "توتنهام"
+          ]
+        },
+        "semantic_keys": [
+          "b016:common:015"
+        ]
+      },
+      {
+        "id": "b016_common_016",
+        "question": "ما النادي المشترك في مسيرة سيرخيو أغويرو ودافيد سيلفا؟",
+        "answer": "مانشستر سيتي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "clubs": [
+            "مانشستر سيتي"
+          ]
+        },
+        "semantic_keys": [
+          "b016:common:016"
+        ]
+      },
+      {
+        "id": "b016_common_017",
+        "question": "ما النادي المشترك في مسيرة مسعود أوزيل وأنخيل دي ماريا؟",
+        "answer": "ريال مدريد",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "clubs": [
+            "ريال مدريد"
+          ]
+        },
+        "semantic_keys": [
+          "b016:common:017"
+        ]
+      },
+      {
+        "id": "b016_common_018",
+        "question": "ما النادي المشترك في مسيرة تشابي ألونسو وآريين روبن؟",
+        "answer": "بايرن ميونخ",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "clubs": [
+            "بايرن ميونخ"
+          ]
+        },
+        "semantic_keys": [
+          "b016:common:018"
+        ]
+      },
+      {
+        "id": "b016_common_019",
+        "question": "ما النادي المشترك في مسيرة إدينسون كافاني وزلاتان إبراهيموفيتش؟",
+        "answer": "باريس سان جيرمان",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "clubs": [
+            "باريس سان جيرمان"
+          ]
+        },
+        "semantic_keys": [
+          "b016:common:019"
+        ]
+      },
+      {
+        "id": "b016_common_020",
+        "question": "ما النادي المشترك في مسيرة فرناندو توريس ودافيد فيا؟",
+        "answer": "أتلتيكو مدريد",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "clubs": [
+            "أتلتيكو مدريد"
+          ]
+        },
+        "semantic_keys": [
+          "b016:common:020"
+        ]
+      },
+      {
+        "id": "b016_common_021",
+        "question": "ما النادي المشترك في مسيرة راداميل فالكاو وجيمس رودريغيز؟",
+        "answer": "موناكو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "clubs": [
+            "موناكو"
+          ]
+        },
+        "semantic_keys": [
+          "b016:common:021"
+        ]
+      },
+      {
+        "id": "b016_common_022",
+        "question": "ما النادي المشترك في مسيرة لويس فيغو ورونالدو نازاريو خارج ريال مدريد؟",
+        "answer": "إنتر ميلان",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "clubs": [
+            "إنتر ميلان"
+          ]
+        },
+        "semantic_keys": [
+          "b016:common:022"
+        ]
+      },
+      {
+        "id": "b016_common_023",
+        "question": "ما النادي المشترك في مسيرة ديفيد لويز ومحمد صلاح؟",
+        "answer": "تشيلسي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "clubs": [
+            "تشيلسي"
+          ]
+        },
+        "semantic_keys": [
+          "b016:common:023"
+        ]
+      },
+      {
+        "id": "b016_common_024",
+        "question": "ما النادي المشترك في مسيرة روميلو لوكاكو وزلاتان إبراهيموفيتش؟",
+        "answer": "مانشستر يونايتد",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "clubs": [
+            "مانشستر يونايتد"
+          ]
+        },
+        "semantic_keys": [
+          "b016:common:024"
+        ]
+      },
+      {
+        "id": "b016_common_025",
+        "question": "ما النادي المشترك في مسيرة هنريك مخيتاريان وأليكسيس سانشيز؟",
+        "answer": "مانشستر يونايتد",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "clubs": [
+            "مانشستر يونايتد"
+          ]
+        },
+        "semantic_keys": [
+          "b016:common:025"
+        ]
+      },
+      {
+        "id": "b016_common_026",
+        "question": "ما النادي المشترك في مسيرة بيير إيمريك أوباميانغ وعثمان ديمبيلي؟",
+        "answer": "بوروسيا دورتموند",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "clubs": [
+            "بوروسيا دورتموند"
+          ]
+        },
+        "semantic_keys": [
+          "b016:common:026"
+        ]
+      },
+      {
+        "id": "b016_common_027",
+        "question": "ما النادي المشترك في مسيرة إلكاي غوندوغان وإيرلينغ هالاند؟",
+        "answer": "مانشستر سيتي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "clubs": [
+            "مانشستر سيتي"
+          ]
+        },
+        "semantic_keys": [
+          "b016:common:027"
+        ]
+      },
+      {
+        "id": "b016_common_028",
+        "question": "ما النادي المشترك في مسيرة جود بيلينغهام وإيرلينغ هالاند؟",
+        "answer": "بوروسيا دورتموند",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "clubs": [
+            "بوروسيا دورتموند"
+          ]
+        },
+        "semantic_keys": [
+          "b016:common:028"
+        ]
+      },
+      {
+        "id": "b016_common_029",
+        "question": "ما النادي المشترك في مسيرة كاكا ورونالدينيو؟",
+        "answer": "ميلان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "clubs": [
+            "ميلان"
+          ]
+        },
+        "semantic_keys": [
+          "b016:common:029"
+        ]
+      },
+      {
+        "id": "b016_common_030",
+        "question": "ما النادي المشترك في مسيرة كلارنس سيدورف وأندريا بيرلو؟",
+        "answer": "ميلان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "clubs": [
+            "ميلان"
+          ]
+        },
+        "semantic_keys": [
+          "b016:common:030"
+        ]
+      },
+      {
+        "id": "b016_common_031",
+        "question": "ما النادي المشترك في مسيرة باتريك فييرا وتييري هنري؟",
+        "answer": "آرسنال",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "clubs": [
+            "آرسنال"
+          ]
+        },
+        "semantic_keys": [
+          "b016:common:031"
+        ]
+      },
+      {
+        "id": "b016_common_032",
+        "question": "ما النادي المشترك في مسيرة مايكل أوين وستيفن جيرارد؟",
+        "answer": "ليفربول",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "clubs": [
+            "ليفربول"
+          ]
+        },
+        "semantic_keys": [
+          "b016:common:032"
+        ]
+      },
+      {
+        "id": "b016_common_033",
+        "question": "ما النادي المشترك في مسيرة تشابي ألونسو وستيفن جيرارد؟",
+        "answer": "ليفربول",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "clubs": [
+            "ليفربول"
+          ]
+        },
+        "semantic_keys": [
+          "b016:common:033"
+        ]
+      },
+      {
+        "id": "b016_common_034",
+        "question": "ما النادي المشترك في مسيرة نيمانيا فيديتش وكريستيانو رونالدو؟",
+        "answer": "مانشستر يونايتد",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "clubs": [
+            "مانشستر يونايتد"
+          ]
+        },
+        "semantic_keys": [
+          "b016:common:034"
+        ]
+      },
+      {
+        "id": "b016_common_035",
+        "question": "ما النادي المشترك في مسيرة ريو فرديناند وواين روني؟",
+        "answer": "مانشستر يونايتد",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "clubs": [
+            "مانشستر يونايتد"
+          ]
+        },
+        "semantic_keys": [
+          "b016:common:035"
+        ]
+      },
+      {
+        "id": "b016_common_036",
+        "question": "ما النادي المشترك في مسيرة ديدييه دروغبا وفرانك لامبارد؟",
+        "answer": "تشيلسي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "clubs": [
+            "تشيلسي"
+          ]
+        },
+        "semantic_keys": [
+          "b016:common:036"
+        ]
+      }
+    ],
+    "حروف اسلامي": [
+      {
+        "id": "b016_islamletters_001",
+        "question": "بحرف أ: نبي لُقّب بأبي الأنبياء.",
+        "answer": "إبراهيم",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b016:islamletters:001"
+        ],
+        "source_policy": "المصادر السنية المعتبرة والقرآن الكريم والأحاديث الصحيحة"
+      },
+      {
+        "id": "b016_islamletters_002",
+        "question": "بحرف ب: غزوة كبرى وقعت في رمضان من السنة الثانية للهجرة.",
+        "answer": "بدر",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b016:islamletters:002"
+        ],
+        "source_policy": "المصادر السنية المعتبرة والقرآن الكريم والأحاديث الصحيحة"
+      },
+      {
+        "id": "b016_islamletters_003",
+        "question": "بحرف ت: سورة في القرآن اسمها يعني الرجوع إلى الله.",
+        "answer": "التوبة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b016:islamletters:003"
+        ],
+        "source_policy": "المصادر السنية المعتبرة والقرآن الكريم والأحاديث الصحيحة"
+      },
+      {
+        "id": "b016_islamletters_004",
+        "question": "بحرف ج: صحابي من آل بيت النبي ﷺ استشهد في مؤتة.",
+        "answer": "جعفر بن أبي طالب",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b016:islamletters:004"
+        ],
+        "source_policy": "المصادر السنية المعتبرة والقرآن الكريم والأحاديث الصحيحة"
+      },
+      {
+        "id": "b016_islamletters_005",
+        "question": "بحرف ح: أول مسجد أسسه النبي ﷺ بعد الهجرة في موضع يبدأ اسمه بحرف ق، فما اسمه؟",
+        "answer": "قباء",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b016:islamletters:005"
+        ],
+        "source_policy": "المصادر السنية المعتبرة والقرآن الكريم والأحاديث الصحيحة"
+      },
+      {
+        "id": "b016_islamletters_006",
+        "question": "بحرف خ: صحابي لُقّب بسيف الله المسلول.",
+        "answer": "خالد بن الوليد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b016:islamletters:006"
+        ],
+        "source_policy": "المصادر السنية المعتبرة والقرآن الكريم والأحاديث الصحيحة"
+      },
+      {
+        "id": "b016_islamletters_007",
+        "question": "بحرف د: نبي وملك آتاه الله الزبور.",
+        "answer": "داود",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b016:islamletters:007"
+        ],
+        "source_policy": "المصادر السنية المعتبرة والقرآن الكريم والأحاديث الصحيحة"
+      },
+      {
+        "id": "b016_islamletters_008",
+        "question": "بحرف ذ: نبي ورد اسمه في سورة الأنبياء ولقبه ذو النون.",
+        "answer": "يونس",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b016:islamletters:008"
+        ],
+        "source_policy": "المصادر السنية المعتبرة والقرآن الكريم والأحاديث الصحيحة"
+      },
+      {
+        "id": "b016_islamletters_009",
+        "question": "بحرف ر: شهر هجري يأتي بعد جمادى الآخرة.",
+        "answer": "رجب",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b016:islamletters:009"
+        ],
+        "source_policy": "المصادر السنية المعتبرة والقرآن الكريم والأحاديث الصحيحة"
+      },
+      {
+        "id": "b016_islamletters_010",
+        "question": "بحرف ز: نبي كفل مريم عليها السلام.",
+        "answer": "زكريا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b016:islamletters:010"
+        ],
+        "source_policy": "المصادر السنية المعتبرة والقرآن الكريم والأحاديث الصحيحة"
+      },
+      {
+        "id": "b016_islamletters_011",
+        "question": "بحرف س: نبي سخر الله له الريح والجن.",
+        "answer": "سليمان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b016:islamletters:011"
+        ],
+        "source_policy": "المصادر السنية المعتبرة والقرآن الكريم والأحاديث الصحيحة"
+      },
+      {
+        "id": "b016_islamletters_012",
+        "question": "بحرف ش: الشهر الهجري الذي يسبق رمضان.",
+        "answer": "شعبان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b016:islamletters:012"
+        ],
+        "source_policy": "المصادر السنية المعتبرة والقرآن الكريم والأحاديث الصحيحة"
+      },
+      {
+        "id": "b016_islamletters_013",
+        "question": "بحرف ص: صحابي كان أول الخلفاء الراشدين ولقبه الصديق.",
+        "answer": "أبو بكر الصديق",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:islamletters:013"
+        ],
+        "source_policy": "المصادر السنية المعتبرة والقرآن الكريم والأحاديث الصحيحة"
+      },
+      {
+        "id": "b016_islamletters_014",
+        "question": "بحرف ض: سورة تبدأ بالقسم بالضحى.",
+        "answer": "الضحى",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:islamletters:014"
+        ],
+        "source_policy": "المصادر السنية المعتبرة والقرآن الكريم والأحاديث الصحيحة"
+      },
+      {
+        "id": "b016_islamletters_015",
+        "question": "بحرف ط: صحابي من العشرة المبشرين بالجنة اسمه طلحة.",
+        "answer": "طلحة بن عبيد الله",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:islamletters:015"
+        ],
+        "source_policy": "المصادر السنية المعتبرة والقرآن الكريم والأحاديث الصحيحة"
+      },
+      {
+        "id": "b016_islamletters_016",
+        "question": "بحرف ع: ابن عم النبي ﷺ وزوج فاطمة.",
+        "answer": "علي بن أبي طالب",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:islamletters:016"
+        ],
+        "source_policy": "المصادر السنية المعتبرة والقرآن الكريم والأحاديث الصحيحة"
+      },
+      {
+        "id": "b016_islamletters_017",
+        "question": "بحرف غ: الغزوة التي سميت باسم جبل قرب المدينة ووقعت في السنة الثالثة.",
+        "answer": "أحد",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:islamletters:017"
+        ],
+        "source_policy": "المصادر السنية المعتبرة والقرآن الكريم والأحاديث الصحيحة"
+      },
+      {
+        "id": "b016_islamletters_018",
+        "question": "بحرف ف: سورة افتتحت بـ «الحمد لله الذي أنزل على عبده الكتاب»؟",
+        "answer": "الكهف",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:islamletters:018"
+        ],
+        "source_policy": "المصادر السنية المعتبرة والقرآن الكريم والأحاديث الصحيحة"
+      },
+      {
+        "id": "b016_islamletters_019",
+        "question": "بحرف ق: أول مسجد بناه النبي ﷺ بعد الهجرة.",
+        "answer": "قباء",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:islamletters:019"
+        ],
+        "source_policy": "المصادر السنية المعتبرة والقرآن الكريم والأحاديث الصحيحة"
+      },
+      {
+        "id": "b016_islamletters_020",
+        "question": "بحرف ك: السورة التي تبدأ بـ «إنا أعطيناك».",
+        "answer": "الكوثر",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:islamletters:020"
+        ],
+        "source_policy": "المصادر السنية المعتبرة والقرآن الكريم والأحاديث الصحيحة"
+      },
+      {
+        "id": "b016_islamletters_021",
+        "question": "بحرف ل: نبي أرسل إلى قوم اشتهروا بفاحشة عظيمة.",
+        "answer": "لوط",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:islamletters:021"
+        ],
+        "source_policy": "المصادر السنية المعتبرة والقرآن الكريم والأحاديث الصحيحة"
+      },
+      {
+        "id": "b016_islamletters_022",
+        "question": "بحرف م: النبي الذي كلمه الله تكليمًا.",
+        "answer": "موسى",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:islamletters:022"
+        ],
+        "source_policy": "المصادر السنية المعتبرة والقرآن الكريم والأحاديث الصحيحة"
+      },
+      {
+        "id": "b016_islamletters_023",
+        "question": "بحرف ن: نبي صنع السفينة بأمر الله.",
+        "answer": "نوح",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:islamletters:023"
+        ],
+        "source_policy": "المصادر السنية المعتبرة والقرآن الكريم والأحاديث الصحيحة"
+      },
+      {
+        "id": "b016_islamletters_024",
+        "question": "بحرف هـ: نبي أرسل إلى قوم عاد.",
+        "answer": "هود",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:islamletters:024"
+        ],
+        "source_policy": "المصادر السنية المعتبرة والقرآن الكريم والأحاديث الصحيحة"
+      },
+      {
+        "id": "b016_islamletters_025",
+        "question": "بحرف و: سورة قصيرة تبدأ بـ «والعصر». ما الكلمة المقسم بها؟",
+        "answer": "العصر",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:islamletters:025"
+        ],
+        "source_policy": "المصادر السنية المعتبرة والقرآن الكريم والأحاديث الصحيحة"
+      },
+      {
+        "id": "b016_islamletters_026",
+        "question": "بحرف ي: نبي ابتلعه الحوت.",
+        "answer": "يونس",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:islamletters:026"
+        ],
+        "source_policy": "المصادر السنية المعتبرة والقرآن الكريم والأحاديث الصحيحة"
+      },
+      {
+        "id": "b016_islamletters_027",
+        "question": "بحرف أ: أول مسجد وضع للناس كما في القرآن.",
+        "answer": "المسجد الحرام",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:islamletters:027"
+        ],
+        "source_policy": "المصادر السنية المعتبرة والقرآن الكريم والأحاديث الصحيحة"
+      },
+      {
+        "id": "b016_islamletters_028",
+        "question": "بحرف ب: اسم الصحابي مؤذن الرسول ﷺ.",
+        "answer": "بلال بن رباح",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:islamletters:028"
+        ],
+        "source_policy": "المصادر السنية المعتبرة والقرآن الكريم والأحاديث الصحيحة"
+      },
+      {
+        "id": "b016_islamletters_029",
+        "question": "بحرف ج: أم المؤمنين ابنة عمر بن الخطاب.",
+        "answer": "حفصة بنت عمر",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:islamletters:029"
+        ],
+        "source_policy": "المصادر السنية المعتبرة والقرآن الكريم والأحاديث الصحيحة"
+      },
+      {
+        "id": "b016_islamletters_030",
+        "question": "بحرف ح: سبط النبي ﷺ وابن علي وفاطمة، الأكبر منهما.",
+        "answer": "الحسن بن علي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:islamletters:030"
+        ],
+        "source_policy": "المصادر السنية المعتبرة والقرآن الكريم والأحاديث الصحيحة"
+      },
+      {
+        "id": "b016_islamletters_031",
+        "question": "بحرف خ: غزوة انتهت بصلح مشهور في السنة السادسة للهجرة.",
+        "answer": "الحديبية",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:islamletters:031"
+        ],
+        "source_policy": "المصادر السنية المعتبرة والقرآن الكريم والأحاديث الصحيحة"
+      },
+      {
+        "id": "b016_islamletters_032",
+        "question": "بحرف د: صحابي بعثه النبي ﷺ بكتاب إلى هرقل.",
+        "answer": "دحية الكلبي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:islamletters:032"
+        ],
+        "source_policy": "المصادر السنية المعتبرة والقرآن الكريم والأحاديث الصحيحة"
+      },
+      {
+        "id": "b016_islamletters_033",
+        "question": "بحرف ر: صحابي اشتهر بلقب أمين هذه الأمة واسمه يبدأ بأبي عبيدة، ما اسمه؟",
+        "answer": "أبو عبيدة عامر بن الجراح",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:islamletters:033"
+        ],
+        "source_policy": "المصادر السنية المعتبرة والقرآن الكريم والأحاديث الصحيحة"
+      },
+      {
+        "id": "b016_islamletters_034",
+        "question": "بحرف س: أول مسجد في الإسلام ارتبط بهجرة النبي ﷺ.",
+        "answer": "قباء",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:islamletters:034"
+        ],
+        "source_policy": "المصادر السنية المعتبرة والقرآن الكريم والأحاديث الصحيحة"
+      },
+      {
+        "id": "b016_islamletters_035",
+        "question": "بحرف ع: عم النبي ﷺ الذي استشهد في أحد.",
+        "answer": "حمزة بن عبد المطلب",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:islamletters:035"
+        ],
+        "source_policy": "المصادر السنية المعتبرة والقرآن الكريم والأحاديث الصحيحة"
+      },
+      {
+        "id": "b016_islamletters_036",
+        "question": "بحرف م: الصحابي الذي أرسله النبي ﷺ إلى يثرب قبل الهجرة ليعلم أهلها الإسلام.",
+        "answer": "مصعب بن عمير",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b016:islamletters:036"
+        ],
+        "source_policy": "المصادر السنية المعتبرة والقرآن الكريم والأحاديث الصحيحة"
+      }
+    ],
+    "مسيرة لاعب": [
+      {
+        "id": "b016_career_001",
+        "question": "سبورتينغ لشبونة 2002–2003 ← مانشستر يونايتد 2003–2009 ← ريال مدريد 2009–2018 ← يوفنتوس 2018–2021 ← مانشستر يونايتد 2021–2022 ← النصر 2023– : من اللاعب؟",
+        "answer": "كريستيانو رونالدو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "players": [
+            "كريستيانو رونالدو"
+          ]
+        },
+        "semantic_keys": [
+          "career:كريستيانو رونالدو:b016"
+        ]
+      },
+      {
+        "id": "b016_career_002",
+        "question": "غرونينغن 2006–2007 ← أياكس 2007–2010 ← ليفربول 2011–2014 ← برشلونة 2014–2020 ← أتلتيكو مدريد 2020–2022 ← ناسيونال 2022–2023 ← غريميو 2023–2024 ← إنتر ميامي 2025– : من اللاعب؟",
+        "answer": "لويس سواريز",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "players": [
+            "لويس سواريز"
+          ]
+        },
+        "semantic_keys": [
+          "career:لويس سواريز:b016"
+        ]
+      },
+      {
+        "id": "b016_career_003",
+        "question": "سانتوس 2009–2013 ← برشلونة 2013–2017 ← باريس سان جيرمان 2017–2023 ← الهلال 2023–2025 ← سانتوس 2025– : من اللاعب؟",
+        "answer": "نيمار",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "players": [
+            "نيمار"
+          ]
+        },
+        "semantic_keys": [
+          "career:نيمار:b016"
+        ]
+      },
+      {
+        "id": "b016_career_004",
+        "question": "مالمو 1999–2001 ← أياكس 2001–2004 ← يوفنتوس 2004–2006 ← إنتر 2006–2009 ← برشلونة 2009–2011 ← ميلان 2010–2012 ← باريس سان جيرمان 2012–2016 ← مانشستر يونايتد 2016–2018 ← لوس أنجلوس غالاكسي 2018–2019 ← ميلان 2020–2023: من اللاعب؟",
+        "answer": "زلاتان إبراهيموفيتش",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "players": [
+            "زلاتان إبراهيموفيتش"
+          ]
+        },
+        "semantic_keys": [
+          "career:زلاتان إبراهيموفيتش:b016"
+        ]
+      },
+      {
+        "id": "b016_career_005",
+        "question": "ريفر بليت 1996–2001 ← برشلونة 2001–2007 ← موناكو 2007–2011 ← ملقا 2011–2012 ← أولمبياكوس 2012–2013: من اللاعب؟",
+        "answer": "خافيير سافيولا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "players": [
+            "خافيير سافيولا"
+          ]
+        },
+        "semantic_keys": [
+          "career:خافيير سافيولا:b016"
+        ]
+      },
+      {
+        "id": "b016_career_006",
+        "question": "روزاريو سنترال 2005–2007 ← بنفيكا 2007–2010 ← ريال مدريد 2010–2014 ← مانشستر يونايتد 2014–2015 ← باريس سان جيرمان 2015–2022 ← يوفنتوس 2022–2023 ← بنفيكا 2023– : من اللاعب؟",
+        "answer": "أنخيل دي ماريا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "players": [
+            "أنخيل دي ماريا"
+          ]
+        },
+        "semantic_keys": [
+          "career:أنخيل دي ماريا:b016"
+        ]
+      },
+      {
+        "id": "b016_career_007",
+        "question": "ساوثهامبتون 2006–2007 ← توتنهام 2007–2013 ← ريال مدريد 2013–2022 ← لوس أنجلوس 2022–2023: من اللاعب؟",
+        "answer": "غاريث بيل",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "players": [
+            "غاريث بيل"
+          ]
+        },
+        "semantic_keys": [
+          "career:غاريث بيل:b016"
+        ]
+      },
+      {
+        "id": "b016_career_008",
+        "question": "دينامو زغرب 2003–2008 ← توتنهام 2008–2012 ← ريال مدريد 2012– : من اللاعب؟",
+        "answer": "لوكا مودريتش",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "players": [
+            "لوكا مودريتش"
+          ]
+        },
+        "semantic_keys": [
+          "career:لوكا مودريتش:b016"
+        ]
+      },
+      {
+        "id": "b016_career_009",
+        "question": "ساوثهامبتون 2011–2014 ← ليفربول 2014–2016 ← بورنموث 2016–2019 ← ساوثهامبتون 2019–2023: من اللاعب؟",
+        "answer": "آدم لالانا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "players": [
+            "آدم لالانا"
+          ]
+        },
+        "semantic_keys": [
+          "career:آدم لالانا:b016"
+        ]
+      },
+      {
+        "id": "b016_career_010",
+        "question": "بازل 2012–2014 ← تشيلسي 2014–2016 ← فيورنتينا 2015–2016 ← روما 2015–2017 ← ليفربول 2017–2025: من اللاعب؟",
+        "answer": "محمد صلاح",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "players": [
+            "محمد صلاح"
+          ]
+        },
+        "semantic_keys": [
+          "career:محمد صلاح:b016"
+        ]
+      },
+      {
+        "id": "b016_career_011",
+        "question": "جينك 2008–2012 ← تشيلسي 2012–2014 ← فيردر بريمن 2012–2013 ← فولفسبورغ 2014–2015 ← مانشستر سيتي 2015–2025: من اللاعب؟",
+        "answer": "كيفن دي بروين",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "players": [
+            "كيفن دي بروين"
+          ]
+        },
+        "semantic_keys": [
+          "career:كيفن دي بروين:b016"
+        ]
+      },
+      {
+        "id": "b016_career_012",
+        "question": "ميتز 2011–2012 ← سالزبورغ 2012–2014 ← ساوثهامبتون 2014–2016 ← ليفربول 2016–2022 ← بايرن ميونخ 2022–2023 ← النصر 2023– : من اللاعب؟",
+        "answer": "ساديو ماني",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "players": [
+            "ساديو ماني"
+          ]
+        },
+        "semantic_keys": [
+          "career:ساديو ماني:b016"
+        ]
+      },
+      {
+        "id": "b016_career_013",
+        "question": "ليخ بوزنان 2008–2010 ← بوروسيا دورتموند 2010–2014 ← بايرن ميونخ 2014–2022 ← برشلونة 2022– : من اللاعب؟",
+        "answer": "روبرت ليفاندوفسكي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "players": [
+            "روبرت ليفاندوفسكي"
+          ]
+        },
+        "semantic_keys": [
+          "career:روبرت ليفاندوفسكي:b016"
+        ]
+      },
+      {
+        "id": "b016_career_014",
+        "question": "مولده 2017–2019 ← سالزبورغ 2019–2020 ← بوروسيا دورتموند 2020–2022 ← مانشستر سيتي 2022– : من اللاعب؟",
+        "answer": "إيرلينغ هالاند",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "players": [
+            "إيرلينغ هالاند"
+          ]
+        },
+        "semantic_keys": [
+          "career:إيرلينغ هالاند:b016"
+        ]
+      },
+      {
+        "id": "b016_career_015",
+        "question": "برمنغهام سيتي 2019–2020 ← بوروسيا دورتموند 2020–2023 ← ريال مدريد 2023– : من اللاعب؟",
+        "answer": "جود بيلينغهام",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "players": [
+            "جود بيلينغهام"
+          ]
+        },
+        "semantic_keys": [
+          "career:جود بيلينغهام:b016"
+        ]
+      },
+      {
+        "id": "b016_career_016",
+        "question": "ليل 2007–2012 ← تشيلسي 2012–2019 ← ريال مدريد 2019–2023: من اللاعب؟",
+        "answer": "إدين هازارد",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "players": [
+            "إدين هازارد"
+          ]
+        },
+        "semantic_keys": [
+          "career:إدين هازارد:b016"
+        ]
+      },
+      {
+        "id": "b016_career_017",
+        "question": "أندرلخت 2009–2011 ← تشيلسي 2011–2014 ← وست بروميتش 2012–2013 ← إيفرتون 2013–2017 ← مانشستر يونايتد 2017–2019 ← إنتر 2019–2021 ← تشيلسي 2021–2024 ← روما 2023–2024 ← نابولي 2024– : من اللاعب؟",
+        "answer": "روميلو لوكاكو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "players": [
+            "روميلو لوكاكو"
+          ]
+        },
+        "semantic_keys": [
+          "career:روميلو لوكاكو:b016"
+        ]
+      },
+      {
+        "id": "b016_career_018",
+        "question": "إنديبندينتي 2003–2006 ← أتلتيكو مدريد 2006–2011 ← مانشستر سيتي 2011–2021 ← برشلونة 2021: من اللاعب؟",
+        "answer": "سيرخيو أغويرو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "players": [
+            "سيرخيو أغويرو"
+          ]
+        },
+        "semantic_keys": [
+          "career:سيرخيو أغويرو:b016"
+        ]
+      },
+      {
+        "id": "b016_career_019",
+        "question": "إيفرتون 2002–2004 ← مانشستر يونايتد 2004–2017 ← إيفرتون 2017–2018 ← دي سي يونايتد 2018–2020 ← ديربي كاونتي 2020–2021: من اللاعب؟",
+        "answer": "واين روني",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "players": [
+            "واين روني"
+          ]
+        },
+        "semantic_keys": [
+          "career:واين روني:b016"
+        ]
+      },
+      {
+        "id": "b016_career_020",
+        "question": "فينورد 2001–2004 ← آرسنال 2004–2012 ← مانشستر يونايتد 2012–2015 ← فنربخشة 2015–2018 ← فينورد 2018–2019: من اللاعب؟",
+        "answer": "روبن فان بيرسي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "players": [
+            "روبن فان بيرسي"
+          ]
+        },
+        "semantic_keys": [
+          "career:روبن فان بيرسي:b016"
+        ]
+      },
+      {
+        "id": "b016_career_021",
+        "question": "ريفر بليت 2003–2005 ← كورينثيانز 2005–2006 ← وست هام 2006–2007 ← مانشستر يونايتد 2007–2009 ← مانشستر سيتي 2009–2013 ← يوفنتوس 2013–2015 ← بوكا جونيورز 2015–2016 ← شنغهاي شينهوا 2016–2018 ← بوكا جونيورز 2018–2021: من اللاعب؟",
+        "answer": "كارلوس تيفيز",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "players": [
+            "كارلوس تيفيز"
+          ]
+        },
+        "semantic_keys": [
+          "career:كارلوس تيفيز:b016"
+        ]
+      },
+      {
+        "id": "b016_career_022",
+        "question": "أتليتيكو ناسيونال 1996–1997 ← ريفر بليت 1997–2001 ← بورتو 2001–2005 ← موناكو 2005–2009 ← بنفيكا 2009–2011 ← ريفر بليت 2011–2012: من اللاعب؟",
+        "answer": "راداميل فالكاو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "players": [
+            "راداميل فالكاو"
+          ]
+        },
+        "semantic_keys": [
+          "career:راداميل فالكاو:b016"
+        ]
+      },
+      {
+        "id": "b016_career_023",
+        "question": "إنفيغادو 2006–2008 ← بانفيلد 2008–2010 ← بورتو 2010–2013 ← موناكو 2013–2014 ← ريال مدريد 2014–2020 ← بايرن ميونخ 2017–2019 ← إيفرتون 2020–2021 ← الريان 2021–2022 ← أولمبياكوس 2022–2023 ← ساو باولو 2023–2024: من اللاعب؟",
+        "answer": "جيمس رودريغيز",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "players": [
+            "جيمس رودريغيز"
+          ]
+        },
+        "semantic_keys": [
+          "career:جيمس رودريغيز:b016"
+        ]
+      },
+      {
+        "id": "b016_career_024",
+        "question": "سبورتينغ لشبونة 2002–2004 ← برشلونة 2004–2008 ← إنتر 2008–2013 ← تشيلسي 2013–2014 ← إيفرتون 2014–2016: من اللاعب؟",
+        "answer": "صامويل إيتو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "players": [
+            "صامويل إيتو"
+          ]
+        },
+        "semantic_keys": [
+          "career:صامويل إيتو:b016"
+        ]
+      },
+      {
+        "id": "b016_career_025",
+        "question": "كان 2013–2015 ← ليستر سيتي 2015–2016 ← تشيلسي 2016–2023 ← الاتحاد 2023– : من اللاعب؟",
+        "answer": "نغولو كانتي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "players": [
+            "نغولو كانتي"
+          ]
+        },
+        "semantic_keys": [
+          "career:نغولو كانتي:b016"
+        ]
+      },
+      {
+        "id": "b016_career_026",
+        "question": "بولونيا 2002–2004 ← فيورنتينا 2004–2006 ← يوفنتوس 2006–2011 ← ميلان 2011–2012 ← يوفنتوس 2012–2014 ← دلهي ديناموس 2014: من اللاعب؟",
+        "answer": "أليساندرو ديل بييرو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "players": [
+            "أليساندرو ديل بييرو"
+          ]
+        },
+        "semantic_keys": [
+          "career:أليساندرو ديل بييرو:b016"
+        ]
+      },
+      {
+        "id": "b016_career_027",
+        "question": "بريشيا 1995–1998 ← إنتر 1998–2001 ← ميلان 2001–2011 ← يوفنتوس 2011–2015 ← نيويورك سيتي 2015–2017: من اللاعب؟",
+        "answer": "أندريا بيرلو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "players": [
+            "أندريا بيرلو"
+          ]
+        },
+        "semantic_keys": [
+          "career:أندريا بيرلو:b016"
+        ]
+      },
+      {
+        "id": "b016_career_028",
+        "question": "أياكس 1992–1995 ← سامبدوريا 1995–1996 ← ريال مدريد 1996–1999 ← إنتر 2000–2002 ← ميلان 2002–2012 ← بوتافوغو 2012–2014: من اللاعب؟",
+        "answer": "كلارنس سيدورف",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "players": [
+            "كلارنس سيدورف"
+          ]
+        },
+        "semantic_keys": [
+          "career:كلارنس سيدورف:b016"
+        ]
+      },
+      {
+        "id": "b016_career_029",
+        "question": "سانتوس 1998–2001 ← بورتو 2001–2004 ← برشلونة 2004–2008 ← مانشستر سيتي 2008–2009 ← سانتوس 2010–2011 ← أتلتيكو مينيرو 2012–2014: من اللاعب؟",
+        "answer": "رونالدينيو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "players": [
+            "رونالدينيو"
+          ]
+        },
+        "semantic_keys": [
+          "career:رونالدينيو:b016"
+        ]
+      },
+      {
+        "id": "b016_career_030",
+        "question": "ساو باولو 2001–2003 ← ميلان 2003–2009 ← ريال مدريد 2009–2013 ← ميلان 2013–2014 ← أورلاندو سيتي 2014–2017: من اللاعب؟",
+        "answer": "كاكا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "players": [
+            "كاكا"
+          ]
+        },
+        "semantic_keys": [
+          "career:كاكا:b016"
+        ]
+      },
+      {
+        "id": "b016_career_031",
+        "question": "سبورتينغ لشبونة 1989–1995 ← برشلونة 1995–2000 ← ريال مدريد 2000–2005 ← إنتر 2005–2009: من اللاعب؟",
+        "answer": "لويس فيغو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "players": [
+            "لويس فيغو"
+          ]
+        },
+        "semantic_keys": [
+          "career:لويس فيغو:b016"
+        ]
+      },
+      {
+        "id": "b016_career_032",
+        "question": "كروزيرو 1993–1994 ← آيندهوفن 1994–1996 ← برشلونة 1996–1997 ← إنتر 1997–2002 ← ريال مدريد 2002–2007 ← ميلان 2007–2008 ← كورينثيانز 2009–2011: من اللاعب؟",
+        "answer": "رونالدو نازاريو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "players": [
+            "رونالدو نازاريو"
+          ]
+        },
+        "semantic_keys": [
+          "career:رونالدو نازاريو:b016"
+        ]
+      },
+      {
+        "id": "b016_career_033",
+        "question": "موناكو 1994–1999 ← يوفنتوس 1999–2001 ← آرسنال 1999–2007 ← برشلونة 2007–2010 ← نيويورك ريد بولز 2010–2014: من اللاعب؟",
+        "answer": "تييري هنري",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "players": [
+            "تييري هنري"
+          ]
+        },
+        "semantic_keys": [
+          "career:تييري هنري:b016"
+        ]
+      },
+      {
+        "id": "b016_career_034",
+        "question": "كان 1988–1992 ← بوردو 1992–1996 ← يوفنتوس 1996–2001 ← ريال مدريد 2001–2006: من اللاعب؟",
+        "answer": "زين الدين زيدان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "players": [
+            "زين الدين زيدان"
+          ]
+        },
+        "semantic_keys": [
+          "career:زين الدين زيدان:b016"
+        ]
+      },
+      {
+        "id": "b016_career_035",
+        "question": "غرونينغن 1982–1984 ← آيندهوفن 1984–1987 ← ميلان 1987–1993 ← سامبدوريا 1993–1994 ← تشيلسي 1995–1998: من اللاعب؟",
+        "answer": "رود خوليت",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "players": [
+            "رود خوليت"
+          ]
+        },
+        "semantic_keys": [
+          "career:رود خوليت:b016"
+        ]
+      },
+      {
+        "id": "b016_career_036",
+        "question": "أياكس 1981–1987 ← ميلان 1987–1995: من اللاعب؟",
+        "answer": "ماركو فان باستن",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "players": [
+            "ماركو فان باستن"
+          ]
+        },
+        "semantic_keys": [
+          "career:ماركو فان باستن:b016"
+        ]
+      }
+    ]
+  }
+}
