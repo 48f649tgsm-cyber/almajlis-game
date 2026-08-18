@@ -1,0 +1,1598 @@
+{
+  "version": "18.5-part05",
+  "new_questions": 144,
+  "categories": {
+    "دوري الأبطال": [
+      {
+        "id": "b018p5_c17_001",
+        "question": "أي نادٍ فاز بأول نسخة من كأس أوروبا عام 1956؟",
+        "answer": "ريال مدريد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c17:001"
+        ]
+      },
+      {
+        "id": "b018p5_c17_002",
+        "question": "من سجل هدف الفوز لمانشستر يونايتد في نهائي 1999؟",
+        "answer": "أولي غونار سولشاير",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c17:002"
+        ]
+      },
+      {
+        "id": "b018p5_c17_003",
+        "question": "أي فريق هزمه ليفربول في نهائي دوري الأبطال 2005؟",
+        "answer": "ميلان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c17:003"
+        ]
+      },
+      {
+        "id": "b018p5_c17_004",
+        "question": "من سجل هدف برشلونة الأول في نهائي 2009؟",
+        "answer": "صامويل إيتو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c17:004"
+        ]
+      },
+      {
+        "id": "b018p5_c17_005",
+        "question": "أي فريق فاز بدوري الأبطال 2012 لأول مرة في تاريخه؟",
+        "answer": "تشيلسي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c17:005"
+        ]
+      },
+      {
+        "id": "b018p5_c17_006",
+        "question": "من سجل هدف بايرن ميونخ الحاسم في نهائي 2013؟",
+        "answer": "آريين روبن",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c17:006"
+        ]
+      },
+      {
+        "id": "b018p5_c17_007",
+        "question": "من سجل هدف التعادل لريال مدريد في الدقيقة 93 بنهائي 2014؟",
+        "answer": "سيرخيو راموس",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c17:007"
+        ]
+      },
+      {
+        "id": "b018p5_c17_008",
+        "question": "أي فريق هزمه برشلونة في نهائي 2015؟",
+        "answer": "يوفنتوس",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c17:008"
+        ]
+      },
+      {
+        "id": "b018p5_c17_009",
+        "question": "من سجل ركلة الترجيح الحاسمة لريال مدريد في نهائي 2016؟",
+        "answer": "كريستيانو رونالدو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c17:009"
+        ]
+      },
+      {
+        "id": "b018p5_c17_010",
+        "question": "أي فريق فاز بدوري الأبطال 2019؟",
+        "answer": "ليفربول",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c17:010"
+        ]
+      },
+      {
+        "id": "b018p5_c17_011",
+        "question": "من سجل هدف بايرن في نهائي 2020؟",
+        "answer": "كينغسلي كومان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c17:011"
+        ]
+      },
+      {
+        "id": "b018p5_c17_012",
+        "question": "من سجل هدف تشيلسي في نهائي 2021؟",
+        "answer": "كاي هافرتز",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c17:012"
+        ]
+      },
+      {
+        "id": "b018p5_c17_013",
+        "question": "من سجل هدف ريال مدريد في نهائي 2022؟",
+        "answer": "فينيسيوس جونيور",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c17:013"
+        ]
+      },
+      {
+        "id": "b018p5_c17_014",
+        "question": "من سجل هدف مانشستر سيتي في نهائي 2023؟",
+        "answer": "رودري",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c17:014"
+        ]
+      },
+      {
+        "id": "b018p5_c17_015",
+        "question": "من سجل الهدف الأول لريال مدريد في نهائي 2024؟",
+        "answer": "داني كارفاخال",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c17:015"
+        ]
+      },
+      {
+        "id": "b018p5_c17_016",
+        "question": "من سجل هدف أياكس في نهائي 1995؟",
+        "answer": "باتريك كلويفرت",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c17:016"
+        ]
+      },
+      {
+        "id": "b018p5_c17_017",
+        "question": "من سجل هدف مرسيليا في نهائي 1993؟",
+        "answer": "باسيل بولي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c17:017"
+        ]
+      },
+      {
+        "id": "b018p5_c17_018",
+        "question": "من سجل هدف ريال مدريد في نهائي 1998؟",
+        "answer": "بريدراج مياتوفيتش",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c17:018"
+        ]
+      },
+      {
+        "id": "b018p5_c17_019",
+        "question": "من سجل هدفي ميلان في نهائي 2007؟",
+        "answer": "فيليبو إنزاغي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c17:019"
+        ]
+      },
+      {
+        "id": "b018p5_c17_020",
+        "question": "من سجل هدفي إنتر في نهائي 2010؟",
+        "answer": "دييغو ميليتو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c17:020"
+        ]
+      },
+      {
+        "id": "b018p5_c17_021",
+        "question": "من سجل هدف تشيلسي في الوقت الأصلي من نهائي 2012؟",
+        "answer": "ديدييه دروغبا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c17:021"
+        ]
+      },
+      {
+        "id": "b018p5_c17_022",
+        "question": "من سجل الهدف الثالث لليفربول في نهائي 2005؟",
+        "answer": "تشابي ألونسو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c17:022"
+        ]
+      },
+      {
+        "id": "b018p5_c17_023",
+        "question": "من سجل هدف برشلونة الحاسم في نهائي 2006؟",
+        "answer": "جوليانو بيليتي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c17:023"
+        ]
+      },
+      {
+        "id": "b018p5_c17_024",
+        "question": "من سجل هدف ريال مدريد الطائر الشهير في نهائي 2002؟",
+        "answer": "زين الدين زيدان",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c17:024"
+        ]
+      },
+      {
+        "id": "b018p5_c17_025",
+        "question": "أي نادٍ هزم ريال مدريد في نهائي كأس أوروبا 1981؟",
+        "answer": "ليفربول",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c17:025"
+        ]
+      },
+      {
+        "id": "b018p5_c17_026",
+        "question": "من سجل هدف ليفربول في نهائي 1981؟",
+        "answer": "آلان كينيدي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c17:026"
+        ]
+      },
+      {
+        "id": "b018p5_c17_027",
+        "question": "أي فريق فاز بنهائي كأس أوروبا 1986 على برشلونة بركلات الترجيح؟",
+        "answer": "ستيوا بوخارست",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c17:027"
+        ]
+      },
+      {
+        "id": "b018p5_c17_028",
+        "question": "من كان حارس ستيوا بوخارست الذي تصدى لأربع ركلات ترجيح في نهائي 1986؟",
+        "answer": "هيلموت دوكادام",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c17:028"
+        ]
+      },
+      {
+        "id": "b018p5_c17_029",
+        "question": "أي نادٍ فاز بكأس أوروبا 1991 على مارسيليا بركلات الترجيح؟",
+        "answer": "النجم الأحمر بلغراد",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c17:029"
+        ]
+      },
+      {
+        "id": "b018p5_c17_030",
+        "question": "أي فريق هزم بوروسيا دورتموند يوفنتوس في نهائي 1997؟",
+        "answer": "بوروسيا دورتموند",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c17:030"
+        ]
+      },
+      {
+        "id": "b018p5_c17_031",
+        "question": "من سجل الهدف الثالث لدورتموند في نهائي 1997 بعد دخوله بديلًا؟",
+        "answer": "لارس ريكن",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c17:031"
+        ]
+      },
+      {
+        "id": "b018p5_c17_032",
+        "question": "أي فريق خسر نهائي دوري الأبطال 2004 أمام بورتو؟",
+        "answer": "موناكو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c17:032"
+        ]
+      },
+      {
+        "id": "b018p5_c17_033",
+        "question": "من كان مدرب بورتو عند الفوز بدوري الأبطال 2004؟",
+        "answer": "جوزيه مورينيو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c17:033"
+        ]
+      },
+      {
+        "id": "b018p5_c17_034",
+        "question": "أي فريق خسر نهائي 2010 أمام إنتر؟",
+        "answer": "بايرن ميونخ",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c17:034"
+        ]
+      },
+      {
+        "id": "b018p5_c17_035",
+        "question": "من كان مدرب إنتر في نهائي 2010؟",
+        "answer": "جوزيه مورينيو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c17:035"
+        ]
+      },
+      {
+        "id": "b018p5_c17_036",
+        "question": "أي فريق خسر نهائي دوري الأبطال 2023 أمام مانشستر سيتي؟",
+        "answer": "إنتر ميلان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c17:036"
+        ]
+      }
+    ],
+    "مسيرة لاعب": [
+      {
+        "id": "b018p5_c18_001",
+        "question": "بدأ في سبورتينغ لشبونة ثم انتقل إلى مانشستر يونايتد ثم ريال مدريد ثم يوفنتوس؛ من هو؟",
+        "answer": "كريستيانو رونالدو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c18:001"
+        ]
+      },
+      {
+        "id": "b018p5_c18_002",
+        "question": "لعب لبرشلونة ثم إنتر ثم ريال مدريد ثم ميلان؛ من هو؟",
+        "answer": "رونالدو نازاريو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c18:002"
+        ]
+      },
+      {
+        "id": "b018p5_c18_003",
+        "question": "لعب لموناكو ثم يوفنتوس ثم أرسنال ثم برشلونة ثم نيويورك ريد بولز؛ من هو؟",
+        "answer": "تييري هنري",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c18:003"
+        ]
+      },
+      {
+        "id": "b018p5_c18_004",
+        "question": "بدأ في أياكس ثم يوفنتوس ثم إنتر ثم برشلونة ثم ميلان ثم باريس سان جيرمان؛ من هو؟",
+        "answer": "زلاتان إبراهيموفيتش",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c18:004"
+        ]
+      },
+      {
+        "id": "b018p5_c18_005",
+        "question": "لعب لسانتوس ثم برشلونة ثم باريس سان جيرمان ثم الهلال؛ من هو؟",
+        "answer": "نيمار",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c18:005"
+        ]
+      },
+      {
+        "id": "b018p5_c18_006",
+        "question": "بدأ في غرونينغن ثم آيندهوفن ثم تشيلسي ثم ريال مدريد ثم بايرن؛ من هو؟",
+        "answer": "آريين روبن",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c18:006"
+        ]
+      },
+      {
+        "id": "b018p5_c18_007",
+        "question": "لعب لبازل ثم تشيلسي ثم فيورنتينا ثم روما ثم ليفربول؛ من هو؟",
+        "answer": "محمد صلاح",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c18:007"
+        ]
+      },
+      {
+        "id": "b018p5_c18_008",
+        "question": "بدأ في ريفر بليت ثم كورينثيانز ثم وست هام ثم مانشستر يونايتد ثم مانشستر سيتي؛ من هو؟",
+        "answer": "كارلوس تيفيز",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c18:008"
+        ]
+      },
+      {
+        "id": "b018p5_c18_009",
+        "question": "لعب لإيفرتون ثم مانشستر يونايتد ثم إيفرتون مجددًا ثم دي سي يونايتد؛ من هو؟",
+        "answer": "واين روني",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c18:009"
+        ]
+      },
+      {
+        "id": "b018p5_c18_010",
+        "question": "بدأ في مالمو ثم أياكس ثم يوفنتوس؛ من هو اللاعب الذي أكمل بعدها مسيرة طويلة بين كبار أوروبا؟",
+        "answer": "زلاتان إبراهيموفيتش",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c18:010"
+        ]
+      },
+      {
+        "id": "b018p5_c18_011",
+        "question": "لعب لبوكا جونيورز ثم برشلونة ثم نابولي ثم إشبيلية ثم نيولز أولد بويز؛ من هو؟",
+        "answer": "دييغو مارادونا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c18:011"
+        ]
+      },
+      {
+        "id": "b018p5_c18_012",
+        "question": "بدأ في كان ثم بوردو ثم يوفنتوس ثم ريال مدريد؛ من هو؟",
+        "answer": "زين الدين زيدان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c18:012"
+        ]
+      },
+      {
+        "id": "b018p5_c18_013",
+        "question": "لعب لساوثهامبتون ثم توتنهام ثم ريال مدريد ثم عاد لتوتنهام بالإعارة؛ من هو؟",
+        "answer": "غاريث بيل",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c18:013"
+        ]
+      },
+      {
+        "id": "b018p5_c18_014",
+        "question": "بدأ في روزاريو سنترال ثم بنفيكا ثم ريال مدريد ثم مانشستر يونايتد ثم باريس سان جيرمان؛ من هو؟",
+        "answer": "أنخيل دي ماريا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c18:014"
+        ]
+      },
+      {
+        "id": "b018p5_c18_015",
+        "question": "لعب لأياكس ثم ريال مدريد ثم إنتر ثم غلطة سراي؛ من هو؟",
+        "answer": "ويسلي شنايدر",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c18:015"
+        ]
+      },
+      {
+        "id": "b018p5_c18_016",
+        "question": "بدأ في سبورتينغ لشبونة ثم برشلونة ثم ريال مدريد ثم إنتر؛ من هو؟",
+        "answer": "لويس فيغو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c18:016"
+        ]
+      },
+      {
+        "id": "b018p5_c18_017",
+        "question": "لعب لبارما ثم يوفنتوس ثم باريس سان جيرمان؛ من هو الحارس؟",
+        "answer": "جانلويجي بوفون",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c18:017"
+        ]
+      },
+      {
+        "id": "b018p5_c18_018",
+        "question": "بدأ في أتلتيكو ناسيونال ثم موناكو ثم مانشستر يونايتد ثم تشيلسي؛ من هو؟",
+        "answer": "راداميل فالكاو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c18:018"
+        ]
+      },
+      {
+        "id": "b018p5_c18_019",
+        "question": "لعب لدينامو زغرب ثم توتنهام ثم ريال مدريد؛ من هو؟",
+        "answer": "لوكا مودريتش",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c18:019"
+        ]
+      },
+      {
+        "id": "b018p5_c18_020",
+        "question": "بدأ في سانتوس ثم بورتو ثم موناكو ثم ريال مدريد؛ من هو المدافع البرازيلي؟",
+        "answer": "دانيلو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c18:020"
+        ]
+      },
+      {
+        "id": "b018p5_c18_021",
+        "question": "لعب لأندرلخت ثم تشيلسي ثم وست بروميتش ثم إيفرتون ثم مانشستر يونايتد ثم إنتر؛ من هو؟",
+        "answer": "روميلو لوكاكو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c18:021"
+        ]
+      },
+      {
+        "id": "b018p5_c18_022",
+        "question": "بدأ في ليل ثم تشيلسي ثم ريال مدريد؛ من هو؟",
+        "answer": "إيدين هازارد",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c18:022"
+        ]
+      },
+      {
+        "id": "b018p5_c18_023",
+        "question": "لعب لميتز ثم غلطة سراي ثم مرسيليا ثم بايرن ميونخ ثم فيورنتينا؛ من هو؟",
+        "answer": "فرانك ريبيري",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c18:023"
+        ]
+      },
+      {
+        "id": "b018p5_c18_024",
+        "question": "بدأ في بولون ثم ريفر بليت ثم ريال مدريد ثم نابولي ثم يوفنتوس؛ من هو؟",
+        "answer": "غونزالو هيغواين",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c18:024"
+        ]
+      },
+      {
+        "id": "b018p5_c18_025",
+        "question": "لعب لساو باولو ثم ميلان ثم ريال مدريد ثم ميلان مجددًا ثم أورلاندو سيتي؛ من هو؟",
+        "answer": "كاكا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c18:025"
+        ]
+      },
+      {
+        "id": "b018p5_c18_026",
+        "question": "بدأ في بالميراس ثم إنتر ثم ريال مدريد ثم فنربخشة ثم كورينثيانز؛ من هو الظهير؟",
+        "answer": "روبرتو كارلوس",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c18:026"
+        ]
+      },
+      {
+        "id": "b018p5_c18_027",
+        "question": "لعب لغرونينغن ثم آيندهوفن ثم مانشستر يونايتد ثم ريال مدريد ثم هامبورغ؛ من هو؟",
+        "answer": "رود فان نيستلروي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c18:027"
+        ]
+      },
+      {
+        "id": "b018p5_c18_028",
+        "question": "بدأ في نانت ثم مرسيليا ثم ميلان ثم تشيلسي؛ من هو المدافع الفرنسي؟",
+        "answer": "مارسيل ديسايي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c18:028"
+        ]
+      },
+      {
+        "id": "b018p5_c18_029",
+        "question": "لعب لسبورتينغ لشبونة ثم برشلونة ثم ريال مدريد ثم إنتر؛ من هو؟",
+        "answer": "لويس فيغو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c18:029"
+        ]
+      },
+      {
+        "id": "b018p5_c18_030",
+        "question": "بدأ في أياكس ثم سامبدوريا ثم ريال مدريد ثم إنتر ثم ميلان؛ من هو الهولندي؟",
+        "answer": "كلارنس سيدورف",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c18:030"
+        ]
+      },
+      {
+        "id": "b018p5_c18_031",
+        "question": "لعب لبريشيا ثم إنتر ثم ميلان ثم يوفنتوس ثم نيويورك سيتي؛ من هو؟",
+        "answer": "أندريا بيرلو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c18:031"
+        ]
+      },
+      {
+        "id": "b018p5_c18_032",
+        "question": "بدأ في بولونيا؟ لا؛ لعب لريفر بليت ثم برشلونة ثم فياريال ثم بوكا جونيورز؛ من هو صانع الألعاب الأرجنتيني؟",
+        "answer": "خوان رومان ريكيلمي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c18:032"
+        ]
+      },
+      {
+        "id": "b018p5_c18_033",
+        "question": "لعب لسانتوس ثم برشلونة ثم ميلان؛ من هو نجم برازيلي فاز بكأس العالم 2002؟",
+        "answer": "إدميلسون",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c18:033"
+        ]
+      },
+      {
+        "id": "b018p5_c18_034",
+        "question": "بدأ في فاسكو دا غاما ثم آيندهوفن ثم برشلونة ثم إنتر ثم ريال مدريد؛ من هو؟",
+        "answer": "رونالدو نازاريو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c18:034"
+        ]
+      },
+      {
+        "id": "b018p5_c18_035",
+        "question": "لعب لبوكا جونيورز ثم فياريال ثم برشلونة بالإعارة؟ من هو اللاعب الأرجنتيني الذي اشتهر بالقميص 10 مع فياريال؟",
+        "answer": "خوان رومان ريكيلمي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c18:035"
+        ]
+      },
+      {
+        "id": "b018p5_c18_036",
+        "question": "بدأ في لوهافر ثم ليستر سيتي ثم مانشستر سيتي؛ من هو الجناح الجزائري؟",
+        "answer": "رياض محرز",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c18:036"
+        ]
+      }
+    ],
+    "النادي المشترك": [
+      {
+        "id": "b018p5_c19_001",
+        "question": "لعب كريستيانو رونالدو وديفيد بيكهام لهذا النادي؛ ما النادي المشترك؟",
+        "answer": "مانشستر يونايتد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c19:001"
+        ]
+      },
+      {
+        "id": "b018p5_c19_002",
+        "question": "لعب زين الدين زيدان وكريستيانو رونالدو لهذا النادي؛ ما النادي المشترك؟",
+        "answer": "ريال مدريد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c19:002"
+        ]
+      },
+      {
+        "id": "b018p5_c19_003",
+        "question": "لعب رونالدينيو ونيمار لهذا النادي؛ ما النادي المشترك؟",
+        "answer": "برشلونة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c19:003"
+        ]
+      },
+      {
+        "id": "b018p5_c19_004",
+        "question": "لعب تييري هنري وباتريك فييرا لهذا النادي؛ ما النادي المشترك؟",
+        "answer": "أرسنال",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c19:004"
+        ]
+      },
+      {
+        "id": "b018p5_c19_005",
+        "question": "لعب فرانك لامبارد وديدييه دروغبا لهذا النادي؛ ما النادي المشترك؟",
+        "answer": "تشيلسي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c19:005"
+        ]
+      },
+      {
+        "id": "b018p5_c19_006",
+        "question": "لعب ستيفن جيرارد ومحمد صلاح لهذا النادي؛ ما النادي المشترك؟",
+        "answer": "ليفربول",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c19:006"
+        ]
+      },
+      {
+        "id": "b018p5_c19_007",
+        "question": "لعب سيرخيو أغويرو وكيفن دي بروين لهذا النادي؛ ما النادي المشترك؟",
+        "answer": "مانشستر سيتي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c19:007"
+        ]
+      },
+      {
+        "id": "b018p5_c19_008",
+        "question": "لعب باولو مالديني وكاكا لهذا النادي؛ ما النادي المشترك؟",
+        "answer": "ميلان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c19:008"
+        ]
+      },
+      {
+        "id": "b018p5_c19_009",
+        "question": "لعب خافيير زانيتي ورونالدو نازاريو لهذا النادي؛ ما النادي المشترك؟",
+        "answer": "إنتر ميلان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c19:009"
+        ]
+      },
+      {
+        "id": "b018p5_c19_010",
+        "question": "لعب أليساندرو ديل بييرو وجانلويجي بوفون لهذا النادي؛ ما النادي المشترك؟",
+        "answer": "يوفنتوس",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c19:010"
+        ]
+      },
+      {
+        "id": "b018p5_c19_011",
+        "question": "لعب فرانك ريبيري وروبرت ليفاندوفسكي لهذا النادي؛ ما النادي المشترك؟",
+        "answer": "بايرن ميونخ",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c19:011"
+        ]
+      },
+      {
+        "id": "b018p5_c19_012",
+        "question": "لعب زلاتان إبراهيموفيتش ونيمار لهذا النادي؛ ما النادي المشترك؟",
+        "answer": "باريس سان جيرمان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c19:012"
+        ]
+      },
+      {
+        "id": "b018p5_c19_013",
+        "question": "لعب لويس سواريز وأنطوان غريزمان لهذا النادي؛ ما النادي المشترك؟",
+        "answer": "أتلتيكو مدريد",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c19:013"
+        ]
+      },
+      {
+        "id": "b018p5_c19_014",
+        "question": "لعب واين روني وروميلو لوكاكو لهذا النادي؛ ما النادي المشترك قبل انتقالهما إلى مانشستر يونايتد؟",
+        "answer": "إيفرتون",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c19:014"
+        ]
+      },
+      {
+        "id": "b018p5_c19_015",
+        "question": "لعب غاريث بيل ولوكا مودريتش لهذا النادي قبل ريال مدريد؛ ما النادي؟",
+        "answer": "توتنهام هوتسبير",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c19:015"
+        ]
+      },
+      {
+        "id": "b018p5_c19_016",
+        "question": "لعب لويس سواريز وزلاتان إبراهيموفيتش لهذا النادي؛ ما النادي المشترك؟",
+        "answer": "أياكس",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c19:016"
+        ]
+      },
+      {
+        "id": "b018p5_c19_017",
+        "question": "لعب رونالدو نازاريو وروماريو لهذا النادي الهولندي؛ ما النادي؟",
+        "answer": "آيندهوفن",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c19:017"
+        ]
+      },
+      {
+        "id": "b018p5_c19_018",
+        "question": "لعب ديفيد بيكهام وزلاتان إبراهيموفيتش لهذا النادي الأمريكي؛ ما النادي؟",
+        "answer": "لوس أنجلوس غالاكسي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c19:018"
+        ]
+      },
+      {
+        "id": "b018p5_c19_019",
+        "question": "لعب إدينسون كافاني ولويس سواريز لهذا النادي في أوروغواي؟",
+        "answer": "لم يلعبا معًا لنادٍ واحد كبير؛ اجتمعا مع منتخب أوروغواي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c19:019"
+        ]
+      },
+      {
+        "id": "b018p5_c19_020",
+        "question": "لعب دييغو مارادونا وغونزالو هيغواين لهذا النادي الإيطالي؛ ما النادي؟",
+        "answer": "نابولي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c19:020"
+        ]
+      },
+      {
+        "id": "b018p5_c19_021",
+        "question": "لعب محمد صلاح وكيفن دي بروين لهذا النادي الإنجليزي؛ ما النادي؟",
+        "answer": "تشيلسي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c19:021"
+        ]
+      },
+      {
+        "id": "b018p5_c19_022",
+        "question": "لعب كارلوس تيفيز وكريستيانو رونالدو لهذا النادي؛ ما النادي المشترك؟",
+        "answer": "مانشستر يونايتد",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c19:022"
+        ]
+      },
+      {
+        "id": "b018p5_c19_023",
+        "question": "لعب أنخيل دي ماريا وزلاتان إبراهيموفيتش لهذا النادي؛ ما النادي المشترك؟",
+        "answer": "باريس سان جيرمان",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c19:023"
+        ]
+      },
+      {
+        "id": "b018p5_c19_024",
+        "question": "لعب لويس فيغو ورونالدو نازاريو لناديين عملاقين معًا؛ اذكر أحدهما.",
+        "answer": "برشلونة أو ريال مدريد",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c19:024"
+        ]
+      },
+      {
+        "id": "b018p5_c19_025",
+        "question": "لعب أندريا بيرلو وزلاتان إبراهيموفيتش لهذا النادي الإيطالي؛ ما النادي؟",
+        "answer": "ميلان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c19:025"
+        ]
+      },
+      {
+        "id": "b018p5_c19_026",
+        "question": "لعب أندريا بيرلو وجانلويجي بوفون لهذا النادي؛ ما النادي؟",
+        "answer": "يوفنتوس",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c19:026"
+        ]
+      },
+      {
+        "id": "b018p5_c19_027",
+        "question": "لعب كلارنس سيدورف وكاكا لهذا النادي؛ ما النادي؟",
+        "answer": "ميلان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c19:027"
+        ]
+      },
+      {
+        "id": "b018p5_c19_028",
+        "question": "لعب آريين روبن وويسلي شنايدر لهذا النادي الإسباني؛ ما النادي؟",
+        "answer": "ريال مدريد",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c19:028"
+        ]
+      },
+      {
+        "id": "b018p5_c19_029",
+        "question": "لعب صامويل إيتو ورونالدينيو لهذا النادي؛ ما النادي؟",
+        "answer": "برشلونة",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c19:029"
+        ]
+      },
+      {
+        "id": "b018p5_c19_030",
+        "question": "لعب صامويل إيتو وويسلي شنايدر لهذا النادي الإيطالي؛ ما النادي؟",
+        "answer": "إنتر ميلان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c19:030"
+        ]
+      },
+      {
+        "id": "b018p5_c19_031",
+        "question": "لعب سيسك فابريغاس وتييري هنري لهذا النادي الإنجليزي؛ ما النادي؟",
+        "answer": "أرسنال",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c19:031"
+        ]
+      },
+      {
+        "id": "b018p5_c19_032",
+        "question": "لعب سيسك فابريغاس وديدييه دروغبا لهذا النادي الإنجليزي؛ ما النادي؟",
+        "answer": "تشيلسي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c19:032"
+        ]
+      },
+      {
+        "id": "b018p5_c19_033",
+        "question": "لعب روبن فان بيرسي وواين روني لهذا النادي؛ ما النادي؟",
+        "answer": "مانشستر يونايتد",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c19:033"
+        ]
+      },
+      {
+        "id": "b018p5_c19_034",
+        "question": "لعب تشابي ألونسو وكريستيانو رونالدو لهذا النادي الإسباني؛ ما النادي؟",
+        "answer": "ريال مدريد",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c19:034"
+        ]
+      },
+      {
+        "id": "b018p5_c19_035",
+        "question": "لعب تشابي ألونسو وروبرت ليفاندوفسكي لهذا النادي الألماني؛ ما النادي؟",
+        "answer": "بايرن ميونخ",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c19:035"
+        ]
+      },
+      {
+        "id": "b018p5_c19_036",
+        "question": "لعب نيمار وليونيل ميسي معًا في ناديين؛ اذكر أحدهما.",
+        "answer": "برشلونة أو باريس سان جيرمان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c19:036"
+        ]
+      }
+    ],
+    "نشيد وطني": [
+      {
+        "id": "b018p5_c20_001",
+        "question": "استمع إلى المقطع: نشيد «قسماً»؛ لأي دولة يعود؟",
+        "answer": "الجزائر",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c20:001"
+        ]
+      },
+      {
+        "id": "b018p5_c20_002",
+        "question": "استمع إلى المقطع: «موطني» بوصفه النشيد الوطني؛ لأي دولة يعود؟",
+        "answer": "العراق",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c20:002"
+        ]
+      },
+      {
+        "id": "b018p5_c20_003",
+        "question": "استمع إلى المقطع: «حماة الديار»؛ لأي دولة يعود؟",
+        "answer": "سوريا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c20:003"
+        ]
+      },
+      {
+        "id": "b018p5_c20_004",
+        "question": "استمع إلى المقطع: «عيشي بلادي»؛ لأي دولة يعود؟",
+        "answer": "الإمارات العربية المتحدة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c20:004"
+        ]
+      },
+      {
+        "id": "b018p5_c20_005",
+        "question": "استمع إلى المقطع: «السلام الملكي السعودي»؛ لأي دولة يعود؟",
+        "answer": "السعودية",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c20:005"
+        ]
+      },
+      {
+        "id": "b018p5_c20_006",
+        "question": "استمع إلى المقطع: «النشيد الوطني القطري»؛ لأي دولة يعود؟",
+        "answer": "قطر",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c20:006"
+        ]
+      },
+      {
+        "id": "b018p5_c20_007",
+        "question": "استمع إلى المقطع: «بلادي بلادي بلادي»؛ لأي دولة يعود؟",
+        "answer": "مصر",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c20:007"
+        ]
+      },
+      {
+        "id": "b018p5_c20_008",
+        "question": "استمع إلى المقطع: «النشيد الوطني الكويتي»؛ لأي دولة يعود؟",
+        "answer": "الكويت",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c20:008"
+        ]
+      },
+      {
+        "id": "b018p5_c20_009",
+        "question": "استمع إلى المقطع: «النشيد الشريف»؛ لأي دولة يعود؟",
+        "answer": "المغرب",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c20:009"
+        ]
+      },
+      {
+        "id": "b018p5_c20_010",
+        "question": "استمع إلى المقطع: «عاش المليك»؛ لأي دولة يعود؟",
+        "answer": "الأردن",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c20:010"
+        ]
+      },
+      {
+        "id": "b018p5_c20_011",
+        "question": "استمع إلى المقطع: «كلنا للوطن»؛ لأي دولة يعود؟",
+        "answer": "لبنان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c20:011"
+        ]
+      },
+      {
+        "id": "b018p5_c20_012",
+        "question": "استمع إلى المقطع: «وطني الحبيب»؛ لأي دولة يعود؟",
+        "answer": "عُمان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c20:012"
+        ]
+      },
+      {
+        "id": "b018p5_c20_013",
+        "question": "استمع إلى المقطع: «بحريننا»؛ لأي دولة يعود؟",
+        "answer": "البحرين",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c20:013"
+        ]
+      },
+      {
+        "id": "b018p5_c20_014",
+        "question": "استمع إلى المقطع: «فدائي»؛ لأي دولة يعود؟",
+        "answer": "فلسطين",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c20:014"
+        ]
+      },
+      {
+        "id": "b018p5_c20_015",
+        "question": "استمع إلى المقطع: «حماة الحمى»؛ لأي دولة يعود؟",
+        "answer": "تونس",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c20:015"
+        ]
+      },
+      {
+        "id": "b018p5_c20_016",
+        "question": "استمع إلى المقطع: «يا بلادي»؛ لأي دولة يعود؟",
+        "answer": "ليبيا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c20:016"
+        ]
+      },
+      {
+        "id": "b018p5_c20_017",
+        "question": "استمع إلى المقطع: «نحن جند الله جند الوطن»؛ لأي دولة يعود؟",
+        "answer": "السودان",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c20:017"
+        ]
+      },
+      {
+        "id": "b018p5_c20_018",
+        "question": "استمع إلى المقطع: «رددي أيتها الدنيا نشيدي»؛ لأي دولة يعود؟",
+        "answer": "اليمن",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c20:018"
+        ]
+      },
+      {
+        "id": "b018p5_c20_019",
+        "question": "استمع إلى المقطع: «La Marseillaise»؛ لأي دولة يعود؟",
+        "answer": "فرنسا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c20:019"
+        ]
+      },
+      {
+        "id": "b018p5_c20_020",
+        "question": "استمع إلى المقطع: «God Save the King»؛ لأي دولة يعود؟",
+        "answer": "المملكة المتحدة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c20:020"
+        ]
+      },
+      {
+        "id": "b018p5_c20_021",
+        "question": "استمع إلى المقطع: «The Star-Spangled Banner»؛ لأي دولة يعود؟",
+        "answer": "الولايات المتحدة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c20:021"
+        ]
+      },
+      {
+        "id": "b018p5_c20_022",
+        "question": "استمع إلى المقطع: «Marcha Real»؛ لأي دولة يعود؟",
+        "answer": "إسبانيا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c20:022"
+        ]
+      },
+      {
+        "id": "b018p5_c20_023",
+        "question": "استمع إلى المقطع: «Il Canto degli Italiani»؛ لأي دولة يعود؟",
+        "answer": "إيطاليا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c20:023"
+        ]
+      },
+      {
+        "id": "b018p5_c20_024",
+        "question": "استمع إلى المقطع: «Deutschlandlied»؛ لأي دولة يعود؟",
+        "answer": "ألمانيا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c20:024"
+        ]
+      },
+      {
+        "id": "b018p5_c20_025",
+        "question": "استمع إلى المقطع: «Kimigayo»؛ لأي دولة يعود؟",
+        "answer": "اليابان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c20:025"
+        ]
+      },
+      {
+        "id": "b018p5_c20_026",
+        "question": "استمع إلى المقطع: «Jana Gana Mana»؛ لأي دولة يعود؟",
+        "answer": "الهند",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c20:026"
+        ]
+      },
+      {
+        "id": "b018p5_c20_027",
+        "question": "استمع إلى المقطع: «Advance Australia Fair»؛ لأي دولة يعود؟",
+        "answer": "أستراليا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c20:027"
+        ]
+      },
+      {
+        "id": "b018p5_c20_028",
+        "question": "استمع إلى المقطع: «O Canada»؛ لأي دولة يعود؟",
+        "answer": "كندا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c20:028"
+        ]
+      },
+      {
+        "id": "b018p5_c20_029",
+        "question": "استمع إلى المقطع: «A Portuguesa»؛ لأي دولة يعود؟",
+        "answer": "البرتغال",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c20:029"
+        ]
+      },
+      {
+        "id": "b018p5_c20_030",
+        "question": "استمع إلى المقطع: «Himno Nacional Argentino»؛ لأي دولة يعود؟",
+        "answer": "الأرجنتين",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c20:030"
+        ]
+      },
+      {
+        "id": "b018p5_c20_031",
+        "question": "استمع إلى المقطع: «Hino Nacional Brasileiro»؛ لأي دولة يعود؟",
+        "answer": "البرازيل",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c20:031"
+        ]
+      },
+      {
+        "id": "b018p5_c20_032",
+        "question": "استمع إلى المقطع: «Nkosi Sikelel' iAfrika» ضمن النشيد متعدد اللغات؛ لأي دولة يعود؟",
+        "answer": "جنوب أفريقيا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c20:032"
+        ]
+      },
+      {
+        "id": "b018p5_c20_033",
+        "question": "استمع إلى المقطع: «Mazurek Dąbrowskiego»؛ لأي دولة يعود؟",
+        "answer": "بولندا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c20:033"
+        ]
+      },
+      {
+        "id": "b018p5_c20_034",
+        "question": "استمع إلى المقطع: «Het Wilhelmus»؛ لأي دولة يعود؟",
+        "answer": "هولندا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c20:034"
+        ]
+      },
+      {
+        "id": "b018p5_c20_035",
+        "question": "استمع إلى المقطع: «Du gamla, Du fria»؛ لأي دولة يعود؟",
+        "answer": "السويد",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c20:035"
+        ]
+      },
+      {
+        "id": "b018p5_c20_036",
+        "question": "استمع إلى المقطع: «İstiklâl Marşı»؛ لأي دولة يعود؟",
+        "answer": "تركيا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p5:c20:036"
+        ]
+      }
+    ]
+  }
+}
