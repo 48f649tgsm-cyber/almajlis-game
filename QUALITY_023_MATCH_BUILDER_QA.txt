@@ -1,0 +1,15 @@
+ALMAJLIS QUALITY 023 — MATCH BUILDER HOTFIX
+JS syntax: PASS
+
+Problem fixed:
+The 022 match builder used greedy random selection. It could consume a player/club/event/topic
+too early and then falsely conclude that a later selected category had no valid non-repeating pair.
+
+023:
+- Replaces greedy selection with constraint-aware backtracking.
+- Builds the hardest/lowest-stock category-point slots first.
+- Keeps the strict cross-category no-repeat entity and semantic locks.
+- Keeps persistent used-question protection.
+- Gives a different warning only when a selected category truly has fewer than 2 eligible questions at a required point level.
+- Does not weaken the six-question minimum rule.
+- Does not change the question bank, visuals, audio, or 022 Broadcast Polish features.
