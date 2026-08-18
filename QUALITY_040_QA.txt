@@ -1,0 +1,41 @@
+ALMAJLIS BUILD 040 — CONTINUOUS AUDIO FLOW HOTFIX
+
+Purpose:
+Fix the unintended silence between the opening/lobby and the start of the match.
+
+Expected audio flow:
+1. URL opens -> opening orchestra attempts autoplay / starts on first touch.
+2. Skip opening -> lobby/board orchestra begins.
+3. "Start new council" -> music CONTINUES.
+4. Team names -> music continues.
+5. Category selection -> music continues.
+6. Draw -> music continues.
+7. 3-2-1 match intro -> music continues.
+8. Question board -> music continues without restarting the same track unnecessarily.
+9. Open a question -> music stops completely.
+10. Last 5 seconds -> countdown ticks only.
+11. Time up -> time-up cue.
+12. Return to board -> board music resumes.
+13. Winner -> winner comedy clip, then victory music.
+
+Unchanged:
+- Real orchestral recordings
+- BUILD 039 Batch 014 loader
+- unavailable-category logic
+- Prime-Time visuals
+- winner comedy clip
+- scoring, 30+30 timing, no-repeat and tie-break logic
+
+Checks:
+- JS syntax: PASS
+- BUILD 040: PASS
+- new game no stopTheme: PASS
+- lobby music helper: PASS
+- teams keep audio: PASS
+- categories keep audio: PASS
+- draw keeps audio: PASS
+- match intro keeps audio: PASS
+- board no hard restart: PASS
+- question remains silent: PASS
+- batch 014 loader retained: PASS
+- winner video retained: PASS
