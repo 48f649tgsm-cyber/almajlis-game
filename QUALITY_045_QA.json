@@ -1,0 +1,8 @@
+{
+  "build": "045",
+  "loads_batches": "008-019",
+  "expected_loaded_batches": "12/12",
+  "expected_total_questions": 3576,
+  "javascript_syntax": "PASS",
+  "visual_audio_changes": "none"
+}
