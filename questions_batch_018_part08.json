@@ -1,0 +1,1598 @@
+{
+  "version": "18.8-part08",
+  "new_questions": 144,
+  "categories": {
+    "ريال مدريد": [
+      {
+        "id": "b018p8_c29_001",
+        "question": "من كان قائد ريال مدريد في نهائي دوري أبطال أوروبا 2002؟",
+        "answer": "فرناندو هييرو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c29:001"
+        ]
+      },
+      {
+        "id": "b018p8_c29_002",
+        "question": "من حرس مرمى ريال مدريد في نهائي دوري أبطال أوروبا 2002 بعد إصابة سيزار؟",
+        "answer": "إيكر كاسياس",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c29:002"
+        ]
+      },
+      {
+        "id": "b018p8_c29_003",
+        "question": "من سجل الهدف الأول لريال مدريد في نهائي دوري الأبطال 2002؟",
+        "answer": "راؤول",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c29:003"
+        ]
+      },
+      {
+        "id": "b018p8_c29_004",
+        "question": "من صنع هدف زيدان الشهير في نهائي دوري الأبطال 2002 بعرضية من الجهة اليسرى؟",
+        "answer": "روبرتو كارلوس",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c29:004"
+        ]
+      },
+      {
+        "id": "b018p8_c29_005",
+        "question": "من سجل هدف ريال مدريد الأول في نهائي دوري الأبطال 2017؟",
+        "answer": "كريستيانو رونالدو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c29:005"
+        ]
+      },
+      {
+        "id": "b018p8_c29_006",
+        "question": "من سجل هدف ريال مدريد الثاني في نهائي دوري الأبطال 2017؟",
+        "answer": "كاسيميرو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c29:006"
+        ]
+      },
+      {
+        "id": "b018p8_c29_007",
+        "question": "من سجل هدف ريال مدريد الثالث في نهائي دوري الأبطال 2017؟",
+        "answer": "كريستيانو رونالدو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c29:007"
+        ]
+      },
+      {
+        "id": "b018p8_c29_008",
+        "question": "من كان حارس ريال مدريد في نهائي دوري الأبطال 2018؟",
+        "answer": "كيلور نافاس",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c29:008"
+        ]
+      },
+      {
+        "id": "b018p8_c29_009",
+        "question": "من سجل الهدف الأول لريال مدريد في نهائي دوري الأبطال 2018؟",
+        "answer": "كريم بنزيما",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c29:009"
+        ]
+      },
+      {
+        "id": "b018p8_c29_010",
+        "question": "من سجل هدفي ريال مدريد الآخرين في نهائي دوري الأبطال 2018؟",
+        "answer": "غاريث بيل",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c29:010"
+        ]
+      },
+      {
+        "id": "b018p8_c29_011",
+        "question": "من سجل هدف ريال مدريد في نهائي كأس العالم للأندية 2018 أمام العين قبل أهداف يورينتي وراموس؟",
+        "answer": "لوكا مودريتش",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c29:011"
+        ]
+      },
+      {
+        "id": "b018p8_c29_012",
+        "question": "أي فريق هزمه ريال مدريد في نهائي كأس العالم للأندية 2018؟",
+        "answer": "العين الإماراتي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c29:012"
+        ]
+      },
+      {
+        "id": "b018p8_c29_013",
+        "question": "من سجل هدف ريال مدريد الأول في نهائي كأس العالم للأندية 2016 أمام كاشيما أنتلرز؟",
+        "answer": "كريم بنزيما",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c29:013"
+        ]
+      },
+      {
+        "id": "b018p8_c29_014",
+        "question": "من سجل هاتريك ريال مدريد في نهائي كأس العالم للأندية 2016؟",
+        "answer": "كريستيانو رونالدو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c29:014"
+        ]
+      },
+      {
+        "id": "b018p8_c29_015",
+        "question": "أي فريق واجه ريال مدريد في نهائي كأس أوروبا 1956؟",
+        "answer": "ستاد ريمس",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c29:015"
+        ]
+      },
+      {
+        "id": "b018p8_c29_016",
+        "question": "من سجل هدف الفوز 4-3 لريال مدريد في نهائي كأس أوروبا 1956؟",
+        "answer": "ماركيتوس",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c29:016"
+        ]
+      },
+      {
+        "id": "b018p8_c29_017",
+        "question": "أي فريق واجه ريال مدريد في نهائي كأس أوروبا 1957؟",
+        "answer": "فيورنتينا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c29:017"
+        ]
+      },
+      {
+        "id": "b018p8_c29_018",
+        "question": "من سجل هدفي ريال مدريد في نهائي كأس أوروبا 1957؟",
+        "answer": "ألفريدو دي ستيفانو وفرانسيسكو خينتو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c29:018"
+        ]
+      },
+      {
+        "id": "b018p8_c29_019",
+        "question": "أي فريق واجه ريال مدريد في نهائي كأس أوروبا 1958؟",
+        "answer": "ميلان",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c29:019"
+        ]
+      },
+      {
+        "id": "b018p8_c29_020",
+        "question": "من سجل هدف ريال مدريد الحاسم في الوقت الإضافي بنهائي 1958؟",
+        "answer": "فرانسيسكو خينتو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c29:020"
+        ]
+      },
+      {
+        "id": "b018p8_c29_021",
+        "question": "أي فريق واجه ريال مدريد في نهائي كأس أوروبا 1959؟",
+        "answer": "ستاد ريمس",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c29:021"
+        ]
+      },
+      {
+        "id": "b018p8_c29_022",
+        "question": "من سجل هدفي ريال مدريد في نهائي كأس أوروبا 1959؟",
+        "answer": "إنريكي ماتيوس وألفريدو دي ستيفانو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c29:022"
+        ]
+      },
+      {
+        "id": "b018p8_c29_023",
+        "question": "من كان خصم ريال مدريد في نهائي كأس أوروبا 1962؟",
+        "answer": "بنفيكا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c29:023"
+        ]
+      },
+      {
+        "id": "b018p8_c29_024",
+        "question": "من سجل هاتريك ريال مدريد في نهائي كأس أوروبا 1962 رغم الخسارة؟",
+        "answer": "فيرينتس بوشكاش",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c29:024"
+        ]
+      },
+      {
+        "id": "b018p8_c29_025",
+        "question": "أي فريق هزم ريال مدريد في نهائي كأس أوروبا 1964؟",
+        "answer": "إنتر ميلان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c29:025"
+        ]
+      },
+      {
+        "id": "b018p8_c29_026",
+        "question": "من سجل هدف ريال مدريد الوحيد في نهائي كأس أوروبا 1964؟",
+        "answer": "فيلو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c29:026"
+        ]
+      },
+      {
+        "id": "b018p8_c29_027",
+        "question": "من سجل هدف التعادل لريال مدريد في نهائي كأس أوروبا 1966؟",
+        "answer": "أمانسيو أمارو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c29:027"
+        ]
+      },
+      {
+        "id": "b018p8_c29_028",
+        "question": "من سجل هدف الفوز لريال مدريد في نهائي كأس أوروبا 1966؟",
+        "answer": "فرناندو سيرينا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c29:028"
+        ]
+      },
+      {
+        "id": "b018p8_c29_029",
+        "question": "من كان مدرب ريال مدريد عند الفوز بدوري الأبطال 1998؟",
+        "answer": "يوب هاينكس",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c29:029"
+        ]
+      },
+      {
+        "id": "b018p8_c29_030",
+        "question": "من كان مدرب ريال مدريد عند الفوز بدوري الأبطال 2000؟",
+        "answer": "فيسنتي ديل بوسكي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c29:030"
+        ]
+      },
+      {
+        "id": "b018p8_c29_031",
+        "question": "من كان مدرب ريال مدريد عند الفوز بدوري الأبطال 2002؟",
+        "answer": "فيسنتي ديل بوسكي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c29:031"
+        ]
+      },
+      {
+        "id": "b018p8_c29_032",
+        "question": "من سجل الهدف الأول لريال مدريد في نهائي دوري الأبطال 2000؟",
+        "answer": "فرناندو موريينتس",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c29:032"
+        ]
+      },
+      {
+        "id": "b018p8_c29_033",
+        "question": "من سجل الهدف الثاني لريال مدريد في نهائي دوري الأبطال 2000؟",
+        "answer": "ستيف ماكمانامان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c29:033"
+        ]
+      },
+      {
+        "id": "b018p8_c29_034",
+        "question": "من سجل الهدف الثالث لريال مدريد في نهائي دوري الأبطال 2000؟",
+        "answer": "راؤول",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c29:034"
+        ]
+      },
+      {
+        "id": "b018p8_c29_035",
+        "question": "من كان قائد ريال مدريد الذي رفع دوري الأبطال 2018؟",
+        "answer": "سيرخيو راموس",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c29:035"
+        ]
+      },
+      {
+        "id": "b018p8_c29_036",
+        "question": "من كان قائد ريال مدريد الذي رفع دوري الأبطال 2022؟",
+        "answer": "مارسيلو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c29:036"
+        ]
+      }
+    ],
+    "مانشستر يونايتد": [
+      {
+        "id": "b018p8_c30_001",
+        "question": "من سجل أول هدف لمانشستر يونايتد في نهائي كأس أوروبا 1968؟",
+        "answer": "بوبي تشارلتون",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c30:001"
+        ]
+      },
+      {
+        "id": "b018p8_c30_002",
+        "question": "من سجل هدف التعادل لبنفيكا في نهائي كأس أوروبا 1968؟",
+        "answer": "خايمي غراسا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c30:002"
+        ]
+      },
+      {
+        "id": "b018p8_c30_003",
+        "question": "من سجل هدف مانشستر يونايتد الثاني في الوقت الإضافي بنهائي 1968؟",
+        "answer": "جورج بست",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c30:003"
+        ]
+      },
+      {
+        "id": "b018p8_c30_004",
+        "question": "من سجل هدف مانشستر يونايتد الثالث في نهائي 1968؟",
+        "answer": "براين كيد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c30:004"
+        ]
+      },
+      {
+        "id": "b018p8_c30_005",
+        "question": "من سجل هدف مانشستر يونايتد الرابع في نهائي 1968؟",
+        "answer": "بوبي تشارلتون",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c30:005"
+        ]
+      },
+      {
+        "id": "b018p8_c30_006",
+        "question": "من كان مدرب مانشستر يونايتد في نهائي كأس أوروبا 1968؟",
+        "answer": "مات باسبي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c30:006"
+        ]
+      },
+      {
+        "id": "b018p8_c30_007",
+        "question": "في أي ملعب أقيم نهائي كأس أوروبا 1968؟",
+        "answer": "ويمبلي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c30:007"
+        ]
+      },
+      {
+        "id": "b018p8_c30_008",
+        "question": "أي فريق واجه مانشستر يونايتد في نهائي كأس الكؤوس الأوروبية 1991؟",
+        "answer": "برشلونة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c30:008"
+        ]
+      },
+      {
+        "id": "b018p8_c30_009",
+        "question": "من سجل الهدف الأول لمانشستر يونايتد في نهائي كأس الكؤوس 1991؟",
+        "answer": "مارك هيوز",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c30:009"
+        ]
+      },
+      {
+        "id": "b018p8_c30_010",
+        "question": "من سجل الهدف الثاني لمانشستر يونايتد في نهائي كأس الكؤوس 1991؟",
+        "answer": "مارك هيوز",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c30:010"
+        ]
+      },
+      {
+        "id": "b018p8_c30_011",
+        "question": "من كان مدرب مانشستر يونايتد عند الفوز بكأس الكؤوس 1991؟",
+        "answer": "أليكس فيرغسون",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c30:011"
+        ]
+      },
+      {
+        "id": "b018p8_c30_012",
+        "question": "أي فريق هزمه مانشستر يونايتد في كأس السوبر الأوروبي 1991؟",
+        "answer": "النجم الأحمر بلغراد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c30:012"
+        ]
+      },
+      {
+        "id": "b018p8_c30_013",
+        "question": "من سجل هدف مانشستر يونايتد في كأس السوبر الأوروبي 1991؟",
+        "answer": "براين مككلير",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c30:013"
+        ]
+      },
+      {
+        "id": "b018p8_c30_014",
+        "question": "من كان قائد مانشستر يونايتد في نهائي كأس الاتحاد الإنجليزي 1994؟",
+        "answer": "ستيف بروس",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c30:014"
+        ]
+      },
+      {
+        "id": "b018p8_c30_015",
+        "question": "من سجل هدفي مانشستر يونايتد الأولين في نهائي كأس الاتحاد الإنجليزي 1994 أمام تشيلسي؟",
+        "answer": "إريك كانتونا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c30:015"
+        ]
+      },
+      {
+        "id": "b018p8_c30_016",
+        "question": "من سجل الهدف الثالث ليونايتد في نهائي كأس الاتحاد 1994؟",
+        "answer": "مارك هيوز",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c30:016"
+        ]
+      },
+      {
+        "id": "b018p8_c30_017",
+        "question": "من سجل الهدف الرابع ليونايتد في نهائي كأس الاتحاد 1994؟",
+        "answer": "براين مككلير",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c30:017"
+        ]
+      },
+      {
+        "id": "b018p8_c30_018",
+        "question": "من سجل هدف الفوز في نهائي كأس الاتحاد الإنجليزي 1996 أمام ليفربول؟",
+        "answer": "إريك كانتونا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c30:018"
+        ]
+      },
+      {
+        "id": "b018p8_c30_019",
+        "question": "من كان قائد مانشستر يونايتد في نهائي كأس الاتحاد 1996؟",
+        "answer": "إريك كانتونا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c30:019"
+        ]
+      },
+      {
+        "id": "b018p8_c30_020",
+        "question": "من سجل هدف مانشستر يونايتد الأول في نهائي كأس الاتحاد 1999 أمام نيوكاسل؟",
+        "answer": "تيدي شيرينغهام",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c30:020"
+        ]
+      },
+      {
+        "id": "b018p8_c30_021",
+        "question": "من سجل الهدف الثاني لمانشستر يونايتد في نهائي كأس الاتحاد 1999؟",
+        "answer": "بول سكولز",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c30:021"
+        ]
+      },
+      {
+        "id": "b018p8_c30_022",
+        "question": "أي فريق هزمه مانشستر يونايتد في نهائي كأس الرابطة 2006؟",
+        "answer": "ويغان أتلتيك",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c30:022"
+        ]
+      },
+      {
+        "id": "b018p8_c30_023",
+        "question": "من سجل الهدف الأول ليونايتد في نهائي كأس الرابطة 2006؟",
+        "answer": "واين روني",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c30:023"
+        ]
+      },
+      {
+        "id": "b018p8_c30_024",
+        "question": "من سجل الهدف الثاني ليونايتد في نهائي كأس الرابطة 2006؟",
+        "answer": "لويس ساها",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c30:024"
+        ]
+      },
+      {
+        "id": "b018p8_c30_025",
+        "question": "من سجل الهدف الثالث ليونايتد في نهائي كأس الرابطة 2006؟",
+        "answer": "كريستيانو رونالدو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c30:025"
+        ]
+      },
+      {
+        "id": "b018p8_c30_026",
+        "question": "من سجل الهدف الرابع ليونايتد في نهائي كأس الرابطة 2006؟",
+        "answer": "واين روني",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c30:026"
+        ]
+      },
+      {
+        "id": "b018p8_c30_027",
+        "question": "من سجل ركلة الترجيح الحاسمة لمانشستر يونايتد في نهائي كأس الرابطة 2009؟",
+        "answer": "أندرسون",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c30:027"
+        ]
+      },
+      {
+        "id": "b018p8_c30_028",
+        "question": "أي فريق واجه مانشستر يونايتد في نهائي كأس الرابطة 2009؟",
+        "answer": "توتنهام هوتسبير",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c30:028"
+        ]
+      },
+      {
+        "id": "b018p8_c30_029",
+        "question": "من كان حارس مانشستر يونايتد في نهائي كأس الرابطة 2009؟",
+        "answer": "بن فوستر",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c30:029"
+        ]
+      },
+      {
+        "id": "b018p8_c30_030",
+        "question": "من سجل هدف مانشستر يونايتد الأول في نهائي كأس الرابطة 2010؟",
+        "answer": "مايكل أوين",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c30:030"
+        ]
+      },
+      {
+        "id": "b018p8_c30_031",
+        "question": "من سجل هدف الفوز ليونايتد في نهائي كأس الرابطة 2010؟",
+        "answer": "واين روني",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c30:031"
+        ]
+      },
+      {
+        "id": "b018p8_c30_032",
+        "question": "أي فريق واجه يونايتد في نهائي كأس الرابطة 2010؟",
+        "answer": "أستون فيلا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c30:032"
+        ]
+      },
+      {
+        "id": "b018p8_c30_033",
+        "question": "من سجل هدف التعادل لمانشستر يونايتد في نهائي كأس الرابطة 2017؟",
+        "answer": "جيسي لينغارد",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c30:033"
+        ]
+      },
+      {
+        "id": "b018p8_c30_034",
+        "question": "من سجل هدف الفوز لمانشستر يونايتد في نهائي كأس الرابطة 2017؟",
+        "answer": "زلاتان إبراهيموفيتش",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c30:034"
+        ]
+      },
+      {
+        "id": "b018p8_c30_035",
+        "question": "أي فريق واجه مانشستر يونايتد في نهائي كأس الرابطة 2017؟",
+        "answer": "ساوثهامبتون",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c30:035"
+        ]
+      },
+      {
+        "id": "b018p8_c30_036",
+        "question": "من سجل هدفي مانشستر يونايتد في نهائي كأس الرابطة 2023؟",
+        "answer": "كاسيميرو وماركوس راشفورد",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c30:036"
+        ]
+      }
+    ],
+    "قصص الأنبياء": [
+      {
+        "id": "b018p8_c31_001",
+        "question": "من النبي الذي كان أبوه يعقوب عليه السلام؟",
+        "answer": "يوسف عليه السلام",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c31:001"
+        ]
+      },
+      {
+        "id": "b018p8_c31_002",
+        "question": "من النبي الذي كان أبوه زكريا عليه السلام؟",
+        "answer": "يحيى عليه السلام",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c31:002"
+        ]
+      },
+      {
+        "id": "b018p8_c31_003",
+        "question": "من النبي الذي كان أخًا لموسى وأُرسل معه إلى فرعون؟",
+        "answer": "هارون عليه السلام",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c31:003"
+        ]
+      },
+      {
+        "id": "b018p8_c31_004",
+        "question": "من النبي الذي كان ابن داود وورثه في الملك والنبوة؟",
+        "answer": "سليمان عليه السلام",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c31:004"
+        ]
+      },
+      {
+        "id": "b018p8_c31_005",
+        "question": "من النبي الذي وصفه القرآن بأنه عبد شكور؟",
+        "answer": "نوح عليه السلام",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c31:005"
+        ]
+      },
+      {
+        "id": "b018p8_c31_006",
+        "question": "من النبي الذي قال لقومه: «أوفوا الكيل ولا تكونوا من المخسرين»؟",
+        "answer": "شعيب عليه السلام",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c31:006"
+        ]
+      },
+      {
+        "id": "b018p8_c31_007",
+        "question": "من النبي الذي أُرسل إلى قوم عاد ودعاهم إلى عبادة الله؟",
+        "answer": "هود عليه السلام",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c31:007"
+        ]
+      },
+      {
+        "id": "b018p8_c31_008",
+        "question": "من النبي الذي جاءت قومه الصيحة بعد عقر الناقة؟",
+        "answer": "صالح عليه السلام",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c31:008"
+        ]
+      },
+      {
+        "id": "b018p8_c31_009",
+        "question": "من النبي الذي بشرت الملائكة زوجته بغلام اسمه يحيى؟",
+        "answer": "زكريا عليه السلام",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c31:009"
+        ]
+      },
+      {
+        "id": "b018p8_c31_010",
+        "question": "من النبي الذي كفل مريم عليها السلام؟",
+        "answer": "زكريا عليه السلام",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c31:010"
+        ]
+      },
+      {
+        "id": "b018p8_c31_011",
+        "question": "من النبي الذي وصفه القرآن بأنه وجيهًا في الدنيا والآخرة ومن المقربين؟",
+        "answer": "عيسى عليه السلام",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c31:011"
+        ]
+      },
+      {
+        "id": "b018p8_c31_012",
+        "question": "من النبي الذي أيده الله بروح القدس؟",
+        "answer": "عيسى عليه السلام",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c31:012"
+        ]
+      },
+      {
+        "id": "b018p8_c31_013",
+        "question": "من النبي الذي دعا ربه: «رب لا تذرني فردًا وأنت خير الوارثين»؟",
+        "answer": "زكريا عليه السلام",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c31:013"
+        ]
+      },
+      {
+        "id": "b018p8_c31_014",
+        "question": "من النبي الذي قال: «إني سقيم» قبل أن يتخلف عن قومه ويكسر أصنامهم؟",
+        "answer": "إبراهيم عليه السلام",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c31:014"
+        ]
+      },
+      {
+        "id": "b018p8_c31_015",
+        "question": "من النبي الذي حاجّ قومه في الكوكب والقمر والشمس لإبطال عبادتها؟",
+        "answer": "إبراهيم عليه السلام",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c31:015"
+        ]
+      },
+      {
+        "id": "b018p8_c31_016",
+        "question": "من النبي الذي قال لأبيه وقومه: «ما هذه التماثيل التي أنتم لها عاكفون»؟",
+        "answer": "إبراهيم عليه السلام",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c31:016"
+        ]
+      },
+      {
+        "id": "b018p8_c31_017",
+        "question": "من النبي الذي أُلقي إليه الألواح بعد ميقات ربه؟",
+        "answer": "موسى عليه السلام",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c31:017"
+        ]
+      },
+      {
+        "id": "b018p8_c31_018",
+        "question": "من النبي الذي طلب رؤية الله فقال له ربه: «لن تراني»؟",
+        "answer": "موسى عليه السلام",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c31:018"
+        ]
+      },
+      {
+        "id": "b018p8_c31_019",
+        "question": "من النبي الذي ضرب الحجر بعصاه فانفجرت منه اثنتا عشرة عينًا؟",
+        "answer": "موسى عليه السلام",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c31:019"
+        ]
+      },
+      {
+        "id": "b018p8_c31_020",
+        "question": "من النبي الذي دعا على فرعون وملئه بعد أن طغوا؟",
+        "answer": "موسى عليه السلام",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c31:020"
+        ]
+      },
+      {
+        "id": "b018p8_c31_021",
+        "question": "من النبي الذي أُوتي الحكم صبيًا؟",
+        "answer": "يحيى عليه السلام",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c31:021"
+        ]
+      },
+      {
+        "id": "b018p8_c31_022",
+        "question": "من النبي الذي وصفه القرآن بأنه حصور ونبي من الصالحين؟",
+        "answer": "يحيى عليه السلام",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c31:022"
+        ]
+      },
+      {
+        "id": "b018p8_c31_023",
+        "question": "من النبي الذي تكلم في المهد دفاعًا عن أمه؟",
+        "answer": "عيسى عليه السلام",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c31:023"
+        ]
+      },
+      {
+        "id": "b018p8_c31_024",
+        "question": "من النبي الذي كان يبرئ الأكمه والأبرص بإذن الله؟",
+        "answer": "عيسى عليه السلام",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c31:024"
+        ]
+      },
+      {
+        "id": "b018p8_c31_025",
+        "question": "من النبي الذي سأل الحواريون أن ينزل الله عليهم مائدة من السماء؟",
+        "answer": "عيسى عليه السلام",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c31:025"
+        ]
+      },
+      {
+        "id": "b018p8_c31_026",
+        "question": "من النبي الذي قال: «من أنصاري إلى الله»؟",
+        "answer": "عيسى عليه السلام",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c31:026"
+        ]
+      },
+      {
+        "id": "b018p8_c31_027",
+        "question": "من النبي الذي قال لأبنائه: «لا تدخلوا من باب واحد وادخلوا من أبواب متفرقة»؟",
+        "answer": "يعقوب عليه السلام",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c31:027"
+        ]
+      },
+      {
+        "id": "b018p8_c31_028",
+        "question": "من النبي الذي ابيضت عيناه من الحزن على ابنه؟",
+        "answer": "يعقوب عليه السلام",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c31:028"
+        ]
+      },
+      {
+        "id": "b018p8_c31_029",
+        "question": "من النبي الذي أُلقي قميصه على وجه أبيه فعاد بصيرًا؟",
+        "answer": "يوسف عليه السلام",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c31:029"
+        ]
+      },
+      {
+        "id": "b018p8_c31_030",
+        "question": "من النبي الذي فسّر رؤيا الملك المتعلقة بسبع بقرات سمان وسبع عجاف؟",
+        "answer": "يوسف عليه السلام",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c31:030"
+        ]
+      },
+      {
+        "id": "b018p8_c31_031",
+        "question": "من النبي الذي جعل أخاه في رحله بحيلة السقاية ليبقيه عنده؟",
+        "answer": "يوسف عليه السلام",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c31:031"
+        ]
+      },
+      {
+        "id": "b018p8_c31_032",
+        "question": "من النبي الذي قال: «توفني مسلمًا وألحقني بالصالحين»؟",
+        "answer": "يوسف عليه السلام",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c31:032"
+        ]
+      },
+      {
+        "id": "b018p8_c31_033",
+        "question": "من النبي الذي دعا قومه ليلًا ونهارًا وسرًا وجهارًا؟",
+        "answer": "نوح عليه السلام",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c31:033"
+        ]
+      },
+      {
+        "id": "b018p8_c31_034",
+        "question": "من النبي الذي سأل ربه عن ابنه فقيل له إنه عمل غير صالح؟",
+        "answer": "نوح عليه السلام",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c31:034"
+        ]
+      },
+      {
+        "id": "b018p8_c31_035",
+        "question": "من النبي الذي أمره الله أن يحمل في السفينة من كل زوجين اثنين؟",
+        "answer": "نوح عليه السلام",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c31:035"
+        ]
+      },
+      {
+        "id": "b018p8_c31_036",
+        "question": "من النبي الذي وصفه القرآن بأنه كان أمة قانتًا لله حنيفًا؟",
+        "answer": "إبراهيم عليه السلام",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c31:036"
+        ]
+      }
+    ],
+    "اغاني عربية": [
+      {
+        "id": "b018p8_c32_001",
+        "question": "من غنى أغنية «أنت عمري»؟",
+        "answer": "أم كلثوم",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c32:001"
+        ]
+      },
+      {
+        "id": "b018p8_c32_002",
+        "question": "من لحن «أنت عمري»؟",
+        "answer": "محمد عبد الوهاب",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c32:002"
+        ]
+      },
+      {
+        "id": "b018p8_c32_003",
+        "question": "من كتب كلمات «أنت عمري»؟",
+        "answer": "أحمد شفيق كامل",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c32:003"
+        ]
+      },
+      {
+        "id": "b018p8_c32_004",
+        "question": "من غنى «حب إيه»؟",
+        "answer": "أم كلثوم",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c32:004"
+        ]
+      },
+      {
+        "id": "b018p8_c32_005",
+        "question": "من لحن «حب إيه»؟",
+        "answer": "بليغ حمدي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c32:005"
+        ]
+      },
+      {
+        "id": "b018p8_c32_006",
+        "question": "من غنى «زي الهوى»؟",
+        "answer": "عبد الحليم حافظ",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c32:006"
+        ]
+      },
+      {
+        "id": "b018p8_c32_007",
+        "question": "من لحن «زي الهوى»؟",
+        "answer": "بليغ حمدي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c32:007"
+        ]
+      },
+      {
+        "id": "b018p8_c32_008",
+        "question": "من كتب كلمات «زي الهوى»؟",
+        "answer": "محمد حمزة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c32:008"
+        ]
+      },
+      {
+        "id": "b018p8_c32_009",
+        "question": "من غنى «موعود»؟",
+        "answer": "عبد الحليم حافظ",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c32:009"
+        ]
+      },
+      {
+        "id": "b018p8_c32_010",
+        "question": "من لحن «موعود»؟",
+        "answer": "بليغ حمدي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c32:010"
+        ]
+      },
+      {
+        "id": "b018p8_c32_011",
+        "question": "من غنى «أهواك»؟",
+        "answer": "عبد الحليم حافظ",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c32:011"
+        ]
+      },
+      {
+        "id": "b018p8_c32_012",
+        "question": "من لحن «أهواك»؟",
+        "answer": "محمد عبد الوهاب",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c32:012"
+        ]
+      },
+      {
+        "id": "b018p8_c32_013",
+        "question": "من غنت «نجاة الصغيرة» أغنية «أما براوة»؛ من لحنها؟",
+        "answer": "محمد الموجي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c32:013"
+        ]
+      },
+      {
+        "id": "b018p8_c32_014",
+        "question": "من غنت «أنا قلبي إليك ميال»؟",
+        "answer": "فايزة أحمد",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c32:014"
+        ]
+      },
+      {
+        "id": "b018p8_c32_015",
+        "question": "من لحن «أنا قلبي إليك ميال»؟",
+        "answer": "محمد الموجي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c32:015"
+        ]
+      },
+      {
+        "id": "b018p8_c32_016",
+        "question": "من غنى «حبيبي يا نور العين»؟",
+        "answer": "عمرو دياب",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c32:016"
+        ]
+      },
+      {
+        "id": "b018p8_c32_017",
+        "question": "في أي ألبوم ظهرت أغنية «نور العين» الشهيرة لعمرو دياب؟",
+        "answer": "نور العين",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c32:017"
+        ]
+      },
+      {
+        "id": "b018p8_c32_018",
+        "question": "من غنى «قمرين»؟",
+        "answer": "عمرو دياب",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c32:018"
+        ]
+      },
+      {
+        "id": "b018p8_c32_019",
+        "question": "من غنى «عايش»؟",
+        "answer": "عمرو دياب",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c32:019"
+        ]
+      },
+      {
+        "id": "b018p8_c32_020",
+        "question": "من غنى «أجمل إحساس»؟",
+        "answer": "إليسا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c32:020"
+        ]
+      },
+      {
+        "id": "b018p8_c32_021",
+        "question": "من غنت «عايشالك»؟",
+        "answer": "إليسا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c32:021"
+        ]
+      },
+      {
+        "id": "b018p8_c32_022",
+        "question": "من غنت «مشاعر»؟",
+        "answer": "شيرين عبد الوهاب",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c32:022"
+        ]
+      },
+      {
+        "id": "b018p8_c32_023",
+        "question": "من غنت «آه يا ليل»؟",
+        "answer": "شيرين عبد الوهاب",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c32:023"
+        ]
+      },
+      {
+        "id": "b018p8_c32_024",
+        "question": "من غنى «نسيني الدنيا»؟",
+        "answer": "راغب علامة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c32:024"
+        ]
+      },
+      {
+        "id": "b018p8_c32_025",
+        "question": "من غنى «قلبي عشقها»؟",
+        "answer": "راغب علامة",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c32:025"
+        ]
+      },
+      {
+        "id": "b018p8_c32_026",
+        "question": "من غنى «حبيب قلبي»؟",
+        "answer": "وائل كفوري",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c32:026"
+        ]
+      },
+      {
+        "id": "b018p8_c32_027",
+        "question": "من غنى «البنت القوية»؟",
+        "answer": "وائل كفوري",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c32:027"
+        ]
+      },
+      {
+        "id": "b018p8_c32_028",
+        "question": "من غنت «يا مجنون»؟",
+        "answer": "أصالة نصري",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c32:028"
+        ]
+      },
+      {
+        "id": "b018p8_c32_029",
+        "question": "من غنت «خانات الذكريات»؟",
+        "answer": "أصالة نصري",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c32:029"
+        ]
+      },
+      {
+        "id": "b018p8_c32_030",
+        "question": "من غنى «علمني حبك» المعروفة أيضًا بمدرسة الحب؟",
+        "answer": "كاظم الساهر",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c32:030"
+        ]
+      },
+      {
+        "id": "b018p8_c32_031",
+        "question": "من كتب قصيدة «مدرسة الحب» التي غناها كاظم الساهر؟",
+        "answer": "نزار قباني",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c32:031"
+        ]
+      },
+      {
+        "id": "b018p8_c32_032",
+        "question": "من غنى «إني خيرتك فاختاري»؟",
+        "answer": "كاظم الساهر",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c32:032"
+        ]
+      },
+      {
+        "id": "b018p8_c32_033",
+        "question": "من كتب «إني خيرتك فاختاري»؟",
+        "answer": "نزار قباني",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c32:033"
+        ]
+      },
+      {
+        "id": "b018p8_c32_034",
+        "question": "من غنت «العيون السود»؟",
+        "answer": "وردة الجزائرية",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c32:034"
+        ]
+      },
+      {
+        "id": "b018p8_c32_035",
+        "question": "من لحن «العيون السود» لوردة؟",
+        "answer": "بليغ حمدي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c32:035"
+        ]
+      },
+      {
+        "id": "b018p8_c32_036",
+        "question": "من غنى «يا مال الشام» واشتهر بأدائها في الحفلات العربية؟",
+        "answer": "صباح فخري",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p8:c32:036"
+        ]
+      }
+    ]
+  }
+}
