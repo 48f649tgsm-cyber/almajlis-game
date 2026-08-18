@@ -1,0 +1,13 @@
+ALMAJLIS BUILD 031 — ROOT AUDIO PATH HOTFIX
+JS syntax: PASS
+
+This is NOT a new feature build.
+Only audio file paths were corrected because GitHub uploaded the WAV files to the repository root instead of an audio/ folder.
+
+Static checks:
+- JS syntax: PASS
+- still BUILD 031: PASS
+- no audio/intro path: PASS
+- root intro path: PASS
+- root question music: PASS
+- root question sting: PASS
