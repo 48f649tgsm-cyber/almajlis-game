@@ -1,0 +1,23 @@
+ALMAJLIS QUALITY 024 — iOS AUDIO HOTFIX
+JS syntax: PASS
+
+Problem:
+Safari/iOS blocks WebAudio until a real user gesture. Previous versions created new AudioContext
+instances for individual sounds, so effects could remain silent even though the visual code worked.
+
+Fixes:
+- One persistent shared AudioContext for SFX, broadcast music and tie-break roulette music.
+- Explicit audio unlock/resume on the first pointer/touch/click gesture.
+- startGame() also unlocks audio directly from the user's button press.
+- Silent priming buffer for iOS/Safari.
+- Audio mode button now unlocks audio and plays a click test when sound is enabled.
+- Broadcast and roulette music no longer close the shared AudioContext.
+- Intro no longer tries to play music before audio permission/user gesture exists.
+- All 023 match-builder and 022/021/020 visual/gameplay features retained.
+- Question bank and category images unchanged.
+
+Recommended test on iPhone:
+1. Reload page.
+2. Tap "ابدأ مجلس جديد" / continue normally.
+3. Tap sound mode until it reads "🔊 كامل".
+4. Start the match. You should hear question/timer/transition/points sounds and background music.
