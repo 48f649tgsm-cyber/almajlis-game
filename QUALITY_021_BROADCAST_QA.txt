@@ -1,0 +1,28 @@
+ALMAJLIS QUALITY 021 — BROADCAST EDITION
+JS syntax: PASS
+
+MASTERING PASS:
+- Unified ivory / charcoal / gold visual system + team colors.
+- Broadcast opening intro with animated ALMAJLIS identity.
+- Original synthesized audio identity: intro, ambient, question tension, final tension, victory.
+- Audio modes: Full / SFX only / Mute.
+- Dynamic music increases tension near 10 seconds; final 5 seconds retain ticks.
+- Dramatic silence on answer reveal.
+- Ambient board mode with subtle living background/glow.
+- Studio Wall layout on large screens (6 category columns).
+- Strong visual hierarchy for 100 / 300 / 500.
+- Question entrance reveal.
+- Dynamic question layouts: flags minimal, media-first for shared club, lineup, audio, career.
+- Larger two-player shared-club portraits.
+- Enhanced lineup field and missing-player pulse.
+- Animated scoreboard number changes.
+- Side glow based on active team.
+- Broadcast events for lead changes, ties, no-answer.
+- Final-five event and special last-question splash.
+- 500 challenge shine/sting preserved.
+- Victory Finale with different tie-break wording.
+- Unified motion timing system.
+- Existing 020 tie-break roulette retained.
+- Existing 30+30, manual answer reveal, media checks, reports, duplicate locks retained.
+- No Host Mode / rounds / audience QR / separate controller.
+- Question bank and locked category images unchanged.
