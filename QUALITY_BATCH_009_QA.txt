@@ -1,0 +1,22 @@
+ALMAJLIS QUALITY BATCH 009 QA
+Build: QUALITY-009-20260818-A
+New questions: 100
+Categories expanded: 10
+Exact normalized prompt duplicates vs MASTER+008: 0
+New rule: any category with fewer than 6 structurally valid questions is disabled automatically.
+Board safety retained: category also requires at least 2 unused questions at each 100/300/500 level.
+Category images: untouched.
+Batch 008 loading: retained.
+Batch 009 loading: enabled.
+
+Distribution:
+- تاريخ الخلفاء: 12
+- تاريخ الصحابة: 10
+- القرآن الكريم: 10
+- رؤساء دول: 10
+- ألغاز: 8
+- افلام اجنبية: 10
+- مسلسلات عربية: 10
+- مانشستر يونايتد: 10
+- ريال مدريد: 10
+- برشلونة: 10

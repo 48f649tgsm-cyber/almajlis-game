@@ -1,0 +1,1247 @@
+{
+  "version": "QUALITY-009-20260818-A",
+  "new_questions": 100,
+  "quality_policy": "100-question curated increment; no normalized prompt duplicates; same-game semantic/entity locks retained; category auto-disable when valid stock is below six questions",
+  "categories": {
+    "تاريخ الخلفاء": [
+      {
+        "id": "b009_caliphs_01",
+        "question": "أي خليفة أموي أمر ببناء قبة الصخرة في القدس؟",
+        "answer": "عبد الملك بن مروان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "caliphs:01"
+        ]
+      },
+      {
+        "id": "b009_caliphs_02",
+        "question": "من هو الخليفة الأموي الذي تولى الحكم بعد عبد الملك بن مروان وافتتحت في عهده الأندلس؟",
+        "answer": "الوليد بن عبد الملك",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "caliphs:02"
+        ]
+      },
+      {
+        "id": "b009_caliphs_03",
+        "question": "من هو الخليفة الراشدي الذي اتخذ التقويم الهجري رسميًا للدولة؟",
+        "answer": "عمر بن الخطاب",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "caliphs:03"
+        ]
+      },
+      {
+        "id": "b009_caliphs_04",
+        "question": "من هو الخليفة العباسي الذي أسس مدينة بغداد واتخذها عاصمة؟",
+        "answer": "أبو جعفر المنصور",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "caliphs:04"
+        ]
+      },
+      {
+        "id": "b009_caliphs_05",
+        "question": "من هو خامس خلفاء الدولة العباسية؟",
+        "answer": "هارون الرشيد",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "caliphs:05"
+        ]
+      },
+      {
+        "id": "b009_caliphs_06",
+        "question": "أي خليفة عباسي ارتبط عهده ببيت الحكمة وازدهار حركة الترجمة في بغداد؟",
+        "answer": "المأمون",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "caliphs:06"
+        ]
+      },
+      {
+        "id": "b009_caliphs_07",
+        "question": "من هما ابنا عبد الملك بن مروان اللذان توليا الخلافة تباعًا مباشرة بعده؟",
+        "answer": "الوليد بن عبد الملك ثم سليمان بن عبد الملك",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "caliphs:07"
+        ]
+      },
+      {
+        "id": "b009_caliphs_08",
+        "question": "من هو الخليفة الأموي الذي سبق عمر بن عبد العزيز مباشرة في الخلافة؟",
+        "answer": "سليمان بن عبد الملك",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "caliphs:08"
+        ]
+      },
+      {
+        "id": "b009_caliphs_09",
+        "question": "من هو آخر خلفاء الدولة الأموية في دمشق؟",
+        "answer": "مروان بن محمد",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "caliphs:09"
+        ]
+      },
+      {
+        "id": "b009_caliphs_10",
+        "question": "من هو الخليفة العباسي الذي بنى مدينة سامراء وجعلها مقرًا للخلافة؟",
+        "answer": "المعتصم بالله",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "caliphs:10"
+        ]
+      },
+      {
+        "id": "b009_caliphs_11",
+        "question": "أي خليفة أموي كان أول من تولى الخلافة من أبناء عبد الملك بن مروان؟",
+        "answer": "الوليد بن عبد الملك",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "caliphs:11"
+        ]
+      },
+      {
+        "id": "b009_caliphs_12",
+        "question": "من هو الخليفة العباسي الذي خلف أخاه السفاح وكان ثاني خلفاء بني العباس؟",
+        "answer": "أبو جعفر المنصور",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "caliphs:12"
+        ]
+      }
+    ],
+    "تاريخ الصحابة": [
+      {
+        "id": "b009_companions_01",
+        "question": "من هو الصحابي الملقب بسيف الله المسلول؟",
+        "answer": "خالد بن الوليد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "companions:01"
+        ]
+      },
+      {
+        "id": "b009_companions_02",
+        "question": "من هو الصحابي الذي نام في فراش النبي ﷺ ليلة الهجرة؟",
+        "answer": "علي بن أبي طالب",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "companions:02"
+        ]
+      },
+      {
+        "id": "b009_companions_03",
+        "question": "من هو مؤذن الرسول ﷺ الأشهر؟",
+        "answer": "بلال بن رباح",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "companions:03"
+        ]
+      },
+      {
+        "id": "b009_companions_04",
+        "question": "من هو الصحابي الذي أشار بحفر الخندق في غزوة الأحزاب؟",
+        "answer": "سلمان الفارسي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "companions:04"
+        ]
+      },
+      {
+        "id": "b009_companions_05",
+        "question": "من هو الصحابي الذي اهتز لموته عرش الرحمن كما ورد في الحديث؟",
+        "answer": "سعد بن معاذ",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "companions:05"
+        ]
+      },
+      {
+        "id": "b009_companions_06",
+        "question": "من هو الصحابي الملقب بأمين هذه الأمة؟",
+        "answer": "أبو عبيدة عامر بن الجراح",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "companions:06"
+        ]
+      },
+      {
+        "id": "b009_companions_07",
+        "question": "من هو الصحابي الذي كُلّف بجمع القرآن في عهد أبي بكر الصديق؟",
+        "answer": "زيد بن ثابت",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "companions:07"
+        ]
+      },
+      {
+        "id": "b009_companions_08",
+        "question": "من هو الصحابي الذي كان أول سفير للإسلام إلى المدينة قبل الهجرة؟",
+        "answer": "مصعب بن عمير",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "companions:08"
+        ]
+      },
+      {
+        "id": "b009_companions_09",
+        "question": "من هو الصحابي الذي لُقّب بذي النورين؟",
+        "answer": "عثمان بن عفان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "companions:09"
+        ]
+      },
+      {
+        "id": "b009_companions_10",
+        "question": "من هو الصحابي الذي استضاف النبي ﷺ في بيته عند قدومه إلى المدينة؟",
+        "answer": "أبو أيوب الأنصاري",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "companions:10"
+        ]
+      }
+    ],
+    "القرآن الكريم": [
+      {
+        "id": "b009_quran_01",
+        "question": "ما السورة التي تُسمى أم الكتاب؟",
+        "answer": "سورة الفاتحة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "quran:01"
+        ]
+      },
+      {
+        "id": "b009_quran_02",
+        "question": "كم عدد أجزاء القرآن الكريم؟",
+        "answer": "30 جزءًا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "quran:02"
+        ]
+      },
+      {
+        "id": "b009_quran_03",
+        "question": "ما أقصر سورة في القرآن الكريم من حيث عدد الآيات؟",
+        "answer": "سورة الكوثر",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "quran:03"
+        ]
+      },
+      {
+        "id": "b009_quran_04",
+        "question": "في أي سورة وردت آية الكرسي؟",
+        "answer": "سورة البقرة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "quran:04"
+        ]
+      },
+      {
+        "id": "b009_quran_05",
+        "question": "ما السورة التي لا تبدأ بالبسملة؟",
+        "answer": "سورة التوبة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "quran:05"
+        ]
+      },
+      {
+        "id": "b009_quran_06",
+        "question": "في أي سورة وردت قصة أصحاب الفيل؟",
+        "answer": "سورة الفيل",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "quran:06"
+        ]
+      },
+      {
+        "id": "b009_quran_07",
+        "question": "ما السورة التي تحمل اسم امرأة؟",
+        "answer": "سورة مريم",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "quran:07"
+        ]
+      },
+      {
+        "id": "b009_quran_08",
+        "question": "ما السورة التي تبدأ بالحروف المقطعة «كهيعص»؟",
+        "answer": "سورة مريم",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "quran:08"
+        ]
+      },
+      {
+        "id": "b009_quran_09",
+        "question": "في أي سورة وردت قصة أصحاب الكهف؟",
+        "answer": "سورة الكهف",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "quran:09"
+        ]
+      },
+      {
+        "id": "b009_quran_10",
+        "question": "ما السورة التي تحمل اسم نبي وتقص قصته بصورة متصلة من بدايتها إلى نهايتها؟",
+        "answer": "سورة يوسف",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "quran:10"
+        ]
+      }
+    ],
+    "رؤساء دول": [
+      {
+        "id": "b009_leaders_01",
+        "question": "من كان الرئيس الأمريكي الذي أصدر إعلان تحرير العبيد أثناء الحرب الأهلية؟",
+        "answer": "أبراهام لينكولن",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "leaders:01"
+        ]
+      },
+      {
+        "id": "b009_leaders_02",
+        "question": "من كان أول رئيس لجنوب أفريقيا بعد انتهاء نظام الفصل العنصري وإجراء انتخابات عامة متعددة الأعراق عام 1994؟",
+        "answer": "نيلسون مانديلا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "leaders:02"
+        ]
+      },
+      {
+        "id": "b009_leaders_03",
+        "question": "من كان أول رئيس للجمهورية الفرنسية الخامسة؟",
+        "answer": "شارل ديغول",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "leaders:03"
+        ]
+      },
+      {
+        "id": "b009_leaders_04",
+        "question": "من كان رئيس الولايات المتحدة عند استقالة ريتشارد نيكسون عام 1974 ثم خلفه في المنصب؟",
+        "answer": "جيرالد فورد",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "leaders:04"
+        ]
+      },
+      {
+        "id": "b009_leaders_05",
+        "question": "من كان رئيس مصر عند توقيع معاهدة السلام المصرية الإسرائيلية عام 1979؟",
+        "answer": "أنور السادات",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "leaders:05"
+        ]
+      },
+      {
+        "id": "b009_leaders_06",
+        "question": "من كان رئيس الولايات المتحدة عند توقيع اتفاقية كامب ديفيد عام 1978؟",
+        "answer": "جيمي كارتر",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "leaders:06"
+        ]
+      },
+      {
+        "id": "b009_leaders_07",
+        "question": "من كان أول رئيس لروسيا بعد تفكك الاتحاد السوفيتي؟",
+        "answer": "بوريس يلتسن",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "leaders:07"
+        ]
+      },
+      {
+        "id": "b009_leaders_08",
+        "question": "من كان رئيس فرنسا أثناء معظم سنوات الحرب العالمية الأولى من 1913 إلى 1920؟",
+        "answer": "ريمون بوانكاريه",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "leaders:08"
+        ]
+      },
+      {
+        "id": "b009_leaders_09",
+        "question": "من كان رئيس الولايات المتحدة عند شراء ألاسكا من روسيا عام 1867؟",
+        "answer": "أندرو جونسون",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "leaders:09"
+        ]
+      },
+      {
+        "id": "b009_leaders_10",
+        "question": "من كان أول رئيس لجمهورية تركيا؟",
+        "answer": "مصطفى كمال أتاتورك",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "leaders:10"
+        ]
+      }
+    ],
+    "ألغاز": [
+      {
+        "id": "b009_puzzles_01",
+        "question": "شيء كلما أخذت منه كبر، ما هو؟",
+        "answer": "الحفرة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "puzzles:01"
+        ]
+      },
+      {
+        "id": "b009_puzzles_02",
+        "question": "ما الشيء الذي له أسنان ولا يعض؟",
+        "answer": "المشط",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "puzzles:02"
+        ]
+      },
+      {
+        "id": "b009_puzzles_03",
+        "question": "ما الشيء الذي يكتب ولا يقرأ؟",
+        "answer": "القلم",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "puzzles:03"
+        ]
+      },
+      {
+        "id": "b009_puzzles_04",
+        "question": "رجل خرج تحت المطر بلا مظلة ولا قبعة ولم يبتل شعره، لماذا؟",
+        "answer": "لأنه أصلع",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "puzzles:04"
+        ]
+      },
+      {
+        "id": "b009_puzzles_05",
+        "question": "لديك ثلاثة تفاحات وأخذت اثنتين، كم تفاحة أصبحت معك؟",
+        "answer": "تفاحتان",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "puzzles:05"
+        ]
+      },
+      {
+        "id": "b009_puzzles_06",
+        "question": "ما الشيء الذي إذا نطقت اسمه كسرته؟",
+        "answer": "الصمت",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "puzzles:06"
+        ]
+      },
+      {
+        "id": "b009_puzzles_07",
+        "question": "أب وأم لديهما ستة أبناء، ولكل ابن أخت واحدة فقط. كم عدد أفراد الأسرة؟",
+        "answer": "9 أفراد",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "puzzles:07"
+        ]
+      },
+      {
+        "id": "b009_puzzles_08",
+        "question": "في سباق تجاوزت المتسابق الذي في المركز الثاني. في أي مركز أصبحت؟",
+        "answer": "المركز الثاني",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "puzzles:08"
+        ]
+      }
+    ],
+    "افلام اجنبية": [
+      {
+        "id": "b009_films_01",
+        "question": "من أخرج فيلم Titanic الصادر عام 1997؟",
+        "answer": "جيمس كاميرون",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "films:01"
+        ]
+      },
+      {
+        "id": "b009_films_02",
+        "question": "ما اسم المدرسة السحرية التي يلتحق بها هاري بوتر في سلسلة الأفلام؟",
+        "answer": "هوغوورتس",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "films:02"
+        ]
+      },
+      {
+        "id": "b009_films_03",
+        "question": "أي فيلم رسوم متحركة من بيكسار تدور قصته حول ألعاب يملكها طفل اسمه آندي؟",
+        "answer": "Toy Story",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "films:03"
+        ]
+      },
+      {
+        "id": "b009_films_04",
+        "question": "من أدى شخصية الجوكر في فيلم The Dark Knight عام 2008؟",
+        "answer": "هيث ليدجر",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "films:04"
+        ]
+      },
+      {
+        "id": "b009_films_05",
+        "question": "ما اسم السفينة التي يقودها جاك سبارو في سلسلة Pirates of the Caribbean؟",
+        "answer": "اللؤلؤة السوداء (Black Pearl)",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "films:05"
+        ]
+      },
+      {
+        "id": "b009_films_06",
+        "question": "أي فيلم فاز بأوسكار أفضل فيلم عن حارس أمن في حفل موسيقي وعازف بيانو في جولة بالجنوب الأمريكي؟",
+        "answer": "Green Book",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "films:06"
+        ]
+      },
+      {
+        "id": "b009_films_07",
+        "question": "من أخرج ثلاثية The Lord of the Rings السينمائية؟",
+        "answer": "بيتر جاكسون",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "films:07"
+        ]
+      },
+      {
+        "id": "b009_films_08",
+        "question": "ما اسم الكوكب الصحراوي الذي تدور حوله أحداث محورية في فيلم Dune؟",
+        "answer": "أراكيس (Arrakis)",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "films:08"
+        ]
+      },
+      {
+        "id": "b009_films_09",
+        "question": "أي فيلم لأكيرا كوروساوا صدر عام 1954 وتدور قصته حول محاربين يدافعون عن قرية؟",
+        "answer": "Seven Samurai",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "films:09"
+        ]
+      },
+      {
+        "id": "b009_films_10",
+        "question": "ما اسم الحاسوب الذكي في فيلم 2001: A Space Odyssey؟",
+        "answer": "HAL 9000",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "films:10"
+        ]
+      }
+    ],
+    "مسلسلات عربية": [
+      {
+        "id": "b009_arabseries_01",
+        "question": "في أي مدينة سورية تدور أحداث مسلسل باب الحارة أساسًا؟",
+        "answer": "دمشق",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "arabseries:01"
+        ]
+      },
+      {
+        "id": "b009_arabseries_02",
+        "question": "من أدى شخصية غوار الطوشة في الأعمال التلفزيونية السورية الشهيرة؟",
+        "answer": "دريد لحام",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "arabseries:02"
+        ]
+      },
+      {
+        "id": "b009_arabseries_03",
+        "question": "ما اسم المسلسل المصري الشهير الذي جسد فيه يحيى الفخراني شخصية ونيس؟",
+        "answer": "يوميات ونيس",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "arabseries:03"
+        ]
+      },
+      {
+        "id": "b009_arabseries_04",
+        "question": "من أدى شخصية أبو عصام في المواسم الأولى من مسلسل باب الحارة؟",
+        "answer": "عباس النوري",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "arabseries:04"
+        ]
+      },
+      {
+        "id": "b009_arabseries_05",
+        "question": "ما اسم المسلسل السوري التاريخي الذي تناول سيرة الزير سالم وأدى بطولته سلوم حداد؟",
+        "answer": "الزير سالم",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "arabseries:05"
+        ]
+      },
+      {
+        "id": "b009_arabseries_06",
+        "question": "من أدى شخصية رأفت الهجان في المسلسل المصري الذي يحمل الاسم نفسه؟",
+        "answer": "محمود عبد العزيز",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "arabseries:06"
+        ]
+      },
+      {
+        "id": "b009_arabseries_07",
+        "question": "ما اسم المسلسل المصري الذي جسد فيه نور الشريف شخصية عبد الغفور البرعي؟",
+        "answer": "لن أعيش في جلباب أبي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "arabseries:07"
+        ]
+      },
+      {
+        "id": "b009_arabseries_08",
+        "question": "من أخرج مسلسل التغريبة الفلسطينية؟",
+        "answer": "حاتم علي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "arabseries:08"
+        ]
+      },
+      {
+        "id": "b009_arabseries_09",
+        "question": "من كتب مسلسل الزير سالم الذي عُرض عام 2000؟",
+        "answer": "ممدوح عدوان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "arabseries:09"
+        ]
+      },
+      {
+        "id": "b009_arabseries_10",
+        "question": "ما اسم المسلسل السوري الذي جسد فيه جمال سليمان شخصية مندور أبو الدهب؟",
+        "answer": "حدائق الشيطان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "arabseries:10"
+        ]
+      }
+    ],
+    "مانشستر يونايتد": [
+      {
+        "id": "b009_mufc_01",
+        "question": "من سجل هدف مانشستر يونايتد الحاسم في نهائي دوري أبطال أوروبا 1999؟",
+        "answer": "أولي غونار سولشاير",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "clubs": [
+            "مانشستر يونايتد"
+          ]
+        },
+        "semantic_keys": [
+          "mufc:01"
+        ]
+      },
+      {
+        "id": "b009_mufc_02",
+        "question": "من كان قائد مانشستر يونايتد في نهائي دوري أبطال أوروبا 2008؟",
+        "answer": "ريو فرديناند",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "clubs": [
+            "مانشستر يونايتد"
+          ]
+        },
+        "semantic_keys": [
+          "mufc:02"
+        ]
+      },
+      {
+        "id": "b009_mufc_03",
+        "question": "أي حارس دنماركي كان قائد يونايتد في نهائي دوري الأبطال 1999 بسبب إيقاف روي كين؟",
+        "answer": "بيتر شمايكل",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "clubs": [
+            "مانشستر يونايتد"
+          ]
+        },
+        "semantic_keys": [
+          "mufc:03"
+        ]
+      },
+      {
+        "id": "b009_mufc_04",
+        "question": "من سجل هدف مانشستر يونايتد الوحيد في نهائي دوري أبطال أوروبا 2011؟",
+        "answer": "واين روني",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "clubs": [
+            "مانشستر يونايتد"
+          ]
+        },
+        "semantic_keys": [
+          "mufc:04"
+        ]
+      },
+      {
+        "id": "b009_mufc_05",
+        "question": "أي لاعب سجل هدف الفوز الشهير على ليفربول في نهائي كأس الاتحاد الإنجليزي 1996؟",
+        "answer": "إريك كانتونا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "clubs": [
+            "مانشستر يونايتد"
+          ]
+        },
+        "semantic_keys": [
+          "mufc:05"
+        ]
+      },
+      {
+        "id": "b009_mufc_06",
+        "question": "من سجل هدفي مانشستر يونايتد في نهائي كأس الكؤوس الأوروبية 1991 أمام برشلونة؟",
+        "answer": "مارك هيوز",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "clubs": [
+            "مانشستر يونايتد"
+          ]
+        },
+        "semantic_keys": [
+          "mufc:06"
+        ]
+      },
+      {
+        "id": "b009_mufc_07",
+        "question": "أي لاعب ارتدى القميص رقم 7 مباشرة بعد رحيل كريستيانو رونالدو عام 2009؟",
+        "answer": "مايكل أوين",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "clubs": [
+            "مانشستر يونايتد"
+          ]
+        },
+        "semantic_keys": [
+          "mufc:07"
+        ]
+      },
+      {
+        "id": "b009_mufc_08",
+        "question": "من سجل أول هدف لمانشستر يونايتد في نهائي كأس أوروبا 1968 أمام بنفيكا؟",
+        "answer": "بوبي تشارلتون",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "clubs": [
+            "مانشستر يونايتد"
+          ]
+        },
+        "semantic_keys": [
+          "mufc:08"
+        ]
+      },
+      {
+        "id": "b009_mufc_09",
+        "question": "من سجل هدف مانشستر يونايتد الثالث في فوزه 4-3 على ريال مدريد في أولد ترافورد عام 2003؟",
+        "answer": "ديفيد بيكهام",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "clubs": [
+            "مانشستر يونايتد"
+          ]
+        },
+        "semantic_keys": [
+          "mufc:09"
+        ]
+      },
+      {
+        "id": "b009_mufc_10",
+        "question": "من كان مدرب مانشستر يونايتد عندما فاز بكأس الكؤوس الأوروبية عام 1991؟",
+        "answer": "أليكس فيرغسون",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "clubs": [
+            "مانشستر يونايتد"
+          ]
+        },
+        "semantic_keys": [
+          "mufc:10"
+        ]
+      }
+    ],
+    "ريال مدريد": [
+      {
+        "id": "b009_realmadrid_01",
+        "question": "من سجل هدف ريال مدريد في نهائي دوري أبطال أوروبا 2002 أمام باير ليفركوزن بتسديدة طائرة شهيرة؟",
+        "answer": "زين الدين زيدان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "clubs": [
+            "ريال مدريد"
+          ]
+        },
+        "semantic_keys": [
+          "realmadrid:01"
+        ]
+      },
+      {
+        "id": "b009_realmadrid_02",
+        "question": "من كان قائد ريال مدريد الذي رفع كأس دوري أبطال أوروبا 2014؟",
+        "answer": "إيكر كاسياس",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "clubs": [
+            "ريال مدريد"
+          ]
+        },
+        "semantic_keys": [
+          "realmadrid:02"
+        ]
+      },
+      {
+        "id": "b009_realmadrid_03",
+        "question": "من سجل ركلة الجزاء الحاسمة لريال مدريد في نهائي دوري أبطال أوروبا 2016؟",
+        "answer": "كريستيانو رونالدو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "clubs": [
+            "ريال مدريد"
+          ]
+        },
+        "semantic_keys": [
+          "realmadrid:03"
+        ]
+      },
+      {
+        "id": "b009_realmadrid_04",
+        "question": "من سجل هدفي ريال مدريد في نهائي دوري أبطال أوروبا 2017 إلى جانب أهداف كاسيميرو وأسينسيو؟",
+        "answer": "كريستيانو رونالدو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "clubs": [
+            "ريال مدريد"
+          ]
+        },
+        "semantic_keys": [
+          "realmadrid:04"
+        ]
+      },
+      {
+        "id": "b009_realmadrid_05",
+        "question": "أي لاعب سجل هدف التعادل لريال مدريد في الدقيقة 93 من نهائي دوري الأبطال 2014؟",
+        "answer": "سيرخيو راموس",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "clubs": [
+            "ريال مدريد"
+          ]
+        },
+        "semantic_keys": [
+          "realmadrid:05"
+        ]
+      },
+      {
+        "id": "b009_realmadrid_06",
+        "question": "من كان مدرب ريال مدريد عند تحقيق لقب دوري الأبطال العاشر «لا ديسيما»؟",
+        "answer": "كارلو أنشيلوتي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "clubs": [
+            "ريال مدريد"
+          ]
+        },
+        "semantic_keys": [
+          "realmadrid:06"
+        ]
+      },
+      {
+        "id": "b009_realmadrid_07",
+        "question": "أي لاعب انتقل من توتنهام إلى ريال مدريد عام 2013 وسجل في نهائي دوري الأبطال 2014؟",
+        "answer": "غاريث بيل",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "clubs": [
+            "ريال مدريد"
+          ]
+        },
+        "semantic_keys": [
+          "realmadrid:07"
+        ]
+      },
+      {
+        "id": "b009_realmadrid_08",
+        "question": "من سجل هدف ريال مدريد الوحيد في نهائي كأس أوروبا 1998 أمام يوفنتوس؟",
+        "answer": "بريدراج مياتوفيتش",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "clubs": [
+            "ريال مدريد"
+          ]
+        },
+        "semantic_keys": [
+          "realmadrid:08"
+        ]
+      },
+      {
+        "id": "b009_realmadrid_09",
+        "question": "من كان حارس ريال مدريد الأساسي في نهائي دوري أبطال أوروبا 2000 أمام فالنسيا؟",
+        "answer": "إيكر كاسياس",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "clubs": [
+            "ريال مدريد"
+          ]
+        },
+        "semantic_keys": [
+          "realmadrid:09"
+        ]
+      },
+      {
+        "id": "b009_realmadrid_10",
+        "question": "أي لاعب سجل لريال مدريد في نهائي كأس أوروبا 1960 أربعة أهداف أمام آينتراخت فرانكفورت؟",
+        "answer": "فيرينتس بوشكاش",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "clubs": [
+            "ريال مدريد"
+          ]
+        },
+        "semantic_keys": [
+          "realmadrid:10"
+        ]
+      }
+    ],
+    "برشلونة": [
+      {
+        "id": "b009_barcelona_01",
+        "question": "من سجل هدف برشلونة الأول في نهائي دوري أبطال أوروبا 2009 أمام مانشستر يونايتد؟",
+        "answer": "صامويل إيتو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "clubs": [
+            "برشلونة"
+          ]
+        },
+        "semantic_keys": [
+          "barcelona:01"
+        ]
+      },
+      {
+        "id": "b009_barcelona_02",
+        "question": "من سجل هدف برشلونة الثاني في نهائي دوري أبطال أوروبا 2009؟",
+        "answer": "ليونيل ميسي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "clubs": [
+            "برشلونة"
+          ]
+        },
+        "semantic_keys": [
+          "barcelona:02"
+        ]
+      },
+      {
+        "id": "b009_barcelona_03",
+        "question": "من كان قائد برشلونة في نهائي دوري أبطال أوروبا 2011؟",
+        "answer": "كارليس بويول",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "clubs": [
+            "برشلونة"
+          ]
+        },
+        "semantic_keys": [
+          "barcelona:03"
+        ]
+      },
+      {
+        "id": "b009_barcelona_04",
+        "question": "من سجل هدف الفوز لبرشلونة في نهائي دوري أبطال أوروبا 2006 أمام أرسنال؟",
+        "answer": "جوليانو بيليتي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "clubs": [
+            "برشلونة"
+          ]
+        },
+        "semantic_keys": [
+          "barcelona:04"
+        ]
+      },
+      {
+        "id": "b009_barcelona_05",
+        "question": "أي لاعب سجل الهدف الأول لبرشلونة في نهائي دوري أبطال أوروبا 2015 أمام يوفنتوس؟",
+        "answer": "إيفان راكيتيتش",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "clubs": [
+            "برشلونة"
+          ]
+        },
+        "semantic_keys": [
+          "barcelona:05"
+        ]
+      },
+      {
+        "id": "b009_barcelona_06",
+        "question": "من سجل هدف برشلونة الثالث في نهائي دوري أبطال أوروبا 2015؟",
+        "answer": "نيمار",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "clubs": [
+            "برشلونة"
+          ]
+        },
+        "semantic_keys": [
+          "barcelona:06"
+        ]
+      },
+      {
+        "id": "b009_barcelona_07",
+        "question": "من كان مدرب برشلونة عند تحقيق السداسية عام 2009؟",
+        "answer": "بيب غوارديولا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "clubs": [
+            "برشلونة"
+          ]
+        },
+        "semantic_keys": [
+          "barcelona:07"
+        ]
+      },
+      {
+        "id": "b009_barcelona_08",
+        "question": "من سجل هدف برشلونة الأول في نهائي كأس الكؤوس الأوروبية 1989 أمام سامبدوريا؟",
+        "answer": "خوليو ساليناس",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "clubs": [
+            "برشلونة"
+          ]
+        },
+        "semantic_keys": [
+          "barcelona:08"
+        ]
+      },
+      {
+        "id": "b009_barcelona_09",
+        "question": "أي لاعب سجل هدفين لبرشلونة في الفوز 6-2 على ريال مدريد في البرنابيو عام 2009؟",
+        "answer": "ليونيل ميسي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "clubs": [
+            "برشلونة"
+          ]
+        },
+        "semantic_keys": [
+          "barcelona:09"
+        ]
+      },
+      {
+        "id": "b009_barcelona_10",
+        "question": "من سجل هدف برشلونة الوحيد في نهائي كأس الكؤوس الأوروبية 1997 أمام باريس سان جيرمان؟",
+        "answer": "رونالدو نازاريو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "clubs": [
+            "برشلونة"
+          ]
+        },
+        "semantic_keys": [
+          "barcelona:10"
+        ]
+      }
+    ]
+  }
+}
