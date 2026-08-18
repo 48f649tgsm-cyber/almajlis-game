@@ -1,0 +1,10 @@
+ALMAJLIS 026 STABLE HOTFIX
+JS syntax: PASS
+- Removed over-broad 'topics' collision lock that was falsely blocking valid matches.
+- Added normalized exact-answer lock across the same game.
+- Concrete player/club/country/match/event locks remain.
+- Match builder retries deeply and no longer displays the technical blocking alert.
+- Exhausted per-tier history can recycle only when necessary instead of blocking a whole match.
+- iOS sound effects now use embedded WAV files through HTMLAudio, not WebAudio oscillators.
+- No external audio files are required.
+- BUILD 026 remains visibly stamped for deployment verification.
