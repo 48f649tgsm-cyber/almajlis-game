@@ -1,0 +1,23 @@
+ALMAJLIS BUILD 032 — CATEGORY STOCK LOCK
+JS syntax: PASS
+
+Checks:
+- BUILD 032: PASS
+- JS syntax: PASS
+- minimum six valid stock: PASS
+- 2 per 100/300/500: PASS
+- disabled unavailable categories: PASS
+- temporary unavailable label: PASS
+- draw hard guard: PASS
+- 031 root audio paths retained: PASS
+
+Behavior:
+- A category is selectable only if it can supply a complete six-question category:
+  2 questions at 100, 2 at 300, 2 at 500.
+- It must also contain at least six valid questions in total.
+- Unavailable categories are visibly disabled and labelled "غير متوفرة مؤقتًا".
+- Disabled categories cannot be clicked or remain selected.
+- The category selection and draw screens enforce the same rule.
+- Start Match no longer incorrectly reports a stock shortage after six valid categories were accepted.
+- BUILD 031 root-level audio paths are retained unchanged.
+- Question bank, audio files, scoring, timer, visuals and tie-break behavior are otherwise unchanged.
