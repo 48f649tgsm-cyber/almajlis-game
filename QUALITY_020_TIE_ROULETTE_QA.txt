@@ -1,0 +1,18 @@
+ALMAJLIS QUALITY 020 — TIE-BREAK CATEGORY ROULETTE
+JS syntax: PASS
+
+Tie-break flow:
+1. Match ends level.
+2. "سؤال الحسم" screen opens.
+3. All six match categories are shown visually with their category art.
+4. A spotlight cycles across the categories while original WebAudio action music plays.
+5. The spotlight gradually slows down.
+6. It stops on a random category that has an eligible unused valid 500-point question.
+7. The selected category glows and is announced.
+8. After a short dramatic pause, the 500-level tie-break question appears.
+9. 30-second tie-break timer; answer remains manual.
+10. If neither team answers, "تدوير الفئات من جديد" runs the category roulette again and selects a new eligible tie-break question.
+
+No copyrighted music is embedded; the action cue is synthesized live in the browser.
+Existing Studio 019 features retained.
+Question bank and category images unchanged.
