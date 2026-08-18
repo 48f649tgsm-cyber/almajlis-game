@@ -1,0 +1,5 @@
+ALMAJLIS PROFESSIONAL PATCH 014
+Bank remains 822 questions (no content added).
+Added: adaptive question presentation, professional top bar, optional 30/45s timer engine (default off), short sound effects + mute, local question feedback (good/weak/wrong/duplicate/broken media), local usage tracking, least-used helper, answer reveal hook, end-stat helper.
+Retained: Islamic cross-category semantic locks, minimum stock 6 rule, all Batch 008–013 loaders.
+Category images untouched.
