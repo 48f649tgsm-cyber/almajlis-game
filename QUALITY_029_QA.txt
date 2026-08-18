@@ -1,0 +1,41 @@
+ALMAJLIS BUILD 029 — STABLE COMBINED HOTFIX
+JS syntax: PASS
+
+Static regression checks:
+- BUILD 029 visible: PASS
+- start button progress: PASS
+- two-stage match solver: PASS
+- HTMLAudio SFX: PASS
+- HTMLAudio themes: PASS
+- intro after first gesture: PASS
+- ambient music: PASS
+- question music: PASS
+- tension music: PASS
+- tie-break music: PASS
+- victory music: PASS
+- no old blocking alert: PASS
+
+Scope intentionally limited to TWO fixes:
+1. Start Match reliability.
+2. Complete iPhone-safe music + SFX routing.
+
+Match start:
+- Keeps BUILD 027 two-stage solver.
+- Never relaxes duplicate question ID, normalized exact answer, player, or club inside one match.
+- If semantic metadata is too broad, only the broad semantic labels are relaxed.
+- Start button visibly shows "جاري تجهيز المباراة…" while building.
+
+Audio:
+- Uses the same embedded HTMLAudio/WAV path proven by the working audio test.
+- Intro music starts after the first real user gesture (Safari requirement).
+- Ambient board music.
+- Question music.
+- Tension music.
+- Final-seconds / handover / reveal / points SFX.
+- Tie-break action music.
+- Victory music.
+- Question audio temporarily ducks program music.
+- Full / SFX only / Mute modes remain.
+
+No new gameplay or visual feature was added.
+Question bank and category images are unchanged.
