@@ -1,0 +1,1598 @@
+{
+  "version": "17.1-part01",
+  "new_questions": 144,
+  "categories": {
+    "ألغاز": [
+      {
+        "id": "b017p1_c01_001",
+        "question": "شيء كلما أخذت منه كبر، ما هو؟",
+        "answer": "الحفرة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c01:001"
+        ]
+      },
+      {
+        "id": "b017p1_c01_002",
+        "question": "له أسنان ولا يعض، ما هو؟",
+        "answer": "المشط",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c01:002"
+        ]
+      },
+      {
+        "id": "b017p1_c01_003",
+        "question": "ما الشيء الذي إذا نطقت اسمه كسرته؟",
+        "answer": "الصمت",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c01:003"
+        ]
+      },
+      {
+        "id": "b017p1_c01_004",
+        "question": "ما الشيء الذي يملأ الغرفة ولا يشغل حيزًا؟",
+        "answer": "الضوء",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c01:004"
+        ]
+      },
+      {
+        "id": "b017p1_c01_005",
+        "question": "له أوراق وليس نباتًا وله جلد وليس حيوانًا، ما هو؟",
+        "answer": "الكتاب",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c01:005"
+        ]
+      },
+      {
+        "id": "b017p1_c01_006",
+        "question": "ما الذي يجري ولا يمشي وله فم ولا يتكلم؟",
+        "answer": "النهر",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c01:006"
+        ]
+      },
+      {
+        "id": "b017p1_c01_007",
+        "question": "له مفاتيح كثيرة ولا يفتح بابًا، ما هو؟",
+        "answer": "البيانو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c01:007"
+        ]
+      },
+      {
+        "id": "b017p1_c01_008",
+        "question": "ما الشيء الذي أمامك دائمًا ولا تستطيع رؤيته؟",
+        "answer": "المستقبل",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c01:008"
+        ]
+      },
+      {
+        "id": "b017p1_c01_009",
+        "question": "ما الذي له وجه ويدان بلا ذراعين ولا ساقين؟",
+        "answer": "الساعة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c01:009"
+        ]
+      },
+      {
+        "id": "b017p1_c01_010",
+        "question": "ما الشيء الذي يمكنك كسره دون أن تلمسه؟",
+        "answer": "الوعد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c01:010"
+        ]
+      },
+      {
+        "id": "b017p1_c01_011",
+        "question": "ما الذي يرتفع ولا ينخفض؟",
+        "answer": "العمر",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c01:011"
+        ]
+      },
+      {
+        "id": "b017p1_c01_012",
+        "question": "ما الذي يوجد في وسط مكة؟",
+        "answer": "حرف الكاف",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c01:012"
+        ]
+      },
+      {
+        "id": "b017p1_c01_013",
+        "question": "لدي مدن بلا بيوت وجبال بلا أشجار ومياه بلا أسماك، من أنا؟",
+        "answer": "الخريطة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c01:013"
+        ]
+      },
+      {
+        "id": "b017p1_c01_014",
+        "question": "في سباق تجاوزت صاحب المركز الثاني، فما مركزك؟",
+        "answer": "الثاني",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c01:014"
+        ]
+      },
+      {
+        "id": "b017p1_c01_015",
+        "question": "كم شهرًا في السنة يحتوي على 28 يومًا؟",
+        "answer": "كل الشهور",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c01:015"
+        ]
+      },
+      {
+        "id": "b017p1_c01_016",
+        "question": "لديك عود ثقاب وغرفة فيها شمعة ومدفأة ومصباح زيتي، ماذا تشعل أولًا؟",
+        "answer": "عود الثقاب",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c01:016"
+        ]
+      },
+      {
+        "id": "b017p1_c01_017",
+        "question": "ما العدد التالي: 1، 1، 2، 3، 5، 8؟",
+        "answer": "13",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c01:017"
+        ]
+      },
+      {
+        "id": "b017p1_c01_018",
+        "question": "أب وأم لديهما ستة أبناء ولكل ابن أخت واحدة، كم عدد أفراد الأسرة؟",
+        "answer": "9",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c01:018"
+        ]
+      },
+      {
+        "id": "b017p1_c01_019",
+        "question": "رجل خرج تحت المطر بلا مظلة ولم يبتل شعره، لماذا؟",
+        "answer": "لأنه أصلع",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c01:019"
+        ]
+      },
+      {
+        "id": "b017p1_c01_020",
+        "question": "شيء يولد كبيرًا ثم يصغر كل يوم، ما هو؟",
+        "answer": "الشمعة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c01:020"
+        ]
+      },
+      {
+        "id": "b017p1_c01_021",
+        "question": "ما الشيء الذي يدخل الماء ولا يبتل؟",
+        "answer": "الضوء المنعكس",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c01:021"
+        ]
+      },
+      {
+        "id": "b017p1_c01_022",
+        "question": "إذا كان لديك ثلاث تفاحات وأخذت اثنتين، فكم تفاحة أصبحت معك؟",
+        "answer": "تفاحتان",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c01:022"
+        ]
+      },
+      {
+        "id": "b017p1_c01_023",
+        "question": "أي كلمة في القاموس تُكتب دائمًا بشكل صحيح؟",
+        "answer": "كلمة صحيح",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c01:023"
+        ]
+      },
+      {
+        "id": "b017p1_c01_024",
+        "question": "ما الشيء الذي كلما زاد عدد حراسه كان أسهل فقدانه؟",
+        "answer": "السر",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c01:024"
+        ]
+      },
+      {
+        "id": "b017p1_c01_025",
+        "question": "ساعة تدق 6 دقات في 5 ثوانٍ؛ كم تستغرق 12 دقة بنفس الإيقاع؟",
+        "answer": "11 ثانية",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c01:025"
+        ]
+      },
+      {
+        "id": "b017p1_c01_026",
+        "question": "ما العدد الذي إذا ضربته بنفسه ثم أضفت إليه نفسه كان الناتج 30؟",
+        "answer": "5",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c01:026"
+        ]
+      },
+      {
+        "id": "b017p1_c01_027",
+        "question": "رجل ينظر إلى صورة ويقول: ليس لي أخ، لكن والد هذا الرجل هو ابن أبي. من في الصورة؟",
+        "answer": "ابنه",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c01:027"
+        ]
+      },
+      {
+        "id": "b017p1_c01_028",
+        "question": "لديك ميزان كفتين و9 كرات إحداها أثقل، ما أقل عدد وزنات لضمان معرفتها؟",
+        "answer": "وزنتان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c01:028"
+        ]
+      },
+      {
+        "id": "b017p1_c01_029",
+        "question": "ثلاثة أطباء قالوا إن أحمد أخوهم، وأحمد يقول ليس لي إخوة ذكور. كيف؟",
+        "answer": "الأطباء أخواته",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c01:029"
+        ]
+      },
+      {
+        "id": "b017p1_c01_030",
+        "question": "ما العدد الذي نصفه وثلثه وسدسه مجموعها يساوي العدد نفسه؟",
+        "answer": "أي عدد",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c01:030"
+        ]
+      },
+      {
+        "id": "b017p1_c01_031",
+        "question": "ما أصغر عدد موجب يقبل القسمة على 2 و3 و4 و5 و6 دون باقٍ؟",
+        "answer": "60",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c01:031"
+        ]
+      },
+      {
+        "id": "b017p1_c01_032",
+        "question": "إذا كانت خمس آلات تصنع خمس قطع في خمس دقائق، فكم تحتاج 100 آلة لصنع 100 قطعة؟",
+        "answer": "5 دقائق",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c01:032"
+        ]
+      },
+      {
+        "id": "b017p1_c01_033",
+        "question": "رجل بنى بيتًا كل نوافذه تتجه جنوبًا، فمر دب بجواره. ما لون الدب؟",
+        "answer": "أبيض",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c01:033"
+        ]
+      },
+      {
+        "id": "b017p1_c01_034",
+        "question": "لديك كوب ماء وكوب عصير؛ نقلت ملعقة من الماء للعصير ثم ملعقة من الخليط للماء. أيهما يحتوي كمية أكبر من السائل الآخر؟",
+        "answer": "الكميتان المتبادلتان متساويتان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c01:034"
+        ]
+      },
+      {
+        "id": "b017p1_c01_035",
+        "question": "ما الزاوية بين عقربي الساعة عند الثالثة والنصف؟",
+        "answer": "75 درجة",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c01:035"
+        ]
+      },
+      {
+        "id": "b017p1_c01_036",
+        "question": "في درج مظلم جوارب سوداء وبيضاء؛ ما أقل عدد جوارب تسحبه لضمان زوج من اللون نفسه؟",
+        "answer": "3",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c01:036"
+        ]
+      }
+    ],
+    "السيرة النبوية": [
+      {
+        "id": "b017p1_c02_001",
+        "question": "من أول من آمن بالنبي ﷺ من النساء؟",
+        "answer": "خديجة بنت خويلد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c02:001"
+        ]
+      },
+      {
+        "id": "b017p1_c02_002",
+        "question": "من صاحب النبي ﷺ في الهجرة؟",
+        "answer": "أبو بكر الصديق",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c02:002"
+        ]
+      },
+      {
+        "id": "b017p1_c02_003",
+        "question": "ما اسم الغار الذي مكث فيه النبي ﷺ وصاحبه أثناء الهجرة؟",
+        "answer": "غار ثور",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c02:003"
+        ]
+      },
+      {
+        "id": "b017p1_c02_004",
+        "question": "من مرضعة النبي ﷺ المشهورة من بني سعد؟",
+        "answer": "حليمة السعدية",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c02:004"
+        ]
+      },
+      {
+        "id": "b017p1_c02_005",
+        "question": "من عم النبي ﷺ الذي كفله بعد وفاة جده؟",
+        "answer": "أبو طالب",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c02:005"
+        ]
+      },
+      {
+        "id": "b017p1_c02_006",
+        "question": "في أي مدينة ولد النبي ﷺ؟",
+        "answer": "مكة المكرمة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c02:006"
+        ]
+      },
+      {
+        "id": "b017p1_c02_007",
+        "question": "من مؤذن النبي ﷺ المشهور؟",
+        "answer": "بلال بن رباح",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c02:007"
+        ]
+      },
+      {
+        "id": "b017p1_c02_008",
+        "question": "ما أول غزوة كبرى انتصر فيها المسلمون؟",
+        "answer": "غزوة بدر",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c02:008"
+        ]
+      },
+      {
+        "id": "b017p1_c02_009",
+        "question": "ما اسم الصلح الذي عقده النبي ﷺ مع قريش في السنة السادسة للهجرة؟",
+        "answer": "صلح الحديبية",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c02:009"
+        ]
+      },
+      {
+        "id": "b017p1_c02_010",
+        "question": "من أم المؤمنين ابنة أبي بكر الصديق؟",
+        "answer": "عائشة بنت أبي بكر",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c02:010"
+        ]
+      },
+      {
+        "id": "b017p1_c02_011",
+        "question": "ما المسجد الذي بناه النبي ﷺ عند وصوله إلى قباء؟",
+        "answer": "مسجد قباء",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c02:011"
+        ]
+      },
+      {
+        "id": "b017p1_c02_012",
+        "question": "من الصحابي الذي أشار بحفر الخندق؟",
+        "answer": "سلمان الفارسي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c02:012"
+        ]
+      },
+      {
+        "id": "b017p1_c02_013",
+        "question": "من الصحابي الذي أرسله النبي ﷺ إلى يثرب قبل الهجرة ليعلم أهلها الإسلام؟",
+        "answer": "مصعب بن عمير",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c02:013"
+        ]
+      },
+      {
+        "id": "b017p1_c02_014",
+        "question": "من الصحابي الذي نزل النبي ﷺ في داره عند قدومه المدينة؟",
+        "answer": "أبو أيوب الأنصاري",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c02:014"
+        ]
+      },
+      {
+        "id": "b017p1_c02_015",
+        "question": "في أي سنة هجرية كان فتح مكة؟",
+        "answer": "السنة الثامنة للهجرة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c02:015"
+        ]
+      },
+      {
+        "id": "b017p1_c02_016",
+        "question": "من الصحابي الذي كان دليل النبي ﷺ وأبي بكر في طريق الهجرة؟",
+        "answer": "عبد الله بن أريقط",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c02:016"
+        ]
+      },
+      {
+        "id": "b017p1_c02_017",
+        "question": "ما اسم البيعة التي وقعت تحت الشجرة في الحديبية؟",
+        "answer": "بيعة الرضوان",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c02:017"
+        ]
+      },
+      {
+        "id": "b017p1_c02_018",
+        "question": "من أول قائد عيّنه النبي ﷺ في غزوة مؤتة؟",
+        "answer": "زيد بن حارثة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c02:018"
+        ]
+      },
+      {
+        "id": "b017p1_c02_019",
+        "question": "من القائد الثاني المعيّن في مؤتة بعد زيد؟",
+        "answer": "جعفر بن أبي طالب",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c02:019"
+        ]
+      },
+      {
+        "id": "b017p1_c02_020",
+        "question": "من القائد الثالث المعيّن في مؤتة بعد جعفر؟",
+        "answer": "عبد الله بن رواحة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c02:020"
+        ]
+      },
+      {
+        "id": "b017p1_c02_021",
+        "question": "من تولى قيادة جيش مؤتة بعد استشهاد القادة الثلاثة؟",
+        "answer": "خالد بن الوليد",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c02:021"
+        ]
+      },
+      {
+        "id": "b017p1_c02_022",
+        "question": "من الصحابي الذي بعثه النبي ﷺ إلى اليمن قاضيًا ومعلمًا؟",
+        "answer": "معاذ بن جبل",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c02:022"
+        ]
+      },
+      {
+        "id": "b017p1_c02_023",
+        "question": "ما آخر غزوة خرج إليها النبي ﷺ؟",
+        "answer": "غزوة تبوك",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c02:023"
+        ]
+      },
+      {
+        "id": "b017p1_c02_024",
+        "question": "من أم المؤمنين ابنة عمر بن الخطاب؟",
+        "answer": "حفصة بنت عمر",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c02:024"
+        ]
+      },
+      {
+        "id": "b017p1_c02_025",
+        "question": "من الصحابي الذي حمل كتاب النبي ﷺ إلى المقوقس؟",
+        "answer": "حاطب بن أبي بلتعة",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c02:025"
+        ]
+      },
+      {
+        "id": "b017p1_c02_026",
+        "question": "من الصحابي الذي حمل كتاب النبي ﷺ إلى كسرى؟",
+        "answer": "عبد الله بن حذافة السهمي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c02:026"
+        ]
+      },
+      {
+        "id": "b017p1_c02_027",
+        "question": "من مولى النبي ﷺ الذي كان يُدعى ابنه قبل تحريم التبني؟",
+        "answer": "زيد بن حارثة",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c02:027"
+        ]
+      },
+      {
+        "id": "b017p1_c02_028",
+        "question": "من الصحابي الذي عُرف بحِبّ رسول الله ﷺ وابن حِبّه؟",
+        "answer": "أسامة بن زيد",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c02:028"
+        ]
+      },
+      {
+        "id": "b017p1_c02_029",
+        "question": "ما الغزوة التي تسمى أيضًا غزوة الأحزاب؟",
+        "answer": "غزوة الخندق",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c02:029"
+        ]
+      },
+      {
+        "id": "b017p1_c02_030",
+        "question": "ما اسم العمرة التي أداها النبي ﷺ في السنة السابعة للهجرة؟",
+        "answer": "عمرة القضاء",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c02:030"
+        ]
+      },
+      {
+        "id": "b017p1_c02_031",
+        "question": "من الصحابي الذي أرسله النبي ﷺ لهدم ذي الخلصة؟",
+        "answer": "جرير بن عبد الله البجلي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c02:031"
+        ]
+      },
+      {
+        "id": "b017p1_c02_032",
+        "question": "من الصحابي الذي قاد سرية ذات السلاسل؟",
+        "answer": "عمرو بن العاص",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c02:032"
+        ]
+      },
+      {
+        "id": "b017p1_c02_033",
+        "question": "ما اسم العام الذي كثرت فيه وفود العرب إلى المدينة؟",
+        "answer": "عام الوفود",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c02:033"
+        ]
+      },
+      {
+        "id": "b017p1_c02_034",
+        "question": "في أي موضع ألقى النبي ﷺ خطبة يوم عرفة في حجة الوداع؟",
+        "answer": "وادي عرنة",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c02:034"
+        ]
+      },
+      {
+        "id": "b017p1_c02_035",
+        "question": "من الصحابي الذي نام في فراش النبي ﷺ ليلة الهجرة بحسب روايات السيرة؟",
+        "answer": "علي بن أبي طالب",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c02:035"
+        ]
+      },
+      {
+        "id": "b017p1_c02_036",
+        "question": "من الصحابية التي كانت تحمل الطعام إلى النبي ﷺ وأبي بكر في الغار؟",
+        "answer": "أسماء بنت أبي بكر",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c02:036"
+        ]
+      }
+    ],
+    "جغرافيا": [
+      {
+        "id": "b017p1_c03_001",
+        "question": "ما أكبر قارة في العالم مساحة؟",
+        "answer": "آسيا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c03:001"
+        ]
+      },
+      {
+        "id": "b017p1_c03_002",
+        "question": "ما أكبر محيط في العالم؟",
+        "answer": "المحيط الهادئ",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c03:002"
+        ]
+      },
+      {
+        "id": "b017p1_c03_003",
+        "question": "ما عاصمة كندا؟",
+        "answer": "أوتاوا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c03:003"
+        ]
+      },
+      {
+        "id": "b017p1_c03_004",
+        "question": "ما عاصمة نيوزيلندا؟",
+        "answer": "ويلينغتون",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c03:004"
+        ]
+      },
+      {
+        "id": "b017p1_c03_005",
+        "question": "ما أعلى جبل في العالم فوق مستوى سطح البحر؟",
+        "answer": "إيفرست",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c03:005"
+        ]
+      },
+      {
+        "id": "b017p1_c03_006",
+        "question": "ما أكبر دولة في العالم مساحة؟",
+        "answer": "روسيا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c03:006"
+        ]
+      },
+      {
+        "id": "b017p1_c03_007",
+        "question": "ما أصغر دولة مستقلة في العالم مساحة؟",
+        "answer": "الفاتيكان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c03:007"
+        ]
+      },
+      {
+        "id": "b017p1_c03_008",
+        "question": "ما عاصمة اليابان؟",
+        "answer": "طوكيو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c03:008"
+        ]
+      },
+      {
+        "id": "b017p1_c03_009",
+        "question": "ما البحر الذي يفصل أوروبا عن أفريقيا؟",
+        "answer": "البحر المتوسط",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c03:009"
+        ]
+      },
+      {
+        "id": "b017p1_c03_010",
+        "question": "ما النهر الذي يمر في القاهرة؟",
+        "answer": "النيل",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c03:010"
+        ]
+      },
+      {
+        "id": "b017p1_c03_011",
+        "question": "ما عاصمة الأرجنتين؟",
+        "answer": "بوينس آيرس",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c03:011"
+        ]
+      },
+      {
+        "id": "b017p1_c03_012",
+        "question": "في أي قارة تقع البرازيل؟",
+        "answer": "أمريكا الجنوبية",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c03:012"
+        ]
+      },
+      {
+        "id": "b017p1_c03_013",
+        "question": "ما أطول سلسلة جبلية قارية فوق سطح الأرض؟",
+        "answer": "جبال الأنديز",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c03:013"
+        ]
+      },
+      {
+        "id": "b017p1_c03_014",
+        "question": "ما المضيق الذي يفصل آسيا عن أمريكا الشمالية؟",
+        "answer": "مضيق بيرينغ",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c03:014"
+        ]
+      },
+      {
+        "id": "b017p1_c03_015",
+        "question": "ما أكبر جزيرة في العالم إذا استبعدنا القارات؟",
+        "answer": "غرينلاند",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c03:015"
+        ]
+      },
+      {
+        "id": "b017p1_c03_016",
+        "question": "ما أعمق بحيرة في العالم؟",
+        "answer": "بحيرة بايكال",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c03:016"
+        ]
+      },
+      {
+        "id": "b017p1_c03_017",
+        "question": "ما المضيق الذي يربط المتوسط بالمحيط الأطلسي؟",
+        "answer": "مضيق جبل طارق",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c03:017"
+        ]
+      },
+      {
+        "id": "b017p1_c03_018",
+        "question": "ما السلسلة الجبلية التي تعد حدًا تقليديًا بين أوروبا وآسيا في روسيا؟",
+        "answer": "جبال الأورال",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c03:018"
+        ]
+      },
+      {
+        "id": "b017p1_c03_019",
+        "question": "ما أكبر بحيرة في أفريقيا مساحة؟",
+        "answer": "بحيرة فيكتوريا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c03:019"
+        ]
+      },
+      {
+        "id": "b017p1_c03_020",
+        "question": "ما عاصمة إثيوبيا؟",
+        "answer": "أديس أبابا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c03:020"
+        ]
+      },
+      {
+        "id": "b017p1_c03_021",
+        "question": "ما عاصمة أذربيجان؟",
+        "answer": "باكو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c03:021"
+        ]
+      },
+      {
+        "id": "b017p1_c03_022",
+        "question": "ما عاصمة بوتان؟",
+        "answer": "تيمفو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c03:022"
+        ]
+      },
+      {
+        "id": "b017p1_c03_023",
+        "question": "ما عاصمة قيرغيزستان؟",
+        "answer": "بشكيك",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c03:023"
+        ]
+      },
+      {
+        "id": "b017p1_c03_024",
+        "question": "ما عاصمة طاجيكستان؟",
+        "answer": "دوشنبه",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c03:024"
+        ]
+      },
+      {
+        "id": "b017p1_c03_025",
+        "question": "ما الدولة التي تحيط تمامًا بليسوتو؟",
+        "answer": "جنوب أفريقيا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c03:025"
+        ]
+      },
+      {
+        "id": "b017p1_c03_026",
+        "question": "ما البحر الداخلي الأكبر في العالم مساحة؟",
+        "answer": "بحر قزوين",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c03:026"
+        ]
+      },
+      {
+        "id": "b017p1_c03_027",
+        "question": "ما المضيق الذي يربط البحر الأحمر بخليج عدن؟",
+        "answer": "باب المندب",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c03:027"
+        ]
+      },
+      {
+        "id": "b017p1_c03_028",
+        "question": "ما أعلى شلال متصل في العالم؟",
+        "answer": "شلال آنجل",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c03:028"
+        ]
+      },
+      {
+        "id": "b017p1_c03_029",
+        "question": "ما النهر الذي يمر بفيينا وبراتيسلافا وبودابست وبلغراد؟",
+        "answer": "الدانوب",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c03:029"
+        ]
+      },
+      {
+        "id": "b017p1_c03_030",
+        "question": "ما الصحراء الواقعة أساسًا في بوتسوانا وناميبيا وجنوب أفريقيا؟",
+        "answer": "كالاهاري",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c03:030"
+        ]
+      },
+      {
+        "id": "b017p1_c03_031",
+        "question": "ما عاصمة سورينام؟",
+        "answer": "باراماريبو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c03:031"
+        ]
+      },
+      {
+        "id": "b017p1_c03_032",
+        "question": "ما عاصمة منغوليا؟",
+        "answer": "أولان باتور",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c03:032"
+        ]
+      },
+      {
+        "id": "b017p1_c03_033",
+        "question": "ما الدولة التي تشترك مع فرنسا في أطول حدود برية لفرنسا بسبب غويانا الفرنسية؟",
+        "answer": "البرازيل",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c03:033"
+        ]
+      },
+      {
+        "id": "b017p1_c03_034",
+        "question": "ما عاصمة بالاو؟",
+        "answer": "نغيرولمود",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c03:034"
+        ]
+      },
+      {
+        "id": "b017p1_c03_035",
+        "question": "ما الدولة الوحيدة التي تحد البرتغال برًا؟",
+        "answer": "إسبانيا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c03:035"
+        ]
+      },
+      {
+        "id": "b017p1_c03_036",
+        "question": "ما المضيق الذي يفصل جزيرتي سومطرة وجاوة؟",
+        "answer": "مضيق سوندا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c03:036"
+        ]
+      }
+    ],
+    "من هو اللاعب": [
+      {
+        "id": "b017p1_c04_001",
+        "question": "طُرد بعد دخوله بديلًا بثوانٍ قليلة أمام مانشستر سيتي عام 2015 في الدوري الإنجليزي، من هو؟",
+        "answer": "ستيفن جيرارد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c04:001"
+        ]
+      },
+      {
+        "id": "b017p1_c04_002",
+        "question": "اشتهر باحتفاله برفع قميص كتب تحته «لماذا دائمًا أنا؟» بعد التسجيل في ديربي مانشستر، من هو؟",
+        "answer": "ماريو بالوتيلي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c04:002"
+        ]
+      },
+      {
+        "id": "b017p1_c04_003",
+        "question": "سجل بيده أمام إنجلترا في كأس العالم 1986 ثم وصف الهدف لاحقًا بأنه جاء بقليل من رأسه وقليل من «يد الله»، من هو؟",
+        "answer": "دييغو مارادونا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c04:003"
+        ]
+      },
+      {
+        "id": "b017p1_c04_004",
+        "question": "عضّ جورجيو كيليني خلال مباراة أوروغواي وإيطاليا في كأس العالم 2014، من هو؟",
+        "answer": "لويس سواريز",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c04:004"
+        ]
+      },
+      {
+        "id": "b017p1_c04_005",
+        "question": "نطح ماركو ماتيراتزي في نهائي كأس العالم 2006 في آخر مباراة رسمية بمسيرته، من هو؟",
+        "answer": "زين الدين زيدان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c04:005"
+        ]
+      },
+      {
+        "id": "b017p1_c04_006",
+        "question": "رفض الخروج للتبديل في نهائي كأس الرابطة 2019 أمام مانشستر سيتي، من هو؟",
+        "answer": "كيبا أريزابالاغا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c04:006"
+        ]
+      },
+      {
+        "id": "b017p1_c04_007",
+        "question": "احتفل أمام جماهير أرسنال بالانزلاق على ركبتيه بعد انتقاله إلى مانشستر سيتي، من هو؟",
+        "answer": "إيمانويل أديبايور",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c04:007"
+        ]
+      },
+      {
+        "id": "b017p1_c04_008",
+        "question": "أصبح مشهورًا بعبارة «Siu» في احتفالاته بالأهداف، من هو؟",
+        "answer": "كريستيانو رونالدو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c04:008"
+        ]
+      },
+      {
+        "id": "b017p1_c04_009",
+        "question": "لعب مباراة في كأس العالم 1994 وهو مصاب ثم سجل هدفًا شهيرًا أمام اليونان واحتفل أمام الكاميرا، من هو؟",
+        "answer": "دييغو مارادونا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c04:009"
+        ]
+      },
+      {
+        "id": "b017p1_c04_010",
+        "question": "سجل هدفًا من منتصف الملعب تقريبًا أمام ويمبلدون عام 1996 ساهم في شهرته المبكرة، من هو؟",
+        "answer": "ديفيد بيكهام",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c04:010"
+        ]
+      },
+      {
+        "id": "b017p1_c04_011",
+        "question": "تلقى بطاقة حمراء في نهائي كأس العالم 1998 مع البرازيل وفرنسا؟ اللاعب الفرنسي الذي طُرد بعد احتكاكه مع كافو، من هو؟",
+        "answer": "مارسيل ديسايي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c04:011"
+        ]
+      },
+      {
+        "id": "b017p1_c04_012",
+        "question": "أضاع ركلة جزاء حاسمة لإنجلترا في نصف نهائي يورو 1996 ثم أصبح لاحقًا مدرب المنتخب، من هو؟",
+        "answer": "غاريث ساوثغيت",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c04:012"
+        ]
+      },
+      {
+        "id": "b017p1_c04_013",
+        "question": "ارتدى القميص رقم 1 مع الأرجنتين في كأس العالم 1978 رغم كونه لاعب وسط بسبب الترقيم الأبجدي، من هو؟",
+        "answer": "نوربرتو ألونسو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c04:013"
+        ]
+      },
+      {
+        "id": "b017p1_c04_014",
+        "question": "كان حارسًا وسجل أكثر من 100 هدف رسمي في مسيرته، معظمها من الركلات الثابتة والجزاء، من هو؟",
+        "answer": "روغيريو سيني",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c04:014"
+        ]
+      },
+      {
+        "id": "b017p1_c04_015",
+        "question": "فاز بالكرة الذهبية عام 1995 وأصبح أول إفريقي يفوز بها، من هو؟",
+        "answer": "جورج وياه",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c04:015"
+        ]
+      },
+      {
+        "id": "b017p1_c04_016",
+        "question": "اشتهر بلقب «الظاهرة» وفاز بكأس العالم مع البرازيل ثم سجل هدفي نهائي 2002، من هو؟",
+        "answer": "رونالدو نازاريو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c04:016"
+        ]
+      },
+      {
+        "id": "b017p1_c04_017",
+        "question": "انتقل من برشلونة إلى ريال مدريد عام 2000 في واحدة من أكثر الانتقالات إثارة للجدل، من هو؟",
+        "answer": "لويس فيغو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c04:017"
+        ]
+      },
+      {
+        "id": "b017p1_c04_018",
+        "question": "سجل هدفًا شهيرًا لبرشلونة أمام خيتافي عام 2007 راوغ خلاله عدة لاعبين بطريقة شُبهت بهدف مارادونا، من هو؟",
+        "answer": "ليونيل ميسي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c04:018"
+        ]
+      },
+      {
+        "id": "b017p1_c04_019",
+        "question": "أصبح أصغر لاعب يسجل في نهائي كأس العالم عندما سجل للبرازيل في نهائي 1958 بعمر 17 عامًا، من هو؟",
+        "answer": "بيليه",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c04:019"
+        ]
+      },
+      {
+        "id": "b017p1_c04_020",
+        "question": "فاز بدوري أبطال أوروبا مع ثلاثة أندية مختلفة: أياكس وريال مدريد وميلان، من هو؟",
+        "answer": "كلارنس سيدورف",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c04:020"
+        ]
+      },
+      {
+        "id": "b017p1_c04_021",
+        "question": "سجل خمسة أهداف في تسع دقائق لبايرن ميونخ أمام فولفسبورغ عام 2015، من هو؟",
+        "answer": "روبرت ليفاندوفسكي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c04:021"
+        ]
+      },
+      {
+        "id": "b017p1_c04_022",
+        "question": "حصل على بطاقة حمراء في كأس العالم 2006 أمام البرتغال بعد حادثة الدوس على ريكاردو كارفاليو، من هو؟",
+        "answer": "واين روني",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c04:022"
+        ]
+      },
+      {
+        "id": "b017p1_c04_023",
+        "question": "أصبح أول حارس مرمى يفوز بالكرة الذهبية عام 1963، من هو؟",
+        "answer": "ليف ياشين",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c04:023"
+        ]
+      },
+      {
+        "id": "b017p1_c04_024",
+        "question": "اشتهر بتنفيذ ركلة جزاء بطريقة «بانينكا» في نهائي بطولة أوروبا 1976، من هو؟",
+        "answer": "أنتونين بانينكا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c04:024"
+        ]
+      },
+      {
+        "id": "b017p1_c04_025",
+        "question": "سجل هدفًا شهيرًا بالكعب لمانشستر يونايتد أمام أستون فيلا عام 2008، من هو؟",
+        "answer": "كريستيانو رونالدو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c04:025"
+        ]
+      },
+      {
+        "id": "b017p1_c04_026",
+        "question": "كان قائد الدنمارك في يورو 1992 ورفع الكأس بعد استدعاء المنتخب للمشاركة قبل البطولة بوقت قصير، من هو؟",
+        "answer": "لارس أولسن",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c04:026"
+        ]
+      },
+      {
+        "id": "b017p1_c04_027",
+        "question": "لعب لبرشلونة وريال مدريد وإنتر وميلان خلال مسيرته، من هو؟",
+        "answer": "رونالدو نازاريو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c04:027"
+        ]
+      },
+      {
+        "id": "b017p1_c04_028",
+        "question": "أصبح أول لاعب يسجل في خمس نسخ مختلفة من كأس العالم للرجال، من هو؟",
+        "answer": "كريستيانو رونالدو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c04:028"
+        ]
+      },
+      {
+        "id": "b017p1_c04_029",
+        "question": "فاز بجائزة بوشكاش عن هدفه المقصي مع السويد أمام إنجلترا عام 2012، من هو؟",
+        "answer": "زلاتان إبراهيموفيتش",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c04:029"
+        ]
+      },
+      {
+        "id": "b017p1_c04_030",
+        "question": "سجل أسرع هاتريك في تاريخ الدوري الإنجليزي الممتاز في أقل من ثلاث دقائق مع ساوثهامبتون، من هو؟",
+        "answer": "ساديو ماني",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c04:030"
+        ]
+      },
+      {
+        "id": "b017p1_c04_031",
+        "question": "كان صاحب التصدي الشهير بقدمه أمام راندال كولو مواني في الوقت الإضافي لنهائي كأس العالم 2022، من هو؟",
+        "answer": "إيميليانو مارتينيز",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c04:031"
+        ]
+      },
+      {
+        "id": "b017p1_c04_032",
+        "question": "سجل هدف الفوز لمانشستر يونايتد في نهائي دوري الأبطال 1999 بعد دخوله بديلًا، من هو؟",
+        "answer": "أولي غونار سولشاير",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c04:032"
+        ]
+      },
+      {
+        "id": "b017p1_c04_033",
+        "question": "أطلق عليه لقب «القيصر» وقاد ألمانيا الغربية كلاعب للفوز بكأس العالم 1974 ثم كمدرب في 1990، من هو؟",
+        "answer": "فرانتس بكنباور",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c04:033"
+        ]
+      },
+      {
+        "id": "b017p1_c04_034",
+        "question": "سجل هدفًا شهيرًا من ركلة حرة غير مباشرة داخل منطقة الجزاء أمام تشيلسي عام 2005 بعد إشارة سريعة من الحكم، من هو؟",
+        "answer": "رونالدينيو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c04:034"
+        ]
+      },
+      {
+        "id": "b017p1_c04_035",
+        "question": "أصبح بطل نهائي دوري الأبطال 2005 بتصديه لركلة أندري شيفتشينكو الأخيرة في الترجيح، من هو؟",
+        "answer": "يرزي دوديك",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c04:035"
+        ]
+      },
+      {
+        "id": "b017p1_c04_036",
+        "question": "اشتهر بلقطة العقرب مع كولومبيا في مباراة ودية أمام إنجلترا في ويمبلي عام 1995، من هو؟",
+        "answer": "رينيه هيغيتا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p1:c04:036"
+        ]
+      }
+    ]
+  }
+}
