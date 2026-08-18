@@ -1,0 +1,38 @@
+ALMAJLIS BUILD 034 — ORCHESTRAL AUDIO FLOW + STOCK/SCORE FIX
+JS syntax: PASS
+
+AUDIO FLOW
+- Opening: sampled orchestral SoundFont arrangement, 25.5s.
+- Board: separate sampled orchestral underscore, 40.0s.
+- Questions: NO background music.
+- Last 5 seconds: one timpani/orchestral tick per second only.
+- Team time end: dedicated orchestral time-up cadence.
+- Victory: independent celebratory orchestral arrangement, 19.2s.
+- Stingers use sampled GM orchestral instruments, not synthesized electronic waveforms.
+
+CATEGORY STOCK
+- New Game clears prior selections and recalculates current available stock.
+- Category disables as soon as available total drops below 6.
+- Also requires 2 available at each tier (100/300/500).
+- Historical exhausted questions are NOT recycled.
+- Disabled categories cannot be clicked.
+
+SCOREBOARD
+- Displays entered team name and points only.
+- Default names are "الأول" and "الثاني".
+
+No Prime-Time visual redesign is included yet.
+
+Checks:
+- JS syntax: PASS
+- BUILD 034: PASS
+- opening orchestra file: PASS
+- board orchestra separate: PASS
+- victory orchestra: PASS
+- no question music: PASS
+- 5-second tick only: PASS
+- time-up sting: PASS
+- no stock recycling: PASS
+- new game refresh: PASS
+- unavailable pointer lock: PASS
+- score name+number: PASS
