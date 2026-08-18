@@ -1,0 +1,31 @@
+ALMAJLIS BUILD 039 — BATCH 014 LOADER FIX
+This hotfix solves the reason the three categories stayed disabled after Batch 014 was uploaded.
+
+ROOT CAUSE:
+- BUILD 038 loaded quality batches 008 through 013 only.
+- questions_batch_014.json existed in the repository but was never fetched/merged into the game bank.
+- Therefore category availability was calculated from the old stock.
+
+FIX:
+- Added questions_batch_014.json to loadBank().
+- Loader now expects 7 additional batches (008–014).
+- Category availability is refreshed after the merged bank is ready.
+- Used-question history is NOT erased; new questions simply add genuine fresh stock.
+
+DEPLOYMENT:
+Upload BOTH:
+1. index.html
+2. questions_batch_014.json
+to the repository root.
+
+After deploy, the home status should show:
+"تم تحميل ... — تم تحميل 7/7 دفعات إضافية"
+
+Checks:
+- JS syntax: PASS
+- BUILD 039: PASS
+- batch 014 in loader: PASS
+- expects 7 quality batches: PASS
+- refresh category availability: PASS
+- winner video retained: PASS
+- accepted audio retained: PASS
