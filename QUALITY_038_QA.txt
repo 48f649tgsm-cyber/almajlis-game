@@ -1,0 +1,35 @@
+ALMAJLIS BUILD 038 — WINNER COMEDY CLIP
+JS syntax: PASS
+
+Video:
+- File: winner_comedy.mp4
+- Duration: 5.04s
+- Resolution: 910x512
+- Codec: h264
+
+Winner flow:
+1. Match result is decided.
+2. Music is stopped.
+3. Full-screen comedy clip plays once with sound.
+4. On video end, the existing winner finale starts.
+5. Skip button is always available.
+6. If iPhone blocks video autoplay, a clear "تشغيل المقطع" button appears.
+7. Tie-break winners use the same pre-finale comedy sequence.
+
+Unchanged:
+- BUILD 037 home-screen fix
+- accepted real-orchestra audio
+- Prime-Time visual system
+- category stock lock
+- question bank and game logic
+
+Checks:
+- JS syntax: PASS
+- BUILD 038: PASS
+- video file exists: PASS
+- winner overlay: PASS
+- plays once before finale: PASS
+- skip button: PASS
+- iOS tap fallback: PASS
+- accepted orchestra retained: PASS
+- 037 home fix retained: PASS
