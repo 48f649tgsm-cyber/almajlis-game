@@ -1,0 +1,34 @@
+ALMAJLIS QUALITY 015 — TIMER + SOUND FIX
+Bank: unchanged; Batch 008–013 loader retained.
+
+CORE GAME LOGIC CHANGED DIRECTLY:
+- First team: exactly 30 seconds.
+- Automatic transfer to second team after first 30 seconds.
+- Second team: exactly 30 seconds.
+- No automatic answer reveal after either timer.
+- After second 30 seconds, timer says "انتهى الوقت" and the answer remains hidden.
+- "إظهار الجواب" remains enabled and must be pressed manually.
+- Reveal button may also be pressed before either timer expires.
+
+SOUND EFFECTS:
+- question opens
+- final five-second ticks
+- transfer to second team
+- answer reveal
+- points awarded
+- game finish
+- persistent mute/unmute button
+
+UI:
+- adaptive question typography
+- clearer active-team/phase label
+- timer animation in final five seconds
+- answer reveal transition
+
+RETAINED:
+- Islamic cross-category answer/entity/event lock
+- minimum category stock = 6
+- category images untouched
+- question bank untouched
+
+STATIC QA: PASS
