@@ -1,0 +1,1132 @@
+{
+  "version": "QUALITY-011",
+  "new_questions": 100,
+  "quality_policy": {
+    "priority": "quality_over_quantity",
+    "duplicate_policy": "question + semantic event keys + persistent used-question memory",
+    "minimum_category_stock": 6,
+    "ui_update": "adaptive Arabic typography for long/short questions"
+  },
+  "categories": {
+    "حروف اسلامي": [
+      {
+        "id": "q011_001",
+        "question": "حرف الباء: ما اسم أول معركة كبرى في الإسلام وقعت في السنة الثانية للهجرة؟",
+        "answer": "بدر",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "islamic_letter:b:badr"
+        ]
+      },
+      {
+        "id": "q011_002",
+        "question": "حرف الميم: ما اسم المسجد الذي بناه النبي ﷺ عند وصوله إلى المدينة قبل المسجد النبوي؟",
+        "answer": "مسجد قباء",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "islamic_letter:m:quba"
+        ]
+      },
+      {
+        "id": "q011_003",
+        "question": "حرف الهاء: ما اسم هجرة النبي ﷺ وأصحابه من مكة إلى المدينة التي بدأ بها التقويم الهجري؟",
+        "answer": "الهجرة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "islamic_letter:h:hijra"
+        ]
+      },
+      {
+        "id": "q011_004",
+        "question": "حرف الزاي: ما اسم العبادة المالية التي تعد أحد أركان الإسلام؟",
+        "answer": "الزكاة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "islamic_letter:z:zakat"
+        ]
+      },
+      {
+        "id": "q011_005",
+        "question": "حرف الحاء: ما اسم الصلح الذي عقده النبي ﷺ مع قريش في السنة السادسة للهجرة؟",
+        "answer": "الحديبية",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "islamic_letter:hudaybiyyah"
+        ]
+      },
+      {
+        "id": "q011_006",
+        "question": "حرف الخاء: ما اسم الصحابي الملقب بسيف الله المسلول؟",
+        "answer": "خالد بن الوليد",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "islamic_letter:khalid"
+        ]
+      },
+      {
+        "id": "q011_007",
+        "question": "حرف الطاء: ما اسم الصحابي الجليل الذي لُقّب بذي النورين؟",
+        "answer": "عثمان بن عفان",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "islamic_letter:uthman"
+        ]
+      },
+      {
+        "id": "q011_008",
+        "question": "حرف القاف: ما اسم القبلة الأولى للمسلمين؟",
+        "answer": "القدس (المسجد الأقصى)",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "islamic_letter:q:qibla"
+        ]
+      },
+      {
+        "id": "q011_009",
+        "question": "حرف الجيم: ما اسم الغزوة التي تُعرف أيضًا بغزوة الأحزاب؟",
+        "answer": "غزوة الخندق",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "islamic_letter:j:khandaq"
+        ]
+      },
+      {
+        "id": "q011_010",
+        "question": "حرف التاء: ما اسم الغزوة التي خرج إليها المسلمون في السنة التاسعة للهجرة ولم يقع فيها قتال؟",
+        "answer": "تبوك",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "islamic_letter:t:tabuk"
+        ]
+      },
+      {
+        "id": "q011_011",
+        "question": "حرف الراء: ما اسم الصحابي الذي كان دليل النبي ﷺ وأبي بكر في طريق الهجرة، وكان يومها على دين قومه؟",
+        "answer": "عبدالله بن أريقط",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "islamic_letter:r:urayqit"
+        ]
+      },
+      {
+        "id": "q011_012",
+        "question": "حرف السين: ما اسم الصحابي الذي أشار بحفر الخندق حول المدينة؟",
+        "answer": "سلمان الفارسي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "islamic_letter:s:salman"
+        ]
+      }
+    ],
+    "اغاني عربية": [
+      {
+        "id": "q011_013",
+        "question": "من المطربة العربية التي اشتهرت بأغنية «أنت عمري»؟",
+        "answer": "أم كلثوم",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "arabic_song:ent_omri"
+        ]
+      },
+      {
+        "id": "q011_014",
+        "question": "من الفنان الذي غنى «قارئة الفنجان» من كلمات نزار قباني؟",
+        "answer": "عبد الحليم حافظ",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "arabic_song:qariat"
+        ]
+      },
+      {
+        "id": "q011_015",
+        "question": "من الفنانة اللبنانية صاحبة أغنية «نسم علينا الهوى»؟",
+        "answer": "فيروز",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "arabic_song:nassam"
+        ]
+      },
+      {
+        "id": "q011_016",
+        "question": "من الفنان السعودي الذي غنى «الأماكن»؟",
+        "answer": "محمد عبده",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "arabic_song:alamaken"
+        ]
+      },
+      {
+        "id": "q011_017",
+        "question": "من الفنان العراقي الذي اشتهر بأغنية «عبرت الشط»؟",
+        "answer": "كاظم الساهر",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "arabic_song:abart"
+        ]
+      },
+      {
+        "id": "q011_018",
+        "question": "من الفنانة التي غنت «سيدي وصالك» وحققت بها انتشارًا عربيًا واسعًا؟",
+        "answer": "أنغام",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "arabic_song:sidi_wesalak"
+        ]
+      },
+      {
+        "id": "q011_019",
+        "question": "من لحن أغنية أم كلثوم «ألف ليلة وليلة»؟",
+        "answer": "بليغ حمدي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "arabic_song:alf_leila:composer"
+        ]
+      },
+      {
+        "id": "q011_020",
+        "question": "من كتب قصيدة «قارئة الفنجان» التي غناها عبد الحليم حافظ؟",
+        "answer": "نزار قباني",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "arabic_song:qariat:writer"
+        ]
+      }
+    ],
+    "الكلاسيكو": [
+      {
+        "id": "q011_021",
+        "question": "من الهداف التاريخي لمباريات الكلاسيكو الرسمية بين برشلونة وريال مدريد؟",
+        "answer": "ليونيل ميسي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "clasico:top_scorer"
+        ]
+      },
+      {
+        "id": "q011_022",
+        "question": "أي لاعب سجل هاتريك لبرشلونة في الكلاسيكو الذي انتهى 3-3 في كامب نو عام 2007؟",
+        "answer": "ليونيل ميسي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "clasico:2007:hattrick"
+        ]
+      },
+      {
+        "id": "q011_023",
+        "question": "من سجل هدف ريال مدريد الحاسم في نهائي كأس ملك إسبانيا 2011 أمام برشلونة؟",
+        "answer": "كريستيانو رونالدو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "clasico:2011:copa"
+        ]
+      },
+      {
+        "id": "q011_024",
+        "question": "من سجل هدفي برشلونة في الفوز 2-0 على ريال مدريد في ذهاب نصف نهائي دوري الأبطال 2011؟",
+        "answer": "ليونيل ميسي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "clasico:2011:ucl"
+        ]
+      },
+      {
+        "id": "q011_025",
+        "question": "من سجل هدف برشلونة الشهير في الوقت بدل الضائع في البرنابيو في فوز 3-2 بالدوري عام 2017؟",
+        "answer": "ليونيل ميسي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "clasico:2017:late"
+        ]
+      },
+      {
+        "id": "q011_026",
+        "question": "أي لاعب سجل أول أهداف ريال مدريد في الفوز 4-1 على برشلونة في الدوري في مايو 2008؟",
+        "answer": "راؤول",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "clasico:2008:4-1"
+        ]
+      },
+      {
+        "id": "q011_027",
+        "question": "من سجل هدف برشلونة الوحيد في نهائي كأس الملك 2014 الذي فاز به ريال مدريد 2-1؟",
+        "answer": "مارك بارترا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "clasico:2014:copa"
+        ]
+      },
+      {
+        "id": "q011_028",
+        "question": "أي لاعب سجل هدفي ريال مدريد في الفوز 2-1 على برشلونة في كامب نو في أبريل 2016؟",
+        "answer": "كريم بنزيما وكريستيانو رونالدو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "clasico:2016:2-1"
+        ]
+      },
+      {
+        "id": "q011_029",
+        "question": "من سجل لبرشلونة هدف التعادل في الكلاسيكو الذي انتهى 2-2 في كامب نو في أكتوبر 2012 إلى جانب هدفه الآخر في المباراة؟",
+        "answer": "ليونيل ميسي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "clasico:2012:2-2"
+        ]
+      },
+      {
+        "id": "q011_030",
+        "question": "من كان مدرب ريال مدريد عندما حقق الفوز 5-0 على برشلونة في الدوري عام 1995؟",
+        "answer": "خورخي فالدانو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "clasico:1995:coach"
+        ]
+      }
+    ],
+    "قطر": [
+      {
+        "id": "q011_031",
+        "question": "ما اسم العاصمة القطرية؟",
+        "answer": "الدوحة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "qatar:doha"
+        ]
+      },
+      {
+        "id": "q011_032",
+        "question": "ما اسم المدينة القطرية التي استضاف ملعب البيت فيها مباراة افتتاح كأس العالم 2022؟",
+        "answer": "الخور",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "qatar:alkhor"
+        ]
+      },
+      {
+        "id": "q011_033",
+        "question": "في أي عام استضافت قطر كأس العالم لكرة القدم للرجال؟",
+        "answer": "2022",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "qatar:wc2022"
+        ]
+      },
+      {
+        "id": "q011_034",
+        "question": "ما اسم الموقع الأثري القطري المُدرج على قائمة التراث العالمي لليونسكو منذ 2013؟",
+        "answer": "الزبارة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "qatar:zubarah"
+        ]
+      },
+      {
+        "id": "q011_035",
+        "question": "ما اسم الجزيرة القطرية المعروفة أيضًا بالجزيرة البنفسجية؟",
+        "answer": "جزيرة بن غنام",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "qatar:purple_island"
+        ]
+      },
+      {
+        "id": "q011_036",
+        "question": "ما اسم أكبر حقل غاز طبيعي تعتمد عليه صناعة الغاز القطرية ويقع في المياه الشمالية؟",
+        "answer": "حقل الشمال",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "qatar:north_field"
+        ]
+      },
+      {
+        "id": "q011_037",
+        "question": "في أي عام نالت قطر استقلالها عن بريطانيا؟",
+        "answer": "1971",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "qatar:independence"
+        ]
+      },
+      {
+        "id": "q011_038",
+        "question": "ما اسم أول جامعة وطنية في قطر، التي بدأت ككلية للتربية ثم تأسست كجامعة عام 1977؟",
+        "answer": "جامعة قطر",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "qatar:qu"
+        ]
+      },
+      {
+        "id": "q011_039",
+        "question": "ما اسم الحصن التاريخي الواقع في شمال غرب قطر والمرتبط بمدينة الزبارة؟",
+        "answer": "قلعة الزبارة",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "qatar:zubarah_fort"
+        ]
+      },
+      {
+        "id": "q011_040",
+        "question": "ما اسم المنطقة الساحلية في شمال شرق قطر المشهورة بأشجار القرم والجزيرة البنفسجية؟",
+        "answer": "الخور",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "qatar:mangroves"
+        ]
+      }
+    ],
+    "ألغاز": [
+      {
+        "id": "q011_041",
+        "question": "شيء كلما أخذت منه كبر، فما هو؟",
+        "answer": "الحفرة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "riddle:hole"
+        ]
+      },
+      {
+        "id": "q011_042",
+        "question": "له أسنان ولا يعض، فما هو؟",
+        "answer": "المشط",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "riddle:comb"
+        ]
+      },
+      {
+        "id": "q011_043",
+        "question": "ما الشيء الذي يكتب ولا يقرأ؟",
+        "answer": "القلم",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "riddle:pen"
+        ]
+      },
+      {
+        "id": "q011_044",
+        "question": "أخت خالك وليست خالتك، فمن تكون؟",
+        "answer": "أمك",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "riddle:mother"
+        ]
+      },
+      {
+        "id": "q011_045",
+        "question": "رجل خرج تحت المطر بلا مظلة ولا قبعة ولم يبتل شعره، لماذا؟",
+        "answer": "لأنه أصلع",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "riddle:bald"
+        ]
+      },
+      {
+        "id": "q011_046",
+        "question": "ما الشيء الذي إذا نطقت اسمه كسرته؟",
+        "answer": "الصمت",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "riddle:silence"
+        ]
+      },
+      {
+        "id": "q011_047",
+        "question": "لدي مدن بلا بيوت، وأنهار بلا ماء، وغابات بلا أشجار. ما أنا؟",
+        "answer": "الخريطة",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "riddle:map"
+        ]
+      },
+      {
+        "id": "q011_048",
+        "question": "شيء يوجد في القرن مرة، وفي الدقيقة مرتين، ولا يوجد في الساعة. ما هو؟",
+        "answer": "حرف القاف",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "riddle:qaf"
+        ]
+      },
+      {
+        "id": "q011_049",
+        "question": "أمامك بابان: أحدهما للنجاة والآخر للخطر، وحارسان أحدهما يصدق دائمًا والآخر يكذب دائمًا. ما السؤال الواحد الذي يجعلك تعرف باب النجاة؟",
+        "answer": "اسأل أي حارس: أي باب سيقول الحارس الآخر إنه باب النجاة؟ ثم اختر الباب الآخر",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "riddle:two_guards"
+        ]
+      },
+      {
+        "id": "q011_050",
+        "question": "عدد إذا ضربته في نفسه ثم أضفت إليه نفسه كان الناتج 30. ما العدد الموجب؟",
+        "answer": "5",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "riddle:x2x30"
+        ]
+      }
+    ],
+    "تاريخ الصحابة": [
+      {
+        "id": "q011_051",
+        "question": "من الصحابي الذي رافق النبي ﷺ في الهجرة وكان معه في الغار؟",
+        "answer": "أبو بكر الصديق",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "sahaba:abu_bakr:hijra"
+        ]
+      },
+      {
+        "id": "q011_052",
+        "question": "من الصحابي الملقب بالفاروق؟",
+        "answer": "عمر بن الخطاب",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "sahaba:umar:farooq"
+        ]
+      },
+      {
+        "id": "q011_053",
+        "question": "من الصحابي الذي نام في فراش النبي ﷺ ليلة الهجرة؟",
+        "answer": "علي بن أبي طالب",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "sahaba:ali:bed"
+        ]
+      },
+      {
+        "id": "q011_054",
+        "question": "من الصحابي الذي اهتز لموته عرش الرحمن كما ورد في الحديث؟",
+        "answer": "سعد بن معاذ",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "sahaba:saad_muadh"
+        ]
+      },
+      {
+        "id": "q011_055",
+        "question": "من الصحابي الذي أرسله النبي ﷺ إلى المدينة قبل الهجرة ليعلم أهلها الإسلام؟",
+        "answer": "مصعب بن عمير",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "sahaba:musab:madina"
+        ]
+      },
+      {
+        "id": "q011_056",
+        "question": "من الصحابي الذي جمع الناس على مصحف واحد في خلافته وأرسل نسخًا إلى الأمصار؟",
+        "answer": "عثمان بن عفان",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "sahaba:uthman:mushaf"
+        ]
+      },
+      {
+        "id": "q011_057",
+        "question": "من الصحابي الذي تولى قيادة جيش المسلمين في مؤتة بعد استشهاد زيد بن حارثة وجعفر بن أبي طالب وعبدالله بن رواحة؟",
+        "answer": "خالد بن الوليد",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "sahaba:khalid:muta"
+        ]
+      },
+      {
+        "id": "q011_058",
+        "question": "من الصحابي الذي كان أول سفير في الإسلام واشتهر بدعوته في يثرب قبل الهجرة؟",
+        "answer": "مصعب بن عمير",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "sahaba:musab:ambassador"
+        ]
+      },
+      {
+        "id": "q011_059",
+        "question": "من الصحابي الذي قال عنه النبي ﷺ إن لكل أمة أمينًا وإن أمين هذه الأمة هو؟",
+        "answer": "أبو عبيدة عامر بن الجراح",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "sahaba:abu_ubayda"
+        ]
+      },
+      {
+        "id": "q011_060",
+        "question": "من الصحابي الذي أشار على أبي بكر بجمع القرآن بعد معركة اليمامة؟",
+        "answer": "عمر بن الخطاب",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "sahaba:umar:quran_collection"
+        ]
+      }
+    ],
+    "القرآن الكريم": [
+      {
+        "id": "q011_061",
+        "question": "ما السورة التي تُسمى أم الكتاب وتُقرأ في كل ركعة من الصلاة؟",
+        "answer": "سورة الفاتحة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "quran:fatiha"
+        ]
+      },
+      {
+        "id": "q011_062",
+        "question": "ما أطول سورة في القرآن الكريم؟",
+        "answer": "سورة البقرة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "quran:longest"
+        ]
+      },
+      {
+        "id": "q011_063",
+        "question": "ما السورة التي تحمل اسم امرأة؟",
+        "answer": "سورة مريم",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "quran:maryam"
+        ]
+      },
+      {
+        "id": "q011_064",
+        "question": "في أي سورة وردت آية الكرسي؟",
+        "answer": "سورة البقرة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "quran:ayat_kursi"
+        ]
+      },
+      {
+        "id": "q011_065",
+        "question": "ما السورة التي تبدأ بقوله تعالى: ﴿تَبَارَكَ الَّذِي بِيَدِهِ الْمُلْكُ﴾؟",
+        "answer": "سورة الملك",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "quran:mulk"
+        ]
+      },
+      {
+        "id": "q011_066",
+        "question": "في أي سورة وردت قصة أصحاب الكهف؟",
+        "answer": "سورة الكهف",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "quran:cave"
+        ]
+      },
+      {
+        "id": "q011_067",
+        "question": "ما السورة التي وردت فيها البسملة مرتين، مرة في بدايتها ومرة في كتاب سليمان؟",
+        "answer": "سورة النمل",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "quran:naml:bismillah"
+        ]
+      },
+      {
+        "id": "q011_068",
+        "question": "في أي سورة وردت قصة أصحاب الأخدود؟",
+        "answer": "سورة البروج",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "quran:buruj"
+        ]
+      },
+      {
+        "id": "q011_069",
+        "question": "ما السورة التي افتتحت بقسمين: ﴿وَالضُّحَى * وَاللَّيْلِ إِذَا سَجَى﴾؟",
+        "answer": "سورة الضحى",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "quran:duha"
+        ]
+      },
+      {
+        "id": "q011_070",
+        "question": "في أي سورة ورد ذكر ذي القرنين وبنائه السد؟",
+        "answer": "سورة الكهف",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "quran:dhul_qarnayn"
+        ]
+      }
+    ],
+    "رؤساء دول": [
+      {
+        "id": "q011_071",
+        "question": "من كان أول رئيس للولايات المتحدة؟",
+        "answer": "جورج واشنطن",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "presidents:usa:first"
+        ]
+      },
+      {
+        "id": "q011_072",
+        "question": "من كان رئيس جنوب أفريقيا عند انتهاء نظام الفصل العنصري وانتخابه عام 1994؟",
+        "answer": "نيلسون مانديلا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "presidents:sa:mandela"
+        ]
+      },
+      {
+        "id": "q011_073",
+        "question": "من كان رئيس فرنسا بين 2007 و2012؟",
+        "answer": "نيكولا ساركوزي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "presidents:france:sarkozy"
+        ]
+      },
+      {
+        "id": "q011_074",
+        "question": "من كان رئيس الولايات المتحدة أثناء أزمة الصواريخ الكوبية عام 1962؟",
+        "answer": "جون كينيدي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "presidents:usa:jfk:cuba"
+        ]
+      },
+      {
+        "id": "q011_075",
+        "question": "من كان رئيس مصر عند توقيع معاهدة السلام المصرية الإسرائيلية عام 1979؟",
+        "answer": "أنور السادات",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "presidents:egypt:sadat"
+        ]
+      },
+      {
+        "id": "q011_076",
+        "question": "من كان رئيس فرنسا عند فوزها بكأس العالم 1998؟",
+        "answer": "جاك شيراك",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "presidents:france:chirac"
+        ]
+      },
+      {
+        "id": "q011_077",
+        "question": "من كان رئيس الولايات المتحدة بين 1953 و1961؟",
+        "answer": "دوايت أيزنهاور",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "presidents:usa:eisenhower"
+        ]
+      },
+      {
+        "id": "q011_078",
+        "question": "من كان أول رئيس للجمهورية الخامسة في فرنسا عام 1959؟",
+        "answer": "شارل ديغول",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "presidents:france:degaulle"
+        ]
+      },
+      {
+        "id": "q011_079",
+        "question": "من تولى رئاسة مصر بعد اغتيال أنور السادات عام 1981؟",
+        "answer": "حسني مبارك",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "presidents:egypt:mubarak"
+        ]
+      },
+      {
+        "id": "q011_080",
+        "question": "من كان رئيس البرازيل عندما استضافت البلاد كأس العالم 2014؟",
+        "answer": "ديلما روسيف",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "presidents:brazil:rousseff"
+        ]
+      }
+    ],
+    "مانشستر يونايتد": [
+      {
+        "id": "q011_081",
+        "question": "من سجل هدف مانشستر يونايتد الأول في نهائي دوري أبطال أوروبا 1999 أمام بايرن ميونخ؟",
+        "answer": "تيدي شيرينغهام",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "mu:1999:sheringham"
+        ]
+      },
+      {
+        "id": "q011_082",
+        "question": "من كان قائد مانشستر يونايتد في نهائي دوري أبطال أوروبا 2008؟",
+        "answer": "ريو فرديناند",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "mu:2008:captain"
+        ]
+      },
+      {
+        "id": "q011_083",
+        "question": "من سجل هدف مانشستر يونايتد في نهائي دوري أبطال أوروبا 2008 أمام تشيلسي؟",
+        "answer": "كريستيانو رونالدو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "mu:2008:goal"
+        ]
+      },
+      {
+        "id": "q011_084",
+        "question": "أي لاعب سجل هدف الفوز لمانشستر يونايتد في نهائي كأس الاتحاد الإنجليزي 2016 أمام كريستال بالاس؟",
+        "answer": "جيسي لينغارد",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "mu:2016:facup"
+        ]
+      },
+      {
+        "id": "q011_085",
+        "question": "من كان حارس مانشستر يونايتد الأساسي في موسم الثلاثية 1998-99؟",
+        "answer": "بيتر شمايكل",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "mu:treble:gk"
+        ]
+      },
+      {
+        "id": "q011_086",
+        "question": "من سجل هاتريك ريال مدريد في أولد ترافورد أمام مانشستر يونايتد في إياب ربع نهائي دوري الأبطال 2003؟",
+        "answer": "رونالدو نازاريو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "mu:2003:ronaldo_hat"
+        ]
+      },
+      {
+        "id": "q011_087",
+        "question": "من سجل هدف مانشستر يونايتد الوحيد في خسارته 3-1 أمام برشلونة في نهائي دوري الأبطال 2011؟",
+        "answer": "واين روني",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "mu:2011:rooney"
+        ]
+      },
+      {
+        "id": "q011_088",
+        "question": "أي لاعب سجل هدف الفوز المتأخر لمانشستر يونايتد في نهائي كأس الكؤوس الأوروبية 1991 أمام برشلونة؟",
+        "answer": "مارك هيوز",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "mu:1991:cwc"
+        ]
+      },
+      {
+        "id": "q011_089",
+        "question": "من كان قائد مانشستر يونايتد عند الفوز بأول لقب للدوري الإنجليزي الممتاز موسم 1992-93؟",
+        "answer": "برايان روبسون",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "mu:1993:captain"
+        ]
+      },
+      {
+        "id": "q011_090",
+        "question": "من سجل هدف مانشستر يونايتد في التعادل 1-1 مع بايرن ميونخ في ذهاب ربع نهائي دوري الأبطال 2014؟",
+        "answer": "نيمانيا فيديتش",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "mu:2014:bayern"
+        ]
+      }
+    ],
+    "ريال مدريد": [
+      {
+        "id": "q011_091",
+        "question": "من سجل هدف ريال مدريد الشهير في الدقيقة 93 من نهائي دوري الأبطال 2014 أمام أتلتيكو مدريد؟",
+        "answer": "سيرخيو راموس",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "rm:2014:ramous93"
+        ]
+      },
+      {
+        "id": "q011_092",
+        "question": "من سجل هدف ريال مدريد في نهائي دوري الأبطال 2022 أمام ليفربول؟",
+        "answer": "فينيسيوس جونيور",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "rm:2022:vini"
+        ]
+      },
+      {
+        "id": "q011_093",
+        "question": "من كان مدرب ريال مدريد عند تحقيق دوري الأبطال ثلاث مرات متتالية بين 2016 و2018؟",
+        "answer": "زين الدين زيدان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "rm:threepeat:zidane"
+        ]
+      },
+      {
+        "id": "q011_094",
+        "question": "من سجل هدف ريال مدريد الأول في نهائي دوري الأبطال 2018 أمام ليفربول؟",
+        "answer": "كريم بنزيما",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "rm:2018:benzema"
+        ]
+      },
+      {
+        "id": "q011_095",
+        "question": "من سجل هدف ريال مدريد في نهائي دوري الأبطال 2002 أمام باير ليفركوزن بتسديدة طائرة شهيرة؟",
+        "answer": "زين الدين زيدان",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "rm:2002:zidane"
+        ]
+      },
+      {
+        "id": "q011_096",
+        "question": "من كان حارس ريال مدريد في نهائي دوري الأبطال 2014 أمام أتلتيكو مدريد؟",
+        "answer": "إيكر كاسياس",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "rm:2014:casillas"
+        ]
+      },
+      {
+        "id": "q011_097",
+        "question": "من سجل هدف ريال مدريد الوحيد في نهائي كأس أوروبا 1998 أمام يوفنتوس؟",
+        "answer": "بريدراج مياتوفيتش",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "rm:1998:mijatovic"
+        ]
+      },
+      {
+        "id": "q011_098",
+        "question": "من سجل لريال مدريد في نهائي دوري الأبطال 2000 أمام فالنسيا إلى جانب فرناندو مورينتس وراؤول؟",
+        "answer": "ستيف ماكمانامان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "rm:2000:mcmanaman"
+        ]
+      },
+      {
+        "id": "q011_099",
+        "question": "من كان قائد ريال مدريد في نهائي دوري الأبطال 2002؟",
+        "answer": "فرناندو هييرو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "rm:2002:captain"
+        ]
+      },
+      {
+        "id": "q011_100",
+        "question": "من سجل الهدف الثالث لريال مدريد في نهائي دوري الأبطال 2000 أمام فالنسيا؟",
+        "answer": "راؤول",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "rm:2000:raul"
+        ]
+      }
+    ]
+  }
+}

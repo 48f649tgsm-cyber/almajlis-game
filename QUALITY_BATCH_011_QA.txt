@@ -1,0 +1,8 @@
+ALMAJLIS QUALITY BATCH 011 QA
+New questions: 100
+Distribution: {'حروف اسلامي': 12, 'اغاني عربية': 8, 'الكلاسيكو': 10, 'قطر': 10, 'ألغاز': 10, 'تاريخ الصحابة': 10, 'القرآن الكريم': 10, 'رؤساء دول': 10, 'مانشستر يونايتد': 10, 'ريال مدريد': 10}
+Minimum category stock rule: retained (6)
+Semantic keys: 100/100
+Question typography: adaptive short/long CSS added
+Category visual maps: untouched
+Batch loader: updated through questions_batch_011.json
