@@ -1,0 +1,10 @@
+{
+  "build": "047",
+  "fix": "award buttons now commit score/use state before optional effects and always return to board",
+  "root_risk_removed": "unguarded countdownEdge/effects could throw after finalDecisionLocked was set",
+  "team1_team2_nobody": "covered by same award flow",
+  "question_bank_changes": "none",
+  "visual_changes": "none",
+  "audio_asset_changes": "none",
+  "javascript_syntax": "PASS"
+}
