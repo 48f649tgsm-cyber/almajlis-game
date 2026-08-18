@@ -1,0 +1,14 @@
+ALMAJLIS QUALITY BATCH 013 QA
+New questions: 100
+Flags: 60 — {100: 3, 300: 13, 500: 44}
+National anthems: 40 — {100: 16, 300: 12, 500: 12}
+Anthem tier 100: 16, all Arab countries.
+Existing master anthem countries excluded: France, Japan, Brazil, Portugal, Uruguay, Croatia.
+Flag format: image only + "ما هذه الدولة؟"
+Anthem format: audio only + "استمع إلى المقطع وحدد الدولة."
+Anthem max playback metadata: 10 seconds.
+Persistent duplicate/entity protections: retained.
+Minimum category stock rule: retained (6).
+Category visuals: untouched.
+Expected loaded bank total: 822.
+Structural QA: PASS

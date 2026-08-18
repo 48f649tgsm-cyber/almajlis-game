@@ -1,0 +1,2118 @@
+{
+  "version": "QUALITY-013",
+  "new_questions": 100,
+  "focus": "أعلام دول + نشيد وطني",
+  "quality_policy": {
+    "priority": "quality_over_quantity",
+    "flags": "flag image only, no textual flag description",
+    "anthem": "audio question only; playback limited to 10 seconds; 100 tier prioritizes Arab states",
+    "duplicate_policy": "existing master flag/anthem countries excluded where applicable; unique semantic keys",
+    "minimum_category_stock": 6
+  },
+  "categories": {
+    "أعلام دول": [
+      {
+        "id": "q013_flag_001",
+        "question": "ما هذه الدولة؟",
+        "answer": "أفغانستان",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/af.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "أفغانستان"
+          ]
+        },
+        "semantic_keys": [
+          "flag:af",
+          "country:أفغانستان"
+        ]
+      },
+      {
+        "id": "q013_flag_002",
+        "question": "ما هذه الدولة؟",
+        "answer": "بوتان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/bt.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "بوتان"
+          ]
+        },
+        "semantic_keys": [
+          "flag:bt",
+          "country:بوتان"
+        ]
+      },
+      {
+        "id": "q013_flag_003",
+        "question": "ما هذه الدولة؟",
+        "answer": "المالديف",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/mv.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "المالديف"
+          ]
+        },
+        "semantic_keys": [
+          "flag:mv",
+          "country:المالديف"
+        ]
+      },
+      {
+        "id": "q013_flag_004",
+        "question": "ما هذه الدولة؟",
+        "answer": "منغوليا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/mn.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "منغوليا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:mn",
+          "country:منغوليا"
+        ]
+      },
+      {
+        "id": "q013_flag_005",
+        "question": "ما هذه الدولة؟",
+        "answer": "ميانمار",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/mm.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "ميانمار"
+          ]
+        },
+        "semantic_keys": [
+          "flag:mm",
+          "country:ميانمار"
+        ]
+      },
+      {
+        "id": "q013_flag_006",
+        "question": "ما هذه الدولة؟",
+        "answer": "كمبوديا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/kh.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "كمبوديا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:kh",
+          "country:كمبوديا"
+        ]
+      },
+      {
+        "id": "q013_flag_007",
+        "question": "ما هذه الدولة؟",
+        "answer": "لاوس",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/la.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "لاوس"
+          ]
+        },
+        "semantic_keys": [
+          "flag:la",
+          "country:لاوس"
+        ]
+      },
+      {
+        "id": "q013_flag_008",
+        "question": "ما هذه الدولة؟",
+        "answer": "بروناي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/bn.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "بروناي"
+          ]
+        },
+        "semantic_keys": [
+          "flag:bn",
+          "country:بروناي"
+        ]
+      },
+      {
+        "id": "q013_flag_009",
+        "question": "ما هذه الدولة؟",
+        "answer": "تيمور الشرقية",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/tl.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "تيمور الشرقية"
+          ]
+        },
+        "semantic_keys": [
+          "flag:tl",
+          "country:تيمور الشرقية"
+        ]
+      },
+      {
+        "id": "q013_flag_010",
+        "question": "ما هذه الدولة؟",
+        "answer": "أوزبكستان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/uz.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "أوزبكستان"
+          ]
+        },
+        "semantic_keys": [
+          "flag:uz",
+          "country:أوزبكستان"
+        ]
+      },
+      {
+        "id": "q013_flag_011",
+        "question": "ما هذه الدولة؟",
+        "answer": "تركمانستان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/tm.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "تركمانستان"
+          ]
+        },
+        "semantic_keys": [
+          "flag:tm",
+          "country:تركمانستان"
+        ]
+      },
+      {
+        "id": "q013_flag_012",
+        "question": "ما هذه الدولة؟",
+        "answer": "طاجيكستان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/tj.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "طاجيكستان"
+          ]
+        },
+        "semantic_keys": [
+          "flag:tj",
+          "country:طاجيكستان"
+        ]
+      },
+      {
+        "id": "q013_flag_013",
+        "question": "ما هذه الدولة؟",
+        "answer": "إسرائيل",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/il.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "إسرائيل"
+          ]
+        },
+        "semantic_keys": [
+          "flag:il",
+          "country:إسرائيل"
+        ]
+      },
+      {
+        "id": "q013_flag_014",
+        "question": "ما هذه الدولة؟",
+        "answer": "اليمن",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/ye.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "اليمن"
+          ]
+        },
+        "semantic_keys": [
+          "flag:ye",
+          "country:اليمن"
+        ]
+      },
+      {
+        "id": "q013_flag_015",
+        "question": "ما هذه الدولة؟",
+        "answer": "ليبيا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/ly.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "ليبيا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:ly",
+          "country:ليبيا"
+        ]
+      },
+      {
+        "id": "q013_flag_016",
+        "question": "ما هذه الدولة؟",
+        "answer": "السودان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/sd.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "السودان"
+          ]
+        },
+        "semantic_keys": [
+          "flag:sd",
+          "country:السودان"
+        ]
+      },
+      {
+        "id": "q013_flag_017",
+        "question": "ما هذه الدولة؟",
+        "answer": "الصومال",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/so.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "الصومال"
+          ]
+        },
+        "semantic_keys": [
+          "flag:so",
+          "country:الصومال"
+        ]
+      },
+      {
+        "id": "q013_flag_018",
+        "question": "ما هذه الدولة؟",
+        "answer": "جيبوتي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/dj.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "جيبوتي"
+          ]
+        },
+        "semantic_keys": [
+          "flag:dj",
+          "country:جيبوتي"
+        ]
+      },
+      {
+        "id": "q013_flag_019",
+        "question": "ما هذه الدولة؟",
+        "answer": "موريتانيا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/mr.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "موريتانيا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:mr",
+          "country:موريتانيا"
+        ]
+      },
+      {
+        "id": "q013_flag_020",
+        "question": "ما هذه الدولة؟",
+        "answer": "جزر القمر",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/km.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "جزر القمر"
+          ]
+        },
+        "semantic_keys": [
+          "flag:km",
+          "country:جزر القمر"
+        ]
+      },
+      {
+        "id": "q013_flag_021",
+        "question": "ما هذه الدولة؟",
+        "answer": "إثيوبيا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/et.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "إثيوبيا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:et",
+          "country:إثيوبيا"
+        ]
+      },
+      {
+        "id": "q013_flag_022",
+        "question": "ما هذه الدولة؟",
+        "answer": "إريتريا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/er.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "إريتريا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:er",
+          "country:إريتريا"
+        ]
+      },
+      {
+        "id": "q013_flag_023",
+        "question": "ما هذه الدولة؟",
+        "answer": "كينيا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/ke.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "كينيا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:ke",
+          "country:كينيا"
+        ]
+      },
+      {
+        "id": "q013_flag_024",
+        "question": "ما هذه الدولة؟",
+        "answer": "أوغندا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/ug.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "أوغندا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:ug",
+          "country:أوغندا"
+        ]
+      },
+      {
+        "id": "q013_flag_025",
+        "question": "ما هذه الدولة؟",
+        "answer": "تنزانيا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/tz.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "تنزانيا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:tz",
+          "country:تنزانيا"
+        ]
+      },
+      {
+        "id": "q013_flag_026",
+        "question": "ما هذه الدولة؟",
+        "answer": "رواندا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/rw.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "رواندا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:rw",
+          "country:رواندا"
+        ]
+      },
+      {
+        "id": "q013_flag_027",
+        "question": "ما هذه الدولة؟",
+        "answer": "بوروندي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/bi.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "بوروندي"
+          ]
+        },
+        "semantic_keys": [
+          "flag:bi",
+          "country:بوروندي"
+        ]
+      },
+      {
+        "id": "q013_flag_028",
+        "question": "ما هذه الدولة؟",
+        "answer": "جنوب السودان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/ss.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "جنوب السودان"
+          ]
+        },
+        "semantic_keys": [
+          "flag:ss",
+          "country:جنوب السودان"
+        ]
+      },
+      {
+        "id": "q013_flag_029",
+        "question": "ما هذه الدولة؟",
+        "answer": "جمهورية أفريقيا الوسطى",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/cf.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "جمهورية أفريقيا الوسطى"
+          ]
+        },
+        "semantic_keys": [
+          "flag:cf",
+          "country:جمهورية أفريقيا الوسطى"
+        ]
+      },
+      {
+        "id": "q013_flag_030",
+        "question": "ما هذه الدولة؟",
+        "answer": "تشاد",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/td.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "تشاد"
+          ]
+        },
+        "semantic_keys": [
+          "flag:td",
+          "country:تشاد"
+        ]
+      },
+      {
+        "id": "q013_flag_031",
+        "question": "ما هذه الدولة؟",
+        "answer": "النيجر",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/ne.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "النيجر"
+          ]
+        },
+        "semantic_keys": [
+          "flag:ne",
+          "country:النيجر"
+        ]
+      },
+      {
+        "id": "q013_flag_032",
+        "question": "ما هذه الدولة؟",
+        "answer": "مالي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/ml.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "مالي"
+          ]
+        },
+        "semantic_keys": [
+          "flag:ml",
+          "country:مالي"
+        ]
+      },
+      {
+        "id": "q013_flag_033",
+        "question": "ما هذه الدولة؟",
+        "answer": "بوركينا فاسو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/bf.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "بوركينا فاسو"
+          ]
+        },
+        "semantic_keys": [
+          "flag:bf",
+          "country:بوركينا فاسو"
+        ]
+      },
+      {
+        "id": "q013_flag_034",
+        "question": "ما هذه الدولة؟",
+        "answer": "غينيا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/gn.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "غينيا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:gn",
+          "country:غينيا"
+        ]
+      },
+      {
+        "id": "q013_flag_035",
+        "question": "ما هذه الدولة؟",
+        "answer": "غينيا بيساو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/gw.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "غينيا بيساو"
+          ]
+        },
+        "semantic_keys": [
+          "flag:gw",
+          "country:غينيا بيساو"
+        ]
+      },
+      {
+        "id": "q013_flag_036",
+        "question": "ما هذه الدولة؟",
+        "answer": "سيراليون",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/sl.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "سيراليون"
+          ]
+        },
+        "semantic_keys": [
+          "flag:sl",
+          "country:سيراليون"
+        ]
+      },
+      {
+        "id": "q013_flag_037",
+        "question": "ما هذه الدولة؟",
+        "answer": "ليبيريا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/lr.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "ليبيريا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:lr",
+          "country:ليبيريا"
+        ]
+      },
+      {
+        "id": "q013_flag_038",
+        "question": "ما هذه الدولة؟",
+        "answer": "غامبيا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/gm.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "غامبيا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:gm",
+          "country:غامبيا"
+        ]
+      },
+      {
+        "id": "q013_flag_039",
+        "question": "ما هذه الدولة؟",
+        "answer": "الرأس الأخضر",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/cv.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "الرأس الأخضر"
+          ]
+        },
+        "semantic_keys": [
+          "flag:cv",
+          "country:الرأس الأخضر"
+        ]
+      },
+      {
+        "id": "q013_flag_040",
+        "question": "ما هذه الدولة؟",
+        "answer": "توغو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/tg.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "توغو"
+          ]
+        },
+        "semantic_keys": [
+          "flag:tg",
+          "country:توغو"
+        ]
+      },
+      {
+        "id": "q013_flag_041",
+        "question": "ما هذه الدولة؟",
+        "answer": "بنين",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/bj.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "بنين"
+          ]
+        },
+        "semantic_keys": [
+          "flag:bj",
+          "country:بنين"
+        ]
+      },
+      {
+        "id": "q013_flag_042",
+        "question": "ما هذه الدولة؟",
+        "answer": "الغابون",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/ga.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "الغابون"
+          ]
+        },
+        "semantic_keys": [
+          "flag:ga",
+          "country:الغابون"
+        ]
+      },
+      {
+        "id": "q013_flag_043",
+        "question": "ما هذه الدولة؟",
+        "answer": "غينيا الاستوائية",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/gq.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "غينيا الاستوائية"
+          ]
+        },
+        "semantic_keys": [
+          "flag:gq",
+          "country:غينيا الاستوائية"
+        ]
+      },
+      {
+        "id": "q013_flag_044",
+        "question": "ما هذه الدولة؟",
+        "answer": "جمهورية الكونغو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/cg.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "جمهورية الكونغو"
+          ]
+        },
+        "semantic_keys": [
+          "flag:cg",
+          "country:جمهورية الكونغو"
+        ]
+      },
+      {
+        "id": "q013_flag_045",
+        "question": "ما هذه الدولة؟",
+        "answer": "جمهورية الكونغو الديمقراطية",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/cd.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "جمهورية الكونغو الديمقراطية"
+          ]
+        },
+        "semantic_keys": [
+          "flag:cd",
+          "country:جمهورية الكونغو الديمقراطية"
+        ]
+      },
+      {
+        "id": "q013_flag_046",
+        "question": "ما هذه الدولة؟",
+        "answer": "أنغولا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/ao.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "أنغولا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:ao",
+          "country:أنغولا"
+        ]
+      },
+      {
+        "id": "q013_flag_047",
+        "question": "ما هذه الدولة؟",
+        "answer": "زامبيا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/zm.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "زامبيا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:zm",
+          "country:زامبيا"
+        ]
+      },
+      {
+        "id": "q013_flag_048",
+        "question": "ما هذه الدولة؟",
+        "answer": "زيمبابوي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/zw.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "زيمبابوي"
+          ]
+        },
+        "semantic_keys": [
+          "flag:zw",
+          "country:زيمبابوي"
+        ]
+      },
+      {
+        "id": "q013_flag_049",
+        "question": "ما هذه الدولة؟",
+        "answer": "بوتسوانا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/bw.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "بوتسوانا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:bw",
+          "country:بوتسوانا"
+        ]
+      },
+      {
+        "id": "q013_flag_050",
+        "question": "ما هذه الدولة؟",
+        "answer": "ناميبيا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/na.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "ناميبيا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:na",
+          "country:ناميبيا"
+        ]
+      },
+      {
+        "id": "q013_flag_051",
+        "question": "ما هذه الدولة؟",
+        "answer": "ليسوتو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/ls.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "ليسوتو"
+          ]
+        },
+        "semantic_keys": [
+          "flag:ls",
+          "country:ليسوتو"
+        ]
+      },
+      {
+        "id": "q013_flag_052",
+        "question": "ما هذه الدولة؟",
+        "answer": "مدغشقر",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/mg.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "مدغشقر"
+          ]
+        },
+        "semantic_keys": [
+          "flag:mg",
+          "country:مدغشقر"
+        ]
+      },
+      {
+        "id": "q013_flag_053",
+        "question": "ما هذه الدولة؟",
+        "answer": "موريشيوس",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/mu.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "موريشيوس"
+          ]
+        },
+        "semantic_keys": [
+          "flag:mu",
+          "country:موريشيوس"
+        ]
+      },
+      {
+        "id": "q013_flag_054",
+        "question": "ما هذه الدولة؟",
+        "answer": "سيشل",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/sc.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "سيشل"
+          ]
+        },
+        "semantic_keys": [
+          "flag:sc",
+          "country:سيشل"
+        ]
+      },
+      {
+        "id": "q013_flag_055",
+        "question": "ما هذه الدولة؟",
+        "answer": "مالاوي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/mw.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "مالاوي"
+          ]
+        },
+        "semantic_keys": [
+          "flag:mw",
+          "country:مالاوي"
+        ]
+      },
+      {
+        "id": "q013_flag_056",
+        "question": "ما هذه الدولة؟",
+        "answer": "فيجي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/fj.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "فيجي"
+          ]
+        },
+        "semantic_keys": [
+          "flag:fj",
+          "country:فيجي"
+        ]
+      },
+      {
+        "id": "q013_flag_057",
+        "question": "ما هذه الدولة؟",
+        "answer": "بابوا غينيا الجديدة",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/pg.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "بابوا غينيا الجديدة"
+          ]
+        },
+        "semantic_keys": [
+          "flag:pg",
+          "country:بابوا غينيا الجديدة"
+        ]
+      },
+      {
+        "id": "q013_flag_058",
+        "question": "ما هذه الدولة؟",
+        "answer": "جزر سليمان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/sb.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "جزر سليمان"
+          ]
+        },
+        "semantic_keys": [
+          "flag:sb",
+          "country:جزر سليمان"
+        ]
+      },
+      {
+        "id": "q013_flag_059",
+        "question": "ما هذه الدولة؟",
+        "answer": "فانواتو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/vu.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "فانواتو"
+          ]
+        },
+        "semantic_keys": [
+          "flag:vu",
+          "country:فانواتو"
+        ]
+      },
+      {
+        "id": "q013_flag_060",
+        "question": "ما هذه الدولة؟",
+        "answer": "ساموا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "media": {
+          "type": "image",
+          "src": "https://flagcdn.com/w640/ws.png",
+          "alt": "علم دولة"
+        },
+        "entities": {
+          "countries": [
+            "ساموا"
+          ]
+        },
+        "semantic_keys": [
+          "flag:ws",
+          "country:ساموا"
+        ]
+      }
+    ],
+    "نشيد وطني": [
+      {
+        "id": "q013_ant_001",
+        "question": "استمع إلى المقطع وحدد الدولة.",
+        "answer": "قطر",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "countries": [
+            "قطر"
+          ]
+        },
+        "media": {
+          "type": "audio",
+          "src": "https://nationalanthems.info/qa.mp3",
+          "maxSeconds": 10
+        },
+        "semantic_keys": [
+          "anthem:qa",
+          "country:قطر"
+        ]
+      },
+      {
+        "id": "q013_ant_002",
+        "question": "استمع إلى المقطع وحدد الدولة.",
+        "answer": "السعودية",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "countries": [
+            "السعودية"
+          ]
+        },
+        "media": {
+          "type": "audio",
+          "src": "https://nationalanthems.info/sa.mp3",
+          "maxSeconds": 10
+        },
+        "semantic_keys": [
+          "anthem:sa",
+          "country:السعودية"
+        ]
+      },
+      {
+        "id": "q013_ant_003",
+        "question": "استمع إلى المقطع وحدد الدولة.",
+        "answer": "الإمارات العربية المتحدة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "countries": [
+            "الإمارات العربية المتحدة"
+          ]
+        },
+        "media": {
+          "type": "audio",
+          "src": "https://nationalanthems.info/ae.mp3",
+          "maxSeconds": 10
+        },
+        "semantic_keys": [
+          "anthem:ae",
+          "country:الإمارات العربية المتحدة"
+        ]
+      },
+      {
+        "id": "q013_ant_004",
+        "question": "استمع إلى المقطع وحدد الدولة.",
+        "answer": "البحرين",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "countries": [
+            "البحرين"
+          ]
+        },
+        "media": {
+          "type": "audio",
+          "src": "https://nationalanthems.info/bh.mp3",
+          "maxSeconds": 10
+        },
+        "semantic_keys": [
+          "anthem:bh",
+          "country:البحرين"
+        ]
+      },
+      {
+        "id": "q013_ant_005",
+        "question": "استمع إلى المقطع وحدد الدولة.",
+        "answer": "الكويت",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "countries": [
+            "الكويت"
+          ]
+        },
+        "media": {
+          "type": "audio",
+          "src": "https://nationalanthems.info/kw.mp3",
+          "maxSeconds": 10
+        },
+        "semantic_keys": [
+          "anthem:kw",
+          "country:الكويت"
+        ]
+      },
+      {
+        "id": "q013_ant_006",
+        "question": "استمع إلى المقطع وحدد الدولة.",
+        "answer": "عُمان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "countries": [
+            "عُمان"
+          ]
+        },
+        "media": {
+          "type": "audio",
+          "src": "https://nationalanthems.info/om.mp3",
+          "maxSeconds": 10
+        },
+        "semantic_keys": [
+          "anthem:om",
+          "country:عُمان"
+        ]
+      },
+      {
+        "id": "q013_ant_007",
+        "question": "استمع إلى المقطع وحدد الدولة.",
+        "answer": "الأردن",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "countries": [
+            "الأردن"
+          ]
+        },
+        "media": {
+          "type": "audio",
+          "src": "https://nationalanthems.info/jo.mp3",
+          "maxSeconds": 10
+        },
+        "semantic_keys": [
+          "anthem:jo",
+          "country:الأردن"
+        ]
+      },
+      {
+        "id": "q013_ant_008",
+        "question": "استمع إلى المقطع وحدد الدولة.",
+        "answer": "لبنان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "countries": [
+            "لبنان"
+          ]
+        },
+        "media": {
+          "type": "audio",
+          "src": "https://nationalanthems.info/lb.mp3",
+          "maxSeconds": 10
+        },
+        "semantic_keys": [
+          "anthem:lb",
+          "country:لبنان"
+        ]
+      },
+      {
+        "id": "q013_ant_009",
+        "question": "استمع إلى المقطع وحدد الدولة.",
+        "answer": "سوريا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "countries": [
+            "سوريا"
+          ]
+        },
+        "media": {
+          "type": "audio",
+          "src": "https://nationalanthems.info/sy.mp3",
+          "maxSeconds": 10
+        },
+        "semantic_keys": [
+          "anthem:sy",
+          "country:سوريا"
+        ]
+      },
+      {
+        "id": "q013_ant_010",
+        "question": "استمع إلى المقطع وحدد الدولة.",
+        "answer": "العراق",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "countries": [
+            "العراق"
+          ]
+        },
+        "media": {
+          "type": "audio",
+          "src": "https://nationalanthems.info/iq.mp3",
+          "maxSeconds": 10
+        },
+        "semantic_keys": [
+          "anthem:iq",
+          "country:العراق"
+        ]
+      },
+      {
+        "id": "q013_ant_011",
+        "question": "استمع إلى المقطع وحدد الدولة.",
+        "answer": "مصر",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "countries": [
+            "مصر"
+          ]
+        },
+        "media": {
+          "type": "audio",
+          "src": "https://nationalanthems.info/eg.mp3",
+          "maxSeconds": 10
+        },
+        "semantic_keys": [
+          "anthem:eg",
+          "country:مصر"
+        ]
+      },
+      {
+        "id": "q013_ant_012",
+        "question": "استمع إلى المقطع وحدد الدولة.",
+        "answer": "المغرب",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "countries": [
+            "المغرب"
+          ]
+        },
+        "media": {
+          "type": "audio",
+          "src": "https://nationalanthems.info/ma.mp3",
+          "maxSeconds": 10
+        },
+        "semantic_keys": [
+          "anthem:ma",
+          "country:المغرب"
+        ]
+      },
+      {
+        "id": "q013_ant_013",
+        "question": "استمع إلى المقطع وحدد الدولة.",
+        "answer": "الجزائر",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "countries": [
+            "الجزائر"
+          ]
+        },
+        "media": {
+          "type": "audio",
+          "src": "https://nationalanthems.info/dz.mp3",
+          "maxSeconds": 10
+        },
+        "semantic_keys": [
+          "anthem:dz",
+          "country:الجزائر"
+        ]
+      },
+      {
+        "id": "q013_ant_014",
+        "question": "استمع إلى المقطع وحدد الدولة.",
+        "answer": "تونس",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "countries": [
+            "تونس"
+          ]
+        },
+        "media": {
+          "type": "audio",
+          "src": "https://nationalanthems.info/tn.mp3",
+          "maxSeconds": 10
+        },
+        "semantic_keys": [
+          "anthem:tn",
+          "country:تونس"
+        ]
+      },
+      {
+        "id": "q013_ant_015",
+        "question": "استمع إلى المقطع وحدد الدولة.",
+        "answer": "اليمن",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "countries": [
+            "اليمن"
+          ]
+        },
+        "media": {
+          "type": "audio",
+          "src": "https://nationalanthems.info/ye.mp3",
+          "maxSeconds": 10
+        },
+        "semantic_keys": [
+          "anthem:ye",
+          "country:اليمن"
+        ]
+      },
+      {
+        "id": "q013_ant_016",
+        "question": "استمع إلى المقطع وحدد الدولة.",
+        "answer": "ليبيا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {
+          "countries": [
+            "ليبيا"
+          ]
+        },
+        "media": {
+          "type": "audio",
+          "src": "https://nationalanthems.info/ly.mp3",
+          "maxSeconds": 10
+        },
+        "semantic_keys": [
+          "anthem:ly",
+          "country:ليبيا"
+        ]
+      },
+      {
+        "id": "q013_ant_017",
+        "question": "استمع إلى المقطع وحدد الدولة.",
+        "answer": "الولايات المتحدة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "countries": [
+            "الولايات المتحدة"
+          ]
+        },
+        "media": {
+          "type": "audio",
+          "src": "https://nationalanthems.info/us.mp3",
+          "maxSeconds": 10
+        },
+        "semantic_keys": [
+          "anthem:us",
+          "country:الولايات المتحدة"
+        ]
+      },
+      {
+        "id": "q013_ant_018",
+        "question": "استمع إلى المقطع وحدد الدولة.",
+        "answer": "المملكة المتحدة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "countries": [
+            "المملكة المتحدة"
+          ]
+        },
+        "media": {
+          "type": "audio",
+          "src": "https://nationalanthems.info/gb.mp3",
+          "maxSeconds": 10
+        },
+        "semantic_keys": [
+          "anthem:gb",
+          "country:المملكة المتحدة"
+        ]
+      },
+      {
+        "id": "q013_ant_019",
+        "question": "استمع إلى المقطع وحدد الدولة.",
+        "answer": "ألمانيا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "countries": [
+            "ألمانيا"
+          ]
+        },
+        "media": {
+          "type": "audio",
+          "src": "https://nationalanthems.info/de.mp3",
+          "maxSeconds": 10
+        },
+        "semantic_keys": [
+          "anthem:de",
+          "country:ألمانيا"
+        ]
+      },
+      {
+        "id": "q013_ant_020",
+        "question": "استمع إلى المقطع وحدد الدولة.",
+        "answer": "إيطاليا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "countries": [
+            "إيطاليا"
+          ]
+        },
+        "media": {
+          "type": "audio",
+          "src": "https://nationalanthems.info/it.mp3",
+          "maxSeconds": 10
+        },
+        "semantic_keys": [
+          "anthem:it",
+          "country:إيطاليا"
+        ]
+      },
+      {
+        "id": "q013_ant_021",
+        "question": "استمع إلى المقطع وحدد الدولة.",
+        "answer": "إسبانيا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "countries": [
+            "إسبانيا"
+          ]
+        },
+        "media": {
+          "type": "audio",
+          "src": "https://nationalanthems.info/es.mp3",
+          "maxSeconds": 10
+        },
+        "semantic_keys": [
+          "anthem:es",
+          "country:إسبانيا"
+        ]
+      },
+      {
+        "id": "q013_ant_022",
+        "question": "استمع إلى المقطع وحدد الدولة.",
+        "answer": "تركيا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "countries": [
+            "تركيا"
+          ]
+        },
+        "media": {
+          "type": "audio",
+          "src": "https://nationalanthems.info/tr.mp3",
+          "maxSeconds": 10
+        },
+        "semantic_keys": [
+          "anthem:tr",
+          "country:تركيا"
+        ]
+      },
+      {
+        "id": "q013_ant_023",
+        "question": "استمع إلى المقطع وحدد الدولة.",
+        "answer": "الأرجنتين",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "countries": [
+            "الأرجنتين"
+          ]
+        },
+        "media": {
+          "type": "audio",
+          "src": "https://nationalanthems.info/ar.mp3",
+          "maxSeconds": 10
+        },
+        "semantic_keys": [
+          "anthem:ar",
+          "country:الأرجنتين"
+        ]
+      },
+      {
+        "id": "q013_ant_024",
+        "question": "استمع إلى المقطع وحدد الدولة.",
+        "answer": "المكسيك",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "countries": [
+            "المكسيك"
+          ]
+        },
+        "media": {
+          "type": "audio",
+          "src": "https://nationalanthems.info/mx.mp3",
+          "maxSeconds": 10
+        },
+        "semantic_keys": [
+          "anthem:mx",
+          "country:المكسيك"
+        ]
+      },
+      {
+        "id": "q013_ant_025",
+        "question": "استمع إلى المقطع وحدد الدولة.",
+        "answer": "كندا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "countries": [
+            "كندا"
+          ]
+        },
+        "media": {
+          "type": "audio",
+          "src": "https://nationalanthems.info/ca.mp3",
+          "maxSeconds": 10
+        },
+        "semantic_keys": [
+          "anthem:ca",
+          "country:كندا"
+        ]
+      },
+      {
+        "id": "q013_ant_026",
+        "question": "استمع إلى المقطع وحدد الدولة.",
+        "answer": "أستراليا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "countries": [
+            "أستراليا"
+          ]
+        },
+        "media": {
+          "type": "audio",
+          "src": "https://nationalanthems.info/au.mp3",
+          "maxSeconds": 10
+        },
+        "semantic_keys": [
+          "anthem:au",
+          "country:أستراليا"
+        ]
+      },
+      {
+        "id": "q013_ant_027",
+        "question": "استمع إلى المقطع وحدد الدولة.",
+        "answer": "جنوب أفريقيا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "countries": [
+            "جنوب أفريقيا"
+          ]
+        },
+        "media": {
+          "type": "audio",
+          "src": "https://nationalanthems.info/za.mp3",
+          "maxSeconds": 10
+        },
+        "semantic_keys": [
+          "anthem:za",
+          "country:جنوب أفريقيا"
+        ]
+      },
+      {
+        "id": "q013_ant_028",
+        "question": "استمع إلى المقطع وحدد الدولة.",
+        "answer": "الهند",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {
+          "countries": [
+            "الهند"
+          ]
+        },
+        "media": {
+          "type": "audio",
+          "src": "https://nationalanthems.info/in.mp3",
+          "maxSeconds": 10
+        },
+        "semantic_keys": [
+          "anthem:in",
+          "country:الهند"
+        ]
+      },
+      {
+        "id": "q013_ant_029",
+        "question": "استمع إلى المقطع وحدد الدولة.",
+        "answer": "آيسلندا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "countries": [
+            "آيسلندا"
+          ]
+        },
+        "media": {
+          "type": "audio",
+          "src": "https://nationalanthems.info/is.mp3",
+          "maxSeconds": 10
+        },
+        "semantic_keys": [
+          "anthem:is",
+          "country:آيسلندا"
+        ]
+      },
+      {
+        "id": "q013_ant_030",
+        "question": "استمع إلى المقطع وحدد الدولة.",
+        "answer": "إستونيا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "countries": [
+            "إستونيا"
+          ]
+        },
+        "media": {
+          "type": "audio",
+          "src": "https://nationalanthems.info/ee.mp3",
+          "maxSeconds": 10
+        },
+        "semantic_keys": [
+          "anthem:ee",
+          "country:إستونيا"
+        ]
+      },
+      {
+        "id": "q013_ant_031",
+        "question": "استمع إلى المقطع وحدد الدولة.",
+        "answer": "ليتوانيا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "countries": [
+            "ليتوانيا"
+          ]
+        },
+        "media": {
+          "type": "audio",
+          "src": "https://nationalanthems.info/lt.mp3",
+          "maxSeconds": 10
+        },
+        "semantic_keys": [
+          "anthem:lt",
+          "country:ليتوانيا"
+        ]
+      },
+      {
+        "id": "q013_ant_032",
+        "question": "استمع إلى المقطع وحدد الدولة.",
+        "answer": "لاتفيا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "countries": [
+            "لاتفيا"
+          ]
+        },
+        "media": {
+          "type": "audio",
+          "src": "https://nationalanthems.info/lv.mp3",
+          "maxSeconds": 10
+        },
+        "semantic_keys": [
+          "anthem:lv",
+          "country:لاتفيا"
+        ]
+      },
+      {
+        "id": "q013_ant_033",
+        "question": "استمع إلى المقطع وحدد الدولة.",
+        "answer": "جورجيا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "countries": [
+            "جورجيا"
+          ]
+        },
+        "media": {
+          "type": "audio",
+          "src": "https://nationalanthems.info/ge.mp3",
+          "maxSeconds": 10
+        },
+        "semantic_keys": [
+          "anthem:ge",
+          "country:جورجيا"
+        ]
+      },
+      {
+        "id": "q013_ant_034",
+        "question": "استمع إلى المقطع وحدد الدولة.",
+        "answer": "أرمينيا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "countries": [
+            "أرمينيا"
+          ]
+        },
+        "media": {
+          "type": "audio",
+          "src": "https://nationalanthems.info/am.mp3",
+          "maxSeconds": 10
+        },
+        "semantic_keys": [
+          "anthem:am",
+          "country:أرمينيا"
+        ]
+      },
+      {
+        "id": "q013_ant_035",
+        "question": "استمع إلى المقطع وحدد الدولة.",
+        "answer": "أذربيجان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "countries": [
+            "أذربيجان"
+          ]
+        },
+        "media": {
+          "type": "audio",
+          "src": "https://nationalanthems.info/az.mp3",
+          "maxSeconds": 10
+        },
+        "semantic_keys": [
+          "anthem:az",
+          "country:أذربيجان"
+        ]
+      },
+      {
+        "id": "q013_ant_036",
+        "question": "استمع إلى المقطع وحدد الدولة.",
+        "answer": "نيبال",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "countries": [
+            "نيبال"
+          ]
+        },
+        "media": {
+          "type": "audio",
+          "src": "https://nationalanthems.info/np.mp3",
+          "maxSeconds": 10
+        },
+        "semantic_keys": [
+          "anthem:np",
+          "country:نيبال"
+        ]
+      },
+      {
+        "id": "q013_ant_037",
+        "question": "استمع إلى المقطع وحدد الدولة.",
+        "answer": "سريلانكا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "countries": [
+            "سريلانكا"
+          ]
+        },
+        "media": {
+          "type": "audio",
+          "src": "https://nationalanthems.info/lk.mp3",
+          "maxSeconds": 10
+        },
+        "semantic_keys": [
+          "anthem:lk",
+          "country:سريلانكا"
+        ]
+      },
+      {
+        "id": "q013_ant_038",
+        "question": "استمع إلى المقطع وحدد الدولة.",
+        "answer": "كينيا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "countries": [
+            "كينيا"
+          ]
+        },
+        "media": {
+          "type": "audio",
+          "src": "https://nationalanthems.info/ke.mp3",
+          "maxSeconds": 10
+        },
+        "semantic_keys": [
+          "anthem:ke",
+          "country:كينيا"
+        ]
+      },
+      {
+        "id": "q013_ant_039",
+        "question": "استمع إلى المقطع وحدد الدولة.",
+        "answer": "غانا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "countries": [
+            "غانا"
+          ]
+        },
+        "media": {
+          "type": "audio",
+          "src": "https://nationalanthems.info/gh.mp3",
+          "maxSeconds": 10
+        },
+        "semantic_keys": [
+          "anthem:gh",
+          "country:غانا"
+        ]
+      },
+      {
+        "id": "q013_ant_040",
+        "question": "استمع إلى المقطع وحدد الدولة.",
+        "answer": "نيوزيلندا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {
+          "countries": [
+            "نيوزيلندا"
+          ]
+        },
+        "media": {
+          "type": "audio",
+          "src": "https://nationalanthems.info/nz.mp3",
+          "maxSeconds": 10
+        },
+        "semantic_keys": [
+          "anthem:nz",
+          "country:نيوزيلندا"
+        ]
+      }
+    ]
+  }
+}
