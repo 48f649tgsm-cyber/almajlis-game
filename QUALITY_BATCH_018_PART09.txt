@@ -1,0 +1,7 @@
+Batch 018 Part 09 — FINAL PART
+144 questions
+برشلونة 36 | الكلاسيكو 36 | قطر 36 | حروف اسلامي 36
+12x100 + 12x300 + 12x500 per category
+Unique IDs: PASS
+Structural QA: PASS
+Batch 018 cumulative planned total: 1296 questions across 9 parts.
