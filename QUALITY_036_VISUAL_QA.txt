@@ -1,0 +1,51 @@
+ALMAJLIS BUILD 036 — PRIME-TIME VISUAL EDITION
+Visual-only major upgrade built on the accepted BUILD 035 audio package.
+
+Implemented:
+- dark prime-time question studio
+- premium broadcast category board
+- cinematic question entry
+- team-side spotlight
+- redesigned broadcast scoreboard
+- circular illuminated countdown
+- synchronized final-five visual pulse
+- cinematic answer reveal
+- special 500-point splash
+- upgraded tie-break roulette scene
+- upgraded last-question / tie-ready scenes
+- premium victory finale and confetti treatment
+- glass/depth lighting system
+- vignette and subtle ambient/parallax-like lighting
+- stronger media presentation and player portrait framing
+- minimal flag presentation
+- improved audio/media presentation styling
+- landscape / TV safe layout
+- responsive mobile layout
+- reduced-motion/performance fallback
+- secondary question tools visually suppressed until reveal
+
+Unchanged:
+- accepted BUILD 035 real-orchestra audio files
+- question bank
+- scoring
+- 30s + 30s team timing
+- stock lock / unavailable categories
+- no-repeat logic
+- tie-break logic
+
+Checks:
+- JS syntax: PASS
+- BUILD 036: PASS
+- real orchestra retained: PASS
+- dark question studio: PASS
+- broadcast board: PASS
+- team spotlight: PASS
+- circular timer: PASS
+- 500 splash: PASS
+- answer reveal: PASS
+- tie-break visual: PASS
+- victory visual: PASS
+- landscape safe layout: PASS
+- performance fallback: PASS
+- stock lock retained: PASS
+- team score names retained: PASS
