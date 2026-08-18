@@ -1,0 +1,7 @@
+ALMAJLIS QUALITY 019 — STUDIO EDITION
+JS syntax: PASS
+Baseline: QUALITY-018 retrieved from the conversation.
+Added: TV lower-third; category stings with stronger 500 treatment; lead/tie callouts; final-five event; board history by team; fullscreen media zoom; shared-club answer reveal; career timeline animation; end achievements; attract-screen presentation.
+Retained: 30+30 timing, manual reveal, sound effects, tie-break, reports, media precheck, duplicate locks, category stock minimum, face-safe shared-club portraits.
+Explicitly excluded: Host Mode, separate rounds, audience QR, separate controller/display.
+Category images and question bank unchanged.
