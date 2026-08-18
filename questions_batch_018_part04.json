@@ -1,0 +1,1598 @@
+{
+  "version": "18.4-part04",
+  "new_questions": 144,
+  "categories": {
+    "برشلونة": [
+      {
+        "id": "b018p4_c13_001",
+        "question": "ما اسم ملعب برشلونة التاريخي؟",
+        "answer": "كامب نو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c13:001"
+        ]
+      },
+      {
+        "id": "b018p4_c13_002",
+        "question": "ما ألوان برشلونة التقليدية التي ارتبط بها لقب البلوغرانا؟",
+        "answer": "الأزرق والأحمر",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c13:002"
+        ]
+      },
+      {
+        "id": "b018p4_c13_003",
+        "question": "من سجل هدف برشلونة الأول في نهائي دوري أبطال أوروبا 2009؟",
+        "answer": "صامويل إيتو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c13:003"
+        ]
+      },
+      {
+        "id": "b018p4_c13_004",
+        "question": "من سجل هدف برشلونة الثاني في نهائي دوري أبطال أوروبا 2009؟",
+        "answer": "ليونيل ميسي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c13:004"
+        ]
+      },
+      {
+        "id": "b018p4_c13_005",
+        "question": "أي فريق واجه برشلونة في نهائي دوري أبطال أوروبا 2011؟",
+        "answer": "مانشستر يونايتد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c13:005"
+        ]
+      },
+      {
+        "id": "b018p4_c13_006",
+        "question": "من سجل هدف برشلونة الأول في نهائي 2011؟",
+        "answer": "بيدرو رودريغيز",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c13:006"
+        ]
+      },
+      {
+        "id": "b018p4_c13_007",
+        "question": "من سجل هدف برشلونة الثاني في نهائي 2011؟",
+        "answer": "ليونيل ميسي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c13:007"
+        ]
+      },
+      {
+        "id": "b018p4_c13_008",
+        "question": "من سجل هدف برشلونة الثالث في نهائي 2011؟",
+        "answer": "دافيد فيا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c13:008"
+        ]
+      },
+      {
+        "id": "b018p4_c13_009",
+        "question": "من كان مدرب برشلونة عند تحقيق السداسية عام 2009؟",
+        "answer": "بيب غوارديولا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c13:009"
+        ]
+      },
+      {
+        "id": "b018p4_c13_010",
+        "question": "من سجل هدف برشلونة الأول في نهائي دوري أبطال أوروبا 2015؟",
+        "answer": "إيفان راكيتيتش",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c13:010"
+        ]
+      },
+      {
+        "id": "b018p4_c13_011",
+        "question": "من سجل هدف برشلونة الثاني في نهائي 2015؟",
+        "answer": "لويس سواريز",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c13:011"
+        ]
+      },
+      {
+        "id": "b018p4_c13_012",
+        "question": "من سجل هدف برشلونة الثالث في نهائي 2015؟",
+        "answer": "نيمار",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c13:012"
+        ]
+      },
+      {
+        "id": "b018p4_c13_013",
+        "question": "من سجل الهدف السادس في ريمونتادا برشلونة أمام باريس سان جيرمان عام 2017؟",
+        "answer": "سيرجي روبرتو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c13:013"
+        ]
+      },
+      {
+        "id": "b018p4_c13_014",
+        "question": "من سجل هدفي برشلونة في نهائي دوري أبطال أوروبا 2006؟",
+        "answer": "صامويل إيتو وجوليانو بيليتي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c13:014"
+        ]
+      },
+      {
+        "id": "b018p4_c13_015",
+        "question": "من سجل هدف الفوز لبرشلونة في نهائي دوري الأبطال 2006؟",
+        "answer": "جوليانو بيليتي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c13:015"
+        ]
+      },
+      {
+        "id": "b018p4_c13_016",
+        "question": "من كان قائد برشلونة في نهائي دوري أبطال أوروبا 2006؟",
+        "answer": "كارليس بويول",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c13:016"
+        ]
+      },
+      {
+        "id": "b018p4_c13_017",
+        "question": "من كان حارس برشلونة في نهائي دوري أبطال أوروبا 2011؟",
+        "answer": "فيكتور فالديس",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c13:017"
+        ]
+      },
+      {
+        "id": "b018p4_c13_018",
+        "question": "من ثلاثي الوسط الذي بدأ نهائي دوري الأبطال 2011؟",
+        "answer": "تشافي وإنييستا وسيرجيو بوسكيتس",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c13:018"
+        ]
+      },
+      {
+        "id": "b018p4_c13_019",
+        "question": "من سجل هدف برشلونة الشهير أمام تشيلسي في إياب نصف نهائي دوري الأبطال 2009؟",
+        "answer": "أندريس إنييستا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c13:019"
+        ]
+      },
+      {
+        "id": "b018p4_c13_020",
+        "question": "من صنع هدف إنييستا أمام تشيلسي في ستامفورد بريدج عام 2009؟",
+        "answer": "ليونيل ميسي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c13:020"
+        ]
+      },
+      {
+        "id": "b018p4_c13_021",
+        "question": "من سجل هدفًا لبرشلونة في نهائي كأس العالم للأندية 2009 أمام إستوديانتيس قبل هدف ميسي؟",
+        "answer": "بيدرو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c13:021"
+        ]
+      },
+      {
+        "id": "b018p4_c13_022",
+        "question": "من سجل هدف الفوز لبرشلونة في الوقت الإضافي من نهائي كأس العالم للأندية 2009؟",
+        "answer": "ليونيل ميسي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c13:022"
+        ]
+      },
+      {
+        "id": "b018p4_c13_023",
+        "question": "من اللاعب الذي انتقل من أرسنال إلى برشلونة عام 2007 وارتدى الرقم 14؟",
+        "answer": "تييري هنري",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c13:023"
+        ]
+      },
+      {
+        "id": "b018p4_c13_024",
+        "question": "من اللاعب البرازيلي الذي سجل هدفين في فوز برشلونة 3-0 على ريال مدريد في البرنابيو عام 2005 ونال تصفيق بعض جماهير مدريد؟",
+        "answer": "رونالدينيو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c13:024"
+        ]
+      },
+      {
+        "id": "b018p4_c13_025",
+        "question": "من سجل هاتريك برشلونة في الكلاسيكو 3-3 عام 2007؟",
+        "answer": "ليونيل ميسي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c13:025"
+        ]
+      },
+      {
+        "id": "b018p4_c13_026",
+        "question": "من سجل الهدف الخامس لبرشلونة في فوز 5-0 على ريال مدريد عام 2010؟",
+        "answer": "جيفرين سواريز",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c13:026"
+        ]
+      },
+      {
+        "id": "b018p4_c13_027",
+        "question": "من سجل هدفي برشلونة في البرنابيو بذهاب نصف نهائي دوري الأبطال 2011؟",
+        "answer": "ليونيل ميسي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c13:027"
+        ]
+      },
+      {
+        "id": "b018p4_c13_028",
+        "question": "من كان قائد برشلونة الذي رفع دوري الأبطال 2015؟",
+        "answer": "تشافي هيرنانديز",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c13:028"
+        ]
+      },
+      {
+        "id": "b018p4_c13_029",
+        "question": "من اللاعب الذي سجل أول هدف رسمي لبرشلونة في ملعبه الجديد المؤقت مونتجويك في موسم 2023-24 بالدوري؟",
+        "answer": "بيدري",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c13:029"
+        ]
+      },
+      {
+        "id": "b018p4_c13_030",
+        "question": "من سجل هدف برشلونة الوحيد في نهائي كأس أوروبا 1992؟",
+        "answer": "رونالد كومان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c13:030"
+        ]
+      },
+      {
+        "id": "b018p4_c13_031",
+        "question": "أمام أي فريق فاز برشلونة بأول كأس أوروبا عام 1992؟",
+        "answer": "سامبدوريا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c13:031"
+        ]
+      },
+      {
+        "id": "b018p4_c13_032",
+        "question": "من كان مدرب برشلونة في نهائي كأس أوروبا 1992؟",
+        "answer": "يوهان كرويف",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c13:032"
+        ]
+      },
+      {
+        "id": "b018p4_c13_033",
+        "question": "من اللاعب البلغاري الذي كان أحد أبرز نجوم فريق الأحلام لبرشلونة في أوائل التسعينيات؟",
+        "answer": "خريستو ستويتشكوف",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c13:033"
+        ]
+      },
+      {
+        "id": "b018p4_c13_034",
+        "question": "من الحارس الذي لعب لبرشلونة في نهائي كأس أوروبا 1992؟",
+        "answer": "كارليس بوسكيتس",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c13:034"
+        ]
+      },
+      {
+        "id": "b018p4_c13_035",
+        "question": "من سجل هدف برشلونة الأول في نهائي كأس العالم للأندية 2011 أمام سانتوس؟",
+        "answer": "ليونيل ميسي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c13:035"
+        ]
+      },
+      {
+        "id": "b018p4_c13_036",
+        "question": "كم انتهت مباراة برشلونة وسانتوس في نهائي كأس العالم للأندية 2011؟",
+        "answer": "4-0 لبرشلونة",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c13:036"
+        ]
+      }
+    ],
+    "الكلاسيكو": [
+      {
+        "id": "b018p4_c14_001",
+        "question": "ما الناديين اللذين يجمعهما الكلاسيكو الإسباني؟",
+        "answer": "ريال مدريد وبرشلونة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c14:001"
+        ]
+      },
+      {
+        "id": "b018p4_c14_002",
+        "question": "من سجل هاتريك برشلونة في كلاسيكو 3-3 عام 2007؟",
+        "answer": "ليونيل ميسي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c14:002"
+        ]
+      },
+      {
+        "id": "b018p4_c14_003",
+        "question": "من سجل هدف الفوز لريال مدريد في نهائي كأس الملك 2014 أمام برشلونة؟",
+        "answer": "غاريث بيل",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c14:003"
+        ]
+      },
+      {
+        "id": "b018p4_c14_004",
+        "question": "من سجل هدف برشلونة في نهائي كأس الملك 2014؟",
+        "answer": "مارك بارترا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c14:004"
+        ]
+      },
+      {
+        "id": "b018p4_c14_005",
+        "question": "من سجل هدف ريال مدريد الأول في نهائي كأس الملك 2014؟",
+        "answer": "أنخيل دي ماريا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c14:005"
+        ]
+      },
+      {
+        "id": "b018p4_c14_006",
+        "question": "من سجل هدف الفوز لبرشلونة في البرنابيو في كلاسيكو الدوري 2017 الذي انتهى 3-2؟",
+        "answer": "ليونيل ميسي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c14:006"
+        ]
+      },
+      {
+        "id": "b018p4_c14_007",
+        "question": "من سجل هدف ريال مدريد في كلاسيكو 2017 قبل هدف ميسي الحاسم عندما كانت النتيجة 2-1 لبرشلونة؟",
+        "answer": "خاميس رودريغيز",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c14:007"
+        ]
+      },
+      {
+        "id": "b018p4_c14_008",
+        "question": "من سجل هدفي برشلونة في فوز 2-0 بالبرنابيو في نصف نهائي دوري الأبطال 2011؟",
+        "answer": "ليونيل ميسي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c14:008"
+        ]
+      },
+      {
+        "id": "b018p4_c14_009",
+        "question": "من سجل هاتريك ريال مدريد في كلاسيكو كأس الملك 2023 الذي انتهى 4-0؟",
+        "answer": "كريم بنزيما",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c14:009"
+        ]
+      },
+      {
+        "id": "b018p4_c14_010",
+        "question": "من سجل الهدف الرابع لريال مدريد في فوز 4-0 على برشلونة بكأس الملك 2023؟",
+        "answer": "كريم بنزيما",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c14:010"
+        ]
+      },
+      {
+        "id": "b018p4_c14_011",
+        "question": "من سجل هدف برشلونة الوحيد في ذهاب نصف نهائي كأس الملك 2023 الذي انتهى 1-0؟",
+        "answer": "كان هدفًا عكسيًا من إيدر ميليتاو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c14:011"
+        ]
+      },
+      {
+        "id": "b018p4_c14_012",
+        "question": "من سجل أول هدف في كلاسيكو الدوري الذي انتهى 5-0 لبرشلونة عام 2010؟",
+        "answer": "تشافي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c14:012"
+        ]
+      },
+      {
+        "id": "b018p4_c14_013",
+        "question": "من سجل الهدف الثاني لبرشلونة في كلاسيكو 5-0 عام 2010؟",
+        "answer": "بيدرو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c14:013"
+        ]
+      },
+      {
+        "id": "b018p4_c14_014",
+        "question": "من سجل الهدفين الثالث والرابع لبرشلونة في كلاسيكو 5-0 عام 2010؟",
+        "answer": "دافيد فيا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c14:014"
+        ]
+      },
+      {
+        "id": "b018p4_c14_015",
+        "question": "من سجل الهدف الخامس لبرشلونة في كلاسيكو 5-0 عام 2010؟",
+        "answer": "جيفرين سواريز",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c14:015"
+        ]
+      },
+      {
+        "id": "b018p4_c14_016",
+        "question": "من سجل هدف ريال مدريد الوحيد في خسارته 5-1 أمام برشلونة عام 2018؟",
+        "answer": "مارسيلو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c14:016"
+        ]
+      },
+      {
+        "id": "b018p4_c14_017",
+        "question": "من سجل هاتريك برشلونة في كلاسيكو 5-1 عام 2018؟",
+        "answer": "لويس سواريز",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c14:017"
+        ]
+      },
+      {
+        "id": "b018p4_c14_018",
+        "question": "من سجل أول هدف لبرشلونة في كلاسيكو 5-1 عام 2018؟",
+        "answer": "فيليبي كوتينيو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c14:018"
+        ]
+      },
+      {
+        "id": "b018p4_c14_019",
+        "question": "من سجل هدف ريال مدريد الأول في فوزه 3-1 على برشلونة في كامب نو عام 2020؟",
+        "answer": "فيديريكو فالفيردي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c14:019"
+        ]
+      },
+      {
+        "id": "b018p4_c14_020",
+        "question": "من سجل هدف برشلونة في كلاسيكو الدوري 3-1 لريال مدريد عام 2020؟",
+        "answer": "أنسو فاتي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c14:020"
+        ]
+      },
+      {
+        "id": "b018p4_c14_021",
+        "question": "من سجل ركلة جزاء ريال مدريد في كلاسيكو 3-1 عام 2020؟",
+        "answer": "سيرخيو راموس",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c14:021"
+        ]
+      },
+      {
+        "id": "b018p4_c14_022",
+        "question": "من سجل الهدف الثالث لريال مدريد في كلاسيكو 3-1 عام 2020؟",
+        "answer": "لوكا مودريتش",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c14:022"
+        ]
+      },
+      {
+        "id": "b018p4_c14_023",
+        "question": "من سجل هدفي ريال مدريد في فوزه 2-1 بكامب نو عام 2023؟",
+        "answer": "جود بيلينغهام",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c14:023"
+        ]
+      },
+      {
+        "id": "b018p4_c14_024",
+        "question": "من سجل هدف برشلونة في ذلك الكلاسيكو عام 2023؟",
+        "answer": "إلكاي غوندوغان",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c14:024"
+        ]
+      },
+      {
+        "id": "b018p4_c14_025",
+        "question": "من سجل هدف ريال مدريد الأول في نهائي السوبر الإسباني 2024 أمام برشلونة؟",
+        "answer": "فينيسيوس جونيور",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c14:025"
+        ]
+      },
+      {
+        "id": "b018p4_c14_026",
+        "question": "من سجل هاتريك ريال مدريد في نهائي السوبر الإسباني 2024؟",
+        "answer": "فينيسيوس جونيور",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c14:026"
+        ]
+      },
+      {
+        "id": "b018p4_c14_027",
+        "question": "من سجل هدف برشلونة في نهائي السوبر الإسباني 2024؟",
+        "answer": "روبرت ليفاندوفسكي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c14:027"
+        ]
+      },
+      {
+        "id": "b018p4_c14_028",
+        "question": "من سجل الهدف الرابع لريال مدريد في نهائي السوبر الإسباني 2024؟",
+        "answer": "رودريغو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c14:028"
+        ]
+      },
+      {
+        "id": "b018p4_c14_029",
+        "question": "من سجل هدف برشلونة الأول في فوزه 4-0 بالبرنابيو في الدوري عام 2022؟",
+        "answer": "بيير إيمريك أوباميانغ",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c14:029"
+        ]
+      },
+      {
+        "id": "b018p4_c14_030",
+        "question": "من سجل هدف برشلونة الثاني في ذلك الفوز 4-0؟",
+        "answer": "رونالد أراوخو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c14:030"
+        ]
+      },
+      {
+        "id": "b018p4_c14_031",
+        "question": "من سجل هدف برشلونة الثالث في فوز 4-0 بالبرنابيو عام 2022؟",
+        "answer": "فيران توريس",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c14:031"
+        ]
+      },
+      {
+        "id": "b018p4_c14_032",
+        "question": "من سجل هدف برشلونة الرابع في ذلك الكلاسيكو؟",
+        "answer": "بيير إيمريك أوباميانغ",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c14:032"
+        ]
+      },
+      {
+        "id": "b018p4_c14_033",
+        "question": "من سجل هدف ريال مدريد في نهائي كأس الملك 2011 أمام برشلونة؟",
+        "answer": "كريستيانو رونالدو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c14:033"
+        ]
+      },
+      {
+        "id": "b018p4_c14_034",
+        "question": "في أي ملعب أقيم نهائي كأس الملك 2011 بين ريال مدريد وبرشلونة؟",
+        "answer": "ميستايا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c14:034"
+        ]
+      },
+      {
+        "id": "b018p4_c14_035",
+        "question": "من كان مدرب ريال مدريد في نهائي كأس الملك 2011؟",
+        "answer": "جوزيه مورينيو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c14:035"
+        ]
+      },
+      {
+        "id": "b018p4_c14_036",
+        "question": "من كان مدرب برشلونة في نهائي كأس الملك 2011؟",
+        "answer": "بيب غوارديولا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c14:036"
+        ]
+      }
+    ],
+    "قطر": [
+      {
+        "id": "b018p4_c15_001",
+        "question": "ما عاصمة دولة قطر؟",
+        "answer": "الدوحة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c15:001"
+        ]
+      },
+      {
+        "id": "b018p4_c15_002",
+        "question": "ما العملة الرسمية في قطر؟",
+        "answer": "الريال القطري",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c15:002"
+        ]
+      },
+      {
+        "id": "b018p4_c15_003",
+        "question": "ما البحر الذي تطل عليه قطر؟",
+        "answer": "الخليج العربي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c15:003"
+        ]
+      },
+      {
+        "id": "b018p4_c15_004",
+        "question": "ما الدولة الوحيدة التي تشترك مع قطر بحدود برية؟",
+        "answer": "السعودية",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c15:004"
+        ]
+      },
+      {
+        "id": "b018p4_c15_005",
+        "question": "ما اسم المطار الدولي الرئيسي في قطر؟",
+        "answer": "مطار حمد الدولي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c15:005"
+        ]
+      },
+      {
+        "id": "b018p4_c15_006",
+        "question": "ما اسم شركة الطيران الوطنية القطرية؟",
+        "answer": "الخطوط الجوية القطرية",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c15:006"
+        ]
+      },
+      {
+        "id": "b018p4_c15_007",
+        "question": "ما اسم السوق التراثي الشهير في قلب الدوحة؟",
+        "answer": "سوق واقف",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c15:007"
+        ]
+      },
+      {
+        "id": "b018p4_c15_008",
+        "question": "ما اسم المتحف الذي صممه المعماري آي. إم. باي على كورنيش الدوحة؟",
+        "answer": "متحف الفن الإسلامي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c15:008"
+        ]
+      },
+      {
+        "id": "b018p4_c15_009",
+        "question": "ما اسم المتحف الوطني الذي يستوحي تصميمه من وردة الصحراء؟",
+        "answer": "متحف قطر الوطني",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c15:009"
+        ]
+      },
+      {
+        "id": "b018p4_c15_010",
+        "question": "ما اسم الجزيرة الاصطناعية السكنية الشهيرة في الدوحة؟",
+        "answer": "اللؤلؤة-قطر",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c15:010"
+        ]
+      },
+      {
+        "id": "b018p4_c15_011",
+        "question": "ما اسم الحي الثقافي المعروف في الدوحة؟",
+        "answer": "كتارا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c15:011"
+        ]
+      },
+      {
+        "id": "b018p4_c15_012",
+        "question": "ما اسم الواجهة البحرية الطويلة في وسط الدوحة؟",
+        "answer": "كورنيش الدوحة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c15:012"
+        ]
+      },
+      {
+        "id": "b018p4_c15_013",
+        "question": "ما اسم المدينة التي استضافت استاد البيت في كأس العالم 2022؟",
+        "answer": "الخور",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c15:013"
+        ]
+      },
+      {
+        "id": "b018p4_c15_014",
+        "question": "ما اسم الاستاد الذي استضاف نهائي كأس العالم 2022؟",
+        "answer": "استاد لوسيل",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c15:014"
+        ]
+      },
+      {
+        "id": "b018p4_c15_015",
+        "question": "ما المدينة التي يقع فيها استاد الجنوب؟",
+        "answer": "الوكرة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c15:015"
+        ]
+      },
+      {
+        "id": "b018p4_c15_016",
+        "question": "ما اسم الاستاد الذي بُني باستخدام حاويات شحن وأقيمت فيه مباريات كأس العالم 2022؟",
+        "answer": "استاد 974",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c15:016"
+        ]
+      },
+      {
+        "id": "b018p4_c15_017",
+        "question": "ما اسم المؤسسة التعليمية والبحثية التي تضم المدينة التعليمية في قطر؟",
+        "answer": "مؤسسة قطر",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c15:017"
+        ]
+      },
+      {
+        "id": "b018p4_c15_018",
+        "question": "ما اسم المكتبة الوطنية الواقعة في المدينة التعليمية؟",
+        "answer": "مكتبة قطر الوطنية",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c15:018"
+        ]
+      },
+      {
+        "id": "b018p4_c15_019",
+        "question": "ما اسم شبه الجزيرة التاريخية في شمال غرب قطر التي تضم موقعًا أثريًا مسجلًا عالميًا؟",
+        "answer": "الزبارة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c15:019"
+        ]
+      },
+      {
+        "id": "b018p4_c15_020",
+        "question": "ما اسم الموقع القطري المدرج على قائمة التراث العالمي لليونسكو؟",
+        "answer": "موقع الزبارة الأثري",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c15:020"
+        ]
+      },
+      {
+        "id": "b018p4_c15_021",
+        "question": "ما اسم البحر الداخلي الشهير جنوب شرق قطر؟",
+        "answer": "خور العديد",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c15:021"
+        ]
+      },
+      {
+        "id": "b018p4_c15_022",
+        "question": "ما اسم أعلى دوري كرة قدم للمحترفين في قطر؟",
+        "answer": "دوري نجوم قطر",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c15:022"
+        ]
+      },
+      {
+        "id": "b018p4_c15_023",
+        "question": "ما النادي القطري الذي يحمل اسم العاصمة وحقق ألقابًا محلية عديدة وكان يعرف سابقًا باسم الاستقلال؟",
+        "answer": "نادي قطر",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c15:023"
+        ]
+      },
+      {
+        "id": "b018p4_c15_024",
+        "question": "ما النادي الذي يلعب في استاد جاسم بن حمد؟",
+        "answer": "السد",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c15:024"
+        ]
+      },
+      {
+        "id": "b018p4_c15_025",
+        "question": "ما النادي القطري الذي توج بدوري أبطال آسيا عامي 1989 و2011؟",
+        "answer": "السد",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c15:025"
+        ]
+      },
+      {
+        "id": "b018p4_c15_026",
+        "question": "ما اسم البطولة القارية للمنتخبات التي استضافتها قطر مطلع 2024 وفازت بها؟",
+        "answer": "كأس آسيا 2023",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c15:026"
+        ]
+      },
+      {
+        "id": "b018p4_c15_027",
+        "question": "أي منتخب هزمته قطر في نهائي كأس آسيا 2019؟",
+        "answer": "اليابان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c15:027"
+        ]
+      },
+      {
+        "id": "b018p4_c15_028",
+        "question": "أي منتخب هزمته قطر في نهائي كأس آسيا 2023 الذي أقيم عام 2024؟",
+        "answer": "الأردن",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c15:028"
+        ]
+      },
+      {
+        "id": "b018p4_c15_029",
+        "question": "من سجل هاتريك من ركلات الجزاء لقطر في نهائي كأس آسيا 2023؟",
+        "answer": "أكرم عفيف",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c15:029"
+        ]
+      },
+      {
+        "id": "b018p4_c15_030",
+        "question": "من كان هداف كأس آسيا 2019؟",
+        "answer": "المعز علي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c15:030"
+        ]
+      },
+      {
+        "id": "b018p4_c15_031",
+        "question": "كم هدفًا سجل المعز علي في كأس آسيا 2019؟",
+        "answer": "9 أهداف",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c15:031"
+        ]
+      },
+      {
+        "id": "b018p4_c15_032",
+        "question": "ما اسم الجزيرة الإعلامية التي انطلقت من الدوحة عام 1996؟",
+        "answer": "الجزيرة",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c15:032"
+        ]
+      },
+      {
+        "id": "b018p4_c15_033",
+        "question": "ما اسم الميناء الرئيسي الحديث جنوب الدوحة؟",
+        "answer": "ميناء حمد",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c15:033"
+        ]
+      },
+      {
+        "id": "b018p4_c15_034",
+        "question": "ما اسم المنطقة التي تضم أبراجًا حديثة ومركزًا تجاريًا بارزًا شمال وسط الدوحة؟",
+        "answer": "الخليج الغربي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c15:034"
+        ]
+      },
+      {
+        "id": "b018p4_c15_035",
+        "question": "ما اسم المشروع الحضري الذي أعاد تطوير قلب الدوحة قرب سوق واقف؟",
+        "answer": "مشيرب قلب الدوحة",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c15:035"
+        ]
+      },
+      {
+        "id": "b018p4_c15_036",
+        "question": "ما اسم المدينة المخططة شمال الدوحة التي استضافت نهائي كأس العالم؟",
+        "answer": "لوسيل",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c15:036"
+        ]
+      }
+    ],
+    "حروف اسلامي": [
+      {
+        "id": "b018p4_c16_001",
+        "question": "حرف أ: نبي يُلقب بأبي الأنبياء.",
+        "answer": "إبراهيم",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c16:001"
+        ]
+      },
+      {
+        "id": "b018p4_c16_002",
+        "question": "حرف ب: صحابي كان مؤذن النبي ﷺ.",
+        "answer": "بلال",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c16:002"
+        ]
+      },
+      {
+        "id": "b018p4_c16_003",
+        "question": "حرف ت: غزوة كانت آخر غزوات النبي ﷺ.",
+        "answer": "تبوك",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c16:003"
+        ]
+      },
+      {
+        "id": "b018p4_c16_004",
+        "question": "حرف ث: قوم أُرسل إليهم صالح عليه السلام.",
+        "answer": "ثمود",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c16:004"
+        ]
+      },
+      {
+        "id": "b018p4_c16_005",
+        "question": "حرف ج: صحابي ابن عم النبي ﷺ استشهد في مؤتة.",
+        "answer": "جعفر بن أبي طالب",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c16:005"
+        ]
+      },
+      {
+        "id": "b018p4_c16_006",
+        "question": "حرف ح: غزوة انتصر فيها المسلمون بقيادة صلاح الدين على الصليبيين.",
+        "answer": "حطين",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c16:006"
+        ]
+      },
+      {
+        "id": "b018p4_c16_007",
+        "question": "حرف خ: صحابي لُقب بسيف الله المسلول.",
+        "answer": "خالد بن الوليد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c16:007"
+        ]
+      },
+      {
+        "id": "b018p4_c16_008",
+        "question": "حرف د: نبي آتاه الله الزبور.",
+        "answer": "داود",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c16:008"
+        ]
+      },
+      {
+        "id": "b018p4_c16_009",
+        "question": "حرف ذ: صاحب القصة الذي بنى ردمًا أمام يأجوج ومأجوج.",
+        "answer": "ذو القرنين",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c16:009"
+        ]
+      },
+      {
+        "id": "b018p4_c16_010",
+        "question": "حرف ر: شهر الصيام.",
+        "answer": "رمضان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c16:010"
+        ]
+      },
+      {
+        "id": "b018p4_c16_011",
+        "question": "حرف ز: صحابي كُلّف بجمع القرآن في عهد أبي بكر.",
+        "answer": "زيد بن ثابت",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c16:011"
+        ]
+      },
+      {
+        "id": "b018p4_c16_012",
+        "question": "حرف س: نبي سخر الله له الريح.",
+        "answer": "سليمان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c16:012"
+        ]
+      },
+      {
+        "id": "b018p4_c16_013",
+        "question": "حرف ش: نبي أُرسل إلى أهل مدين.",
+        "answer": "شعيب",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c16:013"
+        ]
+      },
+      {
+        "id": "b018p4_c16_014",
+        "question": "حرف ص: نبي أُرسل إلى ثمود.",
+        "answer": "صالح",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c16:014"
+        ]
+      },
+      {
+        "id": "b018p4_c16_015",
+        "question": "حرف ض: اسم سورة تبدأ بالقسم بوقت ارتفاع النهار.",
+        "answer": "الضحى",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c16:015"
+        ]
+      },
+      {
+        "id": "b018p4_c16_016",
+        "question": "حرف ط: قائد فتح الأندلس سنة 92هـ.",
+        "answer": "طارق بن زياد",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c16:016"
+        ]
+      },
+      {
+        "id": "b018p4_c16_017",
+        "question": "حرف ظ: سلطان مملوكي اشتهر بلقب الظاهر.",
+        "answer": "الظاهر بيبرس",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c16:017"
+        ]
+      },
+      {
+        "id": "b018p4_c16_018",
+        "question": "حرف ع: صحابي لُقب بالفاروق.",
+        "answer": "عمر بن الخطاب",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c16:018"
+        ]
+      },
+      {
+        "id": "b018p4_c16_019",
+        "question": "حرف غ: غار اختبأ فيه النبي ﷺ وأبو بكر أثناء الهجرة.",
+        "answer": "غار ثور",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c16:019"
+        ]
+      },
+      {
+        "id": "b018p4_c16_020",
+        "question": "حرف ف: سورة سميت باسم حدث أصحاب الفيل.",
+        "answer": "الفيل",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c16:020"
+        ]
+      },
+      {
+        "id": "b018p4_c16_021",
+        "question": "حرف ق: قبيلة النبي ﷺ.",
+        "answer": "قريش",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c16:021"
+        ]
+      },
+      {
+        "id": "b018p4_c16_022",
+        "question": "حرف ك: بيت الله الحرام.",
+        "answer": "الكعبة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c16:022"
+        ]
+      },
+      {
+        "id": "b018p4_c16_023",
+        "question": "حرف ل: ليلة خير من ألف شهر.",
+        "answer": "ليلة القدر",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c16:023"
+        ]
+      },
+      {
+        "id": "b018p4_c16_024",
+        "question": "حرف م: نبي كلمه الله عند الطور.",
+        "answer": "موسى",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c16:024"
+        ]
+      },
+      {
+        "id": "b018p4_c16_025",
+        "question": "حرف ن: نبي صنع السفينة بأمر الله.",
+        "answer": "نوح",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c16:025"
+        ]
+      },
+      {
+        "id": "b018p4_c16_026",
+        "question": "حرف هـ: نبي أُرسل إلى عاد.",
+        "answer": "هود",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c16:026"
+        ]
+      },
+      {
+        "id": "b018p4_c16_027",
+        "question": "حرف و: صلاة نافلة تؤدى بعد العشاء ويختم بها قيام الليل.",
+        "answer": "الوتر",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c16:027"
+        ]
+      },
+      {
+        "id": "b018p4_c16_028",
+        "question": "حرف ي: نبي ابتلعه الحوت.",
+        "answer": "يونس",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c16:028"
+        ]
+      },
+      {
+        "id": "b018p4_c16_029",
+        "question": "حرف أ: أول الخلفاء الراشدين.",
+        "answer": "أبو بكر الصديق",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c16:029"
+        ]
+      },
+      {
+        "id": "b018p4_c16_030",
+        "question": "حرف ب: معركة كانت أول انتصار كبير للمسلمين.",
+        "answer": "بدر",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c16:030"
+        ]
+      },
+      {
+        "id": "b018p4_c16_031",
+        "question": "حرف ح: صحابي عُرف بأنه صاحب سر النبي ﷺ.",
+        "answer": "حذيفة بن اليمان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c16:031"
+        ]
+      },
+      {
+        "id": "b018p4_c16_032",
+        "question": "حرف س: صحابي أشار بحفر الخندق.",
+        "answer": "سلمان الفارسي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c16:032"
+        ]
+      },
+      {
+        "id": "b018p4_c16_033",
+        "question": "حرف ع: عم النبي ﷺ الذي كفله بعد وفاة جده.",
+        "answer": "أبو طالب",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c16:033"
+        ]
+      },
+      {
+        "id": "b018p4_c16_034",
+        "question": "حرف م: أول سفير في الإسلام إلى المدينة قبل الهجرة.",
+        "answer": "مصعب بن عمير",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c16:034"
+        ]
+      },
+      {
+        "id": "b018p4_c16_035",
+        "question": "حرف ن: سورة تحمل اسم حشرة حذرت قومها من جيش سليمان.",
+        "answer": "النمل",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c16:035"
+        ]
+      },
+      {
+        "id": "b018p4_c16_036",
+        "question": "حرف ي: نبي قال لإخوته: لا تثريب عليكم اليوم.",
+        "answer": "يوسف",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p4:c16:036"
+        ]
+      }
+    ]
+  }
+}
