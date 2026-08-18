@@ -1,0 +1,21 @@
+ALMAJLIS QUALITY 025 — CACHE / DEPLOYMENT / AUDIO DIAGNOSTIC HOTFIX
+JS syntax: PASS
+
+Why this build exists:
+The user's screenshot after uploading 024 still showed the pre-023 match-builder alert and did not show the 024 audio-test control.
+That means the live page was serving/running an older index.html (cache/deployment issue).
+
+025 adds:
+- Permanent visible "BUILD 025" badge at bottom-right.
+- BUILD 025 shown on the draw/load UI.
+- Unregister all service workers at startup.
+- Delete Cache Storage entries at startup.
+- Strong no-cache meta.
+- Very visible "اختبار الصوت قبل بدء المباراة" button.
+- Persistent iOS AudioContext unlock retained.
+- Two-tone confirmation when audio successfully unlocks.
+- 023 constraint-aware match builder retained.
+- No question bank or category-image changes.
+
+Verification:
+If BUILD 025 is not visibly shown on the live game page, GitHub Pages is not serving the newly uploaded root index.html.
