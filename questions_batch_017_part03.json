@@ -1,0 +1,1598 @@
+{
+  "version": "17.3-part03",
+  "new_questions": 144,
+  "categories": {
+    "صحح الخطأ": [
+      {
+        "id": "b017p3_c09_001",
+        "question": "عاصمة كندا هي تورونتو.",
+        "answer": "عاصمة كندا هي أوتاوا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c09:001"
+        ]
+      },
+      {
+        "id": "b017p3_c09_002",
+        "question": "اليابان تقع في المحيط الأطلسي.",
+        "answer": "اليابان تقع في المحيط الهادئ",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c09:002"
+        ]
+      },
+      {
+        "id": "b017p3_c09_003",
+        "question": "المشتري أصغر كواكب المجموعة الشمسية.",
+        "answer": "المشتري أكبر كواكب المجموعة الشمسية",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c09:003"
+        ]
+      },
+      {
+        "id": "b017p3_c09_004",
+        "question": "الماء يتجمد عند 100 درجة مئوية عند الضغط القياسي.",
+        "answer": "الماء يتجمد عند 0 درجة مئوية عند الضغط القياسي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c09:004"
+        ]
+      },
+      {
+        "id": "b017p3_c09_005",
+        "question": "الأرجنتين تقع في أوروبا.",
+        "answer": "الأرجنتين تقع في أمريكا الجنوبية",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c09:005"
+        ]
+      },
+      {
+        "id": "b017p3_c09_006",
+        "question": "عاصمة المغرب هي الدار البيضاء.",
+        "answer": "عاصمة المغرب هي الرباط",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c09:006"
+        ]
+      },
+      {
+        "id": "b017p3_c09_007",
+        "question": "رمز الحديد الكيميائي Ir.",
+        "answer": "رمز الحديد الكيميائي Fe",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c09:007"
+        ]
+      },
+      {
+        "id": "b017p3_c09_008",
+        "question": "المحيط الهندي أكبر محيط في العالم.",
+        "answer": "المحيط الهادئ أكبر محيط في العالم",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c09:008"
+        ]
+      },
+      {
+        "id": "b017p3_c09_009",
+        "question": "كأس العالم 2014 أقيم في ألمانيا.",
+        "answer": "كأس العالم 2014 أقيم في البرازيل",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c09:009"
+        ]
+      },
+      {
+        "id": "b017p3_c09_010",
+        "question": "بحيرة بايكال تقع في كندا.",
+        "answer": "بحيرة بايكال تقع في روسيا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c09:010"
+        ]
+      },
+      {
+        "id": "b017p3_c09_011",
+        "question": "أول رئيس للولايات المتحدة كان أبراهام لينكولن.",
+        "answer": "أول رئيس للولايات المتحدة كان جورج واشنطن",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c09:011"
+        ]
+      },
+      {
+        "id": "b017p3_c09_012",
+        "question": "البرازيل لغتها الرسمية الإسبانية.",
+        "answer": "البرتغالية هي اللغة الرسمية في البرازيل",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c09:012"
+        ]
+      },
+      {
+        "id": "b017p3_c09_013",
+        "question": "معركة واترلو وقعت عام 1812.",
+        "answer": "معركة واترلو وقعت عام 1815",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c09:013"
+        ]
+      },
+      {
+        "id": "b017p3_c09_014",
+        "question": "سقطت القسطنطينية عام 1492.",
+        "answer": "سقطت القسطنطينية عام 1453",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c09:014"
+        ]
+      },
+      {
+        "id": "b017p3_c09_015",
+        "question": "فاز ميلان بدوري أبطال أوروبا 2005.",
+        "answer": "فاز ليفربول بدوري أبطال أوروبا 2005",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c09:015"
+        ]
+      },
+      {
+        "id": "b017p3_c09_016",
+        "question": "بحيرة فيكتوريا هي أعمق بحيرة في العالم.",
+        "answer": "بحيرة بايكال هي أعمق بحيرة في العالم",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c09:016"
+        ]
+      },
+      {
+        "id": "b017p3_c09_017",
+        "question": "فازت هولندا بكأس العالم 2010.",
+        "answer": "فازت إسبانيا بكأس العالم 2010",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c09:017"
+        ]
+      },
+      {
+        "id": "b017p3_c09_018",
+        "question": "الأكسجين هو الغاز الأكثر وفرة في الغلاف الجوي للأرض.",
+        "answer": "النيتروجين هو الغاز الأكثر وفرة في الغلاف الجوي للأرض",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c09:018"
+        ]
+      },
+      {
+        "id": "b017p3_c09_019",
+        "question": "عاصمة أستراليا هي سيدني.",
+        "answer": "عاصمة أستراليا هي كانبيرا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c09:019"
+        ]
+      },
+      {
+        "id": "b017p3_c09_020",
+        "question": "قناة السويس تصل البحر الأحمر بالمحيط الأطلسي مباشرة.",
+        "answer": "قناة السويس تصل البحر الأحمر بالبحر المتوسط",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c09:020"
+        ]
+      },
+      {
+        "id": "b017p3_c09_021",
+        "question": "الصحراء الكبرى تقع في آسيا.",
+        "answer": "الصحراء الكبرى تقع في أفريقيا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c09:021"
+        ]
+      },
+      {
+        "id": "b017p3_c09_022",
+        "question": "العدد الذري للكربون 8.",
+        "answer": "العدد الذري للكربون 6",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c09:022"
+        ]
+      },
+      {
+        "id": "b017p3_c09_023",
+        "question": "نهر الأمازون يصب في المحيط الهادئ.",
+        "answer": "نهر الأمازون يصب في المحيط الأطلسي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c09:023"
+        ]
+      },
+      {
+        "id": "b017p3_c09_024",
+        "question": "عاصمة منغوليا طشقند.",
+        "answer": "عاصمة منغوليا أولان باتور",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c09:024"
+        ]
+      },
+      {
+        "id": "b017p3_c09_025",
+        "question": "صلح وستفاليا أنهى حرب الخلافة الإسبانية.",
+        "answer": "صلح وستفاليا أنهى حرب الثلاثين عامًا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c09:025"
+        ]
+      },
+      {
+        "id": "b017p3_c09_026",
+        "question": "أسرة تشينغ سبقت أسرة مينغ مباشرة في حكم الصين.",
+        "answer": "أسرة مينغ سبقت أسرة تشينغ",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c09:026"
+        ]
+      },
+      {
+        "id": "b017p3_c09_027",
+        "question": "سرعة الضوء في الفراغ نحو 300 ألف متر في الثانية.",
+        "answer": "سرعة الضوء في الفراغ نحو 300 ألف كيلومتر في الثانية",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c09:027"
+        ]
+      },
+      {
+        "id": "b017p3_c09_028",
+        "question": "تاج محل يقع في نيودلهي.",
+        "answer": "تاج محل يقع في أغرة",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c09:028"
+        ]
+      },
+      {
+        "id": "b017p3_c09_029",
+        "question": "جبل كليمنجارو يقع في إثيوبيا.",
+        "answer": "جبل كليمنجارو يقع في تنزانيا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c09:029"
+        ]
+      },
+      {
+        "id": "b017p3_c09_030",
+        "question": "فاز بايرن ميونخ بنهائي دوري أبطال أوروبا 2012.",
+        "answer": "فاز تشيلسي بنهائي دوري أبطال أوروبا 2012",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c09:030"
+        ]
+      },
+      {
+        "id": "b017p3_c09_031",
+        "question": "معركة ترافالغار انتهت بانتصار الأسطول الفرنسي الإسباني.",
+        "answer": "انتهت ترافالغار بانتصار الأسطول البريطاني",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c09:031"
+        ]
+      },
+      {
+        "id": "b017p3_c09_032",
+        "question": "الذهب رمزه الكيميائي Ag.",
+        "answer": "رمز الذهب الكيميائي Au",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c09:032"
+        ]
+      },
+      {
+        "id": "b017p3_c09_033",
+        "question": "أفق الحدث هو مركز الشمس.",
+        "answer": "أفق الحدث حد مرتبط بالثقب الأسود لا يستطيع ما بعده الإفلات إلى الخارج",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c09:033"
+        ]
+      },
+      {
+        "id": "b017p3_c09_034",
+        "question": "نهر السين يمر في روما.",
+        "answer": "نهر السين يمر في باريس",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c09:034"
+        ]
+      },
+      {
+        "id": "b017p3_c09_035",
+        "question": "عاصمة سويسرا الرسمية المنصوص عليها دستوريًا هي زيورخ.",
+        "answer": "لا ينص الدستور السويسري على عاصمة رسمية؛ برن هي المدينة الفدرالية ومقر الحكومة",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c09:035"
+        ]
+      },
+      {
+        "id": "b017p3_c09_036",
+        "question": "المحيط المتجمد الشمالي هو أعمق محيط في العالم.",
+        "answer": "المحيط الهادئ هو أعمق محيط في العالم",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c09:036"
+        ]
+      }
+    ],
+    "قصص القرآن": [
+      {
+        "id": "b017p3_c10_001",
+        "question": "من النبي الذي بنى السفينة بأمر الله؟",
+        "answer": "نوح عليه السلام",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c10:001"
+        ]
+      },
+      {
+        "id": "b017p3_c10_002",
+        "question": "من النبي الذي ألقاه إخوته في الجب؟",
+        "answer": "يوسف عليه السلام",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c10:002"
+        ]
+      },
+      {
+        "id": "b017p3_c10_003",
+        "question": "من النبي الذي كلمه الله عند الطور؟",
+        "answer": "موسى عليه السلام",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c10:003"
+        ]
+      },
+      {
+        "id": "b017p3_c10_004",
+        "question": "من النبي الذي سخر الله له الريح؟",
+        "answer": "سليمان عليه السلام",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c10:004"
+        ]
+      },
+      {
+        "id": "b017p3_c10_005",
+        "question": "من النبي الذي آتاه الله الزبور؟",
+        "answer": "داود عليه السلام",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c10:005"
+        ]
+      },
+      {
+        "id": "b017p3_c10_006",
+        "question": "من النبي الذي أرسل إلى قوم عاد؟",
+        "answer": "هود عليه السلام",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c10:006"
+        ]
+      },
+      {
+        "id": "b017p3_c10_007",
+        "question": "من النبي الذي أرسل إلى ثمود؟",
+        "answer": "صالح عليه السلام",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c10:007"
+        ]
+      },
+      {
+        "id": "b017p3_c10_008",
+        "question": "من النبي الذي رفع القواعد من البيت مع إسماعيل؟",
+        "answer": "إبراهيم عليه السلام",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c10:008"
+        ]
+      },
+      {
+        "id": "b017p3_c10_009",
+        "question": "من النبي الذي نادى ربه في الظلمات وهو في بطن الحوت؟",
+        "answer": "يونس عليه السلام",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c10:009"
+        ]
+      },
+      {
+        "id": "b017p3_c10_010",
+        "question": "من الذي بنى الردم بين القوم ويأجوج ومأجوج؟",
+        "answer": "ذو القرنين",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c10:010"
+        ]
+      },
+      {
+        "id": "b017p3_c10_011",
+        "question": "ما الطائر الذي جاء سليمان بخبر سبأ؟",
+        "answer": "الهدهد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c10:011"
+        ]
+      },
+      {
+        "id": "b017p3_c10_012",
+        "question": "ما الحيوان الذي حذر قومه من جنود سليمان؟",
+        "answer": "النملة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c10:012"
+        ]
+      },
+      {
+        "id": "b017p3_c10_013",
+        "question": "من الذي قتل جالوت كما ورد في القرآن؟",
+        "answer": "داود عليه السلام",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c10:013"
+        ]
+      },
+      {
+        "id": "b017p3_c10_014",
+        "question": "من الذي كفل مريم عليها السلام؟",
+        "answer": "زكريا عليه السلام",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c10:014"
+        ]
+      },
+      {
+        "id": "b017p3_c10_015",
+        "question": "ما الطعام الذي أنزله الله على بني إسرائيل وذُكر مع السلوى؟",
+        "answer": "المن",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c10:015"
+        ]
+      },
+      {
+        "id": "b017p3_c10_016",
+        "question": "كم عينًا انفجرت من الحجر لبني إسرائيل عندما ضربه موسى بعصاه؟",
+        "answer": "اثنتا عشرة عينًا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c10:016"
+        ]
+      },
+      {
+        "id": "b017p3_c10_017",
+        "question": "ما الحيوان الذي أمر بنو إسرائيل بذبحه في القصة التي سميت بها سورة؟",
+        "answer": "البقرة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c10:017"
+        ]
+      },
+      {
+        "id": "b017p3_c10_018",
+        "question": "من الذي صنع العجل لبني إسرائيل في غياب موسى؟",
+        "answer": "السامري",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c10:018"
+        ]
+      },
+      {
+        "id": "b017p3_c10_019",
+        "question": "ما أول فعل استنكره موسى على العبد الصالح في سورة الكهف؟",
+        "answer": "خرق السفينة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c10:019"
+        ]
+      },
+      {
+        "id": "b017p3_c10_020",
+        "question": "لماذا خرق العبد الصالح السفينة؟",
+        "answer": "لأن وراءهم ملكًا يأخذ كل سفينة صالحة غصبًا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c10:020"
+        ]
+      },
+      {
+        "id": "b017p3_c10_021",
+        "question": "لماذا أقام العبد الصالح الجدار دون أجر؟",
+        "answer": "كان تحته كنز لغلامين يتيمين وكان أبوهما صالحًا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c10:021"
+        ]
+      },
+      {
+        "id": "b017p3_c10_022",
+        "question": "ماذا طلب ذو القرنين من القوم لإقامة الردم؟",
+        "answer": "زبر الحديد",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c10:022"
+        ]
+      },
+      {
+        "id": "b017p3_c10_023",
+        "question": "ماذا أفرغ ذو القرنين على الحديد بعد إحمائه؟",
+        "answer": "قطرًا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c10:023"
+        ]
+      },
+      {
+        "id": "b017p3_c10_024",
+        "question": "في أي سورة وردت قصة أصحاب الجنة الذين أقسموا ليصرمنها مصبحين؟",
+        "answer": "سورة القلم",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c10:024"
+        ]
+      },
+      {
+        "id": "b017p3_c10_025",
+        "question": "ماذا حدث لقارون وبداره بسبب بغيه؟",
+        "answer": "خسف الله به وبداره الأرض",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c10:025"
+        ]
+      },
+      {
+        "id": "b017p3_c10_026",
+        "question": "ماذا طلب بنو إسرائيل من موسى بعد مرورهم على قوم يعكفون على أصنام لهم؟",
+        "answer": "أن يجعل لهم إلهًا كما لهم آلهة",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c10:026"
+        ]
+      },
+      {
+        "id": "b017p3_c10_027",
+        "question": "في أي سورة وردت قصة أصحاب الكهف؟",
+        "answer": "سورة الكهف",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c10:027"
+        ]
+      },
+      {
+        "id": "b017p3_c10_028",
+        "question": "ما الشيء الذي ألقاه موسى فتحول إلى حية تسعى؟",
+        "answer": "عصاه",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c10:028"
+        ]
+      },
+      {
+        "id": "b017p3_c10_029",
+        "question": "من المرأة التي قالت: رب إني نذرت لك ما في بطني محررًا؟",
+        "answer": "امرأة عمران",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c10:029"
+        ]
+      },
+      {
+        "id": "b017p3_c10_030",
+        "question": "ما اسم الملك الذي طلب منه يوسف أن يجعله على خزائن الأرض؟",
+        "answer": "ملك مصر؛ والقرآن لا يذكر اسمه",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c10:030"
+        ]
+      },
+      {
+        "id": "b017p3_c10_031",
+        "question": "ما الذي رأى يوسف في رؤياه وهو صغير وسجد له؟",
+        "answer": "أحد عشر كوكبًا والشمس والقمر",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c10:031"
+        ]
+      },
+      {
+        "id": "b017p3_c10_032",
+        "question": "ما الذي وضعه يوسف في رحل أخيه لتبدأ واقعة احتجازه؟",
+        "answer": "سقاية الملك",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c10:032"
+        ]
+      },
+      {
+        "id": "b017p3_c10_033",
+        "question": "ما الشيء الذي ألقي على وجه يعقوب فارتد بصيرًا؟",
+        "answer": "قميص يوسف",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c10:033"
+        ]
+      },
+      {
+        "id": "b017p3_c10_034",
+        "question": "بماذا أمر الله أم موسى عندما خافت عليه؟",
+        "answer": "أن ترضعه ثم تلقيه في اليم إذا خافت عليه",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c10:034"
+        ]
+      },
+      {
+        "id": "b017p3_c10_035",
+        "question": "من الذي التقط موسى من النهر بحسب التعبير القرآني؟",
+        "answer": "آل فرعون",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c10:035"
+        ]
+      },
+      {
+        "id": "b017p3_c10_036",
+        "question": "ما الشجرة التي نودي موسى من جانبها في الوادي المبارك؟",
+        "answer": "شجرة؛ لم يسم القرآن نوعها",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c10:036"
+        ]
+      }
+    ],
+    "معارك وحروب": [
+      {
+        "id": "b017p3_c11_001",
+        "question": "ما المعركة التي هُزم فيها نابليون نهائيًا سنة 1815؟",
+        "answer": "واترلو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c11:001"
+        ]
+      },
+      {
+        "id": "b017p3_c11_002",
+        "question": "ما المعركة التي انتصر فيها ويليام الفاتح سنة 1066؟",
+        "answer": "هاستنغز",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c11:002"
+        ]
+      },
+      {
+        "id": "b017p3_c11_003",
+        "question": "ما المعركة البحرية الكبرى بين الولايات المتحدة واليابان عام 1942 التي شكلت نقطة تحول في الهادئ؟",
+        "answer": "ميدواي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c11:003"
+        ]
+      },
+      {
+        "id": "b017p3_c11_004",
+        "question": "ما المعركة التي انتهت أوائل 1943 وشكلت نقطة تحول على الجبهة الشرقية؟",
+        "answer": "ستالينغراد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c11:004"
+        ]
+      },
+      {
+        "id": "b017p3_c11_005",
+        "question": "ما اسم إنزال الحلفاء في نورماندي عام 1944؟",
+        "answer": "عملية أوفرلورد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c11:005"
+        ]
+      },
+      {
+        "id": "b017p3_c11_006",
+        "question": "ما المعركة التي انتصر فيها نلسون على الأسطولين الفرنسي والإسباني سنة 1805؟",
+        "answer": "ترافالغار",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c11:006"
+        ]
+      },
+      {
+        "id": "b017p3_c11_007",
+        "question": "ما المعركة التي انتصر فيها صلاح الدين على الصليبيين سنة 1187؟",
+        "answer": "حطين",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c11:007"
+        ]
+      },
+      {
+        "id": "b017p3_c11_008",
+        "question": "ما المعركة التي أوقفت التقدم المغولي في بلاد الشام سنة 1260؟",
+        "answer": "عين جالوت",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c11:008"
+        ]
+      },
+      {
+        "id": "b017p3_c11_009",
+        "question": "ما المعركة التي انتصر فيها السلاجقة على البيزنطيين سنة 1071؟",
+        "answer": "ملاذكرد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c11:009"
+        ]
+      },
+      {
+        "id": "b017p3_c11_010",
+        "question": "ما المعركة التي انتصر فيها حنبعل على الرومان سنة 216 ق.م؟",
+        "answer": "كاناي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c11:010"
+        ]
+      },
+      {
+        "id": "b017p3_c11_011",
+        "question": "ما المعركة التي هزم فيها الرومان حنبعل نهائيًا سنة 202 ق.م؟",
+        "answer": "زاما",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c11:011"
+        ]
+      },
+      {
+        "id": "b017p3_c11_012",
+        "question": "ما المعركة التي حسم فيها الإسكندر الأكبر صراعه مع داريوس الثالث سنة 331 ق.م؟",
+        "answer": "غوغميلا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c11:012"
+        ]
+      },
+      {
+        "id": "b017p3_c11_013",
+        "question": "ما المعركة التي انتصر فيها الإنجليز على الفرنسيين عام 1415 خلال حرب المئة عام؟",
+        "answer": "أجينكور",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c11:013"
+        ]
+      },
+      {
+        "id": "b017p3_c11_014",
+        "question": "ما المعركة التي هزمت فيها روسيا السويد سنة 1709 وغيرت مسار حرب الشمال العظمى؟",
+        "answer": "بولتافا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c11:014"
+        ]
+      },
+      {
+        "id": "b017p3_c11_015",
+        "question": "ما المعركة البحرية التي دمر فيها اليابانيون معظم الأسطول الروسي عام 1905؟",
+        "answer": "تسوشيما",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c11:015"
+        ]
+      },
+      {
+        "id": "b017p3_c11_016",
+        "question": "ما المعركة التي تعد من أطول معارك الحرب العالمية الأولى ووقعت سنة 1916؟",
+        "answer": "فردان",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c11:016"
+        ]
+      },
+      {
+        "id": "b017p3_c11_017",
+        "question": "ما معركة 1916 التي شهدت أول استخدام للدبابات في القتال على نطاق محدود؟",
+        "answer": "السوم",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c11:017"
+        ]
+      },
+      {
+        "id": "b017p3_c11_018",
+        "question": "ما الهجوم الألماني الكبير في الأردين أواخر 1944؟",
+        "answer": "معركة الثغرة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c11:018"
+        ]
+      },
+      {
+        "id": "b017p3_c11_019",
+        "question": "ما المعركة التي دارت على جزيرة إيو جيما عام 1945؟",
+        "answer": "إيو جيما",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c11:019"
+        ]
+      },
+      {
+        "id": "b017p3_c11_020",
+        "question": "ما المعركة الكبرى التي دارت في أوكيناوا عام 1945؟",
+        "answer": "أوكيناوا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c11:020"
+        ]
+      },
+      {
+        "id": "b017p3_c11_021",
+        "question": "ما المعركة التي انتصر فيها العثمانيون على الصفويين سنة 1514؟",
+        "answer": "جالديران",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c11:021"
+        ]
+      },
+      {
+        "id": "b017p3_c11_022",
+        "question": "ما المعركة التي هزم فيها العثمانيون المماليك قرب حلب سنة 1516؟",
+        "answer": "مرج دابق",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c11:022"
+        ]
+      },
+      {
+        "id": "b017p3_c11_023",
+        "question": "ما المعركة التي أنهت حكم المماليك في مصر سنة 1517؟",
+        "answer": "الريدانية",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c11:023"
+        ]
+      },
+      {
+        "id": "b017p3_c11_024",
+        "question": "ما المعركة البحرية التي هُزم فيها الأسطول العثماني أمام العصبة المقدسة سنة 1571؟",
+        "answer": "ليبانتو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c11:024"
+        ]
+      },
+      {
+        "id": "b017p3_c11_025",
+        "question": "ما المعركة التي هزم فيها أوكتافيان أسطول أنطونيوس وكليوباترا سنة 31 ق.م؟",
+        "answer": "أكتيوم",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c11:025"
+        ]
+      },
+      {
+        "id": "b017p3_c11_026",
+        "question": "ما المعركة التي هزم فيها الإسكندر الأكبر داريوس الثالث سنة 333 ق.م؟",
+        "answer": "إيسوس",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c11:026"
+        ]
+      },
+      {
+        "id": "b017p3_c11_027",
+        "question": "ما المعركة التي أوقفت الحصار العثماني الثاني لفيينا عام 1683؟",
+        "answer": "معركة فيينا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c11:027"
+        ]
+      },
+      {
+        "id": "b017p3_c11_028",
+        "question": "ما المعركة التي وقعت سنة 732 بين قوات شارل مارتل وجيش أموي في بلاد الفرنجة؟",
+        "answer": "بواتييه",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c11:028"
+        ]
+      },
+      {
+        "id": "b017p3_c11_029",
+        "question": "ما المعركة التي هزم فيها المغول قوات أوروبية في بولندا سنة 1241؟",
+        "answer": "ليغنيتسا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c11:029"
+        ]
+      },
+      {
+        "id": "b017p3_c11_030",
+        "question": "ما المعركة التي خاضها نابليون ضد الروس سنة 1812 قبل دخوله موسكو؟",
+        "answer": "بورودينو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c11:030"
+        ]
+      },
+      {
+        "id": "b017p3_c11_031",
+        "question": "ما المعركة البحرية التي لحقت فيها هزيمة كبيرة بالأرمادا الإسبانية قرب الساحل الفلمنكي عام 1588؟",
+        "answer": "غرافلين",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c11:031"
+        ]
+      },
+      {
+        "id": "b017p3_c11_032",
+        "question": "ما المعركة التي انتصر فيها جيش بريطانيا بقيادة ويلينغتون وحلفائه على نابليون؟",
+        "answer": "واترلو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c11:032"
+        ]
+      },
+      {
+        "id": "b017p3_c11_033",
+        "question": "ما معركة شمال أفريقيا التي انتصر فيها الحلفاء بقيادة مونتغمري عام 1942؟",
+        "answer": "العلمين الثانية",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c11:033"
+        ]
+      },
+      {
+        "id": "b017p3_c11_034",
+        "question": "ما المعركة التي انتهت بهزيمة الجيش الفرنسي أمام البروسيين وأسر نابليون الثالث سنة 1870؟",
+        "answer": "سيدان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c11:034"
+        ]
+      },
+      {
+        "id": "b017p3_c11_035",
+        "question": "ما المعركة التي حسمت حرب الاستقلال الأمريكية عمليًا باستسلام كورنواليس سنة 1781؟",
+        "answer": "يوركتاون",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c11:035"
+        ]
+      },
+      {
+        "id": "b017p3_c11_036",
+        "question": "ما المعركة التي هُزم فيها الرومان بقيادة فاروس أمام القبائل الجرمانية سنة 9م؟",
+        "answer": "غابة تويتوبورغ",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c11:036"
+        ]
+      }
+    ],
+    "معلومات عامة": [
+      {
+        "id": "b017p3_c12_001",
+        "question": "كم عدد كواكب المجموعة الشمسية؟",
+        "answer": "8",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c12:001"
+        ]
+      },
+      {
+        "id": "b017p3_c12_002",
+        "question": "ما رمز الذهب الكيميائي؟",
+        "answer": "Au",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c12:002"
+        ]
+      },
+      {
+        "id": "b017p3_c12_003",
+        "question": "ما الكوكب المعروف بالكوكب الأحمر؟",
+        "answer": "المريخ",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c12:003"
+        ]
+      },
+      {
+        "id": "b017p3_c12_004",
+        "question": "ما وحدة قياس القوة في النظام الدولي؟",
+        "answer": "النيوتن",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c12:004"
+        ]
+      },
+      {
+        "id": "b017p3_c12_005",
+        "question": "ما العنصر الأكثر وفرة في الكون؟",
+        "answer": "الهيدروجين",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c12:005"
+        ]
+      },
+      {
+        "id": "b017p3_c12_006",
+        "question": "ما أقرب نجم إلى الأرض؟",
+        "answer": "الشمس",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c12:006"
+        ]
+      },
+      {
+        "id": "b017p3_c12_007",
+        "question": "كم ضلعًا للمثمن؟",
+        "answer": "8",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c12:007"
+        ]
+      },
+      {
+        "id": "b017p3_c12_008",
+        "question": "ما اللغة الرسمية في البرازيل؟",
+        "answer": "البرتغالية",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c12:008"
+        ]
+      },
+      {
+        "id": "b017p3_c12_009",
+        "question": "من كتب رواية البؤساء؟",
+        "answer": "فيكتور هوغو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c12:009"
+        ]
+      },
+      {
+        "id": "b017p3_c12_010",
+        "question": "ما العضو الأكبر في جسم الإنسان؟",
+        "answer": "الجلد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c12:010"
+        ]
+      },
+      {
+        "id": "b017p3_c12_011",
+        "question": "ما وحدة قياس التردد؟",
+        "answer": "الهرتز",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c12:011"
+        ]
+      },
+      {
+        "id": "b017p3_c12_012",
+        "question": "ما اسم مجرتنا؟",
+        "answer": "درب التبانة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c12:012"
+        ]
+      },
+      {
+        "id": "b017p3_c12_013",
+        "question": "ما الوحدة الأساسية لدرجة الحرارة في النظام الدولي؟",
+        "answer": "الكلفن",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c12:013"
+        ]
+      },
+      {
+        "id": "b017p3_c12_014",
+        "question": "ما أطول عظمة في جسم الإنسان؟",
+        "answer": "عظم الفخذ",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c12:014"
+        ]
+      },
+      {
+        "id": "b017p3_c12_015",
+        "question": "ما العدد الذري للأكسجين؟",
+        "answer": "8",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c12:015"
+        ]
+      },
+      {
+        "id": "b017p3_c12_016",
+        "question": "ما العلم الذي يدرس الزلازل؟",
+        "answer": "علم الزلازل",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c12:016"
+        ]
+      },
+      {
+        "id": "b017p3_c12_017",
+        "question": "ما الوحدة الدولية للمقاومة الكهربائية؟",
+        "answer": "الأوم",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c12:017"
+        ]
+      },
+      {
+        "id": "b017p3_c12_018",
+        "question": "ما الوحدة الدولية للقدرة؟",
+        "answer": "الواط",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c12:018"
+        ]
+      },
+      {
+        "id": "b017p3_c12_019",
+        "question": "ما الجسيم ذو الشحنة السالبة؟",
+        "answer": "الإلكترون",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c12:019"
+        ]
+      },
+      {
+        "id": "b017p3_c12_020",
+        "question": "ما الصبغة الخضراء الأساسية في النباتات؟",
+        "answer": "الكلوروفيل",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c12:020"
+        ]
+      },
+      {
+        "id": "b017p3_c12_021",
+        "question": "من مؤلف رواية 1984؟",
+        "answer": "جورج أورويل",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c12:021"
+        ]
+      },
+      {
+        "id": "b017p3_c12_022",
+        "question": "ما العملية التي يتحول فيها السائل إلى غاز من سطحه؟",
+        "answer": "التبخر",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c12:022"
+        ]
+      },
+      {
+        "id": "b017p3_c12_023",
+        "question": "ما العضية المعروفة بمحطة طاقة الخلية؟",
+        "answer": "الميتوكوندريا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c12:023"
+        ]
+      },
+      {
+        "id": "b017p3_c12_024",
+        "question": "من وضع النظرية النسبية الخاصة؟",
+        "answer": "ألبرت أينشتاين",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c12:024"
+        ]
+      },
+      {
+        "id": "b017p3_c12_025",
+        "question": "ما التحول المباشر من الغاز إلى الصلب؟",
+        "answer": "الترسيب",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c12:025"
+        ]
+      },
+      {
+        "id": "b017p3_c12_026",
+        "question": "ما الرابطة الكيميائية الناتجة عن مشاركة أزواج إلكترونية؟",
+        "answer": "الرابطة التساهمية",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c12:026"
+        ]
+      },
+      {
+        "id": "b017p3_c12_027",
+        "question": "أي نوع من RNA ينقل الشفرة الوراثية من DNA إلى الريبوسوم؟",
+        "answer": "الرنا المرسال mRNA",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c12:027"
+        ]
+      },
+      {
+        "id": "b017p3_c12_028",
+        "question": "ما الحد المحيط بالثقب الأسود الذي لا يمكن بعد تجاوزه الإفلات إلى الخارج؟",
+        "answer": "أفق الحدث",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c12:028"
+        ]
+      },
+      {
+        "id": "b017p3_c12_029",
+        "question": "من صاغ مبدأ عدم اليقين في ميكانيكا الكم؟",
+        "answer": "فيرنر هايزنبرغ",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c12:029"
+        ]
+      },
+      {
+        "id": "b017p3_c12_030",
+        "question": "ما الثابت الذي يرمز له عادة بالحرف c في الفيزياء؟",
+        "answer": "سرعة الضوء في الفراغ",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c12:030"
+        ]
+      },
+      {
+        "id": "b017p3_c12_031",
+        "question": "ما المبرهنة الشهيرة التي أثبتها أندرو وايلز في التسعينيات؟",
+        "answer": "مبرهنة فيرما الأخيرة",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c12:031"
+        ]
+      },
+      {
+        "id": "b017p3_c12_032",
+        "question": "ما اسم الجسيم الحامل للقوة الكهرومغناطيسية في النموذج القياسي؟",
+        "answer": "الفوتون",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c12:032"
+        ]
+      },
+      {
+        "id": "b017p3_c12_033",
+        "question": "ما اسم المقياس اللوغاريتمي المستخدم للتعبير عن حموضة المحاليل؟",
+        "answer": "pH",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c12:033"
+        ]
+      },
+      {
+        "id": "b017p3_c12_034",
+        "question": "ما العنصر الذي عدده الذري 74 ورمزه W؟",
+        "answer": "التنغستن",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c12:034"
+        ]
+      },
+      {
+        "id": "b017p3_c12_035",
+        "question": "ما اسم أكبر أقمار زحل؟",
+        "answer": "تيتان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c12:035"
+        ]
+      },
+      {
+        "id": "b017p3_c12_036",
+        "question": "ما اسم النقطة في مدار كوكب حول الشمس التي يكون عندها أقرب إلى الشمس؟",
+        "answer": "الحضيض الشمسي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b017p3:c12:036"
+        ]
+      }
+    ]
+  }
+}
