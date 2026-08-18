@@ -1,0 +1,1663 @@
+{
+  "version": "14.0-stock-recovery-batch-014",
+  "new_questions": 150,
+  "quality_policy": "150 curated stock-recovery questions; only three depleted categories; semantic no-repeat metadata; no category image changes",
+  "categories": {
+    "من هو اللاعب": [
+      {
+        "id": "b014_who_001",
+        "question": "من هو اللاعب الذي فاز بالكرة الذهبية عام 1995 وكان أول إفريقي يحقق الجائزة؟",
+        "answer": "جورج وياه",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b014:who:001"
+        ]
+      },
+      {
+        "id": "b014_who_002",
+        "question": "من هو اللاعب الذي سجل هدف الفوز لفرنسا في نهائي يورو 2000 بالهدف الذهبي؟",
+        "answer": "دافيد تريزيغيه",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b014:who:002"
+        ]
+      },
+      {
+        "id": "b014_who_003",
+        "question": "من هو اللاعب الذي سجل هدف مانشستر يونايتد من منتصف الملعب تقريبًا أمام ويمبلدون عام 1996؟",
+        "answer": "ديفيد بيكهام",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b014:who:003"
+        ]
+      },
+      {
+        "id": "b014_who_004",
+        "question": "من هو اللاعب الذي قاد تشيلسي كقائد للفوز بدوري أبطال أوروبا 2012؟",
+        "answer": "فرانك لامبارد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b014:who:004"
+        ]
+      },
+      {
+        "id": "b014_who_005",
+        "question": "من هو اللاعب الذي سجل هدف ريال مدريد الشهير بتسديدة طائرة في نهائي دوري الأبطال 2002؟",
+        "answer": "زين الدين زيدان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b014:who:005"
+        ]
+      },
+      {
+        "id": "b014_who_006",
+        "question": "من هو اللاعب الذي سجل هدف الفوز لبرشلونة في نهائي دوري الأبطال 2006 أمام آرسنال؟",
+        "answer": "جوليانو بيليتي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b014:who:006"
+        ]
+      },
+      {
+        "id": "b014_who_007",
+        "question": "من هو اللاعب الذي سجل هدف ليفربول الرابع من الركنية السريعة أمام برشلونة في نصف نهائي دوري الأبطال 2019؟",
+        "answer": "ديفوك أوريغي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b014:who:007"
+        ]
+      },
+      {
+        "id": "b014_who_008",
+        "question": "من هو اللاعب الذي فاز بالحذاء الذهبي في كأس العالم 1998؟",
+        "answer": "دافور شوكر",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b014:who:008"
+        ]
+      },
+      {
+        "id": "b014_who_009",
+        "question": "من هو اللاعب الذي سجل هدف ألمانيا في نهائي كأس العالم 1990 من ركلة جزاء؟",
+        "answer": "أندرياس بريمه",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b014:who:009"
+        ]
+      },
+      {
+        "id": "b014_who_010",
+        "question": "من هو اللاعب الذي سجل هدف البرازيل الأول في نهائي كأس العالم 2002؟",
+        "answer": "رونالدو نازاريو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b014:who:010"
+        ]
+      },
+      {
+        "id": "b014_who_011",
+        "question": "من هو اللاعب الذي سجل هدف إيطاليا في نهائي كأس العالم 2006؟",
+        "answer": "ماركو ماتيراتزي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b014:who:011"
+        ]
+      },
+      {
+        "id": "b014_who_012",
+        "question": "من هو اللاعب الذي سجل هدف هولندا الشهير بالرأس أمام إسبانيا في كأس العالم 2014؟",
+        "answer": "روبن فان بيرسي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b014:who:012"
+        ]
+      },
+      {
+        "id": "b014_who_013",
+        "question": "من هو اللاعب الذي سجل هدف البرتغال في نهائي يورو 2016؟",
+        "answer": "إيدير",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b014:who:013"
+        ]
+      },
+      {
+        "id": "b014_who_014",
+        "question": "من هو اللاعب الذي سجل هدف إنجلترا في نهائي يورو 2020؟",
+        "answer": "لوك شو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b014:who:014"
+        ]
+      },
+      {
+        "id": "b014_who_015",
+        "question": "من هو اللاعب الذي سجل هدف مانشستر يونايتد في نهائي دوري الأبطال 2008؟",
+        "answer": "كريستيانو رونالدو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b014:who:015"
+        ]
+      },
+      {
+        "id": "b014_who_016",
+        "question": "من هو اللاعب الذي سجل هدف بايرن ميونخ الوحيد في نهائي دوري الأبطال 1999؟",
+        "answer": "ماريو باسلر",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b014:who:016"
+        ]
+      },
+      {
+        "id": "b014_who_017",
+        "question": "من هو اللاعب الذي سجل هدف الفوز لمانشستر سيتي في نهائي دوري الأبطال 2023؟",
+        "answer": "رودري",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b014:who:017"
+        ]
+      },
+      {
+        "id": "b014_who_018",
+        "question": "من هو اللاعب الذي سجل الهدف الذهبي لفرنسا أمام باراغواي في دور الـ16 لكأس العالم 1998؟",
+        "answer": "لوران بلان",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:who:018"
+        ]
+      },
+      {
+        "id": "b014_who_019",
+        "question": "من هو اللاعب الذي سجل أول هدف في نهائي كأس العالم 2018 بالخطأ في مرماه؟",
+        "answer": "ماريو ماندزوكيتش",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:who:019"
+        ]
+      },
+      {
+        "id": "b014_who_020",
+        "question": "من هو اللاعب الذي سجل هدف كرواتيا في الوقت الإضافي أمام إنجلترا بنصف نهائي كأس العالم 2018؟",
+        "answer": "ماريو ماندزوكيتش",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:who:020"
+        ]
+      },
+      {
+        "id": "b014_who_021",
+        "question": "من هو اللاعب الذي سجل هدف الأرجنتين الثاني في نهائي كأس العالم 1986؟",
+        "answer": "خورخي فالدانو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:who:021"
+        ]
+      },
+      {
+        "id": "b014_who_022",
+        "question": "من هو اللاعب الذي سجل هدف ألمانيا الغربية الأول في نهائي كأس العالم 1974؟",
+        "answer": "بول برايتنر",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:who:022"
+        ]
+      },
+      {
+        "id": "b014_who_023",
+        "question": "من هو اللاعب الذي سجل هدف الفوز لإيطاليا أمام ألمانيا في نصف نهائي كأس العالم 2006 قبل هدف ديل بييرو؟",
+        "answer": "فابيو غروسو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:who:023"
+        ]
+      },
+      {
+        "id": "b014_who_024",
+        "question": "من هو اللاعب الذي سجل هدف فرنسا الوحيد أمام البرازيل في ربع نهائي كأس العالم 2006؟",
+        "answer": "تييري هنري",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:who:024"
+        ]
+      },
+      {
+        "id": "b014_who_025",
+        "question": "من هو اللاعب الذي نفذ ركلة الترجيح الحاسمة لأوروغواي أمام غانا في ربع نهائي كأس العالم 2010؟",
+        "answer": "سيباستيان أبرو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:who:025"
+        ]
+      },
+      {
+        "id": "b014_who_026",
+        "question": "من هو اللاعب الذي سجل هدف تشيلسي الأول في نهائي دوري الأبطال 2021؟",
+        "answer": "كاي هافرتز",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:who:026"
+        ]
+      },
+      {
+        "id": "b014_who_027",
+        "question": "من هو اللاعب الذي سجل هدف إنتر الأول في نهائي دوري الأبطال 2010؟",
+        "answer": "دييغو ميليتو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:who:027"
+        ]
+      },
+      {
+        "id": "b014_who_028",
+        "question": "من هو اللاعب الذي سجل هدف برشلونة الأول في نهائي دوري الأبطال 2011؟",
+        "answer": "بيدرو رودريغيز",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:who:028"
+        ]
+      },
+      {
+        "id": "b014_who_029",
+        "question": "من هو اللاعب الذي سجل هدف يوفنتوس في نهائي دوري الأبطال 2015؟",
+        "answer": "ألفارو موراتا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:who:029"
+        ]
+      },
+      {
+        "id": "b014_who_030",
+        "question": "من هو اللاعب الذي سجل هدف ليفربول الأول في نهائي دوري الأبطال 2019؟",
+        "answer": "محمد صلاح",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:who:030"
+        ]
+      },
+      {
+        "id": "b014_who_031",
+        "question": "من هو اللاعب الذي سجل هدف ريال مدريد الأول في نهائي دوري الأبطال 2017؟",
+        "answer": "كريستيانو رونالدو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:who:031"
+        ]
+      },
+      {
+        "id": "b014_who_032",
+        "question": "من هو اللاعب الذي سجل هدف التعادل لريال مدريد في نهائي دوري الأبطال 2014؟",
+        "answer": "سيرخيو راموس",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:who:032"
+        ]
+      },
+      {
+        "id": "b014_who_033",
+        "question": "من هو اللاعب الذي سجل هدف أتلتيكو مدريد في نهائي دوري الأبطال 2016؟",
+        "answer": "يانيك كاراسكو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:who:033"
+        ]
+      },
+      {
+        "id": "b014_who_034",
+        "question": "من هو اللاعب الذي سجل هدف التعادل لبايرن ميونخ في نهائي دوري الأبطال 2012؟",
+        "answer": "توماس مولر",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:who:034"
+        ]
+      },
+      {
+        "id": "b014_who_035",
+        "question": "من هو اللاعب الذي سجل أول هدف في تاريخ نهائيات كأس العالم عام 1930؟",
+        "answer": "لوسيان لوران",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:who:035"
+        ]
+      },
+      {
+        "id": "b014_who_036",
+        "question": "من هو اللاعب الذي سجل أول هاتريك في تاريخ كأس العالم؟",
+        "answer": "بيرت باتينود",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:who:036"
+        ]
+      },
+      {
+        "id": "b014_who_037",
+        "question": "من هو اللاعب الذي سجل هدف أوروغواي الرابع في نهائي كأس العالم 1930؟",
+        "answer": "هيكتور كاسترو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:who:037"
+        ]
+      },
+      {
+        "id": "b014_who_038",
+        "question": "من هو اللاعب الذي سجل هدف الفوز لإيطاليا في نهائي كأس العالم 1934 في الوقت الإضافي؟",
+        "answer": "أنجيلو سكيافيو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:who:038"
+        ]
+      },
+      {
+        "id": "b014_who_039",
+        "question": "من هو اللاعب الذي سجل هدف الفوز لأوروغواي في نهائي كأس العالم 1950 أمام البرازيل؟",
+        "answer": "ألسيدس غيغيا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:who:039"
+        ]
+      },
+      {
+        "id": "b014_who_040",
+        "question": "من هو اللاعب الذي سجل هدف ألمانيا الغربية الثالث في نهائي كأس العالم 1954؟",
+        "answer": "هيلموت ران",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:who:040"
+        ]
+      },
+      {
+        "id": "b014_who_041",
+        "question": "من هو اللاعب الذي سجل أول هدف للبرازيل في نهائي كأس العالم 1958؟",
+        "answer": "فافا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:who:041"
+        ]
+      },
+      {
+        "id": "b014_who_042",
+        "question": "من هو اللاعب الذي سجل هدف الفوز لإنجلترا في الوقت الإضافي بنهائي كأس العالم 1966 قبل الهدف الرابع؟",
+        "answer": "جيف هيرست",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:who:042"
+        ]
+      },
+      {
+        "id": "b014_who_043",
+        "question": "من هو اللاعب الذي سجل هدف إيطاليا الوحيد في نهائي كأس العالم 1970؟",
+        "answer": "روبرتو بونينسيغنا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:who:043"
+        ]
+      },
+      {
+        "id": "b014_who_044",
+        "question": "من هو اللاعب الذي سجل هدف هولندا في نهائي كأس العالم 1974؟",
+        "answer": "يوهان نيسكينز",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:who:044"
+        ]
+      },
+      {
+        "id": "b014_who_045",
+        "question": "من هو اللاعب الذي سجل الهدف الثالث للأرجنتين في نهائي كأس العالم 1978؟",
+        "answer": "دانييل بيرتوني",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:who:045"
+        ]
+      },
+      {
+        "id": "b014_who_046",
+        "question": "من هو اللاعب الذي سجل الهدف الأول لإيطاليا في نهائي كأس العالم 1982؟",
+        "answer": "باولو روسي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:who:046"
+        ]
+      },
+      {
+        "id": "b014_who_047",
+        "question": "من هو اللاعب الذي سجل هدف ألمانيا الغربية الثاني في نهائي كأس العالم 1986؟",
+        "answer": "رودي فولر",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:who:047"
+        ]
+      },
+      {
+        "id": "b014_who_048",
+        "question": "من هو اللاعب الذي سجل ركلة البرازيل الرابعة والأخيرة في ركلات ترجيح نهائي كأس العالم 1994؟",
+        "answer": "دونغا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:who:048"
+        ]
+      },
+      {
+        "id": "b014_who_049",
+        "question": "من هو اللاعب الذي سجل هدف فرنسا الثالث في نهائي كأس العالم 1998؟",
+        "answer": "إيمانويل بيتي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:who:049"
+        ]
+      },
+      {
+        "id": "b014_who_050",
+        "question": "من هو اللاعب الذي صنع هدف إنييستا في نهائي كأس العالم 2010 بالتمريرة الأخيرة؟",
+        "answer": "سيسك فابريغاس",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:who:050"
+        ]
+      }
+    ],
+    "الدوري الإنجليزي": [
+      {
+        "id": "b014_epl_001",
+        "question": "من صاحب الرقم القياسي لأكثر أهداف في تاريخ الدوري الإنجليزي الممتاز؟",
+        "answer": "آلان شيرر",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b014:epl:001"
+        ]
+      },
+      {
+        "id": "b014_epl_002",
+        "question": "من صاحب الرقم القياسي لأكثر تمريرات حاسمة في تاريخ الدوري الإنجليزي الممتاز؟",
+        "answer": "رايان غيغز",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b014:epl:002"
+        ]
+      },
+      {
+        "id": "b014_epl_003",
+        "question": "من صاحب الرقم القياسي لأكثر هاتريك في الدوري الإنجليزي الممتاز؟",
+        "answer": "سيرخيو أغويرو",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b014:epl:003"
+        ]
+      },
+      {
+        "id": "b014_epl_004",
+        "question": "أي فريق حقق 100 نقطة في موسم 2017–18؟",
+        "answer": "مانشستر سيتي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b014:epl:004"
+        ]
+      },
+      {
+        "id": "b014_epl_005",
+        "question": "أي لاعب سجل 36 هدفًا في موسم 2022–23 محققًا رقمًا قياسيًا لموسم واحد؟",
+        "answer": "إيرلينغ هالاند",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b014:epl:005"
+        ]
+      },
+      {
+        "id": "b014_epl_006",
+        "question": "من سجل أسرع هاتريك في تاريخ الدوري الإنجليزي الممتاز؟",
+        "answer": "ساديو ماني",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b014:epl:006"
+        ]
+      },
+      {
+        "id": "b014_epl_007",
+        "question": "أي حارس يملك الرقم القياسي لأكثر شباك نظيفة في تاريخ الدوري الإنجليزي الممتاز؟",
+        "answer": "بيتر تشيك",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b014:epl:007"
+        ]
+      },
+      {
+        "id": "b014_epl_008",
+        "question": "من أكثر لاعب فاز بميداليات الدوري الإنجليزي الممتاز؟",
+        "answer": "رايان غيغز",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b014:epl:008"
+        ]
+      },
+      {
+        "id": "b014_epl_009",
+        "question": "أي ثنائي يملك الرقم القياسي لأكثر تعاونات تهديفية في الدوري الإنجليزي الممتاز؟",
+        "answer": "هاري كين وسون هيونغ مين",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b014:epl:009"
+        ]
+      },
+      {
+        "id": "b014_epl_010",
+        "question": "من صاحب الرقم القياسي لأكثر أهداف بالرأس في الدوري الإنجليزي الممتاز؟",
+        "answer": "بيتر كراوتش",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b014:epl:010"
+        ]
+      },
+      {
+        "id": "b014_epl_011",
+        "question": "من سجل أسرع هدف في تاريخ الدوري الإنجليزي الممتاز؟",
+        "answer": "شين لونغ",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b014:epl:011"
+        ]
+      },
+      {
+        "id": "b014_epl_012",
+        "question": "أي لاعب سجل 39 هدفًا في الدوري الإنجليزي الممتاز خلال سنة ميلادية واحدة عام 2017؟",
+        "answer": "هاري كين",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b014:epl:012"
+        ]
+      },
+      {
+        "id": "b014_epl_013",
+        "question": "من صاحب الرقم القياسي لأكثر أهداف من خارج منطقة الجزاء في الدوري الإنجليزي الممتاز؟",
+        "answer": "فرانك لامبارد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b014:epl:013"
+        ]
+      },
+      {
+        "id": "b014_epl_014",
+        "question": "من صاحب الرقم القياسي لأكثر أهداف من ركلات حرة في الدوري الإنجليزي الممتاز؟",
+        "answer": "ديفيد بيكهام",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b014:epl:014"
+        ]
+      },
+      {
+        "id": "b014_epl_015",
+        "question": "أي فريق حقق أكبر فارق أهداف في موسم واحد بالدوري الإنجليزي الممتاز (+79)؟",
+        "answer": "مانشستر سيتي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b014:epl:015"
+        ]
+      },
+      {
+        "id": "b014_epl_016",
+        "question": "أي فريق حقق 25 مباراة بشباك نظيفة في موسم 2004–05؟",
+        "answer": "تشيلسي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b014:epl:016"
+        ]
+      },
+      {
+        "id": "b014_epl_017",
+        "question": "من صاحب الرقم القياسي لأكثر مواسم سجل فيها هدفًا في الدوري الإنجليزي الممتاز؟",
+        "answer": "رايان غيغز",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b014:epl:017"
+        ]
+      },
+      {
+        "id": "b014_epl_018",
+        "question": "من صاحب الرقم القياسي لأكثر أهداف بقدمه اليسرى في الدوري الإنجليزي الممتاز؟",
+        "answer": "محمد صلاح",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:epl:018"
+        ]
+      },
+      {
+        "id": "b014_epl_019",
+        "question": "من صاحب الرقم القياسي لأكثر أهداف بقدمه اليمنى في الدوري الإنجليزي الممتاز؟",
+        "answer": "آلان شيرر",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:epl:019"
+        ]
+      },
+      {
+        "id": "b014_epl_020",
+        "question": "من صاحب الرقم القياسي لأكثر أهداف في الدوري الإنجليزي الممتاز دون تسجيل أي ركلة جزاء؟",
+        "answer": "ليس فرديناند",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:epl:020"
+        ]
+      },
+      {
+        "id": "b014_epl_021",
+        "question": "من أكبر لاعب سنًا سجل هدفًا في الدوري الإنجليزي الممتاز؟",
+        "answer": "تيدي شيرينغهام",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:epl:021"
+        ]
+      },
+      {
+        "id": "b014_epl_022",
+        "question": "من صاحب الرقم القياسي لأكثر أهداف في الدوري الإنجليزي الممتاز لنادٍ واحد؟",
+        "answer": "هاري كين",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:epl:022"
+        ]
+      },
+      {
+        "id": "b014_epl_023",
+        "question": "من سجل خمسة أهداف في شوط واحد أمام ويغان عام 2009؟",
+        "answer": "جيرمين ديفو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:epl:023"
+        ]
+      },
+      {
+        "id": "b014_epl_024",
+        "question": "أي حارس يملك الرقم القياسي لأكثر شباك نظيفة في موسم واحد بالدوري الإنجليزي الممتاز؟",
+        "answer": "بيتر تشيك",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:epl:024"
+        ]
+      },
+      {
+        "id": "b014_epl_025",
+        "question": "أي حارس حافظ على شباكه نظيفة في 14 مباراة متتالية بالدوري الإنجليزي الممتاز؟",
+        "answer": "إدوين فان دير سار",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:epl:025"
+        ]
+      },
+      {
+        "id": "b014_epl_026",
+        "question": "من صاحب الرقم القياسي لأكثر ركلات جزاء مسجلة في الدوري الإنجليزي الممتاز؟",
+        "answer": "آلان شيرر",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:epl:026"
+        ]
+      },
+      {
+        "id": "b014_epl_027",
+        "question": "من صاحب الرقم القياسي لأكثر أهداف عكسية في الدوري الإنجليزي الممتاز؟",
+        "answer": "ريتشارد دان",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:epl:027"
+        ]
+      },
+      {
+        "id": "b014_epl_028",
+        "question": "أي لاعب سجل الهدف رقم 20,000 في تاريخ الدوري الإنجليزي الممتاز؟",
+        "answer": "مارك ألبرايتون",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:epl:028"
+        ]
+      },
+      {
+        "id": "b014_epl_029",
+        "question": "أي لاعب سجل الهدف رقم 25,000 في تاريخ الدوري الإنجليزي الممتاز؟",
+        "answer": "زلاتان إبراهيموفيتش",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:epl:029"
+        ]
+      },
+      {
+        "id": "b014_epl_030",
+        "question": "أي لاعب سجل الهدف رقم 30,000 في تاريخ الدوري الإنجليزي الممتاز؟",
+        "answer": "كريس وود",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:epl:030"
+        ]
+      },
+      {
+        "id": "b014_epl_031",
+        "question": "من صاحب الرقم القياسي لأكثر أندية مختلفة سجل لها في الدوري الإنجليزي الممتاز؟",
+        "answer": "كريغ بيلامي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:epl:031"
+        ]
+      },
+      {
+        "id": "b014_epl_032",
+        "question": "من صاحب الرقم القياسي لأكثر ظهور كبديل في الدوري الإنجليزي الممتاز؟",
+        "answer": "جيمس ميلنر",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:epl:032"
+        ]
+      },
+      {
+        "id": "b014_epl_033",
+        "question": "أي فريق استقبل أقل عدد من الأهداف خارج أرضه في موسم واحد بالدوري الإنجليزي الممتاز، بتسعة أهداف؟",
+        "answer": "تشيلسي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:epl:033"
+        ]
+      },
+      {
+        "id": "b014_epl_034",
+        "question": "من صاحب الرقم القياسي لأكثر مباريات متتالية شارك فيها في الدوري الإنجليزي الممتاز؟",
+        "answer": "براد فريدل",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:epl:034"
+        ]
+      },
+      {
+        "id": "b014_epl_035",
+        "question": "من اللاعب الذي لعب لأكبر عدد من أندية الدوري الإنجليزي الممتاز، بثمانية أندية؟",
+        "answer": "ماركوس بنت",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:epl:035"
+        ]
+      },
+      {
+        "id": "b014_epl_036",
+        "question": "من أكبر لاعب سنًا شارك في مباراة بالدوري الإنجليزي الممتاز؟",
+        "answer": "جون بوريدج",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:epl:036"
+        ]
+      },
+      {
+        "id": "b014_epl_037",
+        "question": "من سجل الهدف رقم 5,000 في تاريخ الدوري الإنجليزي الممتاز؟",
+        "answer": "كريس ساتون",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:epl:037"
+        ]
+      },
+      {
+        "id": "b014_epl_038",
+        "question": "من سجل الهدف رقم 10,000 في تاريخ الدوري الإنجليزي الممتاز؟",
+        "answer": "ليس فرديناند",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:epl:038"
+        ]
+      },
+      {
+        "id": "b014_epl_039",
+        "question": "من سجل الهدف رقم 15,000 في تاريخ الدوري الإنجليزي الممتاز؟",
+        "answer": "موريتز فولتس",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:epl:039"
+        ]
+      },
+      {
+        "id": "b014_epl_040",
+        "question": "من سجل الهدف رقم 35,000 في تاريخ الدوري الإنجليزي الممتاز في يناير 2026؟",
+        "answer": "إيرلينغ هالاند",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:epl:040"
+        ]
+      },
+      {
+        "id": "b014_epl_041",
+        "question": "أي مباراة تحمل الرقم القياسي لأكثر أهداف في مباراة واحدة بالدوري الإنجليزي الممتاز بنتيجة 7-4؟",
+        "answer": "بورتسموث ضد ريدينغ",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:epl:041"
+        ]
+      },
+      {
+        "id": "b014_epl_042",
+        "question": "أي مباراة تحمل الرقم القياسي لأعلى تعادل تهديفي في الدوري الإنجليزي الممتاز بنتيجة 5-5؟",
+        "answer": "وست بروميتش ألبيون ضد مانشستر يونايتد",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:epl:042"
+        ]
+      },
+      {
+        "id": "b014_epl_043",
+        "question": "أي فريقين سجلا الرقم القياسي لأسوأ فارق أهداف في موسم بالدوري الإنجليزي الممتاز (-69)؟",
+        "answer": "ديربي كاونتي وشيفيلد يونايتد",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:epl:043"
+        ]
+      },
+      {
+        "id": "b014_epl_044",
+        "question": "من أول لاعب مذكور زمنيًا ضمن أصحاب أربع تمريرات حاسمة في مباراة واحدة بالدوري الإنجليزي الممتاز؟",
+        "answer": "دينيس بيركامب",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:epl:044"
+        ]
+      },
+      {
+        "id": "b014_epl_045",
+        "question": "من صاحب الرقم القياسي لأكثر أهداف على أرضه في موسم واحد بالدوري الإنجليزي الممتاز بنظام 42 مباراة، برصيد 25؟",
+        "answer": "آلان شيرر",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:epl:045"
+        ]
+      },
+      {
+        "id": "b014_epl_046",
+        "question": "من أول حارس مرمى سجل هدفًا في الدوري الإنجليزي الممتاز؟",
+        "answer": "بيتر شمايكل",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:epl:046"
+        ]
+      },
+      {
+        "id": "b014_epl_047",
+        "question": "من صاحب الرقم القياسي لأكثر ركلات جزاء تصدى لها في الدوري الإنجليزي الممتاز؟",
+        "answer": "ديفيد جيمس",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:epl:047"
+        ]
+      },
+      {
+        "id": "b014_epl_048",
+        "question": "أي ناديين حققا فوزًا 9-0 على أرضهما في الدوري الإنجليزي الممتاز؟",
+        "answer": "مانشستر يونايتد وليفربول",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:epl:048"
+        ]
+      },
+      {
+        "id": "b014_epl_049",
+        "question": "أي فريق حقق أكبر فوز خارج أرضه في الدوري الإنجليزي الممتاز بنتيجة 9-0 عام 2019؟",
+        "answer": "ليستر سيتي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:epl:049"
+        ]
+      },
+      {
+        "id": "b014_epl_050",
+        "question": "من اللاعب الذي سجل 16 هدفًا خارج أرضه في موسم 1999–2000، وهو رقم قياسي مشترك؟",
+        "answer": "كيفن فيليبس",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:epl:050"
+        ]
+      }
+    ],
+    "كأس العالم": [
+      {
+        "id": "b014_wc_001",
+        "question": "أي منتخب فاز بأول نسخة من كأس العالم عام 1930؟",
+        "answer": "أوروغواي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b014:wc:001"
+        ]
+      },
+      {
+        "id": "b014_wc_002",
+        "question": "أي منتخب فاز بكأس العالم 1958 لأول مرة في تاريخه؟",
+        "answer": "البرازيل",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b014:wc:002"
+        ]
+      },
+      {
+        "id": "b014_wc_003",
+        "question": "أي منتخب فاز بكأس العالم 1966 على أرضه؟",
+        "answer": "إنجلترا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b014:wc:003"
+        ]
+      },
+      {
+        "id": "b014_wc_004",
+        "question": "أي منتخب فاز بكأس العالم 1978 على أرضه؟",
+        "answer": "الأرجنتين",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b014:wc:004"
+        ]
+      },
+      {
+        "id": "b014_wc_005",
+        "question": "أي منتخب فاز بكأس العالم 1982؟",
+        "answer": "إيطاليا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b014:wc:005"
+        ]
+      },
+      {
+        "id": "b014_wc_006",
+        "question": "أي منتخب فاز بكأس العالم 1990؟",
+        "answer": "ألمانيا الغربية",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b014:wc:006"
+        ]
+      },
+      {
+        "id": "b014_wc_007",
+        "question": "أي منتخب فاز بكأس العالم 1994؟",
+        "answer": "البرازيل",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b014:wc:007"
+        ]
+      },
+      {
+        "id": "b014_wc_008",
+        "question": "أي منتخب فاز بكأس العالم 1998؟",
+        "answer": "فرنسا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b014:wc:008"
+        ]
+      },
+      {
+        "id": "b014_wc_009",
+        "question": "أي منتخب فاز بكأس العالم 2006؟",
+        "answer": "إيطاليا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b014:wc:009"
+        ]
+      },
+      {
+        "id": "b014_wc_010",
+        "question": "أي منتخب فاز بكأس العالم 2010 لأول مرة في تاريخه؟",
+        "answer": "إسبانيا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b014:wc:010"
+        ]
+      },
+      {
+        "id": "b014_wc_011",
+        "question": "أي منتخب فاز بكأس العالم 2014؟",
+        "answer": "ألمانيا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b014:wc:011"
+        ]
+      },
+      {
+        "id": "b014_wc_012",
+        "question": "أي منتخب فاز بكأس العالم 2018؟",
+        "answer": "فرنسا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b014:wc:012"
+        ]
+      },
+      {
+        "id": "b014_wc_013",
+        "question": "أي منتخب فاز بكأس العالم 2022؟",
+        "answer": "الأرجنتين",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b014:wc:013"
+        ]
+      },
+      {
+        "id": "b014_wc_014",
+        "question": "من هداف كأس العالم 2026؟",
+        "answer": "كيليان مبابي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b014:wc:014"
+        ]
+      },
+      {
+        "id": "b014_wc_015",
+        "question": "كم هدفًا سجل كيليان مبابي ليفوز بالحذاء الذهبي في كأس العالم 2026؟",
+        "answer": "10 أهداف",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b014:wc:015"
+        ]
+      },
+      {
+        "id": "b014_wc_016",
+        "question": "أي منتخب وصل إلى نهائي كأس العالم 2022 وخسر أمام الأرجنتين؟",
+        "answer": "فرنسا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b014:wc:016"
+        ]
+      },
+      {
+        "id": "b014_wc_017",
+        "question": "من صاحب الرقم القياسي لأكثر انتصارات كلاعب في كأس العالم بعد نسخة 2026؟",
+        "answer": "ليونيل ميسي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:wc:017"
+        ]
+      },
+      {
+        "id": "b014_wc_018",
+        "question": "كم انتصارًا أصبح رصيد ليونيل ميسي القياسي في كأس العالم بعد نسخة 2026؟",
+        "answer": "23 انتصارًا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:wc:018"
+        ]
+      },
+      {
+        "id": "b014_wc_019",
+        "question": "من سجل في تسع مباريات متتالية بكأس العالم ليحقق رقمًا قياسيًا جديدًا في 2026؟",
+        "answer": "ليونيل ميسي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:wc:019"
+        ]
+      },
+      {
+        "id": "b014_wc_020",
+        "question": "من أصبح أكبر مدرب سنًا في تاريخ كأس العالم خلال نسخة 2026؟",
+        "answer": "ديك أدفوكات",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:wc:020"
+        ]
+      },
+      {
+        "id": "b014_wc_021",
+        "question": "كم كان عمر ديك أدفوكات تقريبًا عندما أصبح أكبر مدرب سنًا في كأس العالم 2026؟",
+        "answer": "78 عامًا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:wc:021"
+        ]
+      },
+      {
+        "id": "b014_wc_022",
+        "question": "من تصدر قائمة التمريرات الحاسمة في كأس العالم 2026 بسبع تمريرات؟",
+        "answer": "مايكل أوليسي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:wc:022"
+        ]
+      },
+      {
+        "id": "b014_wc_023",
+        "question": "من تصدر قائمة عدد التمريرات في كأس العالم 2026؟",
+        "answer": "رودري",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:wc:023"
+        ]
+      },
+      {
+        "id": "b014_wc_024",
+        "question": "أي منتخب حافظ على سبع شباك نظيفة في كأس العالم 2026؟",
+        "answer": "إسبانيا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:wc:024"
+        ]
+      },
+      {
+        "id": "b014_wc_025",
+        "question": "من حل ثانيًا في ترتيب هدافي كأس العالم 2026 بثمانية أهداف؟",
+        "answer": "ليونيل ميسي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:wc:025"
+        ]
+      },
+      {
+        "id": "b014_wc_026",
+        "question": "أي لاعبين سجلا سبعة أهداف لكل منهما في كأس العالم 2026؟",
+        "answer": "جود بيلينغهام وإيرلينغ هالاند",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:wc:026"
+        ]
+      },
+      {
+        "id": "b014_wc_027",
+        "question": "من سجل هدف الفوز لألمانيا الغربية في نهائي كأس العالم 1954؟",
+        "answer": "هيلموت ران",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:wc:027"
+        ]
+      },
+      {
+        "id": "b014_wc_028",
+        "question": "من سجل هدف البرازيل الثالث في نهائي كأس العالم 1962 أمام تشيكوسلوفاكيا؟",
+        "answer": "فافا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:wc:028"
+        ]
+      },
+      {
+        "id": "b014_wc_029",
+        "question": "أي منتخب خسر نهائي كأس العالم 1974 أمام ألمانيا الغربية؟",
+        "answer": "هولندا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:wc:029"
+        ]
+      },
+      {
+        "id": "b014_wc_030",
+        "question": "أي منتخب خسر نهائي كأس العالم 1978 أمام الأرجنتين؟",
+        "answer": "هولندا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:wc:030"
+        ]
+      },
+      {
+        "id": "b014_wc_031",
+        "question": "أي منتخب خسر نهائي كأس العالم 1982 أمام إيطاليا؟",
+        "answer": "ألمانيا الغربية",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:wc:031"
+        ]
+      },
+      {
+        "id": "b014_wc_032",
+        "question": "أي منتخب خسر نهائي كأس العالم 1990 أمام ألمانيا الغربية؟",
+        "answer": "الأرجنتين",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:wc:032"
+        ]
+      },
+      {
+        "id": "b014_wc_033",
+        "question": "أي منتخب خسر نهائي كأس العالم 1998 أمام فرنسا؟",
+        "answer": "البرازيل",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:wc:033"
+        ]
+      },
+      {
+        "id": "b014_wc_034",
+        "question": "من كان وصيف أول نسخة من كأس العالم عام 1930؟",
+        "answer": "الأرجنتين",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:wc:034"
+        ]
+      },
+      {
+        "id": "b014_wc_035",
+        "question": "أي منتخب فاز بكأس العالم 1934 ثم احتفظ باللقب في 1938؟",
+        "answer": "إيطاليا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:wc:035"
+        ]
+      },
+      {
+        "id": "b014_wc_036",
+        "question": "أي منتخب خسر المباراة الحاسمة أمام أوروغواي في كأس العالم 1950 على ملعب ماراكانا؟",
+        "answer": "البرازيل",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:wc:036"
+        ]
+      },
+      {
+        "id": "b014_wc_037",
+        "question": "أي منتخب خسر نهائي كأس العالم 1954 أمام ألمانيا الغربية؟",
+        "answer": "المجر",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:wc:037"
+        ]
+      },
+      {
+        "id": "b014_wc_038",
+        "question": "أي منتخب خسر نهائي كأس العالم 1958 أمام البرازيل؟",
+        "answer": "السويد",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:wc:038"
+        ]
+      },
+      {
+        "id": "b014_wc_039",
+        "question": "أي منتخب خسر نهائي كأس العالم 1962 أمام البرازيل؟",
+        "answer": "تشيكوسلوفاكيا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:wc:039"
+        ]
+      },
+      {
+        "id": "b014_wc_040",
+        "question": "أي منتخب خسر نهائي كأس العالم 1966 أمام إنجلترا؟",
+        "answer": "ألمانيا الغربية",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:wc:040"
+        ]
+      },
+      {
+        "id": "b014_wc_041",
+        "question": "أي منتخب خسر نهائي كأس العالم 1970 أمام البرازيل؟",
+        "answer": "إيطاليا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:wc:041"
+        ]
+      },
+      {
+        "id": "b014_wc_042",
+        "question": "أي منتخب خسر نهائي كأس العالم 1986 أمام الأرجنتين؟",
+        "answer": "ألمانيا الغربية",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:wc:042"
+        ]
+      },
+      {
+        "id": "b014_wc_043",
+        "question": "أي منتخب خسر نهائي كأس العالم 1994 أمام البرازيل بركلات الترجيح؟",
+        "answer": "إيطاليا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:wc:043"
+        ]
+      },
+      {
+        "id": "b014_wc_044",
+        "question": "أي منتخب خسر نهائي كأس العالم 2002 أمام البرازيل؟",
+        "answer": "ألمانيا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:wc:044"
+        ]
+      },
+      {
+        "id": "b014_wc_045",
+        "question": "أي منتخب خسر نهائي كأس العالم 2006 أمام إيطاليا بركلات الترجيح؟",
+        "answer": "فرنسا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:wc:045"
+        ]
+      },
+      {
+        "id": "b014_wc_046",
+        "question": "أي منتخب خسر نهائي كأس العالم 2010 أمام إسبانيا؟",
+        "answer": "هولندا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:wc:046"
+        ]
+      },
+      {
+        "id": "b014_wc_047",
+        "question": "أي منتخب خسر نهائي كأس العالم 2014 أمام ألمانيا؟",
+        "answer": "الأرجنتين",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:wc:047"
+        ]
+      },
+      {
+        "id": "b014_wc_048",
+        "question": "أي منتخب خسر نهائي كأس العالم 2018 أمام فرنسا؟",
+        "answer": "كرواتيا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:wc:048"
+        ]
+      },
+      {
+        "id": "b014_wc_049",
+        "question": "من أصبح صاحب الرقم القياسي لأكثر أهداف من خارج منطقة الجزاء في كأس العالم بعد نسخة 2026؟",
+        "answer": "ليونيل ميسي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:wc:049"
+        ]
+      },
+      {
+        "id": "b014_wc_050",
+        "question": "كم هدفًا من خارج منطقة الجزاء أصبح في رصيد ليونيل ميسي القياسي بكأس العالم بعد نسخة 2026؟",
+        "answer": "7 أهداف",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b014:wc:050"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+ALMAJLIS QUALITY BATCH 014 — STOCK RECOVERY
+New questions: 150
+Only categories: من هو اللاعب / الدوري الإنجليزي / كأس العالم
+من هو اللاعب: 50 — {100: 17, 300: 17, 500: 16}
+الدوري الإنجليزي: 50 — {100: 17, 300: 16, 500: 17}
+كأس العالم: 50 — {100: 16, 300: 17, 500: 17}
+Duplicate IDs within batch: 0
+Duplicate normalized texts within batch: 0
+Semantic keys: 150/150
+Category visuals: untouched
+Structural QA: PASS

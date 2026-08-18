@@ -1,0 +1,32 @@
+{
+  "batch": "Batch 014",
+  "new_questions": 150,
+  "categories": {
+    "من هو اللاعب": 50,
+    "الدوري الإنجليزي": 50,
+    "كأس العالم": 50
+  },
+  "point_distribution": {
+    "من هو اللاعب": {
+      "100": 17,
+      "300": 17,
+      "500": 16
+    },
+    "الدوري الإنجليزي": {
+      "100": 17,
+      "300": 16,
+      "500": 17
+    },
+    "كأس العالم": {
+      "100": 16,
+      "300": 17,
+      "500": 17
+    }
+  },
+  "duplicate_ids_within_batch": 0,
+  "duplicate_question_texts_within_batch": 0,
+  "all_have_semantic_keys": true,
+  "all_have_required_fields": true,
+  "category_images_changed": false,
+  "purpose": "Restore large safety stock for the three categories disabled in BUILD 038."
+}
