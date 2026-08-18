@@ -1,0 +1,1598 @@
+{
+  "version": "18.2-part02",
+  "new_questions": 144,
+  "categories": {
+    "سوريا": [
+      {
+        "id": "b018p2_c05_001",
+        "question": "ما عاصمة سوريا؟",
+        "answer": "دمشق",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c05:001"
+        ]
+      },
+      {
+        "id": "b018p2_c05_002",
+        "question": "ما العملة الرسمية في سوريا؟",
+        "answer": "الليرة السورية",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c05:002"
+        ]
+      },
+      {
+        "id": "b018p2_c05_003",
+        "question": "على أي بحر تطل سوريا من الغرب؟",
+        "answer": "البحر المتوسط",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c05:003"
+        ]
+      },
+      {
+        "id": "b018p2_c05_004",
+        "question": "ما المدينة السورية المشهورة بقلعتها وأسواقها القديمة في شمال البلاد؟",
+        "answer": "حلب",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c05:004"
+        ]
+      },
+      {
+        "id": "b018p2_c05_005",
+        "question": "ما النهر الذي يمر بمدينة دير الزور؟",
+        "answer": "الفرات",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c05:005"
+        ]
+      },
+      {
+        "id": "b018p2_c05_006",
+        "question": "ما المدينة السورية التي تضم الجامع الأموي الكبير؟",
+        "answer": "دمشق",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c05:006"
+        ]
+      },
+      {
+        "id": "b018p2_c05_007",
+        "question": "ما اسم القلعة الشهيرة الواقعة في مدينة حلب القديمة؟",
+        "answer": "قلعة حلب",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c05:007"
+        ]
+      },
+      {
+        "id": "b018p2_c05_008",
+        "question": "ما المدينة الساحلية التي تعد من أهم موانئ سوريا؟",
+        "answer": "اللاذقية",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c05:008"
+        ]
+      },
+      {
+        "id": "b018p2_c05_009",
+        "question": "ما الدولة التي تحد سوريا من الجنوب؟",
+        "answer": "الأردن",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c05:009"
+        ]
+      },
+      {
+        "id": "b018p2_c05_010",
+        "question": "ما الدولة التي تحد سوريا من الشمال؟",
+        "answer": "تركيا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c05:010"
+        ]
+      },
+      {
+        "id": "b018p2_c05_011",
+        "question": "ما الدولة التي تحد سوريا من الشرق؟",
+        "answer": "العراق",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c05:011"
+        ]
+      },
+      {
+        "id": "b018p2_c05_012",
+        "question": "ما المدينة السورية الأثرية التي اشتهرت بمسرحها الروماني الكبير جنوب البلاد؟",
+        "answer": "بصرى",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c05:012"
+        ]
+      },
+      {
+        "id": "b018p2_c05_013",
+        "question": "ما السلسلة الجبلية التي تقع على الحدود السورية اللبنانية ويقع ضمنها جبل الشيخ؟",
+        "answer": "جبال لبنان الشرقية",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c05:013"
+        ]
+      },
+      {
+        "id": "b018p2_c05_014",
+        "question": "ما اسم النهر الذي ينبع من لبنان ويمر بسوريا ثم يدخل تركيا؟",
+        "answer": "نهر العاصي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c05:014"
+        ]
+      },
+      {
+        "id": "b018p2_c05_015",
+        "question": "ما المدينة السورية التي تقع على نهر العاصي وتشتهر بالنواعير؟",
+        "answer": "حماة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c05:015"
+        ]
+      },
+      {
+        "id": "b018p2_c05_016",
+        "question": "ما المحافظة السورية التي تعد الرقة مركزها الإداري؟",
+        "answer": "محافظة الرقة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c05:016"
+        ]
+      },
+      {
+        "id": "b018p2_c05_017",
+        "question": "ما اسم المدينة الأثرية السورية التي كانت عاصمة لمملكة تدمر؟",
+        "answer": "تدمر",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c05:017"
+        ]
+      },
+      {
+        "id": "b018p2_c05_018",
+        "question": "من الملكة الشهيرة المرتبطة بمملكة تدمر في القرن الثالث الميلادي؟",
+        "answer": "زنوبيا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c05:018"
+        ]
+      },
+      {
+        "id": "b018p2_c05_019",
+        "question": "ما اسم الموقع الأثري على الساحل السوري الذي كشف عن مدينة أوغاريت القديمة؟",
+        "answer": "رأس شمرا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c05:019"
+        ]
+      },
+      {
+        "id": "b018p2_c05_020",
+        "question": "ما الأبجدية القديمة التي اشتهرت بها أوغاريت؟",
+        "answer": "الأبجدية الأوغاريتية",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c05:020"
+        ]
+      },
+      {
+        "id": "b018p2_c05_021",
+        "question": "ما اسم الجامع التاريخي في دمشق الذي بُني في العصر الأموي؟",
+        "answer": "الجامع الأموي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c05:021"
+        ]
+      },
+      {
+        "id": "b018p2_c05_022",
+        "question": "ما المدينة السورية التي كانت تعرف تاريخيًا باسم أنطاكية؟",
+        "answer": "أنطاكية ليست ضمن سوريا الحالية؛ تقع في تركيا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c05:022"
+        ]
+      },
+      {
+        "id": "b018p2_c05_023",
+        "question": "أي محافظة سورية تقع فيها مدينة معلولا؟",
+        "answer": "ريف دمشق",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c05:023"
+        ]
+      },
+      {
+        "id": "b018p2_c05_024",
+        "question": "ما اللغة الآرامية الحديثة التي تشتهر معلولا بالحفاظ على أحد أشكالها؟",
+        "answer": "الآرامية الغربية الحديثة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c05:024"
+        ]
+      },
+      {
+        "id": "b018p2_c05_025",
+        "question": "ما اسم القلعة الصليبية الشهيرة قرب حمص والمسجلة ضمن التراث العالمي؟",
+        "answer": "قلعة الحصن",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c05:025"
+        ]
+      },
+      {
+        "id": "b018p2_c05_026",
+        "question": "ما اسم المدينة القديمة في شمال غرب سوريا التي تضم قرى أثرية مدرجة في قائمة التراث العالمي؟",
+        "answer": "القرى القديمة في شمال سوريا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c05:026"
+        ]
+      },
+      {
+        "id": "b018p2_c05_027",
+        "question": "ما اسم المدينة السورية التي تقع عند ملتقى طرق تاريخية بين دمشق وحلب وتدمر؟",
+        "answer": "حمص",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c05:027"
+        ]
+      },
+      {
+        "id": "b018p2_c05_028",
+        "question": "أي نهر يشكل جزءًا من الحدود السورية التركية ثم يدخل سوريا قرب جرابلس؟",
+        "answer": "الفرات",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c05:028"
+        ]
+      },
+      {
+        "id": "b018p2_c05_029",
+        "question": "ما اسم أكبر بحيرة اصطناعية في سوريا الواقعة على نهر الفرات؟",
+        "answer": "بحيرة الأسد",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c05:029"
+        ]
+      },
+      {
+        "id": "b018p2_c05_030",
+        "question": "ما السد الذي أدى إنشاؤه إلى تكوين بحيرة الأسد؟",
+        "answer": "سد الفرات",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c05:030"
+        ]
+      },
+      {
+        "id": "b018p2_c05_031",
+        "question": "ما اسم المملكة القديمة التي ازدهرت في تل مرديخ قرب إدلب؟",
+        "answer": "إيبلا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c05:031"
+        ]
+      },
+      {
+        "id": "b018p2_c05_032",
+        "question": "ما اسم الموقع الأثري الذي يمثل مدينة ماري القديمة على الفرات؟",
+        "answer": "تل الحريري",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c05:032"
+        ]
+      },
+      {
+        "id": "b018p2_c05_033",
+        "question": "أي مدينة سورية ارتبط اسمها تاريخيًا بصناعة النسيج الدمشقي المعروف بالداماسك؟",
+        "answer": "دمشق",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c05:033"
+        ]
+      },
+      {
+        "id": "b018p2_c05_034",
+        "question": "ما اسم البادية الواسعة التي تغطي أجزاء كبيرة من وسط وشرق سوريا؟",
+        "answer": "البادية السورية",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c05:034"
+        ]
+      },
+      {
+        "id": "b018p2_c05_035",
+        "question": "ما المحافظة السورية التي تقع فيها مدينة تدمر؟",
+        "answer": "حمص",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c05:035"
+        ]
+      },
+      {
+        "id": "b018p2_c05_036",
+        "question": "ما المدينة السورية الواقعة قرب الحدود الأردنية والتي تعد مركز محافظة تحمل اسمها؟",
+        "answer": "درعا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c05:036"
+        ]
+      }
+    ],
+    "القرآن الكريم": [
+      {
+        "id": "b018p2_c06_001",
+        "question": "كم عدد سور القرآن الكريم؟",
+        "answer": "114 سورة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c06:001"
+        ]
+      },
+      {
+        "id": "b018p2_c06_002",
+        "question": "ما أول سورة في ترتيب المصحف؟",
+        "answer": "الفاتحة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c06:002"
+        ]
+      },
+      {
+        "id": "b018p2_c06_003",
+        "question": "ما آخر سورة في ترتيب المصحف؟",
+        "answer": "الناس",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c06:003"
+        ]
+      },
+      {
+        "id": "b018p2_c06_004",
+        "question": "ما أطول سورة في القرآن الكريم؟",
+        "answer": "البقرة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c06:004"
+        ]
+      },
+      {
+        "id": "b018p2_c06_005",
+        "question": "ما أقصر سورة في القرآن الكريم؟",
+        "answer": "الكوثر",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c06:005"
+        ]
+      },
+      {
+        "id": "b018p2_c06_006",
+        "question": "ما السورة التي سميت باسم امرأة؟",
+        "answer": "مريم",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c06:006"
+        ]
+      },
+      {
+        "id": "b018p2_c06_007",
+        "question": "ما السورة التي سميت باسم نبي وورد فيها اسمه عنوانًا للسورة؟",
+        "answer": "محمد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c06:007"
+        ]
+      },
+      {
+        "id": "b018p2_c06_008",
+        "question": "ما السورة التي تبدأ بـ «الحمد لله رب العالمين»؟",
+        "answer": "الفاتحة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c06:008"
+        ]
+      },
+      {
+        "id": "b018p2_c06_009",
+        "question": "ما السورة التي فيها آية الكرسي؟",
+        "answer": "البقرة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c06:009"
+        ]
+      },
+      {
+        "id": "b018p2_c06_010",
+        "question": "ما رقم سورة الإخلاص في ترتيب المصحف؟",
+        "answer": "112",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c06:010"
+        ]
+      },
+      {
+        "id": "b018p2_c06_011",
+        "question": "ما السورة التي تسمى أيضًا بني إسرائيل؟",
+        "answer": "الإسراء",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c06:011"
+        ]
+      },
+      {
+        "id": "b018p2_c06_012",
+        "question": "ما السورة التي وردت فيها البسملة مرتين؟",
+        "answer": "النمل",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c06:012"
+        ]
+      },
+      {
+        "id": "b018p2_c06_013",
+        "question": "ما أطول آية في القرآن الكريم؟",
+        "answer": "آية الدين في سورة البقرة، الآية 282",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c06:013"
+        ]
+      },
+      {
+        "id": "b018p2_c06_014",
+        "question": "في أي سورة وردت قصة أصحاب الكهف؟",
+        "answer": "الكهف",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c06:014"
+        ]
+      },
+      {
+        "id": "b018p2_c06_015",
+        "question": "في أي سورة ورد اسم زيد بن حارثة صراحة؟",
+        "answer": "الأحزاب",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c06:015"
+        ]
+      },
+      {
+        "id": "b018p2_c06_016",
+        "question": "ما السورة التي لا تبدأ بالبسملة؟",
+        "answer": "التوبة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c06:016"
+        ]
+      },
+      {
+        "id": "b018p2_c06_017",
+        "question": "ما السورة التي تحمل اسم معدن؟",
+        "answer": "الحديد",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c06:017"
+        ]
+      },
+      {
+        "id": "b018p2_c06_018",
+        "question": "ما السورة التي تحمل اسم يوم من أيام الأسبوع؟",
+        "answer": "الجمعة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c06:018"
+        ]
+      },
+      {
+        "id": "b018p2_c06_019",
+        "question": "ما السورة التي تحمل اسم إحدى الصلوات الزمنية؟",
+        "answer": "الفجر",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c06:019"
+        ]
+      },
+      {
+        "id": "b018p2_c06_020",
+        "question": "ما السورة التي تحمل اسم حشرة وورد فيها خبر سليمان؟",
+        "answer": "النمل",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c06:020"
+        ]
+      },
+      {
+        "id": "b018p2_c06_021",
+        "question": "ما السورة التي تحمل اسم حشرة أخرى وضرب الله فيها مثلًا؟",
+        "answer": "العنكبوت",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c06:021"
+        ]
+      },
+      {
+        "id": "b018p2_c06_022",
+        "question": "في أي سورة وردت آية النور: «الله نور السماوات والأرض»؟",
+        "answer": "النور",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c06:022"
+        ]
+      },
+      {
+        "id": "b018p2_c06_023",
+        "question": "في أي سورة وردت قصة موسى والخضر؟",
+        "answer": "الكهف",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c06:023"
+        ]
+      },
+      {
+        "id": "b018p2_c06_024",
+        "question": "في أي سورة ورد ذكر ذي القرنين؟",
+        "answer": "الكهف",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c06:024"
+        ]
+      },
+      {
+        "id": "b018p2_c06_025",
+        "question": "ما السورة التي تبدأ بالحروف المقطعة «كهيعص»؟",
+        "answer": "مريم",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c06:025"
+        ]
+      },
+      {
+        "id": "b018p2_c06_026",
+        "question": "ما السورة التي تبدأ بـ «يس»؟",
+        "answer": "يس",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c06:026"
+        ]
+      },
+      {
+        "id": "b018p2_c06_027",
+        "question": "ما السورة التي تبدأ بـ «طه»؟",
+        "answer": "طه",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c06:027"
+        ]
+      },
+      {
+        "id": "b018p2_c06_028",
+        "question": "في أي سورة وردت قصة أصحاب الأخدود؟",
+        "answer": "البروج",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c06:028"
+        ]
+      },
+      {
+        "id": "b018p2_c06_029",
+        "question": "في أي سورة وردت قصة أصحاب الفيل؟",
+        "answer": "الفيل",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c06:029"
+        ]
+      },
+      {
+        "id": "b018p2_c06_030",
+        "question": "ما السورة التي ورد فيها اسم رمضان صراحة؟",
+        "answer": "البقرة",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c06:030"
+        ]
+      },
+      {
+        "id": "b018p2_c06_031",
+        "question": "في أي سورة وردت آية المباهلة؟",
+        "answer": "آل عمران",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c06:031"
+        ]
+      },
+      {
+        "id": "b018p2_c06_032",
+        "question": "في أي سورة وردت آية التطهير ضمن خطاب أهل البيت في السياق القرآني؟",
+        "answer": "الأحزاب",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c06:032"
+        ]
+      },
+      {
+        "id": "b018p2_c06_033",
+        "question": "ما السورة التي تنتهي بقوله تعالى «من الجنة والناس»؟",
+        "answer": "الناس",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c06:033"
+        ]
+      },
+      {
+        "id": "b018p2_c06_034",
+        "question": "ما السورة التي تبدأ بالقسم بـ «والصافات صفا»؟",
+        "answer": "الصافات",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c06:034"
+        ]
+      },
+      {
+        "id": "b018p2_c06_035",
+        "question": "في أي سورة وردت قصة قارون بتفصيل بارز؟",
+        "answer": "القصص",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c06:035"
+        ]
+      },
+      {
+        "id": "b018p2_c06_036",
+        "question": "ما السورة التي سميت باسم قبيلة عربية؟",
+        "answer": "قريش",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c06:036"
+        ]
+      }
+    ],
+    "رؤساء دول": [
+      {
+        "id": "b018p2_c07_001",
+        "question": "من كان أول رئيس للولايات المتحدة؟",
+        "answer": "جورج واشنطن",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c07:001"
+        ]
+      },
+      {
+        "id": "b018p2_c07_002",
+        "question": "من كان رئيس الولايات المتحدة خلال معظم الحرب الأهلية الأمريكية؟",
+        "answer": "أبراهام لينكولن",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c07:002"
+        ]
+      },
+      {
+        "id": "b018p2_c07_003",
+        "question": "من كان أول رئيس لجنوب أفريقيا بعد انتهاء نظام الفصل العنصري وانتخابات 1994؟",
+        "answer": "نيلسون مانديلا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c07:003"
+        ]
+      },
+      {
+        "id": "b018p2_c07_004",
+        "question": "من كان أول رئيس للجمهورية الفرنسية الخامسة؟",
+        "answer": "شارل ديغول",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c07:004"
+        ]
+      },
+      {
+        "id": "b018p2_c07_005",
+        "question": "من كان أول رئيس لتركيا الحديثة؟",
+        "answer": "مصطفى كمال أتاتورك",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c07:005"
+        ]
+      },
+      {
+        "id": "b018p2_c07_006",
+        "question": "من كان أول رئيس للهند؟",
+        "answer": "راجندرا براساد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c07:006"
+        ]
+      },
+      {
+        "id": "b018p2_c07_007",
+        "question": "من كان أول رئيس لغانا بعد تحولها إلى جمهورية؟",
+        "answer": "كوامي نكروما",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c07:007"
+        ]
+      },
+      {
+        "id": "b018p2_c07_008",
+        "question": "من كان أول رئيس لجمهورية مصر بعد إعلان الجمهورية عام 1953؟",
+        "answer": "محمد نجيب",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c07:008"
+        ]
+      },
+      {
+        "id": "b018p2_c07_009",
+        "question": "من كان أول رئيس للجزائر بعد الاستقلال؟",
+        "answer": "أحمد بن بلة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c07:009"
+        ]
+      },
+      {
+        "id": "b018p2_c07_010",
+        "question": "من كان أول رئيس لتونس بعد إلغاء الملكية؟",
+        "answer": "الحبيب بورقيبة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c07:010"
+        ]
+      },
+      {
+        "id": "b018p2_c07_011",
+        "question": "من كان أول رئيس لدولة الإمارات العربية المتحدة؟",
+        "answer": "الشيخ زايد بن سلطان آل نهيان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c07:011"
+        ]
+      },
+      {
+        "id": "b018p2_c07_012",
+        "question": "من كان أول رئيس لروسيا الاتحادية؟",
+        "answer": "بوريس يلتسن",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c07:012"
+        ]
+      },
+      {
+        "id": "b018p2_c07_013",
+        "question": "من الرئيس الأمريكي الذي استقال بسبب فضيحة ووترغيت؟",
+        "answer": "ريتشارد نيكسون",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c07:013"
+        ]
+      },
+      {
+        "id": "b018p2_c07_014",
+        "question": "من الرئيس الأمريكي الذي أصدر إعلان تحرير العبيد أثناء الحرب الأهلية؟",
+        "answer": "أبراهام لينكولن",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c07:014"
+        ]
+      },
+      {
+        "id": "b018p2_c07_015",
+        "question": "من الرئيس الفرنسي الذي شارك مع المستشار الألماني كونراد أديناور في ترسيخ المصالحة الفرنسية الألمانية؟",
+        "answer": "شارل ديغول",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c07:015"
+        ]
+      },
+      {
+        "id": "b018p2_c07_016",
+        "question": "من رئيس تشيكوسلوفاكيا المنشق والكاتب الذي أصبح لاحقًا أول رئيس لجمهورية التشيك؟",
+        "answer": "فاتسلاف هافل",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c07:016"
+        ]
+      },
+      {
+        "id": "b018p2_c07_017",
+        "question": "من كان أول رئيس لبولندا بعد سقوط النظام الشيوعي يُنتخب بالاقتراع الشعبي المباشر عام 1990؟",
+        "answer": "ليخ فاونسا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c07:017"
+        ]
+      },
+      {
+        "id": "b018p2_c07_018",
+        "question": "من كان أول رئيس لناميبيا بعد الاستقلال عام 1990؟",
+        "answer": "سام نجوما",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c07:018"
+        ]
+      },
+      {
+        "id": "b018p2_c07_019",
+        "question": "من كان أول رئيس لتنزانيا بعد قيام الجمهورية المتحدة بصيغتها الحالية؟",
+        "answer": "جوليوس نيريري",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c07:019"
+        ]
+      },
+      {
+        "id": "b018p2_c07_020",
+        "question": "من كان أول رئيس لسنغافورة؟",
+        "answer": "يوسف بن إسحاق",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c07:020"
+        ]
+      },
+      {
+        "id": "b018p2_c07_021",
+        "question": "من كان أول رئيس لبنغلاديش؟",
+        "answer": "الشيخ مجيب الرحمن",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c07:021"
+        ]
+      },
+      {
+        "id": "b018p2_c07_022",
+        "question": "من كان أول رئيس لإندونيسيا؟",
+        "answer": "سوكارنو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c07:022"
+        ]
+      },
+      {
+        "id": "b018p2_c07_023",
+        "question": "من كان أول رئيس لفيتنام الشمالية؟",
+        "answer": "هو تشي منه",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c07:023"
+        ]
+      },
+      {
+        "id": "b018p2_c07_024",
+        "question": "من كان أول رئيس لجمهورية الصين الشعبية؟",
+        "answer": "ماو تسي تونغ",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c07:024"
+        ]
+      },
+      {
+        "id": "b018p2_c07_025",
+        "question": "من الرئيس الأمريكي الذي كان في منصبه عند أزمة الصواريخ الكوبية عام 1962؟",
+        "answer": "جون كينيدي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c07:025"
+        ]
+      },
+      {
+        "id": "b018p2_c07_026",
+        "question": "من الرئيس الأمريكي الذي كان في منصبه عند توقيع اتفاقيات كامب ديفيد عام 1978؟",
+        "answer": "جيمي كارتر",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c07:026"
+        ]
+      },
+      {
+        "id": "b018p2_c07_027",
+        "question": "من الرئيس المصري الذي وقع معاهدة السلام المصرية الإسرائيلية عام 1979؟",
+        "answer": "أنور السادات",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c07:027"
+        ]
+      },
+      {
+        "id": "b018p2_c07_028",
+        "question": "من الرئيس الفرنسي الذي ألغيت عقوبة الإعدام في فرنسا خلال رئاسته عام 1981؟",
+        "answer": "فرانسوا ميتران",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c07:028"
+        ]
+      },
+      {
+        "id": "b018p2_c07_029",
+        "question": "من أول رئيس لجمهورية ألمانيا الاتحادية عام 1949؟",
+        "answer": "تيودور هويس",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c07:029"
+        ]
+      },
+      {
+        "id": "b018p2_c07_030",
+        "question": "من أول رئيس لإسرائيل؟",
+        "answer": "حاييم وايزمان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c07:030"
+        ]
+      },
+      {
+        "id": "b018p2_c07_031",
+        "question": "من كان أول رئيس لجمهورية أيرلندا؟",
+        "answer": "دوغلاس هايد",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c07:031"
+        ]
+      },
+      {
+        "id": "b018p2_c07_032",
+        "question": "من أول رئيس لكينيا بعد تحولها إلى جمهورية عام 1964؟",
+        "answer": "جومو كينياتا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c07:032"
+        ]
+      },
+      {
+        "id": "b018p2_c07_033",
+        "question": "من أول رئيس لزامبيا بعد الاستقلال؟",
+        "answer": "كينيث كاوندا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c07:033"
+        ]
+      },
+      {
+        "id": "b018p2_c07_034",
+        "question": "من أول رئيس لبوتسوانا؟",
+        "answer": "سيريتسي خاما",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c07:034"
+        ]
+      },
+      {
+        "id": "b018p2_c07_035",
+        "question": "من أول رئيس لموزمبيق بعد الاستقلال؟",
+        "answer": "سامورا ماشيل",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c07:035"
+        ]
+      },
+      {
+        "id": "b018p2_c07_036",
+        "question": "من أول رئيس لأنغولا بعد الاستقلال؟",
+        "answer": "أغوستينو نيتو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c07:036"
+        ]
+      }
+    ],
+    "افلام اجنبية": [
+      {
+        "id": "b018p2_c08_001",
+        "question": "في أي سلسلة أفلام تظهر شخصية جاك سبارو؟",
+        "answer": "Pirates of the Caribbean",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c08:001"
+        ]
+      },
+      {
+        "id": "b018p2_c08_002",
+        "question": "من أخرج فيلم Titanic؟",
+        "answer": "جيمس كاميرون",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c08:002"
+        ]
+      },
+      {
+        "id": "b018p2_c08_003",
+        "question": "ما اسم المدرسة التي يلتحق بها هاري بوتر؟",
+        "answer": "هوغوورتس",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c08:003"
+        ]
+      },
+      {
+        "id": "b018p2_c08_004",
+        "question": "أي فيلم رسوم متحركة تدور قصته حول الأسد سيمبا؟",
+        "answer": "The Lion King",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c08:004"
+        ]
+      },
+      {
+        "id": "b018p2_c08_005",
+        "question": "من أدى دور Iron Man في عالم مارفل السينمائي؟",
+        "answer": "روبرت داوني جونيور",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c08:005"
+        ]
+      },
+      {
+        "id": "b018p2_c08_006",
+        "question": "ما اسم الديناصور/الحديقة في الفيلم الشهير الذي أخرجه ستيفن سبيلبرغ عام 1993؟",
+        "answer": "Jurassic Park",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c08:006"
+        ]
+      },
+      {
+        "id": "b018p2_c08_007",
+        "question": "أي فيلم يتتبع رحلة فرودو لتدمير الخاتم؟",
+        "answer": "The Lord of the Rings",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c08:007"
+        ]
+      },
+      {
+        "id": "b018p2_c08_008",
+        "question": "من أدى دور الجوكر في The Dark Knight؟",
+        "answer": "هيث ليدجر",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c08:008"
+        ]
+      },
+      {
+        "id": "b018p2_c08_009",
+        "question": "ما اسم الروبوت الصغير بطل فيلم Pixar الصادر عام 2008؟",
+        "answer": "WALL-E",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c08:009"
+        ]
+      },
+      {
+        "id": "b018p2_c08_010",
+        "question": "أي فيلم من إخراج كريستوفر نولان يدور حول سرقة الأفكار عبر الأحلام؟",
+        "answer": "Inception",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c08:010"
+        ]
+      },
+      {
+        "id": "b018p2_c08_011",
+        "question": "ما اسم المملكة الخيالية في فيلم Frozen؟",
+        "answer": "أريندل",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c08:011"
+        ]
+      },
+      {
+        "id": "b018p2_c08_012",
+        "question": "من أدى دور فورست غامب؟",
+        "answer": "توم هانكس",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c08:012"
+        ]
+      },
+      {
+        "id": "b018p2_c08_013",
+        "question": "أي فيلم فاز بأوسكار أفضل فيلم ويتناول عائلة كورليوني؟",
+        "answer": "The Godfather",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c08:013"
+        ]
+      },
+      {
+        "id": "b018p2_c08_014",
+        "question": "ما اسم المركبة الفضائية التي يقودها هان سولو في Star Wars؟",
+        "answer": "Millennium Falcon",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c08:014"
+        ]
+      },
+      {
+        "id": "b018p2_c08_015",
+        "question": "من أخرج Pulp Fiction؟",
+        "answer": "كوينتن تارانتينو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c08:015"
+        ]
+      },
+      {
+        "id": "b018p2_c08_016",
+        "question": "أي فيلم لستيفن سبيلبرغ تدور قصته حول إنقاذ جندي خلال الحرب العالمية الثانية؟",
+        "answer": "Saving Private Ryan",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c08:016"
+        ]
+      },
+      {
+        "id": "b018p2_c08_017",
+        "question": "من أدى شخصية نيو في The Matrix؟",
+        "answer": "كيانو ريفز",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c08:017"
+        ]
+      },
+      {
+        "id": "b018p2_c08_018",
+        "question": "ما اسم الفندق في فيلم The Shining؟",
+        "answer": "Overlook Hotel",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c08:018"
+        ]
+      },
+      {
+        "id": "b018p2_c08_019",
+        "question": "أي فيلم تدور أحداثه حول نادي قتال سري وشخصية تايلر ديردن؟",
+        "answer": "Fight Club",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c08:019"
+        ]
+      },
+      {
+        "id": "b018p2_c08_020",
+        "question": "من أخرج The Grand Budapest Hotel؟",
+        "answer": "ويس أندرسون",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c08:020"
+        ]
+      },
+      {
+        "id": "b018p2_c08_021",
+        "question": "أي فيلم إيطالي فاز بأوسكار أفضل فيلم أجنبي وتدور قصته حول أب يحمي ابنه نفسيًا في معسكر اعتقال؟",
+        "answer": "Life Is Beautiful",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c08:021"
+        ]
+      },
+      {
+        "id": "b018p2_c08_022",
+        "question": "ما اسم الحاسوب الشرير في فيلم 2001: A Space Odyssey؟",
+        "answer": "HAL 9000",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c08:022"
+        ]
+      },
+      {
+        "id": "b018p2_c08_023",
+        "question": "أي فيلم لسكورسيزي يتناول شخصية ترافيس بيكل؟",
+        "answer": "Taxi Driver",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c08:023"
+        ]
+      },
+      {
+        "id": "b018p2_c08_024",
+        "question": "من أدى دور أنطون تشيغور في No Country for Old Men؟",
+        "answer": "خافيير بارديم",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c08:024"
+        ]
+      },
+      {
+        "id": "b018p2_c08_025",
+        "question": "أي فيلم فاز بأوسكار أفضل فيلم عام 2020 كأول فيلم غير ناطق بالإنجليزية يحقق ذلك؟",
+        "answer": "Parasite",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c08:025"
+        ]
+      },
+      {
+        "id": "b018p2_c08_026",
+        "question": "من أخرج فيلم Seven Samurai؟",
+        "answer": "أكيرا كوروساوا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c08:026"
+        ]
+      },
+      {
+        "id": "b018p2_c08_027",
+        "question": "أي فيلم صامت تقريبًا لتشارلي تشابلن يتناول العامل في عصر التصنيع؟",
+        "answer": "Modern Times",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c08:027"
+        ]
+      },
+      {
+        "id": "b018p2_c08_028",
+        "question": "ما اسم الكوكب الصحراوي الرئيسي في Dune؟",
+        "answer": "أراكيس",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c08:028"
+        ]
+      },
+      {
+        "id": "b018p2_c08_029",
+        "question": "من أخرج فيلم Pan's Labyrinth؟",
+        "answer": "غييرمو ديل تورو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c08:029"
+        ]
+      },
+      {
+        "id": "b018p2_c08_030",
+        "question": "أي فيلم من إخراج ديفيد فينشر يدور حول تأسيس فيسبوك؟",
+        "answer": "The Social Network",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c08:030"
+        ]
+      },
+      {
+        "id": "b018p2_c08_031",
+        "question": "أي فيلم فاز بأوسكار أفضل فيلم عام 1992 ويتناول شخصية هانيبال ليكتر؟",
+        "answer": "The Silence of the Lambs",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c08:031"
+        ]
+      },
+      {
+        "id": "b018p2_c08_032",
+        "question": "ما اسم المدينة الخيالية التي يحميها باتمان عادة؟",
+        "answer": "غوثام",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c08:032"
+        ]
+      },
+      {
+        "id": "b018p2_c08_033",
+        "question": "أي فيلم لكوبريك تدور أحداثه حول عائلة في فندق معزول خلال الشتاء؟",
+        "answer": "The Shining",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c08:033"
+        ]
+      },
+      {
+        "id": "b018p2_c08_034",
+        "question": "من أدى الدور الرئيسي في There Will Be Blood؟",
+        "answer": "دانيال داي لويس",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c08:034"
+        ]
+      },
+      {
+        "id": "b018p2_c08_035",
+        "question": "أي فيلم ياباني لكوروساوا ألهم بصورة مباشرة أفلام الويسترن مثل The Magnificent Seven؟",
+        "answer": "Seven Samurai",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c08:035"
+        ]
+      },
+      {
+        "id": "b018p2_c08_036",
+        "question": "ما اسم سفينة الفضاء في فيلم Alien الأصلي؟",
+        "answer": "Nostromo",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p2:c08:036"
+        ]
+      }
+    ]
+  }
+}
