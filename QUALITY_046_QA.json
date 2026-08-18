@@ -1,0 +1,16 @@
+{
+  "build": "046",
+  "issue_fixed": "start-game preparation failure on draw screen",
+  "batch019_loaded": true,
+  "expected_total_questions": 3576,
+  "changes": [
+    "fallback question allocator if strict builder fails",
+    "Safari-safe explicit match-intro DOM lookup",
+    "non-essential audio/visual helper failures cannot abort match start",
+    "last-resort board recovery"
+  ],
+  "question_bank_changes": "none",
+  "visual_changes": "none",
+  "audio_asset_changes": "none",
+  "javascript_syntax": "PASS"
+}
