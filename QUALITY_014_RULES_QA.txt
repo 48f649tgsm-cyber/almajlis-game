@@ -1,0 +1,15 @@
+ALMAJLIS QUALITY-014 RULE UPDATE
+No new questions in this patch.
+
+Applied:
+1. Shared cross-category lock for:
+   تاريخ إسلامي / تاريخ الخلفاء / تاريخ الصحابة / السيرة النبوية / حروف إسلامي
+2. Same normalized answer cannot reappear in those categories during one game.
+3. Same semantic key/entity/person/battle/event is also locked when metadata is available.
+4. Existing persistent used-question protections remain.
+5. Authoring policy added for future geography, Islamic history, companions, and Islamic-letter questions.
+6. Category images and Batch 008–013 question files are untouched.
+7. Minimum category stock rule remains unchanged.
+
+IMPORTANT:
+This is a rules/UI patch only. Batch 014 questions should be built after gameplay testing of these locks.
