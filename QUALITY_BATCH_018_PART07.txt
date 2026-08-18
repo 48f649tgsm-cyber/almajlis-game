@@ -1,0 +1,6 @@
+Batch 018 Part 07
+144 questions
+سوريا 36 | القرآن الكريم 36 | رؤساء دول 36 | مسلسلات عربية 36
+12x100 + 12x300 + 12x500 per category
+Unique IDs: PASS
+Structural QA: PASS

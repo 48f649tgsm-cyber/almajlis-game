@@ -1,0 +1,1598 @@
+{
+  "version": "18.7-part07",
+  "new_questions": 144,
+  "categories": {
+    "سوريا": [
+      {
+        "id": "b018p7_c25_001",
+        "question": "ما اسم أعلى قمة في سوريا؟",
+        "answer": "جبل الشيخ",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c25:001"
+        ]
+      },
+      {
+        "id": "b018p7_c25_002",
+        "question": "ما اسم المحافظة السورية التي مركزها مدينة السويداء؟",
+        "answer": "السويداء",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c25:002"
+        ]
+      },
+      {
+        "id": "b018p7_c25_003",
+        "question": "ما المحافظة التي تقع فيها مدينة القامشلي؟",
+        "answer": "الحسكة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c25:003"
+        ]
+      },
+      {
+        "id": "b018p7_c25_004",
+        "question": "ما النهر الذي يشكل موردًا مائيًا رئيسيًا في شمال شرق سوريا ويمر قرب الحسكة؟",
+        "answer": "نهر الخابور",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c25:004"
+        ]
+      },
+      {
+        "id": "b018p7_c25_005",
+        "question": "ما اسم الجزيرة الواقعة قبالة ساحل طرطوس؟",
+        "answer": "جزيرة أرواد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c25:005"
+        ]
+      },
+      {
+        "id": "b018p7_c25_006",
+        "question": "ما المدينة السورية التي تشتهر بكونها ميناءً تاريخيًا وتجاورها جزيرة أرواد؟",
+        "answer": "طرطوس",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c25:006"
+        ]
+      },
+      {
+        "id": "b018p7_c25_007",
+        "question": "ما اسم القصر الأموي الصحراوي الواقع قرب تدمر؟",
+        "answer": "قصر الحير الشرقي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c25:007"
+        ]
+      },
+      {
+        "id": "b018p7_c25_008",
+        "question": "ما اسم القصر الأموي الآخر الواقع إلى الغرب من تدمر؟",
+        "answer": "قصر الحير الغربي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c25:008"
+        ]
+      },
+      {
+        "id": "b018p7_c25_009",
+        "question": "ما المدينة التي كانت عاصمة الدولة الأموية؟",
+        "answer": "دمشق",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c25:009"
+        ]
+      },
+      {
+        "id": "b018p7_c25_010",
+        "question": "من مؤسس الدولة الأموية الذي اتخذ دمشق عاصمة؟",
+        "answer": "معاوية بن أبي سفيان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c25:010"
+        ]
+      },
+      {
+        "id": "b018p7_c25_011",
+        "question": "ما اسم المسجد التاريخي في حلب الذي يعرف أيضًا بالجامع الكبير؟",
+        "answer": "الجامع الأموي في حلب",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c25:011"
+        ]
+      },
+      {
+        "id": "b018p7_c25_012",
+        "question": "ما اسم القلعة الواقعة على جزيرة أرواد؟",
+        "answer": "قلعة أرواد",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c25:012"
+        ]
+      },
+      {
+        "id": "b018p7_c25_013",
+        "question": "ما اسم الموقع الأثري القديم قرب اللاذقية الذي اكتشفت فيه نصوص أبجدية مسمارية؟",
+        "answer": "أوغاريت",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c25:013"
+        ]
+      },
+      {
+        "id": "b018p7_c25_014",
+        "question": "ما الاسم الحديث للموقع الذي قامت فيه أوغاريت؟",
+        "answer": "رأس شمرا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c25:014"
+        ]
+      },
+      {
+        "id": "b018p7_c25_015",
+        "question": "أي مملكة قديمة اكتُشفت أرشيفاتها في تل مرديخ؟",
+        "answer": "إيبلا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c25:015"
+        ]
+      },
+      {
+        "id": "b018p7_c25_016",
+        "question": "ما اسم المدينة القديمة التي تقع آثارها في تل الحريري قرب الفرات؟",
+        "answer": "ماري",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c25:016"
+        ]
+      },
+      {
+        "id": "b018p7_c25_017",
+        "question": "ما المدينة السورية التي اشتهرت تاريخيًا بصناعة السيوف والفولاذ المنسوب إليها؟",
+        "answer": "دمشق",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c25:017"
+        ]
+      },
+      {
+        "id": "b018p7_c25_018",
+        "question": "ما اسم السهل الزراعي الواسع الواقع حول حوران في جنوب سوريا؟",
+        "answer": "سهل حوران",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c25:018"
+        ]
+      },
+      {
+        "id": "b018p7_c25_019",
+        "question": "ما المدينة التي تعد مركز منطقة حوران السورية تاريخيًا؟",
+        "answer": "درعا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c25:019"
+        ]
+      },
+      {
+        "id": "b018p7_c25_020",
+        "question": "ما اسم الجبل البركاني البارز في جنوب سوريا الذي عُرف تاريخيًا بجبل الدروز؟",
+        "answer": "جبل العرب",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c25:020"
+        ]
+      },
+      {
+        "id": "b018p7_c25_021",
+        "question": "أي محافظة سورية تضم معظم جبل العرب؟",
+        "answer": "السويداء",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c25:021"
+        ]
+      },
+      {
+        "id": "b018p7_c25_022",
+        "question": "ما اسم النهر الذي يمر بحماة وتدور عليه نواعيرها الشهيرة؟",
+        "answer": "العاصي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c25:022"
+        ]
+      },
+      {
+        "id": "b018p7_c25_023",
+        "question": "ما اسم البحيرة الواقعة غرب حمص قرب الحدود اللبنانية؟",
+        "answer": "بحيرة قطينة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c25:023"
+        ]
+      },
+      {
+        "id": "b018p7_c25_024",
+        "question": "ما الاسم القديم الشائع لمدينة اللاذقية في العصر الهلنستي؟",
+        "answer": "لاوديكيا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c25:024"
+        ]
+      },
+      {
+        "id": "b018p7_c25_025",
+        "question": "أي مدينة سورية كانت محطة مهمة على طريق الحرير واشتهرت بمملكتها العربية في الصحراء؟",
+        "answer": "تدمر",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c25:025"
+        ]
+      },
+      {
+        "id": "b018p7_c25_026",
+        "question": "من ملكة تدمر التي تحدت الإمبراطورية الرومانية؟",
+        "answer": "زنوبيا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c25:026"
+        ]
+      },
+      {
+        "id": "b018p7_c25_027",
+        "question": "ما اسم زوج زنوبيا وحاكم تدمر الذي وسع نفوذها قبلها؟",
+        "answer": "أذينة",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c25:027"
+        ]
+      },
+      {
+        "id": "b018p7_c25_028",
+        "question": "ما اسم الطريق التاريخي المستقيم الشهير في دمشق القديمة؟",
+        "answer": "الشارع المستقيم",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c25:028"
+        ]
+      },
+      {
+        "id": "b018p7_c25_029",
+        "question": "ما اسم باب دمشق القديم الذي ارتبط بالطريق المؤدي جنوبًا نحو حوران؟",
+        "answer": "باب الجابية",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c25:029"
+        ]
+      },
+      {
+        "id": "b018p7_c25_030",
+        "question": "ما اسم الباب الشرقي الشهير في سور دمشق القديمة؟",
+        "answer": "باب شرقي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c25:030"
+        ]
+      },
+      {
+        "id": "b018p7_c25_031",
+        "question": "ما اسم التكية العثمانية الشهيرة على ضفة بردى في دمشق؟",
+        "answer": "التكية السليمانية",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c25:031"
+        ]
+      },
+      {
+        "id": "b018p7_c25_032",
+        "question": "من المعماري العثماني الذي صمم التكية السليمانية في دمشق؟",
+        "answer": "معمار سنان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c25:032"
+        ]
+      },
+      {
+        "id": "b018p7_c25_033",
+        "question": "ما اسم الجبل المطل على مدينة دمشق من الشمال الغربي؟",
+        "answer": "جبل قاسيون",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c25:033"
+        ]
+      },
+      {
+        "id": "b018p7_c25_034",
+        "question": "ما النهر الذي ارتبط تاريخيًا بمدينة دمشق وغوطتها؟",
+        "answer": "نهر بردى",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c25:034"
+        ]
+      },
+      {
+        "id": "b018p7_c25_035",
+        "question": "ما اسم الواحة الزراعية التاريخية المحيطة بدمشق؟",
+        "answer": "غوطة دمشق",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c25:035"
+        ]
+      },
+      {
+        "id": "b018p7_c25_036",
+        "question": "ما اسم المدينة السورية التي تقع فيها قلعة المضيق قرب موقع أفاميا الأثري؟",
+        "answer": "السقيلبية/منطقة الغاب؛ قلعة المضيق قرب أفاميا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c25:036"
+        ]
+      }
+    ],
+    "القرآن الكريم": [
+      {
+        "id": "b018p7_c26_001",
+        "question": "ما السورة التي تحمل اسم نبي ووردت قصته فيها بصورة متصلة تقريبًا؟",
+        "answer": "يوسف",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c26:001"
+        ]
+      },
+      {
+        "id": "b018p7_c26_002",
+        "question": "ما السورة التي تبدأ بـ «تبارك الذي بيده الملك»؟",
+        "answer": "الملك",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c26:002"
+        ]
+      },
+      {
+        "id": "b018p7_c26_003",
+        "question": "ما السورة التي تبدأ بـ «الرحمن علم القرآن»؟",
+        "answer": "الرحمن",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c26:003"
+        ]
+      },
+      {
+        "id": "b018p7_c26_004",
+        "question": "ما السورة التي سميت باسم فريضة من فرائض الإسلام المالية؟",
+        "answer": "الزكاة ليست اسم سورة؛ لا توجد سورة بهذا الاسم",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c26:004"
+        ]
+      },
+      {
+        "id": "b018p7_c26_005",
+        "question": "ما السورة التي تحمل اسم حيوان ووردت فيها قصة بني إسرائيل معه؟",
+        "answer": "البقرة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c26:005"
+        ]
+      },
+      {
+        "id": "b018p7_c26_006",
+        "question": "ما السورة التي تحمل اسم حيوان آخر وتبدأ بقصة أصحاب الكهف؟",
+        "answer": "الكهف ليست اسم حيوان؛ السؤال خدعة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c26:006"
+        ]
+      },
+      {
+        "id": "b018p7_c26_007",
+        "question": "ما السورة التي سميت باسم إحدى الغزوات؟",
+        "answer": "الأحزاب",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c26:007"
+        ]
+      },
+      {
+        "id": "b018p7_c26_008",
+        "question": "ما السورة التي سميت باسم فتح عظيم؟",
+        "answer": "الفتح",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c26:008"
+        ]
+      },
+      {
+        "id": "b018p7_c26_009",
+        "question": "ما السورة التي سميت باسم جماعة ناصرت النبي ﷺ في المدينة؟",
+        "answer": "لا توجد سورة باسم الأنصار",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c26:009"
+        ]
+      },
+      {
+        "id": "b018p7_c26_010",
+        "question": "ما السورة التي تحمل اسم المنافقين؟",
+        "answer": "المنافقون",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c26:010"
+        ]
+      },
+      {
+        "id": "b018p7_c26_011",
+        "question": "ما السورة التي تحمل اسم المؤمنين؟",
+        "answer": "المؤمنون",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c26:011"
+        ]
+      },
+      {
+        "id": "b018p7_c26_012",
+        "question": "ما السورة التي تحمل اسم الشعراء؟",
+        "answer": "الشعراء",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c26:012"
+        ]
+      },
+      {
+        "id": "b018p7_c26_013",
+        "question": "في أي سورة وردت قصة الهدهد وملكة سبأ؟",
+        "answer": "النمل",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c26:013"
+        ]
+      },
+      {
+        "id": "b018p7_c26_014",
+        "question": "في أي سورة وردت قصة أصحاب الجنة الذين أقسموا ليصرمنها مصبحين؟",
+        "answer": "القلم",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c26:014"
+        ]
+      },
+      {
+        "id": "b018p7_c26_015",
+        "question": "في أي سورة وردت قصة لقمان ووصاياه لابنه؟",
+        "answer": "لقمان",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c26:015"
+        ]
+      },
+      {
+        "id": "b018p7_c26_016",
+        "question": "في أي سورة ورد ذكر غزوة بدر باسم يوم الفرقان؟",
+        "answer": "الأنفال",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c26:016"
+        ]
+      },
+      {
+        "id": "b018p7_c26_017",
+        "question": "في أي سورة وردت حادثة الإفك؟",
+        "answer": "النور",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c26:017"
+        ]
+      },
+      {
+        "id": "b018p7_c26_018",
+        "question": "في أي سورة وردت قصة المجادِلة التي اشتكت إلى الله؟",
+        "answer": "المجادلة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c26:018"
+        ]
+      },
+      {
+        "id": "b018p7_c26_019",
+        "question": "ما السورة التي تبدأ بـ «قد سمع الله قول التي تجادلك في زوجها»؟",
+        "answer": "المجادلة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c26:019"
+        ]
+      },
+      {
+        "id": "b018p7_c26_020",
+        "question": "ما السورة التي تبدأ بـ «إذا وقعت الواقعة»؟",
+        "answer": "الواقعة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c26:020"
+        ]
+      },
+      {
+        "id": "b018p7_c26_021",
+        "question": "ما السورة التي تبدأ بـ «عم يتساءلون»؟",
+        "answer": "النبأ",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c26:021"
+        ]
+      },
+      {
+        "id": "b018p7_c26_022",
+        "question": "ما السورة التي تبدأ بـ «هل أتى على الإنسان حين من الدهر»؟",
+        "answer": "الإنسان",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c26:022"
+        ]
+      },
+      {
+        "id": "b018p7_c26_023",
+        "question": "ما السورة التي تبدأ بـ «والمرسلات عرفا»؟",
+        "answer": "المرسلات",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c26:023"
+        ]
+      },
+      {
+        "id": "b018p7_c26_024",
+        "question": "ما السورة التي تبدأ بـ «عبس وتولى»؟",
+        "answer": "عبس",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c26:024"
+        ]
+      },
+      {
+        "id": "b018p7_c26_025",
+        "question": "في أي سورة وردت آية «فإن مع العسر يسرا»؟",
+        "answer": "الشرح",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c26:025"
+        ]
+      },
+      {
+        "id": "b018p7_c26_026",
+        "question": "في أي سورة وردت آية «إن أكرمكم عند الله أتقاكم»؟",
+        "answer": "الحجرات",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c26:026"
+        ]
+      },
+      {
+        "id": "b018p7_c26_027",
+        "question": "في أي سورة وردت آية «لا إكراه في الدين»؟",
+        "answer": "البقرة",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c26:027"
+        ]
+      },
+      {
+        "id": "b018p7_c26_028",
+        "question": "في أي سورة وردت آية «وقل رب زدني علما»؟",
+        "answer": "طه",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c26:028"
+        ]
+      },
+      {
+        "id": "b018p7_c26_029",
+        "question": "في أي سورة وردت آية «إن الله يأمر بالعدل والإحسان»؟",
+        "answer": "النحل",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c26:029"
+        ]
+      },
+      {
+        "id": "b018p7_c26_030",
+        "question": "في أي سورة وردت آية «واعتصموا بحبل الله جميعا»؟",
+        "answer": "آل عمران",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c26:030"
+        ]
+      },
+      {
+        "id": "b018p7_c26_031",
+        "question": "في أي سورة وردت آية «كل نفس ذائقة الموت» ضمن الآية 185؟",
+        "answer": "آل عمران",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c26:031"
+        ]
+      },
+      {
+        "id": "b018p7_c26_032",
+        "question": "في أي سورة وردت آية «وما محمد إلا رسول قد خلت من قبله الرسل»؟",
+        "answer": "آل عمران",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c26:032"
+        ]
+      },
+      {
+        "id": "b018p7_c26_033",
+        "question": "ما السورة التي ختمت بذكر صحف إبراهيم وموسى؟",
+        "answer": "الأعلى",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c26:033"
+        ]
+      },
+      {
+        "id": "b018p7_c26_034",
+        "question": "ما السورة التي ورد فيها وصف ليلة القدر بأنها خير من ألف شهر؟",
+        "answer": "القدر",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c26:034"
+        ]
+      },
+      {
+        "id": "b018p7_c26_035",
+        "question": "ما السورة التي تبدأ بالقسم بالتين والزيتون؟",
+        "answer": "التين",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c26:035"
+        ]
+      },
+      {
+        "id": "b018p7_c26_036",
+        "question": "ما السورة التي تبدأ بـ «ألهاكم التكاثر»؟",
+        "answer": "التكاثر",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c26:036"
+        ]
+      }
+    ],
+    "رؤساء دول": [
+      {
+        "id": "b018p7_c27_001",
+        "question": "من كان أول رئيس للولايات المتحدة يتولى المنصب بعد اغتيال رئيس؟",
+        "answer": "أندرو جونسون",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c27:001"
+        ]
+      },
+      {
+        "id": "b018p7_c27_002",
+        "question": "من كان الرئيس الأمريكي أثناء دخول الولايات المتحدة الحرب العالمية الأولى؟",
+        "answer": "وودرو ويلسون",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c27:002"
+        ]
+      },
+      {
+        "id": "b018p7_c27_003",
+        "question": "من كان الرئيس الأمريكي عند نهاية الحرب العالمية الثانية؟",
+        "answer": "هاري ترومان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c27:003"
+        ]
+      },
+      {
+        "id": "b018p7_c27_004",
+        "question": "من كان الرئيس الفرنسي خلال معظم أحداث مايو 1968؟",
+        "answer": "شارل ديغول",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c27:004"
+        ]
+      },
+      {
+        "id": "b018p7_c27_005",
+        "question": "من كان أول رئيس للجمهورية الخامسة في فرنسا؟",
+        "answer": "شارل ديغول",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c27:005"
+        ]
+      },
+      {
+        "id": "b018p7_c27_006",
+        "question": "من كان أول رئيس لجمهورية قبرص بعد الاستقلال؟",
+        "answer": "مكاريوس الثالث",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c27:006"
+        ]
+      },
+      {
+        "id": "b018p7_c27_007",
+        "question": "من كان أول رئيس لباكستان بعد إعلان الجمهورية عام 1956؟",
+        "answer": "إسكندر ميرزا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c27:007"
+        ]
+      },
+      {
+        "id": "b018p7_c27_008",
+        "question": "من كان أول رئيس لسريلانكا بعد تحولها إلى جمهورية؟",
+        "answer": "ويليام غوبالاوا",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c27:008"
+        ]
+      },
+      {
+        "id": "b018p7_c27_009",
+        "question": "من كان أول رئيس للمالديف في الجمهورية الثانية عام 1968؟",
+        "answer": "إبراهيم ناصر",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c27:009"
+        ]
+      },
+      {
+        "id": "b018p7_c27_010",
+        "question": "من كان أول رئيس لنيجيريا؟",
+        "answer": "نامدي أزيكيوي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c27:010"
+        ]
+      },
+      {
+        "id": "b018p7_c27_011",
+        "question": "من كان أول رئيس للسنغال؟",
+        "answer": "ليوبولد سيدار سنغور",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c27:011"
+        ]
+      },
+      {
+        "id": "b018p7_c27_012",
+        "question": "من كان أول رئيس لساحل العاج؟",
+        "answer": "فيليكس هوفويت بوانيي",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c27:012"
+        ]
+      },
+      {
+        "id": "b018p7_c27_013",
+        "question": "من كان أول رئيس للغابون؟",
+        "answer": "ليون مبا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c27:013"
+        ]
+      },
+      {
+        "id": "b018p7_c27_014",
+        "question": "من كان أول رئيس للكاميرون؟",
+        "answer": "أحمدو أهيدجو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c27:014"
+        ]
+      },
+      {
+        "id": "b018p7_c27_015",
+        "question": "من كان أول رئيس لزيمبابوي بعد الاستقلال عام 1980؟",
+        "answer": "كنعان بانانا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c27:015"
+        ]
+      },
+      {
+        "id": "b018p7_c27_016",
+        "question": "من كان أول رئيس لمالاوي؟",
+        "answer": "هاستينغز باندا",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c27:016"
+        ]
+      },
+      {
+        "id": "b018p7_c27_017",
+        "question": "من كان أول رئيس لأوغندا؟",
+        "answer": "موتيسا الثاني",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c27:017"
+        ]
+      },
+      {
+        "id": "b018p7_c27_018",
+        "question": "من كان أول رئيس لتنزانيا بعد اتحاد تنجانيقا وزنجبار؟",
+        "answer": "جوليوس نيريري",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c27:018"
+        ]
+      },
+      {
+        "id": "b018p7_c27_019",
+        "question": "من كان أول رئيس لموريشيوس بعد تحولها إلى جمهورية عام 1992؟",
+        "answer": "فيراسامي رينغادو",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c27:019"
+        ]
+      },
+      {
+        "id": "b018p7_c27_020",
+        "question": "من كان أول رئيس لناميبيا؟",
+        "answer": "سام نجوما",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c27:020"
+        ]
+      },
+      {
+        "id": "b018p7_c27_021",
+        "question": "من كان أول رئيس لإريتريا بعد الاستقلال؟",
+        "answer": "أسياس أفورقي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c27:021"
+        ]
+      },
+      {
+        "id": "b018p7_c27_022",
+        "question": "من كان أول رئيس لجمهورية جيبوتي؟",
+        "answer": "حسن جوليد أبتيدون",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c27:022"
+        ]
+      },
+      {
+        "id": "b018p7_c27_023",
+        "question": "من كان أول رئيس لجمهورية الصومال عام 1960؟",
+        "answer": "آدم عبد الله عثمان",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c27:023"
+        ]
+      },
+      {
+        "id": "b018p7_c27_024",
+        "question": "من كان أول رئيس لليمن بعد قيام الجمهورية اليمنية الموحدة عام 1990؟",
+        "answer": "علي عبد الله صالح",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c27:024"
+        ]
+      },
+      {
+        "id": "b018p7_c27_025",
+        "question": "من كان أول رئيس للبوسنة والهرسك المستقلة ضمن رئاسة الدولة الجماعية؟",
+        "answer": "علي عزت بيغوفيتش",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c27:025"
+        ]
+      },
+      {
+        "id": "b018p7_c27_026",
+        "question": "من كان أول رئيس لكرواتيا المستقلة؟",
+        "answer": "فرانيو توجمان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c27:026"
+        ]
+      },
+      {
+        "id": "b018p7_c27_027",
+        "question": "من كان أول رئيس لسلوفينيا المستقلة؟",
+        "answer": "ميلان كوتشان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c27:027"
+        ]
+      },
+      {
+        "id": "b018p7_c27_028",
+        "question": "من كان أول رئيس لأوكرانيا المستقلة بعد انهيار الاتحاد السوفيتي؟",
+        "answer": "ليونيد كرافتشوك",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c27:028"
+        ]
+      },
+      {
+        "id": "b018p7_c27_029",
+        "question": "من كان أول رئيس لبيلاروس بعد استحداث منصب الرئاسة عام 1994؟",
+        "answer": "ألكسندر لوكاشينكو",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c27:029"
+        ]
+      },
+      {
+        "id": "b018p7_c27_030",
+        "question": "من كان أول رئيس لجورجيا بعد الاستقلال عن الاتحاد السوفيتي؟",
+        "answer": "زفياد غامساخورديا",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c27:030"
+        ]
+      },
+      {
+        "id": "b018p7_c27_031",
+        "question": "من كان أول رئيس لأرمينيا المستقلة؟",
+        "answer": "ليفون تير-بيتروسيان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c27:031"
+        ]
+      },
+      {
+        "id": "b018p7_c27_032",
+        "question": "من كان أول رئيس لأذربيجان بعد الاستقلال في 1991؟",
+        "answer": "أياز مطلبوف",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c27:032"
+        ]
+      },
+      {
+        "id": "b018p7_c27_033",
+        "question": "من كان أول رئيس لكازاخستان؟",
+        "answer": "نور سلطان نزارباييف",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c27:033"
+        ]
+      },
+      {
+        "id": "b018p7_c27_034",
+        "question": "من كان أول رئيس لأوزبكستان؟",
+        "answer": "إسلام كريموف",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c27:034"
+        ]
+      },
+      {
+        "id": "b018p7_c27_035",
+        "question": "من كان أول رئيس لقيرغيزستان؟",
+        "answer": "عسكر أكاييف",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c27:035"
+        ]
+      },
+      {
+        "id": "b018p7_c27_036",
+        "question": "من كان أول رئيس لطاجيكستان بعد الاستقلال؟",
+        "answer": "قهرمان نبييف",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c27:036"
+        ]
+      }
+    ],
+    "مسلسلات عربية": [
+      {
+        "id": "b018p7_c28_001",
+        "question": "ما اسم المسلسل السوري الذي قام فيه أيمن زيدان بدور جميل وائل رمضان بدور صديقه في قصة كوميدية عن البطالة؟",
+        "answer": "يوميات مدير عام",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c28:001"
+        ]
+      },
+      {
+        "id": "b018p7_c28_002",
+        "question": "من جسد شخصية المدير العام أحمد عبد الحق في مسلسل يوميات مدير عام؟",
+        "answer": "أيمن زيدان",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c28:002"
+        ]
+      },
+      {
+        "id": "b018p7_c28_003",
+        "question": "ما اسم المسلسل السوري الذي أدى فيه أيمن زيدان شخصية أبو نادر في عمل اجتماعي شهير عن عائلة كبيرة؟",
+        "answer": "أيام الغضب",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c28:003"
+        ]
+      },
+      {
+        "id": "b018p7_c28_004",
+        "question": "ما اسم المسلسل السوري الكوميدي الذي جمع دريد لحام وناجي جبر واشتهر بشخصيتي غوار وأبو عنتر؟",
+        "answer": "صح النوم",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c28:004"
+        ]
+      },
+      {
+        "id": "b018p7_c28_005",
+        "question": "من جسد شخصية أبو عنتر؟",
+        "answer": "ناجي جبر",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c28:005"
+        ]
+      },
+      {
+        "id": "b018p7_c28_006",
+        "question": "ما اسم المسلسل السوري الذي تناول حياة عائلة دمشقية خلال الانتداب الفرنسي واشتهر بشخصية أبو كامل؟",
+        "answer": "أبو كامل",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c28:006"
+        ]
+      },
+      {
+        "id": "b018p7_c28_007",
+        "question": "من جسد شخصية أبو كامل؟",
+        "answer": "أسعد فضة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c28:007"
+        ]
+      },
+      {
+        "id": "b018p7_c28_008",
+        "question": "ما اسم المسلسل السوري الذي تناول البيئة الشامية وبدأت أحداثه بحارة الضبع؟",
+        "answer": "باب الحارة",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c28:008"
+        ]
+      },
+      {
+        "id": "b018p7_c28_009",
+        "question": "من جسد شخصية معتز في الأجزاء الأولى من باب الحارة؟",
+        "answer": "وائل شرف",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c28:009"
+        ]
+      },
+      {
+        "id": "b018p7_c28_010",
+        "question": "من جسدت شخصية أم عصام في باب الحارة؟",
+        "answer": "صباح الجزائري",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c28:010"
+        ]
+      },
+      {
+        "id": "b018p7_c28_011",
+        "question": "ما اسم المسلسل المصري الذي جسد فيه يحيى الفخراني شخصية شيخ العرب همام؟",
+        "answer": "شيخ العرب همام",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c28:011"
+        ]
+      },
+      {
+        "id": "b018p7_c28_012",
+        "question": "من جسد شخصية شيخ العرب همام؟",
+        "answer": "يحيى الفخراني",
+        "points": 100,
+        "difficulty_v4": "medium",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c28:012"
+        ]
+      },
+      {
+        "id": "b018p7_c28_013",
+        "question": "ما اسم المسلسل المصري الذي قام ببطولته عادل إمام بشخصية أستاذ جامعي يُدعى ناجي عطا الله؟",
+        "answer": "فرقة ناجي عطا الله",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c28:013"
+        ]
+      },
+      {
+        "id": "b018p7_c28_014",
+        "question": "ما اسم المسلسل المصري الذي أدى فيه عادل إمام شخصية مأمون مباشر؟",
+        "answer": "مأمون وشركاه",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c28:014"
+        ]
+      },
+      {
+        "id": "b018p7_c28_015",
+        "question": "ما اسم المسلسل المصري الذي جسد فيه عادل إمام شخصية نور عبد المجيد؟",
+        "answer": "عوالم خفية",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c28:015"
+        ]
+      },
+      {
+        "id": "b018p7_c28_016",
+        "question": "ما اسم المسلسل المصري الذي لعب فيه أحمد السقا شخصية منصور الحفني؟",
+        "answer": "ولد الغلابة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c28:016"
+        ]
+      },
+      {
+        "id": "b018p7_c28_017",
+        "question": "من جسد شخصية جعفر العمدة؟",
+        "answer": "محمد رمضان",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c28:017"
+        ]
+      },
+      {
+        "id": "b018p7_c28_018",
+        "question": "ما اسم المسلسل المصري الذي جسدت فيه منى زكي شخصية حنان العاملة على مركب صيد؟",
+        "answer": "تحت الوصاية",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c28:018"
+        ]
+      },
+      {
+        "id": "b018p7_c28_019",
+        "question": "ما اسم المسلسل المصري الكوميدي الذي لعب فيه أحمد أمين دور شفيق؟",
+        "answer": "الصفارة",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c28:019"
+        ]
+      },
+      {
+        "id": "b018p7_c28_020",
+        "question": "من جسد شخصية الكبير وجوني وحزلقوم في مسلسل الكبير أوي؟",
+        "answer": "أحمد مكي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c28:020"
+        ]
+      },
+      {
+        "id": "b018p7_c28_021",
+        "question": "ما اسم المسلسل السوري الذي جسد فيه جمال سليمان شخصية مندور أبو الدهب؟",
+        "answer": "حدائق الشيطان",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c28:021"
+        ]
+      },
+      {
+        "id": "b018p7_c28_022",
+        "question": "من جسد شخصية مندور أبو الدهب؟",
+        "answer": "جمال سليمان",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c28:022"
+        ]
+      },
+      {
+        "id": "b018p7_c28_023",
+        "question": "ما اسم المسلسل السوري التاريخي الذي جسد فيه جمال سليمان شخصية صلاح الدين؟",
+        "answer": "صلاح الدين الأيوبي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c28:023"
+        ]
+      },
+      {
+        "id": "b018p7_c28_024",
+        "question": "من أخرج مسلسل صلاح الدين الأيوبي؟",
+        "answer": "حاتم علي",
+        "points": 300,
+        "difficulty_v4": "hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c28:024"
+        ]
+      },
+      {
+        "id": "b018p7_c28_025",
+        "question": "ما اسم المسلسل التاريخي الذي تناول سقوط غرناطة وشارك فيه جمال سليمان وتيم حسن؟",
+        "answer": "ربيع قرطبة",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c28:025"
+        ]
+      },
+      {
+        "id": "b018p7_c28_026",
+        "question": "من أخرج ربيع قرطبة؟",
+        "answer": "حاتم علي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c28:026"
+        ]
+      },
+      {
+        "id": "b018p7_c28_027",
+        "question": "ما اسم المسلسل الذي أكمل ثلاثية الأندلس بعد صقر قريش وربيع قرطبة؟",
+        "answer": "ملوك الطوائف",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c28:027"
+        ]
+      },
+      {
+        "id": "b018p7_c28_028",
+        "question": "ما اسم الجزء الأول من ثلاثية الأندلس لحاتم علي؟",
+        "answer": "صقر قريش",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c28:028"
+        ]
+      },
+      {
+        "id": "b018p7_c28_029",
+        "question": "من جسد شخصية عبد الرحمن الداخل في صقر قريش؟",
+        "answer": "جمال سليمان",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c28:029"
+        ]
+      },
+      {
+        "id": "b018p7_c28_030",
+        "question": "ما اسم المسلسل السوري الذي قام ببطولته بسام كوسا بشخصية نصار في بيئة دمشقية؟",
+        "answer": "الحصرم الشامي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c28:030"
+        ]
+      },
+      {
+        "id": "b018p7_c28_031",
+        "question": "من أخرج الحصرم الشامي؟",
+        "answer": "سيف الدين سبيعي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c28:031"
+        ]
+      },
+      {
+        "id": "b018p7_c28_032",
+        "question": "ما اسم المسلسل السوري الذي أدى فيه بسام كوسا شخصية المقدم رؤوف في عمل بوليسي اجتماعي؟",
+        "answer": "قاع المدينة",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c28:032"
+        ]
+      },
+      {
+        "id": "b018p7_c28_033",
+        "question": "ما اسم المسلسل اللبناني السوري الذي جسدت فيه نادين نسيب نجيم شخصية زهرة؟",
+        "answer": "صالون زهرة",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c28:033"
+        ]
+      },
+      {
+        "id": "b018p7_c28_034",
+        "question": "من جسد شخصية أنس في صالون زهرة؟",
+        "answer": "معتصم النهار",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c28:034"
+        ]
+      },
+      {
+        "id": "b018p7_c28_035",
+        "question": "ما اسم المسلسل السوري الكوميدي الذي لعب فيه سامر المصري دور سائق تاكسي دمشقي؟",
+        "answer": "أبو جانتي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c28:035"
+        ]
+      },
+      {
+        "id": "b018p7_c28_036",
+        "question": "ما اللقب الذي اشتهرت به الشخصية الرئيسية في مسلسل أبو جانتي؟",
+        "answer": "ملك التاكسي",
+        "points": 500,
+        "difficulty_v4": "very_hard",
+        "entities": {},
+        "semantic_keys": [
+          "b018p7:c28:036"
+        ]
+      }
+    ]
+  }
+}
