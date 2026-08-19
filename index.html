@@ -3,53 +3,41 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
   <title>المجلس — BUILD 109</title>
 </head>
 <body>
 <script>
-(function () {
+(function(){
   'use strict';
+  var pinned='bc29ad29b811f661e44f4ee764c9af43483a297d';
+  var url='https://raw.githubusercontent.com/48f649tgsm-cyber/almajlis-game/'+pinned+'/index.html';
 
-  /* Stable base used by BUILD 108 */
-  var pinned = 'bc29ad29b811f661e44f4ee764c9af43483a297d';
-  var url = 'https://raw.githubusercontent.com/48f649tgsm-cyber/almajlis-game/' + pinned + '/index.html';
+  fetch(url,{cache:'no-store'})
+    .then(function(r){if(!r.ok)throw new Error('HTTP '+r.status);return r.text()})
+    .then(function(html){
+      var scripts='<script src="build108.js?v=109safe3"><\/script>\n<script src="build109.js?v=109safe3"><\/script>';
 
-  fetch(url, { cache: 'no-store' })
-    .then(function (r) {
-      if (!r.ok) throw new Error('HTTP ' + r.status);
-      return r.text();
-    })
-    .then(function (html) {
-      /* Replace BUILD 107 layer with BUILD 108 + BUILD 109, in that order. */
-      var scripts =
-        '<script src="build108.js?v=109-base-2"><\/script>\n' +
-        '<script src="build109.js?v=109-arena-2"><\/script>';
-
-      html = html.replace(
+      html=html.replace(
         /<script\s+src=["']build107\.js(?:\?[^"']*)?["']\s*><\/script>/i,
         scripts
       );
 
-      /* Fallback if build107 tag differs in the pinned base. */
-      if (!/build109\.js/i.test(html)) {
-        html = html.replace(/<\/body>/i, scripts + '\n</body>');
+      if(!/build109\.js/i.test(html)){
+        html=html.replace(/<\/body>/i,scripts+'\n</body>');
       }
 
-      html = html.replace(/BUILD\s*107/gi, 'BUILD 109');
-      html = html.replace(/BUILD\s*108/gi, 'BUILD 109');
-
+      html=html.replace(/BUILD\s*107/gi,'BUILD 109');
       document.open();
       document.write(html);
       document.close();
     })
-    .catch(function (err) {
-      document.body.innerHTML =
-        '<main dir="rtl" style="font-family:system-ui;padding:28px;text-align:center">' +
-        '<h2>تعذر تحميل ملفات اللعبة</h2>' +
-        '<p>تحقق من الاتصال ثم أعد فتح الصفحة.</p>' +
-        '<small style="opacity:.6">BUILD 109 — loader fix 2</small>' +
-        '</main>';
-      console.error('Almajlis BUILD 109 loader:', err);
+    .catch(function(err){
+      document.body.innerHTML='<main dir="rtl" style="font-family:system-ui;padding:28px;text-align:center">'+
+        '<h2>تعذر تحميل ملفات اللعبة</h2>'+
+        '<p>تعذر تحميل قاعدة اللعبة. أعد فتح الصفحة بعد لحظات.</p>'+
+        '<small style="opacity:.6">BUILD 109 SAFE 3</small></main>';
+      console.error('Almajlis BUILD 109 bootstrap:',err);
     });
 })();
 </script>

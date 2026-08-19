@@ -2,6 +2,7 @@
 (function(){
 'use strict';
 const BUILD='109';
+window.ALMAJLIS_BUILD_PATCH='109-safe-loop-3';
 window.ALMAJLIS_BUILD=BUILD;
 const $=id=>document.getElementById(id);
 const $$=(sel,root=document)=>Array.from(root.querySelectorAll(sel));
@@ -320,18 +321,18 @@ function showVS(){
 function escapeHtml(s){return String(s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
 
 function classifyBoardValues(){
+  if(!$('boardScreen')?.classList.contains('active')) return;
   const tiles=$$('#boardScreen button,#boardScreen .cell,#boardScreen .tile,#boardScreen [onclick*="openQuestion"]');
   tiles.forEach(el=>{
     const txt=(el.textContent||'').trim();
-    el.classList.remove('b109-v100','b109-v300','b109-v500');
-    if(/\b100\b/.test(txt))el.classList.add('b109-v100');
-    else if(/\b300\b/.test(txt))el.classList.add('b109-v300');
-    else if(/\b500\b/.test(txt))el.classList.add('b109-v500');
+    const wanted=/\b100\b/.test(txt)?'b109-v100':(/\b300\b/.test(txt)?'b109-v300':(/\b500\b/.test(txt)?'b109-v500':''));
+    if(wanted && !el.classList.contains(wanted)) el.classList.add(wanted);
   });
-  state.total=tiles.filter(el=>/\b(?:100|300|500)\b/.test((el.textContent||''))).length||state.total;
-  state.used=tiles.filter(el=>el.disabled||el.classList.contains('used')).length;
+  const pointTiles=tiles.filter(el=>/\b(?:100|300|500)\b/.test((el.textContent||'')));
+  if(pointTiles.length) state.total=pointTiles.length;
+  state.used=pointTiles.filter(el=>el.disabled||el.classList.contains('used')).length;
   updateProgress();
-  markLastTile(tiles);
+  markLastTile(pointTiles);
 }
 
 function updateProgress(){
@@ -341,9 +342,12 @@ function updateProgress(){
 }
 
 function markLastTile(tiles){
-  tiles.forEach(x=>x.classList.remove('b109-last-tile'));
   const avail=tiles.filter(el=>!(el.disabled||el.classList.contains('used')) && /\b(?:100|300|500)\b/.test(el.textContent||''));
-  if(avail.length===1)avail[0].classList.add('b109-last-tile');
+  const target=avail.length===1?avail[0]:null;
+  tiles.forEach(el=>{
+    const should=el===target;
+    if(el.classList.contains('b109-last-tile')!==should) el.classList.toggle('b109-last-tile',should);
+  });
 }
 
 function tileTransition(el){
@@ -398,18 +402,20 @@ function guessTeams(){
 
 function spotlightTeams(){
   const teams=guessTeams();if(teams.length<2)return;
-  teams.forEach(t=>t.host?.classList.remove('b109-active-team','b109-inactive-team'));
   const activeHints=$$('[class*="activeTeam" i],[id*="turn" i],[class*="turn" i]').map(x=>(x.textContent||'').trim()).join(' ');
   let active=-1;
-  teams.forEach((t,i)=>{if(activeHints&&activeHints.includes(t.name))active=i});
+  teams.forEach((t,i)=>{if(activeHints&&t.name&&activeHints.includes(t.name))active=i});
   if(active<0){
     const a=teams.findIndex(t=>t.host?.classList.contains('active')||t.host?.classList.contains('current'));
     if(a>=0)active=a;
   }
-  if(active>=0){
-    teams[active].host?.classList.add('b109-active-team');
-    teams[1-active]?.host?.classList.add('b109-inactive-team');
-  }
+  teams.forEach((t,i)=>{
+    if(!t.host)return;
+    const shouldActive=active>=0&&i===active;
+    const shouldInactive=active>=0&&i!==active;
+    if(t.host.classList.contains('b109-active-team')!==shouldActive) t.host.classList.toggle('b109-active-team',shouldActive);
+    if(t.host.classList.contains('b109-inactive-team')!==shouldInactive) t.host.classList.toggle('b109-inactive-team',shouldInactive);
+  });
 }
 
 function scoreEffects(){
@@ -524,12 +530,14 @@ function winnerIfNeeded(){
 }
 
 function tieMoment(){
-  const t=guessTeams();if(t.length<2)return;
+  const t=guessTeams();if(t.length<2){state.wasTie=false;return}
   const a=Number((t[0].scoreEl.textContent||'').replace(/[^\d-]/g,'')),b=Number((t[1].scoreEl.textContent||'').replace(/[^\d-]/g,''));
-  if(Number.isFinite(a)&&a===b&&a>0){
+  const tied=Number.isFinite(a)&&Number.isFinite(b)&&a===b&&a>0;
+  if(tied&&!state.wasTie){
     t[0].host?.classList.add('b109-milestone');t[1].host?.classList.add('b109-milestone');
     setTimeout(()=>{t[0].host?.classList.remove('b109-milestone');t[1].host?.classList.remove('b109-milestone')},850);
   }
+  state.wasTie=tied;
 }
 
 function detectScreenChange(){
@@ -542,14 +550,23 @@ function detectScreenChange(){
   if(id==='answerScreen')enhanceMedia();
 }
 
+let tickBusy=false;
 function observerTick(){
-  detectScreenChange();
-  classifyBoardValues();
-  spotlightTeams();
-  scoreEffects();
-  tieMoment();
-  updateTimer();
-  winnerIfNeeded();
+  if(tickBusy)return;
+  tickBusy=true;
+  try{
+    detectScreenChange();
+    classifyBoardValues();
+    spotlightTeams();
+    scoreEffects();
+    tieMoment();
+    updateTimer();
+    winnerIfNeeded();
+  }catch(err){
+    console.warn('BUILD 109 visual tick skipped:',err);
+  }finally{
+    tickBusy=false;
+  }
 }
 
 function markBuild(){
@@ -581,11 +598,15 @@ function clickHooks(){
 
 function init(){
   injectStyles();ensureChrome();markBuild();parallax();clickHooks();intro();
-  const mo=new MutationObserver(()=>{clearTimeout(mo._t);mo._t=setTimeout(observerTick,30)});
-  mo.observe(document.body,{subtree:true,childList:true,characterData:true,attributes:true,attributeFilter:['class','disabled','style']});
-  setInterval(updateTimer,280);
+
+  // Observe content changes only. Watching our own class/style changes caused a feedback loop on mobile.
+  const mo=new MutationObserver(()=>{clearTimeout(mo._t);mo._t=setTimeout(observerTick,90)});
+  mo.observe(document.body,{subtree:true,childList:true,characterData:true});
+
+  // Screen changes in the base game are often class-only changes, so poll gently instead of observing attributes.
+  setInterval(observerTick,420);
   setTimeout(observerTick,80);setTimeout(observerTick,500);
-  console.info('Almajlis BUILD 109 visual arena loaded');
+  console.info('Almajlis BUILD 109 visual arena loaded — SAFE LOOP FIX');
 }
 
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init,{once:true});else init();
