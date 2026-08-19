@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-  <title>المجلس — BUILD 108 FIXED</title>
+  <title>المجلس — BUILD 108 FIXED v4</title>
 </head>
 <body>
 <script>
 (function () {
   'use strict';
 
-  /* BUILD 108 FIXED
+  /* BUILD 108 FIXED v4
      - Keeps the stable BUILD 107 base.
      - Loads BUILD 108 only as a small compatibility/content layer.
      - No duplicate career script injection.
@@ -32,12 +32,12 @@
         if (build107Tag.test(html)) {
           html = html.replace(
             build107Tag,
-            '$1\n<script src="build108.js?v=stable-3"><\/script>'
+            '$1\n<script src="build108.js?v=stable-4"><\/script>'
           );
         } else {
           html = html.replace(
             /<\/body>/i,
-            '<script src="build108.js?v=stable-3"><\/script>\n</body>'
+            '<script src="build108.js?v=stable-4"><\/script>\n</body>'
           );
         }
       }
@@ -51,7 +51,7 @@
         '<main dir="rtl" style="font-family:system-ui;padding:28px;text-align:center">' +
           '<h2>تعذر تحميل ملفات اللعبة</h2>' +
           '<p>تحقق من الاتصال ثم أعد فتح الصفحة.</p>' +
-          '<small style="opacity:.6">BUILD 108 FIXED</small>' +
+          '<small style="opacity:.6">BUILD 108 FIXED v4</small>' +
         '</main>';
       console.error('Almajlis BUILD 108 fixed bootstrap:', err);
     });
