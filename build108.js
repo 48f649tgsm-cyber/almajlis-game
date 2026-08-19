@@ -11,7 +11,7 @@
 
   if (window.__ALMAJLIS_BUILD108_FIXED__) return;
   window.__ALMAJLIS_BUILD108_FIXED__ = true;
-  window.ALMAJLIS_BUILD = '108-fixed';
+  window.ALMAJLIS_BUILD = '108-fixed-4';
 
   function byId(id) {
     return document.getElementById(id);
@@ -156,6 +156,7 @@
   function applyQuestionFixes() {
     applyCareerCorrection();
     applyWhoPlayerStory();
+    applyVisual108();
   }
 
   function resetQuestionFlags() {
@@ -165,9 +166,317 @@
     q.removeAttribute('data-career108-source');
     q.removeAttribute('data-who108-story');
     q.removeAttribute('data-who108-result');
+    q.removeAttribute('data-common108-rendered');
+    q.removeAttribute('data-common108-original');
+    q.classList.remove('commonClubQuestion108');
+  }
+
+
+  /* ===== BUILD 108 visual refinement: common club + compact career ===== */
+
+  function escHtml(value) {
+    return String(value || '').replace(/[&<>"']/g, function (c) {
+      return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];
+    });
+  }
+
+  function ensure108Styles() {
+    if (byId('build108Fixed4Styles')) return;
+
+    var style = document.createElement('style');
+    style.id = 'build108Fixed4Styles';
+    style.textContent = `
+      /* Common-club question */
+      #qText.commonClubQuestion108{
+        width:min(100%,820px)!important;
+        max-width:820px!important;
+        padding:12px 10px 10px!important;
+        box-sizing:border-box!important;
+        text-align:center!important;
+        overflow:visible!important;
+      }
+      .commonClubTitle108{
+        font-size:clamp(20px,4.7vw,34px);
+        line-height:1.25;
+        font-weight:950;
+        margin:0 0 14px;
+      }
+      .commonPlayers108{
+        display:grid;
+        grid-template-columns:repeat(var(--common-count,3),minmax(0,1fr));
+        gap:10px;
+        width:100%;
+        max-width:720px;
+        margin:0 auto;
+      }
+      .commonPlayer108{
+        min-width:0;
+        overflow:hidden;
+        border:1px solid rgba(214,169,68,.42);
+        border-radius:16px;
+        background:rgba(255,255,255,.07);
+        box-shadow:0 6px 18px rgba(0,0,0,.16);
+      }
+      .commonPhotoWrap108{
+        position:relative;
+        aspect-ratio:4/5;
+        width:100%;
+        overflow:hidden;
+        background:linear-gradient(145deg,rgba(255,255,255,.10),rgba(255,255,255,.03));
+      }
+      .commonPhoto108{
+        display:block;
+        width:100%!important;
+        height:100%!important;
+        max-width:none!important;
+        object-fit:cover!important;
+        object-position:50% 18%;
+        border-radius:0!important;
+        box-shadow:none!important;
+      }
+      .commonFallback108{
+        position:absolute;
+        inset:0;
+        display:grid;
+        place-items:center;
+        font-size:clamp(34px,8vw,58px);
+        background:rgba(255,255,255,.04);
+      }
+      .commonPlayerName108{
+        min-height:42px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        padding:7px 5px 8px;
+        font-size:clamp(13px,3.3vw,20px);
+        line-height:1.15;
+        font-weight:900;
+      }
+      .commonClubHint108{
+        margin-top:12px;
+        font-size:clamp(13px,3vw,18px);
+        opacity:.78;
+        font-weight:750;
+      }
+
+      /* Compact career: override BUILD 107 vertical list */
+      #qText.careerQuestion107,
+      #qText.careerQuestion108{
+        width:min(100%,900px)!important;
+        max-width:900px!important;
+        padding:6px 4px!important;
+        box-sizing:border-box!important;
+        font-size:clamp(12px,2.6vw,18px)!important;
+      }
+      #qText .careerTitle{
+        margin:0 0 8px!important;
+        font-size:clamp(19px,4.2vw,28px)!important;
+        line-height:1.15!important;
+      }
+      #qText .careerTimeline{
+        display:grid!important;
+        grid-template-columns:repeat(2,minmax(0,1fr))!important;
+        gap:7px!important;
+        width:100%!important;
+        max-width:820px!important;
+        margin:0 auto!important;
+        padding:0!important;
+      }
+      #qText .careerTimeline li{
+        position:relative!important;
+        display:grid!important;
+        grid-template-columns:28px minmax(0,1fr)!important;
+        grid-template-rows:auto auto!important;
+        grid-template-areas:
+          "idx club"
+          "idx period"!important;
+        align-items:center!important;
+        column-gap:7px!important;
+        row-gap:1px!important;
+        min-height:58px!important;
+        padding:6px 8px!important;
+        margin:0!important;
+        border-radius:12px!important;
+        box-sizing:border-box!important;
+        text-align:right!important;
+      }
+      #qText .careerIndex{
+        grid-area:idx!important;
+        width:26px!important;
+        height:26px!important;
+        font-size:13px!important;
+      }
+      #qText .careerClub{
+        grid-area:club!important;
+        min-width:0!important;
+        font-size:clamp(13px,3.1vw,18px)!important;
+        line-height:1.12!important;
+        font-weight:950!important;
+        overflow-wrap:anywhere!important;
+      }
+      #qText .careerPeriod{
+        grid-area:period!important;
+        justify-self:start!important;
+        font-size:clamp(11px,2.6vw,15px)!important;
+        line-height:1.1!important;
+        opacity:.78!important;
+        white-space:nowrap!important;
+      }
+      #qText .careerAsk{
+        margin-top:8px!important;
+        font-size:clamp(17px,3.7vw,23px)!important;
+        line-height:1.1!important;
+        font-weight:950!important;
+      }
+
+      @media (orientation:landscape){
+        #qText .careerTimeline{
+          grid-template-columns:repeat(3,minmax(0,1fr))!important;
+          gap:5px!important;
+        }
+        #qText .careerTimeline li{
+          min-height:48px!important;
+          padding:4px 6px!important;
+        }
+        #qText .careerTitle{margin-bottom:5px!important}
+        #qText .careerAsk{margin-top:5px!important}
+        .commonPlayers108{max-width:620px}
+        .commonPhotoWrap108{aspect-ratio:1/1}
+      }
+
+      @media (max-width:380px){
+        #qText .careerTimeline{gap:5px!important}
+        #qText .careerTimeline li{
+          min-height:54px!important;
+          padding:5px 6px!important;
+          grid-template-columns:24px minmax(0,1fr)!important;
+          column-gap:5px!important;
+        }
+        #qText .careerIndex{width:22px!important;height:22px!important;font-size:11px!important}
+        .commonPlayers108{gap:7px}
+        .commonPlayerName108{font-size:12px;min-height:38px}
+      }
+    `;
+    document.head.appendChild(style);
+  }
+
+  function parseCommonClubPlayers(text) {
+    var t = norm(text).replace(/[؟?]+$/, '');
+    var match = t.match(/(?:في\s+مسيرة|مسيرة)\s+(.+)$/);
+    if (!match) return [];
+
+    var raw = match[1];
+    var names = raw.split(/\s*[،,]\s*/).map(norm).filter(Boolean);
+
+    /* Questions in this category are audited to contain 3+ players.
+       Limit the visual layer to 4 cards so it stays usable on a phone. */
+    return names.length >= 3 ? names.slice(0, 4) : [];
+  }
+
+  function wikiThumbUrl(name) {
+    var params =
+      '?action=query&generator=search' +
+      '&gsrnamespace=0&gsrlimit=1' +
+      '&gsrsearch=' + encodeURIComponent(name + ' لاعب كرة قدم') +
+      '&prop=pageimages&piprop=thumbnail&pithumbsize=420' +
+      '&format=json&origin=*';
+    return 'https://ar.wikipedia.org/w/api.php' + params;
+  }
+
+  function loadPlayerPhoto(name, img, fallback) {
+    var cacheKey = 'alm108-photo:' + name;
+    try {
+      var cached = sessionStorage.getItem(cacheKey);
+      if (cached) {
+        img.onload = function(){ fallback.style.display='none'; };
+        img.src = cached;
+        return;
+      }
+    } catch (_) {}
+
+    var controller = typeof AbortController !== 'undefined' ? new AbortController() : null;
+    var timer = controller ? setTimeout(function(){ controller.abort(); }, 5000) : null;
+
+    fetch(wikiThumbUrl(name), controller ? {signal:controller.signal} : {})
+      .then(function(r){ return r.ok ? r.json() : Promise.reject(new Error('wiki '+r.status)); })
+      .then(function(data){
+        var pages = data && data.query && data.query.pages ? Object.values(data.query.pages) : [];
+        var src = pages[0] && pages[0].thumbnail && pages[0].thumbnail.source;
+        if (!src) throw new Error('no thumbnail');
+        try { sessionStorage.setItem(cacheKey, src); } catch (_) {}
+        img.onload = function(){ fallback.style.display='none'; };
+        img.src = src;
+      })
+      .catch(function(){ /* football fallback remains visible */ })
+      .finally(function(){ if (timer) clearTimeout(timer); });
+  }
+
+  function renderCommonClub() {
+    var q = byId('qText');
+    if (!q || currentCategory() !== 'النادي المشترك') return;
+
+    if (q.getAttribute('data-common108-rendered') === '1') return;
+
+    var original = norm(q.textContent);
+    var players = parseCommonClubPlayers(original);
+    if (players.length < 3) return;
+
+    q.setAttribute('data-common108-original', original);
+    q.setAttribute('data-common108-rendered', '1');
+    q.classList.add('commonClubQuestion108');
+
+    var columns = players.length >= 4 ? 2 : 3;
+    var cards = players.map(function(name, i){
+      return (
+        '<div class="commonPlayer108">' +
+          '<div class="commonPhotoWrap108">' +
+            '<div class="commonFallback108" id="commonFallback108_'+i+'">⚽</div>' +
+            '<img class="commonPhoto108" id="commonPhoto108_'+i+'" alt="' + escHtml(name) + '">' +
+          '</div>' +
+          '<div class="commonPlayerName108">' + escHtml(name) + '</div>' +
+        '</div>'
+      );
+    }).join('');
+
+    q.innerHTML =
+      '<div class="commonClubTitle108">ما النادي المشترك بين هؤلاء اللاعبين؟</div>' +
+      '<div class="commonPlayers108" style="--common-count:' + columns + '">' + cards + '</div>' +
+      '<div class="commonClubHint108">ابحث عن النادي الوحيد الذي جمع مسيراتهم</div>';
+
+    players.forEach(function(name, i){
+      var img = byId('commonPhoto108_'+i);
+      var fallback = byId('commonFallback108_'+i);
+      if (img && fallback) loadPlayerPhoto(name, img, fallback);
+    });
+  }
+
+  function markBuild108() {
+    try {
+      var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
+      var node;
+      while ((node = walker.nextNode())) {
+        if (/BUILD\s*107/i.test(node.nodeValue || '')) {
+          node.nodeValue = node.nodeValue.replace(/BUILD\s*107/gi, 'BUILD 108');
+        }
+      }
+    } catch (_) {}
+  }
+
+  function applyVisual108() {
+    ensure108Styles();
+    renderCommonClub();
+
+    var q = byId('qText');
+    if (q && currentCategory() === 'مسيرة لاعب') {
+      q.classList.add('careerQuestion108');
+    }
+
+    markBuild108();
   }
 
   function init() {
+    ensure108Styles();
+    markBuild108();
     var q = byId('qText');
     if (!q) {
       setTimeout(init, 100);
