@@ -3,41 +3,42 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-  <title>المجلس — BUILD 109</title>
+  <title>المجلس — BUILD 108</title>
 </head>
 <body>
 <script>
-(function(){
+(function () {
   'use strict';
-  var pinned='bc29ad29b811f661e44f4ee764c9af43483a297d';
-  var url='https://raw.githubusercontent.com/48f649tgsm-cyber/almajlis-game/'+pinned+'/index.html';
+  var pinned = 'bc29ad29b811f661e44f4ee764c9af43483a297d';
+  var url = 'https://raw.githubusercontent.com/48f649tgsm-cyber/almajlis-game/' + pinned + '/index.html';
 
-  fetch(url,{cache:'no-store'})
-    .then(function(r){if(!r.ok)throw new Error('HTTP '+r.status);return r.text()})
-    .then(function(html){
-      var scripts='<script src="build108.js?v=109safe3"><\/script>\n<script src="build109.js?v=109safe3"><\/script>';
-
-      html=html.replace(
+  fetch(url, { cache: 'no-store' })
+    .then(function (r) {
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      return r.text();
+    })
+    .then(function (html) {
+      html = html.replace(
         /<script\s+src=["']build107\.js(?:\?[^"']*)?["']\s*><\/script>/i,
-        scripts
+        '<script src="build108.js?v=career-fixed-1"><\/script>'
       );
 
-      if(!/build109\.js/i.test(html)){
-        html=html.replace(/<\/body>/i,scripts+'\n</body>');
+      if (!/build108\.js/i.test(html)) {
+        html = html.replace(/<\/body>/i, '<script src="build108.js?v=career-fixed-1"><\/script>\n</body>');
       }
 
-      html=html.replace(/BUILD\s*107/gi,'BUILD 109');
+      var careerFix = '\n(function(){\n\'use strict\';\n\nconst CAREER_MAP = [\n  {\n    keys:[\'بدأ في كان\',\'تييري هنري\'],\n    text:\'موناكو 1994–1999 ← يوفنتوس 1999 ← آرسنال 1999–2007 ← برشلونة 2007–2010 ← نيويورك ريد بولز 2010–2014 ← آرسنال (إعارة) 2012\'\n  },\n  {\n    keys:[\'لبوردو ثم يوفنتوس\',\'زين الدين زيدان\'],\n    text:\'كان 1989–1992 ← بوردو 1992–1996 ← يوفنتوس 1996–2001 ← ريال مدريد 2001–2006\'\n  },\n  {\n    keys:[\'أياكس ثم لعب لسامبدوريا\',\'كلارنس سيدورف\'],\n    text:\'أياكس 1992–1995 ← سامبدوريا 1995–1996 ← ريال مدريد 1996–2000 ← إنتر ميلان 2000–2002 ← ميلان 2002–2012 ← بوتافوغو 2012–2014\'\n  },\n  {\n    keys:[\'لعب لبارما ثم يوفنتوس\',\'جانلويجي بوفون\'],\n    text:\'بارما 1995–2001 ← يوفنتوس 2001–2018 ← باريس سان جيرمان 2018–2019 ← يوفنتوس 2019–2021 ← بارما 2021–2023\'\n  },\n  {\n    keys:[\'لعب لبوكا جونيورز ثم برشلونة\',\'دييغو مارادونا\'],\n    text:\'أرجنتينوس جونيورز 1976–1981 ← بوكا جونيورز 1981–1982 ← برشلونة 1982–1984 ← نابولي 1984–1991 ← إشبيلية 1992–1993 ← نيولز أولد بويز 1993–1994 ← بوكا جونيورز 1995–1997\'\n  },\n  {\n    keys:[\'لعب لأياكس ثم ميلان ثم يوفنتوس\',\'إدغار دافيدز\'],\n    text:\'أياكس 1991–1996 ← ميلان 1996–1997 ← يوفنتوس 1997–2004 ← برشلونة (إعارة) 2004 ← إنتر ميلان 2004–2005 ← توتنهام 2005–2007 ← أياكس 2007–2008 ← كريستال بالاس 2010 ← بارنت 2012–2014\'\n  },\n  {\n    keys:[\'لعب لفيينورد ثم آرسنال\',\'جيوفاني فان برونكهورست\'],\n    text:\'فينورد 1993–1998 ← آر كي سي فالفيك (إعارة) 1993–1994 ← رينجرز 1998–2001 ← آرسنال 2001–2004 ← برشلونة (إعارة) 2003–2004 ← برشلونة 2004–2007 ← فينورد 2007–2010\'\n  },\n  {\n    keys:[\'لعب لسبارتا براغ ثم لاتسيو\',\'ميلان باروش\'],\n    text:\'بانيك أوسترافا 1998–2002 ← ليفربول 2002–2005 ← أستون فيلا 2005–2007 ← ليون 2007–2008 ← بورتسموث (إعارة) 2008 ← غلطة سراي 2008–2012 ← بانيك أوسترافا 2013 ← أنطاليا سبور 2013–2014 ← بانيك أوسترافا 2014–2015 ← ملادا بوليسلاف 2015–2016 ← سلوفان ليبيريتس 2016–2017 ← بانيك أوسترافا 2017–2020\'\n  },\n  {\n    keys:[\'لعب لريد ستار بلغراد ثم لاتسيو\',\'نيمانيا فيديتش\'],\n    text:\'ريد ستار بلغراد 2000–2004 ← سبارتاك سوبوتيتسا (إعارة) 2000–2001 ← سبارتاك موسكو 2004–2006 ← مانشستر يونايتد 2006–2014 ← إنتر ميلان 2014–2016\'\n  }\n];\n\nfunction norm(s){\n  return String(s||\'\').replace(/\\s+/g,\' \').trim();\n}\n\nfunction applyCareerCorrection(){\n  const q = document.getElementById(\'qText\');\n  const cat = norm(document.getElementById(\'qCat\')?.textContent);\n  if(!q || cat !== \'مسيرة لاعب\') return;\n\n  const current = norm(q.textContent);\n  if(!current || q.dataset.career108Corrected === \'1\') return;\n\n  const hit = CAREER_MAP.find(item => item.keys.some(k => current.includes(k)));\n  if(!hit) return;\n\n  q.dataset.career108Corrected = \'1\';\n  q.dataset.build108Career = \'0\';\n  q.textContent = hit.text + \' ← من هو اللاعب؟\';\n}\n\nfunction resetOnQuestionOpen(){\n  const q = document.getElementById(\'qText\');\n  if(q){\n    q.dataset.career108Corrected = \'0\';\n    q.dataset.build108Career = \'0\';\n  }\n  setTimeout(applyCareerCorrection, 20);\n  setTimeout(applyCareerCorrection, 80);\n}\n\nfunction initCareer108Fix(){\n  const q = document.getElementById(\'qText\');\n  if(!q) return setTimeout(initCareer108Fix,100);\n\n  new MutationObserver(() => {\n    const cat = norm(document.getElementById(\'qCat\')?.textContent);\n    if(cat === \'مسيرة لاعب\' && !q.classList.contains(\'careerQuestion108\')){\n      requestAnimationFrame(applyCareerCorrection);\n    }\n  }).observe(q,{childList:true,subtree:true,characterData:true});\n\n  document.addEventListener(\'click\', e => {\n    if(e.target.closest(\'[onclick*="openQuestion"]\')) resetOnQuestionOpen();\n  }, true);\n\n  applyCareerCorrection();\n}\n\nif(document.readyState === \'loading\'){\n  document.addEventListener(\'DOMContentLoaded\', initCareer108Fix, {once:true});\n}else{\n  initCareer108Fix();\n}\n})();\n';
+      html = html.replace(/<\/body>/i, '<script>' + careerFix.replace(/<\/script>/gi,'<\\/script>') + '<\/script>\n</body>');
+
       document.open();
       document.write(html);
       document.close();
     })
-    .catch(function(err){
-      document.body.innerHTML='<main dir="rtl" style="font-family:system-ui;padding:28px;text-align:center">'+
-        '<h2>تعذر تحميل ملفات اللعبة</h2>'+
-        '<p>تعذر تحميل قاعدة اللعبة. أعد فتح الصفحة بعد لحظات.</p>'+
-        '<small style="opacity:.6">BUILD 109 SAFE 3</small></main>';
-      console.error('Almajlis BUILD 109 bootstrap:',err);
+    .catch(function (err) {
+      document.body.innerHTML = '<main dir="rtl" style="font-family:system-ui;padding:28px;text-align:center">' +
+        '<h2>تعذر تحميل ملفات اللعبة</h2><p>تحقق من الاتصال ثم أعد فتح الصفحة.</p>' +
+        '<small style="opacity:.6">BUILD 108 — Career Fix</small></main>';
+      console.error('Almajlis BUILD 108 bootstrap:', err);
     });
 })();
 </script>
