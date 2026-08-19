@@ -3,46 +3,57 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>المجلس — BUILD 110 MATCH READY</title>
+<title>المجلس — BUILD 111 CLEAN EMBEDDED</title>
 </head>
 <body>
+<script src="build111_clean_data.js?v=111"></script>
 <script>
 (function(){
 'use strict';
-var BUILD='110';
 var pinned='bc29ad29b811f661e44f4ee764c9af43483a297d';
 var stable='https://raw.githubusercontent.com/48f649tgsm-cyber/almajlis-game/'+pinned+'/index.html';
-var CLEAN='questions_MATCH_READY_MASTER_CLEAN.json?v=clean-110';
+var nativeFetch=window.fetch.bind(window);
+var master=window.__ALMAJLIS_CLEAN_MASTER__;
+var served=false;
 
-function inject(html){
-  /* Replace every legacy question JSON literal in the stable HTML with the clean master.
-     First occurrence loads the master; subsequent batch occurrences are changed to a
-     guaranteed empty data URL so they cannot re-add legacy questions. */
-  var first=true;
-  html=html.replace(/questions_(?:v4_8_READY|batch_\d+|v6_batch_\d+)\.json(?:\?[^"'`\s<]*)?/gi,function(){
-    if(first){ first=false; return CLEAN; }
-    return 'data:application/json,%7B%22categories%22%3A%7B%7D%7D';
-  });
-
-  /* Keep the working 107/108 compatibility layers. */
-  var tag=/(<script\s+src=["']build107\.js(?:\?[^"']*)?["']\s*><\/script>)/i;
-  var add='\n<script src="build108.js?v=stable-5"><\/script>\n<script src="quality108.js?v=1"><\/script>\n<script src="build110_verify.js?v=110"><\/script>';
-  if(tag.test(html)) html=html.replace(tag,'$1'+add);
-  else html=html.replace(/<\/body>/i,add+'\n</body>');
-
-  html=html.replace(/<title>[\s\S]*?<\/title>/i,'<title>المجلس — BUILD 110 MATCH READY</title>');
-  return html;
+function response(obj){
+ return Promise.resolve(new Response(JSON.stringify(obj),{
+   status:200,headers:{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store'}
+ }));
+}
+function isQuestionURL(u){
+ return /questions_(?:v4_8_READY|batch_\d+|v6_batch_\d+|MATCH_READY_MASTER_CLEAN)\.json/i.test(String(u||''));
 }
 
-fetch(stable,{cache:'no-store'})
- .then(function(r){if(!r.ok)throw new Error('HTTP '+r.status);return r.text()})
- .then(function(html){
-   html=inject(html);
-   document.open();document.write(html);document.close();
- })
- .catch(function(e){
-   document.body.innerHTML='<main dir="rtl" style="font-family:system-ui;padding:28px;text-align:center"><h2>تعذر تحميل اللعبة</h2><p>'+String(e)+'</p><small>BUILD 110</small></main>';
- });
+/* Intercept ALL legacy question requests. Exactly one gets the embedded CLEAN bank;
+   every subsequent legacy bank is empty. */
+window.fetch=function(input,init){
+ var u=(typeof input==='string')?input:(input&&input.url)||'';
+ if(isQuestionURL(u)){
+   if(!served){served=true;return response(master);}
+   return response({version:'BUILD111_EMPTY_LEGACY',categories:{}});
+ }
+ return nativeFetch(input,init);
+};
+
+nativeFetch(stable,{cache:'no-store'})
+.then(function(r){if(!r.ok)throw new Error('HTTP '+r.status);return r.text();})
+.then(function(stableHtml){
+ /* Keep working visual/audio patches, but remove old question source literals in the
+    HTML itself so embedded/declared loaders cannot restore the 3429 bank. */
+ stableHtml=stableHtml.replace(/questions_(?:v4_8_READY|batch_\d+|v6_batch_\d+)\.json(?:\?[^"'`\s<]*)?/gi,
+   'questions_MATCH_READY_MASTER_CLEAN.json?v=111');
+
+ var tag=/(<script\s+src=["']build107\.js(?:\?[^"']*)?["']\s*><\/script>)/i;
+ var add='\n<script src="build108.js?v=stable-5"><\/script>\n<script src="quality108.js?v=1"><\/script>\n<script src="build111_verify.js?v=111"><\/script>';
+ if(tag.test(stableHtml)) stableHtml=stableHtml.replace(tag,'$1'+add);
+ else stableHtml=stableHtml.replace(/<\/body>/i,add+'\n</body>');
+
+ document.open();document.write(stableHtml);document.close();
+})
+.catch(function(e){
+ document.body.innerHTML='<main dir="rtl" style="font-family:system-ui;padding:28px;text-align:center"><h2>تعذر تحميل اللعبة</h2><p>'+String(e)+'</p><small>BUILD 111</small></main>';
+});
 })();
 </script>
 </body>
