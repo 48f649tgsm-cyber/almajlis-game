@@ -1,7 +1,8 @@
 <!doctype html>
+<!-- BUILD 127 — corrected release identity; preserves BUILD 124 viewport/tie fixes, BUILD 125 career UI, BUILD 126 general-knowledge rebuild -->
 <!--
 ALMAJLIS FINAL MASTER — REGRESSION LOCK
-BUILD: BUILD-124-QUALITY-VIEWPORT-TIE-FIX-20260821-A
+BUILD: BUILD-127-CORRECTED-MASTER-20260821-A
 LOCKED: home image, category visuals, winner image, colors/layout, 37-category set,
 question rules, audio rendering, lineup rendering, used-question memory and game flow.
 Future releases MUST modify only explicitly requested components and MUST pass MASTER QA.
@@ -57,7 +58,7 @@ Future batches may update only question JSON loading and game logic, not CATEGOR
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate, max-age=0">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
-<meta name="almajlis-build" content="BUILD-125-CAREER-VISUAL-20260821-A"><meta name="build-number" content="125">
+<meta name="almajlis-build" content="BUILD-127-CORRECTED-MASTER-20260821-A"><meta name="build-number" content="127">
 
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#ffffff">
@@ -992,12 +993,12 @@ window.ALMAJLIS_ACTIVE_BUILD='053';
 })();
 </script>
 
-<div id="buildBadge025" style="position:fixed;right:10px;bottom:calc(10px + env(safe-area-inset-bottom));z-index:20000;background:#111;color:#f0cd78;border:1px solid #b9862d;border-radius:999px;padding:6px 9px;font:700 10px Arial;opacity:.86">BUILD 123</div>
+<div id="buildBadge025" style="position:fixed;right:10px;bottom:calc(10px + env(safe-area-inset-bottom));z-index:20000;background:#111;color:#f0cd78;border:1px solid #b9862d;border-radius:999px;padding:6px 9px;font:700 10px Arial;opacity:.86">BUILD 127</div>
 <button class="btn fullscreenBtn" type="button" onclick="toggleMajlisFullscreen()">⛶</button><button id="soundToggle" class="btn soundToggle" type="button" onclick="unlockMajlisAudio().then(()=>cycleAudioMode())" id="soundToggle">🔊 كامل</button><main class="app">
 <section id="home" class="screen active"><div class="brand"><img class="homeIcon" src="67F7C1B6-80FF-4FC7-AA1A-F472D8A6E4FC.png" alt="المجلس"><h1>المجلس</h1><div class="attractLine">من سيحسم المجلس؟</div></div><div id="loadStatus" class="card small">جاري تحميل بنك الأسئلة...</div><button id="newGameBtn" class="btn gold pregamePrimary" disabled onclick="startNewGame()">⚔️ ابدأ مجلس جديد</button></section>
 <section id="teams" class="screen"><h2>أسماء الفريقين</h2><div class="card teamEntryCard"><div class="teamField"><label for="t1">الفريق الأول</label><input id="t1" class="input" placeholder="مثال: الصقور"></div><div class="teamField"><label for="t2">الفريق الثاني</label><input id="t2" class="input" placeholder="مثال: النسور"></div></div><button class="btn gold pregamePrimary" onclick="toCategories()">التالي</button></section>
 <section id="cats" class="screen"><div class="topline"><h2>اختيار الفئات</h2><span id="cc" class="badge">0 / 6</span></div><p class="small">اختر 6 فئات</p><div id="catGrid" class="categories"></div><button id="startBtn" class="btn gold pregamePrimary" disabled onclick="draw()">ابدأ اللعبة</button></section>
-<section id="draw" class="screen"><h2>القرعة</h2><div class="card winner"><div class="trophy">🎲</div><p>الفريق الذي يبدأ هو</p><div id="starter" class="winnerName"></div></div><button class="btn gold" onclick="startGame()">ابدأ المباراة</button><button class="btn" type="button" onclick="Promise.resolve().then(()=>{primeAllMajlisAudio();majlisHtmlTone('points');setTimeout(()=>playTheme('intro',false,.50),220);showGameToast('🔊 اختبار المؤثرات والموسيقى')})">🔊 اختبار الموسيقى والمؤثرات قبل بدء المباراة</button><div class="note">الإصدار: BUILD 123</div></section>
+<section id="draw" class="screen"><h2>القرعة</h2><div class="card winner"><div class="trophy">🎲</div><p>الفريق الذي يبدأ هو</p><div id="starter" class="winnerName"></div></div><button class="btn gold" onclick="startGame()">ابدأ المباراة</button><button class="btn" type="button" onclick="Promise.resolve().then(()=>{primeAllMajlisAudio();majlisHtmlTone('points');setTimeout(()=>playTheme('intro',false,.50),220);showGameToast('🔊 اختبار المؤثرات والموسيقى')})">🔊 اختبار الموسيقى والمؤثرات قبل بدء المباراة</button><div class="note">الإصدار: BUILD 127</div></section>
 <section id="boardScreen" class="screen"><div class="logo">المجلس</div><div id="matchProgress" class="matchProgress"><span id="progressText">0 / 36</span><div class="progressTrack"><i id="progressFill"></i></div></div><div id="streakBar" class="streakBar"></div><div id="boardTurn" class="card" style="text-align:center;font-size:20px;font-weight:900;border:2px solid var(--gold);padding:12px"></div><div class="scorebar broadcastScorebar"><div id="s2" class="teamScore red"></div><div>⚔️</div><div id="s1" class="teamScore blue"></div></div><div id="board" class="board"></div></section>
 <section id="questionScreen" class="screen"><div class="topline"><span id="qCat" class="badge"></span><span id="qPts" class="badge"></span></div><div id="qText" class="question"></div><div class="tvLowerThird"><span id="tvLowerThird">الفئة • النقاط</span></div><div id="qMedia"></div><div id="timer" class="timer">00:30</div><p id="turnText" class="small"></p><div style="text-align:center"><span id="phaseLabel" class="phaseLabel">الفريق الأول — 30 ثانية</span></div><button id="answerBtn" class="btn" onclick="reveal()">👁 إظهار الجواب</button><div id="answerArea" class="hidden"><div class="small">الإجابة الصحيحة</div><div id="answer" class="answer"></div><p class="small">من حصل على النقاط؟</p><button id="give1" class="btn blue" onclick="award(1)"></button><button id="give2" class="btn red" onclick="award(2)"></button><button class="btn" onclick="award(0)">لا أحد</button>
 <div class="questionTools">
@@ -1221,7 +1222,7 @@ async function loadBank(){
     const total=categories.reduce((n,c)=>n+bank[c].length,0);
     loadStatus.textContent=`تم تحميل ${categories.length} فئة و ${total} سؤال — البنك مدمج بالكامل داخل الملف`;
     newGameBtn.disabled=false;
-    try{if(typeof renderCats==='function'&&catGrid)renderCats()}catch(e){} if(window.loadStatus)loadStatus.innerHTML += '<br><b style="color:#8a631e">BUILD 123</b>'; 
+    try{if(typeof renderCats==='function'&&catGrid)renderCats()}catch(e){} if(window.loadStatus)loadStatus.innerHTML += '<br><b style="color:#8a631e">BUILD 127</b>'; 
   }catch(e){
     loadStatus.className='error';
     loadStatus.textContent='تعذر تهيئة بنك الأسئلة داخل الملف. أعد تحميل الصفحة. ('+(e&&e.message?e.message:'خطأ غير معروف')+')';
