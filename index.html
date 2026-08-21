@@ -1,4 +1,5 @@
 <!doctype html>
+<!-- BUILD 157 — FINAL QA LOCK: build consistency, clean sound control, persistent used-question lock, new-game flow -->
 <!-- BUILD 156 — Player Career visual upgraded: professional vertical timeline, club crests, periods and ordering -->
 <!-- BUILD 155 — من غير كلام rebuilt as visual-only inference puzzles with progressive difficulty -->
 <!-- BUILD 154 — Syria rebuilt across ancient/modern/cultural history + independently sourced 2011 uprising -->
@@ -84,7 +85,7 @@ Future batches may update only question JSON loading and game logic, not CATEGOR
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate, max-age=0">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
-<meta name="almajlis-build" content="BUILD-156-CAREER-TIMELINE-20260821-A"><meta name="build-number" content="156">
+<meta name="almajlis-build" content="BUILD-157-FINAL-QA-LOCK-20260821"><meta name="build-number" content="157">
 
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#ffffff">
@@ -1143,11 +1144,21 @@ body.lowPerf #boardScreen .categoryBox,body.lowPerf .broadcastScorebar{backdrop-
 }
 </style>
 
+
+<style id="BUILD157_FINAL_QA">
+.resultNewGameBtn{
+  width:min(560px,96%)!important;margin:18px auto 10px!important;display:block!important;
+  min-height:58px!important;font-size:clamp(18px,3.8vw,24px)!important;font-weight:1000!important;
+  border-radius:18px!important;box-shadow:0 12px 30px rgba(185,134,45,.30)!important
+}
+#result .note{max-width:720px;margin:12px auto!important;line-height:1.7!important}
+</style>
+
 </head>
 <body>
 
 <script id="QUALITY_025_CACHE_PURGE">
-window.ALMAJLIS_ACTIVE_BUILD='053';
+window.ALMAJLIS_ACTIVE_BUILD='157';
 (async()=>{
   try{
     if('serviceWorker' in navigator){
@@ -1158,17 +1169,17 @@ window.ALMAJLIS_ACTIVE_BUILD='053';
       const keys=await caches.keys();
       for(const k of keys)await caches.delete(k);
     }
-    sessionStorage.setItem('almajlis_build_seen','053');
+    sessionStorage.setItem('almajlis_build_seen','157');
   }catch(e){}
 })();
 </script>
 
-<div id="buildBadge025" style="position:fixed;right:10px;bottom:calc(10px + env(safe-area-inset-bottom));z-index:20000;background:#111;color:#f0cd78;border:1px solid #b9862d;border-radius:999px;padding:6px 9px;font:700 10px Arial;opacity:.86">BUILD 135</div>
-<button class="btn fullscreenBtn" type="button" onclick="toggleMajlisFullscreen()">⛶</button><button id="soundToggle" class="btn soundToggle" type="button" onclick="unlockMajlisAudio().then(()=>cycleAudioMode())" id="soundToggle">🔊 كامل</button><main class="app">
+<div id="buildBadge025" style="position:fixed;right:10px;bottom:calc(10px + env(safe-area-inset-bottom));z-index:20000;background:#111;color:#f0cd78;border:1px solid #b9862d;border-radius:999px;padding:6px 9px;font:700 10px Arial;opacity:.86">BUILD 157</div>
+<button class="btn fullscreenBtn" type="button" onclick="toggleMajlisFullscreen()">⛶</button><button id="soundToggle" class="btn soundToggle" type="button" onclick="unlockMajlisAudio().then(()=>cycleAudioMode())">🔊 كامل</button><main class="app">
 <section id="home" class="screen active"><div class="brand"><img class="homeIcon" src="67F7C1B6-80FF-4FC7-AA1A-F472D8A6E4FC.png" alt="المجلس"><h1>المجلس</h1><div class="attractLine">من سيحسم المجلس؟</div></div><div id="loadStatus" class="card small">جاري تحميل بنك الأسئلة...</div><button id="newGameBtn" class="btn gold pregamePrimary" disabled onclick="startNewGame()">⚔️ ابدأ مجلس جديد</button></section>
 <section id="teams" class="screen"><h2>أسماء الفريقين</h2><div class="card teamEntryCard"><div class="teamField"><label for="t1">الفريق الأول</label><input id="t1" class="input" placeholder="مثال: الصقور"></div><div class="teamField"><label for="t2">الفريق الثاني</label><input id="t2" class="input" placeholder="مثال: النسور"></div></div><button class="btn gold pregamePrimary" onclick="toCategories()">التالي</button></section>
 <section id="cats" class="screen"><div class="topline"><h2>اختيار الفئات</h2><span id="cc" class="badge">0 / 6</span></div><p class="small">اختر 6 فئات</p><div id="catGrid" class="categories"></div><button id="startBtn" class="btn gold pregamePrimary" disabled onclick="draw()">ابدأ اللعبة</button></section>
-<section id="draw" class="screen"><h2>القرعة</h2><div class="card winner"><div class="trophy">🎲</div><p>الفريق الذي يبدأ هو</p><div id="starter" class="winnerName"></div></div><button class="btn gold" onclick="startGame()">ابدأ المباراة</button><button class="btn" type="button" onclick="Promise.resolve().then(()=>{primeAllMajlisAudio();majlisHtmlTone('points');setTimeout(()=>playTheme('intro',false,.50),220);showGameToast('🔊 اختبار المؤثرات والموسيقى')})">🔊 اختبار الموسيقى والمؤثرات قبل بدء المباراة</button><div class="note">الإصدار: BUILD 135</div></section>
+<section id="draw" class="screen"><h2>القرعة</h2><div class="card winner"><div class="trophy">🎲</div><p>الفريق الذي يبدأ هو</p><div id="starter" class="winnerName"></div></div><button class="btn gold" onclick="startGame()">ابدأ المباراة</button><button class="btn" type="button" onclick="Promise.resolve().then(()=>{primeAllMajlisAudio();majlisHtmlTone('points');setTimeout(()=>playTheme('intro',false,.50),220);showGameToast('🔊 اختبار المؤثرات والموسيقى')})">🔊 اختبار الموسيقى والمؤثرات قبل بدء المباراة</button><div class="note">الإصدار: BUILD 157</div></section>
 <section id="boardScreen" class="screen"><div class="logo">المجلس</div><div id="matchProgress" class="matchProgress"><span id="progressText">0 / 36</span><div class="progressTrack"><i id="progressFill"></i></div></div><div id="streakBar" class="streakBar"></div><div id="boardTurn" class="card" style="text-align:center;font-size:20px;font-weight:900;border:2px solid var(--gold);padding:12px"></div><div class="scorebar broadcastScorebar"><div id="s2" class="teamScore red"></div><div>⚔️</div><div id="s1" class="teamScore blue"></div></div><div id="board" class="board"></div></section>
 <section id="questionScreen" class="screen"><div class="topline"><span id="qCat" class="badge"></span><span id="qPts" class="badge"></span></div><div id="qText" class="question"></div><div class="tvLowerThird"><span id="tvLowerThird">الفئة • النقاط</span></div><div id="qMedia"></div><div id="timer" class="timer">00:30</div><p id="turnText" class="small"></p><div style="text-align:center"><span id="phaseLabel" class="phaseLabel">الفريق الأول — 30 ثانية</span></div><button id="answerBtn" class="btn" onclick="reveal()">👁 إظهار الجواب</button><div id="answerArea" class="hidden"><div class="small">الإجابة الصحيحة</div><div id="answer" class="answer"></div><p class="small">من حصل على النقاط؟</p><button id="give1" class="btn blue" onclick="award(1)"></button><button id="give2" class="btn red" onclick="award(2)"></button><button class="btn" onclick="award(0)">لا أحد</button>
 <div class="questionTools">
@@ -1181,7 +1192,7 @@ window.ALMAJLIS_ACTIVE_BUILD='053';
     <button type="button" onclick="reportCurrentQuestion('audio')">🎧 الصوت لا يعمل</button>
   </div>
 </div></div></section>
-<section id="result" class="screen"><div class="winner"><div class="winnerImageWrap"><img src="winner_celebration.png" alt="تتويج الفريق الفائز"><div id="winnerName" class="winnerOverlay"></div></div><div id="finalScores" class="card"></div><div id="matchStats" class="matchStats"></div></div><button class="btn gold" onclick="location.reload()">مجلس جديد</button><button class="btn" onclick="exportQuestionReports()">⬇️ تصدير تقرير مشاكل الأسئلة</button><button class="btn" onclick="exportResultCard()">🖼️ حفظ ملخص النتيجة</button><div class="note">الأسئلة المستخدمة تحفظ على هذا الجهاز لمنع تكرارها.</div></section>
+<section id="result" class="screen"><div class="winner"><div class="winnerImageWrap"><img src="winner_celebration.png" alt="تتويج الفريق الفائز"><div id="winnerName" class="winnerOverlay"></div></div><div id="finalScores" class="card"></div><div id="matchStats" class="matchStats"></div></div><button id="resultNewGameBtn" class="btn gold resultNewGameBtn" type="button" onclick="startFreshCouncil()">⚔️ ابدأ لعبة جديدة</button><button class="btn" onclick="exportQuestionReports()">⬇️ تصدير تقرير مشاكل الأسئلة</button><button class="btn" onclick="exportResultCard()">🖼️ حفظ ملخص النتيجة</button><div class="note">✓ جميع الأسئلة التي استُخدمت في المباريات السابقة تبقى معطلة على هذا الجهاز ولا تدخل في السحب مرة أخرى.</div></section>
 <button id="audioTestBtn" class="audioTestBtn" style="font-size:12px!important;background:#fff8df!important;border:2px solid #b9862d!important" type="button" onclick="Promise.resolve().then(()=>{primeAllMajlisAudio();majlisHtmlTone('points');setTimeout(()=>playTheme('intro',false,.50),220);showGameToast('🔊 اختبار المؤثرات والموسيقى')})">اختبار الصوت</button></main>
 <div id="matchIntro" class="matchIntro"><div class="introCard"><div class="introLogo">المجلس</div><div id="introTeams" class="introTeams"></div><div id="introCount" class="introCount">3</div><div class="introHint">استعدوا للمجلس</div><button id="skipIntro" class="introSkip" onclick="finishMatchIntro()">تخطي</button></div></div>
 <div id="transferToast" class="transferToast">فرصة للفريق الثاني</div>
@@ -1324,7 +1335,7 @@ function qa55CleanBank(){
 
 
 // BUILD 123 — SEMANTIC-DUPLICATE + QUALITY QUARANTINE
-const QA56_QUARANTINE_IDS=new Set([]);
+const QA56_QUARANTINE_IDS=new Set(["b147_cal_024","b147_cal_035","b152_foreign_films_015","b152_foreign_films_016","b152_foreign_films_017","b152_foreign_films_020","b152_foreign_films_023","b152_foreign_films_029","b153_ar_series_022","b154_syria_011","b154_syria_028","b154_syria_030","b154_syria_032","b154_syria_036"]);
 function qa56ApplyAuditedQuarantine(){
   const removed=[];
   for(const cat of Object.keys(bank||{})){
@@ -1407,6 +1418,23 @@ function startNewGame(){
   selected=[];
   try{resetGameLocks()}catch(e){}
   renderCats();
+  show('teams');
+  setTimeout(ensureAmbientMusic,80);
+}
+function startFreshCouncil(){
+  // Preserve usedIds + usedSemantic permanently; reset only the current match state.
+  try{clearInterval(timerId)}catch(e){}
+  try{clearInterval(tieTimerId)}catch(e){}
+  try{stopBroadcastMusic()}catch(e){}
+  try{stopActionMusic()}catch(e){}
+  selected=[]; score1=0; score2=0; current=null; time=30; steal=false; usedCount=0; currentTurn=1;
+  gameQuestions={};
+  try{resetGameLocks()}catch(e){}
+  try{
+    matchStatsState={correct1:0,correct2:0,missed:0,streak1:0,streak2:0,best1:0,best2:0,hard1:0,hard2:0};
+  }catch(e){}
+  try{t1.value='';t2.value=''}catch(e){}
+  try{renderCats()}catch(e){}
   show('teams');
   setTimeout(ensureAmbientMusic,80);
 }
@@ -1951,6 +1979,14 @@ function winTie(n){
 function finalizeWinner(n,byTie=false){
   stopBroadcastMusic();
   clearInterval(timerId);clearInterval(tieTimerId);
+  try{
+    document.querySelectorAll('.point[data-used="1"]').forEach(btn=>{
+      const id=btn.dataset.questionId;
+      if(id)usedIds.add(id);
+    });
+    localStorage.setItem(usedKey,JSON.stringify([...usedIds]));
+    localStorage.setItem(usedSemanticKey,JSON.stringify([...usedSemantic]));
+  }catch(e){console.warn('final used-question persistence',e)}
 
   const name=n===1?team1:team2;
   winnerName.textContent=name;
