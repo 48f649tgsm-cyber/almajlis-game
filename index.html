@@ -1,7 +1,7 @@
 <!doctype html>
 <!--
 ALMAJLIS FINAL MASTER — REGRESSION LOCK
-BUILD: BUILD-123-STABILITY-FIX-20260820-A
+BUILD: BUILD-124-QUALITY-VIEWPORT-TIE-FIX-20260821-A
 LOCKED: home image, category visuals, winner image, colors/layout, 37-category set,
 question rules, audio rendering, lineup rendering, used-question memory and game flow.
 Future releases MUST modify only explicitly requested components and MUST pass MASTER QA.
@@ -57,7 +57,7 @@ Future batches may update only question JSON loading and game logic, not CATEGOR
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate, max-age=0">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
-<meta name="almajlis-build" content="BUILD-123-STABILITY-FIX-20260820-A"><meta name="build-number" content="123">
+<meta name="almajlis-build" content="BUILD-124-QUALITY-VIEWPORT-TIE-FIX-20260821-A"><meta name="build-number" content="124">
 
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#ffffff">
@@ -2627,6 +2627,185 @@ function playWinnerComedyThen(finalCallback){
   window.addEventListener('resize',()=>{if(document.getElementById('boardScreen')?.classList.contains('active'))paintBoardScore()});
   document.addEventListener('click',e=>{if(e.target.closest('[onclick*="startGame"],[onclick*="openQuestion"],[onclick*="award"]'))setTimeout(paintBoardScore,40)},true);
   setInterval(()=>{if(document.getElementById('boardScreen')?.classList.contains('active'))paintBoardScore()},700);
+})();
+</script>
+
+
+
+<!-- BUILD 124 — QUALITY + VIEWPORT + TIE DECISION FIX
+     Scope is intentionally limited to: editorial quality quarantine, question viewport fit,
+     and tie-break answer/winner controls. Locked category/home/winner visual assets are untouched. -->
+<style id="QUALITY_124_VIEWPORT_AND_TIE_FIX">
+/* Full-screen question stage: never require page scrolling to reveal answer/award controls. */
+#questionScreen.screen.active{
+  position:fixed!important;inset:0!important;z-index:1000!important;
+  width:100vw!important;max-width:none!important;height:100dvh!important;min-height:0!important;
+  overflow:hidden!important;border-radius:0!important;
+  padding:max(8px,env(safe-area-inset-top)) max(10px,env(safe-area-inset-right)) max(8px,env(safe-area-inset-bottom)) max(10px,env(safe-area-inset-left))!important;
+  display:flex!important;flex-direction:column!important;justify-content:flex-start!important;
+}
+#questionScreen.screen.active .topline{position:static!important;transform:none!important;margin:0 auto 2px!important;flex:0 0 auto!important}
+#questionScreen.screen.active .tvLowerThird{margin:1px auto 3px!important;flex:0 0 auto!important}
+#questionScreen.screen.active #qText{
+  width:min(1050px,96%)!important;margin:2px auto!important;padding:clamp(8px,1.4vh,15px) clamp(10px,2vw,22px)!important;
+  font-size:clamp(18px,min(4.4vw,3.2vh),34px)!important;line-height:1.48!important;flex:0 1 auto!important;
+}
+#questionScreen.screen.active #qMedia{margin:2px auto!important;max-height:28dvh!important;flex:0 1 auto!important;overflow:hidden!important}
+#questionScreen.screen.active #qMedia img{max-height:27dvh!important;object-fit:contain!important}
+#questionScreen.screen.active #qMedia .mediaFrame,#questionScreen.screen.active #qMedia .playerGallery{margin:0 auto!important;max-height:28dvh!important;padding:5px!important}
+#questionScreen.screen.active #qMedia .playerCard{min-height:0!important}
+#questionScreen.screen.active #qMedia .playerCard img{height:min(23dvh,180px)!important}
+#questionScreen.screen.active .timer{width:clamp(62px,10vh,92px)!important;height:clamp(62px,10vh,92px)!important;margin:3px auto!important;font-size:clamp(18px,3vh,25px)!important;flex:0 0 auto!important}
+#questionScreen.screen.active #turnText{margin:1px 0!important;font-size:clamp(11px,1.8vh,15px)!important;line-height:1.2!important}
+#questionScreen.screen.active #phaseLabel{padding:3px 9px!important;font-size:clamp(10px,1.7vh,13px)!important}
+#questionScreen.screen.active #answerBtn{width:min(520px,92%)!important;margin:4px auto!important;padding:clamp(8px,1.5vh,13px)!important;font-size:clamp(14px,2.1vh,18px)!important;flex:0 0 auto!important}
+
+/* Once revealed, prioritize the answer and decision buttons; everything remains in the viewport. */
+#questionScreen.answerShown .timer,#questionScreen.answerShown #turnText,#questionScreen.answerShown #phaseLabel,
+#questionScreen.answerShown .tvLowerThird{display:none!important}
+#questionScreen.answerShown #qText{font-size:clamp(16px,min(3.8vw,2.65vh),27px)!important;line-height:1.38!important;max-height:22dvh!important;padding:7px 12px!important}
+#questionScreen.answerShown #qMedia{max-height:18dvh!important}
+#questionScreen.answerShown #qMedia img{max-height:17dvh!important}
+#questionScreen.answerShown #qMedia .playerCard img{height:min(15dvh,115px)!important}
+#questionScreen.answerShown #answerArea{
+  width:min(900px,97%)!important;max-height:none!important;margin:4px auto 0!important;padding:clamp(7px,1.2vh,12px)!important;
+  display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:5px!important;align-items:center!important;flex:0 0 auto!important;
+}
+#questionScreen.answerShown #answerArea.hidden{display:none!important}
+#questionScreen.answerShown #answerArea>.small:first-child{grid-column:1/-1;margin:0!important;font-size:11px!important}
+#questionScreen.answerShown #answer{grid-column:1/-1;padding:2px!important;margin:0!important;font-size:clamp(19px,3.2vh,30px)!important;line-height:1.3!important}
+#questionScreen.answerShown #answerArea>p.small{grid-column:1/-1;margin:0!important;font-size:11px!important}
+#questionScreen.answerShown #answerArea>.btn{width:100%!important;margin:0!important;padding:clamp(7px,1.15vh,11px) 4px!important;font-size:clamp(11px,1.8vh,15px)!important;line-height:1.15!important;min-height:38px!important}
+#questionScreen.answerShown #answerArea .questionTools,#questionScreen.answerShown #answerArea .sharedReveal{grid-column:1/-1!important}
+#questionScreen.answerShown #answerArea .sharedReveal{margin:2px auto!important;padding:5px 8px!important;font-size:clamp(14px,2vh,18px)!important}
+
+/* Tie-break is also a true one-screen decision stage. */
+#tieBreakOverlay.show{display:grid!important;overflow:hidden!important;padding:max(6px,env(safe-area-inset-top)) max(7px,env(safe-area-inset-right)) max(6px,env(safe-area-inset-bottom)) max(7px,env(safe-area-inset-left))!important}
+#tieBreakOverlay .tieCard{width:min(980px,99vw)!important;height:min(100dvh,780px)!important;max-height:100dvh!important;overflow:hidden!important;padding:clamp(8px,1.6vh,16px)!important;display:flex!important;flex-direction:column!important;justify-content:center!important}
+#tieBreakOverlay .tieTitle{font-size:clamp(23px,5vh,44px)!important;line-height:1.1!important;margin:0 0 2px!important}
+#tieBreakOverlay .tieSub{margin:0 0 4px!important;font-size:clamp(11px,1.8vh,14px)!important}
+#tieQuestionStage{min-height:0!important}
+#tieQuestion{font-size:clamp(17px,min(4.2vw,3.2vh),31px)!important;line-height:1.45!important;margin:5px auto!important}
+#tieMedia{max-height:24dvh!important;overflow:hidden!important;margin:2px auto!important}
+#tieMedia img{max-height:23dvh!important;object-fit:contain!important}
+#tieTimer{width:clamp(62px,10vh,96px)!important;height:clamp(62px,10vh,96px)!important;margin:4px auto!important;font-size:clamp(18px,3vh,25px)!important}
+#tieReveal{width:min(520px,94%)!important;margin:4px auto!important;padding:clamp(8px,1.4vh,12px)!important}
+#tieAnswer{font-size:clamp(20px,3.6vh,34px)!important;line-height:1.3!important;margin:4px auto!important;color:#f2cf78!important;font-weight:1000!important}
+#tieBreakOverlay.tieAnswered #tieTimer,#tieBreakOverlay.tieAnswered .tieSub{display:none!important}
+#tieBreakOverlay.tieAnswered #tieMedia{max-height:15dvh!important}
+#tieBreakOverlay.tieAnswered #tieMedia img{max-height:14dvh!important}
+#tieBreakOverlay.tieAnswered #tieQuestion{font-size:clamp(15px,min(3.5vw,2.5vh),24px)!important;line-height:1.35!important;margin:3px auto!important}
+#tieActions{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:5px!important;width:min(900px,98%)!important;margin:4px auto 0!important}
+#tieActions.hidden{display:none!important}
+#tieActions .btn{width:100%!important;min-width:0!important;margin:0!important;padding:clamp(8px,1.3vh,12px) 5px!important;font-size:clamp(11px,1.9vh,15px)!important;line-height:1.2!important}
+
+@media (orientation:landscape) and (max-height:650px){
+  body{overflow:hidden!important}
+  #questionScreen.screen.active{padding:4px max(8px,env(safe-area-inset-right)) 4px max(8px,env(safe-area-inset-left))!important}
+  #questionScreen.screen.active .topline{position:absolute!important;top:5px!important;left:50%!important;transform:translateX(-50%)!important;z-index:5!important}
+  #questionScreen.screen.active .tvLowerThird{display:none!important}
+  #questionScreen.screen.active #qText{margin:38px auto 2px!important;font-size:clamp(16px,3.5vh,24px)!important;line-height:1.34!important;padding:6px 10px!important;max-height:24dvh!important}
+  #questionScreen.screen.active #qMedia{max-height:25dvh!important}
+  #questionScreen.screen.active #qMedia img{max-height:24dvh!important}
+  #questionScreen.screen.active .timer{width:56px!important;height:56px!important;font-size:17px!important;margin:2px auto!important}
+  #questionScreen.screen.active #turnText{display:none!important}
+  #questionScreen.screen.active #phaseLabel{padding:2px 7px!important;font-size:10px!important}
+  #questionScreen.screen.active #answerBtn{padding:6px!important;margin:2px auto!important;font-size:13px!important}
+  #questionScreen.answerShown #qText{margin-top:36px!important;max-height:18dvh!important;font-size:clamp(14px,3vh,20px)!important}
+  #questionScreen.answerShown #qMedia{max-height:12dvh!important}
+  #questionScreen.answerShown #qMedia img{max-height:11dvh!important}
+  #questionScreen.answerShown #answerArea{padding:4px!important;gap:3px!important;margin-top:2px!important}
+  #questionScreen.answerShown #answer{font-size:clamp(16px,3.8vh,23px)!important}
+  #questionScreen.answerShown #answerArea>.btn{min-height:30px!important;padding:5px 3px!important;font-size:11px!important}
+  #tieBreakOverlay .tieCard{height:100dvh!important;padding:5px!important}
+  #tieBreakOverlay .tieTitle{font-size:24px!important}
+  #tieQuestion{font-size:clamp(14px,3.4vh,21px)!important;line-height:1.3!important;margin:2px auto!important}
+  #tieMedia{max-height:18dvh!important} #tieMedia img{max-height:17dvh!important}
+  #tieTimer{width:54px!important;height:54px!important;font-size:17px!important;margin:2px auto!important}
+  #tieAnswer{font-size:clamp(17px,4vh,25px)!important;margin:2px auto!important}
+  #tieActions .btn{padding:6px 3px!important;font-size:10.5px!important;min-height:32px!important}
+}
+</style>
+<script id="QUALITY_124_RUNTIME_FIX">
+(function(){
+  'use strict';
+  const norm=s=>String(s||'').normalize('NFKD').replace(/[\u064B-\u065F\u0670]/g,'').replace(/[أإآ]/g,'ا').replace(/ى/g,'ي').replace(/ة/g,'ه').replace(/[^\p{L}\p{N}]+/gu,' ').trim().toLowerCase();
+
+  /* Editorial quarantine: obvious school-level/direct-recall items must not masquerade as hard/very-hard.
+     100 is medium for adults; 300 hard; 500 very hard. This is deliberately conservative and removes
+     only clearly low-information prompts. It does not alter locked category/media visuals. */
+  const explicitTooEasy=new Set([
+    'q010_091','b017p2_c06_036','b019_c06_005','b019_c06_006','b019_c06_007',
+    'q011_031','q011_033','v068_qat_001','v069_qat_001','q010_088','q010_089'
+  ]);
+  const trivial100=[
+    /^ما (?:اسم )?العاصمه\b/, /^ما اللغه الرسميه\b/, /^ما اسم شركه الطيران الوطنيه\b/,
+    /^في اي عام استضافت .* كاس العالم/, /^من هو (?:اول|رابع) خلفاء?\b/,
+    /عاصمه الدوله الامويه/, /مؤسس الدوله الامويه/, /مؤسس الدوله العباسيه/
+  ];
+  const tooDirectHard=[
+    /^ما (?:اسم )?عاصمه\b/, /كانت عاصمه الدوله الامويه/, /لتصبح عاصمتهم/, /اتخذها .* عاصمه/,
+    /^من تولى رئاسه .* بعد وفاه/, /^من كان رئيس .* بين عامي/, /^ما اسم الدوله التي اسسها صلاح الدين/,
+    /^من مؤسس الدوله الامويه/, /^من مؤسس الدوله العباسيه/, /^ما اسم الموقع .* اليونسكو سنه 2013$/
+  ];
+  function editorialReason(cat,q){
+    if(!q)return 'missing';
+    const id=String(q.id||''), pts=Number(q.points||0), t=norm(q.question);
+    if(explicitTooEasy.has(id))return 'editorial_too_easy_for_game_standard';
+    if(pts===100 && trivial100.some(r=>r.test(t)))return 'below_100_medium_adult_standard';
+    if(pts>=300 && tooDirectHard.some(r=>r.test(t)))return 'below_hard_tier_information_density';
+    if(pts===500){
+      const clueSignals=(String(q.question||'').match(/(?:عام|سنه|بعد|قبل|خلال|الذي|التي|بين|اثر|نتيجه|في عهد|مرتبط|عرف|لقب|معركه|بطوله|موسم)/g)||[]).length;
+      if(t.length<38 && clueSignals<2 && !q.media)return 'below_500_very_hard_standard';
+    }
+    return '';
+  }
+  function applyEditorialGate(){
+    if(!window.bank)return;
+    const removed=[];
+    for(const cat of Object.keys(bank)){
+      bank[cat]=(bank[cat]||[]).filter(q=>{
+        const reason=editorialReason(cat,q);
+        if(reason){removed.push({cat,id:q?.id||'',points:q?.points,question:q?.question,reason});return false}
+        return true;
+      });
+    }
+    window.ALMAJLIS_QA124_REMOVED=removed;
+    try{console.info('BUILD 124 editorial quarantine',removed.length,removed)}catch(e){}
+  }
+  let tries=0; const gateTimer=setInterval(()=>{
+    tries++;
+    try{if(window.bank&&Object.keys(bank).length){applyEditorialGate();if(typeof categories!=='undefined')categories=Object.keys(bank);if(typeof renderCats==='function'&&window.catGrid)renderCats();clearInterval(gateTimer)}}catch(e){}
+    if(tries>40)clearInterval(gateTimer);
+  },125);
+
+  function setAnswerMode(on){const qs=document.getElementById('questionScreen');if(qs)qs.classList.toggle('answerShown',!!on)}
+  const oldReveal=window.reveal;
+  if(typeof oldReveal==='function')window.reveal=function(){const r=oldReveal.apply(this,arguments);setAnswerMode(true);return r};
+  const oldOpen=window.openQuestion;
+  if(typeof oldOpen==='function')window.openQuestion=async function(){setAnswerMode(false);return oldOpen.apply(this,arguments)};
+  const oldAward=window.award;
+  if(typeof oldAward==='function')window.award=function(){setAnswerMode(false);return oldAward.apply(this,arguments)};
+
+  const oldTieReveal=window.revealTieAnswer;
+  if(typeof oldTieReveal==='function')window.revealTieAnswer=function(){const r=oldTieReveal.apply(this,arguments);document.getElementById('tieBreakOverlay')?.classList.add('tieAnswered');return r};
+  const oldNewTie=window.newTieQuestion;
+  if(typeof oldNewTie==='function')window.newTieQuestion=async function(){document.getElementById('tieBreakOverlay')?.classList.remove('tieAnswered');return oldNewTie.apply(this,arguments)};
+  const oldWinTie=window.winTie;
+  if(typeof oldWinTie==='function')window.winTie=function(){document.getElementById('tieBreakOverlay')?.classList.remove('tieAnswered');return oldWinTie.apply(this,arguments)};
+
+  /* Keep tie team labels synchronized even if the tie starts after names changed. */
+  function syncTieTeams(){
+    try{
+      const a=document.getElementById('tieTeam1'),b=document.getElementById('tieTeam2');
+      if(a)a.textContent=(typeof team1!=='undefined'&&team1)||'الفريق الأول';
+      if(b)b.textContent=(typeof team2!=='undefined'&&team2)||'الفريق الثاني';
+    }catch(e){}
+  }
+  const tieObs=new MutationObserver(()=>{if(document.getElementById('tieBreakOverlay')?.classList.contains('show'))syncTieTeams()});
+  const tie=document.getElementById('tieBreakOverlay');if(tie)tieObs.observe(tie,{attributes:true,attributeFilter:['class']});
+  window.addEventListener('resize',()=>{if(document.getElementById('questionScreen')?.classList.contains('active'))document.documentElement.scrollTop=0});
+  window.addEventListener('orientationchange',()=>setTimeout(()=>{document.documentElement.scrollTop=0;document.body.scrollTop=0},60));
 })();
 </script>
 
