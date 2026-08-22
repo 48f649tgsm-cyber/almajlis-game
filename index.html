@@ -1,4 +1,5 @@
 <!doctype html>
+<!-- BUILD 166 — FINAL DISPLAY REPAIR: full career path, full/zoomable lineups, common-club rendering, true single-screen landscape -->
 <!-- BUILD 164 — COMMON CLUB AVAILABILITY FIX + TRUE SINGLE-SCREEN LANDSCAPE BOARD/QUESTION SIDEBAR -->
 <!-- BUILD 163 — COMMON CLUB STOCK RESTORED: +36 fresh single-intersection player-gallery questions (12/12/12) -->
 <!-- BUILD 163 — CONTENT CORRECTION + CAREER/UCL FACTUAL FIXES -->
@@ -1325,12 +1326,12 @@ window.ALMAJLIS_ACTIVE_BUILD='159';
 })();
 </script>
 
-<div id="buildBadge025" style="position:fixed;right:10px;bottom:calc(10px + env(safe-area-inset-bottom));z-index:20000;background:#111;color:#f0cd78;border:1px solid #b9862d;border-radius:999px;padding:6px 9px;font:700 10px Arial;opacity:.86">BUILD 164</div>
+<div id="buildBadge025" style="position:fixed;right:10px;bottom:calc(10px + env(safe-area-inset-bottom));z-index:20000;background:#111;color:#f0cd78;border:1px solid #b9862d;border-radius:999px;padding:6px 9px;font:700 10px Arial;opacity:.86">BUILD 166</div>
 <button class="btn fullscreenBtn" type="button" onclick="toggleMajlisFullscreen()">⛶</button><button id="soundToggle" class="btn soundToggle" type="button" onclick="unlockMajlisAudio().then(()=>cycleAudioMode())">🔊 كامل</button><main class="app">
 <section id="home" class="screen active"><div class="brand"><img class="homeIcon" src="67F7C1B6-80FF-4FC7-AA1A-F472D8A6E4FC.png" alt="المجلس"><h1>المجلس</h1><div class="attractLine">من سيحسم المجلس؟</div></div><div id="loadStatus" class="card small">جاري تحميل بنك الأسئلة...</div><button id="newGameBtn" class="btn gold pregamePrimary" disabled onclick="startNewGame()">⚔️ ابدأ مجلس جديد</button></section>
 <section id="teams" class="screen"><h2>أسماء الفريقين</h2><div class="card teamEntryCard"><div class="teamField"><label for="t1">الفريق الأول</label><input id="t1" class="input" placeholder="مثال: الصقور"></div><div class="teamField"><label for="t2">الفريق الثاني</label><input id="t2" class="input" placeholder="مثال: النسور"></div></div><button class="btn gold pregamePrimary" onclick="toCategories()">التالي</button></section>
 <section id="cats" class="screen"><div class="topline"><h2>اختيار الفئات</h2><span id="cc" class="badge">0 / 6</span></div><p class="small">اختر 6 فئات</p><div id="catGrid" class="categories"></div><button id="startBtn" class="btn gold pregamePrimary" disabled onclick="draw()">ابدأ اللعبة</button></section>
-<section id="draw" class="screen"><h2>القرعة</h2><div class="card winner"><div class="trophy">🎲</div><p>الفريق الذي يبدأ هو</p><div id="starter" class="winnerName"></div></div><button class="btn gold" onclick="startGame()">ابدأ المباراة</button><button class="btn" type="button" onclick="Promise.resolve().then(()=>{primeAllMajlisAudio();majlisHtmlTone('points');setTimeout(()=>playTheme('intro',false,.50),220);showGameToast('🔊 اختبار المؤثرات والموسيقى')})">🔊 اختبار الموسيقى والمؤثرات قبل بدء المباراة</button><div class="note">الإصدار: BUILD 164</div></section>
+<section id="draw" class="screen"><h2>القرعة</h2><div class="card winner"><div class="trophy">🎲</div><p>الفريق الذي يبدأ هو</p><div id="starter" class="winnerName"></div></div><button class="btn gold" onclick="startGame()">ابدأ المباراة</button><button class="btn" type="button" onclick="Promise.resolve().then(()=>{primeAllMajlisAudio();majlisHtmlTone('points');setTimeout(()=>playTheme('intro',false,.50),220);showGameToast('🔊 اختبار المؤثرات والموسيقى')})">🔊 اختبار الموسيقى والمؤثرات قبل بدء المباراة</button><div class="note">الإصدار: BUILD 166</div></section>
 <section id="boardScreen" class="screen"><div class="logo">المجلس</div><div id="matchProgress" class="matchProgress"><span id="progressText">0 / 36</span><div class="progressTrack"><i id="progressFill"></i></div></div><div id="streakBar" class="streakBar"></div><div id="boardTurn" class="card" style="text-align:center;font-size:20px;font-weight:900;border:2px solid var(--gold);padding:12px"></div><div class="scorebar broadcastScorebar"><div id="s2" class="teamScore red"></div><div>⚔️</div><div id="s1" class="teamScore blue"></div></div><div id="board" class="board"></div></section>
 <section id="questionScreen" class="screen"><div class="questionLandscapeBar" aria-label="الفئة ونتيجة الفريقين"><div class="questionLandscapeCategory"><img id="qCatLandscapeImg" alt="" aria-hidden="true"><span id="qCatLandscape"></span><small id="qPtsLandscape"></small></div><div id="qs1" class="teamScore blue questionTeamScore"></div><div id="qs2" class="teamScore red questionTeamScore"></div></div><div class="topline"><span id="qCat" class="badge"></span><span id="qPts" class="badge"></span></div><div id="qText" class="question"></div><div class="tvLowerThird"><span id="tvLowerThird">الفئة • النقاط</span></div><div id="qMedia"></div><div id="timer" class="timer">00:30</div><p id="turnText" class="small"></p><div style="text-align:center"><span id="phaseLabel" class="phaseLabel">الفريق الأول — 30 ثانية</span></div><button id="answerBtn" class="btn" onclick="reveal()">👁 إظهار الجواب</button><div id="answerArea" class="hidden"><div class="small">الإجابة الصحيحة</div><div id="answer" class="answer"></div><p class="small">من حصل على النقاط؟</p><button id="give1" class="btn blue" onclick="award(1)"></button><button id="give2" class="btn red" onclick="award(2)"></button><button class="btn" onclick="award(0)">لا أحد</button>
 <div class="questionTools">
@@ -3302,88 +3303,143 @@ function playWinnerComedyThen(finalCallback){
 })();
 </script>
 
-<!-- BUILD 165 — consolidated display repair: career/full lineup zoom/common club/true landscape -->
-<style id="BUILD165_CONSOLIDATED_DISPLAY_FIX">
-/* Career: never clip the professional path. The track is a compact wrapping grid, not a cropped strip. */
-#questionScreen.careerMode #qMedia{max-height:none!important;overflow:visible!important;width:min(1120px,98%)!important;max-width:1120px!important}
-#questionScreen.careerMode .careerVisualShell{max-height:none!important;overflow:visible!important;padding:6px!important}
-#questionScreen.careerMode .careerClubTrack{display:flex!important;flex-wrap:wrap!important;justify-content:center!important;align-items:center!important;gap:5px!important;max-height:none!important;overflow:visible!important}
-#questionScreen.careerMode .careerClubCard{width:clamp(112px,17vw,150px)!important;min-width:0!important;padding:6px!important}
-#questionScreen.careerMode .careerClubLogo{width:42px!important;height:42px!important;margin:auto!important}
-#questionScreen.careerMode .careerClubName{font-size:clamp(12px,1.7vw,15px)!important;line-height:1.15!important}
-#questionScreen.careerMode .careerClubYears{font-size:11px!important;line-height:1.1!important}
-#questionScreen.careerMode .careerArrow{font-size:16px!important;margin:0!important}
-#questionScreen.careerMode .careerVisualTitle{font-size:14px!important;margin:0 0 4px!important}
-#questionScreen.careerMode .careerHintBox{margin-top:4px!important}
-
-/* Lineup: entire pitch visible and explicitly tappable for full-screen zoom. */
-#questionScreen.lineupMode #qMedia{max-height:none!important;overflow:visible!important;width:min(760px,98%)!important}
-#questionScreen.lineupMode .lineupStage{min-height:0!important;height:auto!important;max-height:none!important;width:min(620px,96vw)!important;margin:auto!important;padding:8px!important;cursor:zoom-in!important}
-#questionScreen.lineupMode .footballPitch{height:min(46dvh,430px)!important;min-height:260px!important}
-#questionScreen.lineupMode .lineupHint{font-size:11px!important;padding:3px!important}
-.lineupZoomHint{text-align:center;color:#f5d98b;font-size:11px;font-weight:900;margin:2px auto}
-#mediaLightbox .lineupStage{width:min(820px,94vw)!important;height:min(88dvh,720px)!important;max-width:none!important;max-height:none!important;cursor:default!important;padding:12px!important}
-#mediaLightbox .lineupStage .footballPitch{height:calc(100% - 70px)!important;min-height:0!important}
-
-/* Common club: all player cards/names remain visible; no media viewport clipping. */
-#questionScreen.commonClubMode #qMedia{max-height:none!important;overflow:visible!important;width:min(920px,98%)!important;max-width:920px!important}
-#questionScreen.commonClubMode .playerGallery{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:8px!important;max-width:860px!important;max-height:none!important;overflow:visible!important}
-#questionScreen.commonClubMode .playerCard{min-height:0!important}
-#questionScreen.commonClubMode .playerCard img{width:100%!important;height:min(28dvh,210px)!important;object-fit:contain!important}
-#questionScreen.commonClubMode .playerNum{display:block!important;font-size:13px!important;padding:5px!important;color:#f5d98b!important}
-
-/* Landscape board: exactly six category columns inside one viewport; no page scroll. */
-@media (orientation:landscape) and (max-height:700px){
- html,body,.app{overflow:hidden!important;height:100dvh!important;max-height:100dvh!important}
- #boardScreen.screen.active{height:100dvh!important;max-height:100dvh!important;overflow:hidden!important;display:grid!important;grid-template-rows:auto auto auto auto minmax(0,1fr)!important}
- #boardScreen .board{height:100%!important;min-height:0!important;overflow:hidden!important;display:grid!important;grid-template-columns:repeat(6,minmax(0,1fr))!important;gap:4px!important}
- #boardScreen .categoryBox{height:100%!important;min-height:0!important;display:grid!important;grid-template-rows:auto minmax(0,1fr)!important;padding:4px!important}
- #boardScreen .points{height:100%!important;min-height:0!important;display:grid!important;grid-template-columns:1fr!important;grid-template-rows:repeat(6,minmax(0,1fr))!important;gap:3px!important;padding:0!important}
- #boardScreen .point{min-height:0!important;height:100%!important;padding:1px!important;font-size:clamp(13px,2.4vh,18px)!important}
- #boardScreen .categoryHead{min-height:0!important;height:38px!important;padding:1px!important;grid-template-columns:30px minmax(0,1fr)!important}
- #boardScreen .categoryHead .mini{width:28px!important;height:28px!important;min-width:28px!important}
- #boardScreen .categoryHead h3{font-size:clamp(9px,1.7vh,12px)!important;line-height:1.05!important}
- /* Question landscape: right = category image/name, then both teams/scores; content stays in the viewport. */
- #questionScreen.screen.active{height:100dvh!important;overflow:hidden!important;padding:3px 8px!important}
- #questionScreen.screen.active .topline,#questionScreen.screen.active .tvLowerThird{display:none!important}
- #questionScreen.screen.active .questionLandscapeBar{display:grid!important;margin:0 auto 2px!important;min-height:42px!important}
- #questionScreen.screen.active #qText{margin:1px auto!important;padding:5px 9px!important;font-size:clamp(14px,3.2vh,21px)!important;line-height:1.25!important}
- #questionScreen.screen.active .timer{width:54px!important;height:54px!important;font-size:17px!important;margin:2px auto!important}
- #questionScreen.careerMode #qMedia{max-height:48dvh!important;overflow:auto!important;-webkit-overflow-scrolling:touch!important}
- #questionScreen.careerMode .careerClubCard{width:105px!important;padding:3px!important}
- #questionScreen.careerMode .careerClubLogo{width:30px!important;height:30px!important}
- #questionScreen.lineupMode .footballPitch{height:43dvh!important;min-height:0!important}
- #questionScreen.commonClubMode .playerCard img{height:27dvh!important}
+<!-- BUILD 166 — FINAL DISPLAY REPAIR -->
+<style id="BUILD166_FINAL_DISPLAY_FIX">
+/* ---------- Career: full path always visible ---------- */
+#questionScreen.careerMode #qMedia{
+  width:min(980px,98%)!important;max-width:980px!important;
+  max-height:none!important;height:auto!important;overflow:visible!important;
+  margin:3px auto 6px!important;padding:0!important;
 }
-@media (max-width:560px) and (orientation:portrait){
- #questionScreen.careerMode #qMedia{max-height:47dvh!important;overflow-y:auto!important;-webkit-overflow-scrolling:touch!important}
- #questionScreen.careerMode .careerClubTrack{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important}
- #questionScreen.careerMode .careerArrow{display:none!important}
- #questionScreen.careerMode .careerClubCard{width:100%!important}
- #questionScreen.lineupMode .footballPitch{height:39dvh!important;min-height:280px!important}
+#questionScreen.careerMode .careerVisualShell{max-width:960px!important;max-height:none!important;overflow:visible!important;padding:4px!important}
+#questionScreen.careerMode .careerClubTrack{
+  display:grid!important;grid-template-columns:repeat(auto-fit,minmax(118px,1fr))!important;
+  gap:7px!important;align-items:stretch!important;overflow:visible!important;max-height:none!important;padding:2px!important;
+}
+#questionScreen.careerMode .careerClubCard{
+  width:auto!important;min-width:0!important;min-height:96px!important;height:auto!important;
+  padding:7px 5px!important;margin:0!important;display:flex!important;
+}
+#questionScreen.careerMode .careerArrow{display:none!important}
+#questionScreen.careerMode .careerClubLogo{width:38px!important;height:38px!important;margin:0 auto 3px!important}
+#questionScreen.careerMode .careerClubName{font-size:12px!important;line-height:1.1!important;margin-bottom:2px!important}
+#questionScreen.careerMode .careerClubYears{font-size:10.5px!important;line-height:1.15!important;min-height:0!important}
+#questionScreen.careerMode .careerOrderBadge{margin-top:3px!important}
+#questionScreen.careerMode .careerVisualTitle{font-size:13px!important;margin:0 auto 6px!important;padding:5px 10px!important}
+#questionScreen.careerMode .careerHintBox{margin:4px auto 0!important}
+
+/* ---------- Team lineups: full pitch + tap to zoom ---------- */
+#questionScreen.lineupMode #qMedia{width:min(700px,98%)!important;max-width:700px!important;max-height:none!important;overflow:visible!important;margin:2px auto 5px!important}
+#questionScreen.lineupMode .lineupStage{width:100%!important;max-width:650px!important;min-height:0!important;height:auto!important;max-height:none!important;margin:auto!important;padding:7px!important;cursor:zoom-in!important;overflow:visible!important}
+#questionScreen.lineupMode .footballPitch{width:100%!important;height:auto!important;aspect-ratio:1.33/1!important;min-height:0!important;max-height:none!important}
+#questionScreen.lineupMode .lineupHint{margin:4px 2px 1px!important;font-size:10px!important}
+.lineupZoomHint166{text-align:center;color:#f5d98b;font-size:11px;font-weight:900;margin:2px auto 0}
+#lineupZoom166{position:fixed;inset:0;z-index:30000;background:rgba(3,5,9,.96);display:none;place-items:center;padding:12px}
+#lineupZoom166.show{display:grid}
+#lineupZoom166 .zoomInner166{width:min(94vw,900px);height:min(92dvh,760px);display:grid;place-items:center;position:relative}
+#lineupZoom166 .lineupStage{width:100%!important;max-width:none!important;height:100%!important;max-height:none!important;padding:10px!important;cursor:default!important;display:flex!important;flex-direction:column!important}
+#lineupZoom166 .footballPitch{flex:1 1 auto!important;width:auto!important;max-width:100%!important;height:auto!important;aspect-ratio:auto!important;min-height:0!important}
+#lineupZoom166 .close166{position:absolute;top:8px;right:8px;z-index:5;width:44px;height:44px;border-radius:50%;border:1px solid #d8ad50;background:#111;color:#f5d98b;font-size:22px;font-weight:900}
+
+/* ---------- Common club: never disabled by display rules and never clipped ---------- */
+#questionScreen.commonClubMode #qMedia{width:min(900px,98%)!important;max-width:900px!important;max-height:none!important;overflow:visible!important;margin:2px auto 6px!important}
+#questionScreen.commonClubMode .playerGallery{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:8px!important;width:100%!important;max-width:860px!important;max-height:none!important;overflow:visible!important;margin:0 auto!important}
+#questionScreen.commonClubMode .playerCard{min-height:0!important;height:auto!important;overflow:hidden!important}
+#questionScreen.commonClubMode .playerCard img{width:100%!important;height:auto!important;aspect-ratio:4/3!important;object-fit:cover!important;object-position:center 18%!important}
+#questionScreen.commonClubMode .playerNum{display:block!important;min-height:30px!important;padding:5px 3px!important;font-size:12px!important;line-height:1.15!important;color:#f5d98b!important;background:#0b1422!important}
+
+/* ---------- Landscape board/question: one viewport, no vertical page movement ---------- */
+@media (orientation:landscape) and (max-height:700px){
+ html,body{height:100dvh!important;min-height:100dvh!important;max-height:100dvh!important;overflow:hidden!important}
+ .app{height:100dvh!important;max-height:100dvh!important;overflow:hidden!important}
+ #boardScreen.screen.active{
+   height:100dvh!important;max-height:100dvh!important;overflow:hidden!important;
+   padding:3px 6px!important;display:grid!important;
+   grid-template-rows:24px 20px 0 minmax(26px,auto) minmax(36px,auto) minmax(0,1fr)!important;gap:2px!important;
+ }
+ #boardScreen .logo{font-size:20px!important;line-height:22px!important;margin:0!important}
+ #boardScreen #matchProgress{margin:0!important;min-height:18px!important}
+ #boardScreen #streakBar{min-height:0!important;height:0!important;margin:0!important;padding:0!important;overflow:hidden!important}
+ #boardScreen #boardTurn{font-size:12px!important;padding:3px 6px!important;margin:0!important;min-height:24px!important}
+ #boardScreen .scorebar{margin:0!important;padding:2px 4px!important;min-height:34px!important;font-size:12px!important}
+ #boardScreen #board.board{
+   height:100%!important;min-height:0!important;overflow:hidden!important;
+   display:grid!important;grid-template-columns:repeat(6,minmax(0,1fr))!important;gap:4px!important;margin:0!important;
+ }
+ #boardScreen .categoryBox{height:100%!important;min-height:0!important;overflow:hidden!important;display:grid!important;grid-template-rows:34px minmax(0,1fr)!important;padding:3px!important;margin:0!important}
+ #boardScreen .categoryHead{height:32px!important;min-height:0!important;padding:1px!important;grid-template-columns:26px minmax(0,1fr)!important;gap:2px!important}
+ #boardScreen .categoryHead .mini{width:25px!important;height:25px!important;min-width:25px!important}
+ #boardScreen .categoryHead h3{font-size:clamp(8px,1.9vh,11px)!important;line-height:1!important;margin:0!important}
+ #boardScreen .points{height:100%!important;min-height:0!important;display:grid!important;grid-template-columns:1fr!important;grid-template-rows:repeat(6,minmax(0,1fr))!important;gap:2px!important;padding:0!important;margin:0!important}
+ #boardScreen .point{height:100%!important;min-height:0!important;padding:0!important;font-size:clamp(11px,2.8vh,16px)!important;line-height:1!important}
+
+ #questionScreen.screen.active{
+   height:100dvh!important;max-height:100dvh!important;overflow:hidden!important;padding:3px 7px!important;
+   display:flex!important;flex-direction:column!important;justify-content:flex-start!important;
+ }
+ #questionScreen.screen.active .topline,#questionScreen.screen.active .tvLowerThird{display:none!important}
+ #questionScreen.screen.active .questionLandscapeBar{display:grid!important;position:static!important;inset:auto!important;width:min(980px,100%)!important;grid-template-columns:minmax(120px,.9fr) minmax(120px,.9fr) minmax(150px,1.1fr)!important;gap:4px!important;min-height:38px!important;margin:0 auto 2px!important;order:-5!important}
+ #questionScreen.screen.active #qText{font-size:clamp(13px,3.3vh,20px)!important;line-height:1.15!important;padding:4px 7px!important;margin:0 auto 2px!important;max-width:980px!important}
+ #questionScreen.screen.active #qMedia{max-height:49dvh!important;overflow:hidden!important;margin:0 auto 2px!important}
+ #questionScreen.screen.active .timer{width:48px!important;height:48px!important;min-width:48px!important;font-size:16px!important;margin:1px auto!important}
+ #questionScreen.screen.active #turnText{font-size:10px!important;margin:0!important;line-height:1.1!important}
+ #questionScreen.screen.active .phaseLabel{font-size:10px!important;padding:3px 7px!important}
+ #questionScreen.screen.active #answerBtn{padding:5px 12px!important;margin:2px auto!important;min-height:30px!important;font-size:13px!important}
+ #questionScreen.careerMode #qMedia{max-height:none!important;overflow:visible!important}
+ #questionScreen.careerMode .careerClubTrack{grid-template-columns:repeat(auto-fit,minmax(88px,1fr))!important;gap:3px!important}
+ #questionScreen.careerMode .careerClubCard{min-height:68px!important;padding:3px!important}
+ #questionScreen.careerMode .careerClubLogo{width:24px!important;height:24px!important}
+ #questionScreen.careerMode .careerClubName{font-size:9px!important}.careerClubYears{font-size:8px!important}
+ #questionScreen.careerMode .careerHintBox{display:none!important}
+ #questionScreen.lineupMode #qMedia{max-height:50dvh!important;overflow:visible!important}
+ #questionScreen.lineupMode .lineupStage{max-width:540px!important;padding:4px!important}
+ #questionScreen.lineupMode .footballPitch{height:min(39dvh,310px)!important;aspect-ratio:auto!important}
+ #questionScreen.lineupMode .lineupHeader{padding-bottom:3px!important}.lineupHeader span{display:none!important}.lineupHint{display:none!important}
+ #questionScreen.commonClubMode #qMedia{max-height:none!important;overflow:visible!important}
+ #questionScreen.commonClubMode .playerGallery{max-width:620px!important;gap:4px!important}
+ #questionScreen.commonClubMode .playerCard img{height:min(28dvh,170px)!important;aspect-ratio:auto!important}
+ #questionScreen.commonClubMode .playerNum{font-size:9px!important;min-height:20px!important;padding:2px!important}
+}
+@media (orientation:portrait) and (max-width:600px){
+ #questionScreen.careerMode .careerClubTrack{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:6px!important}
+ #questionScreen.careerMode .careerClubCard{min-height:82px!important;padding:5px!important}
+ #questionScreen.careerMode #qMedia{max-height:none!important;overflow:visible!important}
+ #questionScreen.lineupMode .footballPitch{height:auto!important;aspect-ratio:1.12/1!important}
  #questionScreen.commonClubMode .playerGallery{grid-template-columns:repeat(3,minmax(0,1fr))!important}
- #questionScreen.commonClubMode .playerCard img{height:20dvh!important}
+ #questionScreen.commonClubMode .playerNum{font-size:10px!important}
 }
 </style>
-<script id="BUILD165_RUNTIME_FIX">
+<script id="BUILD166_RUNTIME_FIX">
 (function(){
- const old=window.dynamicQuestionLayout;
- window.dynamicQuestionLayout=function(cat,q){
-   if(old)old(cat,q);
-   questionScreen.classList.toggle('lineupMode',cat==='تشكيلات فرق');
-   questionScreen.classList.toggle('commonClubMode',cat==='النادي المشترك');
-   if(cat==='تشكيلات فرق')setTimeout(enableLineupZoom,0);
- };
- function enableLineupZoom(){
-   const stage=qMedia?.querySelector('.lineupStage'); if(!stage||stage.dataset.zoomReady==='1')return;
-   stage.dataset.zoomReady='1';stage.setAttribute('role','button');stage.setAttribute('tabindex','0');stage.setAttribute('aria-label','تكبير التشكيلة');
-   if(!stage.nextElementSibling?.classList?.contains('lineupZoomHint'))stage.insertAdjacentHTML('afterend','<div class="lineupZoomHint">اضغط على التشكيلة للتكبير</div>');
-   const open=()=>{const lb=document.getElementById('mediaLightbox');if(!lb)return;lb.innerHTML='<button class="btn closeZoom" type="button" aria-label="إغلاق">✕</button>'+stage.outerHTML;lb.classList.add('show');lb.querySelector('.closeZoom').onclick=()=>lb.classList.remove('show');};
-   stage.addEventListener('click',open);stage.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();open()}});
- }
- const obs=new MutationObserver(()=>{if(window.current?.cat==='تشكيلات فرق')enableLineupZoom()});
- const qm=document.getElementById('qMedia');if(qm)obs.observe(qm,{childList:true,subtree:true});
+  const qs=document.getElementById('questionScreen'), qm=document.getElementById('qMedia');
+  const prior=window.dynamicQuestionLayout;
+  window.dynamicQuestionLayout=function(cat,q){
+    if(typeof prior==='function') prior(cat,q);
+    if(!qs)return;
+    qs.classList.toggle('careerMode',cat==='مسيرة لاعب');
+    qs.classList.toggle('lineupMode',cat==='تشكيلات فرق');
+    qs.classList.toggle('commonClubMode',cat==='النادي المشترك');
+    if(cat==='تشكيلات فرق') requestAnimationFrame(enableLineupZoom166);
+  };
+  function getOverlay(){
+    let z=document.getElementById('lineupZoom166');
+    if(z)return z;
+    z=document.createElement('div');z.id='lineupZoom166';z.innerHTML='<div class="zoomInner166"><button class="close166" type="button" aria-label="إغلاق">✕</button><div class="zoomContent166"></div></div>';
+    document.body.appendChild(z);
+    z.querySelector('.close166').onclick=()=>z.classList.remove('show');
+    z.addEventListener('click',e=>{if(e.target===z)z.classList.remove('show')});
+    document.addEventListener('keydown',e=>{if(e.key==='Escape')z.classList.remove('show')});
+    return z;
+  }
+  function enableLineupZoom166(){
+    if(!qm)return; const stage=qm.querySelector('.lineupStage'); if(!stage||stage.dataset.zoom166==='1')return;
+    stage.dataset.zoom166='1'; stage.setAttribute('role','button');stage.setAttribute('tabindex','0');stage.setAttribute('aria-label','تكبير التشكيلة');
+    if(!stage.nextElementSibling?.classList?.contains('lineupZoomHint166'))stage.insertAdjacentHTML('afterend','<div class="lineupZoomHint166">اضغط على التشكيلة للتكبير</div>');
+    const open=()=>{const z=getOverlay(),c=z.querySelector('.zoomContent166');c.innerHTML='';const clone=stage.cloneNode(true);clone.removeAttribute('tabindex');clone.removeAttribute('role');c.appendChild(clone);z.classList.add('show')};
+    stage.addEventListener('click',open); stage.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();open()}});
+  }
+  if(qm)new MutationObserver(()=>{if(qs?.classList.contains('lineupMode'))enableLineupZoom166()}).observe(qm,{childList:true,subtree:true});
+  window.addEventListener('orientationchange',()=>setTimeout(()=>{scrollTo(0,0);document.documentElement.scrollTop=0;document.body.scrollTop=0},80));
 })();
 </script>
-
 </body></html>
