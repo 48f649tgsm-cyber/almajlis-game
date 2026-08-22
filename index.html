@@ -1,4 +1,5 @@
 <!doctype html>
+<!-- BUILD 178 — QUESTION TYPOGRAPHY ONLY: professional Arabic question card, hierarchy and responsive sizing; no game/content logic changed -->
 <!-- BUILD 177 — PLAYER CAREER EXPANSION: +30 complete senior-club paths with years; quality-first, no ultra-obvious additions -->
 <!-- BUILD 176 — +12 quality-first Qatar questions (4/4/4), contextual and non-school-style -->
 <!-- BUILD 175 — +48 quality-first questions in مانشستر يونايتد، ريال مدريد، برشلونة، الكلاسيكو -->
@@ -98,7 +99,7 @@ Future batches may update only question JSON loading and game logic, not CATEGOR
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate, max-age=0">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
-<meta name="almajlis-build" content="BUILD-177-PLAYER-CAREER-EXPANSION-20260822"><meta name="build-number" content="177">
+<meta name="almajlis-build" content="BUILD-178-QUESTION-TYPOGRAPHY-ONLY-20260822"><meta name="build-number" content="178">
 
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#ffffff">
@@ -1324,6 +1325,127 @@ body.majlisFullscreenMode .fullscreenBtn{background:#17120b!important;color:#f3c
 @media (orientation:landscape){
  body.majlisFullscreenMode{overflow-x:hidden!important}
  body.majlisFullscreenMode .app{min-height:100dvh}
+}
+</style>
+
+
+<style id="BUILD178_QUESTION_TYPOGRAPHY_ONLY">
+/* BUILD 178 — isolated visual polish for question presentation only.
+   No question-bank, media, scoring, timer, audio, selection, or game-flow logic is modified. */
+#questionScreen.screen.active #qText.question{
+  font-family:"SF Arabic","Geeza Pro","Noto Sans Arabic","Segoe UI",Tahoma,Arial,sans-serif!important;
+  font-weight:850!important;
+  letter-spacing:-.018em!important;
+  font-kerning:normal!important;
+  font-feature-settings:"kern" 1,"liga" 1,"calt" 1!important;
+  text-wrap:balance!important;
+  text-rendering:optimizeLegibility!important;
+  width:min(1040px,92%)!important;
+  max-width:1040px!important;
+  margin:76px auto 18px!important;
+  padding:clamp(24px,3.6vw,42px) clamp(22px,4.4vw,56px)!important;
+  font-size:clamp(30px,4.35vw,51px)!important;
+  line-height:1.48!important;
+  color:#fffdf8!important;
+  background:
+    radial-gradient(circle at 50% 0%,rgba(246,216,139,.095),transparent 38%),
+    linear-gradient(148deg,rgba(18,37,66,.94),rgba(5,11,22,.96))!important;
+  border:1px solid rgba(245,217,139,.48)!important;
+  border-radius:28px!important;
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,.055),
+    inset 0 -1px 0 rgba(0,0,0,.22),
+    0 22px 60px rgba(0,0,0,.43),
+    0 0 44px rgba(216,173,80,.075)!important;
+  text-shadow:0 2px 16px rgba(0,0,0,.32)!important;
+}
+#questionScreen.screen.active #qText.question:before{
+  left:16%!important;right:16%!important;height:2px!important;
+  background:linear-gradient(90deg,transparent,rgba(255,226,154,.95),transparent)!important;
+  box-shadow:0 0 18px rgba(216,173,80,.38)!important;
+}
+#questionScreen.screen.active #qText.question.qShort,
+#questionScreen.screen.active #qText.question.shortQuestion,
+#questionScreen.screen.active #qText.question.qXL{
+  font-size:clamp(36px,5vw,58px)!important;
+  line-height:1.40!important;
+  padding-block:clamp(28px,4vw,46px)!important;
+}
+#questionScreen.screen.active #qText.question.qLong,
+#questionScreen.screen.active #qText.question.longQuestion,
+#questionScreen.screen.active #qText.question.qSM{
+  font-size:clamp(24px,3.35vw,39px)!important;
+  line-height:1.55!important;
+  padding-block:clamp(20px,3vw,34px)!important;
+}
+/* Header badges: supporting information, not competing with the question. */
+#questionScreen.screen.active>.topline{
+  gap:8px!important;
+}
+#questionScreen.screen.active #qCat,
+#questionScreen.screen.active #qPts{
+  font-family:"SF Arabic","Geeza Pro","Noto Sans Arabic","Segoe UI",Tahoma,Arial,sans-serif!important;
+  font-size:clamp(12px,1.55vw,16px)!important;
+  line-height:1.15!important;
+  font-weight:900!important;
+  letter-spacing:0!important;
+  color:#f8df9f!important;
+  background:rgba(8,17,31,.88)!important;
+  border:1px solid rgba(245,217,139,.36)!important;
+  border-radius:999px!important;
+  padding:8px 13px!important;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.04),0 8px 24px rgba(0,0,0,.24)!important;
+  backdrop-filter:blur(12px)!important;
+}
+#questionScreen.screen.active #qPts{
+  min-width:62px!important;text-align:center!important;color:#ffe7ab!important;
+}
+/* Answer typography only; preserve existing reveal mechanics and buttons. */
+#questionScreen.screen.active #answer{
+  font-family:"SF Arabic","Geeza Pro","Noto Sans Arabic","Segoe UI",Tahoma,Arial,sans-serif!important;
+  font-weight:900!important;
+  letter-spacing:-.012em!important;
+  line-height:1.42!important;
+  text-wrap:balance!important;
+}
+@media (max-width:720px) and (orientation:portrait){
+  #questionScreen.screen.active #qText.question{
+    width:94%!important;
+    margin-top:62px!important;
+    padding:22px 18px!important;
+    font-size:clamp(27px,7.1vw,36px)!important;
+    line-height:1.50!important;
+    border-radius:22px!important;
+  }
+  #questionScreen.screen.active #qText.question.qShort,
+  #questionScreen.screen.active #qText.question.shortQuestion,
+  #questionScreen.screen.active #qText.question.qXL{font-size:clamp(31px,8vw,41px)!important;line-height:1.42!important}
+  #questionScreen.screen.active #qText.question.qLong,
+  #questionScreen.screen.active #qText.question.longQuestion,
+  #questionScreen.screen.active #qText.question.qSM{font-size:clamp(22px,5.8vw,30px)!important;line-height:1.53!important}
+}
+/* Landscape single-screen contract remains intact: typography improves inside the existing safe area. */
+@media (orientation:landscape) and (max-height:700px){
+  #questionScreen.screen.active #qText.question{
+    width:100%!important;max-width:none!important;max-height:31vh!important;overflow:hidden!important;
+    margin:0 auto 3px!important;padding:8px 13px!important;border-radius:15px!important;
+    font-family:"SF Arabic","Geeza Pro","Noto Sans Arabic","Segoe UI",Tahoma,Arial,sans-serif!important;
+    font-size:clamp(18px,3.8vh,29px)!important;line-height:1.30!important;
+    letter-spacing:-.012em!important;
+  }
+  #questionScreen.screen.active #qText.question.qShort,
+  #questionScreen.screen.active #qText.question.shortQuestion,
+  #questionScreen.screen.active #qText.question.qXL{font-size:clamp(21px,4.5vh,33px)!important;line-height:1.24!important;padding:9px 13px!important}
+  #questionScreen.screen.active #qText.question.qLong,
+  #questionScreen.screen.active #qText.question.longQuestion,
+  #questionScreen.screen.active #qText.question.qSM{font-size:clamp(14px,3vh,22px)!important;line-height:1.26!important;padding:6px 10px!important}
+  #qCatLandscape,#qPtsLandscape,.questionTeamScore{
+    font-family:"SF Arabic","Geeza Pro","Noto Sans Arabic","Segoe UI",Tahoma,Arial,sans-serif!important;
+  }
+}
+/* Preserve the dedicated Quran presentation styling; only inherit the improved Arabic font rendering. */
+#questionScreen.quranMode #qText.question{
+  font-family:"SF Arabic","Geeza Pro","Noto Sans Arabic","Segoe UI",Tahoma,Arial,sans-serif!important;
 }
 </style>
 
