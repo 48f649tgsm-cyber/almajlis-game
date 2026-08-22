@@ -1,4 +1,5 @@
 <!doctype html>
+<!-- BUILD 170 — SILENT CATEGORY HARD FIX: من غير كلام ignores persistent-history availability so its full embedded 12/12/12 stock remains playable; current-board locks still prevent duplicate slots -->
 <!-- BUILD 169 — SILENT CATEGORY CYCLE FIX: restores من غير كلام only after its no-repeat stock can no longer build a full board -->
 <!-- BUILD 168 — COMMON CLUB FINAL RESTORE: direct load-path lock, 12/12/12 audited stock, visible build identity updated -->
 <!-- BUILD 166 — FINAL DISPLAY REPAIR: full career path, full/zoomable lineups, common-club rendering, true single-screen landscape -->
@@ -90,7 +91,7 @@ Future batches may update only question JSON loading and game logic, not CATEGOR
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate, max-age=0">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
-<meta name="almajlis-build" content="BUILD-169-SILENT-CYCLE-FIX-20260822"><meta name="build-number" content="169">
+<meta name="almajlis-build" content="BUILD-170-SILENT-HARD-FIX-20260822"><meta name="build-number" content="170">
 
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#ffffff">
@@ -1328,7 +1329,7 @@ window.ALMAJLIS_ACTIVE_BUILD='159';
 })();
 </script>
 
-<div id="buildBadge025" style="position:fixed;right:10px;bottom:calc(10px + env(safe-area-inset-bottom));z-index:20000;background:#111;color:#f0cd78;border:1px solid #b9862d;border-radius:999px;padding:6px 9px;font:700 10px Arial;opacity:.86">BUILD 169</div>
+<div id="buildBadge025" style="position:fixed;right:10px;bottom:calc(10px + env(safe-area-inset-bottom));z-index:20000;background:#111;color:#f0cd78;border:1px solid #b9862d;border-radius:999px;padding:6px 9px;font:700 10px Arial;opacity:.86">BUILD 170</div>
 <button class="btn fullscreenBtn" type="button" onclick="toggleMajlisFullscreen()">⛶</button><button id="soundToggle" class="btn soundToggle" type="button" onclick="unlockMajlisAudio().then(()=>cycleAudioMode())">🔊 كامل</button><main class="app">
 <section id="home" class="screen active"><div class="brand"><img class="homeIcon" src="67F7C1B6-80FF-4FC7-AA1A-F472D8A6E4FC.png" alt="المجلس"><h1>المجلس</h1><div class="attractLine">من سيحسم المجلس؟</div></div><div id="loadStatus" class="card small">جاري تحميل بنك الأسئلة...</div><button id="newGameBtn" class="btn gold pregamePrimary" disabled onclick="startNewGame()">⚔️ ابدأ مجلس جديد</button></section>
 <section id="teams" class="screen"><h2>أسماء الفريقين</h2><div class="card teamEntryCard"><div class="teamField"><label for="t1">الفريق الأول</label><input id="t1" class="input" placeholder="مثال: الصقور"></div><div class="teamField"><label for="t2">الفريق الثاني</label><input id="t2" class="input" placeholder="مثال: النسور"></div></div><button class="btn gold pregamePrimary" onclick="toCategories()">التالي</button></section>
@@ -1572,7 +1573,7 @@ async function loadBank(){
     const total=categories.reduce((n,c)=>n+bank[c].length,0);
     loadStatus.textContent=`تم تحميل ${categories.length} فئة و ${total} سؤال — البنك مدمج بالكامل داخل الملف`;
     newGameBtn.disabled=false;
-    try{if(typeof renderCats==='function'&&catGrid)renderCats()}catch(e){} if(window.loadStatus)loadStatus.innerHTML += '<br><b style="color:#8a631e">BUILD 135</b>'; 
+    try{if(typeof renderCats==='function'&&catGrid)renderCats()}catch(e){} if(window.loadStatus)loadStatus.innerHTML += '<br><b style="color:#8a631e">BUILD 170</b>'; 
   }catch(e){
     loadStatus.className='error';
     loadStatus.textContent='تعذر تهيئة بنك الأسئلة داخل الملف. أعد تحميل الصفحة. ('+(e&&e.message?e.message:'خطأ غير معروف')+')';
@@ -1611,7 +1612,7 @@ function toCategories(){team1=t1.value.trim()||'الأول';team2=t2.value.trim(
 function eligibleQuestionsByLevel(cat,pts){
   // Single source of truth used by category availability AND match construction.
   return (bank[cat]||[]).filter(q=>
-    q&&q.id&&q.question&&q.answer&&q.points===pts&&questionAvailable(q,cat)
+    q&&q.id&&q.question&&q.answer&&q.points===pts&&(cat==='من غير كلام'||questionAvailable(q,cat))
   );
 }
 function remainingByLevel(cat,pts){
