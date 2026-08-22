@@ -3,7 +3,7 @@
 <!-- BUILD 177 — PLAYER CAREER EXPANSION: +30 complete senior-club paths with years; quality-first, no ultra-obvious additions -->
 <!-- BUILD 176 — +12 quality-first Qatar questions (4/4/4), contextual and non-school-style -->
 <!-- BUILD 175 — +48 quality-first questions in مانشستر يونايتد، ريال مدريد، برشلونة، الكلاسيكو -->
-<!-- BUILD 182 — ISLAMIC LETTERS QUALITY EXPANSION: +18 curated questions (6/6/6), strict answer-letter validation -->
+<!-- BUILD 183 — ISLAMIC LETTERS QUALITY EXPANSION: +18 curated questions (6/6/6), strict answer-letter validation -->
 <!-- BUILD 180 — ANIMAL WORLD QUALITY EXPANSION: +18 curated questions (6/6/6), contextual zoology and adaptations -->
 <!-- BUILD 179 — PREMIER LEAGUE QUALITY EXPANSION: +30 curated questions (10/10/10), no superficial prompts -->
 <!-- BUILD 174 — SAFE APP-LIKE FULLSCREEN: enhanced landscape fullscreen button without changing game content or flow -->
@@ -102,7 +102,7 @@ Future batches may update only question JSON loading and game logic, not CATEGOR
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate, max-age=0">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
-<meta name="almajlis-build" content="BUILD-181-ISLAMIC-LETTERS-QUALITY-EXPANSION-20260822"><meta name="build-number" content="182">
+<meta name="almajlis-build" content="BUILD-181-ISLAMIC-LETTERS-QUALITY-EXPANSION-20260822"><meta name="build-number" content="183">
 
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#ffffff">
@@ -1472,7 +1472,7 @@ window.ALMAJLIS_ACTIVE_BUILD='159';
 })();
 </script>
 
-<div id="buildBadge025" style="position:fixed;right:10px;bottom:calc(10px + env(safe-area-inset-bottom));z-index:20000;background:#111;color:#f0cd78;border:1px solid #b9862d;border-radius:999px;padding:6px 9px;font:700 10px Arial;opacity:.86">BUILD 182</div>
+<div id="buildBadge025" style="position:fixed;right:10px;bottom:calc(10px + env(safe-area-inset-bottom));z-index:20000;background:#111;color:#f0cd78;border:1px solid #b9862d;border-radius:999px;padding:6px 9px;font:700 10px Arial;opacity:.86">BUILD 183</div>
 <button class="btn fullscreenBtn" type="button" onclick="toggleMajlisFullscreen()">⛶</button><button id="soundToggle" class="btn soundToggle" type="button" onclick="unlockMajlisAudio().then(()=>cycleAudioMode())">🔊 كامل</button><main class="app">
 <section id="home" class="screen active"><div class="brand"><img class="homeIcon" src="67F7C1B6-80FF-4FC7-AA1A-F472D8A6E4FC.png" alt="المجلس"><h1>المجلس</h1><div class="attractLine">من سيحسم المجلس؟</div></div><div id="loadStatus" class="card small">جاري تحميل بنك الأسئلة...</div><button id="newGameBtn" class="btn gold pregamePrimary" disabled onclick="startNewGame()">⚔️ ابدأ مجلس جديد</button></section>
 <section id="teams" class="screen"><h2>أسماء الفريقين</h2><div class="card teamEntryCard"><div class="teamField"><label for="t1">الفريق الأول</label><input id="t1" class="input" placeholder="مثال: الصقور"></div><div class="teamField"><label for="t2">الفريق الثاني</label><input id="t2" class="input" placeholder="مثال: النسور"></div></div><button class="btn gold pregamePrimary" onclick="toCategories()">التالي</button></section>
@@ -3696,6 +3696,34 @@ function playWinnerComedyThen(finalCallback){
     return true;
   }
   let n=0; const t=setInterval(()=>{n++; if(install()||n>80) clearInterval(t)},50);
+})();
+</script>
+
+
+<!-- BUILD 183 — General Knowledge: medicine, human body, space, planets and science -->
+<script id="BUILD183_GENERAL_KNOWLEDGE_SCIENCE_EXPANSION">
+(function(){
+ const additions=[{"id":"b183_gk_001","question":"مريض لديه تلف في خلايا البنكرياس المسؤولة مباشرة عن إفراز الإنسولين. ما اسم هذه الخلايا؟","answer":"خلايا بيتا في جزر لانغرهانس","points":100,"difficulty_v4":"medium","entities":{},"qa_verified":"BUILD183 curated science expansion"},{"id":"b183_gk_002","question":"عند الانتقال من مكان مظلم إلى ضوء قوي تضيق فتحة في العين لتنظيم كمية الضوء الواصلة إلى الشبكية. ما هذه الفتحة؟","answer":"الحدقة (البؤبؤ)","points":100,"difficulty_v4":"medium","entities":{},"qa_verified":"BUILD183 curated science expansion"},{"id":"b183_gk_003","question":"في الدورة الدموية، يعود الدم المؤكسج من الرئتين إلى القلب عبر أوعية تخالف القاعدة الشائعة بأن الأوردة تحمل دمًا قليل الأكسجين. ما هذه الأوعية؟","answer":"الأوردة الرئوية","points":100,"difficulty_v4":"medium","entities":{},"qa_verified":"BUILD183 curated science expansion"},{"id":"b183_gk_004","question":"إذا تعطلت البنى المجهرية التي تزيد مساحة الامتصاص داخل الأمعاء الدقيقة، فما اسم هذه البنى التي تتأثر بها كفاءة امتصاص المغذيات؟","answer":"الزغابات المعوية","points":100,"difficulty_v4":"medium","entities":{},"qa_verified":"BUILD183 curated science expansion"},{"id":"b183_gk_005","question":"تسبب الحركة الظاهرية التراجعية لبعض الكواكب حيرة الفلكيين قديمًا، لكنها تُفسر اليوم أساسًا باختلاف سرعات مدارات الأرض والكوكب. ما اسم هذه الظاهرة؟","answer":"الحركة التراجعية الظاهرية","points":100,"difficulty_v4":"medium","entities":{},"qa_verified":"BUILD183 curated science expansion"},{"id":"b183_gk_006","question":"كوكب أقرب إلى الشمس من الأرض، لكن غلافه الكثيف يجعل متوسط حرارة سطحه أعلى من عطارد. ما الكوكب؟","answer":"الزهرة","points":100,"difficulty_v4":"medium","entities":{},"qa_verified":"BUILD183 curated science expansion"},{"id":"b183_gk_007","question":"عندما تُرى الشمس والقمر متقاربين جدًا في السماء ويقع القمر بين الأرض والشمس، ما الظاهرة التي قد تحدث إذا تحقق الاصطفاف المناسب؟","answer":"كسوف الشمس","points":100,"difficulty_v4":"medium","entities":{},"qa_verified":"BUILD183 curated science expansion"},{"id":"b183_gk_008","question":"مركبة فضائية غادرت الغلاف الشمسي ودخلت الفضاء بين النجمي عام 2012، وكانت أول جسم من صنع الإنسان يفعل ذلك. ما هي؟","answer":"فوياجر 1","points":100,"difficulty_v4":"medium","entities":{},"qa_verified":"BUILD183 curated science expansion"},{"id":"b183_gk_009","question":"في تخطيط القلب الكهربائي، أي جزء يمثل إزالة الاستقطاب في البطينين ويظهر عادة كمركب من ثلاث موجات متتابعة؟","answer":"مركب QRS","points":300,"difficulty_v4":"hard","entities":{},"qa_verified":"BUILD183 curated science expansion"},{"id":"b183_gk_010","question":"أي جزء من الدماغ يعمل كحلقة وصل رئيسية بين الجهاز العصبي وجهاز الغدد الصماء عبر التحكم في الغدة النخامية؟","answer":"تحت المهاد (الوطاء)","points":300,"difficulty_v4":"hard","entities":{},"qa_verified":"BUILD183 curated science expansion"},{"id":"b183_gk_011","question":"في الكلية يبدأ ترشيح الدم داخل وحدة دقيقة تحتوي على شبكة شعيرات محاطة بمحفظة بومان. ما اسم شبكة الشعيرات نفسها؟","answer":"الكبيبة","points":300,"difficulty_v4":"hard","entities":{},"qa_verified":"BUILD183 curated science expansion"},{"id":"b183_gk_012","question":"أي بروتين في كريات الدم الحمراء ترتبط به معظم كمية الأكسجين المنقولة في الدم، ويتغير تقاربه للأكسجين بحسب الظروف الكيميائية؟","answer":"الهيموغلوبين","points":300,"difficulty_v4":"hard","entities":{},"qa_verified":"BUILD183 curated science expansion"},{"id":"b183_gk_013","question":"أي قمر في النظام الشمسي تشير الأدلة إلى وجود محيط مائي مالح تحت قشرته الجليدية، وتجعله مداراته حول المشتري هدفًا رئيسيًا لدراسة قابلية السكن؟","answer":"أوروبا","points":300,"difficulty_v4":"hard","entities":{},"qa_verified":"BUILD183 curated science expansion"},{"id":"b183_gk_014","question":"ما الحد المحيط بالثقب الأسود الذي يصبح بعد تجاوزه الإفلات إلى الخارج مستحيلًا حتى للضوء؟","answer":"أفق الحدث","points":300,"difficulty_v4":"hard","entities":{},"qa_verified":"BUILD183 curated science expansion"},{"id":"b183_gk_015","question":"في النجوم الشبيهة بالشمس، ما العملية التي تحول الهيدروجين إلى هيليوم في القلب وتوفر معظم طاقة النجم؟","answer":"الاندماج النووي","points":300,"difficulty_v4":"hard","entities":{},"qa_verified":"BUILD183 curated science expansion"},{"id":"b183_gk_016","question":"جسم اكتُشف وراء نبتون وأسهم اكتشافه في الجدل الذي انتهى بتعريف الاتحاد الفلكي الدولي للكوكب عام 2006 وإعادة تصنيف بلوتو. ما هو؟","answer":"إيريس","points":300,"difficulty_v4":"hard","entities":{},"qa_verified":"BUILD183 curated science expansion"},{"id":"b183_gk_017","question":"توجد عقدة في الأذين الأيمن تولّد النبض الكهربائي الطبيعي للقلب، ثم تنتقل الإشارة إلى عقدة أخرى تؤخرها قبل وصولها إلى البطينين. ما اسم العقدة الأولى؟","answer":"العقدة الجيبية الأذينية (SA node)","points":500,"difficulty_v4":"very_hard","entities":{},"qa_verified":"BUILD183 curated science expansion"},{"id":"b183_gk_018","question":"في تبادل الغازات بالرئة، ما اسم الحاجز بالغ الرقة الذي يفصل الهواء داخل الحويصلات عن الدم في الشعيرات ويعبره الأكسجين وثاني أكسيد الكربون بالانتشار؟","answer":"الغشاء السنخي الشعيري","points":500,"difficulty_v4":"very_hard","entities":{},"qa_verified":"BUILD183 curated science expansion"},{"id":"b183_gk_019","question":"أي عصب قحفي طويل يشارك في تنظيم وظائف لا إرادية عديدة للقلب والرئتين والجهاز الهضمي ويُعد مكوّنًا رئيسيًا للجهاز نظير الودي؟","answer":"العصب المبهم (العصب القحفي العاشر)","points":500,"difficulty_v4":"very_hard","entities":{},"qa_verified":"BUILD183 curated science expansion"},{"id":"b183_gk_020","question":"ما اسم البنية الخلوية التي تُنتج معظم ATP عبر الفسفرة التأكسدية، ولذلك يزداد عددها عادة في الخلايا ذات الاحتياج العالي للطاقة؟","answer":"الميتوكوندريا","points":500,"difficulty_v4":"very_hard","entities":{},"qa_verified":"BUILD183 curated science expansion"},{"id":"b183_gk_021","question":"أي نقطة في مدار كوكب أو مذنب حول الشمس يكون عندها الجرم في أقرب مسافة إلى الشمس، مقابل الأوج الشمسي في الطرف الآخر؟","answer":"الحضيض الشمسي","points":500,"difficulty_v4":"very_hard","entities":{},"qa_verified":"BUILD183 curated science expansion"},{"id":"b183_gk_022","question":"ما المنطقة الواقعة بعد نبتون التي تضم أجرامًا جليدية عديدة، ومنها بلوتو، وتختلف عن سحابة أورت الأبعد بكثير؟","answer":"حزام كايبر","points":500,"difficulty_v4":"very_hard","entities":{},"qa_verified":"BUILD183 curated science expansion"},{"id":"b183_gk_023","question":"أي نوع من الكواكب الخارجية يصفه الفلكيون بأنه أكبر كتلة من الأرض وأقل كتلة من العمالقة الجليدية، رغم عدم وجود نظير له في نظامنا الشمسي؟","answer":"الأرض الفائقة (Super-Earth)","points":500,"difficulty_v4":"very_hard","entities":{},"qa_verified":"BUILD183 curated science expansion"},{"id":"b183_gk_024","question":"ما الاسم الذي يطلق على النقاط الخمس في نظام جسمين مداريين حيث يمكن لجسم صغير البقاء في موضع مستقر نسبيًا بالنسبة إليهما، وتستفيد منها مراصد فضائية؟","answer":"نقاط لاغرانج","points":500,"difficulty_v4":"very_hard","entities":{},"qa_verified":"BUILD183 curated science expansion"}];
+ function norm(x){return String(x||'').normalize('NFKD').replace(/[\u064B-\u065F\u0670]/g,'').replace(/[أإآ]/g,'ا').replace(/ى/g,'ي').replace(/ة/g,'ه').replace(/[^\p{L}\p{N}]+/gu,' ').trim().toLowerCase()}
+ function install(){
+   if(!window.bank)return false;
+   const cat='معلومات عامة';
+   if(!Array.isArray(bank[cat]))bank[cat]=[];
+   const ids=new Set(bank[cat].map(q=>String(q&&q.id||'')));
+   const texts=new Set(bank[cat].map(q=>norm(q&&q.question)));
+   for(const q of additions){
+     const t=norm(q.question);
+     if(!ids.has(q.id)&&!texts.has(t)){bank[cat].push(q);ids.add(q.id);texts.add(t)}
+   }
+   window.ALMAJLIS_BUILD183_GENERAL_COUNTS={
+     total:bank[cat].length,
+     p100:bank[cat].filter(q=>q.points===100).length,
+     p300:bank[cat].filter(q=>q.points===300).length,
+     p500:bank[cat].filter(q=>q.points===500).length
+   };
+   return true;
+ }
+ let n=0;const t=setInterval(()=>{n++;if(install()||n>80)clearInterval(t)},50);
 })();
 </script>
 
