@@ -1,4 +1,5 @@
 <!doctype html>
+<!-- BUILD 174 — SAFE APP-LIKE FULLSCREEN: enhanced landscape fullscreen button without changing game content or flow -->
 <!-- BUILD 173 — +48 quality-first questions in رؤساء دول، القرآن الكريم، السيرة النبوية، تاريخ الصحابة -->
 <!-- BUILD 172 — +72 quality-first questions in six requested categories -->
 <!-- BUILD 171 — ROOT FIX: QA55 no longer collapses visual-only من غير كلام prompts; restores 36 questions + carries the requested 72-question expansion -->
@@ -94,7 +95,7 @@ Future batches may update only question JSON loading and game logic, not CATEGOR
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate, max-age=0">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
-<meta name="almajlis-build" content="BUILD-173-FOUR-CATEGORY-EXPANSION-20260822"><meta name="build-number" content="173">
+<meta name="almajlis-build" content="BUILD-174-SAFE-FULLSCREEN-LANDSCAPE-20260822"><meta name="build-number" content="174">
 
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#ffffff">
@@ -1312,6 +1313,17 @@ body.lowPerf #boardScreen .categoryBox,body.lowPerf .broadcastScorebar{backdrop-
 }
 </style>
 
+
+<style id="BUILD174_SAFE_FULLSCREEN_APP_MODE">
+html,body{overscroll-behavior:none}
+body.majlisFullscreenMode{min-height:100dvh}
+body.majlisFullscreenMode .fullscreenBtn{background:#17120b!important;color:#f3cf79!important;border-color:#b9862d!important}
+@media (orientation:landscape){
+ body.majlisFullscreenMode{overflow-x:hidden!important}
+ body.majlisFullscreenMode .app{min-height:100dvh}
+}
+</style>
+
 </head>
 <body>
 
@@ -1332,7 +1344,7 @@ window.ALMAJLIS_ACTIVE_BUILD='159';
 })();
 </script>
 
-<div id="buildBadge025" style="position:fixed;right:10px;bottom:calc(10px + env(safe-area-inset-bottom));z-index:20000;background:#111;color:#f0cd78;border:1px solid #b9862d;border-radius:999px;padding:6px 9px;font:700 10px Arial;opacity:.86">BUILD 173</div>
+<div id="buildBadge025" style="position:fixed;right:10px;bottom:calc(10px + env(safe-area-inset-bottom));z-index:20000;background:#111;color:#f0cd78;border:1px solid #b9862d;border-radius:999px;padding:6px 9px;font:700 10px Arial;opacity:.86">BUILD 174</div>
 <button class="btn fullscreenBtn" type="button" onclick="toggleMajlisFullscreen()">⛶</button><button id="soundToggle" class="btn soundToggle" type="button" onclick="unlockMajlisAudio().then(()=>cycleAudioMode())">🔊 كامل</button><main class="app">
 <section id="home" class="screen active"><div class="brand"><img class="homeIcon" src="67F7C1B6-80FF-4FC7-AA1A-F472D8A6E4FC.png" alt="المجلس"><h1>المجلس</h1><div class="attractLine">من سيحسم المجلس؟</div></div><div id="loadStatus" class="card small">جاري تحميل بنك الأسئلة...</div><button id="newGameBtn" class="btn gold pregamePrimary" disabled onclick="startNewGame()">⚔️ ابدأ مجلس جديد</button></section>
 <section id="teams" class="screen"><h2>أسماء الفريقين</h2><div class="card teamEntryCard"><div class="teamField"><label for="t1">الفريق الأول</label><input id="t1" class="input" placeholder="مثال: الصقور"></div><div class="teamField"><label for="t2">الفريق الثاني</label><input id="t2" class="input" placeholder="مثال: النسور"></div></div><button class="btn gold pregamePrimary" onclick="toCategories()">التالي</button></section>
@@ -2002,7 +2014,25 @@ function updateTurnBanner(){boardTurn.textContent='الدور الآن: '+(curre
 }
 
 function showPointBurst(pts,n){const d=document.createElement('div');d.className='pointBurst';d.textContent='+'+pts;d.style.left=(n===1?'30%':'70%');d.style.top='42%';document.body.appendChild(d);setTimeout(()=>d.remove(),950)}
-function toggleMajlisFullscreen(){try{if(!document.fullscreenElement)document.documentElement.requestFullscreen();else document.exitFullscreen()}catch(e){}}
+async function toggleMajlisFullscreen(){
+  try{
+    const root=document.documentElement;
+    const isFs=!!(document.fullscreenElement||document.webkitFullscreenElement);
+    if(!isFs){
+      const enter=root.requestFullscreen||root.webkitRequestFullscreen;
+      if(enter){try{await enter.call(root)}catch(e){}}
+      try{if(screen.orientation&&screen.orientation.lock)await screen.orientation.lock('landscape')}catch(e){}
+      document.body.classList.add('majlisFullscreenMode');
+      try{window.scrollTo(0,1)}catch(e){}
+    }else{
+      const leave=document.exitFullscreen||document.webkitExitFullscreen;
+      if(leave){try{await leave.call(document)}catch(e){}}
+      document.body.classList.remove('majlisFullscreenMode');
+    }
+  }catch(e){}
+}
+document.addEventListener('fullscreenchange',()=>document.body.classList.toggle('majlisFullscreenMode',!!document.fullscreenElement));
+document.addEventListener('webkitfullscreenchange',()=>document.body.classList.toggle('majlisFullscreenMode',!!document.webkitFullscreenElement));
 let matchStatsState={correct1:0,correct2:0,hard1:0,hard2:0,streak1:0,streak2:0,best1:0,best2:0,missed:0};
 let introInterval=null,tiePool=[],tieCurrent=null,tieTimerId=null,tieTime=30;
 const reportKey='almajlis_question_reports_v1';
