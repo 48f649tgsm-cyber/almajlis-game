@@ -1,4 +1,5 @@
 <!doctype html>
+<!-- BUILD 186 — ROOT RESPONSIVE DISPLAY FIX: complete career, no timeline dots/order badges, anthem landscape visibility, image collision guards, true landscape viewport fit -->
 <!-- BUILD 178 — QUESTION TYPOGRAPHY ONLY: professional Arabic question card, hierarchy and responsive sizing; no game/content logic changed -->
 <!-- BUILD 177 — PLAYER CAREER EXPANSION: +30 complete senior-club paths with years; quality-first, no ultra-obvious additions -->
 <!-- BUILD 176 — +12 quality-first Qatar questions (4/4/4), contextual and non-school-style -->
@@ -102,7 +103,7 @@ Future batches may update only question JSON loading and game logic, not CATEGOR
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate, max-age=0">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
-<meta name="almajlis-build" content="BUILD-181-ISLAMIC-LETTERS-QUALITY-EXPANSION-20260822"><meta name="build-number" content="185">
+<meta name="almajlis-build" content="BUILD-186-RESPONSIVE-DISPLAY-ROOT-FIX-20260829"><meta name="build-number" content="186">
 
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#ffffff">
@@ -1472,12 +1473,12 @@ window.ALMAJLIS_ACTIVE_BUILD='159';
 })();
 </script>
 
-<div id="buildBadge025" style="position:fixed;right:10px;bottom:calc(10px + env(safe-area-inset-bottom));z-index:20000;background:#111;color:#f0cd78;border:1px solid #b9862d;border-radius:999px;padding:6px 9px;font:700 10px Arial;opacity:.86">BUILD 185</div>
+<div id="buildBadge025" style="position:fixed;right:10px;bottom:calc(10px + env(safe-area-inset-bottom));z-index:20000;background:#111;color:#f0cd78;border:1px solid #b9862d;border-radius:999px;padding:6px 9px;font:700 10px Arial;opacity:.86">BUILD 186</div>
 <button class="btn fullscreenBtn" type="button" onclick="toggleMajlisFullscreen()">⛶</button><button id="soundToggle" class="btn soundToggle" type="button" onclick="unlockMajlisAudio().then(()=>cycleAudioMode())">🔊 كامل</button><main class="app">
 <section id="home" class="screen active"><div class="brand"><img class="homeIcon" src="67F7C1B6-80FF-4FC7-AA1A-F472D8A6E4FC.png" alt="المجلس"><h1>المجلس</h1><div class="attractLine">من سيحسم المجلس؟</div></div><div id="loadStatus" class="card small">جاري تحميل بنك الأسئلة...</div><button id="newGameBtn" class="btn gold pregamePrimary" disabled onclick="startNewGame()">⚔️ ابدأ مجلس جديد</button></section>
 <section id="teams" class="screen"><h2>أسماء الفريقين</h2><div class="card teamEntryCard"><div class="teamField"><label for="t1">الفريق الأول</label><input id="t1" class="input" placeholder="مثال: الصقور"></div><div class="teamField"><label for="t2">الفريق الثاني</label><input id="t2" class="input" placeholder="مثال: النسور"></div></div><button class="btn gold pregamePrimary" onclick="toCategories()">التالي</button></section>
 <section id="cats" class="screen"><div class="topline"><h2>اختيار الفئات</h2><span id="cc" class="badge">0 / 6</span></div><p class="small">اختر 6 فئات</p><div id="catGrid" class="categories"></div><button id="startBtn" class="btn gold pregamePrimary" disabled onclick="draw()">ابدأ اللعبة</button></section>
-<section id="draw" class="screen"><h2>القرعة</h2><div class="card winner"><div class="trophy">🎲</div><p>الفريق الذي يبدأ هو</p><div id="starter" class="winnerName"></div></div><button class="btn gold" onclick="startGame()">ابدأ المباراة</button><button class="btn" type="button" onclick="Promise.resolve().then(()=>{primeAllMajlisAudio();majlisHtmlTone('points');setTimeout(()=>playTheme('intro',false,.50),220);showGameToast('🔊 اختبار المؤثرات والموسيقى')})">🔊 اختبار الموسيقى والمؤثرات قبل بدء المباراة</button><div class="note">الإصدار: BUILD 166</div></section>
+<section id="draw" class="screen"><h2>القرعة</h2><div class="card winner"><div class="trophy">🎲</div><p>الفريق الذي يبدأ هو</p><div id="starter" class="winnerName"></div></div><button class="btn gold" onclick="startGame()">ابدأ المباراة</button><button class="btn" type="button" onclick="Promise.resolve().then(()=>{primeAllMajlisAudio();majlisHtmlTone('points');setTimeout(()=>playTheme('intro',false,.50),220);showGameToast('🔊 اختبار المؤثرات والموسيقى')})">🔊 اختبار الموسيقى والمؤثرات قبل بدء المباراة</button><div class="note">الإصدار: BUILD 186</div></section>
 <section id="boardScreen" class="screen"><div class="logo">المجلس</div><div id="matchProgress" class="matchProgress"><span id="progressText">0 / 36</span><div class="progressTrack"><i id="progressFill"></i></div></div><div id="streakBar" class="streakBar"></div><div id="boardTurn" class="card" style="text-align:center;font-size:20px;font-weight:900;border:2px solid var(--gold);padding:12px"></div><div class="scorebar broadcastScorebar"><div id="s2" class="teamScore red"></div><div>⚔️</div><div id="s1" class="teamScore blue"></div></div><div id="board" class="board"></div></section>
 <section id="questionScreen" class="screen"><div class="questionLandscapeBar" aria-label="الفئة ونتيجة الفريقين"><div class="questionLandscapeCategory"><img id="qCatLandscapeImg" alt="" aria-hidden="true"><span id="qCatLandscape"></span><small id="qPtsLandscape"></small></div><div id="qs1" class="teamScore blue questionTeamScore"></div><div id="qs2" class="teamScore red questionTeamScore"></div></div><div class="topline"><span id="qCat" class="badge"></span><span id="qPts" class="badge"></span></div><div id="qText" class="question"></div><div class="tvLowerThird"><span id="tvLowerThird">الفئة • النقاط</span></div><div id="qMedia"></div><div id="timer" class="timer">00:30</div><p id="turnText" class="small"></p><div style="text-align:center"><span id="phaseLabel" class="phaseLabel">الفريق الأول — 30 ثانية</span></div><button id="answerBtn" class="btn" onclick="reveal()">👁 إظهار الجواب</button><div id="answerArea" class="hidden"><div class="small">الإجابة الصحيحة</div><div id="answer" class="answer"></div><p class="small">من حصل على النقاط؟</p><button id="give1" class="btn blue" onclick="award(1)"></button><button id="give2" class="btn red" onclick="award(2)"></button><button class="btn" onclick="award(0)">لا أحد</button>
 <div class="questionTools">
@@ -3456,7 +3457,7 @@ function playWinnerComedyThen(finalCallback){
     }).filter(x=>x.club);
   }
   function careerCard(stop,i){
-    return `<div class="careerClubCard" data-career-club="${esc(stop.club)}"><div class="careerClubLogo"><div class="careerClubLogoFallback">${esc((stop.club||'?').slice(0,2))}</div></div><div class="careerClubName">${esc(stop.club)}</div><div class="careerClubYears">${esc(stop.years)}</div><div class="careerOrderBadge">${i>=0?i+1:'✓'}</div></div>${i>=0?'<div class="careerArrow">←</div>':''}`;
+    return `<div class="careerClubCard" data-career-club="${esc(stop.club)}"><div class="careerClubLogo"><div class="careerClubLogoFallback">${esc((stop.club||'?').slice(0,2))}</div></div><div class="careerClubName">${esc(stop.club)}</div><div class="careerClubYears">${esc(stop.years)}</div></div>${i>=0?'<div class="careerArrow">←</div>':''}`;
   }
   window.renderCareerVisual=function(q){
     const stops=plainCareerText(q);
@@ -3768,4 +3769,117 @@ function playWinnerComedyThen(finalCallback){
 })();
 </script>
 
+
+<style id="BUILD186_ROOT_RESPONSIVE_DISPLAY_FIX">
+/* BUILD 186: authoritative end-of-cascade rules. These intentionally override older experimental viewport/media caps. */
+#questionScreen.careerMode .careerClubCard:before,
+#questionScreen.careerMode .careerOrderBadge{display:none!important;content:none!important}
+
+/* All question media must own its box; no image may escape into adjacent content. */
+#questionScreen #qMedia{box-sizing:border-box!important;position:relative!important;isolation:isolate}
+#questionScreen #qMedia img{position:static!important;float:none!important;display:block!important;max-width:100%!important;object-fit:contain!important;box-sizing:border-box!important}
+#questionScreen #qMedia .mediaFrame{box-sizing:border-box!important;max-width:100%!important;overflow:hidden!important}
+#questionScreen.commonClubMode #qMedia .playerGallery{align-items:stretch!important}
+#questionScreen.commonClubMode #qMedia .playerCard{display:flex!important;flex-direction:column!important;min-width:0!important}
+#questionScreen.commonClubMode #qMedia .playerCard img{flex:1 1 auto!important;min-height:0!important;object-fit:contain!important;object-position:center top!important;background:#09111e!important}
+#questionScreen.commonClubMode #qMedia .playerNum{flex:0 0 auto!important;position:static!important}
+
+/* Career: complete data is never clipped in portrait; cards are compact and free of overlays. */
+#questionScreen.careerMode{overflow-x:hidden!important;overflow-y:auto!important;-webkit-overflow-scrolling:touch!important}
+#questionScreen.careerMode #qMedia,
+#questionScreen.careerMode .careerVisualShell,
+#questionScreen.careerMode .careerClubTrack{max-height:none!important;height:auto!important;overflow:visible!important}
+#questionScreen.careerMode .careerClubTrack{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:6px!important;width:100%!important}
+#questionScreen.careerMode .careerClubCard{display:grid!important;grid-template-columns:44px minmax(0,1fr)!important;grid-template-rows:auto auto!important;gap:2px 7px!important;min-height:64px!important;padding:6px!important;align-items:center!important}
+#questionScreen.careerMode .careerClubLogo{grid-column:1!important;grid-row:1/3!important;width:40px!important;height:40px!important;margin:0!important}
+#questionScreen.careerMode .careerClubName{grid-column:2!important;grid-row:1!important;text-align:right!important;font-size:12px!important;line-height:1.15!important;margin:0!important}
+#questionScreen.careerMode .careerClubYears{grid-column:2!important;grid-row:2!important;text-align:right!important;font-size:10.5px!important;line-height:1.15!important;margin:0!important;direction:ltr!important}
+#questionScreen.careerMode .careerArrow{display:none!important}
+
+/* National anthem/audio questions: player must remain visible in every orientation. */
+#questionScreen.anthemMode #qMedia{display:block!important;visibility:visible!important;opacity:1!important;max-height:none!important;overflow:visible!important;width:min(680px,96%)!important}
+#questionScreen.anthemMode #qMedia .audioStage{display:block!important;visibility:visible!important;max-height:none!important;overflow:visible!important;padding:8px 12px!important;margin:0 auto!important}
+#questionScreen.anthemMode #qMedia audio{display:block!important;visibility:visible!important;width:min(560px,96%)!important;height:34px!important;margin:4px auto!important}
+#questionScreen.anthemMode #qMedia .waveform{height:24px!important;margin:2px auto 4px!important}
+#questionScreen.anthemMode #qMedia .note{margin-top:2px!important;font-size:9px!important}
+
+/* Mobile portrait: complete career stays readable without hiding any stop. */
+@media (orientation:portrait) and (max-width:700px){
+ #questionScreen.careerMode #qText{margin-top:44px!important;font-size:clamp(18px,5vw,24px)!important;padding:8px!important}
+ #questionScreen.careerMode .careerVisualTitle{margin-bottom:5px!important;padding:4px 9px!important}
+ #questionScreen.careerMode .careerHintBox{margin-top:5px!important}
+}
+
+/* Landscape gameplay: board and question always fit the physical viewport. */
+@media (orientation:landscape) and (max-height:700px){
+ html,body{width:100%!important;height:100dvh!important;min-height:100dvh!important;margin:0!important}
+ .app{width:100%!important;max-width:none!important;height:100dvh!important;max-height:100dvh!important;padding:2px max(5px,env(safe-area-inset-right)) 2px max(5px,env(safe-area-inset-left))!important}
+ #boardScreen.screen.active,#questionScreen.screen.active{width:100%!important;height:100dvh!important;max-height:100dvh!important;border-radius:0!important;margin:0!important}
+ #boardScreen.screen.active{overflow:hidden!important;padding:2px 5px!important}
+ #boardScreen #board.board{grid-template-columns:repeat(6,minmax(0,1fr))!important;grid-template-rows:1fr!important;min-height:0!important;height:100%!important}
+ #boardScreen .categoryBox{min-width:0!important;min-height:0!important;height:100%!important}
+ #boardScreen .points{grid-template-columns:1fr!important;grid-template-rows:repeat(6,minmax(0,1fr))!important;min-height:0!important;height:100%!important}
+ #boardScreen .point{min-height:0!important;height:100%!important;padding:0!important}
+
+ #questionScreen.screen.active{overflow:hidden!important;padding:2px 6px!important;gap:0!important}
+ #questionScreen.screen.active .questionLandscapeBar{flex:0 0 34px!important;min-height:34px!important;height:34px!important;margin:0 auto 1px!important}
+ #questionScreen.screen.active #qText{flex:0 0 auto!important;max-height:16dvh!important;overflow:hidden!important;font-size:clamp(12px,3.1vh,18px)!important;line-height:1.12!important;padding:3px 6px!important;margin:0 auto 1px!important}
+ #questionScreen.screen.active #qMedia{flex:1 1 auto!important;min-height:0!important;max-height:43dvh!important;overflow:hidden!important;margin:0 auto 1px!important}
+ #questionScreen.screen.active .timer{flex:0 0 42px!important;width:42px!important;height:42px!important;min-width:42px!important;margin:0 auto!important;border-width:5px!important;font-size:14px!important}
+ #questionScreen.screen.active #turnText{flex:0 0 auto!important;font-size:9px!important;line-height:1!important;margin:0!important}
+ #questionScreen.screen.active #phaseLabel{font-size:9px!important;padding:2px 6px!important}
+ #questionScreen.screen.active #answerBtn{flex:0 0 27px!important;min-height:27px!important;padding:3px 10px!important;margin:1px auto!important;font-size:11px!important}
+ #questionScreen.screen.active #answerArea{max-height:33dvh!important;overflow:auto!important;margin:1px auto 0!important;padding:5px!important}
+ #questionScreen.screen.active #answerArea .answer{font-size:clamp(17px,4vh,24px)!important;padding:4px!important;line-height:1.15!important}
+ #questionScreen.screen.active #answerArea .btn{padding:4px!important;margin:2px 0!important;min-height:26px!important;font-size:11px!important}
+
+ /* Career uses a dense, complete grid in landscape — never a clipped horizontal/vertical timeline. */
+ #questionScreen.careerMode{overflow:hidden!important}
+ #questionScreen.careerMode #qText{max-height:12dvh!important}
+ #questionScreen.careerMode #qMedia{flex:1 1 auto!important;max-height:none!important;height:auto!important;overflow:visible!important;width:min(1120px,99%)!important}
+ #questionScreen.careerMode .careerVisualShell{height:100%!important;display:flex!important;flex-direction:column!important;min-height:0!important;padding:0!important}
+ #questionScreen.careerMode .careerVisualTitle{display:none!important}
+ #questionScreen.careerMode .careerClubTrack{flex:1 1 auto!important;min-height:0!important;display:grid!important;grid-template-columns:repeat(6,minmax(0,1fr))!important;grid-auto-rows:minmax(0,1fr)!important;gap:3px!important;overflow:visible!important;padding:0!important}
+ #questionScreen.careerMode .careerClubCard{display:flex!important;flex-direction:column!important;justify-content:center!important;min-height:0!important;height:100%!important;padding:2px!important;border-radius:9px!important;gap:1px!important}
+ #questionScreen.careerMode .careerClubLogo{width:25px!important;height:25px!important;margin:0 auto 1px!important}
+ #questionScreen.careerMode .careerClubName{font-size:8.5px!important;line-height:1.05!important;text-align:center!important;margin:0!important}
+ #questionScreen.careerMode .careerClubYears{font-size:7.5px!important;line-height:1.05!important;text-align:center!important;margin:0!important;direction:ltr!important}
+ #questionScreen.careerMode .careerHintBox{display:none!important}
+
+ /* Audio remains visible while consuming little height. */
+ #questionScreen.anthemMode #qMedia{flex:0 0 auto!important;max-height:none!important;overflow:visible!important}
+ #questionScreen.anthemMode #qMedia .audioStage{padding:3px 8px!important}
+ #questionScreen.anthemMode #qMedia .audioStage>div:first-child{font-size:18px!important;line-height:1!important}
+ #questionScreen.anthemMode #qMedia .waveform{height:17px!important;margin:0 auto 2px!important}
+ #questionScreen.anthemMode #qMedia audio{height:28px!important;margin:1px auto!important}
+ #questionScreen.anthemMode #qMedia .note{font-size:8px!important;margin:0!important}
+
+ /* Lineups and galleries stay inside their media box and remain zoomable. */
+ #questionScreen.lineupMode #qMedia{max-height:45dvh!important;overflow:visible!important}
+ #questionScreen.lineupMode .lineupStage{height:100%!important;max-height:45dvh!important;overflow:hidden!important}
+ #questionScreen.lineupMode .footballPitch{height:min(34dvh,250px)!important;width:auto!important;max-width:100%!important;margin:auto!important}
+ #questionScreen.commonClubMode #qMedia{max-height:42dvh!important;overflow:hidden!important}
+ #questionScreen.commonClubMode .playerGallery{height:100%!important;max-height:42dvh!important;overflow:hidden!important}
+ #questionScreen.commonClubMode .playerCard img{height:min(31dvh,175px)!important;max-height:31dvh!important}
+}
+</style>
+<script id="BUILD186_RUNTIME_ROOT_FIX">
+(function(){
+  const qs=document.getElementById('questionScreen');
+  const prior=window.dynamicQuestionLayout;
+  window.dynamicQuestionLayout=function(cat,q){
+    if(typeof prior==='function') prior(cat,q);
+    if(!qs)return;
+    qs.classList.toggle('anthemMode',cat==='نشيد وطني');
+  };
+  function enforceQuestionMode(){
+    if(!qs||!window.current)return;
+    qs.classList.toggle('anthemMode',current.cat==='نشيد وطني');
+  }
+  const qm=document.getElementById('qMedia');
+  if(qm)new MutationObserver(enforceQuestionMode).observe(qm,{childList:true,subtree:true});
+  window.addEventListener('orientationchange',()=>setTimeout(()=>{enforceQuestionMode();scrollTo(0,0)},120));
+  window.addEventListener('resize',()=>{if(matchMedia('(orientation:landscape)').matches)scrollTo(0,0)});
+})();
+</script>
 </body></html>
