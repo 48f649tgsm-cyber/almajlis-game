@@ -1,4 +1,5 @@
 <!doctype html>
+<!-- BUILD 193 — COMPACT RIGHT TEAM RAIL + PREMIUM QUESTION STAGE + ROBUST FULLSCREEN/APP MODE -->
 <!-- BUILD 192 — RESTORED CENTERED CARTOON OPENING + AUTO INTRO EXIT + PREMIUM QUESTION PRESENTATION + RIGHT LANDSCAPE INFO RAIL -->
 <!-- BUILD 186 — ROOT RESPONSIVE DISPLAY FIX: complete career, no timeline dots/order badges, anthem landscape visibility, image collision guards, true landscape viewport fit -->
 <!-- BUILD 178 — QUESTION TYPOGRAPHY ONLY: professional Arabic question card, hierarchy and responsive sizing; no game/content logic changed -->
@@ -104,7 +105,7 @@ Future batches may update only question JSON loading and game logic, not CATEGOR
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate, max-age=0">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
-<meta name="almajlis-build" content="BUILD-189-MAJLIS-CINEMATIC-HOME-20260903"><meta name="build-number" content="188">
+<meta name="almajlis-build" content="BUILD-193-COMPACT-RAIL-PREMIUM-QUESTION-FULLSCREEN-20260903"><meta name="build-number" content="193">
 
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#ffffff">
@@ -1544,7 +1545,7 @@ body.majlisFullscreenMode .fullscreenBtn{background:#17120b!important;color:#f3c
 <body>
 
 <script id="QUALITY_025_CACHE_PURGE">
-window.ALMAJLIS_ACTIVE_BUILD='192';
+window.ALMAJLIS_ACTIVE_BUILD='193';
 (async()=>{
   try{
     if('serviceWorker' in navigator){
@@ -1555,12 +1556,12 @@ window.ALMAJLIS_ACTIVE_BUILD='192';
       const keys=await caches.keys();
       for(const k of keys)await caches.delete(k);
     }
-    sessionStorage.setItem('almajlis_build_seen','192');
+    sessionStorage.setItem('almajlis_build_seen','193');
   }catch(e){}
 })();
 </script>
 
-<div id="buildBadge025" style="position:fixed;right:10px;bottom:calc(10px + env(safe-area-inset-bottom));z-index:20000;background:#111;color:#f0cd78;border:1px solid #b9862d;border-radius:999px;padding:6px 9px;font:700 10px Arial;opacity:.86">BUILD 192</div>
+<div id="buildBadge025" style="position:fixed;right:10px;bottom:calc(10px + env(safe-area-inset-bottom));z-index:20000;background:#111;color:#f0cd78;border:1px solid #b9862d;border-radius:999px;padding:6px 9px;font:700 10px Arial;opacity:.86">BUILD 193</div>
 <button class="btn fullscreenBtn" type="button" onclick="toggleMajlisFullscreen()">⛶</button><button id="soundToggle" class="btn soundToggle" type="button" onclick="unlockMajlisAudio().then(()=>cycleAudioMode())">🔊 كامل</button><main class="app">
 <section id="home" class="screen active">
   <div class="homeAtmosphere" aria-hidden="true"><i></i><i></i><i></i></div>
@@ -1585,7 +1586,7 @@ window.ALMAJLIS_ACTIVE_BUILD='192';
 </section>
 <section id="teams" class="screen"><h2>أسماء الفريقين</h2><div class="card teamEntryCard"><div class="teamField"><label for="t1">الفريق الأول</label><input id="t1" class="input" placeholder="مثال: الصقور"></div><div class="teamField"><label for="t2">الفريق الثاني</label><input id="t2" class="input" placeholder="مثال: النسور"></div></div><button class="btn gold pregamePrimary" onclick="toCategories()">التالي</button></section>
 <section id="cats" class="screen"><div class="topline"><h2>اختيار الفئات</h2><span id="cc" class="badge">0 / 6</span></div><p class="small">اختر 6 فئات</p><div id="catGrid" class="categories"></div><button id="startBtn" class="btn gold pregamePrimary" disabled onclick="draw()">ابدأ اللعبة</button></section>
-<section id="draw" class="screen"><h2>القرعة</h2><div class="card winner"><div class="trophy">🎲</div><p>الفريق الذي يبدأ هو</p><div id="starter" class="winnerName"></div></div><button class="btn gold" onclick="startGame()">ابدأ المباراة</button><button class="btn" type="button" onclick="Promise.resolve().then(()=>{primeAllMajlisAudio();majlisHtmlTone('points');setTimeout(()=>playTheme('intro',false,.50),220);showGameToast('🔊 اختبار المؤثرات والموسيقى')})">🔊 اختبار الموسيقى والمؤثرات قبل بدء المباراة</button><div class="note">الإصدار: BUILD 192</div></section>
+<section id="draw" class="screen"><h2>القرعة</h2><div class="card winner"><div class="trophy">🎲</div><p>الفريق الذي يبدأ هو</p><div id="starter" class="winnerName"></div></div><button class="btn gold" onclick="startGame()">ابدأ المباراة</button><button class="btn" type="button" onclick="Promise.resolve().then(()=>{primeAllMajlisAudio();majlisHtmlTone('points');setTimeout(()=>playTheme('intro',false,.50),220);showGameToast('🔊 اختبار المؤثرات والموسيقى')})">🔊 اختبار الموسيقى والمؤثرات قبل بدء المباراة</button><div class="note">الإصدار: BUILD 193</div></section>
 <section id="boardScreen" class="screen"><div class="logo">المجلس</div><div id="matchProgress" class="matchProgress"><span id="progressText">0 / 36</span><div class="progressTrack"><i id="progressFill"></i></div></div><div id="streakBar" class="streakBar"></div><div id="boardTurn" class="card" style="text-align:center;font-size:20px;font-weight:900;border:2px solid var(--gold);padding:12px"></div><div class="scorebar broadcastScorebar"><div id="s2" class="teamScore red"></div><div>⚔️</div><div id="s1" class="teamScore blue"></div></div><div id="board" class="board"></div></section>
 <section id="questionScreen" class="screen"><div class="questionLandscapeBar" aria-label="الفئة ونتيجة الفريقين"><div class="questionLandscapeCategory"><img id="qCatLandscapeImg" alt="" aria-hidden="true"><span id="qCatLandscape"></span><small id="qPtsLandscape"></small></div><div id="qs1" class="teamScore blue questionTeamScore"></div><div id="qs2" class="teamScore red questionTeamScore"></div></div><div class="topline"><span id="qCat" class="badge"></span><span id="qPts" class="badge"></span></div><div id="qPointHero" class="questionPointHero" aria-label="نقاط السؤال"></div><div id="qText" class="question"></div><div class="tvLowerThird"><span id="tvLowerThird">الفئة • النقاط</span></div><div id="qMedia"></div><div id="timer" class="timer">00:30</div><p id="turnText" class="small"></p><div style="text-align:center"><span id="phaseLabel" class="phaseLabel">الفريق الأول — 30 ثانية</span></div><button id="answerBtn" class="btn" onclick="reveal()">👁 إظهار الجواب</button><div id="answerArea" class="hidden"><div class="small">الإجابة الصحيحة</div><div id="answer" class="answer"></div><p class="small">من حصل على النقاط؟</p><button id="give1" class="btn blue" onclick="award(1)"></button><button id="give2" class="btn red" onclick="award(2)"></button><button class="btn" onclick="award(0)">لا أحد</button>
 <div class="questionTools">
@@ -4462,6 +4463,231 @@ function playWinnerComedyThen(finalCallback){
   const q=document.getElementById('qText');
   if(q) new MutationObserver(syncPointHero).observe(q,{childList:true,subtree:true,characterData:true});
   window.addEventListener('orientationchange',()=>setTimeout(()=>{syncPointHero();window.scrollTo(0,0)},120));
+})();
+</script>
+
+
+<!-- BUILD 193 — requested presentation corrections only; question bank/game logic untouched. -->
+<style id="BUILD193_UI_FIX">
+/* App-like viewport and a clearer fullscreen affordance. */
+html,body{overscroll-behavior:none}
+.fullscreenBtn{
+  position:fixed!important;z-index:22000!important;
+  top:max(10px,env(safe-area-inset-top))!important;
+  left:max(10px,env(safe-area-inset-left))!important;
+  right:auto!important;bottom:auto!important;
+  width:auto!important;min-width:44px!important;height:44px!important;
+  padding:0 13px!important;border-radius:15px!important;
+  display:flex!important;align-items:center!important;justify-content:center!important;gap:7px!important;
+  background:rgba(7,13,24,.88)!important;color:#f5d376!important;
+  border:1px solid rgba(224,184,92,.58)!important;
+  box-shadow:0 10px 30px rgba(0,0,0,.35)!important;
+  backdrop-filter:blur(12px)!important;-webkit-backdrop-filter:blur(12px)!important;
+  font-weight:1000!important;font-size:20px!important;line-height:1!important;
+}
+.fullscreenBtn::after{content:"ملء الشاشة";font-size:11px;font-weight:900;white-space:nowrap}
+body.majlisFullscreenMode .fullscreenBtn::after{content:"تصغير"}
+body.majlisFullscreenMode{width:100vw!important;height:100dvh!important;overflow:hidden!important;background:#030915!important}
+@media (orientation:portrait) and (max-width:600px){.fullscreenBtn{width:44px!important;min-width:44px!important;padding:0!important}.fullscreenBtn::after{display:none!important}}
+
+/* ===== Premium question typography ===== */
+#questionScreen #qText.question{
+  position:relative!important;isolation:isolate!important;
+  font-family:"SF Arabic","Geeza Pro","Tahoma","Arial",sans-serif!important;
+  font-weight:800!important;letter-spacing:-.025em!important;
+  color:#f8f5ec!important;text-wrap:balance!important;
+  text-shadow:0 2px 16px rgba(0,0,0,.28)!important;
+  background:
+    radial-gradient(80% 120% at 50% -20%,rgba(53,89,138,.28),transparent 62%),
+    linear-gradient(155deg,rgba(17,34,58,.96),rgba(5,13,26,.985))!important;
+  border:1px solid rgba(231,199,119,.44)!important;
+  box-shadow:0 22px 55px rgba(0,0,0,.34),inset 0 1px 0 rgba(255,255,255,.06)!important;
+}
+#questionScreen #qText.question::after{
+  content:""!important;position:absolute!important;inset:10px!important;z-index:-1!important;pointer-events:none!important;
+  border:1px solid rgba(233,198,112,.09)!important;border-radius:inherit!important;
+}
+#questionScreen #qText.question:before{
+  content:""!important;position:absolute!important;top:0!important;right:20%!important;left:20%!important;height:2px!important;
+  background:linear-gradient(90deg,transparent,#e8c366,transparent)!important;border-radius:99px!important;
+  opacity:.9!important;
+}
+#questionScreen .questionPointHero{
+  position:relative!important;overflow:hidden!important;
+  font-family:"SF Arabic","Geeza Pro","Tahoma",sans-serif!important;
+  font-weight:1000!important;letter-spacing:-.02em!important;
+  background:linear-gradient(180deg,#f5cf67 0%,#bd8120 100%)!important;
+  color:#15100a!important;border:2px solid rgba(255,226,142,.88)!important;
+  box-shadow:0 8px 24px rgba(190,128,28,.28),inset 0 1px 0 rgba(255,255,255,.45)!important;
+}
+#questionScreen .questionPointHero::before{content:"السؤال"!important;font-size:.42em!important;font-weight:900!important;margin-left:9px!important;opacity:.78!important}
+#questionScreen .questionPointHero::after{content:"نقطة"!important;font-size:.42em!important;font-weight:900!important;margin-right:9px!important;opacity:.78!important}
+
+@media (orientation:portrait){
+  #questionScreen #qText.question{
+    width:min(700px,94vw)!important;min-height:190px!important;
+    padding:clamp(24px,5.7vw,38px) clamp(22px,6vw,42px)!important;
+    border-radius:25px!important;
+    font-size:clamp(25px,5.9vw,39px)!important;line-height:1.58!important;
+  }
+  #questionScreen #qText.question.qShort{font-size:clamp(29px,6.8vw,44px)!important}
+  #questionScreen #qText.question.qLong{font-size:clamp(20px,4.75vw,31px)!important;line-height:1.52!important}
+}
+
+/* ===== Landscape: compact physical-right rail, no giant empty team blocks ===== */
+@media (orientation:landscape){
+  #questionScreen.screen.active{
+    padding-top:max(8px,env(safe-area-inset-top))!important;
+    padding-right:calc(clamp(154px,16.5vw,194px) + max(9px,env(safe-area-inset-right)))!important;
+    padding-bottom:max(8px,env(safe-area-inset-bottom))!important;
+    padding-left:max(9px,env(safe-area-inset-left))!important;
+  }
+  #questionScreen.screen.active .questionLandscapeBar{
+    display:flex!important;flex-direction:column!important;justify-content:flex-start!important;
+    top:max(11px,env(safe-area-inset-top))!important;
+    right:max(9px,env(safe-area-inset-right))!important;
+    bottom:auto!important;height:auto!important;
+    width:clamp(145px,15.5vw,184px)!important;
+    gap:7px!important;
+  }
+  #questionScreen.screen.active .questionLandscapeCategory,
+  #questionScreen.screen.active .questionTeamScore{
+    flex:none!important;width:100%!important;box-sizing:border-box!important;
+    border-radius:15px!important;
+  }
+  #questionScreen.screen.active .questionLandscapeCategory{
+    min-height:86px!important;max-height:112px!important;
+    padding:8px 7px!important;
+    background:linear-gradient(155deg,rgba(16,35,61,.97),rgba(5,12,24,.99))!important;
+  }
+  #questionScreen.screen.active #qCatLandscapeImg{
+    width:clamp(34px,6.3vh,52px)!important;height:clamp(34px,6.3vh,52px)!important;
+    margin:0 auto 5px!important;border-radius:11px!important;
+  }
+  #questionScreen.screen.active #qCatLandscape{font-size:clamp(11px,2.25vh,15px)!important;line-height:1.16!important}
+  #questionScreen.screen.active .questionTeamScore{
+    min-height:68px!important;max-height:82px!important;
+    display:grid!important;grid-template-columns:minmax(0,1fr) auto!important;
+    grid-template-rows:auto auto!important;align-items:center!important;
+    column-gap:7px!important;row-gap:1px!important;
+    padding:9px 10px!important;text-align:right!important;
+    border:1px solid rgba(255,255,255,.16)!important;
+  }
+  #questionScreen.screen.active .questionTeamScore::before{
+    content:"الفريق"!important;grid-column:1!important;grid-row:1!important;
+    font-size:9px!important;font-weight:800!important;opacity:.66!important;line-height:1!important;
+  }
+  #questionScreen.screen.active .questionTeamScore .scoreTeamName{
+    display:block!important;visibility:visible!important;opacity:1!important;color:#fff!important;
+    grid-column:1!important;grid-row:2!important;
+    max-width:none!important;min-width:0!important;margin:0!important;
+    white-space:nowrap!important;overflow:hidden!important;text-overflow:ellipsis!important;
+    text-align:right!important;font-size:clamp(12px,2.2vh,16px)!important;line-height:1.15!important;font-weight:1000!important;
+    text-shadow:0 2px 8px rgba(0,0,0,.45)!important;
+  }
+  #questionScreen.screen.active .questionTeamScore .scoreNumber{
+    display:block!important;visibility:visible!important;opacity:1!important;color:#fff!important;
+    grid-column:2!important;grid-row:1/3!important;
+    font-size:clamp(25px,5.2vh,39px)!important;line-height:1!important;font-weight:1000!important;
+    min-width:32px!important;text-align:center!important;
+  }
+  #questionScreen .questionPointHero{
+    min-width:104px!important;min-height:39px!important;
+    padding:5px 15px 6px!important;margin:0 auto 7px!important;
+    font-size:clamp(19px,3.7vh,28px)!important;border-radius:18px!important;
+  }
+  #questionScreen.screen.active #qText.question{
+    width:min(1120px,98.5%)!important;max-width:1120px!important;
+    max-height:31dvh!important;min-height:105px!important;
+    padding:clamp(13px,2.5vh,22px) clamp(22px,3.2vw,40px)!important;
+    border-radius:24px!important;margin:0 auto 7px!important;
+    font-size:clamp(23px,4.45vh,36px)!important;line-height:1.46!important;
+  }
+  #questionScreen.screen.active #qText.question.qShort{font-size:clamp(27px,5.2vh,42px)!important}
+  #questionScreen.screen.active #qText.question.qLong{font-size:clamp(18px,3.55vh,29px)!important;line-height:1.38!important}
+}
+
+@media (orientation:landscape) and (max-height:520px){
+  .fullscreenBtn{height:38px!important;min-width:38px!important;left:max(6px,env(safe-area-inset-left))!important;top:max(6px,env(safe-area-inset-top))!important;padding:0 10px!important}.fullscreenBtn::after{display:none!important}
+  #questionScreen.screen.active{padding-right:calc(clamp(132px,15vw,164px) + max(6px,env(safe-area-inset-right)))!important}
+  #questionScreen.screen.active .questionLandscapeBar{width:clamp(124px,14.3vw,154px)!important;gap:4px!important;top:max(6px,env(safe-area-inset-top))!important}
+  #questionScreen.screen.active .questionLandscapeCategory{min-height:68px!important;max-height:78px!important;padding:5px!important}
+  #questionScreen.screen.active #qCatLandscapeImg{width:31px!important;height:31px!important;margin-bottom:2px!important}
+  #questionScreen.screen.active #qCatLandscape{font-size:10.5px!important}
+  #questionScreen.screen.active .questionTeamScore{min-height:54px!important;max-height:61px!important;padding:6px 7px!important;column-gap:5px!important}
+  #questionScreen.screen.active .questionTeamScore::before{font-size:7.5px!important}
+  #questionScreen.screen.active .questionTeamScore .scoreTeamName{font-size:10.5px!important}
+  #questionScreen.screen.active .questionTeamScore .scoreNumber{font-size:23px!important;min-width:27px!important}
+  #questionScreen .questionPointHero{min-height:32px!important;font-size:17px!important;padding:3px 11px 4px!important;margin-bottom:4px!important}
+  #questionScreen.screen.active #qText.question{min-height:78px!important;max-height:29dvh!important;font-size:clamp(19px,4.35vh,29px)!important;line-height:1.38!important;padding:8px 16px!important;margin-bottom:3px!important}
+  #questionScreen.screen.active #qText.question.qLong{font-size:clamp(15.5px,3.35vh,22px)!important;line-height:1.31!important}
+}
+</style>
+<script id="BUILD193_RUNTIME_FIX">
+(function(){
+  'use strict';
+  const esc=v=>typeof escapeHtml==='function'?escapeHtml(String(v??'')):String(v??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]));
+  function refreshQuestionRail(){
+    const a=document.getElementById('qs1'),b=document.getElementById('qs2');
+    if(a) a.innerHTML='<span class="scoreTeamName">'+esc((typeof team1!=='undefined'&&team1)||'الفريق الأول')+'</span><strong class="scoreNumber">'+Number((typeof score1!=='undefined'&&score1)||0)+'</strong>';
+    if(b) b.innerHTML='<span class="scoreTeamName">'+esc((typeof team2!=='undefined'&&team2)||'الفريق الثاني')+'</span><strong class="scoreNumber">'+Number((typeof score2!=='undefined'&&score2)||0)+'</strong>';
+  }
+  window.refreshQuestionRail193=refreshQuestionRail;
+  document.addEventListener('DOMContentLoaded',refreshQuestionRail);
+  const qs=document.getElementById('questionScreen');
+  if(qs){
+    new MutationObserver(()=>{if(qs.classList.contains('active'))requestAnimationFrame(refreshQuestionRail)}).observe(qs,{attributes:true,attributeFilter:['class']});
+  }
+  // Ensure rail values are refreshed at the exact moment a question is launched.
+  const oldOpen=window.openQuestion;
+  if(typeof oldOpen==='function'){
+    window.openQuestion=async function(){const r=await oldOpen.apply(this,arguments);refreshQuestionRail();return r};
+  }
+  const oldScores=window.updateScores;
+  if(typeof oldScores==='function'){
+    window.updateScores=function(){const r=oldScores.apply(this,arguments);refreshQuestionRail();return r};
+  }
+
+  // Add standalone/PWA hints while keeping this release a single HTML file.
+  try{
+    if(!document.querySelector('meta[name="apple-mobile-web-app-capable"]')){const m=document.createElement('meta');m.name='apple-mobile-web-app-capable';m.content='yes';document.head.appendChild(m)}
+    if(!document.querySelector('meta[name="apple-mobile-web-app-status-bar-style"]')){const m=document.createElement('meta');m.name='apple-mobile-web-app-status-bar-style';m.content='black-translucent';document.head.appendChild(m)}
+  }catch(e){}
+
+  window.toggleMajlisFullscreen=async function(){
+    const root=document.documentElement;
+    const btn=document.querySelector('.fullscreenBtn');
+    const active=!!(document.fullscreenElement||document.webkitFullscreenElement);
+    try{
+      if(active){
+        const exit=document.exitFullscreen||document.webkitExitFullscreen;
+        if(exit)await exit.call(document);
+        document.body.classList.remove('majlisFullscreenMode');
+        if(btn)btn.textContent='⛶';
+        return;
+      }
+      const enter=root.requestFullscreen||root.webkitRequestFullscreen;
+      if(enter){
+        await enter.call(root);
+        document.body.classList.add('majlisFullscreenMode');
+        if(btn)btn.textContent='✕';
+        try{if(screen.orientation?.lock)await screen.orientation.lock('landscape')}catch(e){}
+        return;
+      }
+      // iPhone Safari may not expose page Fullscreen API. Collapse chrome as far as Safari allows,
+      // and explain the one-time standalone route for a truly browser-free launch.
+      document.body.classList.add('majlisFullscreenMode');
+      try{window.scrollTo({top:1,left:0,behavior:'smooth'})}catch(e){try{window.scrollTo(0,1)}catch(_){}}
+      if(window.navigator.standalone===true){if(btn)btn.textContent='✕';return}
+      if(typeof showGameToast==='function')showGameToast('لإخفاء شريط Safari بالكامل على iPhone: مشاركة ← إضافة إلى الشاشة الرئيسية، ثم افتح المجلس من الأيقونة');
+      else alert('لإخفاء شريط Safari بالكامل على iPhone: مشاركة ← إضافة إلى الشاشة الرئيسية، ثم افتح المجلس من الأيقونة.');
+    }catch(e){
+      document.body.classList.add('majlisFullscreenMode');
+      try{window.scrollTo(0,1)}catch(_){}
+    }
+  };
+  document.addEventListener('fullscreenchange',()=>{const on=!!document.fullscreenElement;document.body.classList.toggle('majlisFullscreenMode',on);const b=document.querySelector('.fullscreenBtn');if(b)b.textContent=on?'✕':'⛶'});
+  document.addEventListener('webkitfullscreenchange',()=>{const on=!!document.webkitFullscreenElement;document.body.classList.toggle('majlisFullscreenMode',on);const b=document.querySelector('.fullscreenBtn');if(b)b.textContent=on?'✕':'⛶'});
 })();
 </script>
 
