@@ -1,5 +1,5 @@
 <!doctype html>
-<!-- BUILD 198 — LIGHT UI + REBUILT NEW CATEGORIES + VISUAL QUESTIONS + TIMER AUDIO -->
+<!-- BUILD 199 — EMBEDDED NEW CATEGORY ART + CLEAR CLASICO + LANDSCAPE LABEL FIX -->
 <!-- BUILD 195 — SILENT BACKGROUND + EASIER 100-POINT POOL + 8 NEW CATEGORIES -->
 <!-- BUILD 194 — FULLSCREEN FALLBACK + VISIBLE TEAM NAMES + COMPLETE PORTRAIT CAREER + PREMIUM QUESTION TYPOGRAPHY -->
 <!-- BUILD 192 — RESTORED CENTERED CARTOON OPENING + AUTO INTRO EXIT + PREMIUM QUESTION PRESENTATION + RIGHT LANDSCAPE INFO RAIL -->
@@ -1563,7 +1563,7 @@ window.ALMAJLIS_ACTIVE_BUILD='193';
 })();
 </script>
 
-<div id="buildBadge025" style="position:fixed;right:10px;bottom:calc(10px + env(safe-area-inset-bottom));z-index:20000;background:#fff;color:#e65d31;border:1px solid #f0a07f;border-radius:999px;padding:6px 9px;font:700 10px Arial;opacity:.9">BUILD 198</div>
+<div id="buildBadge025" style="position:fixed;right:10px;bottom:calc(10px + env(safe-area-inset-bottom));z-index:20000;background:#fff;color:#e65d31;border:1px solid #f0a07f;border-radius:999px;padding:6px 9px;font:700 10px Arial;opacity:.9">BUILD 199</div>
 <button class="btn fullscreenBtn" type="button" onclick="toggleMajlisFullscreen()">⛶</button><button id="soundToggle" class="btn soundToggle" type="button" onclick="unlockMajlisAudio().then(()=>cycleAudioMode())">🔉 مؤثرات</button><main class="app">
 <section id="home" class="screen active">
   <div class="homeAtmosphere" aria-hidden="true"><i></i><i></i><i></i></div>
@@ -1588,7 +1588,7 @@ window.ALMAJLIS_ACTIVE_BUILD='193';
 </section>
 <section id="teams" class="screen"><h2>أسماء الفريقين</h2><div class="card teamEntryCard"><div class="teamField"><label for="t1">الفريق الأول</label><input id="t1" class="input" placeholder="مثال: الصقور"></div><div class="teamField"><label for="t2">الفريق الثاني</label><input id="t2" class="input" placeholder="مثال: النسور"></div></div><button class="btn gold pregamePrimary" onclick="toCategories()">التالي</button></section>
 <section id="cats" class="screen"><div class="topline"><h2>اختيار الفئات</h2><span id="cc" class="badge">0 / 6</span></div><p class="small">اختر 6 فئات</p><div id="catGrid" class="categories"></div><button id="startBtn" class="btn gold pregamePrimary" disabled onclick="draw()">ابدأ اللعبة</button></section>
-<section id="draw" class="screen"><h2>القرعة</h2><div class="card winner"><div class="trophy">🎲</div><p>الفريق الذي يبدأ هو</p><div id="starter" class="winnerName"></div></div><button class="btn gold" onclick="startGame()">ابدأ المباراة</button><button class="btn" type="button" onclick="Promise.resolve().then(()=>{primeHtmlAudio();majlisHtmlTone('points');showGameToast('🔉 اختبار المؤثرات')})">🔉 اختبار المؤثرات قبل بدء المباراة</button><div class="note">الإصدار: BUILD 198</div></section>
+<section id="draw" class="screen"><h2>القرعة</h2><div class="card winner"><div class="trophy">🎲</div><p>الفريق الذي يبدأ هو</p><div id="starter" class="winnerName"></div></div><button class="btn gold" onclick="startGame()">ابدأ المباراة</button><button class="btn" type="button" onclick="Promise.resolve().then(()=>{primeHtmlAudio();majlisHtmlTone('points');showGameToast('🔉 اختبار المؤثرات')})">🔉 اختبار المؤثرات قبل بدء المباراة</button><div class="note">الإصدار: BUILD 199</div></section>
 <section id="boardScreen" class="screen"><div class="logo">المجلس</div><div id="matchProgress" class="matchProgress"><span id="progressText">0 / 36</span><div class="progressTrack"><i id="progressFill"></i></div></div><div id="streakBar" class="streakBar"></div><div id="boardTurn" class="card" style="text-align:center;font-size:20px;font-weight:900;border:2px solid var(--gold);padding:12px"></div><div class="scorebar broadcastScorebar"><div id="s2" class="teamScore red"></div><div>⚔️</div><div id="s1" class="teamScore blue"></div></div><div id="board" class="board"></div></section>
 <section id="questionScreen" class="screen"><div class="questionLandscapeBar" aria-label="الفئة ونتيجة الفريقين"><div class="questionLandscapeCategory"><img id="qCatLandscapeImg" alt="" aria-hidden="true"><span id="qCatLandscape"></span><small id="qPtsLandscape"></small></div><div id="qs1" class="teamScore blue questionTeamScore"></div><div id="qs2" class="teamScore red questionTeamScore"></div></div><div class="topline"><span id="qCat" class="badge"></span><span id="qPts" class="badge"></span></div><div id="qPointHero" class="questionPointHero" aria-label="نقاط السؤال"></div><div id="qText" class="question"></div><div class="tvLowerThird"><span id="tvLowerThird">الفئة • النقاط</span></div><div id="qMedia"></div><div id="timer" class="timer">00:30</div><p id="turnText" class="small"></p><div style="text-align:center"><span id="phaseLabel" class="phaseLabel">الفريق الأول — 30 ثانية</span></div><button id="answerBtn" class="btn" onclick="reveal()">👁 إظهار الجواب</button><div id="answerArea" class="hidden"><div class="small">الإجابة الصحيحة</div><div id="answer" class="answer"></div><p class="small">من حصل على النقاط؟</p><button id="give1" class="btn blue" onclick="award(1)"></button><button id="give2" class="btn red" onclick="award(2)"></button><button class="btn" onclick="award(0)">لا أحد</button>
 <div class="questionTools">
@@ -1617,11 +1617,25 @@ const CLUB_CRESTS_LOCKED={
 };
 const REALISTIC_CATEGORY_IMAGES=new Set(["تاريخ", "تاريخ إسلامي", "قصص القرآن", "قصص الأنبياء", "جغرافيا", "مسيرة لاعب", "من هو اللاعب", "النادي المشترك", "الدوري الإنجليزي", "تشكيلات فرق", "عالم الحيوان", "صحح الخطأ", "خمن الدولة", "السيرة النبوية", "من سجل الهدف", "تاريخ الصحابة", "قطر", "حروف اسلامي", "اغاني عربية", "افلام اجنبية", "مسلسلات عربية"]);
 Object.freeze(CATEGORY_IMAGE_SOURCES);
+// BUILD 199 — self-contained category artwork. These images are embedded so
+// GitHub hosting never depends on missing sidecar files.
+function build199CategoryArt(bg,accent,ink,art){
+  const svg=`<svg xmlns="http://www.w3.org/2000/svg" width="420" height="320" viewBox="0 0 420 320"><defs><linearGradient id="b" x2="1" y2="1"><stop stop-color="${bg}"/><stop offset="1" stop-color="#ffffff"/></linearGradient><filter id="s"><feDropShadow dx="0" dy="7" stdDeviation="7" flood-color="#24384a" flood-opacity=".16"/></filter></defs><rect width="420" height="320" rx="38" fill="url(#b)"/><circle cx="210" cy="146" r="118" fill="${accent}" opacity=".11"/><g filter="url(#s)" stroke-linecap="round" stroke-linejoin="round">${art}</g></svg>`;
+  return 'data:image/svg+xml;charset=utf-8,'+encodeURIComponent(svg);
+}
+const BUILD199_CATEGORY_IMAGE_SOURCES=Object.freeze({
+  'الكويت':build199CategoryArt('#e9f8f2','#07965b','#173f50','<path d="M118 252h184" stroke="#173f50" stroke-width="13"/><path d="M154 241V112m0 0-25-39h50l-25 39zm0 26h-31m31 0h31" fill="#f4bd42" stroke="#173f50" stroke-width="10"/><path d="M218 241V82m0 0-22-35h44l-22 35zm0 49h-27m27 0h27" fill="#69c4d7" stroke="#173f50" stroke-width="10"/><path d="M280 241V132m0 0-20-31h40l-20 31zm0 24h-24m24 0h24" fill="#f06b57" stroke="#173f50" stroke-width="10"/>'),
+  'السعودية':build199CategoryArt('#e8f8ee','#078447','#174631','<path d="M210 74v109" stroke="#087e46" stroke-width="15"/><path d="M210 99c-24-30-54-28-71-7 30 1 53 12 71 30m0-23c24-30 54-28 71-7-30 1-53 12-71 30m0-4c-27-19-55-12-66 10 27-4 48 2 66 15m0-25c27-19 55-12 66 10-27-4-48 2-66 15" fill="#20a25f" stroke="#087e46" stroke-width="8"/><path d="M126 235c51 30 115 30 168 0M126 211c51 30 115 30 168 0" fill="none" stroke="#b68828" stroke-width="10"/>'),
+  'مدربين':build199CategoryArt('#eef4ff','#4174c9','#243f67','<rect x="100" y="55" width="220" height="205" rx="22" fill="#fff" stroke="#315c9d" stroke-width="10"/><rect x="165" y="40" width="90" height="31" rx="12" fill="#f2ae43" stroke="#315c9d" stroke-width="8"/><path d="M124 158h172M210 80v156M124 158c38-45 72-45 86 0m86 0c-38 45-72 45-86 0" fill="none" stroke="#75a7d8" stroke-width="7"/><circle cx="153" cy="114" r="13" fill="#ef6255"/><circle cx="257" cy="201" r="13" fill="#315c9d"/><path d="M135 219l31-23m-31 0 31 23" stroke="#ef6255" stroke-width="8"/>'),
+  'أسماء العواصم':build199CategoryArt('#fff6df','#d89b28','#62451b','<path d="M91 235h238M116 213h188M137 122v86m49-86v86m49-86v86m49-86v86M110 115l100-60 100 60z" fill="#f7cb61" stroke="#735322" stroke-width="10"/><circle cx="210" cy="88" r="13" fill="#ef6548"/><path d="M328 86c0-29 23-49 51-49s51 20 51 49c0 42-51 84-51 84s-51-42-51-84z" transform="translate(-44 10) scale(.45)" fill="#ef6548" stroke="#8f382b" stroke-width="13"/>'),
+  'شكل الخريطة':build199CategoryArt('#e8f8fa','#2b9dac','#174b57','<path d="M108 75l53-22 50 25 51-19 50 24v167l-51-24-51 19-50-25-52 22z" fill="#fff" stroke="#247d89" stroke-width="10"/><path d="M161 54v166m50-142v167m51-186v167" stroke="#8ac9cf" stroke-width="7"/><path d="M146 112l22-18 26 11 20 29-21 22-38-7zm87 49 20-20 34 12 7 30-28 20-27-12z" fill="#63b879" stroke="#247d89" stroke-width="6"/><circle cx="310" cy="220" r="37" fill="none" stroke="#ef6548" stroke-width="12"/><path d="M337 247l32 32" stroke="#ef6548" stroke-width="14"/>'),
+  'AI كروية':build199CategoryArt('#f2ecff','#7b5bc7','#3f2f68','<circle cx="210" cy="157" r="83" fill="#fff" stroke="#493878" stroke-width="10"/><path d="M210 119l32 23-12 38h-40l-12-38z" fill="#493878"/><path d="M210 74v45m-78 57 46-34m110 34-46-34m-69 92 17-54m57 54-17-54" stroke="#493878" stroke-width="9"/><circle cx="77" cy="79" r="17" fill="#ef6548"/><circle cx="343" cy="79" r="17" fill="#ef6548"/><circle cx="71" cy="246" r="17" fill="#ef6548"/><circle cx="349" cy="246" r="17" fill="#ef6548"/><path d="M92 88l50 35m186-35-50 35M88 238l63-38m181 38-63-38" stroke="#7b5bc7" stroke-width="8"/>'),
+  'اسم اللاعب الأول':build199CategoryArt('#fff0f3','#d95776','#663244','<circle cx="210" cy="105" r="58" fill="#d79a72" stroke="#663244" stroke-width="9"/><path d="M155 101q8-78 83-48 30 12 27 57l-28-29-76 32z" fill="#33251f" stroke="#663244" stroke-width="8"/><path d="M102 270c7-88 48-121 108-121s101 33 108 121" fill="#d95776" stroke="#663244" stroke-width="10"/><path d="M205 203c0-30 44-31 44-2 0 22-29 23-29 43" fill="none" stroke="#fff" stroke-width="12"/><circle cx="220" cy="264" r="7" fill="#fff"/>'),
+  'أمثال':build199CategoryArt('#fff5e8','#dc9840','#65431f','<path d="M75 78q68-28 135 12v165q-67-39-135-10zm270 0q-68-28-135 12v165q67-39 135-10z" fill="#fff" stroke="#805727" stroke-width="10"/><path d="M210 90v165" stroke="#805727" stroke-width="8"/><path d="M111 129h59m-59 30h70m-70 30h48m90-60h59m-70 30h70m-58 30h58" stroke="#e2aa5a" stroke-width="8"/><path d="M121 62c0-22 16-37 38-37v19c-10 0-16 7-16 17h18v35h-40zm138 0c0-22 16-37 38-37v19c-10 0-16 7-16 17h18v35h-40z" fill="#ef6548"/>'),
+  'الكلاسيكو':build199CategoryArt('#f4f6fb','#cb9738','#293b63','<path d="M50 65l115-20v128c0 66-58 98-58 98s-57-32-57-98z" fill="#fff" stroke="#c9a64d" stroke-width="9"/><path d="M67 91h82m-41-27v69" stroke="#31559b" stroke-width="12"/><circle cx="108" cy="174" r="37" fill="none" stroke="#c9a64d" stroke-width="9"/><text x="108" y="184" text-anchor="middle" font-family="Arial" font-size="24" font-weight="900" fill="#31559b">RMCF</text><path d="M255 45l115 20v108c0 66-57 98-57 98s-58-32-58-98z" fill="#f5bd2d" stroke="#83213b" stroke-width="9"/><path d="M265 91h95M277 91v91m24-91v91m24-91v91m24-91v91" stroke="#aa233f" stroke-width="12"/><rect x="266" y="183" width="94" height="48" rx="9" fill="#24529a"/><text x="313" y="216" text-anchor="middle" font-family="Arial" font-size="28" font-weight="900" fill="#f5bd2d">FCB</text><path d="M190 153h40m-20-20v40" stroke="#ef6548" stroke-width="10"/>')
+});
 function categoryVisual(c){
-  if(c==='الكلاسيكو'){
-    return `<span class="locked-clasico"><img src="${CLUB_CRESTS_LOCKED.real}" alt="ريال مدريد"><img src="${CLUB_CRESTS_LOCKED.barca}" alt="برشلونة"></span>`;
-  }
-  const src=CATEGORY_IMAGE_SOURCES[c];
+  const src=BUILD199_CATEGORY_IMAGE_SOURCES[c]||CATEGORY_IMAGE_SOURCES[c];
   if(!src) return '';
   const cls=REALISTIC_CATEGORY_IMAGES.has(c)?'catPhoto':'catAsset';
   return `<img class="${cls}" src="${src}" alt="${c}" loading="eager" referrerpolicy="no-referrer">`;
@@ -2115,7 +2129,7 @@ async function loadBank(){
     const total=categories.reduce((n,c)=>n+bank[c].length,0);
     loadStatus.textContent=`تم تحميل ${categories.length} فئة و ${total} سؤال — البنك مدمج بالكامل داخل الملف`;
     newGameBtn.disabled=false;
-    try{if(typeof renderCats==='function'&&catGrid)renderCats()}catch(e){} if(window.loadStatus)loadStatus.innerHTML += '<br><b style="color:#e65d31">BUILD 198</b>'; 
+    try{if(typeof renderCats==='function'&&catGrid)renderCats()}catch(e){} if(window.loadStatus)loadStatus.innerHTML += '<br><b style="color:#e65d31">BUILD 199</b>'; 
   }catch(e){
     loadStatus.className='error';
     loadStatus.textContent='تعذر تهيئة بنك الأسئلة داخل الملف. أعد تحميل الصفحة. ('+(e&&e.message?e.message:'خطأ غير معروف')+')';
@@ -5236,6 +5250,29 @@ body{background:#f3f1ed!important;color:var(--b196-ink)!important}
 #result>.note{font-size:9px!important;line-height:1.2!important;margin:2px auto 0!important;max-width:760px!important;flex:0 0 auto!important}
 @media (orientation:landscape){#result.screen.active{display:grid!important;grid-template-columns:minmax(0,1.45fr) minmax(280px,.8fr)!important;grid-template-rows:1fr auto auto auto!important;column-gap:12px!important}#result .winner{grid-column:1!important;grid-row:1/5!important}#result .winnerImageWrap{max-height:48dvh!important;width:min(590px,60vw)!important}#result .winnerImageWrap img{max-height:48dvh!important}#result #finalScores,#result #matchStats{width:min(620px,58vw)!important}#result>.btn,#result>.note{grid-column:2!important;width:100%!important}#result>.btn{margin:2px 0!important}}
 @media (orientation:portrait) and (max-height:700px){#result .winnerImageWrap{max-height:30dvh!important}#result .winnerImageWrap img{max-height:30dvh!important}#result #finalScores,#result #matchStats{font-size:11px!important;padding:5px 8px!important}#result>.btn{height:34px!important;min-height:34px!important;flex-basis:34px!important}}
+</style>
+<style id="BUILD199_CATEGORY_FIXES">
+/* Category artwork stays fully visible; Arabic labels always receive the full card width. */
+#catGrid .catIcon img.catAsset{object-fit:contain!important;padding:3px!important}
+#catGrid .catName{display:block!important;width:100%!important;max-width:100%!important;min-width:0!important;text-align:center!important;direction:rtl!important;unicode-bidi:plaintext!important;white-space:normal!important;word-break:keep-all!important;overflow-wrap:normal!important;hyphens:none!important;line-height:1.3!important}
+@media (orientation:landscape){
+ #cats.screen.active{overflow-y:auto!important;padding-bottom:92px!important}
+ #catGrid{grid-template-columns:repeat(5,minmax(0,1fr))!important;gap:10px!important;align-items:stretch!important}
+ #catGrid .cat{min-height:146px!important;height:auto!important;padding:7px 6px 9px!important;display:flex!important;flex-direction:column!important;align-items:center!important;justify-content:flex-start!important;gap:7px!important;text-align:center!important;overflow:visible!important}
+ #catGrid .catIcon{width:min(104px,82%)!important;height:96px!important;flex:0 0 96px!important;border-radius:13px!important}
+ #catGrid .catName{font-size:clamp(13px,1.55vw,18px)!important;min-height:2.6em!important;display:flex!important;align-items:center!important;justify-content:center!important}
+}
+@media (orientation:landscape) and (min-width:1180px){#catGrid{grid-template-columns:repeat(6,minmax(0,1fr))!important}}
+@media (orientation:landscape) and (max-height:430px){
+ #catGrid .cat{min-height:126px!important}
+ #catGrid .catIcon{height:76px!important;flex-basis:76px!important}
+ #catGrid .catName{font-size:12px!important;min-height:2.5em!important}
+}
+@media (orientation:portrait){
+ #catGrid .cat{display:grid!important;grid-template-columns:minmax(0,1fr) 96px!important;gap:10px!important;direction:rtl!important}
+ #catGrid .catIcon{width:96px!important;height:112px!important;grid-column:2!important}
+ #catGrid .catName{grid-column:1!important;font-size:clamp(16px,4.2vw,22px)!important}
+}
 </style>
 
 </body></html>
