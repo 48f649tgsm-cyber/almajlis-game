@@ -1869,7 +1869,7 @@ function build220CompleteWorldMediaBanks(){
   cats['أعلام دول']=canonicalWorldBank(flags,'flag');
   cats['نشيد وطني']=canonicalWorldBank(anthems,'anthem');
 }
-build220CompleteWorldMediaBanks();
+/* BUILD 226: invoked inside loadBank, after INLINE_MASTER_BANK is initialized. */
 const REALISTIC_CATEGORY_IMAGES=new Set(["تاريخ", "تاريخ إسلامي", "قصص القرآن", "قصص الأنبياء", "جغرافيا", "مسيرة لاعب", "من هو اللاعب", "النادي المشترك", "الدوري الإنجليزي", "تشكيلات فرق", "عالم الحيوان", "صحح الخطأ", "خمن الدولة", "السيرة النبوية", "من سجل الهدف", "تاريخ الصحابة", "قطر", "حروف اسلامي", "اغاني عربية", "افلام اجنبية", "مسلسلات عربية"]);
 Object.freeze(CATEGORY_IMAGE_SOURCES);
 // BUILD 199 — self-contained category artwork. These images are embedded so
@@ -2386,6 +2386,7 @@ function applyBuild198Expansion(){
 async function loadBank(){
   if(showMimeRevealFromUrl())return;
   try{
+    build220CompleteWorldMediaBanks();
     const base=INLINE_MASTER_BANK;
     bank={};
     mergeCategories(bank,base.categories);
@@ -6402,5 +6403,14 @@ document.addEventListener('DOMContentLoaded',()=>{
    try{sessionStorage.setItem('almajlis_build_seen','225');sessionStorage.setItem('almajlis_active_build','225')}catch(e){}
  });
 })();
+</script>
+<script id="BUILD226_STARTUP_FIX">
+document.addEventListener('DOMContentLoaded',()=>{
+  document.querySelector('meta[name="almajlis-build"]')?.setAttribute('content','BUILD-226-STARTUP-FIX-20260911');
+  document.querySelector('meta[name="build-number"]')?.setAttribute('content','226');
+  const badge=document.getElementById('buildBadge025');if(badge)badge.textContent='BUILD 226';
+  document.querySelector('#draw .note')?.replaceChildren(document.createTextNode('الإصدار: BUILD 226'));
+  try{sessionStorage.setItem('almajlis_build_seen','226');sessionStorage.setItem('almajlis_active_build','226')}catch(e){}
+});
 </script>
 </body></html>
