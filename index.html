@@ -1,5 +1,5 @@
 <!doctype html>
-<!-- BUILD 212 — COMPLETE SELF-CONTAINED CATEGORY FALLBACKS + CLEAN CARD LAYOUT -->
+<!-- BUILD 213 — LOCKED EMBEDDED CATEGORY IMAGES + BOARD/HEADER RELAYOUT -->
 <!-- BUILD 209 — OPENING SCREEN RECOVERY -->
 <!-- BUILD 195 — SILENT BACKGROUND + EASIER 100-POINT POOL + 8 NEW CATEGORIES -->
 <!-- BUILD 194 — FULLSCREEN FALLBACK + VISIBLE TEAM NAMES + COMPLETE PORTRAIT CAREER + PREMIUM QUESTION TYPOGRAPHY -->
@@ -1575,7 +1575,7 @@ body.majlisFullscreenMode .fullscreenBtn{background:#17120b!important;color:#f3c
 <body>
 
 <script id="QUALITY_025_CACHE_PURGE">
-window.ALMAJLIS_ACTIVE_BUILD='212';
+window.ALMAJLIS_ACTIVE_BUILD='213';
 (async()=>{
   try{
     if('serviceWorker' in navigator){
@@ -1586,12 +1586,12 @@ window.ALMAJLIS_ACTIVE_BUILD='212';
       const keys=await caches.keys();
       for(const k of keys)await caches.delete(k);
     }
-    sessionStorage.setItem('almajlis_build_seen','212');
+    sessionStorage.setItem('almajlis_build_seen','213');
   }catch(e){}
 })();
 </script>
 
-<div id="buildBadge025" style="position:fixed;right:10px;bottom:calc(10px + env(safe-area-inset-bottom));z-index:20000;background:#fff;color:#e65d31;border:1px solid #f0a07f;border-radius:999px;padding:6px 9px;font:700 10px Arial;opacity:.9">BUILD 212</div>
+<div id="buildBadge025" style="position:fixed;right:10px;bottom:calc(10px + env(safe-area-inset-bottom));z-index:20000;background:#fff;color:#e65d31;border:1px solid #f0a07f;border-radius:999px;padding:6px 9px;font:700 10px Arial;opacity:.9">BUILD 213</div>
 <button class="btn fullscreenBtn" type="button" onclick="toggleMajlisFullscreen()">⛶</button><main class="app">
 <section id="home" class="screen active">
   <div class="homeAtmosphere" aria-hidden="true"><i></i><i></i><i></i></div>
@@ -1615,7 +1615,7 @@ window.ALMAJLIS_ACTIVE_BUILD='212';
 </section>
 <section id="teams" class="screen"><h2>أسماء الفريقين</h2><div class="card teamEntryCard"><div class="teamField"><label for="t1">الفريق الأول</label><input id="t1" class="input" placeholder="مثال: الصقور"></div><div class="teamField"><label for="t2">الفريق الثاني</label><input id="t2" class="input" placeholder="مثال: النسور"></div></div><button class="btn gold pregamePrimary" onclick="toCategories()">التالي</button></section>
 <section id="cats" class="screen"><div class="topline"><h2>اختيار الفئات</h2><span id="cc" class="badge">0 / 6</span></div><p class="small">اختر 6 فئات</p><div id="catGrid" class="categories"></div><button id="startBtn" class="btn gold pregamePrimary" disabled onclick="draw()">ابدأ اللعبة</button></section>
-<section id="draw" class="screen"><h2>القرعة</h2><div class="card winner"><div class="trophy">🎲</div><p>الفريق الذي يبدأ هو</p><div id="starter" class="winnerName"></div></div><button class="btn gold" onclick="startGame()">ابدأ المباراة</button><div class="note">الإصدار: BUILD 212</div></section>
+<section id="draw" class="screen"><h2>القرعة</h2><div class="card winner"><div class="trophy">🎲</div><p>الفريق الذي يبدأ هو</p><div id="starter" class="winnerName"></div></div><button class="btn gold" onclick="startGame()">ابدأ المباراة</button><div class="note">الإصدار: BUILD 213</div></section>
 <section id="boardScreen" class="screen"><div class="logo">المجلس</div><div id="matchProgress" class="matchProgress"><span id="progressText">0 / 36</span><div class="progressTrack"><i id="progressFill"></i></div></div><div id="streakBar" class="streakBar"></div><div id="boardTurn" class="card" style="text-align:center;font-size:20px;font-weight:900;border:2px solid var(--gold);padding:12px"></div><div class="scorebar broadcastScorebar"><div id="s2" class="teamScore red"></div><div>⚔️</div><div id="s1" class="teamScore blue"></div></div><div id="board" class="board"></div></section>
 <section id="questionScreen" class="screen"><div class="questionLandscapeBar" aria-label="الفئة ونتيجة الفريقين"><div class="questionLandscapeCategory"><img id="qCatLandscapeImg" alt="" aria-hidden="true"><span id="qCatLandscape"></span><small id="qPtsLandscape"></small></div><div id="qs1" class="teamScore blue questionTeamScore"></div><div id="qs2" class="teamScore red questionTeamScore"></div></div><div class="topline"><span id="qCat" class="badge"></span><span id="qPts" class="badge"></span></div><div id="qPointHero" class="questionPointHero" aria-label="نقاط السؤال"></div><div id="qText" class="question"></div><div class="tvLowerThird"><span id="tvLowerThird">الفئة • النقاط</span></div><div id="qMedia"></div><div id="timer" class="timer">00:30</div><p id="turnText" class="small"></p><div style="text-align:center"><span id="phaseLabel" class="phaseLabel">الفريق الأول — 30 ثانية</span></div><button id="answerBtn" class="btn" onclick="reveal()">👁 إظهار الجواب</button><div id="answerArea" class="hidden"><div class="small">الإجابة الصحيحة</div><div id="answer" class="answer"></div><p class="small">من حصل على النقاط؟</p><button id="give1" class="btn blue" onclick="award(1)"></button><button id="give2" class="btn red" onclick="award(2)"></button><button class="btn" onclick="award(0)">لا أحد</button>
 <div class="questionTools">
@@ -1683,14 +1683,11 @@ const BUILD202_ALL_CATEGORY_IMAGES=Object.freeze({
   'أسماء العواصم':'assets/category-capitals.jpg','شكل الخريطة':'assets/category-map.jpg','AI كروية':'assets/category-ai-football.jpg','اسم اللاعب الأول':'assets/category-first-name.jpg','أمثال':'assets/category-proverbs.jpg'
 });
 function categoryImageSource(c){
-  const external=BUILD202_ALL_CATEGORY_IMAGES[c]||BUILD201_REAL_CATEGORY_IMAGES[c];
   const embedded199=BUILD199_CATEGORY_IMAGE_SOURCES[c];
   const embeddedLocked=CATEGORY_IMAGE_SOURCES[c];
-  // BUILD 212: uploaded assets are preferred; missing files use a clean self-contained fallback.
-  // Embedded legacy artwork is retained only as an offline/error fallback.
-  if(external) return external+'?v=212';
-  if(embedded199&&embedded199.startsWith('data:image')) return embedded199;
+  // BUILD 213: images are locked inside index.html; no external asset can fail or be cached.
   if(embeddedLocked&&embeddedLocked.startsWith('data:image')) return embeddedLocked;
+  if(embedded199&&embedded199.startsWith('data:image')) return embedded199;
   return embedded199||embeddedLocked||'';
 }
 const BUILD212_CATEGORY_EMOJI={
@@ -2177,7 +2174,7 @@ async function loadBank(){
     applyBuild197WorldPools();
     applyBuild198Expansion();
     const build204Data=BUILD205_QUESTION_DATA;
-    if(!build204Data||!build204Data.categories)throw new Error('BUILD 212 embedded question pack is missing');
+    if(!build204Data||!build204Data.categories)throw new Error('BUILD 213 embedded question pack is missing');
     mergeCategories(bank,build204Data.categories);
     // Every Islamic-letters question uses the same visual alphabet board, including legacy stock.
     for(const q of (bank['حروف اسلامي']||[])){
@@ -2211,7 +2208,7 @@ async function loadBank(){
     const total=categories.reduce((n,c)=>n+bank[c].length,0);
     loadStatus.textContent=`تم تحميل ${categories.length} فئة و ${total} سؤال — البنك جاهز بالكامل`;
     newGameBtn.disabled=false;
-    try{if(typeof renderCats==='function'&&catGrid)renderCats()}catch(e){} if(window.loadStatus)loadStatus.innerHTML += '<br><b style="color:#e65d31">BUILD 212</b>'; 
+    try{if(typeof renderCats==='function'&&catGrid)renderCats()}catch(e){} if(window.loadStatus)loadStatus.innerHTML += '<br><b style="color:#e65d31">BUILD 213</b>'; 
   }catch(e){
     loadStatus.className='error';
     loadStatus.textContent='تعذر تهيئة بنك الأسئلة داخل الملف. أعد تحميل الصفحة. ('+(e&&e.message?e.message:'خطأ غير معروف')+')';
@@ -5607,6 +5604,47 @@ button,input{color:#111!important;font-weight:800!important}
 @media (orientation:landscape) and (max-height:430px){
   #catGrid .cat{grid-template-rows:82px auto!important;min-height:132px!important}
   #catGrid .catIcon{min-height:82px!important}
+}
+</style>
+<style id="BUILD213_FINAL_LAYOUT_LOCK">
+/* Category images are complete and captions remain in their own row. */
+#catGrid .catIcon img,#catGrid .catIcon img.catPhoto,#catGrid .catIcon img.catAsset{
+ display:block!important;width:100%!important;height:100%!important;
+ object-fit:contain!important;object-position:center!important;padding:0!important;
+ background:#eaf3f8!important
+}
+#catGrid .catName{position:static!important;transform:none!important;flex:none!important}
+#cats>#startBtn{position:static!important;inset:auto!important;display:block!important;width:min(620px,92%)!important;margin:18px auto 8px!important;z-index:auto!important}
+
+/* The question count/progress indicator is intentionally removed. */
+#boardScreen #matchProgress,#boardScreen #streakBar{display:none!important}
+
+/* Team names and scores always form the first row above the board. */
+#boardScreen.screen.active{display:flex!important;flex-direction:column!important;gap:7px!important}
+#boardScreen .broadcastScorebar{order:0!important;position:static!important;top:auto!important;width:100%!important;max-width:980px!important;min-height:52px!important;margin:0 auto!important;padding:6px 10px!important;display:grid!important;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr)!important;visibility:visible!important;opacity:1!important}
+#boardScreen .broadcastScorebar .teamScore{display:block!important;visibility:visible!important;opacity:1!important;min-width:0!important;font-size:clamp(14px,2vw,22px)!important;white-space:normal!important}
+#boardScreen .logo{order:1!important;margin:0!important;line-height:1!important}
+#boardScreen #boardTurn{order:2!important;margin:0!important;padding:6px 10px!important;min-height:0!important}
+#boardScreen #board.board{order:3!important;align-items:start!important;align-content:start!important;grid-auto-rows:auto!important}
+#boardScreen .categoryBox{height:auto!important;min-height:0!important;display:grid!important;grid-template-rows:auto auto!important;align-self:start!important;padding:5px!important}
+#boardScreen .categoryHead{height:72px!important;min-height:72px!important}
+#boardScreen .points{height:auto!important;min-height:0!important;display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;grid-template-rows:repeat(3,56px)!important;gap:6px!important;margin-top:6px!important;padding:0!important}
+#boardScreen .point{width:100%!important;height:56px!important;min-height:56px!important;margin:0!important;padding:4px 2px!important}
+@media (orientation:landscape){
+ #cats.screen.active{display:flex!important;flex-direction:column!important;overflow-y:auto!important;padding-bottom:12px!important}
+ #catGrid{flex:0 0 auto!important}
+ #cats>#startBtn{flex:0 0 auto!important;margin:16px auto 8px!important}
+ #boardScreen.screen.active{padding:6px max(16px,env(safe-area-inset-left),env(safe-area-inset-right))!important;overflow-y:auto!important}
+ #boardScreen .broadcastScorebar{flex:0 0 auto!important;min-height:46px!important}
+ #boardScreen .logo{font-size:25px!important}
+ #boardScreen #board.board{grid-template-columns:repeat(6,minmax(0,1fr))!important;grid-template-rows:auto!important;flex:0 0 auto!important;overflow:visible!important}
+ #boardScreen .categoryHead{height:66px!important;min-height:66px!important}
+ #boardScreen .points{grid-template-rows:repeat(3,clamp(42px,9vh,60px))!important}
+ #boardScreen .point{height:clamp(42px,9vh,60px)!important;min-height:42px!important}
+}
+@media (orientation:portrait){
+ #boardScreen .broadcastScorebar{position:static!important;order:0!important}
+ #boardScreen #board.board{grid-template-columns:repeat(2,minmax(0,1fr))!important}
 }
 </style>
 </body></html>
