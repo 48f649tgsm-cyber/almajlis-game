@@ -7851,4 +7851,42 @@ document.addEventListener('DOMContentLoaded',()=>{
  if(s2)s2.classList.add('team2');if(s1)s1.classList.add('team1');
 });
 </script>
+<style id="BUILD228_CRITICAL_HEIGHT_FIX">
+#boardScreen.screen.active #boardTurn{
+ display:block!important;
+ flex:0 0 40px!important;
+ width:100%!important;
+ height:40px!important;
+ min-height:40px!important;
+ max-height:40px!important;
+ overflow:hidden!important;
+ line-height:28px!important;
+ box-sizing:border-box!important;
+ order:2!important;
+}
+#boardScreen.screen.active #board{
+ display:grid!important;
+ flex:1 1 0!important;
+ height:auto!important;
+ min-height:0!important;
+ max-height:none!important;
+ overflow:hidden!important;
+ order:5!important;
+}
+#boardScreen.screen.active .broadcastScorebar{
+ flex:0 0 62px!important;
+ height:62px!important;
+ min-height:62px!important;
+ max-height:62px!important;
+ order:20!important;
+}
+#boardScreen.screen.active>.logo{
+ flex:0 0 28px!important;height:28px!important;min-height:28px!important;max-height:28px!important;order:1!important;
+}
+@media(max-height:650px) and (orientation:landscape){
+ #boardScreen.screen.active>.logo{display:none!important;flex-basis:0!important;height:0!important;min-height:0!important}
+ #boardScreen.screen.active #boardTurn{flex-basis:32px!important;height:32px!important;min-height:32px!important;max-height:32px!important;line-height:22px!important}
+ #boardScreen.screen.active .broadcastScorebar{flex-basis:56px!important;height:56px!important;min-height:56px!important;max-height:56px!important}
+}
+</style>
 </body></html>
