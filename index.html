@@ -1607,7 +1607,7 @@ window.ALMAJLIS_ACTIVE_BUILD='214';
     <div class="homeEntranceCard">
       <div class="homeStats" aria-hidden="true"><span><b>٦</b><small>فئات مختارة</small></span><i></i><span><b class="textStat">فريقان متنافسان</b></span><i></i><span><b>٣٦</b><small>سؤالًا</small></span></div>
       <div id="loadStatus" class="card small"><span class="homeLoader" aria-hidden="true"></span><span>جاري تجهيز المجلس...</span></div>
-      <button id="newGameBtn" class="btn gold pregamePrimary" disabled onclick="startNewGame()"><span class="homeBtnText"><small>ابدأ التحدي</small><strong>مجلس جديد</strong></span><b class="homeBtnArrow" aria-hidden="true">←</b></button>
+      <button id="newGameBtn" class="btn gold pregamePrimary" disabled onclick="startNewGame()"><span class="homeBtnText"><strong>لعبة جديدة</strong></span><b class="homeBtnArrow" aria-hidden="true">←</b></button>
     </div>
     <div class="homeFoot"><span></span> اختر فئاتك • كوّن فريقك • ابدأ المنافسة <span></span></div>
   </div>
@@ -1628,7 +1628,7 @@ window.ALMAJLIS_ACTIVE_BUILD='214';
     <button type="button" onclick="reportCurrentQuestion('audio')">🎧 الصوت لا يعمل</button>
   </div>
 </div></div></section>
-<section id="result" class="screen"><div class="winner"><div class="winnerImageWrap"><img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" alt="تتويج الفريق الفائز"><div id="winnerName" class="winnerOverlay"></div></div><div id="finalScores" class="card"></div><div id="matchStats" class="matchStats"></div></div><button id="resultNewGameBtn" class="btn gold resultNewGameBtn" type="button" onclick="startFreshCouncil()">⚔️ ابدأ لعبة جديدة</button></section>
+<section id="result" class="screen"><div class="winner"><div class="winnerImageWrap"><img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" alt="تتويج الفريق الفائز"><div id="winnerName" class="winnerOverlay"></div></div><div id="finalScores" class="card"></div><div id="matchStats" class="matchStats"></div></div><button id="resultNewGameBtn" class="btn gold resultNewGameBtn" type="button" onclick="startFreshCouncil()">لعبة جديدة</button></section>
 <button id="audioTestBtn" class="audioTestBtn" style="font-size:12px!important;background:#fff8df!important;border:2px solid #b9862d!important" type="button" onclick="Promise.resolve().then(()=>{primeHtmlAudio();majlisHtmlTone('points');showGameToast('🔉 اختبار المؤثرات')})">اختبار المؤثرات</button></main>
 <div id="matchIntro" class="matchIntro"><div class="introCard"><div class="introLogo">المجلس</div><div id="introTeams" class="introTeams"></div><div id="introCount" class="introCount">3</div><div class="introHint">استعدوا للمجلس</div><button id="skipIntro" class="introSkip" onclick="finishMatchIntro()">تخطي</button></div></div>
 <div id="transferToast" class="transferToast">فرصة للفريق الثاني</div>
@@ -6242,5 +6242,30 @@ h1,h2,.logo,.winnerName{letter-spacing:-.025em!important}
 </style>
 <script id="BUILD222_RUNTIME">
 document.addEventListener('DOMContentLoaded',()=>{document.querySelector('meta[name="almajlis-build"]')?.setAttribute('content','BUILD-222-VISUAL-IDENTITY-20260911');document.querySelector('meta[name="build-number"]')?.setAttribute('content','222');const b=document.getElementById('buildBadge025');if(b)b.textContent='BUILD 222';try{sessionStorage.setItem('almajlis_build_seen','222');sessionStorage.setItem('almajlis_active_build','222')}catch(e){}});
+</script>
+<style id="BUILD223_FINAL_VISUAL_POLISH">
+/* One visual rhythm in both orientations; only dimensions change. */
+#home #newGameBtn .homeBtnText{display:flex!important;align-items:center!important;justify-content:center!important}
+#home #newGameBtn .homeBtnText strong{font-size:clamp(18px,4.2vw,25px)!important;line-height:1!important}
+#questionScreen.minimalFlag #qMedia{display:flex!important;align-items:center!important;justify-content:center!important;width:100%!important;margin:0 auto!important;transform:none!important}
+#questionScreen.minimalFlag #qMedia .mediaFrame.flagStage{display:flex!important;align-items:center!important;justify-content:center!important;width:100%!important;max-width:none!important;max-height:none!important;margin:0 auto!important;padding:0!important;background:transparent!important;border:0!important;border-radius:0!important;box-shadow:none!important;overflow:visible!important}
+#questionScreen.minimalFlag #qMedia .flagStage img{display:block!important;width:auto!important;height:auto!important;object-fit:contain!important;object-position:center!important;margin:0 auto!important;padding:0!important;border:0!important;border-radius:0!important;background:transparent!important;box-shadow:none!important}
+@media (orientation:portrait){
+ #questionScreen.screen.active{height:100dvh!important;min-height:100dvh!important;overflow-y:auto!important;padding:max(8px,env(safe-area-inset-top)) 10px max(10px,env(safe-area-inset-bottom))!important}
+ #questionScreen.minimalFlag #qText{order:initial!important;margin:4px auto 2px!important;padding:6px 4px!important;font-size:clamp(23px,6vw,32px)!important}
+ #questionScreen.minimalFlag #qMedia{min-height:25dvh!important;max-height:38dvh!important}
+ #questionScreen.minimalFlag #qMedia .flagStage img{max-width:88vw!important;max-height:36dvh!important}
+ #boardScreen .broadcastScorebar{width:100%!important}
+ #boardScreen #board.board{grid-template-columns:repeat(2,minmax(0,1fr))!important;overflow-y:auto!important}
+}
+@media (orientation:landscape){
+ #questionScreen.screen.active{height:100dvh!important;min-height:100dvh!important;overflow:hidden!important;padding:max(5px,env(safe-area-inset-top)) max(10px,env(safe-area-inset-right)) max(5px,env(safe-area-inset-bottom)) max(10px,env(safe-area-inset-left))!important}
+ #questionScreen.minimalFlag #qText{margin:0 auto!important;padding:3px!important;font-size:clamp(20px,3.5vh,30px)!important}
+ #questionScreen.minimalFlag #qMedia{min-height:24dvh!important;max-height:43dvh!important}
+ #questionScreen.minimalFlag #qMedia .flagStage img{max-width:min(62vw,680px)!important;max-height:41dvh!important}
+}
+</style>
+<script id="BUILD223_RUNTIME">
+document.addEventListener('DOMContentLoaded',()=>{document.querySelector('meta[name="almajlis-build"]')?.setAttribute('content','BUILD-223-FINAL-VISUAL-POLISH-20260911');document.querySelector('meta[name="build-number"]')?.setAttribute('content','223');const b=document.getElementById('buildBadge025');if(b)b.textContent='BUILD 223';try{sessionStorage.setItem('almajlis_build_seen','223');sessionStorage.setItem('almajlis_active_build','223')}catch(e){}});
 </script>
 </body></html>
