@@ -7800,4 +7800,55 @@ document.addEventListener('DOMContentLoaded',()=>{
  const badge=document.getElementById('buildBadge025');if(badge)badge.textContent='BUILD 228';
 });
 </script>
+<style id="BUILD228_BOARD_CORRECTION">
+#boardScreen.screen.active{
+ display:flex!important;flex-direction:column!important;
+ grid-template-columns:none!important;grid-template-rows:none!important;
+ background:linear-gradient(180deg,#f8f7f3 0%,#eef4f5 100%)!important;
+}
+#boardScreen.screen.active #board{order:5!important}
+#boardScreen.screen.active .broadcastScorebar{
+ order:20!important;position:static!important;inset:auto!important;
+ display:grid!important;grid-template-columns:1fr 42px 1fr!important;
+ width:min(920px,96%)!important;margin:7px auto 2px!important;
+ padding:0!important;background:transparent!important;border:0!important;box-shadow:none!important;
+}
+#boardScreen .broadcastScorebar>div:nth-child(2){grid-column:2;grid-row:1;place-self:center;font-size:23px}
+#boardScreen .scoreAdjust228{direction:ltr!important;display:grid!important;grid-template-columns:44px minmax(130px,1fr) 44px!important;gap:7px!important;align-items:end!important}
+#boardScreen .scoreAdjust228.team2{grid-column:1;grid-row:1}
+#boardScreen .scoreAdjust228.team1{grid-column:3;grid-row:1}
+#boardScreen .scoreAdjust228 .teamScore{
+ direction:rtl!important;display:flex!important;flex-direction:column!important;justify-content:center!important;gap:0!important;
+ min-height:58px!important;padding:4px 10px!important;border-radius:13px!important;background:#fff!important;
+ color:#18232b!important;border:2px solid #f19b80!important;box-shadow:0 5px 14px #0001!important;
+}
+#boardScreen .scoreAdjust228 .scoreTeamName{display:block!important;width:100%!important;color:#33434d!important;font-size:14px!important;font-weight:900!important;line-height:1.1!important;text-align:center!important}
+#boardScreen .scoreAdjust228 .scoreNumber{display:block!important;color:#151515!important;font-size:26px!important;font-weight:1000!important;line-height:1.05!important;text-align:center!important}
+#boardScreen .scoreStep228{direction:ltr!important;align-self:end!important;margin-bottom:7px!important;background:#fff!important;color:#18232b!important;border:2px solid #ef8e70!important}
+#boardScreen #board .categoryBox{background:#fff!important;border:2px solid #f0a287!important;box-shadow:0 5px 16px #27323a18!important}
+#boardScreen #board .categoryHead h3{background:#ee7551!important;color:#fff!important}
+#boardScreen #board .point,#boardScreen #board .point:nth-child(n+5){
+ background:#fff!important;color:#43515a!important;border:1px solid #d7dde0!important;
+ box-shadow:inset 0 -2px 0 #e7eaec!important;
+}
+#boardScreen #board .point:hover{background:#fff3ed!important;color:#d65f3e!important}
+@media(orientation:landscape){
+ #boardScreen.screen.active{height:100dvh!important;overflow:hidden!important}
+ #boardScreen.screen.active #board{flex:1 1 auto!important;min-height:0!important}
+ #boardScreen.screen.active .broadcastScorebar{height:62px!important;min-height:62px!important}
+}
+@media(max-height:560px) and (orientation:landscape){
+ #boardScreen>.logo{display:none!important}
+ #boardTurn{min-height:28px!important}
+ #boardScreen.screen.active .broadcastScorebar{height:56px!important;min-height:56px!important}
+ #boardScreen .scoreAdjust228 .teamScore{min-height:52px!important}
+}
+</style>
+<script id="BUILD228_BOARD_CORRECTION_JS">
+document.addEventListener('DOMContentLoaded',()=>{
+ const s2=document.getElementById('s2')?.closest('.scoreAdjust228');
+ const s1=document.getElementById('s1')?.closest('.scoreAdjust228');
+ if(s2)s2.classList.add('team2');if(s1)s1.classList.add('team1');
+});
+</script>
 </body></html>
