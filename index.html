@@ -6358,4 +6358,49 @@ document.addEventListener('DOMContentLoaded',()=>{
 });
 })();
 </script>
+<style id="BUILD225_ISLAMIC_LETTERS_SIMULATION">
+/* The approved Islamic-letters presentation: alphabet first, prompt second. */
+#questionScreen.letterMode225 #qMedia{width:min(760px,100%)!important;max-width:760px!important;max-height:none!important;overflow:visible!important;margin:4px auto 8px!important}
+#questionScreen.letterMode225 .letterGrid{direction:rtl!important;display:grid!important;grid-template-columns:repeat(7,minmax(0,1fr))!important;gap:clamp(5px,1vw,9px)!important;width:100%!important;margin:0 auto!important;padding:clamp(8px,1.5vw,15px)!important;border-radius:22px!important;background:#fff8f1!important;border:1px solid #f0c8b6!important;box-shadow:0 12px 30px rgba(91,53,21,.10)!important}
+#questionScreen.letterMode225 .letterCell{aspect-ratio:1!important;min-height:40px!important;display:grid!important;place-items:center!important;border-radius:12px!important;background:#edf5f8!important;border:1px solid #c9d7de!important;color:#172733!important;font-size:clamp(21px,4vw,39px)!important;font-weight:1000!important;line-height:1!important;transition:transform .2s ease,box-shadow .2s ease!important}
+#questionScreen.letterMode225 .letterCell.active{background:linear-gradient(135deg,#f36b3f,#ff925e)!important;color:#fff!important;border-color:#bd4c23!important;outline:3px solid #ffd07b!important;box-shadow:0 0 0 6px #fff,0 10px 22px rgba(200,88,52,.32)!important;transform:scale(1.07)!important;z-index:2!important}
+#questionScreen.letterMode225 #qText.question{width:min(760px,100%)!important;max-width:760px!important;min-height:0!important;margin:0 auto 7px!important;padding:clamp(12px,2vw,20px)!important;border-radius:18px!important;text-align:center!important;font-size:clamp(21px,4vw,33px)!important;line-height:1.55!important}
+#questionScreen.letterMode225 #answerArea{width:min(760px,100%)!important;margin-inline:auto!important}
+#questionScreen.letterMode225 #answer{font-size:clamp(24px,5vw,38px)!important}
+@media (orientation:portrait) and (max-width:600px){
+ #questionScreen.letterMode225 #qMedia{margin-top:2px!important}
+ #questionScreen.letterMode225 .letterGrid{gap:4px!important;padding:7px!important;border-radius:17px!important}
+ #questionScreen.letterMode225 .letterCell{min-height:34px!important;border-radius:8px!important;font-size:clamp(19px,6.7vw,28px)!important}
+ #questionScreen.letterMode225 #qText.question{font-size:clamp(19px,5vw,27px)!important;padding:11px!important}
+}
+@media (orientation:landscape){
+ #questionScreen.letterMode225 #qMedia{grid-column:1!important;grid-row:2!important;align-self:center!important;max-width:min(720px,70vw)!important;margin:0 auto 4px!important}
+ #questionScreen.letterMode225 #qText.question{grid-column:1!important;grid-row:3!important;max-width:min(820px,74vw)!important;font-size:clamp(17px,3.2vh,27px)!important;line-height:1.35!important;padding:8px 13px!important}
+ #questionScreen.letterMode225 .letterGrid{gap:4px!important;padding:6px!important;border-radius:15px!important}
+ #questionScreen.letterMode225 .letterCell{min-height:29px!important;border-radius:7px!important;font-size:clamp(17px,4.7vh,29px)!important}
+}
+</style>
+<script id="BUILD225_ISLAMIC_LETTERS_RUNTIME">
+(function(){
+ const previousOpen225=window.openQuestion;
+ window.openQuestion=async function(cat,pts,btn){
+   const result=await previousOpen225.apply(this,arguments);
+   const screen=document.getElementById('questionScreen');
+   const text=document.getElementById('qText'),media=document.getElementById('qMedia');
+   const lower=document.querySelector('#questionScreen .tvLowerThird');
+   const isLetters=cat==='حروف اسلامي'||cat==='حروف إسلامي';
+   screen?.classList.toggle('letterMode225',isLetters);
+   if(isLetters&&text&&media)text.parentNode.insertBefore(media,text);
+   else if(lower&&media)lower.parentNode.insertBefore(media,lower.nextSibling);
+   return result;
+ };
+ document.addEventListener('DOMContentLoaded',()=>{
+   document.querySelector('meta[name="almajlis-build"]')?.setAttribute('content','BUILD-225-ISLAMIC-LETTERS-20260911');
+   document.querySelector('meta[name="build-number"]')?.setAttribute('content','225');
+   const badge=document.getElementById('buildBadge025');if(badge)badge.textContent='BUILD 225';
+   document.querySelector('#draw .note')?.replaceChildren(document.createTextNode('الإصدار: BUILD 225'));
+   try{sessionStorage.setItem('almajlis_build_seen','225');sessionStorage.setItem('almajlis_active_build','225')}catch(e){}
+ });
+})();
+</script>
 </body></html>
