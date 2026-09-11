@@ -6268,4 +6268,94 @@ document.addEventListener('DOMContentLoaded',()=>{document.querySelector('meta[n
 <script id="BUILD223_RUNTIME">
 document.addEventListener('DOMContentLoaded',()=>{document.querySelector('meta[name="almajlis-build"]')?.setAttribute('content','BUILD-223-FINAL-VISUAL-POLISH-20260911');document.querySelector('meta[name="build-number"]')?.setAttribute('content','223');const b=document.getElementById('buildBadge025');if(b)b.textContent='BUILD 223';try{sessionStorage.setItem('almajlis_build_seen','223');sessionStorage.setItem('almajlis_active_build','223')}catch(e){}});
 </script>
+<style id="BUILD224_GAME_SYSTEMS">
+:root{--team-active-ring:0 0 0 4px rgba(245,195,83,.34),0 12px 30px rgba(23,39,51,.18)}
+body{user-select:none;-webkit-user-select:none;-webkit-tap-highlight-color:transparent;touch-action:manipulation}
+input,textarea{user-select:text;-webkit-user-select:text}
+.teamScore.activeTurn{box-shadow:var(--team-active-ring)!important;transform:translateY(-2px)}
+.scoreDelta224{position:fixed;z-index:99999;font-size:clamp(30px,7vw,64px);font-weight:1000;color:#138a52;text-shadow:0 3px 12px #fff;animation:delta224 .9s ease forwards;pointer-events:none}
+@keyframes delta224{0%{opacity:0;transform:translateY(18px) scale(.7)}30%{opacity:1;transform:translateY(0) scale(1.08)}100%{opacity:0;transform:translateY(-34px)}}
+.hostTools224{position:fixed;left:max(8px,env(safe-area-inset-left));bottom:max(8px,env(safe-area-inset-bottom));z-index:8500;display:none;gap:6px}
+body.matchActive224 .hostTools224{display:flex}
+.hostTools224 button{width:46px;height:46px;border-radius:50%;border:1px solid #d7c38e;background:#fff;color:#172733;box-shadow:0 6px 18px #0002;font-size:18px;font-weight:900}
+.resume224,.confirm224,.audit224{position:fixed;inset:0;z-index:99998;display:none;place-items:center;padding:18px;background:#10202dcc;backdrop-filter:blur(8px)}
+.resume224.show,.confirm224.show,.audit224.show{display:grid}
+.dialog224{width:min(620px,94vw);max-height:88dvh;overflow:auto;background:#fff;border-radius:24px;padding:22px;color:#172733;box-shadow:0 25px 80px #0006;text-align:center}
+.dialog224 h2{margin:0 0 10px}.dialog224 .btn{margin:5px}
+.mediaZoom224{position:fixed;inset:0;z-index:99997;display:none;place-items:center;background:#07111aef;padding:max(14px,env(safe-area-inset-top)) max(14px,env(safe-area-inset-right)) max(14px,env(safe-area-inset-bottom)) max(14px,env(safe-area-inset-left))}
+.mediaZoom224.show{display:grid}.mediaZoom224 img{max-width:96vw;max-height:90dvh;object-fit:contain;border:0;border-radius:0;box-shadow:none}
+.mediaZoom224 button{position:absolute;top:max(10px,env(safe-area-inset-top));right:max(10px,env(safe-area-inset-right));width:46px;height:46px;border-radius:50%;border:0;background:#fff;color:#111;font-size:22px}
+#questionScreen #qMedia img{cursor:zoom-in}
+.paused224 #timer{animation:none!important;filter:grayscale(1)}
+.stockLow224:after{content:"المخزون منخفض";display:block;font-size:9px;color:#a92f3b;font-weight:900}
+@media (orientation:landscape){.hostTools224{flex-direction:column}.dialog224{padding:14px}}
+</style>
+<div id="hostTools224" class="hostTools224" aria-label="أدوات مقدم اللعبة">
+ <button type="button" id="pause224" aria-label="إيقاف المؤقت مؤقتًا">Ⅱ</button>
+ <button type="button" id="undo224" aria-label="التراجع عن آخر نقاط">↶</button>
+ <button type="button" id="auditBtn224" aria-label="فحص اللعبة">✓</button>
+</div>
+<div id="resume224" class="resume224"><div class="dialog224"><h2>توجد مباراة محفوظة</h2><p id="resumeText224"></p><button class="btn gold" id="resumeYes224">متابعة المباراة</button><button class="btn" id="resumeNo224">لعبة جديدة</button></div></div>
+<div id="confirm224" class="confirm224"><div class="dialog224"><h2>بدء لعبة جديدة؟</h2><p>سيتم إنهاء المباراة الحالية، مع الاحتفاظ بسجل الأسئلة المستخدمة.</p><button class="btn red" id="confirmYes224">ابدأ لعبة جديدة</button><button class="btn" id="confirmNo224">إلغاء</button></div></div>
+<div id="audit224" class="audit224"><div class="dialog224"><h2>فحص اللعبة</h2><div id="auditResult224"></div><button class="btn" id="auditClose224">إغلاق</button></div></div>
+<div id="mediaZoom224" class="mediaZoom224"><button type="button" aria-label="إغلاق">✕</button><img alt="عرض مكبر"></div>
+<script id="BUILD224_GAME_SYSTEMS">
+(function(){
+'use strict';
+const SAVE='almajlis_match_build224',safeParse=v=>{try{return JSON.parse(v)}catch(e){return null}};
+let paused=false,lastAward=null,decisionBusy=false;
+function activeScreen(){return document.querySelector('.screen.active')?.id||''}
+function snapshot(){
+ if(typeof team1==='undefined'||typeof team2==='undefined'||typeof selected==='undefined'||!Array.isArray(selected)||!selected.length)return;
+ const usedButtons=[...document.querySelectorAll('#board .point')].map((b,i)=>({i,used:b.dataset.used,html:b.innerHTML,qid:b.dataset.questionId||''}));
+ const data={v:224,team1,team2,score1,score2,selected,currentTurn,usedCount,gameQuestions,usedButtons,screen:activeScreen(),at:Date.now()};
+ try{localStorage.setItem(SAVE,JSON.stringify(data))}catch(e){}
+}
+function clearSave(){try{localStorage.removeItem(SAVE)}catch(e){}}
+function restore(d){
+ team1=d.team1;team2=d.team2;score1=+d.score1||0;score2=+d.score2||0;selected=d.selected||[];currentTurn=d.currentTurn||1;usedCount=d.usedCount||0;gameQuestions=d.gameQuestions||{};
+ try{t1.value=team1;t2.value=team2}catch(e){}
+ renderBoard();(d.usedButtons||[]).forEach(x=>{const b=document.querySelectorAll('#board .point')[x.i];if(b){b.dataset.used=x.used;b.innerHTML=x.html;if(x.qid)b.dataset.questionId=x.qid;b.classList.toggle('used',x.used==='1')}});
+ updateScores();updateTurnBanner();show('boardScreen');setTeamGlow224();snapshot();
+}
+function setTeamGlow224(){
+ document.body.classList.toggle('matchActive224',['boardScreen','questionScreen'].includes(activeScreen()));
+ const one=currentTurn===1;document.querySelectorAll('#s1,#qs1').forEach(x=>x?.classList.toggle('activeTurn',one));document.querySelectorAll('#s2,#qs2').forEach(x=>x?.classList.toggle('activeTurn',!one));
+}
+function delta(n,pts){const target=document.getElementById(n===1?'s1':'s2'),r=target?.getBoundingClientRect();if(!r)return;const x=document.createElement('div');x.className='scoreDelta224';x.textContent='+'+pts;x.style.left=(r.left+r.width/2)+'px';x.style.top=(r.top+r.height/2)+'px';document.body.appendChild(x);setTimeout(()=>x.remove(),950)}
+const oldAward=window.award;window.award=function(n){
+ if(decisionBusy)return;decisionBusy=true;setTimeout(()=>decisionBusy=false,700);
+ lastAward={score1,score2,usedCount,currentTurn,btn:current?.btn||null,html:current?.btn?.innerHTML||'',q:current?.q||null};
+ if(n===1||n===2)delta(n,Number(current?.pts||0));const out=oldAward.apply(this,arguments);setTimeout(()=>{setTeamGlow224();snapshot()},0);return out
+};
+document.getElementById('undo224').onclick=()=>{
+ if(!lastAward)return showGameToast('لا توجد عملية نقاط حديثة للتراجع');
+ score1=lastAward.score1;score2=lastAward.score2;usedCount=lastAward.usedCount;currentTurn=lastAward.currentTurn;
+ if(lastAward.btn){lastAward.btn.dataset.used='0';lastAward.btn.className='point';lastAward.btn.innerHTML=lastAward.html}
+ if(lastAward.q?.id)usedIds.delete(lastAward.q.id);updateScores();updateTurnBanner();setTeamGlow224();snapshot();lastAward=null;showGameToast('تم التراجع عن آخر احتساب');
+};
+document.getElementById('pause224').onclick=e=>{
+ paused=!paused;document.body.classList.toggle('paused224',paused);e.currentTarget.textContent=paused?'▶':'Ⅱ';
+ if(paused){clearInterval(timerId);showGameToast('تم إيقاف المؤقت مؤقتًا')}else if(activeScreen()==='questionScreen'){runTimer();showGameToast('تم استكمال المؤقت')}
+};
+const zoom=document.getElementById('mediaZoom224');document.addEventListener('click',e=>{const img=e.target.closest('#questionScreen #qMedia img');if(!img)return;zoom.querySelector('img').src=img.currentSrc||img.src;zoom.classList.add('show')});zoom.onclick=e=>{if(e.target===zoom||e.target.tagName==='BUTTON')zoom.classList.remove('show')};
+document.addEventListener('play',e=>{if(e.target.tagName==='AUDIO'&&e.target.closest('#qMedia')){const a=e.target;if(!a.previousElementSibling?.classList?.contains('replay224')){const b=document.createElement('button');b.type='button';b.className='btn replay224';b.textContent='إعادة المقطع';b.onclick=()=>{a.currentTime=0;a.play()};a.insertAdjacentElement('afterend',b)}}},true);
+ const oldShow=window.show;window.show=function(){const out=oldShow.apply(this,arguments);setTimeout(setTeamGlow224,0);return out};
+ const oldOpen=window.openQuestion;window.openQuestion=async function(){const out=await oldOpen.apply(this,arguments);setTeamGlow224();snapshot();return out};
+const oldFresh=window.startFreshCouncil;window.startFreshCouncil=function(force){if(!force&&localStorage.getItem(SAVE)){document.getElementById('confirm224').classList.add('show');return}clearSave();return oldFresh.apply(this,arguments)};
+document.getElementById('confirmYes224').onclick=()=>{document.getElementById('confirm224').classList.remove('show');window.startFreshCouncil(true)};document.getElementById('confirmNo224').onclick=()=>document.getElementById('confirm224').classList.remove('show');
+function audit(){
+ let total=0,bad=0,dup=0,media=0;const ids=new Set(),texts=new Set();
+ Object.entries(bank||{}).forEach(([cat,arr])=>(arr||[]).forEach(q=>{total++;const t=String(q.question||'').trim().toLowerCase();if(!q.id||!t||!q.answer||![100,300,500].includes(q.points))bad++;if(ids.has(q.id)||texts.has(t))dup++;ids.add(q.id);texts.add(t);if(q.media&&['image','audio'].includes(q.media.type)&&!q.media.src)media++}));
+ document.getElementById('auditResult224').innerHTML='<p>إجمالي الأسئلة: <b>'+total+'</b></p><p>بيانات ناقصة: <b>'+bad+'</b></p><p>تكرار مباشر: <b>'+dup+'</b></p><p>وسائط بلا مصدر: <b>'+media+'</b></p><p>الإصدار: <b>BUILD 224</b></p>';document.getElementById('audit224').classList.add('show')
+}
+document.getElementById('auditBtn224').onclick=audit;document.getElementById('auditClose224').onclick=()=>document.getElementById('audit224').classList.remove('show');
+window.addEventListener('pagehide',snapshot);document.addEventListener('visibilitychange',()=>{if(document.hidden)snapshot()});
+document.addEventListener('DOMContentLoaded',()=>{
+ document.querySelector('meta[name="almajlis-build"]')?.setAttribute('content','BUILD-224-GAME-SYSTEMS-20260911');document.querySelector('meta[name="build-number"]')?.setAttribute('content','224');const b=document.getElementById('buildBadge025');if(b)b.textContent='BUILD 224';
+ try{sessionStorage.setItem('almajlis_build_seen','224');sessionStorage.setItem('almajlis_active_build','224')}catch(e){}
+ setTimeout(()=>{const d=safeParse(localStorage.getItem(SAVE));if(d&&d.v===224&&d.selected?.length===6){document.getElementById('resumeText224').textContent=d.team1+' '+d.score1+' — '+d.score2+' '+d.team2;document.getElementById('resume224').classList.add('show');document.getElementById('resumeYes224').onclick=()=>{document.getElementById('resume224').classList.remove('show');restore(d)};document.getElementById('resumeNo224').onclick=()=>{clearSave();document.getElementById('resume224').classList.remove('show')}}},500);
+});
+})();
+</script>
 </body></html>
