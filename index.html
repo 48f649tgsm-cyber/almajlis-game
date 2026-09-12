@@ -7846,4 +7846,81 @@ module.exports = QRCode;
   });
 })();
 </script>
+<style id="VERSION_1_1_QUESTION_BACK_STYLE">
+#questionScreen{position:relative;padding-top:66px!important}
+.questionBackBoardBtn{position:absolute;top:10px;left:72px;z-index:80;display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:9px 17px;border:1px solid rgba(183,125,32,.38);border-radius:14px;background:linear-gradient(135deg,#fffdf8,#f7ead2);color:#17364a;font-family:inherit;font-size:15px;font-weight:900;box-shadow:0 7px 20px rgba(20,43,59,.14);cursor:pointer;-webkit-tap-highlight-color:transparent}
+.questionBackBoardBtn .backArrow{font:900 22px/1 Arial;transform:translateY(-1px)}
+.questionBackBoardBtn:active{transform:scale(.97)}
+.questionMenuBtn{position:absolute;top:10px;left:12px;z-index:82;width:48px;height:44px;border:1px solid rgba(183,125,32,.38);border-radius:14px;background:#fffdf8;color:#17364a;font:900 25px/1 Arial;box-shadow:0 7px 20px rgba(20,43,59,.14);cursor:pointer}
+.questionMenuPanel{position:absolute;top:61px;left:12px;z-index:90;display:none;width:210px;padding:7px;border:1px solid #ead8b7;border-radius:15px;background:#fff;box-shadow:0 15px 38px rgba(20,43,59,.22);overflow:hidden}
+.questionMenuPanel.show{display:grid}
+.questionMenuPanel button{min-height:48px;padding:10px 14px;border:0;border-bottom:1px solid #eee7dc;background:#fff;color:#182c39;font-family:inherit;font-size:16px;font-weight:800;text-align:right;cursor:pointer}
+.questionMenuPanel button:last-child{border-bottom:0;color:#b63434}
+.questionResultOverlay{position:fixed;inset:0;z-index:99990;display:none;place-items:center;padding:20px;background:rgba(16,32,45,.72);backdrop-filter:blur(7px)}
+.questionResultOverlay.show{display:grid}
+.questionResultCard{width:min(420px,94vw);padding:22px;border-radius:24px;background:#fff;box-shadow:0 22px 60px rgba(0,0,0,.28);text-align:center}
+.questionResultCard h2{margin:0 0 16px;color:#17364a;font-size:27px}
+.questionResultTeams{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:16px}
+.questionResultTeam{padding:16px 8px;border-radius:17px;background:#edf5ff;color:#123c58;font-weight:900}.questionResultTeam.red{background:#fff0f1;color:#a82939}.questionResultTeam b{display:block;margin-top:7px;font:900 32px/1 Arial}
+.questionResultClose{width:100%;min-height:46px;border:0;border-radius:13px;background:#b77d20;color:#fff;font-family:inherit;font-size:16px;font-weight:900}
+@media(orientation:landscape) and (max-height:600px){#questionScreen{padding-top:50px!important}.questionBackBoardBtn{top:5px;left:64px;min-height:38px;padding:6px 13px;border-radius:11px;font-size:13px}.questionBackBoardBtn .backArrow{font-size:18px}.questionMenuBtn{top:5px;left:9px;width:44px;height:38px;border-radius:11px;font-size:22px}.questionMenuPanel{top:48px;left:9px}}
+</style>
+<script id="VERSION_1_1_QUESTION_BACK_RUNTIME">
+(function(){
+  window.returnToQuestionBoard=function(){
+    try{clearInterval(timerId)}catch(e){}
+    try{clearInterval(tieTimerId)}catch(e){}
+    try{document.getElementById('countdownEdge')?.classList.remove('pulse')}catch(e){}
+    try{endFocusMode()}catch(e){}
+    try{stopActionMusic();stopBroadcastMusic()}catch(e){}
+    try{
+      if(current?.q&&current?.cat&&current?.pts&&gameQuestions?.[current.cat]?.[current.pts]){
+        const pool=gameQuestions[current.cat][current.pts];
+        if(!pool.some(item=>item?.id===current.q.id))pool.unshift(current.q);
+      }
+    }catch(e){}
+    try{
+      if(current?.btn){
+        current.btn.dataset.used='0';
+        current.btn.dataset.loading='0';
+        current.btn.disabled=false;
+        current.btn.classList.remove('used','launching','won0','won1','won2');
+        current.btn.textContent=current.pts;
+      }
+    }catch(e){}
+    document.getElementById('questionGameMenu')?.classList.remove('show');
+    current=null;
+    try{updateTurnBanner()}catch(e){}
+    show('boardScreen');
+    setTimeout(()=>{try{ensureAmbientMusic()}catch(e){}},80);
+  };
+  window.toggleQuestionGameMenu=function(){document.getElementById('questionGameMenu')?.classList.toggle('show')};
+  window.showQuestionResult=function(){
+    document.getElementById('questionGameMenu')?.classList.remove('show');
+    const n1=document.getElementById('questionResultName1'),n2=document.getElementById('questionResultName2'),p1=document.getElementById('questionResultScore1'),p2=document.getElementById('questionResultScore2');
+    if(n1)n1.textContent=team1||'الفريق الأول';if(n2)n2.textContent=team2||'الفريق الثاني';if(p1)p1.textContent=score1||0;if(p2)p2.textContent=score2||0;
+    document.getElementById('questionResultOverlay')?.classList.add('show');
+  };
+  window.exitCurrentGame=function(){
+    try{clearInterval(timerId);clearInterval(tieTimerId);stopActionMusic();stopBroadcastMusic();endFocusMode()}catch(e){}
+    try{localStorage.removeItem('almajlis_match_build224')}catch(e){}
+    current=null;selected=[];score1=0;score2=0;usedCount=0;gameQuestions={};
+    document.getElementById('questionGameMenu')?.classList.remove('show');
+    try{resetGameLocks()}catch(e){}
+    try{renderCats()}catch(e){}
+    show('cats');
+    setTimeout(()=>{try{ensureAmbientMusic()}catch(e){}},80);
+  };
+  document.addEventListener('DOMContentLoaded',()=>{
+    document.querySelector('meta[name="almajlis-build"]')?.setAttribute('content','Version 1.2');
+    document.querySelector('meta[name="build-number"]')?.setAttribute('content','1.2');
+    document.querySelector('.appVersion10')?.replaceChildren(document.createTextNode('Version 1.2'));
+    const screen=document.getElementById('questionScreen');
+    if(screen&&!document.getElementById('questionBackBoardBtn'))screen.insertAdjacentHTML('afterbegin','<button id="questionMenuBtn" class="questionMenuBtn" type="button" onclick="toggleQuestionGameMenu()" aria-label="قائمة المباراة">☰</button><button id="questionBackBoardBtn" class="questionBackBoardBtn" type="button" onclick="returnToQuestionBoard()" aria-label="الرجوع إلى لوحة الفئات والنقاط"><span class="backArrow" aria-hidden="true">←</span><span>الرجوع إلى اللوحة</span></button><div id="questionGameMenu" class="questionMenuPanel"><button type="button" onclick="showQuestionResult()">النتيجة</button><button type="button" onclick="returnToQuestionBoard()">الرجوع إلى اللوحة</button><button type="button" onclick="exitCurrentGame()">خروج</button></div>');
+    if(!document.getElementById('questionResultOverlay'))document.body.insertAdjacentHTML('beforeend','<div id="questionResultOverlay" class="questionResultOverlay" role="dialog" aria-modal="true" aria-label="النتيجة"><div class="questionResultCard"><h2>النتيجة</h2><div class="questionResultTeams"><div class="questionResultTeam"><span id="questionResultName1">الفريق الأول</span><b id="questionResultScore1">0</b></div><div class="questionResultTeam red"><span id="questionResultName2">الفريق الثاني</span><b id="questionResultScore2">0</b></div></div><button class="questionResultClose" type="button" onclick="document.getElementById(\'questionResultOverlay\').classList.remove(\'show\')">إغلاق</button></div></div>');
+    document.addEventListener('click',e=>{const panel=document.getElementById('questionGameMenu');if(panel?.classList.contains('show')&&!e.target.closest('#questionGameMenu,#questionMenuBtn'))panel.classList.remove('show')});
+    try{sessionStorage.setItem('almajlis_version','1.2')}catch(e){}
+  });
+})();
+</script>
 </body></html>
